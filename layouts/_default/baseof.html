@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+    </title>
+    <link rel="stylesheet" href="{{ "/style.css" | relURL }}" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel="icon" type="image/jpeg" href="{{ "/assets/favicon.jpg" | relURL }}" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <button id="theme-toggle">☀️</button>
+    </nav>
+
+    {{ block "main" . }}{{ end }}
+
+    <footer>
+      <p>&copy; 2026 Dimas Suryo</p>
+    </footer>
+
+    <script src="{{ "/script.js" | relURL }}"></script>
+  </body>
+</html>
