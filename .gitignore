@@ -1,0 +1,16 @@
+# Hugo build output (auto-generated)
+public/
+resources/_gen/
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.old

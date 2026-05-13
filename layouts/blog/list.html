@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main>
+  <section id="blog-list">
+    <h1>Blog</h1>
+    <ul class="blog-cards">
+      {{ range .Pages.ByDate.Reverse }}
+      <li class="blog-card">
+        <a href="{{ .RelPermalink }}">
+          <h2>{{ .Title }}</h2>
+          <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+          <p class="summary">{{ .Summary }}</p>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+{{ end }}

@@ -183,3 +183,133 @@ footer {
   color: var(--text-color);
   background-color: var(--footer-bg);
 }
+/* === Blog cards (list page) === */
+.blog-cards {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-card {
+  border: 1px solid var(--nav-border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--link-color);
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: var(--text-color);
+  display: block;
+}
+
+.blog-card a:hover {
+  text-decoration: none;
+}
+
+.blog-card h2 {
+  font-size: 1.3em;
+  margin-bottom: 6px;
+  color: var(--link-color);
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.blog-card .date {
+  font-size: 0.85em;
+  opacity: 0.65;
+  margin-bottom: 12px;
+}
+
+.blog-card .summary {
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+/* === Single blog post === */
+.blog-post header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--nav-border);
+  display: block;
+  text-align: left;
+}
+
+.blog-post header h1 {
+  font-size: 2em;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.blog-post header .date {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+.blog-post .content {
+  font-size: 1.05em;
+  line-height: 1.75;
+}
+
+.blog-post .content h2 {
+  font-size: 1.4em;
+  margin-top: 32px;
+  margin-bottom: 14px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.blog-post .content h3 {
+  font-size: 1.2em;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+/* Bring back bullet/number lists inside blog post content */
+.blog-post .content ul,
+.blog-post .content ol {
+  padding-left: 30px;
+  margin-bottom: 18px;
+}
+
+.blog-post .content ul li {
+  list-style: disc;
+}
+
+.blog-post .content ol li {
+  list-style: decimal;
+}
+
+.blog-post .content blockquote {
+  border-left: 3px solid var(--link-color);
+  padding-left: 20px;
+  margin: 24px 0;
+  opacity: 0.85;
+  font-style: italic;
+}
+
+.blog-post .content code {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+.light .blog-post .content code {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.post-footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid var(--nav-border);
+}

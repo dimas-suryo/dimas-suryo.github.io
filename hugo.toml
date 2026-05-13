@@ -1,6 +1,7 @@
 baseURL = 'https://dimassuryo.com/'
 languageCode = 'en-us'
 title = 'Dimas Suryo'
+disableKinds = ['taxonomy', 'term']
 
 [params]
   tagline = 'Quantitative Analyst | Ultra-Cyclist | Reader & Writer'
