@@ -8,7 +8,7 @@
           {{ .Date.Format "2 January 2006" }}
         </time>
         <span class="separator">·</span>
-        <span class="reading-time">{{ .ReadingTime }} minutes read</span>
+        <span class="reading-time">{{ .ReadingTime }} min baca</span>
       </p>
     </header>
 
@@ -16,23 +16,25 @@
       {{ .Content }}
     </div>
 
+    {{ if or .PrevInSection .NextInSection }}
     <nav class="post-nav">
       {{ with .PrevInSection }}
         <a href="{{ .RelPermalink }}" class="prev-post">
-          <span class="nav-label">← Previous Post</span>
+          <span class="nav-label">← Tulisan sebelumnya</span>
           <span class="nav-title">{{ .Title }}</span>
         </a>
       {{ end }}
       {{ with .NextInSection }}
         <a href="{{ .RelPermalink }}" class="next-post">
-          <span class="nav-label">Next Post →</span>
+          <span class="nav-label">Tulisan berikutnya →</span>
           <span class="nav-title">{{ .Title }}</span>
         </a>
       {{ end }}
     </nav>
+    {{ end }}
 
     <footer class="post-footer">
-      <a href="/blog/">← Back to all posts</a>
+      <a href="/blog/">← Kembali ke semua tulisan</a>
     </footer>
   </article>
 </main>

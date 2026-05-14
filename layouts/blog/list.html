@@ -8,7 +8,15 @@
       barely).
     </p>
     <ul class="blog-cards">
-      {{ range .Pages.ByDate.Reverse }} ... {{ end }}
+      {{ range .Pages.ByDate.Reverse }}
+      <li class="blog-card">
+        <a href="{{ .RelPermalink }}">
+          <h2>{{ .Title }}</h2>
+          <p class="date">{{ .Date.Format "2 January 2006" }}</p>
+          <p class="summary">{{ .Summary }}</p>
+        </a>
+      </li>
+      {{ end }}
     </ul>
   </section>
 </main>
