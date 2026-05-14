@@ -1,6 +1,6 @@
 ---
 title: "Diego: Nabi Akhir Zaman dan Nubuat Masa Depan"
-date: 2021-08-03
+date: 2021-12-08
 draft: false
 summary: "Nubuat Kenabian, sebuah Pedagogi Tata Cara Hidup, bagaimana Diego memilih untuk tetap 'tinggal' di 'Society' yang sudah 'mati'."
 ---
