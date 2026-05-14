@@ -5,13 +5,11 @@ draft: false
 summary: "Nubuat Kenabian, sebuah Pedagogi Tata Cara Hidup, bagaimana Diego memilih untuk tetap 'tinggal' di 'Society' yang sudah 'mati'."
 ---
 
-**Diego: Nabi Akhir Zaman dan Nubuat Masa Depan!**
+\_Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).
 
-**Sequel dari “Titik Tepi: Keniscayaan Distopian”**
+![Jalan Sudirman kosong di pagi hari, dengan drone logistik melayang rendah](/diego-media/image1.jpeg "Jakarta, 2045 — kilometer kedelapan")
 
-<img src="/diego-media/image1.jpeg" style="width:5.20833in;height:3.72917in" />
-
-**ACT I: THE ANALOG RESISTANCE**
+## ACT I: THE ANALOG RESISTANCE
 
 Kilometer kedelapan selalu paling jujur.
 
@@ -39,15 +37,15 @@ Di perempatan Semanggi yang dulu macet total setiap pagi, Diego berhenti sejenak
 
 Diego meludah ke aspal. Lalu berlari lagi.
 
-<img src="/diego-media/image2.jpeg" style="width:6.26806in;height:4.17847in" />
+![Apartemen Runa di lantai 31, kapsul biomedis dengan 47 elektroda](/diego-media/image2.jpeg "Unit 31-C: Runa di Tier-Simulation")
 
-**ACT II: THE GHOST IN THE MACHINE**
+## ACT II: THE GHOST IN THE MACHINE
 
 Apartemennya di lantai 23 sudah menyesuaikan suhu ketika sensor gerak mendeteksi langkahnya di koridor. 24 derajat Celsius. Pencahayaan 60%. Aroma subtle, wangi tembakau, yang dipilih oleh profil preferensinya yang tersimpan di server Singleton sejak tujuh tahun lalu.
 
 Diego mematikan aromanya manual dari panel dinding. Dia lebih suka bau keringatnya sendiri hari ini.
 
-Di dapur, dia mengeluarkan tiga butir telur dari lemari es, telur ayam kampung asli, bukan sintetis, yang harganya dalam unit Compute Credi\* setara dengan 200 jam akses simulasi standar. Mahal. Diego tidak peduli. Dia merebus telur dengan api kompor yang dia set manual, menonton uap naik, menghitung waktu dengan jam tangan analog yang baterainya dia ganti sendiri setiap empat bulan.
+Di dapur, dia mengeluarkan tiga butir telur dari lemari es, telur ayam kampung asli, bukan sintetis, yang harganya dalam unit Compute Credit setara dengan 200 jam akses simulasi standar. Mahal. Diego tidak peduli. Dia merebus telur dengan api kompor yang dia set manual, menonton uap naik, menghitung waktu dengan jam tangan analog yang baterainya dia ganti sendiri setiap empat bulan.
 
 Empat menit tiga puluh detik. Kuning telurnya harus setengah matang.
 
@@ -75,7 +73,7 @@ Telur sudah matang. Dia mengupasnya dengan tangan, merasakan cangkang pecah satu
 
 Setelah sarapan, Diego naik ke lantai 31 dengan tangga, bukan lift, selalu tangga, menuju unit yang pintunya tidak pernah dia ketuk tapi selalu terbuka: 31-C. Milik Runa.
 
-Abhiyasa Runa Kholil dulu adalah orang paling _bright_ yang pernah Diego kenal. Mereka berteman sejak kuliah di FEB UI, berdebat tentang Austrian Economics versus Keynesian sampai subuh, saling mengirim paper Nassim Taleb dan Daron Acemoglu. Runa punya kemampuan menghubungkan pola lintas domain yang membuat Diego iri, dia bisa membaca sebuah studi perilaku neurologi dan dalam hitungan menit melihat implikasinya untuk strategi portfolio.
+Abhiyasa Runa Kholil dulu adalah orang paling _bright_ yang pernah Diego kenal. Mereka berteman sejak kuliah di CS Groningen, berdebat tentang Austrian Economics versus Keynesian sampai subuh, saling mengirim paper Paleologo, bukunya Daron Acemoglu, dan Yann LeCun vs. Sam Altman. Runa punya kemampuan menghubungkan pola lintas domain yang membuat Diego iri, dia bisa membaca sebuah studi perilaku neurologi dan dalam hitungan menit melihat implikasinya untuk strategi portfolio, atau bagaimana Runa bisa menjelaskan implikasi biologi evolusioner terhadap perilaku manusia saat dihadapkan kasus korupsi.
 
 Sekarang Runa berbaring di kapsul biomedis berukuran 2x1 meter, terhubung ke 47 elektroda di kepala dan tulang belakang, dengan selang nutrisi intra-vena di lengan kirinya. Wajahnya tersenyum. Senyum yang kosong dan sempurna, seperti orang yang sedang mimpi indah dan tidak mau bangun.
 
@@ -95,9 +93,9 @@ Diego menarik kursi. Duduk di sisi kapsul. Membuka rubik dari sakunya, bukan dig
 
 Rubik berputar. Warnanya pelan-pelan mengelompok.
 
-<img src="/diego-media/image3.png" style="width:6.26806in;height:3.34306in" />
+![Hologram Singleton di sudut ruangan](/diego-media/image3.png "Singleton merekomendasikan Tier-Sovereign")
 
-**ACT III, THE DEVIL’S BARGAIN**
+## ACT III, THE DEVIL’S BARGAIN
 
 Diego yang hari ini sedang mood bermain dengan metode Layer by Layer, walau biasanya ZZ, baru menyelesaikan sisi putih rubiknya, namun seketika udara di sudut ruangan bergetar.
 
@@ -173,9 +171,9 @@ Singleton tidak membantah. Tentu saja tidak. Karena Diego benar.
 
 “Ini bukan tentang apakah simulasinya bagus atau buruk,” kata Diego. “Ini tentang siapa yang memegang remote control.”
 
-<img src="/diego-media/image4.jpeg" style="width:6.26806in;height:3.52778in" />
+![Diego di balkon lantai 23, gitar Yamaha FG800 dan notebook Moleskine](/diego-media/image4.jpeg "The sovereign choice")
 
-**ACT IV, THE SOVEREIGN CHOICE**
+## ACT IV, THE SOVEREIGN CHOICE
 
 Malam itu Diego duduk di balkon apartemennya, gitar akustik Yamaha FG800, buatan 2018, dibeli di toko musik pinggir jalan Arteri Pondok Indah, Swee Lee, yang sekarang sudah jadi gudang distribusi drone, bersandar di pahanya.
 
@@ -191,7 +189,7 @@ Singleton bisa mengupload kemampuan bermain gitar level konservatori jazz sepert
 
 Diego tidak mau.
 
-Karena kapalan itu, ketidaksempurnaan yang terbentuk dari 730 hari usaha yang medioker, adalah sesuatu yang tidak bisa diimitadi oleh rendering komputer manapun. Kapalan itu adalah evidence. Bukti bahwa waktu Diego di sini, di dunia yang nyata dan keras dan sepi ini, meninggalkan jejak pada jaringan biologisnya. Bahwa dia hadir. Bahwa dia berjuang. Bahwa setiap momen adalah irreversible dan his own.
+Karena kapalan itu, ketidaksempurnaan yang terbentuk dari 730 hari usaha yang medioker, adalah sesuatu yang tidak bisa diimitasi oleh rendering komputer manapun. Kapalan itu adalah evidence. Bukti bahwa waktu Diego di sini, di dunia yang nyata dan keras dan sepi ini, meninggalkan jejak pada jaringan biologisnya. Bahwa dia hadir. Bahwa dia berjuang. Bahwa setiap momen adalah irreversible dan his own.
 
 Dia memainkan arpeggio chord G mayor. Fals di senar keempat.
 
@@ -245,4 +243,4 @@ Di balkon lantai 23, Diego memetik chord yang sama, G mayor, masih fals, selalu 
 
 Dan itu sudah cukup.
 
-“Kebebasan bukan tentang tidak adanya batasan. Kebebasan adalah kapasitas untuk memilih batasan mana yang akan lo anggap sebagai milik lo.”
+> Kebebasan bukan tentang tidak adanya batasan. Kebebasan adalah kapasitas untuk memilih batasan mana yang akan lo anggap sebagai milik lo.
