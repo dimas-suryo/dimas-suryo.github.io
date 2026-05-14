@@ -24,3 +24,7 @@ disableKinds = ['taxonomy', 'term']
     name = "Contact"
     url = "/#contact"
     weight = 4
+    [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
