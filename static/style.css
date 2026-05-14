@@ -183,6 +183,36 @@ footer {
   color: var(--text-color);
   background-color: var(--footer-bg);
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-links {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+.footer-links .separator {
+  margin: 0 8px;
+  opacity: 0.5;
+}
+
+.footer-copy {
+  font-size: 0.85em;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.blog-post .content a[href^="http"]:not([href*="dimassuryo.com"])::after {
+  content: " ↗";
+  font-size: 0.85em;
+  opacity: 0.6;
+}
+
 /* === Blog cards (list page) === */
 .blog-cards {
   list-style: none;
@@ -447,4 +477,131 @@ footer {
 
 .post-footer a {
   font-size: 0.95em;
+}
+
+.blog-intro {
+  font-size: 1em;
+  opacity: 0.75;
+  margin-bottom: 36px;
+  max-width: 600px;
+  font-style: italic;
+}
+
+/* === Mobile responsive === */
+
+@media (max-width: 768px) {
+  body {
+    padding: 14px;
+  }
+
+  /* Navbar: stack horizontal items tighter */
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  nav a {
+    padding: 12px 14px;
+    font-size: 0.92em;
+  }
+
+  /* Header: stack profile pic on the text */
+  header {
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+
+  header h1 {
+    font-size: 1.9em;
+    margin-bottom: 6px;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  /* Main section headings smaller */
+  main h2 {
+    font-size: 1.5em;
+    margin-bottom: 16px;
+  }
+
+  /* Blog post page typography */
+  .blog-post header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .blog-post header h1 {
+    font-size: 1.65em;
+    line-height: 1.3;
+  }
+
+  .blog-post .content {
+    font-size: 1em;
+    line-height: 1.75;
+  }
+
+  .blog-post .content h2 {
+    font-size: 1.15em;
+    margin-top: 50px;
+    padding-top: 24px;
+  }
+
+  .blog-post .content blockquote {
+    font-size: 1.05em;
+    padding: 24px 16px;
+    margin: 36px 0;
+  }
+
+  /* Code blocks scrollable in mobile */
+  .blog-post .content pre {
+    font-size: 0.8em;
+    padding: 14px 16px;
+  }
+
+  /* Cards in vertical layout in mobile */
+  .blog-card {
+    padding: 18px 18px;
+  }
+
+  /* Post nav stack vertical mobile */
+  .post-nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .post-nav a,
+  .post-nav .next-post {
+    max-width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+/* Extra tight viewport */
+@media (max-width: 380px) {
+  nav a {
+    padding: 10px 10px;
+    font-size: 0.85em;
+  }
+
+  header h1 {
+    font-size: 1.7em;
+  }
+
+  .blog-post header h1 {
+    font-size: 1.5em;
+  }
 }

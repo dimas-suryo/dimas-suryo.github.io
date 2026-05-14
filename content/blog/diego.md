@@ -5,7 +5,7 @@ draft: false
 summary: "Nubuat Kenabian, sebuah Pedagogi Tata Cara Hidup, bagaimana Diego memilih untuk tetap 'tinggal' di 'Society' yang sudah 'mati'."
 ---
 
-\_Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).
+Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).
 
 ![Jalan Sudirman kosong di pagi hari, dengan drone logistik melayang rendah](/diego-media/image1.jpeg "Jakarta, 2045 — kilometer kedelapan")
 

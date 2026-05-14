@@ -2,16 +2,13 @@
 <main>
   <section id="blog-list">
     <h1>Blog</h1>
+    <p class="blog-intro">
+      Long-form essays di persimpangan financial markets, systems thinking, dan
+      apa pun yang sedang menarik perhatian saya. Updated occasionally (atau
+      barely).
+    </p>
     <ul class="blog-cards">
-      {{ range .Pages.ByDate.Reverse }}
-      <li class="blog-card">
-        <a href="{{ .RelPermalink }}">
-          <h2>{{ .Title }}</h2>
-          <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
-          <p class="summary">{{ .Summary }}</p>
-        </a>
-      </li>
-      {{ end }}
+      {{ range .Pages.ByDate.Reverse }} ... {{ end }}
     </ul>
   </section>
 </main>

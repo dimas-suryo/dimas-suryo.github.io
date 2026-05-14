@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="{{ "/style.css" | relURL }}" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <link rel="icon" type="image/jpeg" href="{{ "/assets/favicon.jpg" | relURL }}" />
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
   </head>
   <body>
     <nav>
@@ -22,9 +34,22 @@
 
     {{ block "main" . }}{{ end }}
 
-    <footer>
-      <p>&copy; 2026 Dimas Suryo</p>
-    </footer>
+<footer>
+  <div class="footer-content">
+    <p class="footer-links">
+      <a href="https://github.com/dimas-suryo">GitHub</a>
+      <span class="separator">·</span>
+      <a href="https://linkedin.com/in/Dimas-Suryo">LinkedIn</a>
+      <span class="separator">·</span>
+      <a href="https://youtube.com/@SouthGardenist">YouTube</a>
+      <span class="separator">·</span>
+      <a href="/index.xml">RSS</a>
+      <span class="separator">·</span>
+      <a href="mailto:dimassuryo@aol.com">Email</a>
+    </p>
+    <p class="footer-copy">&copy; {{ now.Format "2006" }} Dimas Suryo</p>
+  </div>
+</footer>
 
     <script src="{{ "/script.js" | relURL }}"></script>
   </body>
