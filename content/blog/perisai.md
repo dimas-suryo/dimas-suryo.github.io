@@ -9,9 +9,9 @@ _Mungkin ini saat yang tepat untuk mempertanyakan algoritma yang obsolete._
 
 <img src="/perisai-media/image1.jpeg"  />Caveman (Wikipedia)
 
-# I.
+## I.
 
-## Dulu, Ini Adalah Perisai Terbaik yang Ada
+### Dulu, Ini Adalah Perisai Terbaik yang Ada
 
 Bayangkan kamu adalah seorang _behavioral economist_ yang ditugaskan mendesain ulang peradaban dari nol. _Problem statement_-nya: koordinasikan 10.000 primata egois yang pada dasarnya cuma peduli pada keluarga inti mereka, supaya bisa bekerja sama dalam skala besar. Tanpa pengawasan terpusat, tanpa _enforcement_ yang signifikan. Kamu punya waktu 10.000 tahun.
 
@@ -33,7 +33,7 @@ Jadi, saya pikir klaim ini layak untuk dinyatakan secara eksplisit: **kalau kamu
 
 ## II.
 
-## … Tapi Ada Satu Masalah yang Sulit Diabaikan
+### … Tapi Ada Satu Masalah yang Sulit Diabaikan
 
 Masalah dari _legacy software_ yang brilian adalah: **dia tidak punya tombol update.**
 

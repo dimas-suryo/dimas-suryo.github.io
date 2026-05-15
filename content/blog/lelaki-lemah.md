@@ -13,7 +13,7 @@ summary: "The Courage to feel Discomfort. Mengapa Lelaki Lemah Adalah Polutan Si
 >
 > Lebih tepatnya: pola perilaku laki-laki yang, secara agregat, merusak hampir semua sistem yang mereka sentuh.
 
-# I.
+## I.
 
 Ada sesuatu yang sedang terjadi pada laki-laki. Bukan dalam pengertian retoris, "ada yang salah dengan maskulinitas modern", tapi dalam pengertian yang bisa diukur, dipetakan, dan dihitung kematiannya.
 
@@ -47,7 +47,7 @@ Ini akan menjadi tulisan yang tidak nyaman. Buat saya menulisnya, dan mudah-muda
 
 Itu bukan alasan untuk berhenti membaca. Justru sebaliknya.
 
-# II.
+## II.
 
 Kata "lemah" itu bermasalah. Saya tahu itu. Dalam konteks diskursus gender, menyebut laki-laki "lemah" terdengar seperti sesuatu yang akan dikatakan oleh _alpha male podcast host_ yang menjual _course_ seharga \$499 tentang cara _mewing_ yang benar atau _bootcamp trading_ dan jadi kaya dalam 1 bulan. Saya perlu mendefinisikan apa yang saya maksud dan, sama pentingnya, apa yang _tidak_ saya maksud, sebelum kita bisa melanjutkan.
 
@@ -69,7 +69,7 @@ Ini kelemahan yang spesifik. Bukan kelemahan otot atau kelemahan finansial. Ini 
 
 Saya rasa ada beberapa pola yang cukup konsisten muncul. Dan saya ingin mendeskripsikan pola-pola ini bukan sebagai dosa, tapi sebagai **Symptom** dari satu sindrom yang sama.
 
-## Symptom 1: Nihilisme Tanpa Konstruksi
+### Symptom 1: Nihilisme Tanpa Konstruksi
 
 Ada sejenis nihilisme yang produktif. Nietzsche menulis tentang ini, dan ya, saya sadar bahwa mengutip Nietzsche di tulisan tentang maskulinitas itu hampir menjadi parodi pada titik ini, tapi _bear with me_. Nietzsche mendeklarasikan kematian Tuhan bukan sebagai tujuan akhir. Itu _tahap awal_. Pembongkaran nilai-nilai lama itu seharusnya _transisi_ menuju penciptaan nilai-nilai baru, _Übermensch_, manusia yang menciptakan maknanya sendiri setelah menatap kekosongan.
 
@@ -81,7 +81,7 @@ Ini bukan filsafat melainkan _cope_ yang pakai _vocabulary_ filsafat.
 
 Tes diagnostiknya sederhana: apakah nihilisme-mu menghasilkan sesuatu? Seni, tulisan, tindakan, _framework_ hidup yang kamu benar-benar jalani? Atau dia hanya menghasilkan alasan untuk tidak memulai?
 
-## Symptom 2: Tidak Ada Skin in the Game Di Manapun
+### Symptom 2: Tidak Ada Skin in the Game Di Manapun
 
 Nassim Taleb punya konsep yang saya pikir _underappreciated_ di luar komunitas yang sudah membacanya: _skin in the game_, ide bahwa kamu harus menanggung konsekuensi dari keputusanmu sendiri. Bukan hanya sebagai prinsip etis, tapi sebagai _informational mechanism_. Orang yang punya _skin in the game_ belajar dari realita. Orang yang tidak, belajar dari narasi, dan narasi bisa salah tanpa batas waktu karena tidak ada _feedback loop_ yang memaksa koreksi.
 
@@ -93,7 +93,7 @@ Saya pernah menulis tentang fenomena ini dalam konteks kasus FH UI '23, laki-lak
 
 Kalau kamu ingin tes yang brutal: lihat hidupmu dan tanya, di mana _failure_ punya harga? Di mana kamu bisa salah dan **merasakan** salahnya, bukan hanya mengetahuinya secara abstrak? Kalau jawabannya "tidak di mana-mana," itu bukan kestabilan. Itu _stagnasi_ yang menyamar sebagai keamanan.
 
-## Symptom 3: Tubuh yang Diabaikan
+### Symptom 3: Tubuh yang Diabaikan
 
 Ini yang paling mudah disalahartikan, jadi saya ingin sangat hati-hati.
 
@@ -113,7 +113,7 @@ Data tentang penurunan kadar testosteron pada laki-laki muda secara generasional
 
 Dan saya ingin jujur tentang sesuatu: bagian ini sebagian juga autobiografis. Ada periode di hidup saya di mana saya tidak berolahraga, dan saya bisa merasakan efeknya bukan di cermin, tapi di cara saya menghadapi hal-hal yang sulit. _Threshold_ untuk menyerah turun. _Tolerance_ untuk ketidaknyamanan menyusut. Korelasi ini bisa jadi _confirmation bias_. Tapi saya mencatatnya.
 
-## Symptom 4: Konsumsi Tanpa Produksi
+### Symptom 4: Konsumsi Tanpa Produksi
 
 Saya rasa ini Symptom yang paling _insidious_ karena paling tidak terlihat seperti masalah.
 
@@ -133,7 +133,7 @@ Produksi, menulis, membangun, membuat, menciptakan, beroperasi di jalur _reward_
 
 Konsumsi tanpa produksi, pada skala yang saya lihat di sekeliling saya, bukan _lifestyle choice_ melainkan _parasitisme_ yang menyamar sebagai _leisure_.
 
-## Symptom 5: _Virtue_ tanpa Harga
+### Symptom 5: _Virtue_ tanpa Harga
 
 Yang terakhir ini sudah saya bahas cukup panjang di tulisan lain, jadi saya akan ringkas.
 
@@ -163,7 +163,7 @@ Tapi ketika ini bukan momen individual melainkan **pola kolektif**, ketika sebag
 
 Dan polutan itu, seperti polutan manapun, tidak menghormati batas. Ia mencemari semua yang disentuhnya. Bagaimana, tepatnya, akan saya uraikan di section berikutnya.
 
-# III.
+## III.
 
 Kalau saya berhenti di Section II, tulisan ini hanya akan menjadi versi lebih panjang dari ceramah "man up" yang sudah ada ribuan di internet. Dan ceramah "man up," selain menjemukan, punya satu masalah fundamental: ia tidak pernah bertanya **kenapa.**
 
@@ -173,7 +173,7 @@ Dan kalau saya menuntut empati analitis, kemampuan memahami _kenapa_ seseorang s
 
 **Jadi: apa yang berubah?**
 
-## A. Runtuhnya Institusi Pembentuk
+### A. Runtuhnya Institusi Pembentuk
 
 Sepanjang sebagian besar sejarah manusia, laki-laki muda tidak menjadi dewasa secara organik. Mereka **dibentuk** oleh institusi yang secara eksplisit dirancang untuk menyalurkan energi yang belum terarah menjadi sesuatu yang fungsional. Institusi-institusi ini bervariasi antar budaya, tapi _functional role_-nya remarkably konsisten:
 
@@ -189,7 +189,7 @@ Tapi inilah masalahnya: kita meruntuhkan institusi-institusi ini, dan ada alasan
 
 Analoginya mungkin seperti ekosistem. Kalau kamu menghilangkan _apex predator_ dari suatu ekosistem, karena _apex predator_ itu berbahaya, dan memang berbahaya, tanpa memahami peran regulatorisnya, kamu tidak mendapatkan ekosistem yang lebih aman. Kamu mendapatkan ekosistem yang _kolaps_ dengan cara yang tidak kamu prediksi. Populasi rusa meledak, vegetasi habis, erosi tanah, dan seterusnya. Menghilangkan sesuatu yang bermasalah tanpa memahami fungsi yang dipenuhinya itu bukan solusi. Itu hanya memindahkan masalah ke tempat yang kurang _visible_.
 
-## B. Kafka Trap Gender
+### B. Kafka Trap Gender
 
 Saya sudah membahas ini secara spesifik di tulisan tentang kasus FH UI '23, jadi saya akan lebih ringkas di sini. Tapi _dynamic_-nya terlalu penting untuk dilewati.
 
@@ -211,7 +211,7 @@ Saya perlu mengulang _caveat_ yang sudah saya tulis di "Stop The All": **tidak a
 
 Tapi kalau pertanyaannya bukan "siapa yang salah?" melainkan "bagaimana kita mencegah ini?", maka kita harus jujur bahwa _environment_ diskursif yang ada sekarang, bagi sebagian laki-laki muda, bukan _environment_ yang mendorong pertumbuhan. Itu _environment_ yang mendorong _mimicry, withdrawal_, atau _radicalization_. Dan dari ketiga _output_ itu, tidak ada yang berguna untuk siapapun.
 
-## C. Pasar Tenaga Kerja yang Berubah
+### C. Pasar Tenaga Kerja yang Berubah
 
 Ini faktor yang paling jarang dibicarakan di lingkungan seperti SCBD atau FE UI, mungkin karena kita bukan demografis yang terdampak langsung.
 
@@ -225,7 +225,7 @@ Richard Reeves, yang lagi-lagi bukan konservatif, mengusulkan sesuatu yang seder
 
 Ini _zero-sum thinking_. Dan _zero-sum thinking_ tentang gender, dari arah manapun, adalah salah satu _cognitive failure_ yang paling merusak dalam diskursus publik kontemporer.
 
-## D. Ketiadaan Ayah
+### D. Ketiadaan Ayah
 
 Ini mungkin faktor yang paling _uncomfortable_ untuk dibicarakan, karena implikasinya menyentuh hampir setiap asumsi yang kita pegang tentang struktur keluarga.
 
@@ -235,7 +235,7 @@ Kenapa? Hipotesis yang paling _plausible_ melibatkan _modelling_. Anak laki-laki
 
 Saya sadar bahwa membahas ketiadaan ayah bisa terdengar seperti argumen untuk "keluarga tradisional" dalam pengertian konservatif. Bukan itu yang saya maksud. Dua ibu bisa membesarkan anak laki-laki yang luar biasa. Ibu tunggal bisa dan sering kali melakukannya dengan heroik. Yang ditunjukkan data Chetty bukan bahwa "keluarga tradisional" adalah satu-satunya _setting_ yang berhasil, tapi bahwa kehadiran _role model_ laki-laki dewasa yang fungsional, ayah, paman, guru, mentor, _siapapun_, memiliki efek yang _measurable_ dan signifikan pada perkembangan anak laki-laki. Dan bahwa ketiadaannya, yang semakin umum, punya konsekuensi yang juga semakin umum.
 
-## E. Superstimulus Environment
+### E. Superstimulus Environment
 
 Ini faktor yang paling dekat dengan pengalaman langsung kamu sebagai pembaca tulisan ini, jadi saya tidak perlu terlalu banyak menjelaskan.
 
@@ -261,7 +261,7 @@ Memahami konteks ini penting bukan untuk membenarkan kelemahan, tapi untuk **men
 
 Tapi sebelum kita bicara tentang solusi, ada satu pertanyaan lagi yang perlu dijawab: **kenapa ini masalah buat \*kamu\*?** Kenapa kelemahan laki-laki bukan hanya masalah laki-laki? Kenapa polutan ini, meminjam metafora dari Section II, mencemari lebih dari sekedar sumbernya?
 
-# IV.
+## IV.
 
 Ada godaan untuk menganggap laki-laki lemah sebagai masalah yang _self-contained_. "Biarin aja, toh yang rugi mereka sendiri." Saya mengerti impuls ini. Saya kadang merasakannya sendiri. Dan kalau kelemahan itu benar-benar _self-contained_, kalau laki-laki lemah hanya merusak diri sendiri tanpa menyentuh siapapun, mungkin saya tidak akan menulis tulisan ini. _Liberty_ mengatakan orang berhak menghancurkan hidupnya sendiri selama tidak merugikan orang lain.
 
@@ -271,7 +271,7 @@ Dalam ekonomi kita mengenalnya dengan sebutan _negative externality_: biaya yang
 
 Laki-laki lemah, secara agregat, adalah pabrik yang membuang limbahnya ke setidaknya empat sungai sekaligus.
 
-## Eksternalitas 1: Distorsi Pasar Romansa
+### Eksternalitas 1: Distorsi Pasar Romansa
 
 Saya sudah menulis tentang ini secara panjang lebar di "Layaknya Saham Gorengan," jadi saya akan meringkas argumen utamanya di sini dan menambahkan layer yang waktu itu belum saya artikulasikan.
 
@@ -287,7 +287,7 @@ Layer yang belum saya artikulasikan waktu itu: distorsi ini **juga merugikan per
 
 Siapa yang menciptakan distorsi ini? Bukan perempuan yang punya standar tinggi, standar tinggi itu _rational behavior_ dalam pasar manapun. Bukan _dating apps_, _apps_ hanya mempercepat _dynamics_ yang sudah ada. Distorsinya datang dari laki-laki yang terus-menerus memberikan sesuatu yang bernilai, waktu, perhatian, sumber daya, _commitment_, tanpa mempersyaratkan apapun sebagai _return_. Laki-laki lemah. _Subsidizer_ tanpa syarat. _Floor_ yang terus turun.
 
-## Eksternalitas 2: Kontaminasi Diskursus Publik
+### Eksternalitas 2: Kontaminasi Diskursus Publik
 
 Di "Stop The All," saya menulis tentang bagaimana _virtue signalling_ mengkontaminasi percakapan publik tentang gender. Tapi saya belum secara eksplisit menghubungkan _virtue signalling_ itu ke sindrom yang sama.
 
@@ -301,7 +301,7 @@ Dan siapa yang menanggung biaya dari diskursus yang terkontaminasi ini? Dua kelo
 
 **Kedua:** laki-laki muda yang _genuinely_ sedang mencoba memahami dan memperbaiki diri. Laki-laki ini melihat diskursus yang terkontaminasi dan menyimpulkan salah satu dari dua hal: "ini semua _bullshit_, tidak ada yang tulus" (yang mendorong sinisme dan _withdrawal_), atau "saya harus ikut posting hal yang sama supaya aman secara sosial" (yang memproduksi satu _virtue signaller_ lagi). _Neither outcome_ menghasilkan laki-laki yang lebih baik. Keduanya memperkuat _loop_.
 
-## Eksternalitas 3: _Demand_ yang Menopang Industri Eksploitatif
+### Eksternalitas 3: _Demand_ yang Menopang Industri Eksploitatif
 
 Di tulisan tentang pornografi, saya berargumen bahwa industri pornografi tradisional adalah _Bob Rubin Trade_, struktur di mana eksekutif mengambil _profit_ dan _performers_ menanggung semua risiko. Tapi saya belum secara eksplisit menghubungkan _demand side_ dari struktur ini ke sindrom yang sedang kita bahas.
 
@@ -313,7 +313,7 @@ PornHub meng-_host_ materi eksploitasi anak selama bertahun-tahun dan baru berti
 
 Mengatakan "saya cuma nonton, saya tidak menyakiti siapa-siapa" di konteks ini setara dengan mengatakan "saya cuma beli, saya tidak terlibat dalam kondisi pabriknya." Secara _strictly personal_, mungkin benar. Secara sistemik, itu _willful blindness_. Kamu **adalah** _demand_. Dan tanpa _demand_-mu, _supply_ itu tidak _viable_.
 
-## Eksternalitas 4: Radikalisasi dan Instabilitas Politik
+### Eksternalitas 4: Radikalisasi dan Instabilitas Politik
 
 Ini eksternalitas yang paling jarang diasosiasikan dengan "laki-laki lemah" tapi mungkin yang paling berbahaya secara _at scale._
 
@@ -325,7 +325,7 @@ Dan siapa yang paling rentan terhadap _pipeline_ ini? Bukan laki-laki yang punya
 
 Setiap kali seorang laki-laki muda yang _directionless_ masuk ke _rabbit hole_ dan keluar sebagai ekstremis, itu bukan hanya tragedi individual. Itu _threat vector_ bagi semua orang di sekitarnya. Dan jumlah laki-laki yang berada di _starting point_ dari _pipeline_ ini, _nihilistic, isolated, angry, purposeless_, lebih besar hari ini daripada di titik manapun dalam sejarah modern.
 
-## Eksternalitas 5: Beban Tambahan pada Perempuan
+### Eksternalitas 5: Beban Tambahan pada Perempuan
 
 Ini yang paling _counterintuitive_ tapi mungkin paling penting untuk audiens tulisan ini.
 
@@ -349,13 +349,13 @@ Dan perhatikan satu hal: di setiap eksternalitas ini, orang yang menanggung biay
 
 Itu bukan masalah personal. Itu masalah publik. Dan masalah publik membutuhkan lebih dari nasihat individual tentang "perbaiki dirimu." Ia membutuhkan perubahan pada level individu _dan_ level sistem.
 
-# V.
+## V.
 
 Bagian ini akan terdengar seperti nasihat. Saya tidak suka memberikan nasihat, ada sesuatu yang secara epistemik _suspicious_ tentang seseorang berusia 20 tahunan awal yang memberi tahu orang lain cara menjalani hidup. Tapi saya juga sudah menghabiskan empat section mendiagnosis masalah, dan diagnosis tanpa _prescription_ itu hanya keluhan yang lebih panjang. Jadi saya akan mencoba, dengan _caveat_ bahwa saya sendiri tidak selalu mempraktikkan semua yang akan saya tulis di bawah ini, dan bahwa beberapa di antaranya mungkin salah.
 
 _Caveat_ tambahan: _prescription_ ini ditujukan untuk laki-laki yang **mengenali dirinya** dalam deskripsi di Section II, yang, setelah membaca, berpikir "sial, beberapa dari ini tentang saya." Kalau kamu membaca Section II dan tidak mengenali dirimu sama sekali, entah kamu sudah jauh lebih maju dari yang saya asumsikan, atau kamu sedang dalam _denial_ yang membutuhkan lebih dari sebuah esai untuk ditembus. Saya tidak bisa membedakan keduanya dari sini.
 
-## 1. Cari Satu Domain di Mana Kamu Punya Skin in the Game. Satu Saja.
+### 1. Cari Satu Domain di Mana Kamu Punya Skin in the Game. Satu Saja.
 
 Bukan lima. Bukan tiga. Satu.
 
@@ -371,7 +371,7 @@ Tes yang paling sederhana: apakah ada skenario di mana kamu bisa **malu** karena
 
 Mulai dari satu. Jadikan itu _non-negotiable_. Baru kemudian, kalau _bandwidth_-mu mengizinkan, tambah yang lain.
 
-## 2. Tundukkan Tubuhmu pada Sesuatu yang Sulit. Secara Reguler.
+### 2. Tundukkan Tubuhmu pada Sesuatu yang Sulit. Secara Reguler.
 
 Kalau kamu belum pernah berolahraga secara konsisten: mulailah dengan _resistance training_. Bukan karena _resistance training_ secara objektif "terbaik", ada argumen bagus untuk lari, renang, _martial arts_, dan aktivitas lain. Tapi karena _resistance training_ punya beberapa properti yang membuatnya sangat cocok sebagai _entry point_ buat orang yang belum pernah membangun kebiasaan fisik:
 
@@ -385,7 +385,7 @@ Dan ada satu efek yang sulit saya jelaskan secara mekanis tapi terlalu konsisten
 
 Kalau kamu sudah punya kebiasaan fisik: _great_. Tapi tanya ke dirimu sendiri apakah kebiasaan itu masih _challenging_. Lari 5km setiap hari yang kamu sudah bisa lakukan sambil setengah tidur bukan lagi _training_. Itu _maintenance_. Dan _maintenance_, meskipun lebih baik dari tidak melakukan apa-apa, tidak menghasilkan adaptasi. Adaptasi membutuhkan _progressive overload_, secara berkala meningkatkan stimulus di atas level yang sudah nyaman. Prinsip ini berlaku di gym, dan saya curiga berlaku juga di hidup.
 
-## 3. Potong _Superstimulus_. Bukan Sekaligus. Tapi Potong.
+### 3. Potong _Superstimulus_. Bukan Sekaligus. Tapi Potong.
 
 Ini _prescription_ yang paling mudah diucapkan dan paling sulit dilakukan, jadi saya ingin realistis.
 
@@ -399,7 +399,7 @@ Untuk pornografi secara spesifik: saya sudah menulis argumen lengkapnya di tulis
 
 _Key principle_: jangan umumkan ini ke siapapun. Jangan posting tentang _NoFap_ atau _digital detox_. Begitu kamu mengumumkan perubahan perilaku secara publik, kamu mendapatkan _social reward_ dari **niat** tanpa harus mengeksekusi. Dan _reward_ tanpa eksekusi itu, persis, adalah pola yang sedang kamu coba patahkan.
 
-## 4. Produksi Sesuatu. Apapun. Secara Reguler.
+### 4. Produksi Sesuatu. Apapun. Secara Reguler.
 
 Saya menempatkan ini terpisah dari _skin in the game_ karena, meskipun _overlap_-nya besar, ini tidak identik. Kamu bisa memproduksi sesuatu tanpa _skin in the game_ (menulis jurnal pribadi yang tidak pernah dipublikasikan), dan kamu bisa punya _skin in the game_ tanpa memproduksi (berjudi, misalnya, ada risiko nyata tapi tidak ada kreasi).
 
@@ -413,7 +413,7 @@ Saya rasa ini juga yang Nietzsche sebenarnya maksudkan, bukan bahwa kamu perlu _
 
 Satu _caveat_: produksi yang saya maksud bukan _hustle culture_. Bukan "selalu produktif setiap detik." Itu patologi yang berbeda, _workaholism_ adalah _superstimulus_ yang menyamar sebagai _virtue_. Yang saya maksud adalah **rasio**. Apakah _net flow_ hidupmu condong ke arah konsumsi atau produksi? Kalau jawaban jujurnya "konsumsi, dan bukan sedikit," maka ada sesuatu yang perlu dikoreksi. Perbaiki bagaimana kamu mengalokasikan kedua hal tersebut.
 
-## 5. Miliki Prinsip yang Falsifiable dan Pernah Diuji
+### 5. Miliki Prinsip yang Falsifiable dan Pernah Diuji
 
 Saya sudah menulis tentang perbedaan antara _values_ dan _virtues_ di Section II. Di sini saya ingin menambahkan satu layer: **prinsip yang _falsifiable_ versus prinsip yang _unfalsifiable_.**
 
@@ -425,7 +425,7 @@ Latihan yang mungkin berguna: tuliskan tiga prinsip yang kamu _hold_. Untuk seti
 
 Ini bukan tentang kesempurnaan. Semua orang gagal memegang prinsipnya di beberapa titik. Saya pernah gagal di tempat yang saya malu untuk ceritakan. Pertanyaannya bukan apakah kamu pernah gagal. Pertanyaannya adalah: **apakah kamu tahu di mana kamu gagal, dan apakah kamu berniat berbeda di kesempatan berikutnya?** Itu perbedaan antara orang yang punya prinsip dan sedang memperbaiki _implementation_-nya, dan orang yang punya _decorative values_ yang tidak pernah dimaksudkan untuk dipraktikkan.
 
-## 6. Terapkan Sekufu ke Dirimu Sendiri Terlebih Dahulu
+### 6. Terapkan Sekufu ke Dirimu Sendiri Terlebih Dahulu
 
 Di "Layaknya Saham Gorengan," saya menulis tentang sekufu sebagai _framework_ pemilihan pasangan, mencari kesetaraan dalam epistemologi, _values_, _trajectory_, dan kapasitas emosional. Saya masih memegang argumen itu.
 
@@ -457,7 +457,7 @@ Saya tidak punya solusi untuk perasaan itu selain mengatakan: **jangan melihat j
 
 Kamu tidak perlu menjadi orang yang berbeda besok. Kamu perlu menjadi orang yang, **besok, bergerak ke arah yang benar.** Bahkan kalau gerakannya kecil. Bahkan kalau tidak ada yang melihat. _Especially_ kalau tidak ada yang melihat, karena itu yang membedakan perubahan dari _performance_.
 
-# VI.
+## VI.
 
 "Man up" mengasumsikan bahwa masalahnya sepenuhnya individual: laki-laki lemah karena mereka memilih lemah, dan solusinya adalah memilih sebaliknya. Saya sudah mengargumen di Section III bahwa ini _partially_ benar, _agency_ itu nyata dan pilihan itu nyata. Tapi saya juga sudah menunjukkan bahwa pilihan-pilihan itu dibuat di dalam _environment_ yang secara sistematis mendorong ke arah kelemahan. Dan _environment_ tidak berubah karena individu "memilih lebih baik." _Environment_ berubah karena **sistem didesain ulang.**
 
@@ -465,7 +465,7 @@ Analogi yang mungkin berguna: kalau 30% populasi suatu kota obesitas, kamu bisa 
 
 Obesitas adalah masalah individual _dan_ masalah sistemik. Kelemahan laki-laki juga.
 
-## 1. Berhenti Menggunakan Kafka Trap dalam Diskursus Gender
+### 1. Berhenti Menggunakan Kafka Trap dalam Diskursus Gender
 
 Saya sudah membahas ini di "Stop The All" dan di Section III tulisan ini, tapi saya perlu mengatakannya sekali lagi dalam konteks preskriptif: **cara kita berbicara tentang maskulinitas kepada laki-laki muda itu penting, dan cara yang sedang berjalan _is not working_.**
 
@@ -481,7 +481,7 @@ Ini bukan tentang menjadi "lebih lembut" terhadap laki-laki. Ini tentang menjadi
 
 Dan untuk laki-laki yang sudah berpartisipasi dalam diskursus ini: berhentilah menggunakan bahasa yang tidak kamu pahami hanya karena bahasa itu aman secara sosial. Kalau kamu posting tentang "_dismantling patriarchy_" tapi kamu tidak bisa mendefinisikan patriarki dengan cara yang _falsifiable_, kamu bukan _ally_. Kamu _noise_. Dan _noise_ merusak sinyal dari orang-orang yang _genuinely_ sedang mencoba melakukan pekerjaan yang sulit.
 
-## 2. Bangun Institusi Pembentuk yang Baru
+### 2. Bangun Institusi Pembentuk yang Baru
 
 Di Section III saya mendeskripsikan bagaimana kita meruntuhkan institusi-institusi lama yang membentuk laki-laki muda, agama terorganisir, _apprenticeship_, _rites of passage_, tanpa membangun penggantinya. _Prescription_ yang logis: **bangun penggantinya.**
 
@@ -497,7 +497,7 @@ Beberapa yang sudah ada dan, menurut saya, **_works_**, meskipun belum pada skal
 
 **Komunitas berbasis proyek.** _Hackathons_, _maker spaces_, kolektif seni, _open-source projects_, ruang di mana orang datang bukan untuk bersosialisasi secara abstrak tapi untuk **membuat sesuatu bersama**. Komunitas yang dibangun di atas _shared production_ cenderung lebih kuat dan lebih fungsional daripada komunitas yang dibangun di atas _shared consumption_ atau _shared identity_, karena _production_ memberikan _objective common ground_ yang tidak bergantung pada apakah kalian saling suka.
 
-## 3. Reformasi Pendidikan yang Mengakui _Gender Gap_
+### 3. Reformasi Pendidikan yang Mengakui _Gender Gap_
 
 Saya akan _blunt_: **anak laki-laki sedang gagal di sistem pendidikan kita, dan hampir tidak ada yang mau membicarakannya.**
 
@@ -515,7 +515,7 @@ Meningkatkan jumlah guru laki-laki, terutama di pendidikan dasar. Di banyak nega
 
 Mendesain kurikulum dan pedagogi yang mengakomodasi variasi dalam _learning styles_, lebih banyak _hands-on learning_, lebih banyak gerakan fisik, lebih banyak kompetisi terstruktur, lebih sedikit duduk diam selama 7 jam. Ini bukan tentang membuat sekolah "lebih ramah laki-laki" dengan mengorbankan perempuan. Ini tentang mengenali bahwa _one-size-fits-all_ pedagogy yang semakin dominan secara sistematis tidak cocok untuk sebagian besar anak laki-laki.
 
-## 4. Normalisasi _Corrective Feedback_ di Antara Laki-Laki
+### 4. Normalisasi _Corrective Feedback_ di Antara Laki-Laki
 
 Di "Layaknya Saham Gorengan," saya mendeskripsikan _echo chamber_ pertemanan perempuan yang tidak memberikan _corrective feedback_. Tapi laki-laki punya _echo chamber_ yang berbeda bentuknya dan sama rusaknya: **_avoidance_.**
 
@@ -529,7 +529,7 @@ Ada alasan kenapa laki-laki tidak melakukan ini. Percakapan seperti itu _awkward
 
 Normalisasi ini tidak akan datang dari kampanye. Ini akan datang dari keputusan-keputusan individual laki-laki untuk berhenti menjadi _bystander_ dalam kehidupan teman-teman mereka. Satu percakapan yang jujur, satu konfrontasi yang _respectful_ tapi tidak _comfortable_, satu momen di mana kamu memilih mengatakan yang perlu dikatakan alih-alih yang aman untuk dikatakan.
 
-## 5. Regulasi _Superstimulus_ untuk Remaja
+### 5. Regulasi _Superstimulus_ untuk Remaja
 
 Ini prescription yang paling _policy-oriented_ dan mungkin paling kontroversial, jadi saya ingin sangat presisi tentang apa yang saya usulkan dan apa yang tidak.
 
@@ -551,7 +551,7 @@ Bukan karena ini solusi terbesar melainkan karena ini solusi yang bisa dimulai *
 
 Itu, kalau kamu perhatikan, adalah _prescription_ individual yang disamarkan sebagai _prescription_ sistemik. Dan mungkin itu _point_-nya. Mungkin perubahan sistemik, pada akhirnya, dimulai dari keputusan-keputusan individual yang cukup banyak orang buat secara bersamaan sehingga ia menjadi norma. Mungkin "top-down" dan "bottom-up" itu bukan dikotomi. Mungkin keduanya bertemu di titik yang sama: seseorang, di suatu momen, memutuskan untuk melakukan hal yang sulit.
 
-# VII.
+## VII.
 
 Saya sudah menulis enam section yang mengkritik laki-laki lemah dengan presisi yang, harapannya, cukup tajam. Saya sudah mendefinisikan mereka, menjelaskan kenapa mereka jadi seperti itu, menunjukkan kerusakan yang mereka timbulkan, dan memberikan prescription tentang bagaimana mereka, dan sistem di sekitar mereka, bisa berubah.
 
