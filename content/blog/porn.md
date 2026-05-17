@@ -1,6 +1,6 @@
 ---
 title: "We Should Probably Stop Watching Porn. I Think."
-date: 2026-04-30
+date: 2022-11-22
 draft: false
 summary: "The honest accounting of what it costs, to you, to performers, to culture, just doesn’t add up"
 ---
