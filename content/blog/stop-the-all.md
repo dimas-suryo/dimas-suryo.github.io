@@ -5,7 +5,7 @@ draft: false
 summary: "Dunia ini terlalu banyak Laki-Laki Pecundang dan Perempuan Gila"
 ---
 
-##  I.
+##  I.
 
 Belum lama ini, sebuah group chat bocor. Isinya: mahasiswa-mahasiswa FH UI angkatan 2023, calon-calon sarjana hukum, calon penegak keadilan, calon pembuat undang-undang, saling berbagi obrolan yang melecehkan teman perempuan mereka, dosen mereka, bahkan pacar dan kakak mereka sendiri. Isinya cukup buruk sehingga saya tidak perlu mengutipnya di sini. Kalau kamu belum baca, percayalah, itu memang seburuk yang kamu bayangkan.
 
@@ -19,7 +19,7 @@ Dan tentang fakta yang saya tahu, bukan spekulasi, bukan asumsi, tapi **tahu**, 
 
 Bedanya cuma satu: belum ada yang _leak_.
 
-##  II.
+##  II.
 
 Ada sebuah parasit bernama **_Toxoplasma gondii_**. Siklus hidupnya begini: dia mulai di tubuh kucing, lalu keluar lewat kotoran, termakan oleh tikus, dan begitu masuk ke otak tikus, dia **mengubah perilaku tikus**, membuat tikus tertarik pada bau kucing, sehingga tikus dimakan kucing, dan parasit kembali ke inangnya. Siklus sempurna.
 
@@ -31,13 +31,13 @@ Yang menarik, dan ini yang paling penting, adalah bahwa kasus yang paling **jela
 
 Dan membuktikan posisi moralmu di internet itu gratis. Gratis. Kamu tidak perlu melakukan apa-apa selain menulis beberapa kalimat dan menekan "post." Kamu tidak perlu risiko apapun. Kamu tidak perlu menegur temanmu di group chat. Kamu tidak perlu keluar dari circle yang toxic. Kamu cukup posting, dapat likes, dan merasa sudah berkontribusi pada perjuangan kebaikan.
 
-Ini yang disebut _virtue signalling_. Dan sebelum kamu berpikir "ah, itu cuma istilah yang dipakai sentris untuk mendiskreditkan aktivisme", tunggu dulu. Saya tidak bilang semua orang yang posting itu munafik. Banyak jika bukant _most_ yang _genuinely_ peduli. Masalahnya bukan niat individual, masalahnya adalah **sistemnya tidak bisa membedakan** antara yang tulus dan yang performatif. Instagram tidak punya sensor kejujuran. Algoritma tidak peduli apakah kamu benar-benar pernah menegur temanmu atau tidak. Yang sosial media tahu adalah: postingan ini menghasilkan engagement, _therefore push it to more people_.
+Ini yang disebut _virtue signalling_. Dan sebelum kamu berpikir "ah, itu cuma istilah yang dipakai sentris untuk mendiskreditkan aktivisme", tunggu dulu. Saya tidak bilang semua orang yang posting itu munafik. Banyak, jika bukan _most_, yang _genuinely_ peduli. Masalahnya bukan niat individual, masalahnya adalah **sistemnya tidak bisa membedakan** antara yang tulus dan yang performatif. Instagram tidak punya sensor kejujuran. Algoritma tidak peduli apakah kamu benar-benar pernah menegur temanmu atau tidak. Yang sosial media tahu adalah: postingan ini menghasilkan engagement, _therefore push it to more people_.
 
 Hasilnya? Seorang laki-laki yang share konten _raising awareness rape culture_ adalah orang yang sama persis dengan anak-anak FH UI di group chat tersebut, tanpa rasa ironi sedikitpun, posting thread tentang "dismantling patriarchy" dan mendapat 500 likes. Bukan karena dia jahat. Tapi karena **sistemnya mengizinkannya**. Bahkan **_encourage_**.
 
 Orang-orang ini tidak punya skin in the game. Mereka tidak menanggung risiko apapun dari posisi moral yang mereka ambil. Seorang yang benar-benar anti-pelecehan dan bersedia menegur teman dekatnya, dengan risiko dikucilkan dari circle, punya skin in the game. Seorang yang posting Instagram story tapi diam saat temannya melecehkan orang di depan matanya? _That's not morality. That's PR_.
 
-##  III.
+##  III.
 
 Sekarang kita masuk ke bagian yang lebih _tricky_.
 
@@ -71,7 +71,7 @@ Orang-orang yang menggunakan konsep-konsep ini biasanya **tidak** secara sadar m
 
 Dan ini menciptakan sesuatu yang sangat berbahaya: _imunitas terhadap kritik_. Kalau setiap kritik bisa di-_deflect_ dengan "oh jadi kamu pro-pelecehan?", maka gerakan ini, gerakan apapun, kehilangan mekanisme koreksi internalnya. Ia menjadi _unfalsifiable_. Dan sesuatu yang _unfalsifiable_, kata Karl Popper, bukan sains, itu dogma.
 
-##  IV.
+##  IV.
 
 Ada sebuah pertanyaan yang jarang ditanyakan karena menanyakannya saja sudah berbahaya secara sosial: **dari mana datangnya anak-anak FH UI itu?**
 
@@ -117,7 +117,7 @@ Dan ini, ironisnya, adalah kegagalan yang paling tragis dari semuanya: bukan bah
 
 Analogi yang tepat mungkin bukan reformasi, tapi _prohibition_. Amerika Serikat melarang alkohol pada 1920. Hasilnya bukan masyarakat yang berhenti minum. Hasilnya adalah _speakeasy_ bar, bar bawah tanah yang justru lebih liar dari bar-bar legal yang mereka gantikan. Ketika kamu melarang sesuatu tanpa mengatasi _kenapa_ orang melakukannya, kamu tidak menghilangkan perilaku. Kamu hanya menghilangkan visibilitasnya. Dan sesuatu yang tidak _visible_ jauh lebih sulit untuk di-_address_.
 
-##  V.
+##  V.
 
 "Kill All Men."
 
@@ -149,7 +149,7 @@ Absolutisme retoris itu **terasa** powerful. "ACAB" terlihat lebih badass daripa
 
 Kalau tujuanmu adalah mengubah perilaku dan membangun aliansi, ini bukan strategi. Ini _self-sabotage_.
 
-##  VI.
+##  VI.
 
 Di titik ini, pembaca yang simpatik mungkin bertanya: "Oke, tapi kalau tidak ada slogan absolutis, kalau semuanya harus _nuanced_, bagaimana kita bisa memobilisasi orang? Bagaimana kita bisa membuat orang marah tentang hal-hal yang **_memang layak dimarahi_**?"
 
@@ -161,7 +161,7 @@ Masalahnya: senjata tidak punya tombol sasaran. Senjata bisa diarahkan ke siapa 
 
 Lalu siapa yang menentukan garis antara "kritik yang _legitimate_" dan "_hate speech_"? Antara "joke yang kasar" dan "pelecehan"? Antara "komen untuk konten thirst trap yang consented" dengan "objektifikasi"?
 
-Jawaban jujurnya: **tidak ada yang tahu**. Dan siapa pun yang mengklaim sudah tahu dengan pasti, apakah dia seorang aktivis feminis, seorang tradisionalis konservatif, atau seorang rasionalis di internet, _trust me, they dont, the must be selling something._
+Jawaban jujurnya: **tidak ada yang tahu**. Dan siapa pun yang mengklaim sudah tahu dengan pasti, apakah dia seorang aktivis feminis, seorang tradisionalis konservatif, atau seorang rasionalis di internet, _trust me, they don't, they must be selling something._
 
 Ada dua cara melihat dunia. **Conflict theorist** percaya bahwa pertanyaan-pertanyaan ini dijawab oleh kekuasaan, siapa yang lebih kuat menentukan mana yang benar. **Mistake theorist** percaya bahwa jawaban bisa ditemukan melalui diskusi jujur, data, dan argumentasi yang baik, bahwa "kebenaran" itu bukan milik kelompok manapun tapi sesuatu yang kita cari bersama.
 
@@ -169,7 +169,7 @@ Saya, _by_ _default_, cenderung ke _mistake theory_. Saya **_ingin_** percaya ba
 
 Tapi begini, dan ini mungkin satu-satunya _hill_ yang _I’m willing to die on_, **bahkan jika** _conflict theory_ benar tentang cara dunia bekerja, itu **bukan alasan** untuk mengadopsinya sebagai cara dunia **seharusnya** bekerja. Mengetahui bahwa kekuasaan sering menentukan narasi bukan berarti kita harus menyerah pada logika itu. Justru sebaliknya: itu alasan untuk lebih keras memperjuangkan presisi, konsistensi, dan kejujuran, karena tanpa itu, yang tersisa hanya perang suku tanpa akhir di mana semua orang yakin dirinya benar.
 
-##  VII.
+##  VII.
 
 Di titik sini, saya sudah menghabiskan ribuan kata mengutuk _virtue signalling_, membongkar _motte-and-bailey_, menunjukkan inkonsistensi slogan absolutis, dan menganalisis _feedback loop_ budaya. Saya sudah menggunakan istilah-istilah seperti "kafka trap" dan "unfalsifiable" dan "conflict theory."
 
@@ -203,7 +203,7 @@ Atau mungkin tidak. Mungkin kesadaran ini juga hanya level lain dari signalling,
 
 Kalau itu yang terjadi, _well_. Setidaknya kita sudah sampai cukup jauh untuk bisa _melihat_ regresi itu. Dan itu, saya harap, saya _sungguh_ harap, sedikit lebih baik dari tidak melihatnya sama sekali.
 
-##  VIII.
+##  VIII.
 
 Mari kembali ke FH UI '23.
 

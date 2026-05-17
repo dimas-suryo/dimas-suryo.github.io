@@ -5,17 +5,17 @@ draft: false
 summary: "Mengapa One-Democratic State Palestine adalah Satu-Satunya Jawaban yang Matematis, Sekarang."
 ---
 
-<img src="/palestine-media/image1.jpeg" />Posters: The Palestinian Museum Digital Archive
+{{< figure src="/palestine-media/image1.jpeg" alt="Posters: The Palestinian Museum Digital Archive" caption="Posters: The Palestinian Museum Digital Archive" >}}
 
 **TL;DR**
 
-**_1._** Ethno-State _gagal karena melawan fakta demografi 50:50 yang sulitnya luar biasa. Sistem yang membutuhkan represi permanen untuk_ survive _sulit disebut sebagai sistem, lebih tepat disebut sebagai_ time bomb*.*
+1. **Ethno-State** *gagal karena melawan fakta demografi 50:50 yang sulitnya luar biasa. Sistem yang membutuhkan represi permanen untuk* survive *sulit disebut sebagai sistem, lebih tepat disebut sebagai* time bomb*.*
 
-**_2._** Two-State _gagal karena \>700.000_ Israeli illegal-settlers _dan infrastruktur yang sudah_ entangled _selama lebih dari 57 tahun sejak 1967 (pertama kali aneksasi West Bank) membuat probabilitas suksesnya secara matematis mendekati nol,_ if not zero*.*
+2. **Two-State** *gagal karena >700.000* Israeli illegal-settlers *dan infrastruktur yang sudah* entangled *selama lebih dari 57 tahun sejak 1967 (pertama kali aneksasi West Bank) membuat probabilitas suksesnya secara matematis mendekati nol,* if not zero*.*
 
-**\*3.** Setelah kedua opsi di-*eliminate *lewat pendekatan matematis, yang tersisa hanya satu: One-State Demokratis-Sekuler Palestina, karena dia satu-satunya arsitektur yang tidak* doomed by design*.\*
+3. *Setelah kedua opsi di-*eliminate *lewat pendekatan matematis, yang tersisa hanya satu:* **One-State Demokratis-Sekuler Palestina***, karena dia satu-satunya arsitektur yang tidak* doomed by design*.*
 
-**\*4.** Tidak, saya tidak benar-benar pakai kalkulus. :’(\*
+4. *Tidak, saya tidak benar-benar pakai kalkulus. :’(*
 
 ## I.
 
@@ -35,19 +35,19 @@ Saya tidak berargumen soal moral. _Instead_, saya menggunakan _process of elimin
 
 _Versi terkuat dari argumen Zionis **bukan** “Tuhan kasih tanah ini ke kami.”_ Itu argumen yang mudah di-_refute_.
 
-**\*Versi terkuatnya adalah:** “Setelah Holocaust, kelompok yang secara sistematis diburu dan dibunuh oleh hampir seluruh peradaban Barat selama dua milenium membutuhkan sebuah lokasi fisik yang bisa dipertahankan secara militer, bukan sebagai privilege, tapi sebagai asuransi eksistensial.”\* Dan jujur, menurut saya pribadi, ini argumen yang cukup valid. Saya menghormatinya.
+**Versi terkuatnya adalah:** *“Setelah Holocaust, kelompok yang secara sistematis diburu dan dibunuh oleh hampir seluruh peradaban Barat selama dua milenium membutuhkan sebuah lokasi fisik yang bisa dipertahankan secara militer, bukan sebagai privilege, tapi sebagai asuransi eksistensial.”* Dan jujur, menurut saya pribadi, ini argumen yang cukup valid. Saya menghormatinya.
 
 Lalu,
 
 _Versi terkuat dari Two-State juga **bukan** nostalgia peta 1967._
 
-**\*Versi terkuatnya adalah:** “Satu-satunya cara dua komunitas dengan trauma historis yang saling tumpang-tindih bisa membangun identitas politik yang sehat adalah dengan punya ruang kedaulatan masing-masing terlebih dahulu, integrasi prematur tanpa fondasi kepercayaan hanya akan menciptakan Yugoslavia, bukan Afrika Selatan.”\*
+**Versi terkuatnya adalah:** *“Satu-satunya cara dua komunitas dengan trauma historis yang saling tumpang-tindih bisa membangun identitas politik yang sehat adalah dengan punya ruang kedaulatan masing-masing terlebih dahulu, integrasi prematur tanpa fondasi kepercayaan hanya akan menciptakan Yugoslavia, bukan Afrika Selatan.”*
 
 Dua argumen di atas valid. Saya berikan itu sepenuhnya kepada mereka.
 
 Dan sekarang saya akan mencoba menunjukkan kenapa, bahkan dengan menerima premis terkuat dari kedua argumen itu, **kesimpulannya tetap sama**.
 
-<img src="/palestine-media/image2.jpeg" /><https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank>
+{{< figure src="/palestine-media/image2.jpeg" alt="Mapping how Israel's land grabs are reshaping the occupied West Bank" caption="<a href=&quot;https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank&quot;>Mapping how Israel's land grabs are reshaping the occupied West Bank</a> (Al Jazeera, 2025)" >}}
 
 ## II.
 
@@ -57,7 +57,7 @@ Bertrand Russell, waktu menulis _Principia Mathematica_, membutuhkan **ratusan h
 
 Saya ingin melakukan hal yang serupa di sini. Bukan membuktikan hal yang _complicated_, tapi membuktikan bahwa kesimpulan yang mungkin terlihat kontroversial itu sebenarnya _follows necessarily_ dari premis-premis yang sudah ada.
 
-<img src="/palestine-media/image3.jpeg" />Ey, shout out to The Organic Chemistry Tutor man, helped through my UTBK year
+{{< figure src="/palestine-media/image3.jpeg" alt="Ey, shout out to The Organic Chemistry Tutor man, helped through my UTBK year" caption="Ey, shout out to The Organic Chemistry Tutor man, helped through my UTBK year" >}}
 
 **The Thermodynamics Argument**
 
@@ -89,9 +89,9 @@ _DJ(t) = populasi Yahudi pada waktu t_
 
 Data demografis menunjukkan:
 
-_dDA/dt \> dDJ/dt_
+_dDA/dt > dDJ/dt_
 
-_(growth rate Arab \> Jewish, empirically observed)_
+_(growth rate Arab > Jewish, empirically observed)_
 
 Untuk mempertahankan Ethno-State, dibutuhkan _suppression level σ(t)_ yang proporsional dengan rasio:
 
@@ -99,7 +99,7 @@ _σ(t) ∝ DA(t)/DJ(t)_
 
 Karena _DA(t)/DJ(t)_ adalah fungsi yang **_monotonically increasing_** terhadap _t_:
 
-_dσ/dt \> 0 ∀t_
+_dσ/dt > 0 ∀t_
 
 Artinya _energy input_ untuk represi tidak punya _upper bound_, dia akan terus naik tanpa batas. Sistem yang membutuhkan input tak terbatas untuk bertahan adalah sistem yang secara definitif **tidak _sustainable_**. Ini bukan prediksi politik, ini implikasi matematis langsung dari data demografis.
 
@@ -107,9 +107,9 @@ _Reinforcing feedback loop_-nya bisa direpresentasikan sebagai sistem persamaan 
 
 _d(Represi)/dt = α · Resistensi, d(Resistensi)/dt = β · Represi_
 
-di mana _α, β \> 0_. Sistemnya tidak punya _fixed point_ stabil selain _collapse_ total, eigenvalue-nya positif, artinya solusinya **divergen**, bukan konvergen.
+di mana _α, β > 0_. Sistemnya tidak punya _fixed point_ stabil selain _collapse_ total, eigenvalue-nya positif, artinya solusinya **divergen**, bukan konvergen.
 
-Kembali soal “Asuransi Eksistensial” di paragraf sebelumnya: kebutuhan yang _legitimate_, lokasi fisik yang _defensible_ sebagai asuransi eksistensial, justru tidak terpenuhi oleh Ethno-State yang sedang dalam _reinforcing feedback loop_ menuju _collapse_. Ethno-State dengan demografi 50:50 adalah _less defensible_, bukan lebih. Asuransi eksistensial yang _genuine_ membutuhkan sistem yang stabil, dan itu, setidaknya menurut analisis ini, hanya bisa datang dari _constitutional hard guarantees_ yang melindungi kedua komunitas, bukan dari represi yang _dσ/dt \> 0_-nya tanpa batas atas.
+Kembali soal “Asuransi Eksistensial” di paragraf sebelumnya: kebutuhan yang _legitimate_, lokasi fisik yang _defensible_ sebagai asuransi eksistensial, justru tidak terpenuhi oleh Ethno-State yang sedang dalam _reinforcing feedback loop_ menuju _collapse_. Ethno-State dengan demografi 50:50 adalah _less defensible_, bukan lebih. Asuransi eksistensial yang _genuine_ membutuhkan sistem yang stabil, dan itu, setidaknya menurut analisis ini, hanya bisa datang dari _constitutional hard guarantees_ yang melindungi kedua komunitas, bukan dari represi yang _dσ/dt > 0_-nya tanpa batas atas.
 
 **_The Logical Consistency Problem_**
 
@@ -137,7 +137,7 @@ _S(x) = “kelompok x punya hak self-determination atas wilayah tersebut”_
 
 Sekarang kita coba **Universalizability Test** ala Kant, kalau prinsip ini valid, dia harus bisa dijadikan universal:
 
-_Universalized: ∀x \[P(x) ∧ H(x) → S(x)\]_
+_Universalized: ∀x [P(x) ∧ H(x) → S(x)]_
 
 Masukkan data empiris:
 
@@ -147,7 +147,7 @@ _H(Palestinians), empirically true: continuous presence for centuries, millenniu
 
 **By Modus Ponens:**
 
-_∀x \[P(x) ∧ H(x) → S(x)\], P(Pal) ∧ H(Pal) ⊢ S(Palestinians)_
+_∀x [P(x) ∧ H(x) → S(x)], P(Pal) ∧ H(Pal) ⊢ S(Palestinians)_
 
 **Tapi Zionisme secara bersamaan meng-_assert_:**
 
@@ -159,7 +159,7 @@ _S(Palestinians) ∧ ¬S(Palestinians) ⊢ ⊥_
 
 ⊥ adalah notasi kontradiksi logis, sistem yang menghasilkan ⊥ secara definitif tidak konsisten dan gugur. Ini bukan soal moral atau empati. Ini lebih ke soal Zionisme sebagai prinsip universal menghasilkan kontradiksi formal.
 
-**\*Counterargument yang sering muncul:** “Situasi historisnya beda, klaimnya tidak apple-to-apple.”\*
+**Counterargument yang sering muncul:** *“Situasi historisnya beda, klaimnya tidak apple-to-apple.”*
 
 **_Respons saya:_** itu tidak membantah _universalizability test_, itu mengusulkan bahwa _P_ dan _H_ perlu didefinisikan ulang dengan kondisi tambahan. Tapi kalau kamu menambahkan kondisi supaya hanya _Jews_ yang _qualify_, yang sedang kamu lakukan adalah _ad hoc modification_, menambahkan asumsi ekstra bukan untuk alasan logis, tapi untuk menyelamatkan kesimpulan yang memang sudah diinginkan sejak awal. Sebuah prinsip yang hanya bekerja untuk satu kasus bukanlah prinsip, itu pengecualian yang menyamar.
 
@@ -167,11 +167,11 @@ _Quod erat demonstrandum._
 
 ## III.
 
-<img src="/palestine-media/image4.png" />One Democratic State Campaign, Palestinian-led campaign Against Zionist Israel Government
+{{< figure src="/palestine-media/image4.png" alt="One Democratic State Campaign, Palestinian-led campaign Against Zionist Israel Government" caption="One Democratic State Campaign, Palestinian-led campaign Against Zionist Israel Government" >}}
 
 **Two-State: Banyak Asumsinya, Tipis Probabilitasnya**
 
-**\*Argumen terkuatnya**:* “Bahkan kalo infrastruktur sudah *entangled\*, pemisahan politik bisa dilakukan secara bertahap, lihat Czechoslovakia yang pecah jadi Czech Republic dan Slovakia tahun ‘93 tanpa pertumpahan darah.” Ini preseden yang riil dan sering dipakai.
+**Argumen terkuatnya:** *“Bahkan kalo infrastruktur sudah entangled, pemisahan politik bisa dilakukan secara bertahap, lihat Czechoslovakia yang pecah jadi Czech Republic dan Slovakia tahun ‘93 tanpa pertumpahan darah.”* Ini preseden yang riil dan sering dipakai.
 
 **_Respons saya:_** _Velvet Divorce works_ karena dua kondisi yang tidak ada di sini, kedua pihak secara aktif menginginkan pemisahan, DAN tidak ada populasi 700.000 _illegal-settlers_ dari satu pihak yang sudah _embedded_ di wilayah pihak lain. Tanpa dua kondisi itu, analogi Czechoslovakia runtuh.
 
@@ -225,7 +225,7 @@ Maksudnya dua _sovereign state_ dengan _shared institutions_ dan _open borders_?
 
 ## IV.
 
-<img src="/palestine-media/image5.png" />
+{{< figure src="/palestine-media/image5.png" >}}
 
 Ini bagian di mana saya paling khawatir, dan mungkin kamu juga khawatir tentang saya, bahwa saya terdengar seperti orang yang terlalu _excited_ dengan _Game Theory_ dan lupa bahwa di lapangan ada orang yang kehilangan keluarga mereka. Bahwa saya tidak punya _Skin in the Game_.
 
@@ -241,7 +241,7 @@ Situasi saat ini, setidaknya menurut saya, bisa dimodelkan dengan cukup akurat m
 
 Setup-nya: dua pemain, dua pilihan (_cooperate_ atau _defect_), dan _payoff matrix_ kurang lebih seperti ini:
 
-<img src="/palestine-media/image6.png"  />Payoff Matrix Table (writer’s)
+{{< figure src="/palestine-media/image6.png" alt="Payoff Matrix Table (writer’s)" caption="Payoff Matrix Table (writer’s)" >}}
 
 Angka-angka di atas merepresentasikan _utility_, semakin tinggi, semakin menguntungkan. _Outcome_ ideal untuk kedua pihak adalah (3,3), keduanya _cooperate_, keduanya untung. Tapi perhatikan strukturnya:
 
@@ -251,9 +251,9 @@ Karena logika ini berlaku simetris untuk kedua pihak, **Nash Equilibrium** dari 
 
 Ini, saya pikir, cukup mirip situasi Israel-Palestina hari ini. Kalau kita reduksi: kekerasan dan represi adalah _dominant strategy_ bukan karena kedua pihak “tidak mau damai”, tapi karena dalam struktur permainan yang sekarang, _cooperate_ sepihak berarti _existential vulnerability_.
 
-<img src="/palestine-media/image7.png" />from Meditations on Moloch by Slate Star Codex (Scott Alexander)
+{{< figure src="/palestine-media/image7.png" alt="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" caption="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" >}}
 
-**One-State: _Change the Game Itself_**
+**One-State: _Change the Game Itself_**
 
 Solusinya bukan membujuk pemain untuk “lebih baik hati”. Solusinya adalah **mengubah struktur _payoff matrix_ itu sendiri**.
 
@@ -271,9 +271,9 @@ Hasilnya: **_Mutual Assured Construction_**. Seperti _Mutual Assured Destruction
 
 ## V.
 
-<img src="/palestine-media/image8.jpeg"  />Bayes Theorem visualized
+{{< figure src="/palestine-media/image8.jpeg" alt="Bayes Theorem visualized" caption="Bayes Theorem visualized" >}}
 
-**Demografi Adalah _Likelihood_, Bukan Opini**
+**Demografi Adalah _Likelihood_, Bukan Opini**
 
 _Bayesian reasoning_ pada dasarnya begini: kita punya _prior belief_, lalu kita _update_ _belief_ itu berdasarkan _likelihood_ dari data yang masuk.
 
@@ -283,17 +283,17 @@ _Likelihood_ dari data demografis: populasi 50:50 dengan _growth rate_ Arab Pale
 
 _Posterior belief_ setelah di-_update_: probabilitas Ethno-State bisa _sustained_ jangka panjang tanpa _apartheid_ atau _ethnic cleansing_ = **sangat rendah, mendekati nol**.
 
-**Realitas _De Facto_ di Lapangan**
+**Realitas _De Facto_ di Lapangan**
 
-<img src="/palestine-media/image9.jpeg" />Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)
+{{< figure src="/palestine-media/image9.jpeg" alt="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" caption="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" >}}
 
 700.000+ _settlers_ Israel di West Bank bukan angka politis, itu **realita infrastruktur**. Jalan raya, sistem pengairan, jaringan listrik, dan internet di West Bank sudah terintegrasi ke sistem Israel. Secara fisik, _de facto one-state_ sudah ada sejak beberapa dekade lalu. Yang belum ada hanya _de jure_-nya, pengakuan legal-formal dan konstitusional.
 
 Two-State bukan melanjutkan status quo, tapi _reversing_ realita yang sudah ada. Dan probabilitas _reversal_ infrastruktur sekompleks itu dalam iklim politik sekarang, bahkan setelah bersikap _generous_, mendekati nol, seperti yang sudah dihitung di atas.
 
-**_Historical Base Rate_**
+**_Historical Base Rate_**
 
-<img src="/palestine-media/image10.jpeg"  />The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal
+{{< figure src="/palestine-media/image10.jpeg" alt="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" caption="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" >}}
 
 Dua kasus yang menurut saya paling relevan:
 
@@ -305,13 +305,13 @@ _Historical base rate_: model integrasi demokrasi punya _track record_ yang lebi
 
 ## VI.
 
-<img src="/palestine-media/image11.png" />Types of Boundary Conditions are from Wolfram Math
+{{< figure src="/palestine-media/image11.png" alt="Types of Boundary Conditions are from Wolfram Math" caption="Types of Boundary Conditions are from Wolfram Math" >}}
 
 **Boundary Conditions, Supaya Tidak Jadi Yugoslavia 2.0**
 
 One-State bukan _silver bullet_ yang otomatis _works_. Kalau kamu pernah belajar kimia, pasti paham: reaksi kimia membutuhkan kondisi tertentu untuk berjalan, ada **_hard constraints_** yang, kalau tidak dipenuhi, akan membuat sistem ini _collapse_ jadi versi lain dari konflik yang sama.
 
-<img src="/palestine-media/image12.jpeg"  />Superpower Country, Yugoslavia, to a non-existing one
+{{< figure src="/palestine-media/image12.jpeg" alt="Superpower Country, Yugoslavia, to a non-existing one" caption="Superpower Country, Yugoslavia, to a non-existing one" >}}
 
 **Satu: Konstitusi Sekuler Super-Rigid**
 
@@ -321,13 +321,13 @@ Agama dan etnis harus _completely decoupled_ dari hak kenegaraan. Bukan “negar
 
 _Joint security forces_, militer dan kepolisian yang komposisinya campuran, idealnya di bawah pengawasan pihak ketiga internasional pada 1–2 dekade pertama, atau setidaknya ada dewan pengawas _commissioner-like_. _Vacuum of power_ dalam periode transisi adalah kondisi paling berbahaya karena akan diisi oleh aktor paling ekstrem dari kedua sisi.
 
-**Tiga: Konversi Konflik Historis ke Bahasa Ekonomi**
+**Tiga: Konversi Konflik Historis ke Bahasa Ekonomi**
 
 _Right of return_ untuk pengungsi Palestina, kalau diartikan sebagai perpindahan fisik massal, akan menciptakan _zero-sum game_ baru yang persis sama dengan yang selama ini coba diselesaikan. Solusinya: artikan ke bahasa ekonomi, **reparasi properti ekonomis**. Kompensasi finansial yang terdokumentasi, bukan pengusiran ulang yang akan memicu siklus berikutnya. Ini mengonversi konflik identitas menjadi transaksi yang _finite_ dan bisa diselesaikan.
 
 **Tapi, Lebanon?**
 
-<img src="/palestine-media/image13.jpeg"  />Lebanon Civil War circa 1975–1990 phographed by © Raymond Depardon/Magnum Photos
+{{< figure src="/palestine-media/image13.jpeg" alt="Lebanon Civil War circa 1975–1990 photographed by © Raymond Depardon/Magnum Photos" caption="Lebanon Civil War circa 1975–1990 photographed by © Raymond Depardon/Magnum Photos" >}}
 
 Pertanyaan yang sangat _fair_. Lebanon secara konstitusional, di permukaan, memang mirip dengan apa yang saya _propose_: multi-_community_, satu negara, _power-sharing_. Dan hasilnya? 15 tahun _civil war_, _state collapse_ berulang, dan sekarang dalam kondisi yang sangat rapuh.
 
@@ -337,9 +337,9 @@ Lebanon gagal bukan karena One-State, tapi karena sistem _confessionalism_-nya m
 
 Lebanon bukan _refutation_ One-State. Lebanon adalah _case study_ tentang apa yang terjadi kalau _boundary condition_ nomor satu dilanggar. Ini memperkuat argumen, bukan membantahnya.
 
-**VII.**
+## VII.
 
-<img src="/palestine-media/image14.jpeg"  />UN officials wait to inspect wounded man shot by Israeli forces as he was trying to return the north of the city through Salahaddin Road during four-day humanitarian pause on November 25, 2023, Gaza City, Gaza.
+{{< figure src="/palestine-media/image14.jpeg" alt="UN officials wait to inspect wounded man shot by Israeli forces as he was trying to return the north of the city through Salahaddin Road during four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." caption="UN officials wait to inspect wounded man shot by Israeli forces as he was trying to return the north of the city through Salahaddin Road during four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." >}}
 
 **Transition Problem**
 
@@ -351,7 +351,7 @@ Ini juga bukan argumen _against_ One-State, lebih ke argumen tentang _how_, buka
 
 ## VIII.
 
-<img src="/palestine-media/image15.jpeg"  />[xkcd: Car Size](https://xkcd.com/3167/)
+{{< figure src="/palestine-media/image15.jpeg" alt="xkcd: Car Size" caption="<a href=&quot;https://xkcd.com/3167/&quot;>xkcd: Car Size</a>" >}}
 
 One-State sering dicap utopis oleh kedua sisi sekaligus, atau terlalu “anti-Zionis” dari sisi Israel dan Barat. Tapi _framing_ itu, menurut saya, melewatkan inti argumen.
 
@@ -393,12 +393,12 @@ Ini adalah bentuk inferensi yang **_deductively valid_**, tidak perlu probabilis
 
 Kalau kamu ingin menolak kesimpulan ini, dan saya sungguh-sungguh terbuka untuk itu karena saya sangat mungkin salah, ada beberapa jalur yang bisa kamu tempuh:
 
-\(1\) Tunjukkan di mana aksioma saya keliru.
+(1) Tunjukkan di mana aksioma saya keliru.
 
-\(2\) Tunjukkan bahwa _disjunction_ tidak _exhaustive_, bahwa ada opsi lain yang belum saya pertimbangkan.
+(2) Tunjukkan bahwa _disjunction_ tidak _exhaustive_, bahwa ada opsi lain yang belum saya pertimbangkan.
 
-\(3\) Tunjukkan bahwa _¬E_ atau _¬T_ bisa difalsifikasi, di mana logika berpikir saya cacat.
+(3) Tunjukkan bahwa _¬E_ atau _¬T_ bisa difalsifikasi, di mana logika berpikir saya cacat.
 
-\(4\) Tunjukkan preseden historis di mana Ethno-State dengan rasio demografis 50:50 bisa _sustained_ jangka panjang tanpa _apartheid_ atau _ethnic cleansing_.
+(4) Tunjukkan preseden historis di mana Ethno-State dengan rasio demografis 50:50 bisa _sustained_ jangka panjang tanpa _apartheid_ atau _ethnic cleansing_.
 
 Saya menulis ini sebagai seseorang yang berusaha berpikir jernih, bukan sebagai seseorang yang merasa sudah benar. Kalau ada yang bisa menunjukkan kelemahan fundamental dalam argumen ini, saya akan dengan senang hati merevisi posisi saya. Begitulah seharusnya cara kita berpikir.

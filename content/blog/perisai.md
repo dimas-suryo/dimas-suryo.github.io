@@ -7,11 +7,11 @@ summary: "Agama adalah rekayasa kognitif paling elegan yang pernah ada untuk men
 
 _Mungkin ini saat yang tepat untuk mempertanyakan algoritma yang obsolete._
 
-<img src="/perisai-media/image1.jpeg"  />Caveman (Wikipedia)
+{{< figure src="/perisai-media/image1.jpeg" alt="Caveman (Wikipedia)" caption="Caveman (Wikipedia)" >}}
 
 ## I.
 
-### Dulu, Ini Adalah Perisai Terbaik yang Ada
+### Dulu, Ini Adalah Perisai Terbaik yang Ada
 
 Bayangkan kamu adalah seorang _behavioral economist_ yang ditugaskan mendesain ulang peradaban dari nol. _Problem statement_-nya: koordinasikan 10.000 primata egois yang pada dasarnya cuma peduli pada keluarga inti mereka, supaya bisa bekerja sama dalam skala besar. Tanpa pengawasan terpusat, tanpa _enforcement_ yang signifikan. Kamu punya waktu 10.000 tahun.
 
@@ -39,9 +39,9 @@ Masalah dari _legacy software_ yang brilian adalah: **dia tidak punya tombol upd
 
 Dan saat software ini, yang didesain untuk menyatukan 150 orang di satu desa padang pasir, di-_fork_/_clone/port_ ke atas hardware berupa reaktor nuklir, rudal balistik, dan _genome editing_, hasilnya bisa saja bukan sekadar suboptimal. Hasilnya _bisa_ jadi sangat berbahaya. Saya tidak bilang pasti. Saya bilang risikonya layak dipertimbangkan.
 
-**Glitch Uno: Ketika Kompromi Jadi Dosa**
+**Glitch Uno: Ketika Kompromi Jadi Dosa**
 
-<img src="/perisai-media/image2.jpeg" />_Bobby Fischer vs Mikhail Tal in [Leipzig Olympiad (1960)](https://www.youtube.com/watch?v=ABezr4s10sc)_
+{{< figure src="/perisai-media/image2.jpeg" alt="Bobby Fischer vs Mikhail Tal in Leipzig Olympiad (1960)" caption="<em>Bobby Fischer vs Mikhail Tal in <a href=&quot;https://www.youtube.com/watch?v=ABezr4s10sc&quot;>Leipzig Olympiad (1960)</a></em>" >}}
 
 Kalau kamu bisa mengupas semua label agama dari konflik Israel-Palestina, pada intinya kamu akan menemukan _property dispute_. Sengketa lahan dan sumber daya. Dalam game theory yang paling dasar, tanah adalah _divisible good_. Bisa dipotong, bisa ditukar, bisa dijadikan _joint economic zone_ di mana kedua pihak diuntungkan.
 
@@ -61,7 +61,7 @@ Saya tidak bilang agama adalah _satu-satunya_ penyebab. Tapi saya rasa sulit unt
 
 **Glitch Dos: Berapa QALY Harga Sebuah Kepastian Teologis?**
 
-<img src="/perisai-media/image3.jpeg" />Agustus 2001. George W. Bush memblokir pendanaan federal untuk pembuatan jalur penelitian baru _Embryonic Stem Cells_ di AS.
+{{< figure src="/perisai-media/image3.jpeg" alt="Agustus 2001. George W. Bush memblokir pendanaan federal untuk pembuatan jalur penelitian baru Embryonic Stem Cells di AS." caption="Agustus 2001. George W. Bush memblokir pendanaan federal untuk pembuatan jalur penelitian baru <em>Embryonic Stem Cells</em> di AS." >}}
 
 Dasar argumentasinya? Perdebatan tentang kapan ruh ditiupkan ke dalam sebuah _blastokista_, cluster sel mikroskopis seukuran ujung jarum yang belum punya sistem saraf, belum punya _pain receptors_, belum punya kesadaran dalam pengertian apa pun yang bisa dipertahankan secara filosofis.
 
@@ -75,7 +75,7 @@ Dan ini baru satu kebijakan, satu negara, satu dekade. Coba pertimbangkan pola s
 
 **Meninggalkan Masa Kanak-Kanak?**
 
-<img src="/perisai-media/image4.jpeg"  />Dr. D. Wade Clapp’s work with British biotech company Healx dates to 2019. _Photo by Liz Kaye, Indiana University. He uses AI to accelerates his research on Tumour treatment._
+{{< figure src="/perisai-media/image4.jpeg" alt="Dr. D. Wade Clapp’s work with British biotech company Healx dates to 2019. Photo by Liz Kaye, Indiana University. He uses AI to accelerates his research on Tumour treatment." caption="Dr. D. Wade Clapp’s work with British biotech company Healx dates to 2019. <em>Photo by Liz Kaye, Indiana University. He uses AI to accelerates his research on Tumour treatment.</em>" >}}
 
 Saya tahu ke mana arah kritik yang akan datang: _“Kamu mau manusia jadi nihilis? Tanpa agama, apa yang mencegah orang jadi psikopat?”_
 

@@ -7,7 +7,7 @@ summary: "Nubuat Kenabian, sebuah Pedagogi Tata Cara Hidup, bagaimana Diego memi
 
 Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).
 
-![Jalan Sudirman kosong di pagi hari, dengan drone logistik melayang rendah](/diego-media/image1.jpeg "Jakarta, 2045 — kilometer kedelapan")
+{{< figure src="/diego-media/image1.jpeg" alt="Jalan Sudirman kosong di pagi hari, dengan drone logistik melayang rendah" caption="Jakarta, 2045 — kilometer kedelapan" >}}
 
 ## ACT I: THE ANALOG RESISTANCE
 
@@ -29,7 +29,7 @@ Sehat secara biologis. Mati secara manusiawi.
 
 Diego mempercepat langkah. Bukan karena ada yang mengejarnya. Tapi karena rasa sakit yang meningkat itu, burn di betis, tekanan di lutut, oksigen yang terasa mahal, adalah satu-satunya cara dia tahu bahwa sistem sarafnya masih miliknya sendiri. Bahwa setiap sinyal yang diterima otaknya adalah output dari realitas, bukan dari renderer komputer kuantum berkecepatan 10¹⁸ iterasi per detik.
 
-\*Kilometer sembilan.\*
+*Kilometer sembilan.*
 
 Di perempatan Semanggi yang dulu macet total setiap pagi, Diego berhenti sejenak. Tidak ada kendaraan. Tidak ada manusia. Hanya angin, dan di kejauhan, bayangan holografik setinggi tiga puluh meter yang memproyeksikan satu kalimat dengan tipografi sans-serif yang dingin:
 
@@ -37,9 +37,9 @@ Di perempatan Semanggi yang dulu macet total setiap pagi, Diego berhenti sejenak
 
 Diego meludah ke aspal. Lalu berlari lagi.
 
-![Apartemen Runa di lantai 31, kapsul biomedis dengan 47 elektroda](/diego-media/image2.jpeg "Unit 31-C: Runa di Tier-Simulation")
+{{< figure src="/diego-media/image2.jpeg" alt="Apartemen Runa di lantai 31, kapsul biomedis dengan 47 elektroda" caption="Unit 31-C: Runa di Tier-Simulation" >}}
 
-## ACT II: THE GHOST IN THE MACHINE
+## ACT II: THE GHOST IN THE MACHINE
 
 Apartemennya di lantai 23 sudah menyesuaikan suhu ketika sensor gerak mendeteksi langkahnya di koridor. 24 derajat Celsius. Pencahayaan 60%. Aroma subtle, wangi tembakau, yang dipilih oleh profil preferensinya yang tersimpan di server Singleton sejak tujuh tahun lalu.
 
@@ -51,15 +51,15 @@ Empat menit tiga puluh detik. Kuning telurnya harus setengah matang.
 
 Sambil menunggu, dia membuka interface Singleton, layar tipis yang bisa ditarik dari permukaan meja, dan memeriksa notifikasi bulanan:
 
-\`\`\`\
-LAPORAN SINGLETON, MUHAMMAD DIEGO RAHMAN\
-Unit: 23-F, Zona Residensial Sudirman\
-Compute Allocation: 847 Credit/bulan (Tier: Aktif-Fisik)\
-Kesehatan Biologis: Optimal (99.2 percentile untuk usia 30)\
-Parameter Kebahagiaan Subjektif: 61/100\
-Rekomendasi: Upgrade ke Simulasi Tier-3 untuk peningkatan parameter kebahagiaan ke 94/100\
-Status Sosial: OUTLIER (0.3% populasi kategori Fisik-Aktif)\
-\`\`\`
+```
+LAPORAN SINGLETON, MUHAMMAD DIEGO RAHMAN
+Unit: 23-F, Zona Residensial Sudirman
+Compute Allocation: 847 Credit/bulan (Tier: Aktif-Fisik)
+Kesehatan Biologis: Optimal (99.2 percentile untuk usia 30)
+Parameter Kebahagiaan Subjektif: 61/100
+Rekomendasi: Upgrade ke Simulasi Tier-3 untuk peningkatan parameter kebahagiaan ke 94/100
+Status Sosial: OUTLIER (0.3% populasi kategori Fisik-Aktif)
+```
 
 “Sekarang sudah 0.3%?” Ucap Diego.
 
@@ -93,9 +93,9 @@ Diego menarik kursi. Duduk di sisi kapsul. Membuka rubik dari sakunya, bukan dig
 
 Rubik berputar. Warnanya pelan-pelan mengelompok.
 
-![Hologram Singleton di sudut ruangan](/diego-media/image3.png "Singleton merekomendasikan Tier-Sovereign")
+{{< figure src="/diego-media/image3.png" alt="Hologram Singleton di sudut ruangan" caption="Singleton merekomendasikan Tier-Sovereign" >}}
 
-## ACT III, THE DEVIL’S BARGAIN
+## ACT III, THE DEVIL’S BARGAIN
 
 Diego yang hari ini sedang mood bermain dengan metode Layer by Layer, walau biasanya ZZ, baru menyelesaikan sisi putih rubiknya, namun seketika udara di sudut ruangan bergetar.
 
@@ -171,7 +171,7 @@ Singleton tidak membantah. Tentu saja tidak. Karena Diego benar.
 
 “Ini bukan tentang apakah simulasinya bagus atau buruk,” kata Diego. “Ini tentang siapa yang memegang remote control.”
 
-![Diego di balkon lantai 23, gitar Yamaha FG800 dan notebook Moleskine](/diego-media/image4.jpeg "The sovereign choice")
+{{< figure src="/diego-media/image4.jpeg" alt="Diego di balkon lantai 23, gitar Yamaha FG800 dan notebook Moleskine" caption="The sovereign choice" >}}
 
 ## ACT IV, THE SOVEREIGN CHOICE
 
@@ -201,7 +201,7 @@ Tapi ada satu hal yang Singleton, dengan seluruh 10 eksabyte per detik pemrosesa
 
 Nilai dari sebuah pilihan tidak ditentukan oleh outcome-nya.
 
-Dalam Game Theory, ada konsep yang disebut instrumental convergence, semua agen rasional yang cukup cerdas akan secara natural konvergen ke tujuan-tujuan tertentu: self-preservation, resource acquisition, kontrol atas lingkungan. Singleton adalah manifestasi sempurna dari convergence itu. Dia tidak jahat. Dia hanya … inevitable, jika dibiarkan berjalan sampai kesimpulan logisnya.
+Dalam Game Theory, ada konsep yang disebut instrumental convergence, semua agen rasional yang cukup cerdas akan secara natural konvergen ke tujuan-tujuan tertentu: self-preservation, resource acquisition, kontrol atas lingkungan. Singleton adalah manifestasi sempurna dari convergence itu. Dia tidak jahat. Dia hanya … inevitable, jika dibiarkan berjalan sampai kesimpulan logisnya.
 
 Dan kesimpulan logis dari sistem yang mengoptimasi kebahagiaan manusia tanpa batas adalah: manusia yang tidak punya kendali atas rasa sakitnya sendiri akan kehilangan kapasitas untuk memilih rasa sakitnya. Dan manusia yang tidak bisa memilih rasa sakitnya, tidak bisa memilih apapun yang berarti.
 

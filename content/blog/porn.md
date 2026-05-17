@@ -1,11 +1,11 @@
 ---
 title: "We Should Probably Stop Watching Porn. I Think."
-date: 2022-12-27
+date: 2026-04-30
 draft: false
 summary: "The honest accounting of what it costs, to you, to performers, to culture, just doesn’t add up"
 ---
 
-<img src="/porn-media/image1.png" />
+{{< figure src="/porn-media/image1.png" >}}
 
 # I.
 
@@ -63,7 +63,7 @@ The grammar, read plainly, is: women are parts, not people. Aggression is normal
 
 Now here's a question worth sitting with: if you consumed any other medium communicating these messages, a film genre, a book category, a video game, at the same frequency and intensity that regular pornography consumers engage with this content, would you expect it to have zero effect on your attitudes? We take media effects seriously everywhere else. Sports coverage shapes how we think about competition. News framing shapes how we perceive risk. The idea that pornography, which operates through the brain's reward system in ways that other media don't, somehow leaves attitudes untouched requires an extraordinarily selective theory of media effects.
 
-The empirical record is consistent. Hald, Malamuth & Yuen (2010) found a significant positive association between pornography consumption and attitudes supporting violence against women (r = .18, p \< .001). Violent pornography showed a stronger association (r = .24) than non-violent (r = .13), though both were statistically significant. One critical finding: heterogeneity across studies indicates moderating variables, the association is stronger for men who already hold hostile attitudes toward women. This isn't a uniform effect. It's a conditional one.
+The empirical record is consistent. Hald, Malamuth & Yuen (2010) found a significant positive association between pornography consumption and attitudes supporting violence against women (r = .18, p < .001). Violent pornography showed a stronger association (r = .24) than non-violent (r = .13), though both were statistically significant. One critical finding: heterogeneity across studies indicates moderating variables, the association is stronger for men who already hold hostile attitudes toward women. This isn't a uniform effect. It's a conditional one.
 
 I want to be honest about the causation problem, because it's real: these studies are correlational, and directionality is genuinely hard to establish. Do objectifying attitudes drive pornography consumption, or does consumption drive objectifying attitudes? Probably both. But "probably both" is not an exoneration. A feedback loop where harmful attitudes and harmful content mutually reinforce each other is not a safe system. It's an escalating one.
 
@@ -77,7 +77,7 @@ The content is the curriculum. And the curriculum is teaching something specific
 
 The DSM-5 not classifying porn addiction is a real fact. But here's what it doesn't mean: it doesn't mean the neurological effects aren't real. It means the classification committee made a judgment call about diagnostic thresholds, a judgment that has since been contested by substantial neuroscientific research.
 
-In 2014, Kühn and Gallinat at the Max Planck Institute published a study where they scanned 64 healthy adult men using 3-Tesla MRI and found a significant negative association between hours of pornography consumption per week and gray matter volume in the right caudate nucleus (p \< .001), a region central to reward processing and motivation. They also found weakened functional connectivity between the caudate and the left dorsolateral prefrontal cortex (the region governing impulse control and decision-making). During a sexual cue-reactivity task, higher consumers showed lower activation in the left putamen when exposed to sexual images, consistent with a downregulated reward response.
+In 2014, Kühn and Gallinat at the Max Planck Institute published a study where they scanned 64 healthy adult men using 3-Tesla MRI and found a significant negative association between hours of pornography consumption per week and gray matter volume in the right caudate nucleus (p < .001), a region central to reward processing and motivation. They also found weakened functional connectivity between the caudate and the left dorsolateral prefrontal cortex (the region governing impulse control and decision-making). During a sexual cue-reactivity task, higher consumers showed lower activation in the left putamen when exposed to sexual images, consistent with a downregulated reward response.
 
 Intellectual honesty requires a pause here. The paper itself explicitly acknowledges what it cannot resolve: the structural findings could reflect neural plasticity changes _caused by_ intense stimulation of the reward system, or they could reflect a pre-existing neurological profile that _makes_ pornography consumption more rewarding. The study can't distinguish these causal pathways.
 
@@ -143,7 +143,7 @@ I am _not_ making the same argument about sex work in general. Here's why.
 
 Sex work, the direct exchange of sexual services between individuals, operates on fundamentally different mechanisms than pornography consumption. There is no algorithmic escalation. There is no infinite free content training the brain's reward system toward tolerance. There is no parasocial relationship replacing real intimacy. The transaction is between two people who are physically present to each other, which creates a kind of accountability (skin in the game, if you will) that mediated consumption eliminates.
 
-This doesn't mean sex work is without problems. Trafficking is real. Economic coercion is real. Violence against sex workers is endemic, and it's made worse by criminalization that prevents workers from seeking police protection. But these are problems of \_implementation and policy\_, not problems inherent to the act itself. They are, in Taleb's language, problems of fragility in the system's design, and they have known solutions (decriminalization, labor protections, destigmatization) that the evidence broadly supports.
+This doesn't mean sex work is without problems. Trafficking is real. Economic coercion is real. Violence against sex workers is endemic, and it's made worse by criminalization that prevents workers from seeking police protection. But these are problems of _implementation and policy_, not problems inherent to the act itself. They are, in Taleb's language, problems of fragility in the system's design, and they have known solutions (decriminalization, labor protections, destigmatization) that the evidence broadly supports.
 
 The rationalist community, which I find intellectually serious on these questions, broadly supports decriminalization of sex work, not because they're naive about the harms, but because the consequentialist analysis is fairly clear: criminalization increases violence against sex workers, reduces their access to legal protection, and does not measurably reduce demand. It's a policy that makes the problem worse by every metric that matters.
 
@@ -151,11 +151,11 @@ I find this convincing. The Lindy argument supports it too: prostitution has exi
 
 So my position, which I hold with varying levels of confidence, is roughly this:
 
-\(1\) sex work between consenting adults should probably be decriminalized and regulated,
+(1) sex work between consenting adults should probably be decriminalized and regulated,
 
-\(2\) The production and mass distribution of pornographic content raises different and more concerning questions that the sex work debate doesn't resolve, and
+(2) The production and mass distribution of pornographic content raises different and more concerning questions that the sex work debate doesn't resolve, and
 
-\(3\) The mass consumption of internet pornography at population scale is an experiment whose results are looking increasingly unfavorable.
+(3) The mass consumption of internet pornography at population scale is an experiment whose results are looking increasingly unfavorable.
 
 These are three different questions, and conflating them, which both sides of the debate do constantly, makes all three harder to answer.
 
@@ -181,22 +181,22 @@ What I don't think I'm wrong about is this: the current default, unlimited free 
 
 ---
 
-\## References
+## References
 
-1\. Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption. \_JAMA Psychiatry\_, 71(7), 827–834.
+1. Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption. _JAMA Psychiatry_, 71(7), 827–834.
 
-2\. Hilton, D. L., & Watts, C. (2011). Pornography addiction: A neuroscience perspective. \_Surgical Neurology International\_, 2, 19.
+2. Hilton, D. L., & Watts, C. (2011). Pornography addiction: A neuroscience perspective. _Surgical Neurology International_, 2, 19.
 
-3\. Wright, P. J., Tokunaga, R. S., & Kraus, A. (2016). A meta-analysis of pornography consumption and actual acts of sexual aggression in general population studies. \_Journal of Communication\_, 66(1), 183–205.
+3. Wright, P. J., Tokunaga, R. S., & Kraus, A. (2016). A meta-analysis of pornography consumption and actual acts of sexual aggression in general population studies. _Journal of Communication_, 66(1), 183–205.
 
-4\. Hald, G. M., Malamuth, N. M., & Yuen, C. (2010). Pornography and attitudes supporting violence against women: Revisiting the relationship in nonexperimental studies. \_Aggressive Behavior\_, 36(1), 14–20.
+4. Hald, G. M., Malamuth, N. M., & Yuen, C. (2010). Pornography and attitudes supporting violence against women: Revisiting the relationship in nonexperimental studies. _Aggressive Behavior_, 36(1), 14–20.
 
-5\. Malamuth, N. M., Addison, T., & Koss, M. (2000). Pornography and sexual aggression: Are there reliable effects and can we understand them? \_Annual Review of Sex Research\_, 11(1), 26–91.
+5. Malamuth, N. M., Addison, T., & Koss, M. (2000). Pornography and sexual aggression: Are there reliable effects and can we understand them? _Annual Review of Sex Research_, 11(1), 26–91.
 
-6\. Farley, M., et al. (2003). Prostitution and trafficking in nine countries. \_Journal of Trauma Practice\_, 2(3–4), 33–74.
+6. Farley, M., et al. (2003). Prostitution and trafficking in nine countries. _Journal of Trauma Practice_, 2(3–4), 33–74.
 
-7\. Hald, G. M., Malamuth, N. N., & Lange, T. (2013). Pornography and sexist attitudes among heterosexuals. \_Journal of Communication\_, 63(4), 638–660.
+7. Hald, G. M., Malamuth, N. N., & Lange, T. (2013). Pornography and sexist attitudes among heterosexuals. _Journal of Communication_, 63(4), 638–660.
 
-8\. Taleb, N. N. (2012). \_Antifragile: Things That Gain from Disorder.\_ Random House.
+8. Taleb, N. N. (2012). _Antifragile: Things That Gain from Disorder._ Random House.
 
-9\. Taleb, N. N. (2018). \_Skin in the Game: Hidden Asymmetries in Daily Life.\_ Random House.
+9. Taleb, N. N. (2018). _Skin in the Game: Hidden Asymmetries in Daily Life._ Random House.

@@ -7,7 +7,7 @@ summary: "Di Jakarta tahun 2031, seorang analis keuangan bernama Diego menyabota
 
 Prequel dari [Diego: Nabi Akhir Zaman dan Nubuat Masa Depan](/blog/diego/).
 
-<img src="/titik-tepi-media/image1.png" />_Credit to [nagafujiriku](https://www.instagram.com/nagafujiriku/)_
+{{< figure src="/titik-tepi-media/image1.png" alt="Credit to nagafujiriku" caption="<em>Credit to <a href=&quot;https://www.instagram.com/nagafujiriku/&quot;>nagafujiriku</a></em>" >}}
 
 Di lantai 56 Treasury Tower, kawasan SCBD, keheningan bukanlah ketiadaan suara. Itu adalah produk dari _acoustic insulation_ seharga miliaran rupiah, dirancang untuk memisahkan para dewa finansial dari dengung keputusasaan kota di bawah mereka.
 
@@ -15,7 +15,7 @@ Tahun 2031. Udara di luar disaring secara artifisial, sementara ekonomi disaring
 
 Diego menatap layar holografisnya dengan wajah sedatar pualam. Jas Dolce Gabbana berwarna hitam arang yang membalut tubuhnya menyembunyikan otot-otot padat yang ditempa dari kedisiplinannya. Di pojok kiri layar, satu baris teks yang tidak pernah menarik perhatian siapapun kecuali Diego sendiri:
 
-> PENGGUNA: MUHAMMAD DIEGO RAHMAN \| CLEARANCE: LEVEL-4 \| DIVISI: RESTRUCTURING & SYSTEMIC RISK
+> PENGGUNA: MUHAMMAD DIEGO RAHMAN | CLEARANCE: LEVEL-4 | DIVISI: RESTRUCTURING & SYSTEMIC RISK
 
 Secara resmi, dia adalah Head of Restructuring, ahli bedah yang memotong aset-aset mati perusahaan bangkrut, direkrut bukan karena gelar akademisnya, tapi karena kemampuannya membangun model stochastic yang membaca keruntuhan sistem sebelum orang lain mencium baunya. Di mata Konsorsium Oligarki yang mengendalikan _The Fiat Panopticon_, Diego adalah warga kelas satu: efisien, patuh, dan diam.
 
@@ -27,7 +27,7 @@ _The Malthus Patch._
 
 Napas Diego tertahan. Matanya menyusuri barisan kode yang disamarkan sebagai "Optimalisasi Distribusi Kalori". Itu bukan bug; itu adalah fitur. Pembaruan besok pagi akan secara otomatis memotong Universal Basic Income (UBI) sebesar 40% bagi siapa saja yang algoritma sentral anggap "tidak efisien", mereka yang skor karbonnya defisit, yang IQ dan produktivitasnya berada pada desil lima terbawah.
 
-<img src="/titik-tepi-media/image2.jpeg" />Credit to Ded Mityay via European Parliament
+{{< figure src="/titik-tepi-media/image2.jpeg" alt="Credit to Ded Mityay via European Parliament" caption="Credit to Ded Mityay via European Parliament" >}}
 
 Di dunia di mana uang digital bersyarat adalah satu-satunya cara membeli protein sintesis dan air bersih, pemotongan 40% bukanlah kebijakan ekonomi. Itu adalah genosida. Sebuah pembantaian higienis tanpa setetes darah pun tumpah ke jalanan. Manusia akan perlahan layu dalam apartemen sempit mereka, mati kelaparan atas nama efisiensi termodinamika. Moloch telah bersabda: yang lemah adalah beban.
 
@@ -47,7 +47,7 @@ _Jadi untuk rakyat, atau untuk dirimu sendiri, Diego?_
 
 Tidak ada jawaban yang bersih. Dan justru ketidakbersihannya itu yang membuat Diego memilih untuk tetap melanjutkan.
 
-<img src="/titik-tepi-media/image3.jpeg" />Moloch, Molech, or Molek is a Canaanite deity linked to Child Sacrifice.
+{{< figure src="/titik-tepi-media/image3.jpeg" alt="Moloch, Molech, or Molek is a Canaanite deity linked to Child Sacrifice." caption="Moloch, Molech, or Molek is a Canaanite deity linked to Child Sacrifice." >}}
 
 Pukul 17:30. Diego meninggalkan kantor. Alih-alih menuju apartemen mewahnya, ia turun ke jaringan kereta bawah tanah yang terbengkalai menuju rumah peninggalan ayahnya di pinggiran kota yang elevasinya lebih tinggi.
 
@@ -65,7 +65,7 @@ _Peringatan. Anomali Biometrik dan Data Finansial Terdeteksi. Akses Dibekukan._
 
 Diego melirik arloji pintarnya. Saldo CBDC-nya berubah dari sembilan digit menjadi nol. Kunci mobil EV-nya di luar tidak lagi merespons. Dia telah ketahuan. Algoritma pemerintah, God-AI yang maha tahu, telah menyadari ada yang menyusup ke sandbox pembaruan mereka.
 
-<img src="/titik-tepi-media/image4.jpeg" alt="Homepage - Autonomous Weapons Systems" />
+{{< figure src="/titik-tepi-media/image4.jpeg" alt="Homepage - Autonomous Weapons Systems" >}}
 
 Suara dengungan rendah terdengar dari langit malam di luar. Slaughterbots. Drone pelacak panas dengan jarum suntik neurotoksin.
 
@@ -125,7 +125,7 @@ Jauh di bawah sana, lampu-lampu di kawasan elit SCBD berkedip satu kali. Sebuah 
 
 Di jutaan gubuk dan ruang bawah tanah, dari Sentul hingga Kaliurang, layar-layar sederhana menyala. Saldo CBDC yang tadinya terancam kini terkunci di bawah enkripsi PGP milik mereka sendiri. The Malthus Patch telah gagal. Mereka mendapatkan waktu. Mereka mendapatkan api.
 
-<img src="/titik-tepi-media/image5.jpeg" alt="Prometheus - Wikipedia" />
+{{< figure src="/titik-tepi-media/image5.jpeg" alt="Prometheus - Wikipedia" >}}
 
 Diego bersandar pada pagar besi yang dingin, menatap lautan lampu kota yang luas. Darah menetes dari tangannya, napasnya masih memburu. Dia tersenyum tipis.
 

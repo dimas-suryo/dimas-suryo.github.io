@@ -49,7 +49,7 @@ Itu bukan alasan untuk berhenti membaca. Justru sebaliknya.
 
 ## II.
 
-Kata "lemah" itu bermasalah. Saya tahu itu. Dalam konteks diskursus gender, menyebut laki-laki "lemah" terdengar seperti sesuatu yang akan dikatakan oleh _alpha male podcast host_ yang menjual _course_ seharga \$499 tentang cara _mewing_ yang benar atau _bootcamp trading_ dan jadi kaya dalam 1 bulan. Saya perlu mendefinisikan apa yang saya maksud dan, sama pentingnya, apa yang _tidak_ saya maksud, sebelum kita bisa melanjutkan.
+Kata "lemah" itu bermasalah. Saya tahu itu. Dalam konteks diskursus gender, menyebut laki-laki "lemah" terdengar seperti sesuatu yang akan dikatakan oleh _alpha male podcast host_ yang menjual _course_ seharga $499 tentang cara _mewing_ yang benar atau _bootcamp trading_ dan jadi kaya dalam 1 bulan. Saya perlu mendefinisikan apa yang saya maksud dan, sama pentingnya, apa yang _tidak_ saya maksud, sebelum kita bisa melanjutkan.
 
 **Yang BUKAN definisi "lemah" di tulisan ini:**
 
@@ -259,7 +259,7 @@ Tapi _ultimately_, semua orang menghadapi _constraints_. Semua orang beroperasi 
 
 Memahami konteks ini penting bukan untuk membenarkan kelemahan, tapi untuk **mendesain intervensi yang benar-benar bekerja.** "Man up" bukan intervensi. Itu slogan. Dan slogan tidak mengubah _environment_. Yang mengubah _environment_ adalah pemahaman yang cukup presisi tentang _mekanisme_ yang menghasilkan _outcome_ yang tidak kita inginkan, sehingga kita bisa memodifikasi _mekanisme_ itu, bukan hanya berteriak pada _output_-nya.
 
-Tapi sebelum kita bicara tentang solusi, ada satu pertanyaan lagi yang perlu dijawab: **kenapa ini masalah buat \*kamu\*?** Kenapa kelemahan laki-laki bukan hanya masalah laki-laki? Kenapa polutan ini, meminjam metafora dari Section II, mencemari lebih dari sekedar sumbernya?
+Tapi sebelum kita bicara tentang solusi, ada satu pertanyaan lagi yang perlu dijawab: **kenapa ini masalah buat *kamu*?** Kenapa kelemahan laki-laki bukan hanya masalah laki-laki? Kenapa polutan ini, meminjam metafora dari Section II, mencemari lebih dari sekedar sumbernya?
 
 ## IV.
 
@@ -293,7 +293,7 @@ Di "Stop The All," saya menulis tentang bagaimana _virtue signalling_ mengkontam
 
 Laki-laki yang posting Instagram story tentang _rape culture_ tapi _group chat_-nya tidak bersih, ini bukan _cognitive dissonance_ yang random. Ini **Symptom kelima dari sindrom yang sama**: _virtue_ tanpa harga. Laki-laki yang tidak punya _skin in the game_ di domain manapun yang bermakna, yang _default mode_-nya menghindari _discomfort_, akan secara natural gravitate ke bentuk "kontribusi" yang paling murah yang tersedia. Dan tidak ada kontribusi yang lebih murah daripada posting di media sosial.
 
-Efek dari kontaminasi ini bukan hanya bahwa diskursusnya menjadi performatif. Efek yang lebih merusak adalah bahwa **diskursusnya menjadi \*unfalsifiable\*.** Ketika orang-orang yang paling vokal tentang isu gender adalah orang-orang yang paling tidak memiliki _skin in the game_, maka apa yang mereka katakan tidak pernah diuji oleh realita. Dan klaim yang tidak diuji oleh realita hanya bisa mengalami satu hal: eskalasi. _Motte_ bergeser menjadi _bailey_. Bahasa yang mulanya reasonable menjadi absolutis. "Ada pola yang perlu diperbaiki" bergeser menjadi "Kill All Men." Bukan karena orang-orang yang terlibat jahat, tapi karena **tidak ada mekanisme koreksi**, tidak ada _skin in the game_ yang memaksa klaim-klaim ini berhadapan dengan konsekuensi.
+Efek dari kontaminasi ini bukan hanya bahwa diskursusnya menjadi performatif. Efek yang lebih merusak adalah bahwa **diskursusnya menjadi *unfalsifiable*.** Ketika orang-orang yang paling vokal tentang isu gender adalah orang-orang yang paling tidak memiliki _skin in the game_, maka apa yang mereka katakan tidak pernah diuji oleh realita. Dan klaim yang tidak diuji oleh realita hanya bisa mengalami satu hal: eskalasi. _Motte_ bergeser menjadi _bailey_. Bahasa yang mulanya reasonable menjadi absolutis. "Ada pola yang perlu diperbaiki" bergeser menjadi "Kill All Men." Bukan karena orang-orang yang terlibat jahat, tapi karena **tidak ada mekanisme koreksi**, tidak ada _skin in the game_ yang memaksa klaim-klaim ini berhadapan dengan konsekuensi.
 
 Dan siapa yang menanggung biaya dari diskursus yang terkontaminasi ini? Dua kelompok.
 

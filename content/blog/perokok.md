@@ -5,7 +5,7 @@ draft: false
 summary: "Menurut saya, merokok bukan sekadar pilihan kesehatan pribadi, melainkan tindakan pengecut karena mengorbankan orang lain melalui asap rokok (termasuk anak-anak), membebani sistem kesehatan publik, dan mencerminkan ketidakberanian untuk menghadapi kecanduan serta menolak perubahan struktural yang diperlukan di Indonesia."
 ---
 
-<img src="/perokok-media/image1.png" />from JKN (2023)
+{{< figure src="/perokok-media/image1.png" alt="from JKN (2023)" caption="from JKN (2023)" >}}
 
 Kamu duduk di warung kopi. Di sebelahmu ada bapak-bapak yang menyalakan sebatang kretek, menghisapnya dalam-dalam, lalu menghembuskan asap tebal ke arah meja sebelah, tempat seorang ibu muda duduk bersama bayinya yang belum genap setahun. Bapak itu tidak merasa bersalah. Ibu itu tidak protes. Semua orang di warung itu menganggap pemandangan ini normal.
 
@@ -83,7 +83,7 @@ Dan studi terbaru dari Mensa Indonesia, menunjukkan sesuatu yang menarik: preval
 
 Ini bukan soal menghina kecerdasan perokok. Ini soal mengakui bahwa keputusan untuk terus merokok, terutama di era di mana informasi tentang bahayanya sudah tersedia di mana-mana, adalah keputusan yang didorong oleh kelemahan, bukan kekuatan. Oleh kebiasaan, bukan pilihan sadar. Oleh ketidakmampuan menghadapi _discomfort_ jangka pendek dari berhenti, bukan keberanian untuk menghadapi realita.
 
-Dan mekanisme psikologis yang paling sering digunakan perokok untuk membenarkan perilakunya, \*”**kakek saya ngrokok sampai 90 tahun”\***, **_”kita semua juga akan mati”_**, **_”hidup cuma sekali”_**, semuanya adalah bentuk **_survivorship bias_** dan rasionalisasi. Seorang rasionalis sejati akan mengenali ini sebagai **motivated reasoning**, mencari alasan untuk membenarkan keputusan yang sudah diambil, bukan mengevaluasi bukti secara jujur sebelum memutuskan.
+Dan mekanisme psikologis yang paling sering digunakan perokok untuk membenarkan perilakunya, **_”kakek saya ngrokok sampai 90 tahun”_**, **_”kita semua juga akan mati”_**, **_”hidup cuma sekali”_**, semuanya adalah bentuk **_survivorship bias_** dan rasionalisasi. Seorang rasionalis sejati akan mengenali ini sebagai **motivated reasoning**, mencari alasan untuk membenarkan keputusan yang sudah diambil, bukan mengevaluasi bukti secara jujur sebelum memutuskan.
 
 Itu, sejujurnya, pengecut. Bukan karena kamu lemah secara fisik. Tapi karena kamu tidak cukup berani untuk jujur pada dirimu sendiri.
 
