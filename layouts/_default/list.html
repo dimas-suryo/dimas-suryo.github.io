@@ -1,0 +1,57 @@
+{{ define "main" }}
+<main>
+  <header style="margin-bottom: 30px;">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}
+    <p style="opacity: 0.7;">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{/* Intro / body text dari _index.md, tapi jangan tampilkan kalau cuma whitespace */}}
+  {{ with .Content }}
+  <section style="margin-bottom: 40px;">
+    {{ . }}
+  </section>
+  {{ end }}
+
+  {{/* Sub-section (mis. /review/ punya child: food, music, dst.) */}}
+  {{ $sections := where .Pages "Kind" "section" }}
+  {{ with $sections }}
+  <section style="margin-bottom: 40px;">
+    <h2>Kategori</h2>
+    <ul>
+      {{ range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.summary }}<span style="opacity: 0.6;"> — {{ . }}</span>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* Halaman/post reguler di section ini */}}
+  {{ $posts := where .Pages "Kind" "page" }}
+  {{ with $posts }}
+  <section>
+    {{ if $sections }}<h2>Tulisan</h2>{{ end }}
+    <ul>
+      {{ range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Date }}
+        <span style="opacity: 0.5; font-size: 0.85em;">
+          — {{ .Date.Format "2 Jan 2006" }}
+        </span>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ else }}
+    {{ if not $sections }}
+    <p style="opacity: 0.6;">Belum ada tulisan di sini.</p>
+    {{ end }}
+  {{ end }}
+</main>
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main>
+  <article>
+    <header style="margin-bottom: 30px;">
+      <h1>{{ .Title }}</h1>
+      {{ if and .Date (not .Params.hideDate) }}
+      <p style="opacity: 0.6; font-size: 0.9em;">
+        {{ .Date.Format "2 January 2006" }}
+        {{ with .Params.rating }} · Rating: {{ . }}/5{{ end }}
+      </p>
+      {{ end }}
+    </header>
+
+    <section>
+      {{ .Content }}
+    </section>
+
+    {{ if .Parent }}
+      {{ if ne .Parent.Title .Site.Title }}
+      <p style="margin-top: 40px;">
+        <a href="{{ .Parent.RelPermalink }}">← Kembali ke {{ .Parent.Title }}</a>
+      </p>
+      {{ end }}
+    {{ end }}
+  </article>
+</main>
+{{ end }}
