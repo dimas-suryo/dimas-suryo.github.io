@@ -17,11 +17,11 @@ _Ini snapshot tentang apa yang sedang saya fokuskan sekarang, bukan arsip. Terak
 
 - Sedang di tengah beberapa buku sekaligus (kebiasaan buruk). For the next few weeks, antara lain:
 
-1. _The Elephant in the Brain by Robin Hanson,_
-2. _Modern Principles by Tyler Cowen,_
-3. _The Myth of the Rational Voter by Bryan Caplan,_
-4. _10% Less Democracy by Garett Jones, dan_
-5. _Inadequate Equilibria by Eliezer Yudkowsky._
+- 1. _The Elephant in the Brain by Robin Hanson,_
+- 2. _Modern Principles by Tyler Cowen,_
+- 3. _The Myth of the Rational Voter by Bryan Caplan,_
+- 4. _10% Less Democracy by Garett Jones, dan_
+- 5. _Inadequate Equilibria by Eliezer Yudkowsky._
 
 - Bukan tidak mungkin list di pertengahan pekan berganti :).
 

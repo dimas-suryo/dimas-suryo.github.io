@@ -7,9 +7,9 @@ summary: "The honest accounting of what it costs, to you, to performers, to cult
 
 {{< figure src="/porn-media/image1.png" >}}
 
-# I.
+## I.
 
-## The Problem With How We Talk About This
+### The Problem With How We Talk About This
 
 Let me be direct: this essay is going to make some people uncomfortable. Not because I'm moralizing, I'm not a pastor and this isn't a sermon. But because the data on what pornography actually does, at scale, to real people, is genuinely disturbing. And we've collectively agreed, for reasons worth examining, not to talk about it seriously.
 
@@ -23,9 +23,9 @@ Pornography is in that same uncomfortable transition. The conversation has been 
 
 That's the question I'm trying to work through. I want to be upfront: I'm not fully confident in my conclusions. The evidence is strong in some places and genuinely ambiguous in others. But I think the overall picture is concerning enough that intellectual honesty requires engagement rather than dismissal.
 
-# II.
+## II.
 
-## The Best Case For Porn, as I Really Am Trying To Be Fair
+### The Best Case For Porn, as I Really Am Trying To Be Fair
 
 **Argument 1: Bodily autonomy is not negotiable.** If consenting adults choose to film themselves having sex and distribute that content, the baseline presumption should be: this is none of your business. We don't ban coal mining because it's dangerous. We don't ban alcohol because it causes addiction. The moment governments or social pressure campaigns determine which legal sexual expression is acceptable, we are on extremely dangerous ground. Gay pornography was criminalized within living memory. "Harm" rhetoric has historically been weaponized against minority sexualities more than anyone else. The autonomy argument isn't a cop-out. It's a hard-won principle.
 
@@ -39,7 +39,7 @@ That's the question I'm trying to work through. I want to be upfront: I'm not fu
 
 Arguments 1 and 3 in particular are ones I take seriously and won't fully refute, I'll be honest about that. What I am going to argue is this: even granting full autonomy to every performer, even believing every performer's consent is genuine, the downstream effects on viewers, on culture, and on the most structurally vulnerable people inside the industry are severe enough that the honest, evidence-based position is: _we should probably stop._
 
-# III.
+## III.
 
 Prostitution, the direct exchange of sexual services between individuals, has existed in virtually every human civilization for thousands of years. Whatever its social costs (and they are real), the practice itself has coexisted with functional societies across vastly different cultures, legal frameworks, and moral systems. Prostitution is Lindy.
 
@@ -49,9 +49,9 @@ This is the distinction that both pro-porn libertarians and anti-porn conservati
 
 When the downside is potentially severe, non-linear, and difficult to reverse, the burden of proof should sit with those claiming safety, not those raising concerns. And it applies to pornography with unusual clarity. Brain architecture changes are not easily reversed. Normalized attitudes toward aggression are not easily unlearned. The question is not "can you prove porn is harmful?" The question is "can you prove it's safe?" And the honest answer is: no, we can't. Not yet. Maybe not ever, given the timescale required.
 
-# IV.
+## IV.
 
-## What Pornography Actually Teaches
+### What Pornography Actually Teaches
 
 Every medium has a grammar. Film teaches you how to read a scene through camera angles, editing, framing. Pornography has a grammar too.
 
@@ -71,9 +71,9 @@ The youth dimension makes this more urgent. In the absence of comprehensive sex 
 
 The content is the curriculum. And the curriculum is teaching something specific.
 
-# V.
+## V.
 
-## "Porn Addiction Isn't Real." Okay, Let's Actually Test That.
+### "Porn Addiction Isn't Real." Okay, Let's Actually Test That.
 
 The DSM-5 not classifying porn addiction is a real fact. But here's what it doesn't mean: it doesn't mean the neurological effects aren't real. It means the classification committee made a judgment call about diagnostic thresholds, a judgment that has since been contested by substantial neuroscientific research.
 
@@ -87,9 +87,9 @@ What about David Ley's moral incongruence theory, the idea that people feel "add
 
 Here's my honest summary: "porn addiction" as a clinical label remains contested and the causal arrow in the neuroimaging data is not fully resolved. But the neurological associations with heavy pornography consumption, reduced striatal gray matter, weakened frontostriatal connectivity, blunted reward response, are real and replicable. The distinction between "we can't call it an addiction yet" and "the brain effects aren't happening" is enormous, and collapsing it is not a neutral act.
 
-# VI.
+## VI.
 
-## Does Porn Reduce Violence? The Safety Valve, Tested
+### Does Porn Reduce Violence? The Safety Valve, Tested
 
 The cross-national correlational data is real: some countries that liberalized pornography access saw rape rates stay flat or decline. That finding shouldn't be dismissed. But correlation between national policy liberalization and rape statistics is an extraordinarily blunt instrument. It can't account for simultaneous changes in reporting rates, policing, cultural attitudes, or dozens of other variables shifting across the same time period.
 
@@ -99,9 +99,9 @@ Malamuth et al.'s confluence model adds nuance. The relationship between pornogr
 
 So here's the more precise statement: pornography may function as a pressure valve for men with no pre-existing risk factors. For men who are already on the risk spectrum, and there are a lot of them, it functions as an accelerant. The safety valve hypothesis assumes a uniform population. The data shows the population is not uniform. And if you can't tell which type you're talking to, and you really can't, the aggregate bet is not obviously safe.
 
-# VII.
+## VII.
 
-## Skin in the Game: Who Actually Bears the Risk?
+### Skin in the Game: Who Actually Bears the Risk?
 
 Taleb's core ethical insight is about symmetry: in any system, the people making decisions should bear the consequences of those decisions. When the risk-takers and the reward-collectors are different people, you have a structural problem, what Taleb calls the "Bob Rubin Trade," after the Citigroup executive who collected enormous bonuses during good times and faced no personal downside when the firm needed a taxpayer bailout.
 
@@ -115,9 +115,9 @@ The most unambiguous case is the PornHub scandal documented by Nicholas Kristof 
 
 The asymmetry here is staggering. Platform executives collected revenue from this content. They bore none of the harm. The performers and victims bore all of it. That is the precise structure Taleb identifies as ethically bankrupt, and it's the default operating model of the largest companies in the industry.
 
-# VIII.
+## VIII.
 
-## OnlyFans and the Interesting Structural Question
+### OnlyFans and the Interesting Structural Question
 
 Here is where things get genuinely complicated, and where intellectual honesty requires me to weaken my own case somewhat.
 
@@ -131,7 +131,7 @@ But, and this is important, the structural advantages of OnlyFans don't resolve 
 
 There's also a question I don't have a confident answer to: does OnlyFans, by reducing exploitation on the supply side, make the demand-side problems _worse_ by removing the most emotionally compelling argument against consumption? If the exploitation argument weakens, does consumption increase? And if it does, do the viewer-side harms scale? I genuinely don't know. But it's the kind of second-order effect that worries me.
 
-# IX.
+## IX.
 
 Sex Work More Broadly, Where I'm Less Confident
 
@@ -159,9 +159,9 @@ So my position, which I hold with varying levels of confidence, is roughly this:
 
 These are three different questions, and conflating them, which both sides of the debate do constantly, makes all three harder to answer.
 
-# X.
+## X.
 
-## What I Think The Evidence Actually Demands
+### What I Think The Evidence Actually Demands
 
 Let me tell you what I'm _not_ arguing.
 
@@ -181,7 +181,7 @@ What I don't think I'm wrong about is this: the current default, unlimited free 
 
 ---
 
-## References
+### References
 
 1. Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption. _JAMA Psychiatry_, 71(7), 827–834.
 
