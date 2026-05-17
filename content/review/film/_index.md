@@ -5,4 +5,4 @@ draft: false
 summary: "Review film dan serial."
 ---
 
-Catatan soal film dan serial. Bukan kritik panjang — kesan dan apakah worth waktunya. Tulisan terbaru di atas.
+Catatan soal film dan serial. Bukan kritik panjang, kesan dan apakah worth waktunya. Tulisan terbaru di atas.

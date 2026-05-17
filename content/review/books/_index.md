@@ -5,4 +5,4 @@ draft: false
 summary: "Review buku yang sudah selesai dibaca."
 ---
 
-Catatan soal buku yang sudah selesai dibaca — bukan yang baru dibeli. Apa yang nyangkut, apa yang bisa dilewati. Tulisan terbaru di atas.
+Catatan soal buku yang sudah selesai dibaca, bukan yang baru dibeli. Apa yang nyangkut, apa yang bisa dilewati. Tulisan terbaru di atas.
