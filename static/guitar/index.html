@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apa yang Kamu Juga Perlu Tahu Soal Gitar</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+<header>
+  <span class="header-title">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+    Apa yang Kamu Juga Perlu Tahu Soal Gitar
+  </span>
+  <span class="header-badge">Click · Drag · Scroll</span>
+  <button id="theme-toggle" title="Toggle theme">☀️</button>
+</header>
+<div class="layout">
+  <div class="map-panel" id="map-panel">
+    <svg id="mm"></svg>
+    <div class="map-hint">Drag to pan · Scroll to zoom · Click node</div>
+  </div>
+  <div class="resizer" id="resizer"></div>
+  <div id="cp" class="content-panel">
+    <div class="welcome">
+      <div class="welcome-icon">𝄞</div>
+      <div class="welcome-title">Pilih topik buat mulai</div>
+      <div class="welcome-sub">Catatan seorang gitaris soal teori musik, dari fisika suara sampai harmoni lanjutan. Klik node mana aja di mind map, atau toggle ke Mode Esai di header kalau mau baca runtut.</div>
+      <a class="welcome-back" href="https://dimassuryo.com">← dimassuryo.com</a>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
