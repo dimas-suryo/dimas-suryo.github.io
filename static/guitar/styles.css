@@ -258,6 +258,28 @@ header {
   background: var(--accent-ghost);
 }
 
+/* ═══ HEADER BACK LINK (persisten) ═══ */
+.header-back {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition);
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.header-back:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-ghost);
+}
+
 /* ═══ VIEW TOGGLE BUTTON ═══ */
 .view-toggle {
   background: none;
@@ -1409,6 +1431,13 @@ input[type="range"]::-moz-range-thumb {
   }
   .header-title {
     font-size: 13px;
+  }
+  .header-back {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+  .header-back .hb-tld {
+    display: none;
   }
   .content-inner,
   .tool-wrap {
