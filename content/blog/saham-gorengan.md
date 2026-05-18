@@ -1,8 +1,8 @@
 ---
-title: "Layaknya Saham Gorengan: Distorsi Belantara Pasar Romansa, Lelaki Lemah “Dalang” di baliknya, dan Prinsip Sekufu sebagai Panasea"
+title: "Layaknya Saham Gorengan"
 date: 2023-12-23
 draft: false
-summary: "Pasar romansa modern mengalami disfungsi struktural bukan karena hipergami, melainkan akibat distorsi persepsi nilai yang diperparah oleh perilaku kolektif laki-laki yang memberikan subsidi tanpa syarat, sehingga solusi Lindy-nya adalah kembali pada prinsip Sekufu (Kafa’ah) untuk menormalisasi pasar dengan mencari pasangan yang setara secara epistemik, moral, trajektori, dan emosional, bukan yang sekadar terbaik"
+summary: "Pasar romansa modern mengalami disfungsi struktural bukan karena hipergami, melainkan akibat distorsi persepsi nilai yang diperparah oleh perilaku kolektif laki-laki yang memberikan subsidi tanpa syarat, dan bagaimana kembali pada prinsip Sekufu (Kafa’ah) merupakan solusi yang Lindy."
 ---
 
 ---
@@ -14,27 +14,29 @@ summary: "Pasar romansa modern mengalami disfungsi struktural bukan karena hiper
 # TL;DR
 
 **The Problem.**
-*Pasar romansa modern mengalami disfungsi struktural. Bukan karena hipergami, karena itu mekanisme seleksi yang sehat dan natural. Tapi karena perceived market value di kedua sisi pasar telah terdistorsi jauh dari intrinsic value, dan tidak ada corrective mechanism yang berfungsi.*
+_Pasar romansa modern mengalami disfungsi struktural. Bukan karena hipergami, karena itu mekanisme seleksi yang sehat dan natural. Tapi karena perceived market value di kedua sisi pasar telah terdistorsi jauh dari intrinsic value, dan tidak ada corrective mechanism yang berfungsi._
 
 **The Reasons.**
-*Empat distortion vectors mendorong distorsi ini secara bersamaan:*
+_Empat distortion vectors mendorong distorsi ini secara bersamaan:_
 
-1. *echo chamber pertemanan yang tidak memberikan corrective feedback,*
-2. *cross-tier access dari top-tier individuals yang menciptakan anchoring effect yang menyesatkan,*
-3. *media sosial yang men-decoupling attention dari actual value, dan*
-4. *pornografi yang menetapkan benchmark dari extreme outlier.*
+1. _echo chamber pertemanan yang tidak memberikan corrective feedback,_
+2. _cross-tier access dari top-tier individuals yang menciptakan anchoring effect yang menyesatkan,_
+3. _media sosial yang men-decoupling attention dari actual value, dan_
+4. _pornografi yang menetapkan benchmark dari extreme outlier._
 
-*Keempat vektor ini beroperasi secara bilateral, mempengaruhi kedua sisi pasar. Tapi alasan utama pasar tidak mengoreksi dirinya sendiri adalah karena satu kelompok terus-menerus menyerap semua konsekuensi: laki-laki yang memberikan attention, resources, dan commitment tanpa mempersyaratkan reciprocity apapun, menghapus negative feedback loop yang seharusnya mengoreksi ekspektasi yang miscalibrated.*
+_Keempat vektor ini beroperasi secara bilateral, mempengaruhi kedua sisi pasar. Tapi alasan utama pasar tidak mengoreksi dirinya sendiri adalah karena satu kelompok terus-menerus menyerap semua konsekuensi: laki-laki yang memberikan attention, resources, dan commitment tanpa mempersyaratkan reciprocity apapun, menghapus negative feedback loop yang seharusnya mengoreksi ekspektasi yang miscalibrated._
 
 **The Solution.**
-*Prinsip Sekufu (Kafa’ah), framework pemilihan pasangan yang sudah Lindy selama 1400+ tahun. Bukan mencari yang “terbaik” atau yang “tertinggi,” tapi mencari yang setara dalam empat dimensi: epistemologi (cara berpikir dan menyelesaikan konflik), values (kompas moral fundamental), trajectory (energi dan arah hidup), dan kapasitas emosional (kesediaan melakukan emotional work). Sekufu secara mekanis melawan setiap distortion vector karena targetnya bukan maximization, tapi calibration, dan laki-laki yang menerapkannya secara natural berhenti menjadi subsidizer tanpa syarat.*
+_Prinsip Sekufu (Kafa’ah), framework pemilihan pasangan yang sudah Lindy selama 1400+ tahun. Bukan mencari yang “terbaik” atau yang “tertinggi,” tapi mencari yang setara dalam empat dimensi: epistemologi (cara berpikir dan menyelesaikan konflik), values (kompas moral fundamental), trajectory (energi dan arah hidup), dan kapasitas emosional (kesediaan melakukan emotional work). Sekufu secara mekanis melawan setiap distortion vector karena targetnya bukan maximization, tapi calibration, dan laki-laki yang menerapkannya secara natural berhenti menjadi subsidizer tanpa syarat._
 
 **Catatan Epistemik.**
-*I was 20 when I wrote this, not long after the conclusion of a relationship that was both exquisite and agonizing.* Pembaca disarankan memperhitungkan bias yang mungkin muncul dari konteks tersebut: _recency bias_, _negativity bias_, dan _sample size_ n=1.
+_I was 20 when I wrote this, not long after the conclusion of a relationship that was both exquisite and agonizing._ Pembaca disarankan memperhitungkan bias yang mungkin muncul dari konteks tersebut: _recency bias_, _negativity bias_, dan _sample size_ n=1.
 
 > _“In a market, price is set by the marginal buyer and the marginal seller. In the sexual marketplace, the marginal man has chosen to have no price at all.”_ — Friedrich August Von Hayek or something, probably.
 
 ---
+
+Distorsi Belantara Pasar Romansa, Lelaki Lemah “Dalang” di baliknya, dan Prinsip Sekufu sebagai Panasea
 
 ## I.
 

@@ -2,7 +2,7 @@
 title: "Perisai yang berubah menjadi Pedang"
 date: 2021-06-30
 draft: false
-summary: "Agama adalah rekayasa kognitif paling elegan yang pernah ada untuk menyatukan manusia, namun saat legacy software ini dipaksakan mengoperasikan peradaban nuklir dan bioteknologi, perisai yang dulu menyelamatkan kita justru bermetamorfosis menjadi pedang yang mengunci kompromi dalam dogma abadi."
+summary: "Saat legacy software dipaksakan mengoperasikan peradaban nuklir dan bioteknologi, perisai yang dulu menyelamatkan kita justru bermetamorfosis menjadi pedang yang mengunci kompromi dalam dogma abadi."
 ---
 
 _Mungkin ini saat yang tepat untuk mempertanyakan algoritma yang obsolete._

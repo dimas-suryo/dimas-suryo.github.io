@@ -5,13 +5,11 @@ draft: false
 summary: "Apa yang sedang saya kerjakan, baca, dan pikirkan saat ini."
 ---
 
-_Ini snapshot tentang apa yang sedang saya fokuskan sekarang, bukan arsip._
-
 ## Sedang dikerjakan
 
-- Membangun ulang situs ini di Hugo dan memigrasi tulisan-tulisan lama dari Medium. Bought the domain for 10 years beberapa tahun lalu, sayang jika tidak digunakan.
-- Menyusun suite tools finansial (DCF, MPT optimizer, rebalancing) di `tools.dimassuryo.com`.
-- Masih aktif kuliah akuntansi di UI seraya mencoba tidak kehilangan minat pada hal-hal lain.
+- Bought this domain for 10 years, seems I have to
+- Still doing those project-y things @ `tools.dimassuryo.com`.
+- Not graduated just yet, Accounting @ UI is a great environment me think.
 
 ## Sedang dibaca
 
@@ -28,5 +26,5 @@ _Ini snapshot tentang apa yang sedang saya fokuskan sekarang, bukan arsip._
 ## Di luar layar
 
 - Paper this and that.
-- Upgrade sepeda RB dan mulai bermain Gravel.
-- Sesekali jamming sambil test amp dan effect baru.
+- In a bulk phase and sub-20 training block, also just got into Gravelism.
+- Mini music project with highschool friends.
