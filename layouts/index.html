@@ -39,6 +39,18 @@
     <p><a href="/blog/">View all posts →</a></p>
   </section>
 
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
+      {{ $href := .RelPermalink }}
+      {{ with .Params.external_url }}{{ $href = . }}{{ end }}
+      <li><a href="{{ $href }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    <p><a href="/projects/">View all projects →</a></p>
+  </section>
+
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:dimassuryo@aol.com">dimassuryo@aol.com</a></p>

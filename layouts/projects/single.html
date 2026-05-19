@@ -1,0 +1,55 @@
+{{ define "main" }}
+<main>
+  <article class="blog-post">
+    <header>
+      <h1>{{ .Title }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "2 January 2006" }}
+        </time>
+        {{ with .Params.status }}
+        <span class="separator">·</span><span class="reading-time">{{ . }}</span>
+        {{ end }}
+        {{ with .Params.stack }}
+        <span class="separator">·</span><span class="reading-time">{{ delimit . ", " }}</span>
+        {{ end }}
+      </p>
+      {{ if or .Params.live_url .Params.repo }}
+      <p class="project-cta">
+        {{ with .Params.live_url }}
+        <a class="cta-primary" href="{{ . }}" target="_blank" rel="noopener">Launch tool ↗</a>
+        {{ end }}
+        {{ with .Params.repo }}
+        <a class="cta-secondary" href="{{ . }}" target="_blank" rel="noopener">Source ↗</a>
+        {{ end }}
+      </p>
+      {{ end }}
+    </header>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{ if or .PrevInSection .NextInSection }}
+    <nav class="post-nav">
+      {{ with .PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="prev-post">
+          <span class="nav-label">← Previous Project</span>
+          <span class="nav-title">{{ .Title }}</span>
+        </a>
+      {{ end }}
+      {{ with .NextInSection }}
+        <a href="{{ .RelPermalink }}" class="next-post">
+          <span class="nav-label">Next Project →</span>
+          <span class="nav-title">{{ .Title }}</span>
+        </a>
+      {{ end }}
+    </nav>
+    {{ end }}
+
+    <footer class="post-footer">
+      <a href="/projects/">← Back to all projects</a>
+    </footer>
+  </article>
+</main>
+{{ end }}

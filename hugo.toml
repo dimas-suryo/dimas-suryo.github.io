@@ -21,14 +21,11 @@ disableKinds = ['taxonomy', 'term']
     url = "/now/"
     weight = 3
   [[menu.main]]
-    name = "Projects"
-    url = "https://tools.dimassuryo.com"
-    weight = 4
-      [[menu.main]]
     name = "Review"
     url = "/review/"
-    weight = 5
-    [markup]
+    weight = 4
+
+[markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true

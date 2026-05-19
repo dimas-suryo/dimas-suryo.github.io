@@ -27,4 +27,4 @@ summary: "Apa yang sedang saya kerjakan, baca, dan pikirkan saat ini."
 
 - Paper this and that.
 - In a bulk phase and sub-20 training block, also just got into Gravelism.
-- Mini music project with highschool friends.
+- Mini music project with highschool friends. 
