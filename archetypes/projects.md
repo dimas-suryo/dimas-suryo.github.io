@@ -1,6 +1,6 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
+date: { { .Date } }
 draft: true
 summary: ""
 # external_url: ISI kalau card harus LANGSUNG buka tool (skip writeup page).
@@ -10,9 +10,6 @@ external_url: ""
 repo: ""
 # live_url: opsional — kalau ada writeup TAPI tetap mau tombol "Launch tool".
 live_url: ""
-status: "live"   # live | wip | archived
-stack: []        # mis. ["Python", "Streamlit", "DuckDB"]
+status: "live" # live | wip | archived
+stack: [] # mis. ["Python", "Streamlit", "DuckDB"]
 ---
-
-Tulis writeup gaya blog di sini: apa ini, kenapa dibangun, gimana cara kerjanya,
-keputusan desain, dan lessons. (Bagian ini cuma kepakai kalau external_url kosong.)
