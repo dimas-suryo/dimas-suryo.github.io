@@ -1,6 +1,6 @@
 ---
 title: "Communism, Libertarianism, and Feudalism"
-date: 2023-11-20
+date: 2023-11-08
 draft: false
 summary: "Noble Goals, Broken Vessels. What I think pretty much about Communism, the future of Libertarianism, and what the world about to looks like."
 ---
