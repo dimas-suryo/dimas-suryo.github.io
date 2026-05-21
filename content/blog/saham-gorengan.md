@@ -13,13 +13,13 @@ summary: "Pasar romansa modern mengalami disfungsi struktural bukan karena hiper
 
 # TL;DR
 
-Masalahnya. Pasar romansa modern mengalami disfungsi struktural. Bukan karena hipergami, sebab hipergami mekanisme seleksi yang sehat dan natural, tapi karena nilai pasar yang dipersepsikan di kedua sisi pasar sudah terdistorsi jauh dari nilai intrinsiknya, dan tidak ada mekanisme koreksi yang berfungsi.
+The Problem. Pasar romansa modern mengalami disfungsi struktural. Bukan karena hipergami, sebab hipergami mekanisme seleksi yang sehat dan natural, tapi karena nilai pasar yang dipersepsikan di kedua sisi pasar sudah terdistorsi jauh dari nilai intrinsiknya, dan tidak ada mekanisme koreksi yang berfungsi.
 
-Sebabnya. Empat vektor distorsi mendorong distorsi ini secara bersamaan: kamar gema pertemanan yang tidak memberi umpan balik korektif; akses lintas-tingkat dari individu papan atas yang menciptakan efek penjangkaran yang menyesatkan; media sosial yang melepaskan kaitan antara perhatian dan nilai sesungguhnya; dan pornografi yang menetapkan tolok ukur dari pencilan ekstrem. Keempat vektor ini bekerja secara dua arah, memengaruhi kedua sisi pasar. Tapi alasan utama pasar tidak mengoreksi dirinya sendiri adalah karena satu kelompok terus-menerus menyerap semua konsekuensinya: laki-laki yang memberikan perhatian, sumber daya, dan komitmen tanpa mensyaratkan timbal balik apa pun, sehingga menghapus umpan balik negatif yang semestinya mengoreksi ekspektasi yang salah kalibrasi.
+The Reason. Empat vektor distorsi mendorong distorsi ini secara bersamaan: kamar gema pertemanan yang tidak memberi umpan balik korektif; akses lintas-tingkat dari individu papan atas yang menciptakan efek penjangkaran yang menyesatkan; media sosial yang melepaskan kaitan antara perhatian dan nilai sesungguhnya; dan pornografi yang menetapkan tolok ukur dari pencilan ekstrem. Keempat vektor ini bekerja secara dua arah, memengaruhi kedua sisi pasar. Tapi alasan utama pasar tidak mengoreksi dirinya sendiri adalah karena satu kelompok terus-menerus menyerap semua konsekuensinya: laki-laki yang memberikan perhatian, sumber daya, dan komitmen tanpa mensyaratkan timbal balik apa pun, sehingga menghapus umpan balik negatif yang semestinya mengoreksi ekspektasi yang salah kalibrasi.
 
-Solusinya. Prinsip Sekufu (Kafa’ah), kerangka pemilihan pasangan yang sudah Lindy selama 1.400 tahun lebih. Bukan mencari yang "terbaik" atau yang "tertinggi", tapi mencari yang setara dalam empat dimensi: epistemologi (cara berpikir dan menyelesaikan konflik), nilai (kompas moral fundamental), lintasan (energi dan arah hidup), dan kapasitas emosional (kesediaan melakukan kerja emosional). Sekufu secara mekanis melawan setiap vektor distorsi karena targetnya bukan maksimalisasi melainkan kalibrasi, dan laki-laki yang menerapkannya secara alami berhenti menjadi penyubsidi tanpa syarat.
+The Solution. Prinsip Sekufu (Kafa’ah), kerangka pemilihan pasangan yang sudah Lindy selama 1.400 tahun lebih. Bukan mencari yang "terbaik" atau yang "tertinggi", tapi mencari yang setara dalam empat dimensi: epistemologi (cara berpikir dan menyelesaikan konflik), nilai (kompas moral fundamental), lintasan (energi dan arah hidup), dan kapasitas emosional (kesediaan melakukan kerja emosional). Sekufu secara mekanis melawan setiap vektor distorsi karena targetnya bukan maksimalisasi melainkan kalibrasi, dan laki-laki yang menerapkannya secara alami berhenti menjadi penyubsidi tanpa syarat.
 
-Catatan Epistemik. Saya berusia 20 tahun ketika menulis ini, tidak lama setelah berakhirnya sebuah hubungan yang sekaligus indah dan menyiksa. Pembaca disarankan memperhitungkan bias yang mungkin muncul dari konteks itu: bias kebaruan, bias negativitas, dan ukuran sampel n=1.
+Catatan Epistemik. Saya berusia 18-19 tahun ketika menulis ini, tidak lama setelah berakhirnya sebuah hubungan yang indah dan menyiksa. Pembaca disarankan memperhitungkan bias yang mungkin muncul dari konteks itu: recency bias, negativity bias, dan ukuran sampel n=1.
 
 > "In a market, price is set by the marginal buyer and the marginal seller. In the sexual marketplace, the marginal man has chosen to have no price at all." — Friedrich August von Hayek or something, probably.
 
@@ -31,7 +31,7 @@ Distorsi Belantara Pasar Romansa, Lelaki Lemah "Dalang" di Baliknya, dan Prinsip
 
 Pasar romansa modern sedang mengalami disfungsi yang makin terdokumentasi. Angka pernikahan di negara-negara industri menyentuh titik terendah sepanjang sejarah. Tingkat kelahiran anjlok di bawah tingkat penggantian. Proporsi populasi yang tidak pernah menikah atau berpasangan terus naik setiap dekade. Ini data demografis yang bisa diakses publik dari berbagai badan statistik.
 
-Siapa yang biasanya disalahkan? Algoritma aplikasi kencan. Feminisme. Kapitalisme. Pornografi. Hipergami perempuan. Jawaban-jawaban ini sebagian benar, tapi secara fundamental melewatkan akar persoalannya.
+Siapa yang biasanya disalahkan? Algoritma aplikasi kencan. Feminisme. Kapitalisme. Pornografi. Hipergami perempuan. Jawaban-jawaban ini benar, partially, tapi secara fundamental melewatkan akar persoalannya.
 
 Tesis utama tulisan ini: biang kerok utama rusaknya penemuan harga dalam pasar romansa adalah perilaku kolektif laki-laki yang memberikan subsidi tanpa syarat. Perhatian, sumber daya, dan komitmen yang diberikan tanpa mensyaratkan timbal balik yang bermakna. Perilaku ini, secara agregat, menghapus umpan balik negatif yang semestinya mengoreksi ekspektasi yang salah kalibrasi di kedua sisi pasar.
 
@@ -41,7 +41,7 @@ Sekalian, perlu ditegaskan apa yang bukan klaim tulisan ini. Tulisan ini tidak m
 
 ## II.
 
-Hipergami, kecenderungan mencari pasangan dengan status atau kebugaran genetik yang setara atau lebih tinggi, adalah kecenderungan perilaku hasil evolusi dengan fondasi biologis yang solid. Parental Investment Theory menjelaskan mekanismenya: jenis kelamin yang menanggung investasi reproduksi lebih besar akan secara evolusioner menjadi lebih selektif. Pada mamalia, manusia termasuk, itu perempuan. Ini bukan konstruksi sosial, melainkan asimetri yang muncul dari biologi dasar dan terdokumentasi lintas budaya.
+Hipergami, kecenderungan mencari pasangan dengan status atau kebugaran genetik yang setara atau lebih tinggi, adalah kecenderungan perilaku hasil evolusi dengan fondasi biologis yang solid. Parental Investment Theory menjelaskan mekanismenya: jenis kelamin yang menanggung investasi reproduksi lebih besar akan secara evolusioner menjadi lebih selektif. Pada mamalia, seperti manusia, itu perempuan. Ini bukan konstruksi sosial, melainkan asimetri yang muncul dari biologi dasar dan terdokumentasi lintas budaya.
 
 {{< figure src="/saham-gorengan-media/image3.png" >}}
 
@@ -69,7 +69,7 @@ Konsekuensinya dalam konteks kencan: seseorang dengan daya tarik di bawah rata-r
 
 Laki-laki di persentil atas, dalam daya tarik, kepercayaan diri, dominasi sosial, dan kemampuan finansial, tidak membatasi akses mereka berdasarkan tingkat. Masih dari jurnal yang sama, Bruch & Newman menunjukkan bahwa desil teratas laki-laki menerima volume kecocokan dan inisiasi percakapan yang tidak proporsional dari perempuan di berbagai tingkat daya tarik.
 
-Fenomena ini menciptakan efek penjangkaran (Tversky & Kahneman, 1974): nilai atau pengalaman pertama yang kita temui secara tidak proporsional memengaruhi semua evaluasi berikutnya. Seseorang yang pernah berhubungan dengan individu di persentil atas, sekali pun, bahkan secara kasual, kini punya tolok ukur pengalaman yang tidak representatif. Semua calon pasangan yang berada di rata-rata distribusi normal akan terasa seperti penurunan, bukan karena mereka buruk secara absolut, tapi karena dibandingkan dengan jangkar yang merupakan pencilan.
+Fenomena ini menciptakan anchoring effect (Tversky & Kahneman, 1974): nilai atau pengalaman pertama yang kita temui secara tidak proporsional memengaruhi semua evaluasi berikutnya. Seseorang yang pernah berhubungan dengan individu di persentil atas, sekali pun, bahkan secara kasual, kini punya tolok ukur pengalaman yang tidak representatif. Semua calon pasangan yang berada di rata-rata distribusi normal akan terasa seperti penurunan, bukan karena mereka buruk secara absolut, tapi karena dibandingkan dengan jangkar yang merupakan pencilan.
 
 ### Vektor 3: Media Sosial dan Lepasnya Kaitan Perhatian dari Nilai
 
@@ -81,15 +81,15 @@ Seseorang dengan daya tarik "biasa saja" yang memposting konten di TikTok bisa m
 
 - Halpern et al. (2016) menemukan bahwa penggunaan Instagram berkorelasi positif dengan persepsi status sosial diri yang lebih tinggi, terlepas dari daya tarik objektif, terutama ketika keterlibatannya tinggi. (doi: 10.1089/cyber.2014.0560)
 
-Hasilnya adalah ekonomi perhatian yang sepenuhnya lepas dari nilai yang mendasarinya. Seseorang yang menerima 1.000 likes tidak menjadi lebih menarik secara empiris, tapi persepsinya tentang nilai pasar bergeser seolah ia baru saja dikonfirmasi sebagai "luar biasa". Padahal tidak.
+Hasilnya adalah attention economy yang sepenuhnya lepas dari nilai yang mendasarinya. Seseorang yang menerima 1.000 likes tidak menjadi lebih menarik secara empiris, tapi persepsinya tentang nilai pasar bergeser seolah ia baru saja dikonfirmasi sebagai "luar biasa". Padahal tidak.
 
 ### Vektor 4: Pornografi dan Distorsi Ekspektasi
 
-Pornografi arus utama secara konsisten menampilkan individu yang merupakan pencilan ekstrem dalam distribusi fisik dan performa. Ini soal representasi versus distribusi yang sebenarnya.
+Pornografi mainstream secara konsisten menampilkan individu yang merupakan pencilan ekstrem dalam distribusi fisik dan performa. Ini soal representasi versus distribusi yang sebenarnya.
 
 - Wright et al. (2016) menemukan dalam meta-analisis 22 studi bahwa konsumsi pornografi berkorelasi dengan meningkatnya internalisasi skrip seksual, termasuk ekspektasi soal penampilan fisik dan durasi performa. (doi: 10.1111/jcom.12201)
 
-Keempat vektor distorsi ini, kamar gema, penjangkaran lintas-tingkat, inflasi perhatian media sosial, dan pornografi, bergerak ke arah yang sama: mendorong nilai pasar yang dipersepsikan menjauh dari nilai intrinsik, di kedua sisi pasar.
+Keempat vektor distorsi ini, echo chamber, anchoring effect cross-tier, inflasi attention economy pada media sosial, dan pornografi, bergerak ke arah yang sama: mendorong nilai pasar yang dipersepsikan menjauh dari nilai intrinsik, di kedua sisi pasar.
 
 ## IV.
 
@@ -101,19 +101,19 @@ Selalu ada kelompok yang menyerap konsekuensinya. Dengan menyerap konsekuensi it
 
 Beberapa pola perilaku spesifik yang berkontribusi pada distorsi ini:
 
-### Si Cadangan Permanen
+### The Permanent Standby
 
 Laki-laki yang menunggu seseorang yang secara eksplisit tidak memilihnya sebagai prioritas. Kehadirannya sebagai opsi yang selalu tersedia mengirim sinyal palsu tentang nilai pasar pihak lain tanpa usaha yang proporsional dari pihak itu. Misalnya, di-friendzone.
 
-### Si Pemaaf Tanpa Syarat
+### The Unconditional Pardoner
 
 Laki-laki yang memaafkan pelanggaran yang melewati batas tanpa mensyaratkan perubahan struktural yang bermakna. Setiap kali pelanggaran relasional tidak punya konsekuensi, pasar menerima sinyal bahwa perilaku ini berkelanjutan. Misalnya, bertahan setelah perselingkuhan.
 
-### Si Penyubsidi Tanpa Syarat
+### The Unconditional Subsidizer
 
 Laki-laki yang memberi dukungan emosional, sumber daya finansial, dan perhatian yang konsisten kepada seseorang yang bukan pasangannya dan tidak berniat menjadi pasangannya. Ini subsidi tanpa syarat, transfer ke pihak yang tidak memberi balasan, dan subsidi ini secara artifisial mendongkrak nilai pasar yang dipersepsikan si penerima. Misalnya, perilaku fan.
 
-### Si Penyerah yang Putus Asa
+### The Desperate Settler
 
 Laki-laki yang menerima kondisi hubungan yang secara objektif di bawah standar, breadcrumbing, situationship tanpa kejelasan, komitmen bersyarat yang terus-menerus, karena takut sendirian. Setiap penyerahan semacam ini mengonfirmasi ke pasar bahwa standar rendah pun masih bisa menghasilkan pasangan yang berkomitmen. Misalnya, laki-laki "beta".
 
@@ -129,11 +129,11 @@ Inflasi atas ekspektasi terjadi bukan karena langit-langit standar naik secara o
 
 Semua vektor distorsi dan perilaku subsidi tanpa syarat tidak bekerja secara independen. Mereka membentuk umpan balik yang memperkuat diri sendiri dan mengamplifikasi dirinya di tiap iterasi.
 
-1. Individu papan atas berinteraksi lintas-tingkat, sehingga tercipta titik acuan pengalaman yang tidak representatif.
+1. Top-tier individuals berinteraksi cross-tier, sehingga tercipta titik acuan pengalaman yang tidak representatif.
 
-2. Kamar gema pertemanan tidak memberi umpan balik korektif, sehingga penilaian diri yang salah kalibrasi tidak pernah terkoreksi.
+2. Echo chamber pertemanan tidak memberi feedback korektif, sehingga penilaian diri yang salah kalibrasi tidak pernah terkoreksi.
 
-3. Media sosial memperkuat ilusi dengan inflasi perhatian yang lepas dari nilai intrinsik.
+3. Media sosial memperkuat ilusi dengan inflasi attention yang lepas dari nilai intrinsik.
 
 4. Pornografi menetapkan tolok ukur fisik dan performa dari pencilan ekstrem distribusi.
 
@@ -141,7 +141,7 @@ Semua vektor distorsi dan perilaku subsidi tanpa syarat tidak bekerja secara ind
 
 6. Kelompok penyubsidi menyerap semua konsekuensinya, menghapus umpan balik negatif yang semestinya mengoreksi.
 
-7. Lingkarannya berulang. Tiap iterasi mendorong ekspektasi makin jauh dari realitas.
+7. Lingkarannya berulang. Tiap iterasi mendorong ekspektasi makin jauh dari realitas. Dalam dunia pemrograman kita mengenalnya dengan infinite atau endless loop.
 
 Hasilnya pasar yang terputus dari realitas secara struktural. Bukan karena satu gender jahat atau tidak rasional, tapi karena struktur insentif terdistorsi oleh perilaku agregat, dan tidak ada mekanisme koreksi yang bekerja secara efektif.
 
@@ -167,7 +167,7 @@ Pasangan yang Gottman sebut "masters of relationship" bukan pasangan yang tidak 
 
 Ketidaksekufuan epistemik menciptakan frustrasi yang tidak bisa diselesaikan. Kalau kamu mendekati konflik dengan logika dan data sementara pasanganmu mendekatinya dengan manipulasi emosional, tidak ada mekanisme perbaikan yang akan bekerja, karena kalian beroperasi di atas protokol komunikasi yang secara fundamental tidak kompatibel.
 
-#### B. Sekufu Nilai: Kesetaraan Kompas Moral
+#### B. Sekufu Values: Kesetaraan Kompas Moral
 
 Bukan kesamaan opini, opini boleh berbeda secara substansial. Yang harus sepadan adalah nilai-nilai fundamental: bagaimana kalian melihat kejujuran, loyalitas, ambisi, tanggung jawab, dan keadilan.
 
@@ -175,19 +175,19 @@ Menurut Gottman, perbedaan nilai yang fundamental, bukan preferensi tapi nilai, 
 
 Tes praktisnya: bayangkan kalian menghadapi dilema etis yang sungguh sulit. Bukan trolley problem abstrak, tapi situasi nyata. Teman kalian melakukan sesuatu yang salah, misalnya selingkuh, apakah kalian konfrontasi atau diam? Seseorang di komunitas kalian diperlakukan tidak adil, apakah kalian bersuara atau menyelamatkan diri sendiri? Apakah kompas moral kalian menunjuk ke arah yang kurang lebih sama, meski lewat penalaran yang berbeda?
 
-#### C. Sekufu Lintasan: Kesetaraan Energi dan Arah Hidup
+#### C. Sekufu Trajectory: Kesetaraan Energi dan Arah Hidup
 
 Ini dimensi yang paling dekat dengan konsep kafa’ah klasik tentang hirfah (profesi) dan mal (kekayaan). Bukan statusnya yang harus sama, tapi energi dan arah hidupnya.
 
 Dua orang bisa punya pendapatan yang sangat berbeda tapi sepadan dalam ambisi, etos kerja, dan arah hidup. Sebaliknya, dua orang dengan pendapatan identik bisa secara fundamental tidak sekufu kalau yang satu terdorong maju dan yang lain berpuas diri. Yang diprediksi oleh riset tentang kepuasan hubungan bukan kesamaan pendapatan, tapi kesamaan usaha dan arah yang dipersepsikan, apakah kedua orang merasa pasangannya berusaha sama kerasnya untuk membangun hidup bersama.
 
-Ketidaksekufuan lintasan menghasilkan salah satu dari dua dinamika destruktif: kebencian dari yang merasa menggeret, atau perasaan tidak memadai dari yang merasa tertinggal. Keduanya beracun dan keduanya sulit dibenahi.
+Ketidaksekufuan trajectory menghasilkan salah satu dari dua dinamika destruktif: kebencian dari yang merasa menggeret, atau perasaan tidak memadai dari yang merasa tertinggal. Keduanya beracun dan keduanya sulit dibenahi.
 
 #### D. Sekufu Emosional: Kesetaraan Kapasitas Regulasi
 
 Apakah kalian sepadan dalam kemampuan mengenali, mengekspresikan, dan meregulasi emosi?
 
-Kalau yang satu sudah terbiasa berintrospeksi dan mengelola emosinya sementara pasangannya masih sepenuhnya reaktif dan belum pernah memproses pengalaman emosional apa pun secara sadar, hubungan itu akan mengalami asimetri yang sangat melelahkan. Yang satu jadi terapis de facto, yang lain jadi pasien abadi. Itu bukan kemitraan; lebih cocok disebut perawatan.
+Kalau yang satu sudah terbiasa berintrospeksi dan mengelola emosinya sementara pasangannya masih sepenuhnya reaktif dan belum pernah memproses pengalaman emosional apa pun secara sadar, hubungan itu akan mengalami asimetri yang sangat melelahkan. Yang satu jadi terapis de facto, yang lain jadi pasien abadi. Jangan sampai hal tersebut terjadi, karena itu bukan kemitraan tapi lebih cocok disebut perawatan.
 
 Ini bukan berarti dua orang harus sama-sama sudah sembuh; tidak ada yang sepenuhnya sembuh. Tapi harus ada kesediaan yang sepadan untuk melakukan kerja emosional. Hubungan tidak bisa bertahan kalau cuma satu orang yang mengurus kehidupan emosional berdua.
 
@@ -195,9 +195,9 @@ Ini bukan berarti dua orang harus sama-sama sudah sembuh; tidak ada yang sepenuh
 
 Kalau dipraktikkan secara tulus, prinsip sekufu secara mekanis melawan setiap vektor distorsi yang diidentifikasi di Bagian III.
 
-Bagaimana sekufu mengoreksi kamar gema? Sekufu memaksa penilaian diri yang jujur karena targetnya bukan "yang terbaik yang bisa saya dapatkan" melainkan "yang setara dengan siapa saya sebenarnya". Ini dengan sendirinya menuntut kejujuran tentang posisi sendiri.
+Bagaimana sekufu mengoreksi echo chamber? Sekufu memaksa penilaian diri yang jujur karena targetnya bukan "yang terbaik yang bisa saya dapatkan" melainkan "yang setara dengan siapa saya sebenarnya". Ini dengan sendirinya menuntut kejujuran tentang posisi sendiri.
 
-Bagaimana sekufu mengoreksi penjangkaran lintas-tingkat? Sekufu secara eksplisit menolak pencilan sebagai tolok ukur. Yang dicari kesetaraan, bukan maksimalisasi. Ini mengeliminasi efek penjangkaran dari pengalaman dengan pencilan.
+Bagaimana sekufu mengoreksi cross-tier anchoring effect? Sekufu secara eksplisit menolak pencilan sebagai tolok ukur. Yang dicari kesetaraan, bukan maksimalisasi. Ini mengeliminasi anchoring effect dari pengalaman dengan pencilan.
 
 Bagaimana sekufu mengoreksi inflasi perhatian media sosial? Sekufu melepaskan harga diri dari validasi eksternal, karena yang dicari kecocokan substantif, bukan hierarki status yang digelembungkan oleh metrik digital.
 
@@ -243,13 +243,13 @@ Orang tua saya pernah berkata, "cari pasangan yang setara, kalau tidak setara, y
 
 2. Kurangi paparan algoritmik terhadap pencilan. Kurangi waktu di aplikasi kencan dan media sosial sebagai sumber utama kalibrasi ekspektasi. Ada korelasi kuat antara penggunaan media sosial yang berat dan persepsi yang terdistorsi tentang realitas sosial dan relasional. Ini berlaku untuk semua gender.
 
-3. Kalibrasi ekspektasi ke distribusi nyata, bukan ke pencilan yang paling terlihat. Orang yang kamu lihat di TikTok, Bumble, dan Instagram adalah pencilan ekstrem dari distribusi yang sangat besar. Heuristik ketersediaan, menilai probabilitas berdasarkan seberapa mudah membayangkan sesuatu alih-alih berdasarkan frekuensi aktual, adalah bias yang bekerja secara universal.
+3. Kalibrasi ekspektasi ke distribusi nyata, bukan ke pencilan yang paling terlihat. Orang yang kamu lihat di TikTok, Bumble, dan Instagram adalah pencilan ekstrem dari distribusi yang sangat besar. Availability heuristic, menilai probabilitas berdasarkan seberapa mudah membayangkan sesuatu alih-alih berdasarkan frekuensi aktual, adalah bias yang bekerja secara universal.
 
-4. Cari umpan balik yang jujur, bukan cuma validasi. Penilaian diri berbasis hasil lebih andal daripada penilaian diri berbasis opini lingkaran sosial. Kalau pola hubunganmu konsisten berakhir dengan cara yang sama, itu data. Dengarkan datanya.
+4. Cari feedback yang jujur, bukan cuma validasi. Penilaian diri berbasis hasil lebih andal daripada penilaian diri berbasis opini lingkaran sosial. Kalau pola hubunganmu konsisten berakhir dengan cara yang sama, itu data. Dengarkan datanya.
 
 5. Normalisasi percakapan jujur tentang dinamika ini. Salah satu alasan distorsi ini bertahan adalah karena tidak ada yang mau membicarakannya secara terbuka. Laki-laki takut dianggap getir. Perempuan takut dianggap dangkal. Akibatnya semua orang beroperasi di atas seperangkat keyakinan yang tidak pernah ditantang.
 
-### Untuk Individu Papan Atas
+### Untuk Top-tier Individuals
 
 1. Jujurlah soal niat sejak awal. Interaksi kasual yang tidak dikomunikasikan dengan jelas menciptakan data pengalaman yang menyesatkan di pihak lain. Ini bukan soal menghindari hubungan kasual, tapi soal transparansi yang mengurangi salah kalibrasi.
 
@@ -263,6 +263,6 @@ Tulisan ini tidak menyalahkan satu gender. Hipergami adalah mekanisme hasil evol
 
 Dan solusi yang paling Lindy, yang sudah bertahan lebih dari empat belas abad, adalah prinsip kuno yang sederhana tapi menuntut: carilah yang sekufu. Bukan yang paling menarik. Bukan yang paling berstatus. Tapi yang setara denganmu, dalam cara berpikir, dalam nilai, dalam arah hidup, dan dalam kesediaan melakukan kerja emosional.
 
-Kalibrasi ulang tidak akan terasa nyaman. Setiap koreksi terhadap ekspektasi yang sudah digelembungkan akan terasa seperti merendahkan standar, tapi itu cuma karena baseline-nya sudah terdistorsi. Yang sebenarnya terjadi adalah kembali ke realitas. Dan realitas, meski tidak semenarik fiksi yang diciptakan kamar gema, media sosial, dan pornografi, adalah satu-satunya tempat hubungan yang sungguh bertahan bisa dibangun.
+Kalibrasi ulang tidak akan terasa nyaman. Setiap koreksi terhadap ekspektasi yang sudah digelembungkan akan terasa seperti merendahkan standar, tapi itu cuma karena baseline-nya sudah terdistorsi. Yang sebenarnya terjadi adalah kembali ke realitas. Dan realitas, meski tidak semenarik fiksi yang diciptakan echo chamber-mu, media sosial, dan pornografi, adalah satu-satunya tempat hubungan yang sungguh bertahan bisa dibangun.
 
 Terima bahwa kalibrasi ulang itu tidak enak. Tapi jangan salahkan pasarnya. Jadilah bagian dari koreksinya.

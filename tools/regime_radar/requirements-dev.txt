@@ -1,0 +1,2 @@
+# Dev-only deps untuk run test. Tidak dipakai di production cron.
+pytest>=8.0

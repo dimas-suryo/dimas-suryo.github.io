@@ -11,7 +11,7 @@ Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).
 
 ## ACT I: THE ANALOG RESISTANCE
 
-Kilometer kedelapan selalu paling jujur.
+Kilometer kedelapan selalu yang paling jujur.
 
 Bukan kilometer pertama yang penuh euforia, bukan kilometer kelima yang masih bisa ditahan dengan ego. Kilometer kedelapan adalah titik ketika tubuh berhenti berbohong. Di sini paru-paru Diego terasa seperti kantong plastik yang dibakar dari dalam, dan aspal Jalan Sudirman, kosong, bersih, dan sunyi seperti kulit planet mati, memantulkan setiap langkah kakinya menjadi gema yang terdengar aneh di telinga sendiri.
 

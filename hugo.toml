@@ -20,6 +20,10 @@ disableKinds = ['taxonomy', 'term']
     name = "Now"
     url = "/now/"
     weight = 3
+  [[menu.main]]
+    name = "Review"
+    url = "/review/"
+    weight = 4
 
 [markup]
   [markup.goldmark]

@@ -3,36 +3,21 @@
   <section id="blog-list">
     <h1>Projects</h1>
     <p class="blog-intro">
-      Tools and projects I've built, open-sourced, or contributed to. Some are
-      in active development, while others are archived but still available for
-      use.
+      Tools dan eksperimen yang saya bangun — kebanyakan di persimpangan
+      financial markets, data, dan systems thinking. Beberapa langsung bisa
+      dipakai, beberapa ada catatan build-nya.
     </p>
     <ul class="blog-cards">
-      {{ range .Pages.ByDate.Reverse }} {{ $href := .RelPermalink }} {{ $ext :=
-      false }} {{ with .Params.external_url }}{{ $href = . }}{{ $ext = true }}{{
-      end }}
+      {{ range .Pages.ByDate.Reverse }}
+      {{ $href := .RelPermalink }}
+      {{ $ext := false }}
+      {{ with .Params.external_url }}{{ $href = . }}{{ $ext = true }}{{ end }}
       <li class="blog-card">
-        <a
-          href="{{ $href }}"
-          {{
-          if
-          $ext
-          }}
-          target="_blank"
-          rel="noopener"
-          {{
-          end
-          }}
-        >
-          <h2>
-            {{ .Title }}{{ if $ext }} <span class="ext-mark">↗</span>{{ end }}
-          </h2>
+        <a href="{{ $href }}"{{ if $ext }} target="_blank" rel="noopener"{{ end }}>
+          <h2>{{ .Title }}{{ if $ext }} <span class="ext-mark">↗</span>{{ end }}</h2>
           <p class="date">
-            {{ .Date.Format "2 January 2006" }} {{ with .Params.status }}<span
-              class="separator"
-              >·</span
-            >
-            {{ . }}{{ end }}
+            {{ .Date.Format "2 January 2006" }}
+            {{ with .Params.status }}<span class="separator">·</span> {{ . }}{{ end }}
           </p>
           <p class="summary">{{ .Summary }}</p>
         </a>

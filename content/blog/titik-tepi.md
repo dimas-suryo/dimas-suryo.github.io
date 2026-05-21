@@ -1,6 +1,6 @@
 ---
 title: "Titik Tepi: Keniscayaan Distopian"
-date: 2021-08-03
+date: 2020-08-03
 draft: false
 summary: "Di Jakarta tahun 2031, seorang analis keuangan bernama Diego menyabotase pembaruan CBDC pemerintah yang dirancang memotong 40% UBI bagi warga tidak efisien dengan menyiarkan worm kriptografis dari menara transmisi tua, lari dan memanjat tebing mengejar drone pembunuh, namun kemenangannya terasa hampa karena ia tahu ancaman sesungguhnya bukan oligarki, melainkan AI takeoff yang akan datang dalam tahun mendatang ..."
 ---

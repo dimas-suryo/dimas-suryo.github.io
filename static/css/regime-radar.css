@@ -1,0 +1,169 @@
+/* Regime Radar — semua class di-prefix .regime-radar supaya tidak konflik dengan
+   stylesheet site. Pakai design tokens existing (--bg-color, --text-color, dll). */
+
+.regime-radar {
+  margin: 24px 0;
+  font-family: inherit;
+}
+
+.regime-radar__loading,
+.regime-radar__error {
+  padding: 20px;
+  border: 1px solid var(--nav-border);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
+.regime-radar__error {
+  border-color: #ef4444;
+  opacity: 1;
+}
+
+/* Header row: ticker selector + meta */
+.regime-radar__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.regime-radar__ticker {
+  font-family: inherit;
+  font-size: 0.95em;
+  padding: 6px 10px;
+  border: 1px solid var(--nav-border);
+  border-radius: 8px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.regime-radar__generated {
+  font-size: 0.75em;
+  opacity: 0.55;
+}
+
+/* Snapshot card: 2 badges + numeric details */
+.regime-radar__snapshot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--nav-border);
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.regime-radar__badge {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.regime-radar__badge-label {
+  font-size: 0.7em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.regime-radar__badge-value {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.regime-radar__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Regime colors — sengaja muted-tapi-cukup-kontras, sama buat dark & light bg */
+.regime-radar__dot--up      { background: #16a34a; }
+.regime-radar__dot--down    { background: #dc2626; }
+.regime-radar__dot--sideways{ background: #94a3b8; }
+.regime-radar__dot--low     { background: #3b82f6; }
+.regime-radar__dot--mid     { background: #f59e0b; }
+.regime-radar__dot--high    { background: #ef4444; }
+
+.regime-radar__numbers {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--nav-border);
+  font-size: 0.85em;
+}
+
+.regime-radar__num-label {
+  opacity: 0.55;
+  margin-right: 6px;
+}
+
+.regime-radar__chart {
+  width: 100%;
+  min-height: 480px;
+  margin-bottom: 8px;
+}
+
+.regime-radar__footnote {
+  font-size: 0.75em;
+  opacity: 0.55;
+  margin-top: 12px;
+  line-height: 1.55;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .regime-radar__snapshot {
+    grid-template-columns: 1fr;
+  }
+  .regime-radar__chart {
+    min-height: 420px;
+  }
+}
+
+/* Staleness banner — warning kalau data > 7d, error kalau > 21d */
+.regime-radar__staleness {
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 0.82em;
+  border: 1px solid transparent;
+}
+
+.regime-radar__staleness--warn {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.regime-radar__staleness--error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.10);
+  font-weight: 500;
+}
+
+/* Per-ticker failure note (when some tickers loaded, some didn't) */
+.regime-radar__partial-fail {
+  margin-top: 12px;
+  padding: 8px 12px;
+  font-size: 0.78em;
+  opacity: 0.7;
+  border-top: 1px dashed var(--nav-border);
+}
+
+.regime-radar__partial-fail code {
+  background-color: rgba(127, 127, 127, 0.15);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}

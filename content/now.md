@@ -7,7 +7,7 @@ summary: "Apa yang sedang saya kerjakan, baca, dan pikirkan saat ini."
 
 ## Sedang dikerjakan
 
-- Bought this domain for 10 years back in '21, seems I have to take care of this for the next few years.
+- Beberapa tahun yang lalu, saya beli domain ini untuk 10 tahun, seems I have to take care of this for the next few years.
 - Still working those project-y things.
 - Also still @ Accounting UI, it's cozy here.
 

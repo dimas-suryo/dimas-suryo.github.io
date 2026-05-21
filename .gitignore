@@ -14,3 +14,9 @@ Thumbs.db
 # Backup files
 *.bak
 *.old
+# Python (regime-radar tooling)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/

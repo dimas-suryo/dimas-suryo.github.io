@@ -5,7 +5,7 @@ draft: false
 summary: "Menurut saya, merokok bukan sekadar pilihan kesehatan pribadi, melainkan tindakan pengecut karena mengorbankan orang lain melalui asap rokok (termasuk anak-anak), membebani sistem kesehatan publik, dan mencerminkan ketidakberanian untuk menghadapi kecanduan serta menolak perubahan struktural yang diperlukan di Indonesia."
 ---
 
-{{< figure src="/perokok-media/image1.png" alt="from JKN (2023)" caption="from JKN (2023)" >}}
+{{< figure src="/rokok-media/image1.png" alt="from JKN (2023)" caption="from JKN (2023)" >}}
 
 Kamu duduk di warung kopi. Di sebelahmu ada bapak-bapak yang menyalakan sebatang kretek, mengisapnya dalam-dalam, lalu mengembuskan asap tebal ke arah meja sebelah, tempat seorang ibu muda duduk bersama bayinya yang belum genap setahun. Bapak itu tidak merasa bersalah. Ibu itu tidak protes. Semua orang di warung itu menganggap pemandangan ini normal.
 
@@ -13,15 +13,15 @@ Ini bukan tulisan tentang kesehatan. Kamu sudah tahu rokok membunuh; peringatann
 
 ## I.
 
-Argumen paling populer dari seorang perokok adalah "ini hak saya". Mari kita uji.
+Argumen paling populer dari seorang perokok adalah "ini hak saya". I mean, let's test it.
 
-Hak, secara definisi, berhenti di titik ia mulai merugikan orang lain. Kamu punya hak mengayunkan tinjumu, tapi hak itu berhenti tepat di ujung hidung orang lain. Rokok tidak mengikuti logika ini. Asap yang kamu embuskan tidak tinggal di paru-parumu saja. Ia berpindah, ke paru-paru istrimu, anakmu, rekan kerjamu, orang asing di angkot. Dan ini bukan retorika.
+Hak, secara definisi, berhenti di titik ia mulai merugikan orang lain. Kamu punya hak mengayunkan tinjumu, tapi hak itu berhenti tepat di ujung hidung orang lain. Rokok tidak mengikuti logika ini. Asap yang kamu embuskan tidak tinggal di paru-parumu saja. Asap tersebut berpindah, ke paru-paru istrimu, anakmu, rekan kerjamu, orang asing di angkot. Dan ini bukan pernyataan retoris.
 
 Di Indonesia, sekitar 66% remaja usia 13–15 tahun terpapar asap rokok orang lain di tempat umum tertutup. Lebih dari 57% terpapar di rumahnya sendiri. Setiap tahun, sekitar 290.000 orang Indonesia meninggal akibat tembakau, dan lebih dari 52.000 di antaranya orang yang tidak pernah merokok. Mereka mati karena asap rokok orang lain.
 
 Lima puluh dua ribu. Itu bukan sekadar angka; itu orang-orang yang tidak pernah memilih merokok tapi tetap membayar harganya. Bayangkan sebuah stadion sepak bola penuh. Setiap tahun seluruh isi stadion itu mati. Bayangkan tragedi Kanjuruhan terjadi setiap hari, persis, bukan karena pilihan mereka sendiri tapi karena pilihan orang lain. Kanjuruhan karena polisinya pengecut; 52.000 orang ini karena banyak perokok pengecut.
 
-Jadi ketika seorang perokok bilang "hak saya", yang sebenarnya ia katakan adalah "saya berhak memasukkan karsinogen ke paru-paru orang lain tanpa persetujuan mereka". Itu bukan hak, melainkan kekerasan dalam gerak lambat.
+Jadi ketika seorang perokok bilang "hak saya", yang sebenarnya mereka katakan adalah "saya berhak memasukkan karsinogen ke paru-paru orang lain tanpa persetujuan mereka". Itu bukan hak, melainkan kekerasan dalam gerak lambat.
 
 Ini situasi di mana seseorang mengambil keuntungan kecil untuk dirinya sendiri, kenikmatan rokok, sambil mentransfer kerugian besar ke orang lain, asap rokok pasif, biaya kesehatan publik, anak-anak yang sakit. Perokok mendapat nikmat, orang lain mendapat kanker. Ini bentuk moral hazard paling kasatmata yang bisa kamu temukan dalam kehidupan sehari-hari.
 
@@ -41,17 +41,17 @@ Dan siapa yang membayar selisihnya? Bukan perokok, tapi orang-orang non-perokok 
 
 ## III.
 
-Ini bagian yang paling menyedihkan untuk ditulis.
+Ini bagian yang paling menyedihkan untuk dirangkum.
 
 Indonesia adalah negara dengan prevalensi perokok anak tertinggi di dunia. Lebih dari 30% anak Indonesia dilaporkan sudah mencoba rokok sebelum usia 10 tahun. Sekitar 5,9 juta anak usia 10–18 tahun sudah jadi perokok aktif. Prevalensi perokok di kalangan remaja 15–19 tahun melonjak dari 13,7% pada 1995 menjadi 37,3% pada 2013.
 
 Di rumah, 78,4% orang dewasa terpapar asap rokok. Anak-anak, yang menghabiskan sebagian besar waktunya di rumah, jadi perokok pasif sejak lahir, bahkan sejak dalam kandungan. Riset dari Indonesia Demographic Health Survey menunjukkan ibu hamil yang terpapar asap rokok di rumah punya risiko lebih tinggi melahirkan bayi dengan berat badan rendah. Paparan asap rokok pada bayi juga terkait dengan peningkatan risiko sudden infant death syndrome (SIDS), stunting, penyakit pernapasan akut, dan penyakit kardiovaskular di usia muda.
 
-Sekarang tanyakan pada dirimu: di mana agensi anak-anak ini?
+Sekarang tanyakan pada dirimu sendiri: di mana agensi anak-anak ini?
 
-Ya, berhenti merokok itu sulit secara neurologis. Ya, banyak perokok mulai di usia muda karena tekanan sosial. Ya, agensi itu kompleks. Tapi argumen tentang agensi bekerja dua arah. Kalau kita harus bersimpati terhadap berkurangnya agensi perokok akibat adiksi, maka kita harus mempertimbangkan nol agensi yang dimiliki bayi yang dipaksa mengisap asap rokok ayahnya sejak hari pertama ia lahir.
+Ya, berhenti merokok itu sulit secara neurologis. Ya, banyak perokok mulai di usia muda karena tekanan sosial. Ya, agensi itu kompleks. Tapi argumen tentang agensi bekerja dua arah. Kalau kita harus bersimpati terhadap berkurangnya agensi perokok akibat adiksi, maka kita harus mempertimbangkan nol agensi yang dimiliki bayi yang dipaksa mengisap asap rokok ayahnya sejak hari pertama dia lahir.
 
-Dan di sini poin kuncinya: seorang perokok yang merokok di dalam rumah di depan anak-anaknya bukan korban adiksi. Ia punya pilihan, setidaknya pilihan untuk keluar rumah, pilihan untuk tidak menyalakan rokok di ruang tamu, pilihan untuk melindungi orang-orang yang paling bergantung padanya. Ketika ia tidak mengambil pilihan-pilihan minimal itu, kata pengecut mulai terdengar tepat.
+Dan di sini poin kuncinya: seorang perokok yang merokok di dalam rumah di depan anak-anaknya bukan korban adiksi. Mereka punya pilihan, setidaknya pilihan untuk keluar rumah, pilihan untuk tidak menyalakan rokok di ruang tamu, pilihan untuk melindungi orang-orang yang paling bergantung padanya. Ketika mereka tidak mengambil pilihan-pilihan minimal itu, kata pengecut mulai terdengar tepat.
 
 ## IV.
 
@@ -65,7 +65,7 @@ Studi terbaru dari Mensa Indonesia menunjukkan sesuatu yang menarik: prevalensi 
 
 Ini bukan soal menghina kecerdasan perokok. Ini soal mengakui bahwa keputusan untuk terus merokok, terutama di era ketika informasi soal bahayanya sudah tersedia di mana-mana, adalah keputusan yang didorong oleh kelemahan, bukan kekuatan. Oleh kebiasaan, bukan pilihan sadar. Oleh ketidakmampuan menghadapi ketidaknyamanan jangka pendek dari berhenti, bukan keberanian menghadapi realitas.
 
-Dan mekanisme psikologis yang paling sering dipakai perokok untuk membenarkan perilakunya, "kakek saya ngrokok sampai 90 tahun", "kita semua juga akan mati", "hidup cuma sekali", semuanya bentuk survivorship bias dan rasionalisasi. Seorang rasionalis sejati akan mengenalinya sebagai motivated reasoning, mencari alasan untuk membenarkan keputusan yang sudah diambil alih-alih mengevaluasi bukti secara jujur sebelum memutuskan.
+Dan mekanisme psikologis yang paling sering dipakai perokok untuk membenarkan perilakunya, "kakek saya ngerokok sampai 90 tahun", "kita semua juga akan mati", "hidup cuma sekali", semuanya bentuk survivorship bias dan rasionalisasi. Seorang rasionalis sejati akan mengenalinya sebagai motivated reasoning, mencari alasan untuk membenarkan keputusan yang sudah diambil alih-alih mengevaluasi bukti secara jujur sebelum memutuskan.
 
 Itu, sejujurnya, pengecut. Bukan karena kamu lemah secara fisik, tapi karena kamu tidak cukup berani jujur pada dirimu sendiri.
 
@@ -83,7 +83,7 @@ Dan ini, sebenarnya, alasan lain mengapa kata pengecut tepat, bukan hanya untuk 
 
 ## VI.
 
-Di level individu, solusinya sangat sederhana: berhenti merokok. Bukan "kurangi". Bukan "ganti ke vape". Bukan "nanti kalau sudah nikah". Berhenti saja.
+Di level individu, solusinya sangat sederhana: berhenti merokok. Bukan "kurangi". Bukan "ganti ke vape". Bukan "nanti kalau sudah nikah". Just stop.
 
 WHO melaporkan bahwa pada 2018, 30,4% perokok Indonesia berusaha berhenti merokok, tapi hanya 9,4% yang berhasil. Angka ini rendah, tapi bukan nol. Jutaan orang Indonesia telah berhasil berhenti. Mereka melakukannya bukan karena mudah, tapi karena memutuskan bahwa kesehatan mereka, keluarga mereka, dan integritas mereka lebih penting daripada kenikmatan sementara dari sebatang rokok.
 

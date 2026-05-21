@@ -1,0 +1,22 @@
+{{- /*
+  Regime Radar dashboard shortcode.
+
+  Usage:  {{< regime-radar tickers="^JKSE" >}}
+  Multi:  {{< regime-radar tickers="^JKSE,BBCA.JK,BBRI.JK" >}}
+
+  Pakai class (bukan id) supaya boleh multiple instance per page.
+  Asset CSS/JS hanya dimuat sekali per halaman via Page.Scratch guard.
+*/ -}}
+
+<div
+  class="regime-radar"
+  data-tickers="{{ .Get "tickers" | default "^JKSE" }}"
+  data-base="{{ "/data/regime-radar/" | relURL }}"
+></div>
+
+{{- if not (.Page.Scratch.Get "regime_radar_assets_loaded") -}}
+  {{- .Page.Scratch.Set "regime_radar_assets_loaded" true -}}
+  <link rel="stylesheet" href="{{ "/css/regime-radar.css" | relURL }}" />
+  <script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js" defer></script>
+  <script src="{{ "/js/regime-radar.js" | relURL }}" defer></script>
+{{- end -}}
