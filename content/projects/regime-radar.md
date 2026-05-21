@@ -4,7 +4,7 @@ date: 2026-05-10
 draft: false
 summary: "Eksperimen deteksi regime pasar pakai hidden Markov model di indeks IDX Composite — plus kenapa hasilnya tidak se-magis yang dijanjikan paper."
 repo: "https://github.com/dimas-suryo/regime-radar"
-live_url: "https://tools.dimassuryo.com/regime-radar"
+live_url: "https://dimassuryo.com/projects/regime-radar"
 status: "wip"
 stack: ["Python", "hmmlearn", "Plotly"]
 ---
