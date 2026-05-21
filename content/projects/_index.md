@@ -2,5 +2,8 @@
 title: "Projects"
 date: 2026-05-19
 draft: false
-summary: "Tools dan eksperimen yang saya bangun — kebanyakan di persimpangan financial markets, data, dan systems thinking."
+summary:
+  "Tools and projects I've worked on, both personal and professional. Some
+  are open source, some are not. Some are still in development, some are no
+  longer maintained.."
 ---

@@ -2,7 +2,7 @@
 title: "Regime Radar"
 date: 2026-05-19
 draft: false
-summary: "Dashboard regime pasar IDX Composite berbasis dua sinyal sederhana — volatility quantile dan trend rule — diperbarui harian via GitHub Actions. Sengaja simple supaya transparan."
+summary: "Dashboard regime pasar IDX Composite berbasis dua sinyal: volatility quantile dan trend rule, diperbarui harian via GitHub Actions. Sengaja simple supaya transparan."
 repo: "https://github.com/dimas-suryo/dimas-suryo.github.io"
 status: "live"
 stack: ["Python", "pandas", "yfinance", "GitHub Actions", "Plotly.js"]
@@ -16,9 +16,9 @@ Pertanyaan yang regime detection mau jawab itu sederhana: **"pasar lagi dalam ko
 
 Dua panel, dua sinyal independen yang sengaja aku pilih simple:
 
-**Trend regime** (panel atas, berdasarkan price): klasifikasi closed-form pakai MA crossover + slope. Tanggal `t` ber-label *up* kalau close di atas MA200, MA50 di atas MA200, dan slope MA200 selama 60 hari terakhir positif. *Down* kalau ketiga kondisi negatif. Sisanya *sideways*. Tidak ada quantile, tidak ada fitting, tidak ada lookahead — pure rule.
+**Trend regime** (panel atas, berdasarkan price): klasifikasi closed-form pakai MA crossover + slope. Tanggal `t` ber-label _up_ kalau close di atas MA200, MA50 di atas MA200, dan slope MA200 selama 60 hari terakhir positif. _Down_ kalau ketiga kondisi negatif. Sisanya _sideways_. Tidak ada quantile, tidak ada fitting, tidak ada lookahead — pure rule.
 
-**Vol regime** (panel bawah, berdasarkan realized volatility): realized vol = rolling std return 21 hari, di-annualisasi. Setiap tanggal di-label *low / mid / high* berdasarkan quantile 33/67 dari trailing 5 tahun (di-shift 1 hari supaya label hari ini hanya melihat data sampai kemarin — strictly no lookahead).
+**Vol regime** (panel bawah, berdasarkan realized volatility): realized vol = rolling std return 21 hari, di-annualisasi. Setiap tanggal di-label _low / mid / high_ berdasarkan quantile 33/67 dari trailing 5 tahun (di-shift 1 hari supaya label hari ini hanya melihat data sampai kemarin — strictly no lookahead).
 
 Bands berwarna di belakang line bukan dekorasi — itu sinyal itu sendiri. Garis cuma referensi visual.
 
@@ -39,22 +39,22 @@ HMM atau Markov-switching mungkin masuk sebagai panel ketiga di versi 2 — eksp
 Penting banget:
 
 - **Bukan saran investasi.** Tidak ada di sini yang bilang "beli karena regime up" atau "jual karena vol high". Regime adalah konteks, bukan signal entry/exit.
-- **Bukan prediktif.** Vol regime hari ini deskriptif soal vol *yang sudah terealisasi* dalam 21 hari terakhir. Tidak ada klaim soal vol besok.
+- **Bukan prediktif.** Vol regime hari ini deskriptif soal vol _yang sudah terealisasi_ dalam 21 hari terakhir. Tidak ada klaim soal vol besok.
 - **Bukan robust ke gap struktural.** Quantile baseline pakai trailing 5 tahun. Kalau volatility regime IDX shift permanen (misal karena perubahan struktural pasar), labeling akan lag.
 - **Bukan presisi yang sebenarnya.** Categorical label (low/mid/high) sengaja menyembunyikan presisi palsu. Realized vol 14.9% vs 15.1% mungkin masuk regime beda, tapi perbedaannya within noise.
 
 ## Parameter & sumber
 
-| Parameter | Nilai | Alasan |
-|---|---|---|
-| Vol window | 21 hari (~1 bulan trading) | Standar realized vol monthly |
-| Vol quantile breaks | 33%, 67% | Tertile — kira-kira merata di baseline normal |
-| Vol quantile lookback | 252×5 hari (~5 tahun) | Cukup untuk capture full cycle, tidak terlalu panjang sampai miss structural shift |
-| Trend short MA | 50 hari | Konvensi industri |
-| Trend long MA | 200 hari | Konvensi industri (Hindenburg, dst.) |
-| Trend slope window | 60 hari | ~kuartal |
-| Data | `^JKSE` daily close via yfinance | Free, sufficient untuk daily index |
-| Refresh | 05:30 WIB weekday via GitHub Actions cron | Setelah US close, sebelum IDX buka |
+| Parameter             | Nilai                                     | Alasan                                                                             |
+| --------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- |
+| Vol window            | 21 hari (~1 bulan trading)                | Standar realized vol monthly                                                       |
+| Vol quantile breaks   | 33%, 67%                                  | Tertile — kira-kira merata di baseline normal                                      |
+| Vol quantile lookback | 252×5 hari (~5 tahun)                     | Cukup untuk capture full cycle, tidak terlalu panjang sampai miss structural shift |
+| Trend short MA        | 50 hari                                   | Konvensi industri                                                                  |
+| Trend long MA         | 200 hari                                  | Konvensi industri (Hindenburg, dst.)                                               |
+| Trend slope window    | 60 hari                                   | ~kuartal                                                                           |
+| Data                  | `^JKSE` daily close via yfinance          | Free, sufficient untuk daily index                                                 |
+| Refresh               | 05:30 WIB weekday via GitHub Actions cron | Setelah US close, sebelum IDX buka                                                 |
 
 Semua parameter ada di [`tools/regime_radar/build.py`](https://github.com/dimas-suryo/dimas-suryo.github.io/blob/main/tools/regime_radar/build.py) — `PARAMS` dict. Mau bandingkan dengan rule yang berbeda, fork dan ubah satu angka.
 
