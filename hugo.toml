@@ -4,8 +4,8 @@ title = 'Dimas Suryo'
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  tagline = 'Quantitative Analyst | Ultra-Cyclist | Reader & Writer'
-  description = "Dimas Suryo's personal site — writing on financial markets, systems thinking, and more."
+  tagline = 'Ultra-Cyclist | Reader & Writer'
+  description = "Dimas Suryo's personal site. Writing on financial markets, systems thinking, and more."
 
 [menu]
   [[menu.main]]

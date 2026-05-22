@@ -17,15 +17,12 @@
       AI-ML Safety, and Systems Thinking, oh and uh Effective Altruism.
     </p>
     <p>
-      Fascinated by the evolving role of government in balancing economic and
-      environmental concerns, I seek cross-industry experience to understand
-      global interconnectedness.
+      I seek cross-industry experience to understand global interconnectedness.
     </p>
     <p>
-      Outside of academics: Bouldering (V5 plateau), chess (1600 ELO is all I
-      got), poker (negative EV in tournament, positive EV in cash), I jam to
-      blues and jazz, and guess what, I have good dribbling skills (Messi
-      regen?).
+      I also do: Bouldering (V5 plateau), chess (1600 ELO is all I got), poker
+      (negative EV in tournament, positive EV in cash), I jam to blues and jazz,
+      and guess what, I have good dribbling skills (Messi regen?).
     </p>
   </section>
 
@@ -42,9 +39,9 @@
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      {{ range first 5 (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
-      {{ $href := .RelPermalink }}
-      {{ with .Params.external_url }}{{ $href = . }}{{ end }}
+      {{ range first 5 (where .Site.RegularPages "Section"
+      "projects").ByDate.Reverse }} {{ $href := .RelPermalink }} {{ with
+      .Params.external_url }}{{ $href = . }}{{ end }}
       <li><a href="{{ $href }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
