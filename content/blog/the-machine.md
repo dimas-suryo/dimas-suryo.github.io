@@ -5,8 +5,6 @@ draft: false
 summary: "How I think the world works. It's just math and biology."
 ---
 
-# The Machine
-
 _Mengapa orang baik membangun dunia yang buruk._
 
 ## I.

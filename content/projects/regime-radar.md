@@ -1,77 +1,72 @@
 ---
 title: "Regime Radar"
-date: 2026-05-19
+date: 2025-05-20
 draft: false
-summary: "Dashboard regime pasar IDX Composite berbasis dua sinyal: volatility quantile dan trend rule, diperbarui harian via GitHub Actions. Sengaja simple supaya transparan."
-repo: "https://github.com/dimas-suryo/dimas-suryo.github.io"
+summary: "IDX Composite market regime dashboard based on two signals: volatility quantile and trend rule, updated daily via GitHub Actions."
 status: "live"
 stack: ["Python", "pandas", "yfinance", "GitHub Actions", "Plotly.js"]
 ---
 
-Pertanyaan yang regime detection mau jawab itu sederhana: **"pasar lagi dalam kondisi seperti apa hari ini?"** Bukan "akan ke mana besok" — itu pertanyaan beda yang model ini tidak coba jawab.
+The question regime detection aims to answer is simple: **"What market conditions are we in today?"** Not "where will it go tomorrow", that's a whole different topic from what this model is trying to answer.
 
 {{< regime-radar tickers="^JKSE" >}}
 
-## Apa yang dilihat
+## What we'll see
 
-Dua panel, dua sinyal independen yang sengaja aku pilih simple:
+Two panels, two simple independent signals:
 
-**Trend regime** (panel atas, berdasarkan price): klasifikasi closed-form pakai MA crossover + slope. Tanggal `t` ber-label _up_ kalau close di atas MA200, MA50 di atas MA200, dan slope MA200 selama 60 hari terakhir positif. _Down_ kalau ketiga kondisi negatif. Sisanya _sideways_. Tidak ada quantile, tidak ada fitting, tidak ada lookahead — pure rule.
+**Trend regime** (top panel, based on price): closed-form classification using MA crossover + slope. Date `t` is labeled _up_ if close is above MA200, MA50 is above MA200, and MA200 slope over the last 60 days is positive. _Down_ if all three conditions are negative. Everything else is _sideways_. No quantiles, no fitting, no lookahead, just pure rule.
 
-**Vol regime** (panel bawah, berdasarkan realized volatility): realized vol = rolling std return 21 hari, di-annualisasi. Setiap tanggal di-label _low / mid / high_ berdasarkan quantile 33/67 dari trailing 5 tahun (di-shift 1 hari supaya label hari ini hanya melihat data sampai kemarin — strictly no lookahead).
+**Vol regime** (bottom panel, based on realized volatility): realized vol = 21-day rolling std of returns, annualized. Each date is labeled _low / mid / high_ based on the 33/67 quantile from the trailing 5 years (shifted 1 day so today's label only sees data up to yesterday, strictly no lookahead).
 
-Bands berwarna di belakang line bukan dekorasi — itu sinyal itu sendiri. Garis cuma referensi visual.
+The colored bands behind the line are not decoration, they are the signal itself. The line is just a visual reference.
 
-## Kenapa rule-based, bukan HMM
+## Why rule-based, not HMM
 
-Pilihan filosofis, bukan teknis. HMM (hidden Markov model) untuk regime detection terdengar pintar dan banyak ada di paper, tapi punya beberapa masalah praktis yang sering tidak disebut:
+A philosophical choice, not a technical one. HMM (hidden Markov model) for regime detection sounds sophisticated and appears in many papers, but it has several practical problems that often go unmentioned:
 
-1. **Label tidak stabil.** Re-fit dengan data tambahan 1 hari bisa flip seluruh history regime labeling. Reader yang baca chart kemarin akan bingung ketika chart hari ini bilang sebaliknya.
-2. **Re-numbering antar fit.** "State 0" hari ini bisa menjadi "state 1" besok — semantic mapping ke "bull/bear" harus dilakukan post-hoc dengan rule manual.
-3. **Overstated confidence.** Output probabilistik (mis. "82% high-vol regime") terdengar precise, padahal precision itu sebagian besar artifact dari model assumption (Gaussian, stationary transition matrix) yang tidak benar di pasar nyata.
+1. **Labels are unstable.** Refitting with one extra day of data can flip the entire historical regime labeling. A reader who saw the chart yesterday will be confused when today's chart says the opposite.
+2. **Re-numbering across fits.** "State 0" today can become "state 1" tomorrow, semantic mapping to "bull/bear" must be done post-hoc with manual rules.
+3. **Overstated confidence.** Probabilistic output (e.g., "82% high-vol regime") sounds precise, but that precision is mostly an artifact of model assumptions (Gaussian, stationary transition matrix) that don't hold in real markets.
 
-Rule-based menukar "feels sophisticated" dengan "reproducible dan auditable". Setiap orang bisa verifikasi: ambil price IDX hari ini, hitung MA200 dan MA50, lihat slope. Sama hasilnya. Itu yang aku mau dari sinyal yang dipublikasikan.
+Rule-based trades "feels sophisticated" for "reproducible and auditable." Anyone can verify: take today's IDX price, calculate MA200 and MA50, check the slope. Same result every time. That's what I want from a published signal.
 
-HMM atau Markov-switching mungkin masuk sebagai panel ketiga di versi 2 — eksplisit di-frame sebagai eksperimen yang reader boleh percaya atau tidak.
+HMM or Markov-switching might go in as a third panel in v2, explicitly framed as an experiment that readers can choose to trust or not.
 
-## Yang ini BUKAN
+## What this is NOT
 
-Penting banget:
+Important:
 
-- **Bukan saran investasi.** Tidak ada di sini yang bilang "beli karena regime up" atau "jual karena vol high". Regime adalah konteks, bukan signal entry/exit.
-- **Bukan prediktif.** Vol regime hari ini deskriptif soal vol _yang sudah terealisasi_ dalam 21 hari terakhir. Tidak ada klaim soal vol besok.
-- **Bukan robust ke gap struktural.** Quantile baseline pakai trailing 5 tahun. Kalau volatility regime IDX shift permanen (misal karena perubahan struktural pasar), labeling akan lag.
-- **Bukan presisi yang sebenarnya.** Categorical label (low/mid/high) sengaja menyembunyikan presisi palsu. Realized vol 14.9% vs 15.1% mungkin masuk regime beda, tapi perbedaannya within noise.
+- **Not investment advice.** Nothing here says "buy because regime is up" or "sell because vol is high." Regime is context, not an entry/exit signal.
+- **Not predictive.** Today's vol regime is descriptive of vol that has _already been realized_ over the last 21 days. There is no claim about tomorrow's vol.
+- **Not robust to structural gaps.** The quantile baseline uses trailing 5 years. If IDX volatility regime shifts permanently (e.g., due to structural market changes), the labeling will lag.
+- **Not real precision.** Categorical labels (low/mid/high) deliberately hide false precision. Realized vol of 14.9% vs 15.1% might fall in different regimes, but the difference is within noise.
 
-## Parameter & sumber
+## Parameters & source
 
-| Parameter             | Nilai                                     | Alasan                                                                             |
-| --------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- |
-| Vol window            | 21 hari (~1 bulan trading)                | Standar realized vol monthly                                                       |
-| Vol quantile breaks   | 33%, 67%                                  | Tertile — kira-kira merata di baseline normal                                      |
-| Vol quantile lookback | 252×5 hari (~5 tahun)                     | Cukup untuk capture full cycle, tidak terlalu panjang sampai miss structural shift |
-| Trend short MA        | 50 hari                                   | Konvensi industri                                                                  |
-| Trend long MA         | 200 hari                                  | Konvensi industri (Hindenburg, dst.)                                               |
-| Trend slope window    | 60 hari                                   | ~kuartal                                                                           |
-| Data                  | `^JKSE` daily close via yfinance          | Free, sufficient untuk daily index                                                 |
-| Refresh               | 05:30 WIB weekday via GitHub Actions cron | Setelah US close, sebelum IDX buka                                                 |
+| Parameter             | Value                                     | Rationale                                                              |
+| --------------------- | ----------------------------------------- | ---------------------------------------------------------------------- |
+| Vol window            | 21 days (~1 month trading)                | Standard realized vol monthly                                          |
+| Vol quantile breaks   | 33%, 67%                                  | Tertile — roughly evenly spaced on normal baseline                     |
+| Vol quantile lookback | 252×5 days (~5 years)                     | Enough to capture full cycles, not so long as to miss structural shift |
+| Trend short MA        | 50 days                                   | Industry convention                                                    |
+| Trend long MA         | 200 days                                  | Industry convention (Hindenburg, etc.)                                 |
+| Trend slope window    | 60 days                                   | ~quarter                                                               |
+| Data                  | `^JKSE` daily close via yfinance          | Free, sufficient for daily index                                       |
+| Refresh               | 05:30 WIB weekday via GitHub Actions cron | After US close, before IDX opens                                       |
 
-Semua parameter ada di [`tools/regime_radar/build.py`](https://github.com/dimas-suryo/dimas-suryo.github.io/blob/main/tools/regime_radar/build.py) — `PARAMS` dict. Mau bandingkan dengan rule yang berbeda, fork dan ubah satu angka.
+All parameters are in [`tools/regime_radar/build.py`](https://github.com/dimas-suryo/dimas-suryo.github.io/blob/main/tools/regime_radar/build.py) — the `PARAMS` dict. Want to compare with different rules? Fork and change one number.
 
-## Caveat data
+## Data caveat
 
-`yfinance` adalah scraper community ke endpoint internal Yahoo Finance — bukan API resmi. Untuk daily close `^JKSE` ini battle-tested dan mayoritas hari berhasil, tapi pernah breakage 1-2 kali setahun saat Yahoo ubah sesuatu. Failure mode dashboard ini: page tetap nampilkan JSON terakhir yang sukses (mungkin kemarin atau 2 hari lalu), bukan crash. Recovery = upgrade yfinance dan re-run workflow.
+`yfinance` is a community scraper to Yahoo Finance's internal endpoints — not an official API. For daily `^JKSE` close, it's battle-tested and works most days, but there's the occasional breakage 1–2 times a year when Yahoo changes something. The failure mode for this dashboard: the page will still display the last successful JSON (maybe yesterday or 2 days ago), not crash. Recovery = upgrade yfinance and re-run the workflow.
 
 ## Roadmap
 
-- **Universe LQ45**: pre-compute 45 large caps, dropdown selector. Same architecture, zero refactor di code.
-- **Multi-asset panel**: tambah S&P 500, USDIDR, emas — biar bisa lihat "regime US apa, regime IDX apa" side-by-side.
-- **Stooq fallback** di `data.py`: defensive layer kalau yfinance down.
-- **HMM panel eksperimental**: re-implement forward-backward di NumPy murni (karena `hmmlearn` punya C-extension yang ribet di Pyodide), display dengan caveat eksplisit.
-- **Regime statistics**: berapa lama rata-rata tiap regime bertahan, transition probability empiris.
+- **Universe LQ45**: pre-compute 45 large caps, dropdown selector. Same architecture, zero code refactor.
+- **Multi-asset panel**: add S&P 500, USDIDR, gold, to see "what's the US regime, what's the IDX regime" side-by-side.
+- **Stooq fallback** in `data.py`: defensive layer if yfinance is down.
+- **Experimental HMM panel**: re-implement forward-backward in pure NumPy (since `hmmlearn` has a C-extension that's awkward in Pyodide), display with explicit caveats.
+- **Regime statistics**: average duration each regime lasts, empirical transition probabilities.
 
-## Source
-
-Code di [github.com/dimas-suryo/dimas-suryo.github.io](https://github.com/dimas-suryo/dimas-suryo.github.io) — folder `tools/regime_radar/` (model) dan `static/js/regime-radar.js` (renderer). Workflow di `.github/workflows/regime-radar.yaml`.
-
-Issue / PR / saran sangat welcome.
+Issues / PRs / suggestions very welcome.
