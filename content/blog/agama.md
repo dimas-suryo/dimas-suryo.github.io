@@ -15,7 +15,7 @@ Mungkin ini saat yang tepat untuk mempertanyakan algoritma yang sudah usang.
 
 Bayangkan kamu seorang behavioral economist yang ditugasi mendesain ulang peradaban dari nol. Soalnya begini: koordinasikan 10.000 primata egois yang pada dasarnya cuma peduli pada keluarga intinya supaya bisa bekerja sama dalam skala besar, tanpa pengawasan terpusat, tanpa penegakan yang signifikan. Kamu punya waktu 10.000 tahun.
 
-Ilmu perilaku modern baru ada sekitar 50 tahun lalu. Tapi nenek moyang kita, tanpa game theory, tanpa Kahneman, tanpa Elinor Ostrom, berhasil memecahkan masalah ini dengan sesuatu yang, kalau mau jujur, adalah salah satu rekayasa paling elegan dalam sejarah kognisi manusia.
+Modern behavioral study baru ada sekitar 50 tahun lalu. Tapi nenek moyang kita, tanpa game theory, tanpa Kahneman, tanpa Elinor Ostrom, berhasil memecahkan masalah ini dengan sesuatu yang kalau mau jujur adalah salah satu rekayasa paling elegan dalam sejarah kognisi manusia.
 
 Ada konsep Dunbar's Number dalam antropologi: batas kognitif yang membatasi kemampuan otak primata memelihara hubungan sosial yang stabil, maksimal sekitar 150 orang. Lewat angka itu, kohesi sosial runtuh. Gosip dan memori komunal tidak cukup untuk menjaga para penumpang gelap dari menggerogoti milik bersama.
 
@@ -43,17 +43,17 @@ Gangguan pertama: ketika kompromi jadi dosa.
 
 {{< figure src="/perisai-media/image2.jpeg" alt="Bobby Fischer vs Mikhail Tal in Leipzig Olympiad (1960)" caption="<em>Bobby Fischer vs Mikhail Tal in <a href=&quot;https://www.youtube.com/watch?v=ABezr4s10sc&quot;>Leipzig Olympiad (1960)</a></em>" >}}
 
-Kalau kamu mengupas semua label agama dari konflik Israel-Palestina, pada intinya yang kamu temukan adalah sengketa properti, sengketa lahan dan sumber daya. Dalam teori permainan yang paling dasar, tanah adalah barang yang bisa dibagi. Bisa dipotong, ditukar, dijadikan zona ekonomi bersama yang menguntungkan kedua pihak.
+Kalau kita mengupas semua label agama dari konflik Israel-Palestina, pada intinya yang kita temukan adalah sengketa properti, sengketa lahan dan sumber daya. Dalam game theory yang paling basic, tanah adalah barang yang bisa dibagi. Bisa dipotong, ditukar, dijadikan zona ekonomi bersama yang menguntungkan kedua belah pihak.
 
-Tapi begitu kamu memasukkan variabel "Tanah Suci" dan "sertifikat properti yang ditandatangani langsung oleh Tuhan", yang kamu hadapi bukan lagi sengketa properti, melainkan absolut teologis. Dan absolut teologis, secara desain, tidak bisa dikompromikan. Setiap pertukaran langsung dilabeli sebagai kemurtadan atau pengkhianatan terhadap langit.
+Tapi begitu kita memasukkan variabel "Tanah Suci" dan "sertifikat properti yang ditandatangani langsung oleh Tuhan", yang kita hadapi bukan lagi sengketa properti, melainkan absolut teologis. Dan absolut teologis, secara desain, tidak bisa dikompromikan. Setiap pertukaran langsung dilabeli sebagai kemurtadan atau pengkhianatan terhadap langit.
 
-Saya harus jujur, ini bukan satu-satunya cara membaca situasinya, dan saya sadar konflik Israel-Palestina punya lapisan kolonial, etnis, dan geopolitik yang tebal. Tapi komponen teologisnya sulit dipura-purakan tidak ada.
+Yang perlu digarisbawahi adalah ini bukan satu-satunya cara membaca situasi Israel-Palestina, dan saya sadar konflik Israel-Palestina punya lapisan kolonial, etnis, dan geopolitik yang tebal. Tapi komponen teologisnya sulit untuk dipura-purakan tidak ada.
 
 Tahun 1995, Yitzhak Rabin, PM Israel, hampir menutup two-state solution lewat Oslo II. Dia bukan aktivis damai yang naif, dia secara literal seorang mantan jenderal yang sudah menghitung probabilitas dan menyimpulkan bahwa tanah ditukar keamanan adalah tawaran terbaik yang bisa Israel dapatkan. Yigal Amir, mahasiswa hukum religius, menembak Rabin dari belakang. Bukan karena kalkulasi politik, tapi karena Din Rodef, hukum Yahudi yang mensyaratkan bahwa siapa pun yang mengancam nyawa komunitas Yahudi boleh dibunuh. Bagi Amir, menyerahkan "tanah suci" sama dengan mengancam nyawa komunitas.
 
 Di sisi lain ada Hamas, yang piagam pendiriannya pada 1988 secara eksplisit melarang negosiasi atas "tanah wakaf Islam" sampai kiamat, dan kerap melancarkan serangan tepat saat negosiasi damai hampir mencapai garis akhir.
 
-Mekanismenya serupa. Perangkat lunak yang sama, versi yang berbeda. Dogma mengonversi barang yang bisa dibagi menjadi absolut yang sakral. Dan absolut yang sakral cenderung hanya punya satu resolusi yang bisa diterima masing-masing pihak. Saya tidak bilang agama satu-satunya penyebab. Tapi sulit berargumen bahwa agama bukan salah satu variabel penting di sini.
+Mekanismenya mirip. Perangkat lunak yang sama dengan versi yang berbeda. Dogma mengonversi barang yang bisa dibagi menjadi absolut yang sakral. Dan absolut yang sakral cenderung hanya punya satu resolusi yang bisa diterima masing-masing pihak. Saya tidak bilang agama satu-satunya penyebab. Tapi sulit jika kita berargumen bahwa agama bukan salah satu variabel penting di sini.
 
 Gangguan kedua: berapa QALY harga sebuah kepastian teologis?
 
@@ -65,33 +65,33 @@ Biaya kesempatannya? Hampir satu dekade hambatan di negara dengan fasilitas rise
 
 Dalam kerangka QALY (Quality-Adjusted Life Year), ukuran standar epidemiologi untuk menilai dampak intervensi kesehatan, Parkinson saja secara global menyerang sekitar 10 juta orang. Satu tahun keterlambatan dalam penemuan perawatan yang memodifikasi penyakit berarti ratusan ribu QALY yang hilang. Kalikan sepuluh tahun. Kalikan semua penyakit lain yang ikut kena hambatan ini.
 
-Perlu dicatat memang, bahwa hitungan ini kasar dan penuh asumsi; kita tidak tahu apakah pendanaan penuh benar-benar akan menghasilkan terobosan yang lebih cepat, dan riset sel punca juga terus berjalan di negara lain. Tapi arah argumennya, menurut saya, tetap sulit diabaikan: kebijakan yang didasari keyakinan teologis tentang status moral segumpal sel berpotensi memperlambat perawatan untuk jutaan manusia yang sudah ada. Dan ini baru satu kebijakan, satu negara, satu dekade. Pertimbangkan pola serupa di tempat lain: kondom dan HIV di Afrika Sub-Sahara, pendidikan seks berbasis pantang total di AS, larangan otopsi di beberapa tradisi yang memperlambat forensik medis selama berabad-abad.
+Perlu dicatat memang, bahwa hitungan ini kasar dan penuh asumsi; kita tidak tahu apakah pendanaan penuh benar-benar akan menghasilkan terobosan yang lebih cepat, dan riset sel punca juga terus berjalan di negara lain. Tapi arah argumennya menurut saya tetap sulit diabaikan: kebijakan yang didasari keyakinan teologis tentang status moral segumpal sel berpotensi memperlambat perawatan untuk jutaan manusia yang sudah ada. Dan ini baru satu kebijakan, satu negara, satu dekade. Pertimbangkan pola serupa di tempat lain: kondom dan HIV di Afrika Sub-Sahara, abstinence-only sex education di AS, larangan otopsi di beberapa tradisi yang memperlambat forensik medis selama berabad-abad.
 
-Meninggalkan masa kanak-kanak?
+### Meninggalkan masa kanak-kanak?
 
 {{< figure src="/perisai-media/image4.jpeg" alt="Dr. D. Wade Clapp’s work with British biotech company Healx dates to 2019. Photo by Liz Kaye, Indiana University. He uses AI to accelerates his research on Tumour treatment." caption="Dr. D. Wade Clapp’s work with British biotech company Healx dates to 2019. <em>Photo by Liz Kaye, Indiana University. He uses AI to accelerates his research on Tumour treatment.</em>" >}}
 
-Saya tahu ke mana arah kritik yang akan datang: kamu mau manusia jadi nihilis, dan tanpa agama apa yang mencegah orang jadi psikopat? Pertanyaan yang wajar, dan saya tidak yakin punya jawaban yang sempurna.
+Saya tahu ke mana kamu akan memulai mengkritik tulisan saya: "pasti kamu mau manusia jadi nihilis, kan? Lalu jika tanpa agama, apa yang mencegah orang jadi psikopat?" Pertanyaan yang wajar dan saya tidak yakin punya jawaban yang sempurna.
 
-Tapi saya rasa itu simply false dichotomy. Kita tidak butuh ketakutan akan hukuman ilahi untuk mengerti bahwa membom anak kecil itu kejahatan. Itu bisa diturunkan dari prinsip dasar yang cukup sederhana: kamu tidak mau dibom, mereka juga tidak. Itu bukan nihilisme; itu akar dari sebagian besar etika yang bisa dipertahankan secara filosofis, dari Kant sampai Rawls, tanpa perlu referensi ke entitas supernatural.
+Tapi saya rasa itu simply false dichotomy. Kita tidak butuh ketakutan akan hukuman ilahi untuk mengerti bahwa membom anak kecil itu kejahatan. Itu bisa diderivasi dari first principles yang cukup sederhana: kamu tidak mau dibom, mereka juga tidak. Dan saya rasa itu bukan nihilisme, itu akar dari sebagian besar etika yang bisa dipertahankan secara filosofis, dari Kant sampai Rawls, tanpa perlu referensi ke entitas supernatural.
 
-Soal koordinasi massal, kita sudah punya semacam pengganti. Bukan yang sempurna, tapi setidaknya yang bisa diperbarui: konstitusi, hak asasi manusia universal, metode ilmiah, hukum internasional. Semuanya sistem yang bisa mengoreksi diri sendiri dan bisa direvisi ketika terbukti salah.
+Soal koordinasi massal, kita sudah punya semacam pengganti. Bukan yang sempurna memang, tapi setidaknya yang bisa diperbarui: konstitusi, hak asasi manusia universal, metode ilmiah, hukum internasional. Semuanya sistem yang bisa mengoreksi diri sendiri dan bisa direvisi ketika terbukti salah.
 
 Walau perlu diakui, sistem-sistem sekuler ini punya kegagalannya sendiri. Konstitusi bisa diamandemen untuk tujuan otoriter. Hukum internasional sering tidak bergigi. Metode ilmiah bisa disalahgunakan untuk eugenika. Institusi sekuler juga bisa jadi dogmatis dengan caranya sendiri; lihat saja bagaimana ideologi politik tertentu kadang berperilaku persis seperti agama, lengkap dengan para bidah dan ekskomunikasi. Jadi saya tidak sedang menjual utopia sekuler di sini.
 
-Yang saya coba katakan adalah: kenali kapan kamu sedang mengambil keputusan berdasarkan data dan nalar, dan kapan kamu sedang menjalankan perangkat lunak yang didesain untuk menjaga sebuah suku di padang pasir 2.000 tahun lalu. Keduanya tidak harus selalu berkonflik. Tapi ketika berkonflik, ada baiknya kamu tahu bedanya.
+Yang saya coba katakan adalah, kenali kapan kamu sedang mengambil keputusan berdasarkan data dan nalar, dan kapan kamu sedang menjalankan perangkat lunak yang didesain untuk menjaga sebuah suku di padang pasir 2.000 tahun lalu. Keduanya tidak harus selalu berkonflik. Tapi ketika berkonflik, ada baiknya kamu tahu bedanya.
 
 Rabin tahu bedanya. Dia kehilangan nyawa karena itu. Para ilmuwan sel punca tahu bedanya. Mereka kehilangan satu dekade karena itu.
 
-Kalau memang tidak ada tangan tak terlihat yang akan memperbaiki perubahan iklim, pandemi berikutnya, atau AI yang tidak selaras, dan saya menilai probabilitasnya rendah bahwa ada, maka tangan kita sendiri yang harus bergerak. Saya bisa saja salah soal probabilitas itu. Tapi taruhannya terlalu besar untuk tidak bertindak seolah kita sendiri yang bertanggung jawab.
+Kalau memang tidak ada "tangan tak terlihat" yang akan memperbaiki perubahan iklim, resesi ekonomi, atau perang yang menggunakan nuklir, in which saya menilai probabilitasnya rendah bahwa tangan tak terlihat tersebut ada, maka tangan kita sendirilah yang harus bergerak. Saya bisa saja salah soal probabilitas wheter or not tangan tak terlihat tersebut ada. Tapi taruhannya terlalu besar untuk tidak bertindak seolah kita sendiri yang bertanggung jawab, kan?.
 
-Perisai yang pernah menyelamatkan nenek moyang kita dari kepunahan mungkin sudah bermutasi jadi sesuatu yang lain. Bukan karena ia jahat dari awal, tapi karena ia tidak didesain untuk dunia ini.
+Perisai yang pernah menyelamatkan nenek moyang kita dari kepunahan mungkin sudah bermutasi jadi sesuatu yang lain. Bukan karena perisai tersebut jahat dari awal, tapi karena perisai tersebut memang tidak didesain untuk dunia ini, dunia kita sekarang.
 
-Meletakkan alat yang tidak lagi cocok untuk tugasnya bukan pengkhianatan. Tapi mungkin juga keliru kalau kita berpura-pura sudah menemukan penggantinya yang sempurna.
+Sebagai penutup, menurut saya, meletakkan alat yang tidak lagi cocok untuk tugasnya bukanlah pengkhianatan. Tapi mungkin juga keliru kalau kita berpura-pura sudah menemukan penggantinya yang sempurna. Apa yang harus kita lakukan? Saya tidak tahu jawaban pasti, saya rasa salah satunya adalah bertanya.
 
 Bacaan Lanjutan
 
-Setelah membaca lebih dari 350 buku, buku-buku di bawah ini yang paling awal "menyentil" kepala saya:
+Setelah membaca lebih dari 100 buku, buku-buku di bawah ini yang paling awal "menyentil" kepala saya:
 
 - Thinking, Fast and Slow, Daniel Kahneman
 

@@ -7,15 +7,15 @@ summary: "Menurut saya, merokok bukan sekadar pilihan kesehatan pribadi, melaink
 
 {{< figure src="/rokok-media/image1.png" alt="from JKN (2023)" caption="from JKN (2023)" >}}
 
-Kamu duduk di warung kopi. Di sebelahmu ada bapak-bapak yang menyalakan sebatang kretek, mengisapnya dalam-dalam, lalu mengembuskan asap tebal ke arah meja sebelah, tempat seorang ibu muda duduk bersama bayinya yang belum genap setahun. Bapak itu tidak merasa bersalah. Ibu itu tidak protes. Semua orang di warung itu menganggap pemandangan ini normal.
+Kita duduk di warung kopi. Di sebelah kita ada bapak-bapak yang menyalakan sebatang kretek, mengisapnya dalam-dalam, lalu mengembuskan asap tebal ke arah meja sebelah, tempat seorang ibu muda duduk bersama bayinya yang belum genap setahun. Bapak itu tidak merasa bersalah. Ibu itu tidak protes. Semua orang di warung itu menganggap pemandangan ini normal.
 
-Ini bukan tulisan tentang kesehatan. Kamu sudah tahu rokok membunuh; peringatannya bahkan ada di bungkus rokokmu sendiri. Ini tulisan tentang sesuatu yang lebih mendasar: tentang keberanian, tentang tanggung jawab, dan tentang bagaimana 65 juta orang dewasa di negara ini memilih menjadi pengecut setiap kali mereka menyalakan sebatang rokok.
+Ini bukan tulisan tentang kesehatan. Kita semua sudah tahu rokok membunuh; peringatannya bahkan ada di bungkus rokokmu sendiri. Ini tulisan tentang sesuatu yang lebih mendasar: tentang keberanian, tentang tanggung jawab, dan tentang bagaimana 65 juta orang dewasa di negara ini memilih menjadi pengecut setiap kali mereka menyalakan sebatang rokok.
 
 ## I.
 
 Argumen paling populer dari seorang perokok adalah "ini hak saya". I mean, let's test it.
 
-Hak, secara definisi, berhenti di titik ia mulai merugikan orang lain. Kamu punya hak mengayunkan tinjumu, tapi hak itu berhenti tepat di ujung hidung orang lain. Rokok tidak mengikuti logika ini. Asap yang kamu embuskan tidak tinggal di paru-parumu saja. Asap tersebut berpindah, ke paru-paru istrimu, anakmu, rekan kerjamu, orang asing di angkot. Dan ini bukan pernyataan retoris.
+Hak, secara definisi, berhenti di titik ia mulai merugikan orang lain. Kita semua punya hak mengayunkan tinju kita, tapi hak itu berhenti tepat di ujung hidung orang lain. Rokok tidak mengikuti logika ini. Asap yang kita embuskan tidak tinggal di paru-paru kita saja. Asap tersebut berpindah, ke paru-paru istri kita, anak kita, rekan kerja kita, orang asing di angkot. Dan ini bukan pernyataan retoris.
 
 Di Indonesia, sekitar 66% remaja usia 13–15 tahun terpapar asap rokok orang lain di tempat umum tertutup. Lebih dari 57% terpapar di rumahnya sendiri. Setiap tahun, sekitar 290.000 orang Indonesia meninggal akibat tembakau, dan lebih dari 52.000 di antaranya orang yang tidak pernah merokok. Mereka mati karena asap rokok orang lain.
 
@@ -23,11 +23,11 @@ Lima puluh dua ribu. Itu bukan sekadar angka; itu orang-orang yang tidak pernah 
 
 Jadi ketika seorang perokok bilang "hak saya", yang sebenarnya mereka katakan adalah "saya berhak memasukkan karsinogen ke paru-paru orang lain tanpa persetujuan mereka". Itu bukan hak, melainkan kekerasan dalam gerak lambat.
 
-Ini situasi di mana seseorang mengambil keuntungan kecil untuk dirinya sendiri, kenikmatan rokok, sambil mentransfer kerugian besar ke orang lain, asap rokok pasif, biaya kesehatan publik, anak-anak yang sakit. Perokok mendapat nikmat, orang lain mendapat kanker. Ini bentuk moral hazard paling kasatmata yang bisa kamu temukan dalam kehidupan sehari-hari.
+Ini situasi di mana seseorang mengambil keuntungan kecil untuk dirinya sendiri, kenikmatan rokok, sambil mentransfer kerugian besar ke orang lain, asap rokok pasif, biaya kesehatan publik, anak-anak yang sakit. Perokok mendapat nikmat, orang lain mendapat kanker. Ini bentuk moral hazard paling kasatmata yang bisa kita temukan dalam kehidupan sehari-hari.
 
 ## II.
 
-Argumen kedua yang paling sering didengar: tapi kan perokok sudah bayar cukai. Ini argumen yang paling mudah dipatahkan, karena cukup lihat angkanya.
+Argumen kedua yang paling sering didengar: tapi kan perokok sudah bayar cukai. Ini argumen yang paling mudah dipatahkan, karena tinggal lihat angkanya.
 
 Pada 2022, penerimaan cukai rokok Indonesia mencapai sekitar Rp200 triliun. Angka yang besar. Para pejabat dan industri rokok sering membanggakan angka ini, menyebutnya kontribusi besar terhadap perekonomian, bahkan melebihi setoran seluruh BUMN.
 
@@ -67,7 +67,7 @@ Ini bukan soal menghina kecerdasan perokok. Ini soal mengakui bahwa keputusan un
 
 Dan mekanisme psikologis yang paling sering dipakai perokok untuk membenarkan perilakunya, "kakek saya ngerokok sampai 90 tahun", "kita semua juga akan mati", "hidup cuma sekali", semuanya bentuk survivorship bias dan rasionalisasi. Seorang rasionalis sejati akan mengenalinya sebagai motivated reasoning, mencari alasan untuk membenarkan keputusan yang sudah diambil alih-alih mengevaluasi bukti secara jujur sebelum memutuskan.
 
-Itu, sejujurnya, pengecut. Bukan karena kamu lemah secara fisik, tapi karena kamu tidak cukup berani jujur pada dirimu sendiri.
+Itu, sejujurnya, pengecut. Bukan karena kita lemah secara fisik, tapi karena kita tidak cukup berani jujur pada dirimu sendiri.
 
 ## V.
 
@@ -87,7 +87,7 @@ Di level individu, solusinya sangat sederhana: berhenti merokok. Bukan "kurangi"
 
 WHO melaporkan bahwa pada 2018, 30,4% perokok Indonesia berusaha berhenti merokok, tapi hanya 9,4% yang berhasil. Angka ini rendah, tapi bukan nol. Jutaan orang Indonesia telah berhasil berhenti. Mereka melakukannya bukan karena mudah, tapi karena memutuskan bahwa kesehatan mereka, keluarga mereka, dan integritas mereka lebih penting daripada kenikmatan sementara dari sebatang rokok.
 
-Mantan perokok yang berhasil berhenti adalah orang-orang paling berani dalam percakapan ini. Mereka menghadapi gejala putus zat yang menyiksa, tekanan sosial dari teman-teman yang masih merokok, dan bertahun-tahun kebiasaan yang tertanam dalam. Dan mereka tetap berhenti. Itulah keberanian. Bukan menyalakan sebatang rokok sambil bergaya di atas motor, bukan mengembuskan asap tebal sambil ngobrol di warung, tapi duduk dengan ketidaknyamanan, menahan diri, dan memilih untuk tidak mentransfer risiko ke orang-orang yang kamu cintai.
+Mantan perokok yang berhasil berhenti adalah orang-orang paling berani dalam percakapan ini. Mereka menghadapi gejala putus zat yang menyiksa, tekanan sosial dari teman-teman yang masih merokok, dan bertahun-tahun kebiasaan yang tertanam dalam. Dan mereka tetap berhenti. Itulah keberanian. Bukan menyalakan sebatang rokok sambil bergaya di atas motor, bukan mengembuskan asap tebal sambil ngobrol di warung, tapi duduk dengan ketidaknyamanan, menahan diri, dan memilih untuk tidak mentransfer risiko ke orang-orang yang kita cintai.
 
 Di level sistem, solusinya juga sudah diketahui: ratifikasi FCTC, larangan total iklan rokok, kenaikan cukai yang signifikan dan konsisten, penegakan kawasan tanpa asap rokok yang serius, dan program berhenti merokok yang didanai publik. Semua ini sudah dilakukan negara lain dan terbukti berhasil menurunkan prevalensi merokok secara drastis.
 
