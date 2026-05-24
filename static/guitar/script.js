@@ -277,10 +277,29 @@ function chSetChord(v){CH.chord=v;chUpdate()}
 const cp=document.getElementById('cp');
 
 /* Build the inner HTML for one prose node. Shared by map-mode render() and essay mode. */
+function relatedChipsHTML(id){
+  if(id==='root'||!adj[id])return'';
+  /* Filter out root (always connected, not informative) and any id we don't
+     have content for. Sort by L1 first, then L2, then alphabetically by title. */
+  const rel=[...adj[id]].filter(x=>x!=='root'&&C[x]);
+  if(!rel.length)return'';
+  rel.sort((a,b)=>{
+    const la=(nmap[a]||{}).lv||9, lb=(nmap[b]||{}).lv||9;
+    if(la!==lb)return la-lb;
+    return (C[a].title||'').localeCompare(C[b].title||'');
+  });
+  const chips=rel.map(rid=>{
+    const t=(C[rid].title||'').replace(/\n/g,' ');
+    return `<button class="related-chip" onclick="selectNode('${rid}')" title="Loncat ke ${t}">${t}</button>`;
+  }).join('');
+  return `<div class="related-block"><span class="related-label">Terhubung dengan</span>${chips}</div>`;
+}
+
 function buildNodeHTML(id,opts){
   opts=opts||{};
   const d=C[id];if(!d)return'';
   let h=`<div class="content-title">${d.title}</div><div class="content-sub">${d.sub}</div>`;
+  if(!opts.noAnim)h+=relatedChipsHTML(id);
   if(d.intro)h+=`<p class="content-intro">${d.intro}</p>`;
   d.secs.forEach((s,i)=>{
     h+=`<div class="sec"${opts.noAnim?'':` style="animation-delay:${i*.04}s"`}><div class="sec-label">${s.l}</div>`;
@@ -469,41 +488,41 @@ const NODES=[
   {id:'chordhl',lab:'Chord Tone\nHighlight',lv:2,sp:true},
 ];
 const LINKS=[
-  // Hub spokes (root to every L1 topic
-  {s:'root',t:'sound'},{s:'root',t:'notes'},{s:'root',t:'intervals'},{s:'root',t:'scales'},
-  {s:'root',t:'math'},{s:'root',t:'modes'},{s:'root',t:'chords'},{s:'root',t:'family'},
-  {s:'root',t:'harmony'},{s:'root',t:'rhythm'},{s:'root',t:'guitar'},{s:'root',t:'ear'},
-  {s:'root',t:'practice'},{s:'root',t:'tools'},
-  // Sequential learning rim (adjacent topics in the conceptual chain
-  {s:'sound',t:'notes'},{s:'notes',t:'intervals'},{s:'intervals',t:'scales'},
-  {s:'scales',t:'math'},{s:'scales',t:'modes'},{s:'modes',t:'chords'},
-  {s:'chords',t:'family'},{s:'family',t:'harmony'},
-  // Cross-links (conceptual bridges that show how topics actually relate
-  {s:'intervals',t:'chords'},     // chords = stacked intervals
-  {s:'intervals',t:'ear'},        // interval recognition is core ear training
-  {s:'scales',t:'chords'},        // chord tones come from scales
-  {s:'scales',t:'family'},        // diatonic chords come from the major scale
-  {s:'chords',t:'ear'},           // chord-quality recognition
-  {s:'modes',t:'family'},         // each diatonic chord has its corresponding mode
-  {s:'modes',t:'harmony'},        // modal harmony
-  {s:'rhythm',t:'practice'},      // rhythm needs metronome discipline
-  {s:'guitar',t:'notes'},         // where notes live on the fretboard
-  {s:'guitar',t:'chords'},        // chord shapes on the fretboard
-  {s:'guitar',t:'scales'},        // scale patterns on the fretboard
-  {s:'ear',t:'practice'},         // ear training is daily practice
-  // L2 guitar children
-  {s:'guitar',t:'caged'},{s:'guitar',t:'fretboard'},{s:'guitar',t:'techniques'},
-  {s:'caged',t:'chords'},         // CAGED is chord-shape system
-  {s:'caged',t:'fretboard'},      // CAGED helps navigate fretboard
-  {s:'fretboard',t:'notes'},      // fretboard = notes spatially mapped
-  {s:'techniques',t:'practice'},  // techniques live and die by practice
-  // L2 tools children + their conceptual targets
-  {s:'tools',t:'picker'},{s:'tools',t:'intrainer'},{s:'tools',t:'scaleviz'},{s:'tools',t:'chordhl'},
-  {s:'picker',t:'notes'},         // note picker exercises notes
-  {s:'intrainer',t:'intervals'},  // interval trainer
-  {s:'intrainer',t:'ear'},        // interval trainer = ear training
-  {s:'scaleviz',t:'scales'},      // scale visualizer
-  {s:'chordhl',t:'chords'},       // chord-tone highlight tool
+  // Hub spokes — root to every L1 topic
+  {s:'root',t:'sound',k:'spoke'},{s:'root',t:'notes',k:'spoke'},{s:'root',t:'intervals',k:'spoke'},{s:'root',t:'scales',k:'spoke'},
+  {s:'root',t:'math',k:'spoke'},{s:'root',t:'modes',k:'spoke'},{s:'root',t:'chords',k:'spoke'},{s:'root',t:'family',k:'spoke'},
+  {s:'root',t:'harmony',k:'spoke'},{s:'root',t:'rhythm',k:'spoke'},{s:'root',t:'guitar',k:'spoke'},{s:'root',t:'ear',k:'spoke'},
+  {s:'root',t:'practice',k:'spoke'},{s:'root',t:'tools',k:'spoke'},
+  // Rim links — the music-theory learning chain (sequential)
+  {s:'sound',t:'notes',k:'rim'},{s:'notes',t:'intervals',k:'rim'},{s:'intervals',t:'scales',k:'rim'},
+  {s:'scales',t:'math',k:'rim'},{s:'scales',t:'modes',k:'rim'},{s:'modes',t:'chords',k:'rim'},
+  {s:'chords',t:'family',k:'rim'},{s:'family',t:'harmony',k:'rim'},
+  // Cross-links — conceptual bridges across the wheel
+  {s:'intervals',t:'chords',k:'cross'},     // chords = stacked intervals
+  {s:'intervals',t:'ear',k:'cross'},        // interval recognition is core ear training
+  {s:'scales',t:'chords',k:'cross'},        // chord tones come from scales
+  {s:'scales',t:'family',k:'cross'},        // diatonic chords come from the major scale
+  {s:'chords',t:'ear',k:'cross'},           // chord-quality recognition
+  {s:'modes',t:'family',k:'cross'},         // each diatonic chord has its corresponding mode
+  {s:'modes',t:'harmony',k:'cross'},        // modal harmony
+  {s:'rhythm',t:'practice',k:'cross'},      // rhythm needs metronome discipline
+  {s:'guitar',t:'notes',k:'cross'},         // where notes live on the fretboard
+  {s:'guitar',t:'chords',k:'cross'},        // chord shapes on the fretboard
+  {s:'guitar',t:'scales',k:'cross'},        // scale patterns on the fretboard
+  {s:'ear',t:'practice',k:'cross'},         // ear training is daily practice
+  // Parent links — guitar L1 to its L2 children + their conceptual targets
+  {s:'guitar',t:'caged',k:'parent'},{s:'guitar',t:'fretboard',k:'parent'},{s:'guitar',t:'techniques',k:'parent'},
+  {s:'caged',t:'chords',k:'cross'},         // CAGED is chord-shape system
+  {s:'caged',t:'fretboard',k:'cross'},      // CAGED helps navigate fretboard
+  {s:'fretboard',t:'notes',k:'cross'},      // fretboard = notes spatially mapped
+  {s:'techniques',t:'practice',k:'cross'},  // techniques live and die by practice
+  // Parent links — tools L1 to its L2 children + their conceptual targets
+  {s:'tools',t:'picker',k:'parent'},{s:'tools',t:'intrainer',k:'parent'},{s:'tools',t:'scaleviz',k:'parent'},{s:'tools',t:'chordhl',k:'parent'},
+  {s:'picker',t:'notes',k:'cross'},         // note picker exercises notes
+  {s:'intrainer',t:'intervals',k:'cross'},  // interval trainer
+  {s:'intrainer',t:'ear',k:'cross'},        // interval trainer = ear training
+  {s:'scaleviz',t:'scales',k:'cross'},      // scale visualizer
+  {s:'chordhl',t:'chords',k:'cross'},       // chord-tone highlight tool
 ];
 const L1=['sound','notes','intervals','scales','math','modes','chords','family','harmony','rhythm','guitar','ear','practice','tools'];
 const GI=L1.indexOf('guitar'),TI=L1.indexOf('tools');
@@ -525,31 +544,50 @@ const mp=document.getElementById('map-panel');
 let W=mp.clientWidth,H=mp.clientHeight;
 calcPos(W,H);
 
+/* Adjacency map — built from LINKS once, used for hover/select highlighting
+   and for the "Terhubung dengan" chips in the content panel. */
+const adj={};NODES.forEach(n=>{adj[n.id]=new Set()});
+LINKS.forEach(l=>{adj[l.s].add(l.t);adj[l.t].add(l.s)});
+
 const svg=d3.select('#mm');const g=svg.append('g');
-svg.call(d3.zoom().scaleExtent([.3,3.5]).on('zoom',e=>g.attr('transform',e.transform)));
+/* B2 — translateExtent prevents user from panning the map off-screen */
+const zoomB=d3.zoom().scaleExtent([.5,3.5])
+  .translateExtent([[-W*0.6,-H*0.6],[W*1.6,H*1.6]])
+  .on('zoom',e=>g.attr('transform',e.transform));
+svg.call(zoomB);
+
 function linkPath(d){
   const s=nmap[d.s],t=nmap[d.t];
-  // Hub spokes: straight radial line
-  if(d.s==='root'||d.t==='root') return `M${s.x},${s.y}L${t.x},${t.y}`;
-  // Cross-links: quadratic Bezier curving outward (away from canvas center)
+  /* Hub spokes: straight radial line */
+  if(d.k==='spoke') return `M${s.x},${s.y}L${t.x},${t.y}`;
+  /* Everything else: quadratic Bezier curving outward (away from canvas center) */
   const cx=W/2,cy=H/2;
   const mx=(s.x+t.x)/2,my=(s.y+t.y)/2;
   let dx=mx-cx,dy=my-cy;
   let dlen=Math.hypot(dx,dy);
   if(dlen<1){dx=-(t.y-s.y);dy=t.x-s.x;dlen=Math.hypot(dx,dy)||1}
   const linkLen=Math.hypot(t.x-s.x,t.y-s.y);
-  const curve=Math.min(linkLen*0.18,70);
+  /* Parent links curve less (subtle) than cross-links (more dramatic) */
+  const factor=d.k==='parent'?0.08:0.18;
+  const curve=Math.min(linkLen*factor,d.k==='parent'?30:70);
   const px=mx+(dx/dlen)*curve,py=my+(dy/dlen)*curve;
   return `M${s.x},${s.y}Q${px},${py} ${t.x},${t.y}`;
 }
+
 const lsel=g.append('g').selectAll('path').data(LINKS).join('path')
   .attr('d',linkPath)
-  .attr('fill','none');
+  .attr('fill','none')
+  .attr('stroke-linecap','round');
+
 const R={0:38,1:22,2:16};
 const ng=g.append('g').selectAll('g').data(NODES).join('g')
   .attr('transform',d=>`translate(${d.x},${d.y})`)
   .attr('cursor','pointer')
-  .on('click',(e,d)=>{e.stopPropagation();selectNode(d.id)});
+  .on('click',(e,d)=>{e.stopPropagation();selectNode(d.id)})
+  .on('mouseenter',(e,d)=>{hoverId=d.id;showTip(e,d);applyNodeColors()})
+  .on('mousemove',(e)=>moveTip(e))
+  .on('mouseleave',()=>{hoverId=null;hideTip();applyNodeColors()});
+
 ng.append('circle').attr('r',d=>R[d.lv]).attr('stroke-width',d=>d.lv===0?2:1.5);
 ng.each(function(d){
   const el=d3.select(this),lines=d.lab.split('\n');
@@ -558,19 +596,73 @@ ng.each(function(d){
   lines.forEach((ln,i)=>{tx.append('tspan').attr('x',0).attr('dy',i===0?-(lines.length-1)*lh/2:lh).attr('font-size',fs).attr('font-weight',d.lv===0?'700':'500').text(ln)});
 });
 
+/* M5 — hover tooltip showing node title + sub */
+const tipEl=document.createElement('div');tipEl.className='mm-tooltip';document.body.appendChild(tipEl);
+function showTip(e,d){if(!C[d.id])return;const t=C[d.id];tipEl.innerHTML=`<strong>${t.title.replace(/\n/g,' ')}</strong>${t.sub||''}`;tipEl.classList.add('visible');moveTip(e)}
+function moveTip(e){const pad=14;let x=e.clientX+pad,y=e.clientY+pad;const r=tipEl.getBoundingClientRect();if(x+r.width>window.innerWidth-8)x=e.clientX-r.width-pad;if(y+r.height>window.innerHeight-8)y=e.clientY-r.height-pad;tipEl.style.left=x+'px';tipEl.style.top=y+'px'}
+function hideTip(){tipEl.classList.remove('visible')}
+
 let selectedId=null;
+let hoverId=null;
 function getCS(){const s=getComputedStyle(document.body);const g=v=>s.getPropertyValue(v).trim();return{rootFill:g('--node-root-fill'),rootStroke:g('--node-root-stroke'),rootText:g('--node-root-text'),l1Fill:g('--node-l1-fill'),l1Stroke:g('--node-l1-stroke'),l1Text:g('--node-l1-text'),l2Fill:g('--node-l2-fill'),l2Stroke:g('--node-l2-stroke'),l2Text:g('--node-l2-text'),spFill:g('--node-sp-fill'),spStroke:g('--node-sp-stroke'),spText:g('--node-sp-text'),activeFill:g('--node-active-fill'),activeStroke:g('--node-active-stroke'),activeText:g('--node-active-text'),spActiveFill:g('--node-sp-active-fill'),spActiveStroke:g('--node-sp-active-stroke'),linkColor:g('--link-color'),linkActive:g('--link-active')}}
 
 function applyNodeColors(){
   const c=getCS();
+  /* Focus = whatever the user is paying attention to. Hover wins over selection
+     so the user can preview without losing their current selection.
+     Root is treated as a "no-focus" default because root touches every L1 —
+     dimming the whole map when root is selected would be ugly. */
+  const focusId = hoverId || (selectedId && selectedId!=='root' ? selectedId : null);
+  const focusSet = focusId ? new Set([focusId, ...adj[focusId]]) : null;
+  const isLinkActive = d => focusId && (d.s===focusId || d.t===focusId);
+  const isNodeInFocus = id => !focusSet || focusSet.has(id);
+
   ng.select('circle')
-    .attr('fill',d=>{if(d.id===selectedId)return d.sp?c.spActiveFill:c.activeFill;if(d.sp)return c.spFill;return d.lv===0?c.rootFill:d.lv===1?c.l1Fill:c.l2Fill})
-    .attr('stroke',d=>{if(d.id===selectedId)return d.sp?c.spActiveStroke:c.activeStroke;if(d.sp)return c.spStroke;return d.lv===0?c.rootStroke:d.lv===1?c.l1Stroke:c.l2Stroke});
+    .attr('fill',d=>{
+      const sel=d.id===selectedId;
+      if(sel)return d.sp?c.spActiveFill:c.activeFill;
+      if(d.sp)return c.spFill;
+      return d.lv===0?c.rootFill:d.lv===1?c.l1Fill:c.l2Fill;
+    })
+    .attr('stroke',d=>{
+      const sel=d.id===selectedId, neighbor=focusSet && focusSet.has(d.id) && d.id!==focusId;
+      if(sel)return d.sp?c.spActiveStroke:c.activeStroke;
+      if(neighbor)return c.linkActive;            /* halo on neighbors of focused node */
+      if(d.sp)return c.spStroke;
+      return d.lv===0?c.rootStroke:d.lv===1?c.l1Stroke:c.l2Stroke;
+    })
+    .attr('stroke-width',d=>{
+      if(d.id===selectedId)return d.lv===0?2.4:2.2;
+      if(focusSet && focusSet.has(d.id))return 2;  /* highlighted neighbor ring */
+      return d.lv===0?2:1.5;
+    });
+  ng.attr('opacity',d=>isNodeInFocus(d.id)?1:0.32);
   ng.select('text')
-    .attr('fill',d=>{if(d.id===selectedId)return d.sp?c.spText:c.activeText;if(d.sp)return c.spText;return d.lv===0?c.rootText:d.lv===1?c.l1Text:c.l2Text});
-  lsel.attr('stroke',d=>(d.s===selectedId||d.t===selectedId)?c.linkActive:c.linkColor)
-    .attr('stroke-width',d=>(d.s===selectedId||d.t===selectedId)?1.6:0.85)
-    .attr('stroke-opacity',d=>(d.s===selectedId||d.t===selectedId)?.85:.45);
+    .attr('fill',d=>{
+      if(d.id===selectedId)return d.sp?c.spText:c.activeText;
+      if(d.sp)return c.spText;
+      return d.lv===0?c.rootText:d.lv===1?c.l1Text:c.l2Text;
+    });
+
+  /* Link styling by kind. Inactive widths/opacities tuned so the four kinds
+     read as distinct categories even at a glance:
+       spoke  — thin, very faint  (radial structural skeleton)
+       rim    — medium, dashed    (sequential learning chain / "spine")
+       cross  — medium, solid     (conceptual bridges / "web")
+       parent — thin, dotted      (subordinate L1→L2 relationship)
+  */
+  const W_INACTIVE = {spoke:0.7, rim:1.1, cross:1.1, parent:0.9};
+  const W_ACTIVE   = {spoke:1.5, rim:1.9, cross:1.9, parent:1.7};
+  const O_INACTIVE = {spoke:0.30, rim:0.55, cross:0.55, parent:0.45};
+  const DASH       = {rim:'5,4', parent:'2,3'};
+  lsel.attr('stroke',d=>isLinkActive(d)?c.linkActive:c.linkColor)
+    .attr('stroke-width',d=>isLinkActive(d)?W_ACTIVE[d.k]:W_INACTIVE[d.k])
+    .attr('stroke-opacity',d=>{
+      if(isLinkActive(d))return 0.95;
+      if(focusId)return 0.10;          /* dim non-focused links when something is focused */
+      return O_INACTIVE[d.k];
+    })
+    .attr('stroke-dasharray',d=>DASH[d.k]||null);
 }
 function selectNode(id){clearTmr();PS.running=false;selectedId=id;applyNodeColors();if(viewMode==='map')render(id)}
 new ResizeObserver(()=>{W=mp.clientWidth;H=mp.clientHeight;calcPos(W,H);ng.attr('transform',d=>`translate(${d.x},${d.y})`);lsel.attr('d',linkPath)}).observe(mp);
@@ -585,6 +677,14 @@ new ResizeObserver(()=>{W=mp.clientWidth;H=mp.clientHeight;calcPos(W,H);ng.attr(
   hdr.insertBefore(btn,themeT);
   btn.addEventListener('click',()=>setViewMode(viewMode==='essay'?'map':'essay'));
 })();
+
+/* B3 — Esc key returns focus to root (but not when user is typing in an input) */
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  const ae=document.activeElement;
+  if(ae && (ae.tagName==='INPUT'||ae.tagName==='TEXTAREA'||ae.tagName==='SELECT'||ae.isContentEditable))return;
+  if(selectedId && selectedId!=='root')selectNode('root');
+});
 
 selectedId='root';applyNodeColors();
 setViewMode(viewMode);

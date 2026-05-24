@@ -1468,3 +1468,48 @@ input[type="range"]::-moz-range-thumb {
   user-select: none !important;
   -webkit-user-select: none !important;
 }
+
+/* === Mind-map UX additions === */
+
+/* "Terhubung dengan" chips — clickable connection list in content panel */
+.related-block {
+  display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center;
+  margin: 14px 0 18px; padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+}
+.related-label {
+  font-size: 0.7em; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+  margin-right: 4px;
+}
+.related-chip {
+  font-family: 'Poppins', sans-serif; font-size: 0.78em;
+  padding: 4px 11px;
+  background: var(--bg-alt); border: 1px solid var(--border); border-radius: 999px;
+  color: var(--text-secondary); cursor: pointer;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.related-chip:hover {
+  border-color: var(--accent); color: var(--accent);
+  background: var(--accent-ghost);
+}
+.essay-section .related-block { display: none; }
+
+/* Hover tooltip over mind-map nodes — title + sub preview */
+.mm-tooltip {
+  position: fixed; pointer-events: none; z-index: 1000;
+  max-width: 260px; padding: 9px 12px;
+  background: var(--surface); border: 1px solid var(--border-accent);
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif; font-size: 0.76em; line-height: 1.45;
+  color: var(--text-secondary);
+  box-shadow: 0 6px 18px var(--shadow);
+  opacity: 0; transition: opacity .12s;
+}
+.mm-tooltip.visible { opacity: 1; }
+.mm-tooltip strong {
+  display: block;
+  color: var(--text);
+  margin-bottom: 3px;
+  font-size: 1.08em; font-weight: 600;
+}
