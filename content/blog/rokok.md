@@ -9,17 +9,17 @@ summary: "Menurut saya, merokok bukan sekadar pilihan kesehatan pribadi, melaink
 
 Kita duduk di warung kopi. Di sebelah kita ada bapak-bapak yang menyalakan sebatang kretek, mengisapnya dalam-dalam, lalu mengembuskan asap tebal ke arah meja sebelah, tempat seorang ibu muda duduk bersama bayinya yang belum genap setahun. Bapak itu tidak merasa bersalah. Ibu itu tidak protes. Semua orang di warung itu menganggap pemandangan ini normal.
 
-Ini bukan tulisan tentang kesehatan. Kita semua sudah tahu rokok membunuh; peringatannya bahkan ada di bungkus rokokmu sendiri. Ini tulisan tentang sesuatu yang lebih mendasar: tentang keberanian, tentang tanggung jawab, dan tentang bagaimana 65 juta orang dewasa di negara ini memilih menjadi pengecut setiap kali mereka menyalakan sebatang rokok.
+Ini bukan tulisan tentang kesehatan. Kita semua sudah tahu rokok membunuh, peringatannya bahkan ada di bungkus rokokmu sendiri. Ini tulisan tentang sesuatu yang lebih mendasar: tentang keberanian, tentang tanggung jawab, dan tentang bagaimana 65 juta orang dewasa di negara ini memilih menjadi pengecut setiap kali mereka menyalakan sebatang rokok.
 
 ## I.
 
 Argumen paling populer dari seorang perokok adalah "ini hak saya". I mean, let's test it.
 
-Hak, secara definisi, berhenti di titik ia mulai merugikan orang lain. Kita semua punya hak mengayunkan tinju kita, tapi hak itu berhenti tepat di ujung hidung orang lain. Rokok tidak mengikuti logika ini. Asap yang kita embuskan tidak tinggal di paru-paru kita saja. Asap tersebut berpindah, ke paru-paru istri kita, anak kita, rekan kerja kita, orang asing di angkot. Dan ini bukan pernyataan retoris.
+Hak, secara definisi, berhenti di titik di mana dia mulai merugikan orang lain. Kita semua punya hak mengayunkan tinju kita, tapi hak itu berhenti tepat di ujung hidung orang lain. Rokok tidak mengikuti logika ini. Asap yang kita embuskan tidak tinggal di paru-paru kita saja. Asap tersebut berpindah, ke paru-paru istri kita, anak kita, rekan kerja kita, orang asing di angkot. Dan ini bukan pernyataan retoris.
 
 Di Indonesia, sekitar 66% remaja usia 13–15 tahun terpapar asap rokok orang lain di tempat umum tertutup. Lebih dari 57% terpapar di rumahnya sendiri. Setiap tahun, sekitar 290.000 orang Indonesia meninggal akibat tembakau, dan lebih dari 52.000 di antaranya orang yang tidak pernah merokok. Mereka mati karena asap rokok orang lain.
 
-Lima puluh dua ribu. Itu bukan sekadar angka; itu orang-orang yang tidak pernah memilih merokok tapi tetap membayar harganya. Bayangkan sebuah stadion sepak bola penuh. Setiap tahun seluruh isi stadion itu mati. Bayangkan tragedi Kanjuruhan terjadi setiap hari, persis, bukan karena pilihan mereka sendiri tapi karena pilihan orang lain. Kanjuruhan karena polisinya pengecut; 52.000 orang ini karena banyak perokok pengecut.
+Lima puluh dua ribu. Itu bukan sekadar angka, itu orang-orang yang tidak pernah memilih merokok tapi tetap membayar harganya. Bayangkan sebuah stadion sepak bola penuh. Setiap tahun seluruh isi stadion itu mati. Bayangkan tragedi Kanjuruhan terjadi setiap hari, persis, bukan karena pilihan mereka sendiri tapi karena pilihan orang lain. Kanjuruhan karena polisinya pengecut, 52.000 orang ini karena banyak perokok pengecut.
 
 Jadi ketika seorang perokok bilang "hak saya", yang sebenarnya mereka katakan adalah "saya berhak memasukkan karsinogen ke paru-paru orang lain tanpa persetujuan mereka". Itu bukan hak, melainkan kekerasan dalam gerak lambat.
 
@@ -59,7 +59,7 @@ Kata "pengecut" dipilih dengan sengaja.
 
 Indonesia punya hubungan budaya yang sangat kuat antara rokok dan maskulinitas. Rokok adalah simbol kedewasaan, kebersamaan, bahkan kejantanan. Iklan rokok, yang masih tersebar luas karena Indonesia satu-satunya anggota WHO di Asia Tenggara yang belum meratifikasi Framework Convention on Tobacco Control, secara konsisten dan bukan kebetulan mengasosiasikan merokok dengan petualangan, keberanian, dan kebebasan.
 
-Ironisnya, realitas adiksi adalah kebalikan sempurna dari semua itu. Orang yang tidak bisa duduk 30 menit di sebuah rapat tanpa gelisah memikirkan rokok bukan orang bebas; itu budak dari zat kimia. Orang yang menghabiskan Rp50.000 per hari, Rp1,5 juta per bulan, Rp18 juta per tahun untuk sesuatu yang secara harfiah membunuhnya perlahan, sementara keluarganya hidup di bawah garis kemiskinan, bukan orang yang "jantan". Data menunjukkan pengeluaran rokok per kapita adalah pengeluaran terbesar kedua rumah tangga Indonesia, setelah makanan dan minuman jadi.
+Ironisnya, realitas adiksi adalah kebalikan sempurna dari semua itu. Orang yang tidak bisa duduk 30 menit di sebuah rapat tanpa gelisah memikirkan rokok bukan orang bebas, tapi budak dari zat kimia. Orang yang menghabiskan Rp50.000 per hari, Rp1,5 juta per bulan, Rp18 juta per tahun untuk sesuatu yang secara harfiah membunuhnya perlahan, sementara keluarganya hidup di bawah garis kemiskinan, bukan orang yang "jantan". Data menunjukkan pengeluaran rokok per kapita adalah pengeluaran terbesar kedua rumah tangga Indonesia, setelah makanan dan minuman jadi.
 
 Studi terbaru dari Mensa Indonesia menunjukkan sesuatu yang menarik: prevalensi merokok di kalangan anggota Mensa Indonesia hanya 10,8%, dibandingkan prevalensi nasional yang berkisar 28–40%. Angka ini kira-kira seperempat dari rata-rata populasi. Orang-orang yang paling mampu mengevaluasi risiko jangka panjang ternyata paling sedikit yang merokok.
 
@@ -77,7 +77,7 @@ Indonesia bukan cuma negara yang gagal melindungi warganya dari rokok. Indonesia
 
 Di sinilah kompleksitas yang sesungguhnya. Jutaan orang menggantungkan hidupnya dari industri ini, dari petani tembakau di Jember sampai buruh pabrik di Kudus. Menyerang rokok tanpa mengakui realitas ini adalah bentuk privilese intelektual.
 
-Tapi mengakui realitas ini juga tidak membenarkan status quo. Fakta bahwa banyak orang bergantung pada industri senjata tidak membuat senjata jadi baik. Fakta bahwa kartel narkoba mempekerjakan ribuan orang tidak membuat narkoba jadi positif. Ketergantungan ekonomi pada industri yang membunuh 290.000 warganya per tahun bukan alasan; itu diagnosis.
+Tapi mengakui realitas ini juga tidak membenarkan status quo. Fakta bahwa banyak orang bergantung pada industri senjata tidak membuat senjata jadi baik. Fakta bahwa kartel narkoba mempekerjakan ribuan orang tidak membuat narkoba jadi positif. Ketergantungan ekonomi pada industri yang membunuh 290.000 warganya per tahun bukan alasan, tapi diagnosis.
 
 Dan ini, sebenarnya, alasan lain mengapa kata pengecut tepat, bukan hanya untuk individu perokok, tapi untuk bangsa ini secara kolektif. Kita semua tahu rokok membunuh. Kita semua melihat datanya. Tapi kita terlalu pengecut untuk membuat perubahan struktural yang nyata, karena terlalu banyak kepentingan ekonomi dan politik yang terlibat.
 

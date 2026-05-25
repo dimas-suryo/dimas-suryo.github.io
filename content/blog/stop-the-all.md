@@ -7,7 +7,7 @@ summary: "Dunia ini terlalu banyak Laki-Laki Pecundang dan Perempuan Gila"
 
 ## I.
 
-Belum lama ini sebuah group chat bocor. Isinya mahasiswa FH UI angkatan 2023 yang saling berbagi obrolan melecehkan teman perempuan, dosen, bahkan pacar dan kakak mereka sendiri. Mereka calon sarjana hukum, calon penegak keadilan, calon pembuat undang-undang. Isinya cukup buruk sehingga saya tidak perlu mengutipnya di sini; kalau kamu belum membacanya, percayalah, itu memang seburuk yang kamu bayangkan.
+Belum lama ini sebuah group chat bocor. Isinya mahasiswa FH UI angkatan 2023 yang saling berbagi obrolan melecehkan teman perempuan, dosen, bahkan pacar dan kakak mereka sendiri. Mereka calon sarjana hukum, calon penegak keadilan, calon pembuat undang-undang. Isinya cukup buruk sehingga saya tidak perlu mengutipnya di sini, kalau kamu belum membacanya, percayalah, itu memang seburuk yang kamu bayangkan.
 
 Saya ingin memulai dari satu hal yang tidak perlu diperdebatkan: apa yang mereka lakukan itu salah. Bukan salah karena bertentangan dengan nilai feminisme, atau karena mereproduksi rape culture, atau alasan teoretis apa pun, tetapi karena mereka melecehkan manusia nyata yang tidak pernah setuju dijadikan bahan obrolan semacam itu. Ini bukan perkara ideologi, melainkan kesopanan paling dasar yang semestinya sudah selesai sejak kita belajar bahwa orang lain punya perasaan.
 
@@ -25,7 +25,7 @@ Ada parasit bernama _Toxoplasma gondii_. Siklus hidupnya dimulai di tubuh kucing
 
 Saya pikir ini analogi yang pas untuk cara kerja _outrage_ di internet, yang oleh Slate Star Codex pernah disebut "The Toxoplasma of Rage". Mekanismenya kurang lebih begini.
 
-Sebuah kasus muncul, katakanlah kasus pelecehan. Satu sisi berteriak bahwa ini bukti rape culture itu nyata. Sisi lain merespons dengan mempertanyakan konteks dan kenapa tidak diingatkan secara internal. Sisi pertama menuduh sisi kedua membela pelaku; sisi kedua menuduh sisi pertama mendistorsi fakta. Masing-masing membagikan kemarahannya ke timeline sendiri, masuk ke echo chamber masing-masing, pengikutnya ikut marah, lalu membagikannya lagi, dan siklusnya berputar.
+Sebuah kasus muncul, katakanlah kasus pelecehan. Satu sisi berteriak bahwa ini bukti rape culture itu nyata. Sisi lain merespons dengan mempertanyakan konteks dan kenapa tidak diingatkan secara internal. Sisi pertama menuduh sisi kedua membela pelaku, sisi kedua menuduh sisi pertama mendistorsi fakta. Masing-masing membagikan kemarahannya ke timeline sendiri, masuk ke echo chamber masing-masing, pengikutnya ikut marah, lalu membagikannya lagi, dan siklusnya berputar.
 
 Yang penting dipahami: kasus yang paling jelas justru bukan kasus yang paling viral. Yang paling viral adalah yang paling ambigu. Alasannya, kasus yang jelas tidak menyisakan ruang untuk _signalling_. Kalau ada video CCTV seorang ayah memukuli anak perempuannya di jalan, semua orang sepakat itu salah dan tidak ada yang perlu memposting apa-apa. Tapi begitu kasusnya sedikit abu-abu, apakah itu cat-calling atau pujian, apakah itu pelecehan atau rayuan yang kikuk, tiba-tiba semua orang punya sesuatu yang perlu dibuktikan.
 
@@ -53,7 +53,7 @@ Versi motte: "Ada pola sosial yang mempersulit korban pelecehan seksual untuk be
 
 Versi bailey: "Semua bentuk seksualitas heteroseksual di bawah patriarki mengandung elemen koersi, dan seluruh institusi yang ada perlu dibongkar."
 
-Keduanya disebut "feminisme" dan memakai label yang sama, padahal keduanya klaim yang sama sekali berbeda. Yang pertama sulit dibantah; tentu saja korban harus bisa bicara. Yang kedua klaim radikal yang menuntut extraordinary evidence. Tapi begitu kamu menyerang yang kedua, kamu akan terlihat menyerang yang pertama. Dan siapa yang mau terlihat anti-korban?
+Keduanya disebut "feminisme" dan memakai label yang sama, padahal keduanya klaim yang sama sekali berbeda. Yang pertama sulit dibantah, tentu saja korban harus bisa bicara. Yang kedua klaim radikal yang menuntut extraordinary evidence. Tapi begitu kamu menyerang yang kedua, kamu akan terlihat menyerang yang pertama. Dan siapa yang mau terlihat anti-korban?
 
 Contoh lain yang lebih dekat.
 
@@ -69,13 +69,13 @@ Versi bailey: "Setiap interaksi seksual yang tidak secara eksplisit dan berulang
 
 Orang yang memakai konsep-konsep ini biasanya tidak sadar sedang melakukan motte-and-bailey. Mereka betul-betul percaya kedua versi itu adalah hal yang sama. Dan harus diakui, kadang memang sulit membedakannya, sebab realitas jarang serapi kategori logis. Tapi efeknya tetap sama: diskusi jadi nyaris mustahil, karena setiap kali kamu mengkritik klaim yang radikal, kamu langsung dihadapkan pada klaim yang masuk akal, dan kamu terpaksa mundur karena motte-nya memang benar.
 
-Inilah yang melahirkan sesuatu yang berbahaya, yaitu imunitas terhadap kritik. Kalau setiap kritik bisa dimentahkan dengan "oh jadi kamu pro-pelecehan?", maka gerakan apa pun kehilangan mekanisme koreksi internalnya dan berubah jadi tidak terbantahkan. Dan sesuatu yang tidak terbantahkan, kata Karl Popper, bukan sains; itu dogma.
+Inilah yang melahirkan sesuatu yang berbahaya, yaitu imunitas terhadap kritik. Kalau setiap kritik bisa dimentahkan dengan "oh jadi kamu pro-pelecehan?", maka gerakan apa pun kehilangan mekanisme koreksi internalnya dan berubah jadi tidak terbantahkan. Dan sesuatu yang tidak terbantahkan, kata Karl Popper, bukan sains, itu dogma.
 
 ## IV.
 
 Ada pertanyaan yang jarang diajukan karena mengajukannya saja sudah berisiko secara sosial: dari mana datangnya anak-anak FH UI itu?
 
-Bukan dalam artian harfiah; kita tahu mereka dari Jakarta, dari keluarga menengah-atas, dari SMA-SMA bagus. Pertanyaannya lebih dalam dari itu. Bagaimana mungkin sekelompok mahasiswa hukum di universitas terbaik di Indonesia, yang dikelilingi diskursus progresif, yang setiap hari terpapar narasi soal consent dan respect dan kesetaraan gender, justru berakhir di group chat semacam itu?
+Bukan dalam artian harfiah, kita tahu mereka dari Jakarta, dari keluarga menengah-atas, dari SMA-SMA bagus. Pertanyaannya lebih dalam dari itu. Bagaimana mungkin sekelompok mahasiswa hukum di universitas terbaik di Indonesia, yang dikelilingi diskursus progresif, yang setiap hari terpapar narasi soal consent dan respect dan kesetaraan gender, justru berakhir di group chat semacam itu?
 
 Jawaban naturalis yang mudah (atau malas): mereka memang sudah jahat dari awal. Jawaban yang memuaskan secara emosional: toxic masculinity yang sudah mengakar. Atau jawaban yang membuat kita merasa aman: ini kegagalan individu, bukan kegagalan sistem.
 
@@ -85,7 +85,7 @@ Bayangkan kamu mahasiswa laki-laki berusia 18 tahun. Baru masuk kampus. Kamu buk
 
 Lalu lingkungan kampusmu menyampaikan hal-hal ini, kadang eksplisit, kadang tersirat. Bahwa kamu, sebagai laki-laki, bagian dari kelompok yang secara struktural menindas. Bahwa maskulinitasmu bersifat toksik sampai terbukti sebaliknya. Kalau kamu merasa tidak nyaman dengan narasi itu, itu privilese-mu yang bicara. Kalau kamu membantah, itu fragility. Kalau kamu diam, itu complicity.
 
-Perhatikan polanya: setiap respons yang mungkin kamu berikan sudah dilabeli lebih dulu sebagai bukti kesalahanmu. Tidak nyaman, privilese. Membantah, fragility. Diam, complicity. Tidak ada pintu keluar. Ini bukan dialog; ini kafka's trap.
+Perhatikan polanya: setiap respons yang mungkin kamu berikan sudah dilabeli lebih dulu sebagai bukti kesalahanmu. Tidak nyaman, privilese. Membantah, fragility. Diam, complicity. Tidak ada pintu keluar. Ini bukan dialog, ini kafka's trap.
 
 Yang perlu ditekankan adalah: saya tidak bilang konsep privilese itu salah, atau bahwa laki-laki tidak punya keuntungan struktural tertentu. Di awal tulisan ini saya sudah bilang asimetri pengalaman itu nyata. Tapi ada jurang besar antara mengatakan "ada pola sosial yang perlu kamu pahami" dan mengatakan "kamu bersalah karena keberadaanmu, dan setiap reaksimu terhadap tuduhan ini hanya membuktikan tuduhan itu benar." Yang pertama pendidikan. Yang kedua indoktrinasi, dan saya memilih kata "indoktrinasi" dengan sadar.
 
@@ -133,9 +133,9 @@ Kamu nyaman dengan semua itu? Kalau tidak, in which saya harap tidak, maka prins
 
 Soal presisi sebagai kewajiban moral, kedua. Ini mungkin argumen yang paling diremehkan. Ketika kamu bilang "All Cops Are Bastards", kamu menutup ruang untuk pertanyaan yang justru penting. Polisi di daerah mana? Kebijakan apa yang bermasalah? Masalahnya di rekrutmen, pelatihan, atau akuntabilitas? Adakah polisi yang sungguh-sungguh mencoba reformasi dari dalam, dan barusan kamu masukkan juga ke kategori "bastard"?
 
-Absolutisme retoris memang terasa berkuasa. "ACAB" terdengar lebih garang ketimbang "beberapa aspek dari sistem kepolisian di sejumlah yurisdiksi memerlukan reformasi struktural". Tapi yang pertama tidak punya muatan analitis. "ACAB" tidak memberi tahu kamu apa yang harus dilakukan; ia hanya memberi tahu kamu apa yang harus dirasakan. Dan perasaan tanpa arah cuma jadi energi yang berputar-putar di dalam echo chamber.
+Absolutisme retoris memang terasa berkuasa. "ACAB" terdengar lebih garang ketimbang "beberapa aspek dari sistem kepolisian di sejumlah yurisdiksi memerlukan reformasi struktural". Tapi yang pertama tidak punya muatan analitis. "ACAB" tidak memberi tahu kamu apa yang harus dilakukan, ia hanya memberi tahu kamu apa yang harus dirasakan. Dan perasaan tanpa arah cuma jadi energi yang berputar-putar di dalam echo chamber.
 
-Soal _friendly fire_, ketiga. "Kill All Men" lebih melukai laki-laki yang sudah berada di pihakmu ketimbang yang tidak. Laki-laki yang memang misoginis dan tidak peduli pada feminisme jelas tidak akan peduli juga pada slogan itu; mereka scroll lewat begitu saja. Yang terluka justru laki-laki yang cukup peduli untuk mendengarkan, yang sedang tulus berusaha memahami, yang barangkali sedang belajar, lalu tiba-tiba diberi tahu bahwa mereka, karena kromosom XY-nya, termasuk kelompok yang layak dibunuh, secara hiperbolik, tentu, tapi tetap saja.
+Soal _friendly fire_, ketiga. "Kill All Men" lebih melukai laki-laki yang sudah berada di pihakmu ketimbang yang tidak. Laki-laki yang memang misoginis dan tidak peduli pada feminisme jelas tidak akan peduli juga pada slogan itu, mereka scroll lewat begitu saja. Yang terluka justru laki-laki yang cukup peduli untuk mendengarkan, yang sedang tulus berusaha memahami, yang barangkali sedang belajar, lalu tiba-tiba diberi tahu bahwa mereka, karena kromosom XY-nya, termasuk kelompok yang layak dibunuh, secara hiperbolik, tentu, tapi tetap saja.
 
 Kalau tujuanmu mengubah perilaku dan membangun aliansi, ini bukan strategi. Ini ibarat menembak kaki sendiri.
 
@@ -165,7 +165,7 @@ Sampai di sini saya sudah menghabiskan ribuan kata mengutuk virtue signalling, m
 
 Dan kalau saya jujur, secara literal dan harfiah, saya harus mengakui bahwa semua itu juga sebuah pertunjukan.
 
-Bukan pertunjukan dalam arti saya tidak percaya pada yang saya tulis; saya percaya. Tapi menulis esai sepanjang ini untuk mengkritik orang lain karena memamerkan superioritas moral lewat Instagram story, sambil saya sendiri memamerkan superioritas intelektual lewat esai, adalah ironi yang terlalu besar untuk diabaikan.
+Bukan pertunjukan dalam arti saya tidak percaya pada yang saya tulis, saya percaya. Tapi menulis esai sepanjang ini untuk mengkritik orang lain karena memamerkan superioritas moral lewat Instagram story, sambil saya sendiri memamerkan superioritas intelektual lewat esai, adalah ironi yang terlalu besar untuk diabaikan.
 
 Saya sadar seluruh esai ini, yang terasa begitu di atas segalanya, begitu rasional, begitu tidak tribal, sebenarnya ekspresi tribalism-nya Grey Tribe. Saya tidak berada di atas permainan. Saya tidak sedang memainkan 4D chess. Saya ada di dalam permainannya juga, hanya dengan jersey berbeda.
 
@@ -177,7 +177,7 @@ Kamu tidak. Saya pun tidak. None of us, are.
 
 Toleransi baru bermakna kalau ditujukan pada kelompok yang benar-benar kamu anggap menjijikkan. Bukan kelompok yang kamu pura-pura toleransi karena mereka jauh dan abstrak, tapi kelompok yang kehadirannya membuat perutmu mual.
 
-Buat saya, kelompok itu bukan anak-anak FH UI; saya sudah mengutuk mereka sejak awal, dan mengutuk mereka itu mudah karena semua orang sepakat mereka salah. Kelompok yang sungguh menguji toleransi saya adalah aktivis yang menurut saya melakukan motte-and-bailey. Orang yang memposting "Kill All Men" dan betul-betul percaya itu posisi moral yang bisa dipertahankan. Orang yang menurut saya salah, tapi salah dengan cara yang mereka yakini benar.
+Buat saya, kelompok itu bukan anak-anak FH UI, saya sudah mengutuk mereka sejak awal, dan mengutuk mereka itu mudah karena semua orang sepakat mereka salah. Kelompok yang sungguh menguji toleransi saya adalah aktivis yang menurut saya melakukan motte-and-bailey. Orang yang memposting "Kill All Men" dan betul-betul percaya itu posisi moral yang bisa dipertahankan. Orang yang menurut saya salah, tapi salah dengan cara yang mereka yakini benar.
 
 Bisakah saya memahami kenapa mereka sampai di posisi itu, dengan empati analitis yang sama yang saya tuntut dari mereka terhadap kelompok lain? Bisakah saya menerapkan prinsip saya sendiri, presisi, nuanced, konsisten, pada orang-orang yang menurut saya tidak menerapkan prinsip yang sama?
 
@@ -197,7 +197,7 @@ Mari kembali ke FH UI '23.
 
 Apa yang mereka lakukan itu salah. Saya sudah mengatakannya berkali-kali sejak paragraf pertama dan saya tidak akan pernah berubah pikiran. Bukan karena toxic masculinity sebagai abstraksi teoretis, tapi karena mereka melecehkan orang-orang yang nyata wujudnya, yang tidak pernah setuju diperlakukan begitu. Kamu tidak butuh teori gender untuk tahu ini salah. Kamu cuma butuh empati dasar yang semestinya sudah kamu punya sejak umur lima tahun.
 
-Tapi saya ingin menutup dengan sebuah tantangan. Bukan untuk mereka; mereka sudah kena konsekuensinya. Tantangan ini untuk kamu, untuk kita.
+Tapi saya ingin menutup dengan sebuah tantangan. Bukan untuk mereka, mereka sudah kena konsekuensinya. Tantangan ini untuk kamu, untuk kita.
 
 Kalau kamu salah satu yang memposting Instagram story mengecam mereka, tanyakan pada dirimu sendiri, dengan jujur:
 
@@ -219,7 +219,7 @@ Kata "all" itu nyaman. Kata tersebut membebaskan kita dari beban nuance. Kata "a
 
 Stop the all.
 
-Bukan karena kemarahannya tidak sah; kemarahan itu sah. Perempuan yang marah karena dilecehkan punya hak penuh untuk marah. Orang yang muak pada brutalitas polisi punya hak penuh untuk muak. Frustrasi terhadap sistem yang rusak itu benar.
+Bukan karena kemarahannya tidak sah, kemarahan itu sah. Perempuan yang marah karena dilecehkan punya hak penuh untuk marah. Orang yang muak pada brutalitas polisi punya hak penuh untuk muak. Frustrasi terhadap sistem yang rusak itu benar.
 
 Tapi kemarahan yang dibungkus "all" bukan lagi kemarahan yang produktif. Itu kemarahan yang sudah menjelma identitas. Dan ketika kemarahan menjadi identitas, kamu tidak lagi ingin masalahnya selesai, karena kalau selesai, kamu kehilangan sebagian dari dirimu.
 

@@ -33,7 +33,7 @@ Tesis utamanya: kedua model, baik ethno-state (Zionisme) maupun solusi two-state
 
 Versi terkuat dari argumen Zionis bukanlah "Tuhan memberi tanah ini ke kami" karena itu argumen adalah yang mudah dibantah. Versi terkuatnya adalah: setelah Holocaust, kelompok yang secara sistematis diburu dan dibunuh oleh hampir seluruh peradaban Barat selama dua milenium membutuhkan sebuah lokasi fisik yang bisa dipertahankan secara militer, bukan sebagai privilese, tapi sebagai asuransi eksistensial. Dan jujur, menurut saya pribadi, ini argumen yang cukup valid.
 
-Begitu juga, versi terkuat dari two-state bukan nostalgia peta 1967. Versi terkuatnya adalah: satu-satunya cara dua komunitas dengan trauma historis yang saling tumpang-tindih bisa membangun identitas politik yang sehat adalah dengan punya ruang kedaulatan masing-masing lebih dulu; integrasi prematur tanpa fondasi kepercayaan hanya akan menciptakan Yugoslavia, bukan Afrika Selatan.
+Begitu juga, versi terkuat dari two-state bukan nostalgia peta 1967. Versi terkuatnya adalah: satu-satunya cara dua komunitas dengan trauma historis yang saling tumpang-tindih bisa membangun identitas politik yang sehat adalah dengan punya ruang kedaulatan masing-masing lebih dulu, integrasi prematur tanpa fondasi kepercayaan hanya akan menciptakan Yugoslavia, bukan Afrika Selatan.
 
 Dua argumen di atas valid. Sekarang saya akan mencoba menunjukkan kenapa, bahkan dengan menerima premis terkuat dari kedua argumen itu, kesimpulannya tetap sama.
 
@@ -55,7 +55,7 @@ Ethno-state, by definition, adalah sistem yang mencoba mempertahankan komposisi 
 
 Untuk mempertahankan ethno-state Yahudi dengan komposisi demografi seperti sekarang, sistem membutuhkan salah satu dari dua hal. Pertama, represi permanen, seperti kontrol mobilitas, legitimasi diskriminasi, dan pembatasan hak politik. Kedua, perubahan komposisi demografis secara paksa, yang dalam kacamata hukum internasional disebut ethnic cleansing.
 
-Opsi pertama menciptakan apa yang dalam system dynamics disebut reinforcing feedback loop: represi memicu resistensi, resistensi memicu eskalasi, eskalasi memicu represi yang lebih keras, dan seterusnya. Lingkaran ini tidak punya titik ekuilibrium; lingkaran ini akan terus bereskalasi sampai salah satu variabel collapse. Opsi kedua, secara hukum internasional, jelas kejahatan perang, dan secara praktis akan memicu respons internasional yang justru mempercepat keruntuhan sistem itu sendiri.
+Opsi pertama menciptakan apa yang dalam system dynamics disebut reinforcing feedback loop: represi memicu resistensi, resistensi memicu eskalasi, eskalasi memicu represi yang lebih keras, dan seterusnya. Lingkaran ini tidak punya titik ekuilibrium, lingkaran ini akan terus bereskalasi sampai salah satu variabel collapse. Opsi kedua, secara hukum internasional, jelas kejahatan perang, dan secara praktis akan memicu respons internasional yang justru mempercepat keruntuhan sistem itu sendiri.
 
 Kesimpulan dari kacamata systems thinking, ethno-state adalah sistem yang secara struktural tidak bisa mencapai keadaan steady state. Bukan karena orang-orangnya jahat, saya mencoba tidak membuat klaim moral di sini, tapi karena arsitekturnya tidak kompatibel dengan realitas demografi yang ada. Ini sejalan dengan alasan Nassim Taleb mengatakan eksistensi negara Israel itu tidak antifragile.
 
@@ -79,13 +79,13 @@ Karena _DA(t)/DJ(t)_ adalah fungsi yang meningkat monotically increasing terhada
 
 _dσ/dt > 0 ∀t_
 
-Artinya energy input untuk represi tidak punya batas atas; dia akan terus naik tanpa batas. Sistem yang butuh input tak terbatas untuk bertahan adalah sistem yang secara definitif tidak sustainable. Ini bukan prediksi politik melainkan implikasi matematis langsung dari data demografis.
+Artinya energy input untuk represi tidak punya batas atas, dia akan terus naik tanpa batas. Sistem yang butuh input tak terbatas untuk bertahan adalah sistem yang secara definitif tidak sustainable. Ini bukan prediksi politik melainkan implikasi matematis langsung dari data demografis.
 
 Reinforcing feedback loop-nya itu bisa direpresentasikan sebagai sistem persamaan diferensial sederhana:
 
 _d(Represi)/dt = α · Resistensi, d(Resistensi)/dt = β · Represi_
 
-di mana _α, β > 0_. Sistemnya tidak punya fixed point yang stabil selain collapse total; eigenvalue-nya positif, artinya solusinya divergen, bukan konvergen.
+di mana _α, β > 0_. Sistemnya tidak punya fixed point yang stabil selain collapse total, eigenvalue-nya positif, artinya solusinya divergen, bukan konvergen.
 
 Kembali ke "asuransi eksistensial" di paragraf sebelumnya: kebutuhan yang legitimate, lokasi fisik yang bisa dipertahankan sebagai asuransi eksistensial, justru tidak terpenuhi oleh ethno-state yang sedang berada dalam umpan balik menuju keruntuhan. Ethno-state dengan demografi 50:50 itu lebih sulit dipertahankan, bukan lebih mudah. Asuransi eksistensial yang genuine membutuhkan sistem yang stabil, dan itu, setidaknya menurut analisis ini, hanya bisa datang dari constitutional hard guarantees yang melindungi kedua komunitas, bukan dari represi yang _dσ/dt > 0_-nya tanpa batas atas.
 
@@ -107,7 +107,7 @@ Premis Zionis (mereka sendiri yang assert):
 
 _Pr𝓏: P(Jews) ∧ H(Jews) → S(Jews)_
 
-Sekarang kita coba universalizability test ala Kant; kalau prinsip ini valid, ini harus bisa dijadikan universal:
+Sekarang kita coba universalizability test ala Kant, kalau prinsip ini valid, ini harus bisa dijadikan universal:
 
 _Universalized: ∀x [P(x) ∧ H(x) → S(x)]_
 
@@ -161,7 +161,7 @@ Sekarang, bahkan jika kita murah hati dan memberi setiap asumsi probabilitas keb
 
 P(two-state berhasil) = 0,7⁵ = 0,168 ≈ 17%
 
-Secara intuitif orang sering menghitung ini sebagai 0,7⁵ = 17%, tapi itu sebenarnya mengandung error statistik karena mengasumsikan A₁ sampai A₅ saling independen, padahal mereka punya korelasi positif. Framing yang lebih tepat begini. Meminjam perkataan Taleb, setiap asumsi di atas adalah single point of failure. Bayangkan sebuah rantai dengan lima mata rantai kritis; tidak perlu semuanya putus untuk gagal, cukup satu saja. Dan kalau kamu bertanya mata rantai mana yang paling lemah, A₁ saja sudah cukup. Lebih dari 700.000 pemukim ilegal Israel yang sudah punya jalan, air, listrik, dan internet yang terintegrasi ke sistem Israel, ini bukan soal political will lagi, ini sudah menyangkut masalah infrastruktur. Belum ada preseden dalam sejarah modern di mana pemukiman sekompleks dan sebesar ini berhasil di-disentangle secara damai.
+Secara intuitif orang sering menghitung ini sebagai 0,7⁵ = 17%, tapi itu sebenarnya mengandung error statistik karena mengasumsikan A₁ sampai A₅ saling independen, padahal mereka punya korelasi positif. Framing yang lebih tepat begini. Meminjam perkataan Taleb, setiap asumsi di atas adalah single point of failure. Bayangkan sebuah rantai dengan lima mata rantai kritis, tidak perlu semuanya putus untuk gagal, cukup satu saja. Dan kalau kamu bertanya mata rantai mana yang paling lemah, A₁ saja sudah cukup. Lebih dari 700.000 pemukim ilegal Israel yang sudah punya jalan, air, listrik, dan internet yang terintegrasi ke sistem Israel, ini bukan soal political will lagi, ini sudah menyangkut masalah infrastruktur. Belum ada preseden dalam sejarah modern di mana pemukiman sekompleks dan sebesar ini berhasil di-disentangle secara damai.
 
 Secara formal, definisikan _S_ = peristiwa "two-state berhasil". Therefore:
 
@@ -171,7 +171,7 @@ Ini conjunctive necessary condition bahwa semua asumsi harus terpenuhi secara be
 
 _¬Aᵢ ⊢ ¬S untuk setiap i ∈ {1,2,3,4,5}_
 
-Setiap Aᵢ adalah necessary condition, dan kegagalan satu saja sufficient untuk menggagalkan keseluruhan. Dari sini terlihat bahwa ini bukan probability multiplication tapi logika kondisi yang jauh lebih ketat. Kamu tidak perlu tahu probabilitas masing-masing; cukup tunjukkan bahwa satu kondisi saja sudah tidak terpenuhi, dan argumennya selesai.
+Setiap Aᵢ adalah necessary condition, dan kegagalan satu saja sufficient untuk menggagalkan keseluruhan. Dari sini terlihat bahwa ini bukan probability multiplication tapi logika kondisi yang jauh lebih ketat. Kamu tidak perlu tahu probabilitas masing-masing, cukup tunjukkan bahwa satu kondisi saja sudah tidak terpenuhi, dan argumennya selesai.
 
 Dan untuk A₁: merelokasi atau mengintegrasikan 700.000 pemukim yang sudah tertanam adalah kondisi yang, berdasarkan seluruh base rate historis yang ada, belum pernah berhasil dilakukan dalam konteks serupa.
 
@@ -205,7 +205,7 @@ Karena logika ini berlaku simetris untuk kedua pihak, Nash equilibrium dari perm
 
 One-state changes the game itself. Solusinya bukan membujuk pemain untuk "lebih baik hati", melainkan mengubah struktur payoff matrix-nya itu sendiri. One-state melakukan persis itu. Ketika kedua kelompok menjadi satu entitas legal-konstitusional, struktur insentifnya berubah secara fundamental.
 
-Sabotase ekonomi terhadap kelompok lain menjadi sabotase terhadap diri sendiri, karena mereka kini berada dalam satu jaringan pajak, rantai pasok, dan pasar tenaga kerja yang sama. Ekstremisme politik menjadi tidak rasional secara elektoral, karena untuk menang mayoritas parlemen, setiap partai harus meraih suara cross-ethnic; sistem memaksa moderation bukan lewat pegangan moral tapi lewat self-interest. Terorisme kehilangan kalkulasi rasionalnya karena target dan pelaku sekarang berada dalam satu sistem hukum dan ekonomi yang sama, therefore, blowback-nya simetris.
+Sabotase ekonomi terhadap kelompok lain menjadi sabotase terhadap diri sendiri, karena mereka kini berada dalam satu jaringan pajak, rantai pasok, dan pasar tenaga kerja yang sama. Ekstremisme politik menjadi tidak rasional secara elektoral, karena untuk menang mayoritas parlemen, setiap partai harus meraih suara cross-ethnic, sistem memaksa moderation bukan lewat pegangan moral tapi lewat self-interest. Terorisme kehilangan kalkulasi rasionalnya karena target dan pelaku sekarang berada dalam satu sistem hukum dan ekonomi yang sama, therefore, blowback-nya simetris.
 
 Dalam incentive design, konsep ini bisa disebut preference alignment: sistem sengaja dirancang sedemikian rupa sehingga kepentingan individu otomatis sejalan dengan kepentingan kolektif. Prinsipnya sama seperti perusahaan yang memberi call option kepada direksi supaya kepentingan mereka dan perusahaan align. Hasilnya adalah Mutual Assured Construction, seperti Mutual Assured Destruction tapi arahnya terbalik. Bukan "kalau kamu hancur saya juga hancur, jadi kita tidak usah perang", tapi "kalau kamu maju saya juga maju, jadi kita punya insentif untuk bekerja sama".
 
@@ -227,7 +227,7 @@ Lebih dari 700.000 pemukim Israel di West Bank bukan angka politis tapi realitas
 
 {{< figure src="/palestine-media/image10.jpeg" alt="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" caption="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" >}}
 
-Dua kasus yang menurut saya paling relevan. Afrika Selatan (1994): transisi dari ethno-state apartheid ke one-state demokratis membuktikan bahwa integrasi konstitusional bisa menghentikan konflik eksistensial. Apakah hasilnya sudah sempurna? Jujur saja, jauh dari itu; ketimpangan ekonomi masih masif, tingkat kejahatan tinggi, dan beberapa indikator menunjukkan fragility negara yang concerning. Point stands, anyway.
+Dua kasus yang menurut saya paling relevan. Afrika Selatan (1994): transisi dari ethno-state apartheid ke one-state demokratis membuktikan bahwa integrasi konstitusional bisa menghentikan konflik eksistensial. Apakah hasilnya sudah sempurna? Jujur saja, jauh dari itu, ketimpangan ekonomi masih masif, tingkat kejahatan tinggi, dan beberapa indikator menunjukkan fragility negara yang concerning. Point stands, anyway.
 
 Northern Ireland, Good Friday Agreement (1998): konflik antara Katolik-Nasionalis dan Protestan-Unionis yang berlangsung berabad-abad diselesaikan bukan dengan memisahkan wilayah secara fisik, tapi dengan power-sharing konstitusional yang terjamin secara legal. Konflik identitas ternyata jauh lebih efektif diselesaikan dengan integrasi institusional daripada separasi geografis. Base rate historisnya: model integrasi demokrasi punya rekam jejak yang lebih baik dalam menghentikan konflik eksistensial dibanding pemisahan. Memang bukan jaminan, tapi dalam konteks Bayesian Reasoning, ini prior yang kuat.
 
