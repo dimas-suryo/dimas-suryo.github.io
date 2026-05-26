@@ -419,7 +419,53 @@ function selectNode(id){
   }
 }
 
-new ResizeObserver(()=>{W=mp.clientWidth;H=mp.clientHeight;calcPos(W,H);ng.attr('transform',d=>`translate(${d.x},${d.y})`);lsel.attr('d',linkPath)}).observe(mp);
+/* ═══ NODE DRAG + POSITION PERSISTENCE (Obsidian-style) ═══
+   Positions saved per viewport size and re-scaled if the map is resized,
+   so a layout you arranged on desktop survives sensibly on mobile. */
+const POS_KEY='learning-node-positions';
+function saveNodePositions(){
+  const obj={_w:W,_h:H,nodes:{}};
+  NODES.forEach(n=>{obj.nodes[n.id]={x:n.x,y:n.y}});
+  try{localStorage.setItem(POS_KEY,JSON.stringify(obj))}catch(e){}
+}
+function loadNodePositions(){
+  try{
+    const raw=localStorage.getItem(POS_KEY);if(!raw)return false;
+    const obj=JSON.parse(raw);if(!obj||!obj.nodes)return false;
+    const sx=obj._w?W/obj._w:1, sy=obj._h?H/obj._h:1;
+    let touched=false;
+    NODES.forEach(n=>{const s=obj.nodes[n.id];if(s){n.x=s.x*sx;n.y=s.y*sy;touched=true}});
+    return touched;
+  }catch(e){return false}
+}
+function resetNodePositions(){
+  try{localStorage.removeItem(POS_KEY)}catch(e){}
+  calcPos(W,H);
+  ng.attr('transform',d=>`translate(${d.x},${d.y})`);
+  lsel.attr('d',linkPath);
+}
+
+const nodeDrag=d3.drag()
+  .on('start',function(e,d){
+    d3.select(this).raise();
+    document.body.classList.add('no-select');
+    if(e.sourceEvent)e.sourceEvent.stopPropagation();
+  })
+  .on('drag',function(e,d){
+    d.x=e.x;d.y=e.y;
+    d3.select(this).attr('transform',`translate(${d.x},${d.y})`);
+    lsel.attr('d',linkPath);
+  })
+  .on('end',function(){
+    document.body.classList.remove('no-select');
+    saveNodePositions();
+  });
+ng.call(nodeDrag);
+loadNodePositions();
+ng.attr('transform',d=>`translate(${d.x},${d.y})`);
+lsel.attr('d',linkPath);
+
+new ResizeObserver(()=>{W=mp.clientWidth;H=mp.clientHeight;calcPos(W,H);loadNodePositions();ng.attr('transform',d=>`translate(${d.x},${d.y})`);lsel.attr('d',linkPath)}).observe(mp);
 
 /* ═══ MAP LEGEND ═══ */
 (function buildLegend(){
@@ -479,6 +525,18 @@ function renderEssay(){
   html+='</div>';
   cp.innerHTML=html;cp.scrollTop=0;
 }
+
+(function initResetLayout(){
+  const btn=document.createElement('button');
+  btn.id='reset-layout';
+  btn.className='view-toggle';
+  btn.title='Snap nodes back to their default circle';
+  btn.innerHTML='↺ Reset';
+  const hdr=document.querySelector('header');
+  const themeT=document.getElementById('theme-toggle');
+  hdr.insertBefore(btn,themeT);
+  btn.addEventListener('click',resetNodePositions);
+})();
 
 (function initViewToggle(){
   const btn=document.createElement('button');

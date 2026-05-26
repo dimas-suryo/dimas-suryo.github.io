@@ -39,6 +39,14 @@
   --red-muted: #ef4444;
   --red-dim: #991b1b;
   --red-ghost: #2a0a0a;
+  --violet: #a78bfa;
+  --violet-muted: #8b5cf6;
+  --violet-dim: #5b21b6;
+  --violet-ghost: #1a1033;
+  --pink: #f472b6;
+  --pink-muted: #ec4899;
+  --pink-dim: #9d174d;
+  --pink-ghost: #3a1226;
   --shadow: rgba(0, 0, 0, 0.5);
   /* Picker */
   --picker-accent: #34d399;
@@ -129,6 +137,14 @@
   --red-muted: #b91c1c;
   --red-dim: #fee2e2;
   --red-ghost: #fef2f2;
+  --violet: #7c3aed;
+  --violet-muted: #6d28d9;
+  --violet-dim: #ddd6fe;
+  --violet-ghost: #f3f0ff;
+  --pink: #db2777;
+  --pink-muted: #be185d;
+  --pink-dim: #fce7f3;
+  --pink-ghost: #fdf2f8;
   --shadow: rgba(0, 0, 0, 0.12);
   --picker-accent: #059669;
   --picker-accent-muted: #047857;
@@ -178,6 +194,51 @@
   --node-sp-active-stroke: #059669;
   --link-color: #e9ecef;
   --link-active: #007acc;
+}
+
+/* ═══ GRINDE CATEGORY NODE COLORS ═══
+   Each L1 category has its own fill/stroke/text. JS resolves these
+   via getComputedStyle on the node group. Grouping = G in GRINDE.
+*/
+.cat-found  { --cat-fill: var(--violet-ghost);  --cat-stroke: var(--violet);  --cat-text: var(--violet) }
+.cat-blocks { --cat-fill: var(--accent-ghost);  --cat-stroke: var(--accent);  --cat-text: var(--accent) }
+.cat-harm   { --cat-fill: var(--emerald-ghost); --cat-stroke: var(--emerald); --cat-text: var(--emerald) }
+.cat-perf   { --cat-fill: var(--amber-ghost);   --cat-stroke: var(--amber);   --cat-text: var(--amber) }
+.cat-mast   { --cat-fill: var(--pink-ghost);    --cat-stroke: var(--pink);    --cat-text: var(--pink) }
+.cat-root   { --cat-fill: var(--bg);            --cat-stroke: var(--accent);  --cat-text: var(--text) }
+
+/* ═══ MAP LEGEND ═══ */
+.map-legend {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  z-index: 4;
+  pointer-events: none;
+}
+.legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border-subtle);
+  padding: 3px 8px 3px 6px;
+  border-radius: 999px;
+  opacity: 0.85;
+}
+.legend-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 html,

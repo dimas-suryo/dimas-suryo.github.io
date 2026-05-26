@@ -93,27 +93,26 @@ function buildLegend(items){
   return '<div class="fb-legend">'+items.map(i=>`<div class="fb-legend-item"><div class="fb-legend-dot ${i.cls}"></div>${i.name}</div>`).join('')+'</div>';
 }
 
-/* ═══ CONTENT DATABASE ═══ */
-/* Personalisasi: tambahkan field  intro:"..."  setelah  sub:"..."  di node manapun
-   untuk kalimat pembuka bersuara pengalaman pribadi (1-3 kalimat).
-   Contoh sudah ada di: root, sound, scales, guitar.
-   Tinggal ikuti pola yang sama untuk node lain (notes, intervals, chords, dst). */
+/* ═══ CONTENT DATABASE ═══
+   First-person, conversational. The voice is a guitarist sharing what they
+   wish someone had told them earlier. Add an `intro` field after `sub` on
+   any node to open with a short personal beat (1-3 sentences). */
 const C={
-root:{title:"Apa yang Kamu Juga Perlu Tahu Soal Gitar",sub:"Catatan gitaris soal hal-hal yang seharusnya ada yang ngasih tau pas kamu baru pegang gitar. Tapi nggak ada yang ngasih tau.",intro:"Banyak gitaris main bertahun-tahun sebelum serius pegang teori. Aku salah satunya. Penyesalannya selalu sama: nunda kelamaan gara-gara ngira teori bakal bikin permainan jadi kaku. Padahal sebaliknya. Teori itu yang ngebebasin. Halaman ini peta dari semuanya. Klik node yang menarik, atau toggle ke mode esai kalau mau baca runtut dari awal.",secs:[{l:"Kenapa Repot Belajar Teori?",t:"Teori musik itu bukan aturan yang ngebatasin. Anggap aja <strong>bahasa buat ngejelasin</strong> apa yang udah kejadian di sebuah lagu, kenapa bagian ini enak didengar dan kenapa yang itu bikin merinding. Begitu kamu paham, ngobrol sama musisi lain jadi nggak bingung lagi, bedah lagu yang kamu suka juga nggak perlu nebak-nebak."},{l:"Alur Belajar",li:["1. <strong>Sound & Acoustics</strong> : suara secara fisik","2. <strong>Notes & Tuning</strong> : sistem nada dan frekuensi","3. <strong>Intervals</strong> : DNA chord dan scale","4. <strong>Scales</strong> : palette warna musik","5. <strong>Scale Math</strong> : logika matematika scale","6. <strong>Chord Construction</strong> : triad, 7th, extensions","7. <strong>Diatonic Harmony</strong> : family chord, fungsi harmoni","8. <strong>Modes</strong> : 7 warna dari 1 parent scale","9. <strong>Advanced Harmony</strong> : cadence, modulasi","10. <strong>Rhythm & Meter</strong> : struktur waktu","11. <strong>Guitar Essentials + sub-topics</strong>","12. <strong>Ear Training, Practice & Mindset</strong>"]},{l:"Tiga Pilar Musikalitas",li:["<strong>Ear Training</strong> : dengar, kenali, reproduksi","<strong>Fretboard Knowledge</strong> : tahu setiap nada tanpa berpikir","<strong>Rhythmic Fluency</strong> : nada tepat di waktu tepat"]}],tk:"Teori itu GPS, bukan penjara. Tugasnya ngejelasin 'kenapa' dari musik yang udah kamu rasain. Biar kamu nggak nyasar tiap kepingin bikin sesuatu baru.",refs:["Aldwell, E., Schachter, C. (2018). Harmony and Voice Leading, 5th ed. Cengage.","Levine, M. (1995). The Jazz Theory Book. Sher Music Co."]},
+root:{title:"What You Should Also Know About Guitar",sub:"A guitarist's notes on the stuff someone should've told you when you first picked up the instrument. Nobody told me.",intro:"I played guitar for years before I sat down with theory in any serious way. The regret is always the same — I waited too long because I thought theory would make me stiff. It's the opposite. Theory is what gave me freedom on the fretboard. This page is the map of everything I wish I'd had when I started. Click any node that looks interesting, or flip Essay Mode in the header to read it straight through.",secs:[{l:"Why Bother With Theory?",t:"Theory isn't a cage. Think of it as the <strong>language for explaining</strong> what's already happening in a song — why this part sounds nice, why that other part gives you chills. Once you have the vocabulary, talking to other musicians stops being awkward, and dissecting tunes you love stops being guesswork."},{l:"Learning Flow",li:["1. <strong>Sound & Acoustics</strong> : sound as physics","2. <strong>Notes & Tuning</strong> : the system of pitches and frequencies","3. <strong>Intervals</strong> : the DNA of chords and scales","4. <strong>Scales</strong> : the color palette of music","5. <strong>Scale Math</strong> : the math behind why scales work","6. <strong>Chord Construction</strong> : triads, 7ths, extensions","7. <strong>Diatonic Harmony</strong> : chord families and harmonic function","8. <strong>Modes</strong> : 7 colors from 1 parent scale","9. <strong>Advanced Harmony</strong> : cadences, modulation","10. <strong>Rhythm & Meter</strong> : the structure of time","11. <strong>Guitar Essentials + sub-topics</strong>","12. <strong>Ear Training, Practice & Mindset</strong>"]},{l:"Three Pillars of Musicianship",li:["<strong>Ear Training</strong> : hear, recognize, reproduce","<strong>Fretboard Knowledge</strong> : know every note without thinking","<strong>Rhythmic Fluency</strong> : the right note at the right time"]}],tk:"Theory is a GPS, not a prison. Its job is to explain the 'why' behind music you already feel. That way you don't get lost every time you try to make something new.",refs:["Aldwell, E., Schachter, C. (2018). Harmony and Voice Leading, 5th ed. Cengage.","Levine, M. (1995). The Jazz Theory Book. Sher Music Co."]},
 
-sound:{title:"Sound & Acoustics",sub:"Suara secara fisik: gelombang, frekuensi, dan gimana telinga ngolah semuanya.",intro:"Bagian ini sering dilewat karena kerasa terlalu 'sains'. Sayang banget. Begitu kamu paham kenapa fifth bunyinya stabil dan tritone bikin tegang, semua teori chord setelahnya jadi masuk akal. Bukan hafalan.",secs:[{l:"Apa Itu Suara?",t:"Suara itu <strong>gelombang mekanis longitudinal</strong>: getaran yang merambat lewat udara sekitar 343 m/s, bikin daerah rapat (kompresi) dan renggang (rarefaction) bergantian."},{l:"4 Properti Suara",tbl:{h:["Properti","Fisik","Persepsi","Satuan"],r:[["Frequency","Siklus/detik","Pitch","Hz"],["Amplitude","Variasi tekanan","Loudness","dB"],["Timbre","Komposisi overtones","Warna suara",""],["Duration","Lama getaran","Panjang nada","s"]]}},{l:"Harmonic Series",t:"Satu senar nggak cuma getar di satu frekuensi. Dia getar di 1/2, 1/3, 1/4 panjangnya sekaligus, dan itu yang ngehasilin <strong>overtones</strong>. Tiap instrumen punya komposisi harmonik beda-beda, itu yang bikin senar gitar kedengeran beda sama piano walaupun nadanya sama."},{l:"Consonance dan Dissonance",t:"Rasio frekuensi yang sederhana kedengeran konsonan (oktaf 2:1, fifth 3:2). Yang rasionya rumit kedengeran disonan. Dua-duanya <strong>alat ekspresi</strong>, tinggal kamu mau pakai yang mana. Disonan itu bukan kesalahan."}],tk:"Semua teori musik akhirnya bisa ditarik balik ke hubungan matematika antar frekuensi. Itu doang.",refs:["Rossing, T. D. (2002). The Science of Sound, 3rd ed. Addison Wesley.","Helmholtz, H. von (1885/1954). On the Sensations of Tone. Dover."]},
+sound:{title:"Sound & Acoustics",sub:"Sound as physics: waves, frequencies, and how the ear actually deals with all of it.",intro:"This is the section everyone skips because it feels too 'science-y'. Don't. Once you actually get why a fifth sounds stable and why a tritone makes everything tense, every chord theory after this stops being memorization and starts being obvious.",secs:[{l:"What Is Sound?",t:"Sound is a <strong>longitudinal mechanical wave</strong>: vibrations traveling through air at roughly 343 m/s, alternating regions of compression and rarefaction."},{l:"4 Properties of Sound",tbl:{h:["Property","Physical","Perceptual","Unit"],r:[["Frequency","Cycles/sec","Pitch","Hz"],["Amplitude","Pressure variation","Loudness","dB"],["Timbre","Overtone makeup","Tone color",""],["Duration","Length of vibration","Note length","s"]]}},{l:"Harmonic Series",t:"A single string doesn't vibrate at one frequency. It vibrates at 1/2, 1/3, 1/4 of its length all at once, and that's what produces the <strong>overtones</strong>. Every instrument has its own harmonic recipe — that's the reason a guitar string and a piano playing the same note sound nothing alike."},{l:"Consonance & Dissonance",t:"Simple frequency ratios sound consonant (octave 2:1, fifth 3:2). Complicated ratios sound dissonant. Both are <strong>expressive tools</strong> — pick the one that fits the moment. Dissonance isn't a mistake."}],tk:"All of music theory eventually traces back to mathematical relationships between frequencies. That's it.",refs:["Rossing, T. D. (2002). The Science of Sound, 3rd ed. Addison Wesley.","Helmholtz, H. von (1885/1954). On the Sensations of Tone. Dover."]},
 
-notes:{title:"Notes & Tuning Systems",sub:"12 nada, A = 440 Hz, dan perdebatan temperament yang udah jalan berabad-abad.",secs:[{l:"12-Note Chromatic System",t:"Musik Barat motong satu oktaf jadi <strong>12 nada berjarak sama</strong> (12-TET). Yang natural ada 7: C D E F G A B. Khusus E ke F dan B ke C, jaraknya udah cuma satu semitone."},{l:"Matematika 12-TET",t:"Tiap semitone naik dengan rasio <strong>¹²√2 ≈ 1.05946</strong>. Dari A4 = 440 Hz, A♯4 jadi 466.16 Hz, dan setelah 12 semitone ketemu 880 Hz alias naik satu oktaf pas."},{l:"Standard Guitar Tuning",tbl:{h:["String","Nada","Hz"],r:[["6","E2","82.41"],["5","A2","110.00"],["4","D3","146.83"],["3","G3","196.00"],["2","B3","246.94"],["1","E4","329.63"]]}},{l:"Alternate Tunings",li:["<strong>Drop D</strong> (D A D G B E) : power chords 1 jari","<strong>Open G</strong> (D G D G B D) : Keith Richards, blues slide","<strong>DADGAD</strong> : Celtic/folk, Jimmy Page","<strong>Open D</strong> (D A D F♯ A D) : slide, fingerstyle"]}],tk:"12-TET itu kompromi. Interval yang benar-benar murni dikorbankan, ditukar sama kebebasan main di semua 12 key tanpa harus nyetem ulang tiap pindah.",refs:["Isacoff, S. (2001). Temperament. Vintage.","Duffin, R. W. (2007). How Equal Temperament Ruined Harmony. Norton."]},
+notes:{title:"Notes & Tuning Systems",sub:"12 notes, A = 440 Hz, and a temperament debate that's been running for centuries.",intro:"The first time I really got why we have 12 notes — not 7, not 13 — I felt slightly cheated by every prior music teacher. It's not arbitrary; it's a compromise the whole Western tradition agreed to. Once you know the compromise, the weird gaps in the system stop being weird.",secs:[{l:"12-Note Chromatic System",t:"Western music slices the octave into <strong>12 equally spaced notes</strong> (12-TET). Seven are 'natural': C D E F G A B. The gaps from E to F and B to C are already just a single semitone — no sharp in between."},{l:"12-TET Math",t:"Each semitone rises by a ratio of <strong>¹²√2 ≈ 1.05946</strong>. Start at A4 = 440 Hz, A♯4 lands at 466.16 Hz, and after 12 semitones you hit 880 Hz — exactly one octave up."},{l:"Standard Guitar Tuning",tbl:{h:["String","Note","Hz"],r:[["6","E2","82.41"],["5","A2","110.00"],["4","D3","146.83"],["3","G3","196.00"],["2","B3","246.94"],["1","E4","329.63"]]}},{l:"Alternate Tunings",li:["<strong>Drop D</strong> (D A D G B E) : one-finger power chords","<strong>Open G</strong> (D G D G B D) : Keith Richards, blues slide","<strong>DADGAD</strong> : Celtic / folk, Jimmy Page","<strong>Open D</strong> (D A D F♯ A D) : slide, fingerstyle"]}],tk:"12-TET is a compromise. We give up genuinely pure intervals in exchange for the freedom to play in any of the 12 keys without retuning every time we change keys.",refs:["Isacoff, S. (2001). Temperament. Vintage.","Duffin, R. W. (2007). How Equal Temperament Ruined Harmony. Norton."]},
 
-intervals:{title:"Intervals",sub:"Jarak antara dua nada. Unit paling kecil yang nyusun semua hal di musik.",secs:[{l:"13 Interval dalam 1 Oktaf",tbl:{h:["ST","Nama","Simbol","Rasio","Karakter"],r:[["0","Perfect Unison","P1","1:1","Identik"],["1","Minor 2nd","m2","16:15","Tegang"],["2","Major 2nd","M2","9:8","Terbuka"],["3","Minor 3rd","m3","6:5","Sedih"],["4","Major 3rd","M3","5:4","Cerah"],["5","Perfect 4th","P4","4:3","Kuat"],["6","Tritone","TT","45:32","Disonan"],["7","Perfect 5th","P5","3:2","Stabil"],["8","Minor 6th","m6","8:5","Misterius"],["9","Major 6th","M6","5:3","Hangat"],["10","Minor 7th","m7","9:5","Blues"],["11","Major 7th","M7","15:8","Dreamy"],["12","Octave","P8","2:1","Identik+"]]}},{l:"Klasifikasi",li:["<strong>Perfect</strong> (P1, P4, P5, P8) : tidak punya major/minor","<strong>Major/Minor</strong> (2nd, 3rd, 6th, 7th) : beda 1 semitone","<strong>Augmented</strong> : +1/2 step dari perfect/major","<strong>Diminished</strong> : -1/2 step dari perfect/minor"]},{l:"Inversion",t:"Nama interval plus inversionnya selalu jumlahnya 9, dan semitone-nya jumlahnya 12. Contoh: M3 (4 semitone) kalau dibalik jadi m6 (8 semitone). Major selalu jadi minor pas dibalik."}],tk:"Kuasai 13 interval ini lewat teori sekaligus lewat telinga. Sisa teori musik itu cuma cara nyusun interval-interval ini, jadi waktu yang kamu habisin di sini ngehemat banyak waktu di topik lain.",refs:["Kostka, S. & Payne, D. (2012). Tonal Harmony, 7th ed. McGraw-Hill."]},
+intervals:{title:"Intervals",sub:"The distance between two notes. The smallest unit everything in music is built out of.",intro:"I played for two years before I realized chords are literally just stacked intervals. That one insight cut what I had to memorize by half. The thirteen distances below are worth way more time than they look.",secs:[{l:"13 Intervals in 1 Octave",tbl:{h:["ST","Name","Symbol","Ratio","Character"],r:[["0","Perfect Unison","P1","1:1","Identical"],["1","Minor 2nd","m2","16:15","Tense"],["2","Major 2nd","M2","9:8","Open"],["3","Minor 3rd","m3","6:5","Sad"],["4","Major 3rd","M3","5:4","Bright"],["5","Perfect 4th","P4","4:3","Strong"],["6","Tritone","TT","45:32","Dissonant"],["7","Perfect 5th","P5","3:2","Stable"],["8","Minor 6th","m6","8:5","Mysterious"],["9","Major 6th","M6","5:3","Warm"],["10","Minor 7th","m7","9:5","Bluesy"],["11","Major 7th","M7","15:8","Dreamy"],["12","Octave","P8","2:1","Identical+"]]}},{l:"Classification",li:["<strong>Perfect</strong> (P1, P4, P5, P8) : no major/minor form","<strong>Major / Minor</strong> (2nd, 3rd, 6th, 7th) : differ by 1 semitone","<strong>Augmented</strong> : +1/2 step from a perfect or major","<strong>Diminished</strong> : -1/2 step from a perfect or minor"]},{l:"Inversion",t:"Interval names plus their inversions always sum to 9, and the semitones always sum to 12. Example: M3 (4 semitones) flipped is m6 (8 semitones). Major always flips to minor."}],tk:"Internalize these 13 intervals — on paper and in your ear. The rest of theory is just ways to combine them, so the time you spend here pays you back everywhere else.",refs:["Kostka, S. & Payne, D. (2012). Tonal Harmony, 7th ed. McGraw-Hill."]},
 
-scales:{title:"Scales",sub:"Kumpulan nada yang ditata rapi. Palette warna yang nentuin karakter sebuah musik.",intro:"Kalau kamu cuma hafal kotak minor pentatonik dan stuck di situ bertahun-tahun, bagian ini yang bakal ngebebasin. Scale itu rumus jarak antar nada, bukan posisi jari yang kamu hafal. Begitu rumus jaraknya nyantol, kamu bisa geser ke key mana aja.",secs:[{l:"Major Scale",t:"Pola jaraknya: <strong>W-W-H-W-W-W-H</strong>. Ini scale paling fundamental. Semua teori tonal lain didefinisikan relatif ke dia."},{l:"Natural Minor",t:"Pola jaraknya: <strong>W-H-W-W-H-W-W</strong>. Bedanya sama major: nada 3, 6, dan 7-nya diturunin (♭3, ♭6, ♭7), dan itu yang bikin terdengar lebih gelap."},{l:"Harmonic Minor",t:"Natural minor tapi nada ke-7-nya dinaikin. Efeknya ada dua: muncul jarak Augmented 2nd yang khas, dan chord V berubah jadi Dominant 7. Yang kedua itu yang bikin resolusinya kerasa kuat, kayak suara musik klasik atau flamenco."},{l:"Pentatonic",tbl:{h:["Scale","Formula","Karakter"],r:[["Major Pent","1 2 3 5 6","Cerah, melodis"],["Minor Pent","1 ♭3 4 5 ♭7","Bluesy, raw"]]}},{l:"Blues Scale",t:"Minor pentatonic ditambah ♭5 alias blue note: 1 ♭3 4 ♭5 5 ♭7. Satu nada itu doang yang bikin semuanya kedengeran ngeblues."}],tk:"Major scale itu titik acuan utama buat semua teori. Minor pentatonic itu scale yang paling sering kepake buat improvisasi sehari-hari. Dua-duanya wajib lengket di tangan.",refs:["Persichetti, V. (1961). Twentieth-Century Harmony. Norton."]},
+scales:{title:"Scales",sub:"A bag of notes arranged in order. The color palette that decides a song's character.",intro:"If you've only memorized the minor pentatonic box and been stuck there for years, this is the section that frees you. A scale is a formula of distances between notes, not a finger position. Once the spacing clicks, you can drop it into any key on the spot.",secs:[{l:"Major Scale",t:"The pattern: <strong>W-W-H-W-W-W-H</strong>. The most fundamental scale of them all. Every other tonal idea is defined relative to it."},{l:"Natural Minor",t:"The pattern: <strong>W-H-W-W-H-W-W</strong>. Compared to major, the 3rd, 6th, and 7th are all lowered (♭3, ♭6, ♭7), which is what makes it sound darker."},{l:"Harmonic Minor",t:"Natural minor with the 7th raised. Two consequences: a distinctive Augmented 2nd gap appears, and the V chord turns into a Dominant 7. The second one is what makes the resolution feel so strong — that classical / flamenco sound."},{l:"Pentatonic",tbl:{h:["Scale","Formula","Character"],r:[["Major Pent","1 2 3 5 6","Bright, melodic"],["Minor Pent","1 ♭3 4 5 ♭7","Bluesy, raw"]]}},{l:"Blues Scale",t:"Minor pentatonic plus a ♭5 — the 'blue note': 1 ♭3 4 ♭5 5 ♭7. That single extra note is what turns everything bluesy."}],tk:"Major scale is the reference point for all theory. Minor pentatonic is the everyday improv scale. Both need to live under your fingers.",refs:["Persichetti, V. (1961). Twentieth-Century Harmony. Norton."]},
 
-math:{title:"Mathematics of Scale",sub:"Logika dan simetri matematika di balik cara scale dibangun.",secs:[{l:"Tetrachord",t:"Major scale sebenernya <strong>2 tetrachord yang identik</strong> (masing-masing W-W-H), disambung satu Whole Step di tengah sebagai jembatan."},{l:"Visualisasi",cd:"Tetrachord 1     Bridge     Tetrachord 2\n W _ W _ H         W         W _ W _ H\n 1   2   3   4         5   6   7   8\n\nC Major: C_D_E_F  <W>  G_A_B_C"},{l:"Circle of Fifths",t:"Tetrachord kedua dari satu key bakal jadi tetrachord pertama buat key berikutnya, dan tiap pindah nambah satu sharp. Tiap key naik satu Perfect 5th. Itu kenapa namanya Circle of Fifths."}],tk:"Tetrachord plus Circle of Fifths itu fondasi matematika dari seluruh harmoni tonal.",refs:["Benson, D. (2006). Music: A Mathematical Offering. Cambridge UP."]},
+math:{title:"Mathematics of Scale",sub:"The logic and symmetry hiding behind how scales are actually constructed.",secs:[{l:"Tetrachord",t:"A major scale is really <strong>two identical tetrachords</strong> (each W-W-H), bridged by a Whole Step in the middle."},{l:"Visualization",cd:"Tetrachord 1     Bridge     Tetrachord 2\n W _ W _ H         W         W _ W _ H\n 1   2   3   4         5   6   7   8\n\nC Major: C_D_E_F  <W>  G_A_B_C"},{l:"Circle of Fifths",t:"The second tetrachord of one key turns into the first tetrachord of the next key, and each step adds one sharp. Each new key sits a Perfect 5th higher. That's where the name comes from."}],tk:"Tetrachords plus the Circle of Fifths are the mathematical foundation of all tonal harmony.",refs:["Benson, D. (2006). Music: A Mathematical Offering. Cambridge UP."]},
 
-chords:{title:"Chord Construction",sub:"Chord itu interval yang ditumpuk, bukan hafalan posisi jari.",secs:[{l:"4 Triad",tbl:{h:["Tipe","Formula","Stack"],r:[["Major","1 3 5","M3+m3"],["Minor","1 ♭3 5","m3+M3"],["Dim","1 ♭3 ♭5","m3+m3"],["Aug","1 3 ♯5","M3+M3"]]}},{l:"5 Jenis 7th Chord",tbl:{h:["Tipe","Formula","Simbol"],r:[["Maj7","1 3 5 7","Cmaj7"],["Dom7","1 3 5 ♭7","C7"],["Min7","1 ♭3 5 ♭7","Cm7"],["Half-Dim","1 ♭3 ♭5 ♭7","Cø"],["Dim7","1 ♭3 ♭5 ♭♭7","C°7"]]}},{l:"Extensions",t:"9th itu nada 2nd yang dinaikin satu oktaf, 11th itu 4th, 13th itu 6th. Fungsinya nambah warna tanpa ngubah peran dasar chordnya."},{l:"Suspended",t:"Sus4 (1 4 5) dan Sus2 (1 2 5) ngeganti nada ke-3 sama nada 4 atau 2. Yang nentuin major versus minor itu nada ke-3, jadi sus chord kedengeran ambigu: bukan major, bukan minor, cuma menggantung."}],tk:"Chord itu tumpukan interval. Yang bikin Dominant 7 spesial: ada tritone di dalamnya, dan tritone itu yang narik chord buat resolve.",refs:["Levine, M. (1995). The Jazz Theory Book. Sher Music.","Piston, W. (1987). Harmony, 5th ed. Norton."]},
+chords:{title:"Chord Construction",sub:"Chords are stacked intervals, not memorized finger positions.",intro:"When someone showed me that a major chord is just 'major third on top of minor third' and a minor is the reverse, my whole approach to chords flipped. I stopped seeing dots on a fretboard diagram and started seeing distances.",secs:[{l:"4 Triads",tbl:{h:["Type","Formula","Stack"],r:[["Major","1 3 5","M3+m3"],["Minor","1 ♭3 5","m3+M3"],["Dim","1 ♭3 ♭5","m3+m3"],["Aug","1 3 ♯5","M3+M3"]]}},{l:"5 Kinds of 7th Chords",tbl:{h:["Type","Formula","Symbol"],r:[["Maj7","1 3 5 7","Cmaj7"],["Dom7","1 3 5 ♭7","C7"],["Min7","1 ♭3 5 ♭7","Cm7"],["Half-Dim","1 ♭3 ♭5 ♭7","Cø"],["Dim7","1 ♭3 ♭5 ♭♭7","C°7"]]}},{l:"Extensions",t:"A 9th is just the 2nd raised an octave; an 11th is the 4th; a 13th is the 6th. They add color without changing the chord's underlying role."},{l:"Suspended",t:"Sus4 (1 4 5) and Sus2 (1 2 5) swap the 3rd for either a 4 or a 2. The 3rd is what decides major versus minor, so sus chords sound ambiguous — neither, just hanging."}],tk:"A chord is a stack of intervals. The thing that makes a Dominant 7 special: there's a tritone inside it, and that tritone is what pulls the chord toward resolution.",refs:["Levine, M. (1995). The Jazz Theory Book. Sher Music.","Piston, W. (1987). Harmony, 5th ed. Norton."]},
 
-family:{title:"Diatonic Harmony",sub:"7 chord bawaan tiap key, dan gimana mereka saling kerja secara fungsional.",secs:[{l:"7 Diatonic Chords (C Major)",tbl:{h:["Deg","Roman","Chord","7th","Mode"],r:[["1","I","C","Cmaj7","Ionian"],["2","ii","Dm","Dm7","Dorian"],["3","iii","Em","Em7","Phrygian"],["4","IV","F","Fmaj7","Lydian"],["5","V","G","G7","Mixolydian"],["6","vi","Am","Am7","Aeolian"],["7","vii°","Bdim","Bø7","Locrian"]]}},{l:"3 Fungsi Harmoni",tbl:{h:["Fungsi","Chord","Peran"],r:[["Tonic","I, iii, vi","Stabilitas"],["Subdominant","ii, IV","Movement"],["Dominant","V, vii°","Tension"]]}},{l:"Progresi Populer",tbl:{h:["Progresi","Contoh"],r:[["I V vi IV","Don't Stop Believin'"],["ii V I","Jazz standard"],["vi IV I V","Pop modern"],["i ♭VII ♭VI V","Andalusian"]]}}],tk:"Roman numeral berlaku universal di key mana pun. Progresi yang bagus intinya main-main sama tension dan pelepasannya.",refs:["Aldwell & Schachter (2018). Harmony and Voice Leading. Cengage."]},
+family:{title:"Diatonic Harmony",sub:"The 7 chords built into every key, and how they function together.",secs:[{l:"7 Diatonic Chords (C Major)",tbl:{h:["Deg","Roman","Chord","7th","Mode"],r:[["1","I","C","Cmaj7","Ionian"],["2","ii","Dm","Dm7","Dorian"],["3","iii","Em","Em7","Phrygian"],["4","IV","F","Fmaj7","Lydian"],["5","V","G","G7","Mixolydian"],["6","vi","Am","Am7","Aeolian"],["7","vii°","Bdim","Bø7","Locrian"]]}},{l:"3 Harmonic Functions",tbl:{h:["Function","Chord","Role"],r:[["Tonic","I, iii, vi","Stability"],["Subdominant","ii, IV","Movement"],["Dominant","V, vii°","Tension"]]}},{l:"Popular Progressions",tbl:{h:["Progression","Example"],r:[["I V vi IV","Don't Stop Believin'"],["ii V I","Jazz standard"],["vi IV I V","Modern pop"],["i ♭VII ♭VI V","Andalusian"]]}}],tk:"Roman numerals work universally in any key. A good progression is really just a play with tension and its release.",refs:["Aldwell & Schachter (2018). Harmony and Voice Leading. Cengage."]},
 
 modes:{title:"The 7 Modes",sub:"Satu parent scale, 7 titik mulai, 7 karakter emosi yang beda.",secs:[{l:"7 Mode",tbl:{h:["#","Mode","Formula","Ciri","Karakter"],r:[["1","Ionian","1 2 3 4 5 6 7","std","Cerah"],["2","Dorian","1 2 ♭3 4 5 6 ♭7","nat 6","Hopeful minor"],["3","Phrygian","1 ♭2 ♭3 4 5 ♭6 ♭7","♭2","Dark, exotic"],["4","Lydian","1 2 3 ♯4 5 6 7","♯4","Dreamy"],["5","Mixolydian","1 2 3 4 5 6 ♭7","♭7","Bluesy"],["6","Aeolian","1 2 ♭3 4 5 ♭6 ♭7","std","Melancholic"],["7","Locrian","1 ♭2 ♭3 4 ♭5 ♭6 ♭7","♭5","Unstable"]]}},{l:"Bright to Dark",cd:"Bright <                          > Dark\nLydian > Ionian > Mixolydian > Dorian > Aeolian > Phrygian > Locrian"},{l:"Chord-Scale Theory",t:"Tiap chord diatonic punya mode-nya sendiri yang paling pas: misalnya Dm7 di key C cocoknya pakai D Dorian."}],tk:"Lydian paling terang, Locrian paling gelap. Chord-Scale Theory itu yang nyambungin tiap chord ke mode yang pas.",refs:["Russell, G. (2001). Lydian Chromatic Concept. Concept Publishing."]},
 
@@ -460,32 +459,46 @@ ${buildLegend([{cls:'root',name:'Root (R)'},{cls:'third',name:'3rd'},{cls:'fifth
   cp.scrollTop=0;chUpdate();
 }
 
-/* ═══ MIND MAP ═══ */
+/* ═══ MIND MAP ═══
+   GRINDE Grouping by category:
+   found  = Foundation (violet): physics + the 12-note system
+   blocks = Building Blocks (blue): intervals, scales, scale math
+   harm   = Harmony (emerald): chords, diatonic family, modes, advanced
+   perf   = Performance (amber): rhythm, the fretboard, techniques
+   mast   = Mastery (pink): ear training, practice mindset
+   sp     = tool node (extra outlined style)
+*/
 const NODES=[
-  {id:'root',lab:'Music Theory\nfor Guitar',lv:0,sp:false},
-  {id:'sound',lab:'Sound &\nAcoustics',lv:1,sp:false},
-  {id:'notes',lab:'Notes &\nTuning',lv:1,sp:false},
-  {id:'intervals',lab:'Intervals',lv:1,sp:false},
-  {id:'scales',lab:'Scales',lv:1,sp:false},
-  {id:'math',lab:'Scale\nMath',lv:1,sp:false},
-  {id:'chords',lab:'Chord\nConstruction',lv:1,sp:false},
-  {id:'family',lab:'Diatonic\nHarmony',lv:1,sp:false},
-  {id:'modes',lab:'The 7\nModes',lv:1,sp:false},
-  {id:'harmony',lab:'Advanced\nHarmony',lv:1,sp:false},
-  {id:'rhythm',lab:'Rhythm\n& Meter',lv:1,sp:false},
-  {id:'guitar',lab:'Guitar\nEssentials',lv:1,sp:false},
-  {id:'ear',lab:'Ear\nTraining',lv:1,sp:false},
-  {id:'practice',lab:'Practice\n& Mindset',lv:1,sp:false},
-  {id:'tools',lab:'Practice\nTools',lv:1,sp:true},
-  // L2: guitar children
-  {id:'caged',lab:'CAGED\nSystem',lv:2,sp:false},
-  {id:'fretboard',lab:'Fretboard\nMapping',lv:2,sp:false},
-  {id:'techniques',lab:'Lead\nTechniques',lv:2,sp:false},
-  // L2: tools children
-  {id:'picker',lab:'Note\nPicker',lv:2,sp:true},
-  {id:'intrainer',lab:'Interval\nTrainer',lv:2,sp:true},
-  {id:'scaleviz',lab:'Scale\nVisualizer',lv:2,sp:true},
-  {id:'chordhl',lab:'Chord Tone\nHighlight',lv:2,sp:true},
+  {id:'root',lab:'Music Theory\nfor Guitar',emoji:'🎼',cat:'root',lv:0,sp:false},
+  // Foundation (violet)
+  {id:'sound',lab:'Sound &\nAcoustics',emoji:'🔊',cat:'found',lv:1,sp:false},
+  {id:'notes',lab:'Notes &\nTuning',emoji:'🎶',cat:'found',lv:1,sp:false},
+  // Building Blocks (blue)
+  {id:'intervals',lab:'Intervals',emoji:'📐',cat:'blocks',lv:1,sp:false},
+  {id:'scales',lab:'Scales',emoji:'🎚️',cat:'blocks',lv:1,sp:false},
+  {id:'math',lab:'Scale\nMath',emoji:'🧮',cat:'blocks',lv:1,sp:false},
+  // Harmony (emerald)
+  {id:'chords',lab:'Chord\nConstruction',emoji:'🎹',cat:'harm',lv:1,sp:false},
+  {id:'family',lab:'Diatonic\nHarmony',emoji:'🏛️',cat:'harm',lv:1,sp:false},
+  {id:'modes',lab:'The 7\nModes',emoji:'🌈',cat:'harm',lv:1,sp:false},
+  {id:'harmony',lab:'Advanced\nHarmony',emoji:'🪄',cat:'harm',lv:1,sp:false},
+  // Performance (amber)
+  {id:'rhythm',lab:'Rhythm\n& Meter',emoji:'🥁',cat:'perf',lv:1,sp:false},
+  {id:'guitar',lab:'Guitar\nEssentials',emoji:'🎸',cat:'perf',lv:1,sp:false},
+  // Mastery (pink)
+  {id:'ear',lab:'Ear\nTraining',emoji:'👂',cat:'mast',lv:1,sp:false},
+  {id:'practice',lab:'Practice\n& Mindset',emoji:'🔁',cat:'mast',lv:1,sp:false},
+  // Tools (special — emerald sp)
+  {id:'tools',lab:'Practice\nTools',emoji:'🛠️',cat:'harm',lv:1,sp:true},
+  // L2: guitar children (amber, perf)
+  {id:'caged',lab:'CAGED\nSystem',emoji:'🔠',cat:'perf',lv:2,sp:false},
+  {id:'fretboard',lab:'Fretboard\nMapping',emoji:'🗺️',cat:'perf',lv:2,sp:false},
+  {id:'techniques',lab:'Lead\nTechniques',emoji:'✨',cat:'perf',lv:2,sp:false},
+  // L2: tools children (special, emerald sp)
+  {id:'picker',lab:'Note\nPicker',emoji:'🎲',cat:'harm',lv:2,sp:true},
+  {id:'intrainer',lab:'Interval\nTrainer',emoji:'🎯',cat:'harm',lv:2,sp:true},
+  {id:'scaleviz',lab:'Scale\nVisualizer',emoji:'🪜',cat:'harm',lv:2,sp:true},
+  {id:'chordhl',lab:'Chord Tone\nHighlight',emoji:'🎨',cat:'harm',lv:2,sp:true},
 ];
 const LINKS=[
   // Hub spokes — root to every L1 topic
@@ -529,7 +542,7 @@ const GI=L1.indexOf('guitar'),TI=L1.indexOf('tools');
 const nmap={};NODES.forEach(n=>{nmap[n.id]=n});
 
 function calcPos(W,H){
-  const cx=W/2,cy=H/2,r1=Math.min(W,H)*.30,r2=Math.min(W,H)*.47,n=L1.length;
+  const cx=W/2,cy=H/2,r1=Math.min(W,H)*.33,r2=Math.min(W,H)*.49,n=L1.length;
   nmap['root'].x=cx;nmap['root'].y=cy;
   L1.forEach((id,i)=>{const a=-Math.PI/2+i*(2*Math.PI/n);nmap[id].x=cx+r1*Math.cos(a);nmap[id].y=cy+r1*Math.sin(a)});
   // Guitar children
@@ -579,9 +592,10 @@ const lsel=g.append('g').selectAll('path').data(LINKS).join('path')
   .attr('fill','none')
   .attr('stroke-linecap','round');
 
-const R={0:38,1:22,2:16};
+const R={0:42,1:30,2:22};
 const ng=g.append('g').selectAll('g').data(NODES).join('g')
   .attr('transform',d=>`translate(${d.x},${d.y})`)
+  .attr('class',d=>'node node-lv'+d.lv+(d.cat?' cat-'+d.cat:'')+(d.sp?' sp':''))
   .attr('cursor','pointer')
   .on('click',(e,d)=>{e.stopPropagation();selectNode(d.id)})
   .on('mouseenter',(e,d)=>{hoverId=d.id;showTip(e,d);applyNodeColors()})
@@ -590,10 +604,33 @@ const ng=g.append('g').selectAll('g').data(NODES).join('g')
 
 ng.append('circle').attr('r',d=>R[d.lv]).attr('stroke-width',d=>d.lv===0?2:1.5);
 ng.each(function(d){
-  const el=d3.select(this),lines=d.lab.split('\n');
-  const fs=d.lv===0?9:d.lv===1?7.5:6.5,lh=d.lv===0?11:9;
-  const tx=el.append('text').attr('text-anchor','middle').attr('pointer-events','none').attr('font-family',"'Poppins',sans-serif");
-  lines.forEach((ln,i)=>{tx.append('tspan').attr('x',0).attr('dy',i===0?-(lines.length-1)*lh/2:lh).attr('font-size',fs).attr('font-weight',d.lv===0?'700':'500').text(ln)});
+  const el=d3.select(this);
+  if(d.emoji){
+    el.append('text')
+      .attr('class','node-emoji')
+      .attr('text-anchor','middle')
+      .attr('y',d.lv===0?-10:d.lv===1?-6:-4)
+      .attr('font-size',d.lv===0?16:d.lv===1?13:11)
+      .attr('pointer-events','none')
+      .text(d.emoji);
+  }
+  const lines=d.lab.split('\n');
+  const fs=d.lv===0?8:d.lv===1?7:6;
+  const lh=d.lv===0?9:8;
+  const yStart=d.lv===0?6:d.lv===1?5:4;
+  const tx=el.append('text')
+    .attr('class','node-label')
+    .attr('text-anchor','middle')
+    .attr('pointer-events','none')
+    .attr('font-family',"'Poppins',sans-serif");
+  lines.forEach((ln,i)=>{
+    tx.append('tspan')
+      .attr('x',0)
+      .attr('dy',i===0?yStart:lh)
+      .attr('font-size',fs)
+      .attr('font-weight',d.lv===0?'700':'500')
+      .text(ln);
+  });
 });
 
 /* M5 — hover tooltip showing node title + sub */
@@ -604,52 +641,72 @@ function hideTip(){tipEl.classList.remove('visible')}
 
 let selectedId=null;
 let hoverId=null;
-function getCS(){const s=getComputedStyle(document.body);const g=v=>s.getPropertyValue(v).trim();return{rootFill:g('--node-root-fill'),rootStroke:g('--node-root-stroke'),rootText:g('--node-root-text'),l1Fill:g('--node-l1-fill'),l1Stroke:g('--node-l1-stroke'),l1Text:g('--node-l1-text'),l2Fill:g('--node-l2-fill'),l2Stroke:g('--node-l2-stroke'),l2Text:g('--node-l2-text'),spFill:g('--node-sp-fill'),spStroke:g('--node-sp-stroke'),spText:g('--node-sp-text'),activeFill:g('--node-active-fill'),activeStroke:g('--node-active-stroke'),activeText:g('--node-active-text'),spActiveFill:g('--node-sp-active-fill'),spActiveStroke:g('--node-sp-active-stroke'),linkColor:g('--link-color'),linkActive:g('--link-active')}}
+function getCS(){
+  const s=getComputedStyle(document.documentElement);
+  const g=v=>s.getPropertyValue(v).trim();
+  return{
+    bg:g('--bg'),bgAlt:g('--bg-alt'),text:g('--text'),
+    textMuted:g('--text-muted'),textDim:g('--text-dim'),
+    border:g('--border'),accent:g('--accent'),
+    linkColor:g('--link-color')||'#1e2d3d',linkActive:g('--link-active')||'#1da1f2',
+  };
+}
 
 function applyNodeColors(){
   const c=getCS();
   /* Focus = whatever the user is paying attention to. Hover wins over selection
-     so the user can preview without losing their current selection.
-     Root is treated as a "no-focus" default because root touches every L1 —
-     dimming the whole map when root is selected would be ugly. */
+     so the user can preview without losing their current selection. Root is
+     "no-focus" default because root touches every L1 — dimming the whole map
+     when root is selected would be ugly. */
   const focusId = hoverId || (selectedId && selectedId!=='root' ? selectedId : null);
   const focusSet = focusId ? new Set([focusId, ...adj[focusId]]) : null;
   const isLinkActive = d => focusId && (d.s===focusId || d.t===focusId);
   const isNodeInFocus = id => !focusSet || focusSet.has(id);
 
   ng.select('circle')
-    .attr('fill',d=>{
+    .attr('fill',function(d){
       const sel=d.id===selectedId;
-      if(sel)return d.sp?c.spActiveFill:c.activeFill;
-      if(d.sp)return c.spFill;
-      return d.lv===0?c.rootFill:d.lv===1?c.l1Fill:c.l2Fill;
+      if(d.lv===0) return sel?c.bgAlt:c.bg;
+      const nodeEl=this.parentNode;
+      const cs=getComputedStyle(nodeEl);
+      const fill=cs.getPropertyValue('--cat-fill').trim();
+      const stroke=cs.getPropertyValue('--cat-stroke').trim();
+      if(sel)return stroke;
+      return fill || c.bg;
     })
-    .attr('stroke',d=>{
-      const sel=d.id===selectedId, neighbor=focusSet && focusSet.has(d.id) && d.id!==focusId;
-      if(sel)return d.sp?c.spActiveStroke:c.activeStroke;
-      if(neighbor)return c.linkActive;            /* halo on neighbors of focused node */
-      if(d.sp)return c.spStroke;
-      return d.lv===0?c.rootStroke:d.lv===1?c.l1Stroke:c.l2Stroke;
+    .attr('stroke',function(d){
+      const sel=d.id===selectedId;
+      const neighbor=focusSet && focusSet.has(d.id) && d.id!==focusId;
+      if(sel) return c.linkActive;
+      if(neighbor) return c.linkActive;
+      if(d.lv===0) return c.accent;
+      const nodeEl=this.parentNode;
+      const cs=getComputedStyle(nodeEl);
+      return cs.getPropertyValue('--cat-stroke').trim() || c.border;
     })
     .attr('stroke-width',d=>{
       if(d.id===selectedId)return d.lv===0?2.4:2.2;
-      if(focusSet && focusSet.has(d.id))return 2;  /* highlighted neighbor ring */
+      if(focusSet && focusSet.has(d.id))return 2;
       return d.lv===0?2:1.5;
     });
+
   ng.attr('opacity',d=>isNodeInFocus(d.id)?1:0.32);
-  ng.select('text')
-    .attr('fill',d=>{
-      if(d.id===selectedId)return d.sp?c.spText:c.activeText;
-      if(d.sp)return c.spText;
-      return d.lv===0?c.rootText:d.lv===1?c.l1Text:c.l2Text;
+
+  ng.select('text.node-label')
+    .attr('fill',function(d){
+      const sel=d.id===selectedId;
+      if(d.lv===0) return c.text;
+      if(sel) return c.bg;
+      const nodeEl=this.parentNode;
+      const cs=getComputedStyle(nodeEl);
+      return cs.getPropertyValue('--cat-text').trim() || c.textMuted;
     });
 
-  /* Link styling by kind. Inactive widths/opacities tuned so the four kinds
-     read as distinct categories even at a glance:
-       spoke  — thin, very faint  (radial structural skeleton)
-       rim    — medium, dashed    (sequential learning chain / "spine")
-       cross  — medium, solid     (conceptual bridges / "web")
-       parent — thin, dotted      (subordinate L1→L2 relationship)
+  /* Link styling by kind:
+       spoke  — thin, faint  (radial structural skeleton)
+       rim    — medium, dashed (sequential learning chain)
+       cross  — medium, solid  (conceptual bridges across topics)
+       parent — thin, dotted   (L1→L2 subordinate link)
   */
   const W_INACTIVE = {spoke:0.7, rim:1.1, cross:1.1, parent:0.9};
   const W_ACTIVE   = {spoke:1.5, rim:1.9, cross:1.9, parent:1.7};
@@ -659,15 +716,93 @@ function applyNodeColors(){
     .attr('stroke-width',d=>isLinkActive(d)?W_ACTIVE[d.k]:W_INACTIVE[d.k])
     .attr('stroke-opacity',d=>{
       if(isLinkActive(d))return 0.95;
-      if(focusId)return 0.10;          /* dim non-focused links when something is focused */
+      if(focusId)return 0.10;
       return O_INACTIVE[d.k];
     })
     .attr('stroke-dasharray',d=>DASH[d.k]||null);
 }
 function selectNode(id){clearTmr();PS.running=false;selectedId=id;applyNodeColors();if(viewMode==='map')render(id)}
-new ResizeObserver(()=>{W=mp.clientWidth;H=mp.clientHeight;calcPos(W,H);ng.attr('transform',d=>`translate(${d.x},${d.y})`);lsel.attr('d',linkPath)}).observe(mp);
 
-/* ═══ VIEW TOGGLE (Mind Map ⟷ Esai) ═══ */
+/* ═══ NODE DRAG + POSITION PERSISTENCE (Obsidian-style) ═══
+   Drag any node to rearrange. Positions persist in localStorage and rescale
+   sensibly when the map panel is resized. The Reset button restores the
+   default radial layout. */
+const POS_KEY='guitar-node-positions';
+function saveNodePositions(){
+  const obj={_w:W,_h:H,nodes:{}};
+  NODES.forEach(n=>{obj.nodes[n.id]={x:n.x,y:n.y}});
+  try{localStorage.setItem(POS_KEY,JSON.stringify(obj))}catch(e){}
+}
+function loadNodePositions(){
+  try{
+    const raw=localStorage.getItem(POS_KEY);if(!raw)return false;
+    const obj=JSON.parse(raw);if(!obj||!obj.nodes)return false;
+    const sx=obj._w?W/obj._w:1, sy=obj._h?H/obj._h:1;
+    let touched=false;
+    NODES.forEach(n=>{const s=obj.nodes[n.id];if(s){n.x=s.x*sx;n.y=s.y*sy;touched=true}});
+    return touched;
+  }catch(e){return false}
+}
+function resetNodePositions(){
+  try{localStorage.removeItem(POS_KEY)}catch(e){}
+  calcPos(W,H);
+  ng.attr('transform',d=>`translate(${d.x},${d.y})`);
+  lsel.attr('d',linkPath);
+}
+
+const nodeDrag=d3.drag()
+  .on('start',function(e,d){
+    d3.select(this).raise();
+    document.body.classList.add('no-select');
+    if(e.sourceEvent)e.sourceEvent.stopPropagation();
+  })
+  .on('drag',function(e,d){
+    d.x=e.x;d.y=e.y;
+    d3.select(this).attr('transform',`translate(${d.x},${d.y})`);
+    lsel.attr('d',linkPath);
+  })
+  .on('end',function(){
+    document.body.classList.remove('no-select');
+    saveNodePositions();
+  });
+ng.call(nodeDrag);
+loadNodePositions();
+ng.attr('transform',d=>`translate(${d.x},${d.y})`);
+lsel.attr('d',linkPath);
+
+new ResizeObserver(()=>{W=mp.clientWidth;H=mp.clientHeight;calcPos(W,H);loadNodePositions();ng.attr('transform',d=>`translate(${d.x},${d.y})`);lsel.attr('d',linkPath)}).observe(mp);
+
+/* ═══ MAP LEGEND ═══ */
+(function buildLegend(){
+  const legend=document.getElementById('map-legend');if(!legend)return;
+  const items=[
+    {label:'Foundation',color:'var(--violet)'},
+    {label:'Building Blocks',color:'var(--accent)'},
+    {label:'Harmony',color:'var(--emerald)'},
+    {label:'Performance',color:'var(--amber)'},
+    {label:'Mastery',color:'var(--pink)'},
+  ];
+  items.forEach(i=>{
+    const chip=document.createElement('span');chip.className='legend-chip';
+    chip.innerHTML=`<span class="legend-dot" style="background:${i.color}"></span>${i.label}`;
+    legend.appendChild(chip);
+  });
+})();
+
+/* ═══ RESET LAYOUT BUTTON ═══ */
+(function initResetLayout(){
+  const btn=document.createElement('button');
+  btn.id='reset-layout';
+  btn.className='view-toggle';
+  btn.title='Snap nodes back to their default circle';
+  btn.innerHTML='↺ Reset';
+  const hdr=document.querySelector('header');
+  const themeT=document.getElementById('theme-toggle');
+  hdr.insertBefore(btn,themeT);
+  btn.addEventListener('click',resetNodePositions);
+})();
+
+/* ═══ VIEW TOGGLE (Mind Map ⟷ Essay) ═══ */
 (function initViewToggle(){
   const btn=document.createElement('button');
   btn.id='view-toggle';
