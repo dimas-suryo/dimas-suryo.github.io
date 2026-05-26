@@ -62,13 +62,13 @@ function stopR() {
 const C = {
   root: {
     title: "What You Should Also Know About Learning and Studying",
-    sub: "Notes on how to actually learn — backed by research, not the latest TikTok study-with-me aesthetic.",
+    sub: "Notes on how to actually learn, backed by research, not the latest TikTok study-with-me aesthetic.",
     intro:
       "I graduated high school with decent ranks, but if you'd asked me anything from 11th grade material the day after the ceremony, I would've drawn a complete blank. That was the first lesson nobody put in the syllabus: studying isn't the same thing as learning. This page is the map of everything I wish someone had taught me earlier, with peer-reviewed sources behind every claim. Click any node that catches your eye, or flip Essay Mode in the header to read it straight through.",
     secs: [
       {
         l: "Why This Map Exists",
-        t: "Learning is a trainable skill, not a born talent. Most people are never shown the techniques, so they end up assuming that sitting in the library for hours equals learning. Fifty years of memory research says otherwise. What determines retention isn't the hours you stare at a page — it's how often you pull the information back <em>out</em> of your head (Roediger & Karpicke, 2006).",
+        t: "Learning is a trainable skill, not a born talent. Most people are never shown the techniques, so they end up assuming that sitting in the library for hours equals learning. Fifty years of memory research says otherwise. What determines retention isn't the hours you stare at a page, it's how often you pull the information back <em>out</em> of your head (Roediger & Karpicke, 2006).",
       },
       {
         l: "Reading Order",
@@ -109,7 +109,7 @@ const C = {
     title: "Studying vs Learning",
     sub: "Four hours in the library isn't four hours of learning. The gap isn't subtle.",
     intro:
-      "Four hours reading a linguistics book in my favorite café, feeling like I had it down cold. Asked for a summary the next day — total blank. That experience was the first lesson never put on any syllabus.",
+      "Four hours reading a linguistics book in my favorite café, feeling like I had it down cold. Asked for a summary the next day, total blank. That experience was the first lesson never put on any syllabus.",
     secs: [
       {
         l: "What's the Difference?",
@@ -117,7 +117,7 @@ const C = {
       },
       {
         l: "Illusion of Competence",
-        t: "Why does sitting longer fool us? Because familiarity <em>feels</em> like knowledge. Read the same paragraph five times and you start to recognize its shape — the brain mistakes that recognition for understanding. Robert Bjork (1994) called this the <em>illusion of competence</em>, and he pointed straight at highlighting and re-reading as the main culprits. The cheapest test: if you can't close the book and explain it back, you haven't learned it yet.",
+        t: "Why does sitting longer fool us? Because familiarity <em>feels</em> like knowledge. Read the same paragraph five times and you start to recognize its shape, the brain mistakes that recognition for understanding. Robert Bjork (1994) called this the <em>illusion of competence</em>, and he pointed straight at highlighting and re-reading as the main culprits. The cheapest test: if you can't close the book and explain it back, you haven't learned it yet.",
       },
       {
         l: "Metacognition Gap",
@@ -145,11 +145,11 @@ const C = {
     secs: [
       {
         l: "Vigilance Decrement",
-        t: "The brain can't sustain constant focus. Ariga and Lleras (2011) demonstrated the <em>vigilance decrement</em>: performance on attention tasks drops significantly after roughly 20-30 minutes. But a brief rest break <em>restores</em> performance to baseline. That's the actual empirical basis for pomodoro — not the 25/5 numbers themselves, but the principle of breaks scheduled <em>before</em> the decrement kicks in.",
+        t: "The brain can't sustain constant focus. Ariga and Lleras (2011) demonstrated the <em>vigilance decrement</em>: performance on attention tasks drops significantly after roughly 20-30 minutes. But a brief rest break <em>restores</em> performance to baseline. That's the actual empirical basis for pomodoro, not the 25/5 numbers themselves, but the principle of breaks scheduled <em>before</em> the decrement kicks in.",
       },
       {
         l: "The 1:2 Ratio Myth",
-        t: "Some pop notes recommend a 1:2 study:practice ratio. I went looking for the source — nothing in the literature supports it. What the literature does back: ratios that you stick to consistently. Cirillo (1992) came up with 25/5 from his own college routine, not from a randomized trial. Pomodoro Inc. itself has said many times that the numbers are a rule of thumb, not a finding.",
+        t: "Some pop notes recommend a 1:2 study:practice ratio. I went looking for the source, nothing in the literature supports it. What the literature does back: ratios that you stick to consistently. Cirillo (1992) came up with 25/5 from his own college routine, not from a randomized trial. Pomodoro Inc. itself has said many times that the numbers are a rule of thumb, not a finding.",
       },
       {
         l: "The 10,000 and 20-Hour Myths",
@@ -157,7 +157,7 @@ const C = {
       },
       {
         l: "3 Hours a Day, With a Caveat",
-        t: "Pop notes often recommend three non-negotiable hours a day: morning body, afternoon consume, evening create. As a habit scaffold it makes sense — it aligns with implementation intentions (Gollwitzer, 1999): specific schedules are three times more likely to be followed than vague intentions. But the number three is arbitrary. What matters is consistency, not total hours. The tracker on this page uses this frame because it's easy to make routine, not because three is somehow magic.",
+        t: "Pop notes often recommend three non-negotiable hours a day: morning body, afternoon consume, evening create. As a habit scaffold it makes sense, it aligns with implementation intentions (Gollwitzer, 1999): specific schedules are three times more likely to be followed than vague intentions. But the number three is arbitrary. What matters is consistency, not total hours. The tracker on this page uses this frame because it's easy to make routine, not because three is somehow magic.",
       },
     ],
     tk: "Pomodoro works because it fights vigilance decrement, not because 25/5 is magic. The 10,000-hour and 20-hour claims are pop science. What actually works: consistent structure + scheduled breaks + a specific daily schedule.",
@@ -185,19 +185,19 @@ const C = {
       },
       {
         l: "Supertasker Is a Myth",
-        t: "Ophir, Nass, and Wagner (2009) in PNAS compared heavy media multitaskers to light ones: the heavy multitaskers did worse on every test — including task-switching itself. Strayer and Watson (2012) estimate only about 2.5% of the population actually qualifies as a 'supertasker'. Simple stat: odds are you're not one. Default assumption: you're not.",
+        t: "Ophir, Nass, and Wagner (2009) in PNAS compared heavy media multitaskers to light ones: the heavy multitaskers did worse on every test, including task-switching itself. Strayer and Watson (2012) estimate only about 2.5% of the population actually qualifies as a 'supertasker'. Simple stat: odds are you're not one. Default assumption: you're not.",
       },
       {
         l: "What to Actually Do",
         li: [
-          "<strong>Phone in another room</strong> — not on the desk, not in the bag",
+          "<strong>Phone in another room</strong>, not on the desk, not in the bag",
           "<strong>Single-task hard work</strong>; dual-task only on light stuff (audiobook while walking)",
           "<strong>Pre-focus ritual</strong> : 2 minutes of breathing, tidy the desk, set a timer. Cue the brain that focus mode is starting",
           "<strong>Low-cue environment</strong> : a clean desk cuts down visual distraction",
         ],
       },
     ],
-    tk: "Single-tasking isn't a virtue, it's the only mode the brain can run optimally. Treat multi-tasking as a default-worse skill — unless you're in that 2.5% supertasker minority.",
+    tk: "Single-tasking isn't a virtue, it's the only mode the brain can run optimally. Treat multi-tasking as a default-worse skill, unless you're in that 2.5% supertasker minority.",
     refs: [
       "Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: More speed and stress. Proceedings of CHI 2008, 107-110.",
       "Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: The mere presence of one's own smartphone reduces available cognitive capacity. Journal of the Association for Consumer Research, 2(2), 140-154.",
@@ -214,11 +214,11 @@ const C = {
     secs: [
       {
         l: "The Testing Effect",
-        t: "Roediger and Karpicke (2006) named it the <em>testing effect</em>. Tests don't only measure knowledge — taking a test is itself a learning event. Every time you pull information out of memory, the neural connection strengthens. The effect is large and replicable. Adesope, Trevisan, and Sundararajan (2017) ran a meta-analysis of 118 studies comparing testing vs re-study. Median effect size: d = 0.61. In education research, that's huge.",
+        t: "Roediger and Karpicke (2006) named it the <em>testing effect</em>. Tests don't only measure knowledge, taking a test is itself a learning event. Every time you pull information out of memory, the neural connection strengthens. The effect is large and replicable. Adesope, Trevisan, and Sundararajan (2017) ran a meta-analysis of 118 studies comparing testing vs re-study. Median effect size: d = 0.61. In education research, that's huge.",
       },
       {
         l: "Retrieval Practice Beats Concept Mapping",
-        t: "This is the finding that stings a little. Karpicke and Blunt (2011) in Science compared four conditions: re-study, retrieval practice, initial concept mapping, and elaborative concept mapping. A month later, the retrieval-practice group beat the concept mappers on both retention and inference. But students' predictions went the other way — the ones doing concept maps thought they'd remember the most. Illusion of competence again.",
+        t: "This is the finding that stings a little. Karpicke and Blunt (2011) in Science compared four conditions: re-study, retrieval practice, initial concept mapping, and elaborative concept mapping. A month later, the retrieval-practice group beat the concept mappers on both retention and inference. But students' predictions went the other way, the ones doing concept maps thought they'd remember the most. Illusion of competence again.",
       },
       {
         l: "What It Actually Looks Like",
@@ -255,7 +255,7 @@ const C = {
       },
       {
         l: "Lag Effect and Distributed Practice",
-        t: "Cepeda, Pashler, Vul, Wixted, and Rohrer (2006) ran a meta-analysis of 254 spacing studies. The conclusion was crisp: the spacing effect is one of the most robust findings in all of memory research. The practical question is harder — what's the optimal gap between reviews? Their follow-up (Cepeda et al., 2008) on 1,354 people gave a rule of thumb: optimal review gap ≈ 10-30% of how long you need to remember the material. Need to remember it a week? Space reviews 1-2 days apart. Need to remember it a year? Space them 2-4 months apart.",
+        t: "Cepeda, Pashler, Vul, Wixted, and Rohrer (2006) ran a meta-analysis of 254 spacing studies. The conclusion was crisp: the spacing effect is one of the most robust findings in all of memory research. The practical question is harder, what's the optimal gap between reviews? Their follow-up (Cepeda et al., 2008) on 1,354 people gave a rule of thumb: optimal review gap ≈ 10-30% of how long you need to remember the material. Need to remember it a week? Space reviews 1-2 days apart. Need to remember it a year? Space them 2-4 months apart.",
       },
       {
         l: "Leitner Box: The Manual Version",
@@ -282,12 +282,12 @@ const C = {
       "I had a long habit: re-reviewing topics I already understood because it felt good. Eventually I realized that was a way of hiding from the topics I didn't understand. Your weak spots are the ones that deserve the 80%.",
     secs: [
       {
-        l: "Pareto Isn't a Law — It's a Useful Pattern",
+        l: "Pareto Isn't a Law, It's a Useful Pattern",
         t: "Vilfredo Pareto observed the distribution of land in 19th-century Italy: 20% of the population owned 80% of the land. That got turned into the 'Pareto principle' and then generalized to everything. Careful: there's no mathematical law forcing 80/20 onto studying. But as a heuristic for prioritization, it works. In most domains, there's a small subset of fundamental ideas that unlocks a huge amount of understanding. Identify those. Start there.",
       },
       {
-        l: "Deliberate Practice — The Original Version",
-        t: "Before Gladwell popularized 10,000 hours, Ericsson and colleagues (1993) were already specific about what makes practice <em>effective</em>. They coined deliberate practice with sharp criteria: an explicit goal each session, immediate feedback, focused repetition on specific elements, and — crucially — pitched to push the edge of your current ability. Casual practice (kicking a ball around with friends) isn't deliberate practice. Targeted drill on a weak technique is.",
+        l: "Deliberate Practice, The Original Version",
+        t: "Before Gladwell popularized 10,000 hours, Ericsson and colleagues (1993) were already specific about what makes practice <em>effective</em>. They coined deliberate practice with sharp criteria: an explicit goal each session, immediate feedback, focused repetition on specific elements, and, crucially, pitched to push the edge of your current ability. Casual practice (kicking a ball around with friends) isn't deliberate practice. Targeted drill on a weak technique is.",
       },
       {
         l: "Zone of Proximal Development",
@@ -297,9 +297,9 @@ const C = {
         l: "How to Find Your Weak Spots",
         li: [
           "<strong>Test yourself before reading</strong>. The questions you can't answer are a map of your weak spots.",
-          "<strong>Track patterns in your errors</strong>. Not a list of wrong questions — categories. 'I keep missing integration by parts' is different from 'I made arithmetic slips'.",
+          "<strong>Track patterns in your errors</strong>. Not a list of wrong questions, categories. 'I keep missing integration by parts' is different from 'I made arithmetic slips'.",
           "<strong>Look for recent failures</strong>, not recent wins. Comfort hides weakness.",
-          "<strong>Spend 80% of your time on the weakest 20% of areas</strong>. Not the topics you hate most — the topics the feedback says you're worst at.",
+          "<strong>Spend 80% of your time on the weakest 20% of areas</strong>. Not the topics you hate most, the topics the feedback says you're worst at.",
         ],
       },
     ],
@@ -324,11 +324,11 @@ const C = {
       },
       {
         l: "The Meta-Analysis That Should Make You Pause",
-        t: "Sisk and colleagues (2018) reviewed 273 studies (n > 365,000) in Psychological Science. Mindset's correlation with achievement: r = 0.10. Effect of mindset interventions: d = 0.08. That's a small effect — statistically significant at huge sample sizes, but practically modest. Burgoyne, Hambrick, and Macnamara (2020) confirmed: the growth-mindset effect has been overestimated in popular media. Not zero. Just nowhere near a magic bullet.",
+        t: "Sisk and colleagues (2018) reviewed 273 studies (n > 365,000) in Psychological Science. Mindset's correlation with achievement: r = 0.10. Effect of mindset interventions: d = 0.08. That's a small effect, statistically significant at huge sample sizes, but practically modest. Burgoyne, Hambrick, and Macnamara (2020) confirmed: the growth-mindset effect has been overestimated in popular media. Not zero. Just nowhere near a magic bullet.",
       },
       {
         l: "What Has Stronger Evidence: Desirable Difficulty",
-        t: "There's a reframe with much firmer empirical footing — not 'positive mindset makes learning better' but 'difficulty is information'. Bjork (1994, 2011) showed that tasks that feel hard in the moment usually produce the best long-term retention. The ones that feel easy are often less effective. When material feels heavy, that isn't a sign to quit. It's a sign encoding is happening.",
+        t: "There's a reframe with much firmer empirical footing, not 'positive mindset makes learning better' but 'difficulty is information'. Bjork (1994, 2011) showed that tasks that feel hard in the moment usually produce the best long-term retention. The ones that feel easy are often less effective. When material feels heavy, that isn't a sign to quit. It's a sign encoding is happening.",
       },
       {
         l: "What to Take Away",
@@ -336,7 +336,7 @@ const C = {
           "<strong>Effort is information</strong>, not a sign of inadequacy",
           "<strong>Tools and techniques &gt; mindset alone</strong>. A great mindset with re-reading still loses to any mindset with active recall",
           "<strong>Struggle != bad</strong>. A mistake is one data point about the edge of your understanding",
-          "<strong>Be wary of huge claims</strong>. Any self-help that promises total transformation from a mindset shift — check the effect size",
+          "<strong>Be wary of huge claims</strong>. Any self-help that promises total transformation from a mindset shift, check the effect size",
         ],
       },
     ],
@@ -353,7 +353,7 @@ const C = {
     title: "Goals & Identity",
     sub: "'I want to study more' loses to 'every Monday at 8, at this desk, open chapter 3'.",
     intro:
-      "For two years I had the intention to work out regularly. What finally made it happen: nailing down one specific sentence — 'every Tuesday-Thursday-Saturday at 6 am, shoes already at the door, just run'. Specificity beats willpower.",
+      "For two years I had the intention to work out regularly. What finally made it happen: nailing down one specific sentence, 'every Tuesday-Thursday-Saturday at 6 am, shoes already at the door, just run'. Specificity beats willpower.",
     secs: [
       {
         l: "Goal Setting With Evidence",
@@ -377,7 +377,7 @@ const C = {
         ],
       },
     ],
-    tk: "'I want to study' is weak. 'Every Monday at 8 am, at the desk, open chapter 3' is strong. Specificity isn't optional — it's the mechanism.",
+    tk: "'I want to study' is weak. 'Every Monday at 8 am, at the desk, open chapter 3' is strong. Specificity isn't optional, it's the mechanism.",
     refs: [
       "Locke, E. A., & Latham, G. P. (2002). Building a practically useful theory of goal setting and task motivation. American Psychologist, 57(9), 705-717.",
       "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493-503.",
@@ -398,13 +398,13 @@ const C = {
       },
       {
         l: "Marginalia: Annotation That Actually Works",
-        t: "Marginalia — notes in the margins — does double duty: it forces the brain to process at read time, and it gives you an anchor for later review. What doesn't work: highlighting without annotation. Dunlosky and colleagues (2013) classify highlighting as 'low utility' in their famous review. Highlighting feels productive, but it usually just creates the illusion of competence. Annotation that demands thinking (questions, reactions, links to other concepts) is far more effective.",
+        t: "Marginalia, notes in the margins, does double duty: it forces the brain to process at read time, and it gives you an anchor for later review. What doesn't work: highlighting without annotation. Dunlosky and colleagues (2013) classify highlighting as 'low utility' in their famous review. Highlighting feels productive, but it usually just creates the illusion of competence. Annotation that demands thinking (questions, reactions, links to other concepts) is far more effective.",
       },
       {
         l: "Routine for Serious Reading",
         li: [
           "<strong>Before opening</strong> : 1 minute. What question are you trying to answer?",
-          "<strong>Per paragraph</strong> : if it's a dense paragraph, one sentence in the margin. Not a summary — a question or a reaction",
+          "<strong>Per paragraph</strong> : if it's a dense paragraph, one sentence in the margin. Not a summary, a question or a reaction",
           "<strong>Per page or sub-chapter</strong> : close the book, blurt for 1-2 minutes. What do you remember?",
           "<strong>Per session</strong> : write a 3-5 bullet summary in Notion or a journal",
           "<strong>Per finished book</strong> : a 500-word review. Post it publicly if you can. Public commitment strengthens encoding",
@@ -412,10 +412,10 @@ const C = {
       },
       {
         l: "Reading vs Re-Reading",
-        t: "This surprises people: re-reading almost always loses to a single read plus recall (Callender & McDaniel, 2009). If you want a retention boost, read once and then test yourself, rather than reading twice. But read + recall + re-read only the parts you struggled with — that combination works. Re-reading a whole book is almost always less efficient for learning, though it can be aesthetically rewarding in its own right.",
+        t: "This surprises people: re-reading almost always loses to a single read plus recall (Callender & McDaniel, 2009). If you want a retention boost, read once and then test yourself, rather than reading twice. But read + recall + re-read only the parts you struggled with, that combination works. Re-reading a whole book is almost always less efficient for learning, though it can be aesthetically rewarding in its own right.",
       },
     ],
-    tk: "Reading is retrieval, not absorption. The moment you can close the book and summarize the chapter without looking — that's when reading became effective.",
+    tk: "Reading is retrieval, not absorption. The moment you can close the book and summarize the chapter without looking, that's when reading became effective.",
     refs: [
       "Adler, M. J., & Van Doren, C. (1972). How to Read a Book. Simon & Schuster.",
       "McNamara, D. S. (2004). SERT: Self-explanation reading training. Discourse Processes, 38(1), 1-30.",
@@ -426,7 +426,7 @@ const C = {
 
   mindmap: {
     title: "Mind Mapping (GRINDE)",
-    sub: "Mind maps have evidence for being effective — but not as strong as Buzan claimed. Knowing when they work and when they don't matters.",
+    sub: "Mind maps have evidence for being effective, but not as strong as Buzan claimed. Knowing when they work and when they don't matters.",
     intro:
       "I was skeptical of mind maps for years because the version Tony Buzan popularized felt too much like a sales pitch. Then I tried the more academic, Cornell-flavored version and it clicked. The difference was how serious the encoding process actually was.",
     secs: [
@@ -436,7 +436,7 @@ const C = {
       },
       {
         l: "But Here's the Important Caveat",
-        t: "Karpicke and Blunt (2011) — already cited under Active Recall — compared mind mapping head-to-head with retrieval practice. Retrieval practice won decisively on both retention and inference. Practical takeaway: mind mapping is useful as an early encoding step (organizing the information), but don't stop there. You still need retrieval practice to lock in retention.",
+        t: "Karpicke and Blunt (2011), already cited under Active Recall, compared mind mapping head-to-head with retrieval practice. Retrieval practice won decisively on both retention and inference. Practical takeaway: mind mapping is useful as an early encoding step (organizing the information), but don't stop there. You still need retrieval practice to lock in retention.",
       },
       {
         l: "GRINDE: The Rules That Make a Map Effective",
@@ -455,7 +455,7 @@ const C = {
       },
       {
         l: "This Site Uses GRINDE",
-        t: "The mind map on the left follows the principles. L1 nodes are grouped by color category (foundation violet, structure blue, method green, will amber, body pink). Yellow cross-links between conceptually-related topics. Emoji icons for non-verbal cues. Hover previews for directionality. Click the Tools node (green) for the practical implementations. And — new on this version — you can drag any node to wherever you want, and the layout sticks until you hit Reset.",
+        t: "The mind map on the left follows the principles. L1 nodes are grouped by color category (foundation violet, structure blue, method green, will amber, body pink). Yellow cross-links between conceptually-related topics. Emoji icons for non-verbal cues. Hover previews for directionality. Click the Tools node (green) for the practical implementations. And, new on this version, you can drag any node to wherever you want, and the layout sticks until you hit Reset.",
       },
     ],
     tk: "Mind maps are good for organizing encoding. They don't replace retrieval. Make the map once, then close it and try to redraw it from memory. That's mind mapping with retrieval practice on top.",
@@ -471,7 +471,7 @@ const C = {
     title: "Social Layer",
     sub: "Studying alone is possible. But the people around you decide whether your studying sustains.",
     intro:
-      "My first year of college, I isolated myself because I thought studying alone was more efficient. My GPA was fine but brittle. Third year, I joined a regular study group — even though my solo hours dropped, my retention went up. The social layer isn't a luxury, it's a mechanism.",
+      "My first year of college, I isolated myself because I thought studying alone was more efficient. My GPA was fine but brittle. Third year, I joined a regular study group, even though my solo hours dropped, my retention went up. The social layer isn't a luxury, it's a mechanism.",
     secs: [
       {
         l: "Peer Learning Has Evidence",
@@ -479,11 +479,11 @@ const C = {
       },
       {
         l: "Community of Practice",
-        t: "Lave and Wenger (1991) introduced the concept of a <em>community of practice</em>: learning isn't just information transfer — it's gradual participation in a community that practices the skill. A young chess player becomes a chess player by talking to and playing other chess players. A programmer becomes a programmer through code review and PR discussions. The practical takeaway for a student: join a community (online or in person) in the domain you're studying. Show up, talk, ask questions, even the 'stupid' ones.",
+        t: "Lave and Wenger (1991) introduced the concept of a <em>community of practice</em>: learning isn't just information transfer, it's gradual participation in a community that practices the skill. A young chess player becomes a chess player by talking to and playing other chess players. A programmer becomes a programmer through code review and PR discussions. The practical takeaway for a student: join a community (online or in person) in the domain you're studying. Show up, talk, ask questions, even the 'stupid' ones.",
       },
       {
         l: "Mentors: With a Caveat",
-        t: "The mentorship literature is mixed. Allen and colleagues (2004) meta-analyzed and found career mentorship at d = 0.20-0.40, modest. The effect is stronger for technical learning: a direct mentor from inside the domain can dramatically shorten your learning time by pointing your attention to the patterns they had to learn the hard way. But be careful not to romanticize mentorship. A good mentor is someone who gives you honest feedback and shapes your practice — not a famous figure you follow at a distance.",
+        t: "The mentorship literature is mixed. Allen and colleagues (2004) meta-analyzed and found career mentorship at d = 0.20-0.40, modest. The effect is stronger for technical learning: a direct mentor from inside the domain can dramatically shorten your learning time by pointing your attention to the patterns they had to learn the hard way. But be careful not to romanticize mentorship. A good mentor is someone who gives you honest feedback and shapes your practice, not a famous figure you follow at a distance.",
       },
       {
         l: "Practical Steps",
@@ -525,7 +525,7 @@ const C = {
       },
       {
         l: "Brain Plasticity Is Real, Even Late in Life",
-        t: "The famous Maguire and colleagues (2000) study: London cab drivers who'd spent years memorizing the city's streets had a measurably larger posterior hippocampus than non-cabbies. Their later longitudinal work (Maguire, Woollett, & Spiers, 2006) tracked the structural changes through training. Neuroplasticity is real and stays active into old age — just slower than it was when you were young.",
+        t: "The famous Maguire and colleagues (2000) study: London cab drivers who'd spent years memorizing the city's streets had a measurably larger posterior hippocampus than non-cabbies. Their later longitudinal work (Maguire, Woollett, & Spiers, 2006) tracked the structural changes through training. Neuroplasticity is real and stays active into old age, just slower than it was when you were young.",
       },
       {
         l: "Diet, With a Caveat",
@@ -584,10 +584,10 @@ const C = {
       {
         l: "Four Steps",
         li: [
-          "<strong>Step 1 — Pick a concept</strong>. Be specific. Not 'physics' — 'momentum conservation' or 'time value of money'",
-          "<strong>Step 2 — Explain it to a 12-year-old</strong>. Write, talk, or teach an imaginary student. Use simple words. No jargon.",
-          "<strong>Step 3 — Identify the gaps</strong>. Where did you reach for jargon because you couldn't simplify? Where did you get stuck? That's your map of holes.",
-          "<strong>Step 4 — Simplify and re-explain</strong>. Go back to the source material for the identified gaps, then repeat step 2 with the deeper understanding.",
+          "<strong>Step 1, Pick a concept</strong>. Be specific. Not 'physics', 'momentum conservation' or 'time value of money'",
+          "<strong>Step 2, Explain it to a 12-year-old</strong>. Write, talk, or teach an imaginary student. Use simple words. No jargon.",
+          "<strong>Step 3, Identify the gaps</strong>. Where did you reach for jargon because you couldn't simplify? Where did you get stuck? That's your map of holes.",
+          "<strong>Step 4, Simplify and re-explain</strong>. Go back to the source material for the identified gaps, then repeat step 2 with the deeper understanding.",
         ],
       },
       {
@@ -600,7 +600,7 @@ const C = {
           "Topics that feel 'familiar but I'm not sure I get it'",
           "Before a big exam, as a final check of understanding",
           "While reading a technical paper, applied concept by concept",
-          "When teaching a friend — the friend is your 12-year-old",
+          "When teaching a friend, the friend is your 12-year-old",
         ],
       },
       {
@@ -617,13 +617,13 @@ const C = {
 
   cornell: {
     title: "Cornell Notes",
-    sub: "Not really note-taking — it's an encoding structure plus a built-in self-quiz on the same page.",
+    sub: "Not really note-taking, it's an encoding structure plus a built-in self-quiz on the same page.",
     intro:
       "Cornell notes look boring, but the layout isn't what makes them work. What makes them work is that the structure forces you to retrieve <em>after</em> listening/reading, not during.",
     secs: [
       {
         l: "Layout",
-        t: "Divide the page into three regions. Right column (~70% width) for the main notes you take during the session. Left column (~25%) for cues, keywords, or questions — filled in <em>after</em> the session. The bottom 5 lines are for a 2-3 sentence summary at the end.",
+        t: "Divide the page into three regions. Right column (~70% width) for the main notes you take during the session. Left column (~25%) for cues, keywords, or questions, filled in <em>after</em> the session. The bottom 5 lines are for a 2-3 sentence summary at the end.",
       },
       {
         l: "The Workflow That Actually Works",
@@ -636,7 +636,7 @@ const C = {
       },
       {
         l: "What Makes Cornell More Than Just a Note",
-        t: "The step of filling in the left column is hidden retrieval practice — you're forcing your brain to summarize what was just delivered. The review step using the left column as a cue is the testing effect (Roediger & Karpicke, 2006). Cornell isn't about page format; it's about the encode-retrieve-review loop being built in.",
+        t: "The step of filling in the left column is hidden retrieval practice, you're forcing your brain to summarize what was just delivered. The review step using the left column as a cue is the testing effect (Roediger & Karpicke, 2006). Cornell isn't about page format; it's about the encode-retrieve-review loop being built in.",
       },
       {
         l: "Caveat",
@@ -652,19 +652,19 @@ const C = {
 
   grinde: {
     title: "GRINDE Rules",
-    sub: "Practical rules for making mind maps that aren't just decoration — maps that actually strengthen encoding.",
+    sub: "Practical rules for making mind maps that aren't just decoration, maps that actually strengthen encoding.",
     intro:
       "Tony Buzan popularized mind maps, but a lot of his versions are basically cute coloring books without any conceptual structure. GRINDE is the study community's attempt to formalize the principles that make a mind map actually work.",
     secs: [
       {
         l: "The Acronym",
         li: [
-          "<strong>G — Grouped</strong> : related items sit visually close. Cluster by category, not by input order.",
-          "<strong>R — Reflective</strong> : the visual structure mirrors the conceptual structure. Clear hierarchy, clear parent-child relationships.",
-          "<strong>I — Interconnected</strong> : cross-links between topics, not strict hierarchy. Real knowledge isn't a tree, it's a web.",
-          "<strong>N — Non-verbal</strong> : use icons, symbols, colors. Dual coding (Paivio, 1971): visual + verbal information is encoded in different systems, and the combination is stronger than either alone.",
-          "<strong>D — Directionality</strong> : arrows show direction, cause, or dependency. Not just neutral connectors.",
-          "<strong>E — Emphasize</strong> : important items are bigger, bolder, in standout colors. The brain processes salient items faster.",
+          "<strong>G, Grouped</strong> : related items sit visually close. Cluster by category, not by input order.",
+          "<strong>R, Reflective</strong> : the visual structure mirrors the conceptual structure. Clear hierarchy, clear parent-child relationships.",
+          "<strong>I, Interconnected</strong> : cross-links between topics, not strict hierarchy. Real knowledge isn't a tree, it's a web.",
+          "<strong>N, Non-verbal</strong> : use icons, symbols, colors. Dual coding (Paivio, 1971): visual + verbal information is encoded in different systems, and the combination is stronger than either alone.",
+          "<strong>D, Directionality</strong> : arrows show direction, cause, or dependency. Not just neutral connectors.",
+          "<strong>E, Emphasize</strong> : important items are bigger, bolder, in standout colors. The brain processes salient items faster.",
         ],
       },
       {
@@ -676,7 +676,7 @@ const C = {
           "<strong>Non-verbal</strong> : emoji icon on every node + category fill color",
           "<strong>Directionality</strong> : rim links dashed for the sequential learning chain, parent links dotted for hierarchy",
           "<strong>Emphasize</strong> : the root is larger, hovered nodes get a brighter halo, non-focused nodes fade",
-          "<strong>Drag</strong> : you can also drag any node to wherever helps you think — the layout sticks until you hit Reset",
+          "<strong>Drag</strong> : you can also drag any node to wherever helps you think, the layout sticks until you hit Reset",
         ],
       },
       {
@@ -853,7 +853,7 @@ const NODES = [
     lv: 1,
     sp: true,
   },
-  // L2 — recall children
+  // L2, recall children
   {
     id: "feynman",
     lab: "Feynman\nMethod",
@@ -870,7 +870,7 @@ const NODES = [
     lv: 2,
     sp: false,
   },
-  // L2 — mindmap child
+  // L2, mindmap child
   {
     id: "grinde",
     lab: "GRINDE\nRules",
@@ -879,7 +879,7 @@ const NODES = [
     lv: 2,
     sp: false,
   },
-  // L2 — tool children
+  // L2, tool children
   {
     id: "t-pomo",
     lab: "Pomodoro",
@@ -923,7 +923,7 @@ const NODES = [
 ];
 
 const LINKS = [
-  // Spokes — root to every L1
+  // Spokes, root to every L1
   { s: "root", t: "meta", k: "spoke" },
   { s: "root", t: "time", k: "spoke" },
   { s: "root", t: "focus", k: "spoke" },
@@ -937,7 +937,7 @@ const LINKS = [
   { s: "root", t: "social", k: "spoke" },
   { s: "root", t: "body", k: "spoke" },
   { s: "root", t: "tools", k: "spoke" },
-  // Rim — pedagogical sequential chain
+  // Rim, pedagogical sequential chain
   { s: "meta", t: "time", k: "rim" },
   { s: "time", t: "focus", k: "rim" },
   { s: "focus", t: "recall", k: "rim" },
@@ -947,7 +947,7 @@ const LINKS = [
   { s: "mindset", t: "goals", k: "rim" },
   { s: "goals", t: "reading", k: "rim" },
   { s: "reading", t: "mindmap", k: "rim" },
-  // Cross — conceptual bridges
+  // Cross, conceptual bridges
   { s: "spaced", t: "recall", k: "cross" },
   { s: "mindset", t: "priority", k: "cross" },
   { s: "goals", t: "mindset", k: "cross" },
@@ -957,7 +957,7 @@ const LINKS = [
   { s: "body", t: "mindset", k: "cross" },
   { s: "social", t: "priority", k: "cross" },
   { s: "social", t: "recall", k: "cross" },
-  // Parent — L1 to L2 children
+  // Parent, L1 to L2 children
   { s: "recall", t: "feynman", k: "parent" },
   { s: "recall", t: "cornell", k: "parent" },
   { s: "mindmap", t: "grinde", k: "parent" },
@@ -1611,7 +1611,7 @@ function renderPomo() {
   const isBreak = PomoState.phase === "break";
   cp.innerHTML = `<div class="tool-wrap">
 <div class="tool-title">Pomodoro Timer</div>
-<div class="tool-sub">Structured focus with scheduled breaks. Based on vigilance decrement mitigation (Ariga & Lleras, 2011). The 25/5 numbers are just defaults — what matters is the consistency, not the ratio.</div>
+<div class="tool-sub">Structured focus with scheduled breaks. Based on vigilance decrement mitigation (Ariga & Lleras, 2011). The 25/5 numbers are just defaults, what matters is the consistency, not the ratio.</div>
 
 <div class="pomo-wrap">
 <div class="pomo-ring${isBreak ? " is-break" : ""}" id="pomo-ring">
@@ -1969,7 +1969,7 @@ function renderBlurt() {
 <button class="p-btn" id="blurt-reset">↻ Reset</button>
 </div>
 
-<textarea class="blurt-textarea" id="blurt-text" placeholder="Write everything you remember about this topic — without looking at the material. Doesn't need to be tidy. Doesn't need to be complete. What matters is effortful retrieval.">${BlurtState.text}</textarea>
+<textarea class="blurt-textarea" id="blurt-text" placeholder="Write everything you remember about this topic, without looking at the material. Doesn't need to be tidy. Doesn't need to be complete. What matters is effortful retrieval.">${BlurtState.text}</textarea>
 <div class="blurt-wordcount" id="blurt-wc">0 words</div>
 
 <div class="sec">
@@ -2082,7 +2082,7 @@ const FEYN_STEPS = [
     short: "Pick",
     title: "Pick a concept",
     prompt:
-      "What concept do you want to test your understanding of? Be specific. Not 'physics' — 'momentum conservation' or 'time value of money'.",
+      "What concept do you want to test your understanding of? Be specific. Not 'physics', 'momentum conservation' or 'time value of money'.",
   },
   {
     short: "Explain",
@@ -2100,7 +2100,7 @@ const FEYN_STEPS = [
     short: "Review",
     title: "Simplify and re-explain",
     prompt:
-      "Go back to the source material for the gaps you identified. Then rewrite your explanation — this time simpler. Use analogies or examples if you need to.",
+      "Go back to the source material for the gaps you identified. Then rewrite your explanation, this time simpler. Use analogies or examples if you need to.",
   },
 ];
 const FeynState = {
@@ -2138,7 +2138,7 @@ function renderFeyn() {
 ${FEYN_STEPS.map((s, i) => `<div class="feyn-step-pill ${i === st ? "on" : i < st ? "done" : ""}"><span class="feyn-step-num">${i + 1}</span>${s.short}</div>`).join("")}
 </div>
 
-<div class="sec-label">Step ${st + 1} — ${stepInfo.title}</div>
+<div class="sec-label">Step ${st + 1}, ${stepInfo.title}</div>
 <div class="feyn-prompt">${stepInfo.prompt}</div>
 
 ${st === 0 ? `<input type="text" class="blurt-topbar" style="width:100%;padding:12px 14px;background:var(--card);border:1px solid var(--border);color:var(--text);font-family:var(--font);font-size:14px;border-radius:var(--radius-sm);outline:none;margin-bottom:12px" id="feyn-concept" placeholder="e.g. Spacing effect, Black-Scholes pricing, Photosynthesis Calvin cycle..." value="${FeynState.concept}">` : ""}
@@ -2254,7 +2254,7 @@ function renderHabit() {
     create: false,
   };
 
-  // Calculate streak — consecutive days with at least 1 pillar
+  // Calculate streak, consecutive days with at least 1 pillar
   let streak = 0;
   const d = new Date();
   while (true) {
@@ -2302,7 +2302,7 @@ function renderHabit() {
 
   cp.innerHTML = `<div class="tool-wrap">
 <div class="tool-title">3-Pillar Habit Tracker</div>
-<div class="tool-sub">Track three non-negotiable hours a day. Implements implementation intentions (Gollwitzer, 1999) + identity-based habits (self-perception theory, Bem 1972). The number 3 hours is a rule of thumb, not magic — consistency is what matters.</div>
+<div class="tool-sub">Track three non-negotiable hours a day. Implements implementation intentions (Gollwitzer, 1999) + identity-based habits (self-perception theory, Bem 1972). The number 3 hours is a rule of thumb, not magic, consistency is what matters.</div>
 
 <div class="habit-streak">
 <div class="habit-stat"><div class="habit-stat-num">${streak}</div><div class="habit-stat-label">Day Streak</div></div>
