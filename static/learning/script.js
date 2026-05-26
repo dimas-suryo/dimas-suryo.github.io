@@ -1353,6 +1353,10 @@ function resetNodePositions() {
 
 const nodeDrag = d3
   .drag()
+  // 5px slop so finger micro-jitter on a real click doesn't get treated as a
+  // drag (which would suppress the subsequent click event and force the user
+  // to click twice). Only true drags of >5px move the node.
+  .clickDistance(5)
   .on("start", function (e, d) {
     d3.select(this).raise();
     document.body.classList.add("no-select");
