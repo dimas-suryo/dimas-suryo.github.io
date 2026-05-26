@@ -55,14 +55,11 @@ function stopR() {
   document.removeEventListener("touchend", stopR);
 }
 
-/* ═══ CONTENT DATABASE ═══
-   First-person, conversational valedictorian voice. The story-beats are
-   mine; the citations underneath every claim are intact and peer-reviewed.
-*/
+/* ═══ CONTENT DATABASE ═══*/
 const C = {
   root: {
     title: "What You Should Also Know About Learning and Studying",
-    sub: "Notes on how to actually learn, backed by research, not the latest TikTok study-with-me aesthetic.",
+    sub: "Notes on how to actually learn, backed by research, not the latest TikTok study-with-me aesthetic, it was inspired by them to be frank.",
     intro:
       "I graduated high school with decent ranks, but if you'd asked me anything from 11th grade material the day after the ceremony, I would've drawn a complete blank. That was the first lesson nobody put in the syllabus: studying isn't the same thing as learning. This page is the map of everything I wish someone had taught me earlier, with peer-reviewed sources behind every claim. Click any node that catches your eye, or flip Essay Mode in the header to read it straight through.",
     secs: [
