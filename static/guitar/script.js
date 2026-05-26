@@ -114,23 +114,23 @@ chords:{title:"Chord Construction",sub:"Chords are stacked intervals, not memori
 
 family:{title:"Diatonic Harmony",sub:"The 7 chords built into every key, and how they function together.",secs:[{l:"7 Diatonic Chords (C Major)",tbl:{h:["Deg","Roman","Chord","7th","Mode"],r:[["1","I","C","Cmaj7","Ionian"],["2","ii","Dm","Dm7","Dorian"],["3","iii","Em","Em7","Phrygian"],["4","IV","F","Fmaj7","Lydian"],["5","V","G","G7","Mixolydian"],["6","vi","Am","Am7","Aeolian"],["7","vii°","Bdim","Bø7","Locrian"]]}},{l:"3 Harmonic Functions",tbl:{h:["Function","Chord","Role"],r:[["Tonic","I, iii, vi","Stability"],["Subdominant","ii, IV","Movement"],["Dominant","V, vii°","Tension"]]}},{l:"Popular Progressions",tbl:{h:["Progression","Example"],r:[["I V vi IV","Don't Stop Believin'"],["ii V I","Jazz standard"],["vi IV I V","Modern pop"],["i ♭VII ♭VI V","Andalusian"]]}}],tk:"Roman numerals work universally in any key. A good progression is really just a play with tension and its release.",refs:["Aldwell & Schachter (2018). Harmony and Voice Leading. Cengage."]},
 
-modes:{title:"The 7 Modes",sub:"Satu parent scale, 7 titik mulai, 7 karakter emosi yang beda.",secs:[{l:"7 Mode",tbl:{h:["#","Mode","Formula","Ciri","Karakter"],r:[["1","Ionian","1 2 3 4 5 6 7","std","Cerah"],["2","Dorian","1 2 ♭3 4 5 6 ♭7","nat 6","Hopeful minor"],["3","Phrygian","1 ♭2 ♭3 4 5 ♭6 ♭7","♭2","Dark, exotic"],["4","Lydian","1 2 3 ♯4 5 6 7","♯4","Dreamy"],["5","Mixolydian","1 2 3 4 5 6 ♭7","♭7","Bluesy"],["6","Aeolian","1 2 ♭3 4 5 ♭6 ♭7","std","Melancholic"],["7","Locrian","1 ♭2 ♭3 4 ♭5 ♭6 ♭7","♭5","Unstable"]]}},{l:"Bright to Dark",cd:"Bright <                          > Dark\nLydian > Ionian > Mixolydian > Dorian > Aeolian > Phrygian > Locrian"},{l:"Chord-Scale Theory",t:"Tiap chord diatonic punya mode-nya sendiri yang paling pas: misalnya Dm7 di key C cocoknya pakai D Dorian."}],tk:"Lydian paling terang, Locrian paling gelap. Chord-Scale Theory itu yang nyambungin tiap chord ke mode yang pas.",refs:["Russell, G. (2001). Lydian Chromatic Concept. Concept Publishing."]},
+modes:{title:"The 7 Modes",sub:"One parent scale, 7 starting points, 7 distinct emotional colors.",intro:"Modes were the thing that made me feel like a 'real' theory student once they clicked. The trick is realizing they aren't seven separate scales to memorize — they're seven different chairs at the same dinner table.",secs:[{l:"7 Modes",tbl:{h:["#","Mode","Formula","Tell","Character"],r:[["1","Ionian","1 2 3 4 5 6 7","std","Bright"],["2","Dorian","1 2 ♭3 4 5 6 ♭7","nat 6","Hopeful minor"],["3","Phrygian","1 ♭2 ♭3 4 5 ♭6 ♭7","♭2","Dark, exotic"],["4","Lydian","1 2 3 ♯4 5 6 7","♯4","Dreamy"],["5","Mixolydian","1 2 3 4 5 6 ♭7","♭7","Bluesy"],["6","Aeolian","1 2 ♭3 4 5 ♭6 ♭7","std","Melancholic"],["7","Locrian","1 ♭2 ♭3 4 ♭5 ♭6 ♭7","♭5","Unstable"]]}},{l:"Bright to Dark",cd:"Bright <                          > Dark\nLydian > Ionian > Mixolydian > Dorian > Aeolian > Phrygian > Locrian"},{l:"Chord-Scale Theory",t:"Each diatonic chord has its own best-fit mode — e.g., Dm7 in the key of C wants D Dorian over it."}],tk:"Lydian is the brightest, Locrian is the darkest. Chord-Scale Theory is the bridge between each chord and the mode that fits over it.",refs:["Russell, G. (2001). Lydian Chromatic Concept. Concept Publishing."]},
 
-harmony:{title:"Advanced Harmony",sub:"Cadence, secondary dominant, dan modulasi.",secs:[{l:"4 Cadence",tbl:{h:["Cadence","Gerak","Kesan"],r:[["Perfect Authentic","V lalu I","Final"],["Plagal","IV lalu I","Amen"],["Half","? lalu V","Menggantung"],["Deceptive","V lalu vi","Kejutan"]]}},{l:"Secondary Dominants",t:"Dom7 dadakan yang ngarah ke chord diatonic selain I, ditulis V/x. Di key C: A7 itu V/ii, D7 itu V/V. Kayak minjam tarikan dominant buat sebentar terus dibalikin."},{l:"Tritone Substitution",t:"Satu Dom7 bisa diganti Dom7 lain yang jaraknya tritone. Contohnya G7 bisa ditukar D♭7. Bisa karena dua-duanya punya tritone yang sama persis di dalamnya."},{l:"Modulasi",li:["<strong>Direct</strong> : langsung pindah key","<strong>Pivot Chord</strong> : chord di kedua key sebagai jembatan","<strong>Common Tone</strong> : 1 nada dipertahankan","<strong>Chromatic</strong> : gerakan semitone"]}],tk:"Cadence itu tanda baca dalam harmoni. Semua teknik di sini intinya main sama ekspektasi pendengar.",refs:["Piston, W. (1987). Harmony, 5th ed. Norton."]},
+harmony:{title:"Advanced Harmony",sub:"Cadences, secondary dominants, modulation.",secs:[{l:"4 Cadences",tbl:{h:["Cadence","Motion","Feel"],r:[["Perfect Authentic","V → I","Final"],["Plagal","IV → I","Amen"],["Half","? → V","Hanging"],["Deceptive","V → vi","Surprise"]]}},{l:"Secondary Dominants",t:"A surprise Dom7 chord that points to a diatonic chord other than I, written V/x. In C: A7 is V/ii, D7 is V/V. Like borrowing dominant pull for a moment then giving it back."},{l:"Tritone Substitution",t:"Any Dom7 can be swapped for another Dom7 a tritone away. G7 ↔ D♭7. Works because both chords share the exact same tritone inside."},{l:"Modulation",li:["<strong>Direct</strong> : just jump to the new key","<strong>Pivot Chord</strong> : use a chord that lives in both keys as a bridge","<strong>Common Tone</strong> : keep one note constant across the switch","<strong>Chromatic</strong> : creep there a semitone at a time"]}],tk:"Cadences are the punctuation marks of harmony. Everything in this section is fundamentally play with the listener's expectations.",refs:["Piston, W. (1987). Harmony, 5th ed. Norton."]},
 
-rhythm:{title:"Rhythm & Meter",sub:"Rhythm itu soal kapan nada dibunyiin. Sama pentingnya sama nada apa yang dibunyiin.",secs:[{l:"Time Signatures",tbl:{h:["Sig","Arti","Contoh"],r:[["4/4","4 quarter/measure","90%+ pop/rock"],["3/4","3 quarter/measure","Waltz"],["6/8","6 eighth (2x3)","Nothing Else Matters"],["5/4","5 beats","Take Five"]]}},{l:"Note Values",cd:"Whole=4 beats  Half=2  Quarter=1\nEighth=1/2  Sixteenth=1/4  Triplet=3 in 2"},{l:"Syncopation",t:"Penekanan jatuh di offbeat, bukan di ketukan kuat. Ini inti dari groove di funk, reggae, dan jazz."}],tk:"Time signature itu cara ngelompokin ketukan, syncopation itu yang ngasih groove-nya. Tapi semua itu lewat kalau ritmenya goyang. Jadi metronome dulu, syncopation belakangan.",refs:["London, J. (2012). Hearing in Time. Oxford UP."]},
+rhythm:{title:"Rhythm & Meter",sub:"Rhythm is about WHEN a note plays. Just as important as WHICH note.",intro:"For the longest time I treated rhythm as 'just the metronome thing'. Then I recorded myself and realized half my solos were technically clean but rhythmically wobbly. Pitch is what people notice. Time is what people feel.",secs:[{l:"Time Signatures",tbl:{h:["Sig","Meaning","Example"],r:[["4/4","4 quarters / bar","90%+ of pop & rock"],["3/4","3 quarters / bar","Waltz"],["6/8","6 eighths (2×3)","Nothing Else Matters"],["5/4","5 beats / bar","Take Five"]]}},{l:"Note Values",cd:"Whole=4 beats  Half=2  Quarter=1\nEighth=1/2  Sixteenth=1/4  Triplet=3 in 2"},{l:"Syncopation",t:"The emphasis lands on the offbeats instead of the strong beats. This is the core of groove in funk, reggae, and jazz."}],tk:"Time signature is how the beats are grouped; syncopation is what gives them groove. None of it matters if your time is wobbly, though. Metronome first, syncopation later.",refs:["London, J. (2012). Hearing in Time. Oxford UP."]},
 
-guitar:{title:"Guitar Essentials",sub:"Hal-hal mendasar yang harus dipegang tiap gitaris.",intro:"Ini bagian yang paling 'tangan'. Semua teori di atas akhirnya ketemu fretboard di sini. Kalau kamu bisa main tapi nggak tahu nada apa yang lagi dipencet, mulainya dari sini.",secs:[{l:"Tuning: E A D G B E",t:"Jarak antar senar: P4-P4-P4-M3-P4. Yang dari G ke B beda sendiri (cuma M3), dan justru anomali ini yang bikin beberapa pattern harus digeser satu fret pas lewat senar itu."},{l:"Essential Skills",li:["Open Chords: C A G E D Am Em Dm","Barre: E-shape, A-shape","Power Chords: 1+5","Minor Pentatonic Shape 1","Hammer-on, Pull-off, Slide, Bend, Vibrato"]}],tk:"Tiap fret itu satu semitone. Beresin dulu open chord, barre, sama pentatonic sebelum ngurusin yang lain.",refs:["Leavitt, W. (1966). A Modern Method for Guitar. Berklee Press."]},
+guitar:{title:"Guitar Essentials",sub:"The non-negotiables every guitarist has to nail down.",intro:"This is the most physical section. Everything theoretical above finally meets the fretboard here. If you can play but you don't know what notes you're actually pressing — this is your starting point.",secs:[{l:"Tuning: E A D G B E",t:"The intervals between strings: P4-P4-P4-M3-P4. The G-to-B is the oddball — just a Major 3rd — and that one anomaly is why some patterns need to shift one fret when they cross that string."},{l:"Essential Skills",li:["Open Chords: C A G E D Am Em Dm","Barre: E-shape, A-shape","Power Chords: 1 + 5","Minor Pentatonic Shape 1","Hammer-on, Pull-off, Slide, Bend, Vibrato"]}],tk:"Every fret is one semitone. Lock in open chords, barre chords, and one pentatonic shape before worrying about anything else.",refs:["Leavitt, W. (1966). A Modern Method for Guitar. Berklee Press."]},
 
-caged:{title:"CAGED System",sub:"5 bentuk chord buat nutupin seluruh fretboard.",secs:[{l:"Konsep",t:"5 bentuk open chord (C-A-G-E-D) digeser pakai barre ke seluruh fretboard. Urutannya muter terus: C, A, G, E, D, lalu balik lagi ke C."},{l:"Root Navigation",cd:"Str 6: E F F# G G# A A# B C C# D D# E\nFret:  0 1 2  3 4  5 6  7 8 9  10 11 12\n\nStr 5: A A# B C C# D D# E F F# G G# A\nFret:  0 1  2 3 4  5 6  7 8 9  10 11 12"}],tk:"Hafal posisi root di senar 6 dan 5 dulu. Itu titik mulai buat tiap bentuk CAGED. Kalau root-nya udah keliatan, sisanya tinggal nyusun bentuk yang udah kamu hafal.",refs:["Kolb, T. (2006). The CAGED System. Hal Leonard."]},
+caged:{title:"CAGED System",sub:"5 chord shapes that together cover the entire fretboard.",secs:[{l:"Concept",t:"Five open chord shapes (C-A-G-E-D) get barred up the neck to cover the whole fretboard. The order keeps cycling: C, A, G, E, D, back to C, on and on."},{l:"Root Navigation",cd:"Str 6: E F F# G G# A A# B C C# D D# E\nFret:  0 1 2  3 4  5 6  7 8 9  10 11 12\n\nStr 5: A A# B C C# D D# E F F# G G# A\nFret:  0 1  2 3 4  5 6  7 8 9  10 11 12"}],tk:"Memorize root positions on strings 6 and 5 first. That's the launchpad for every CAGED shape. Once the root is visible, the shape your hand already knows takes care of the rest.",refs:["Kolb, T. (2006). The CAGED System. Hal Leonard."]},
 
-fretboard:{title:"Fretboard Mapping",sub:"Kenalan sama tiap nada di fretboard sampai hafal di luar kepala.",secs:[{l:"Natural Notes per String",cd:"e1: E F   G   A   B C   D   E\nB : B C   D   E F   G   A   B\nG : G   A   B C   D   E F   G\nD : D   E F   G   A   B C   D\nA : A   B C   D   E F   G   A\nE6: E F   G   A   B C   D   E\n    0 1 2 3 4 5 6 7 8 9 10 11 12"},{l:"Shortcuts",li:["String 1 = String 6 (keduanya E)","Fret 12 = Open (1 oktaf lebih tinggi)","Octave: 6 ke 4 = +2 string +2 fret"]}],tk:"Hafalin natural notes dulu (C D E F G A B). Sharp dan flat-nya tinggal geser satu fret dari natural-nya. Lima menit sehari setahun bakal bikin kamu hafal di luar kepala.",refs:["Gambale, F. (1997). Fretboard Knowledge. Manhattan Music."]},
+fretboard:{title:"Fretboard Mapping",sub:"Getting to know every note on the fretboard until you don't have to think.",secs:[{l:"Natural Notes per String",cd:"e1: E F   G   A   B C   D   E\nB : B C   D   E F   G   A   B\nG : G   A   B C   D   E F   G\nD : D   E F   G   A   B C   D\nA : A   B C   D   E F   G   A\nE6: E F   G   A   B C   D   E\n    0 1 2 3 4 5 6 7 8 9 10 11 12"},{l:"Shortcuts",li:["String 1 = String 6 (both are E)","Fret 12 = Open (one octave higher)","Octave: 6 → 4 = +2 strings, +2 frets"]}],tk:"Memorize the natural notes first (C D E F G A B). Sharps and flats are just one fret off from the natural. Five minutes a day for a year and you'll know it cold.",refs:["Gambale, F. (1997). Fretboard Knowledge. Manhattan Music."]},
 
-techniques:{title:"Lead Techniques",sub:"Teknik yang bikin gitar kedengeran kayak ngomong.",secs:[{l:"Essential",tbl:{h:["Teknik","Efek"],r:[["Hammer-On","Legato smooth"],["Pull-Off","Legato descending"],["Slide","Glissando"],["Bend","Vocal quality"],["Vibrato","Sustain hidup"],["Palm Mute","Chunky, tight"],["Tapping","Wide intervals"]]}},{l:"Bend dan Vibrato",t:"Dua teknik ini yang paling ngebedain gitaris satu sama lain. Bend wajib pas pitchnya, fals dikit langsung ketahuan. Vibrato wajib konsisten ritmenya, kalau goyang kedengeran kayak orang yang baru belajar bend."}],tk:"Teknik lead itu soal kontrol dan ekspresi. Cepat itu efek samping dari kontrol yang udah jadi, bukan tujuan.",refs:["Denyer, R. (1992). The Guitar Handbook. Knopf."]},
+techniques:{title:"Lead Techniques",sub:"The techniques that make a guitar sound like it's actually talking.",secs:[{l:"Essential",tbl:{h:["Technique","Effect"],r:[["Hammer-On","Smooth legato"],["Pull-Off","Descending legato"],["Slide","Glissando"],["Bend","Vocal quality"],["Vibrato","Living sustain"],["Palm Mute","Chunky, tight"],["Tapping","Wide intervals"]]}},{l:"Bend & Vibrato",t:"These two are what separate guitarists more than anything else. A bend has to land dead on pitch — slightly off and the audience hears it instantly. Vibrato has to be rhythmically consistent — wobbly vibrato sounds like someone who just learned to bend yesterday."}],tk:"Lead technique is about control and expression. Speed is a side effect of well-developed control, not the goal.",refs:["Denyer, R. (1992). The Guitar Handbook. Knopf."]},
 
-ear:{title:"Ear Training",sub:"Telinga itu instrumen kamu yang paling penting.",secs:[{l:"4 Area",tbl:{h:["Area","Metode"],r:[["Interval Recognition","Reference songs, app"],["Chord Quality","Mainkan acak, tebak"],["Scale/Mode ID","Backing track"],["Melodic Dictation","Reproduksi frase"]]}},{l:"Latihan Harian",li:["Nyanyikan interval sebelum mainkan di gitar","Transkripsi solo by ear (bukan tab)","App: Functional Ear Trainer, EarMaster"]}],tk:"Relative pitch bisa dilatih siapa aja, ini bukan soal bakat. Yang paling ngefek: transkripsi solo pakai kuping, tanpa lihat tab. Awalnya susah banget, dan emang harusnya gitu.",refs:["Karpinski, G. S. (2000). Aural Skills Acquisition. Oxford UP."]},
+ear:{title:"Ear Training",sub:"Your ears are your most important instrument.",intro:"I avoided ear training for years because it felt boring compared to learning new licks. Then I tried transcribing one solo without looking at tabs. Took me a whole afternoon for forty seconds of music. And my fretboard sense improved more in that one session than the previous month of practice.",secs:[{l:"4 Areas",tbl:{h:["Area","Method"],r:[["Interval Recognition","Reference songs, apps"],["Chord Quality","Play random, guess"],["Scale / Mode ID","Backing track"],["Melodic Dictation","Reproduce a phrase"]]}},{l:"Daily Practice",li:["Sing intervals before you play them on the guitar","Transcribe solos by ear (not tabs)","Apps: Functional Ear Trainer, EarMaster"]}],tk:"Relative pitch can be trained — this isn't a talent thing. The single biggest payoff: transcribing solos by ear without looking at tabs. It's brutal at first. That's the point.",refs:["Karpinski, G. S. (2000). Aural Skills Acquisition. Oxford UP."]},
 
-practice:{title:"Practice & Mindset",sub:"Latihan 30 menit yang terarah ngalahin 3 jam yang ngasal.",secs:[{l:"Deliberate Practice",t:"Riset Ericsson nunjukin: yang paling nentuin keahlian itu <strong>deliberate practice</strong>. Latihan yang terstruktur, fokus, sengaja keluar dari zona nyaman. Jam terbang doang nggak cukup, harus ada tujuan tiap sesinya."},{l:"Struktur Sesi",tbl:{h:["Segmen","Durasi"],r:[["Warm Up","5-10 min"],["Technique","10-15 min"],["Theory","10-15 min"],["Repertoire","10-15 min"],["Cool Down","5 min"]]}},{l:"Mindset",li:["<strong>Consistency > Intensity</strong> : 20 min/hari lebih baik dari 3 jam/minggu","<strong>Slow is Fast</strong> : akurasi membangun muscle memory benar","<strong>Record Yourself</strong> : feedback paling jujur","<strong>Everything is Connected</strong> : chord = scale = mode = interval"]}],tk:"Konsistensi ngalahin intensitas. Soal plateau, itu normal banget. Biasanya tanda otak kamu lagi nyusun ulang skill yang udah ada, bukan tanda kamu mentok.",refs:["Ericsson, K. A. et al. (1993). The Role of Deliberate Practice. Psych Review, 100(3)."]}
+practice:{title:"Practice & Mindset",sub:"30 minutes of focused practice beats 3 hours of noodling.",intro:"I used to brag about doing 4-hour sessions. What I actually was doing for 3 of those 4 hours was muscle-memorizing the same five licks I already knew. The breakthrough came when I started timing actual deliberate work versus comfortable noodling. Honest answer: 20-30 minutes was the max I could really focus, and that was enough.",secs:[{l:"Deliberate Practice",t:"Ericsson's research is clear: the thing that determines expertise is <strong>deliberate practice</strong>. Structured, focused work that deliberately pushes you out of your comfort zone. Raw hours aren't enough — every session needs a target."},{l:"Session Structure",tbl:{h:["Segment","Duration"],r:[["Warm Up","5-10 min"],["Technique","10-15 min"],["Theory","10-15 min"],["Repertoire","10-15 min"],["Cool Down","5 min"]]}},{l:"Mindset",li:["<strong>Consistency > Intensity</strong> : 20 min / day beats 3 hours / week","<strong>Slow is Fast</strong> : accuracy builds correct muscle memory","<strong>Record Yourself</strong> : the most honest feedback you'll get","<strong>Everything is Connected</strong> : chord = scale = mode = interval"]}],tk:"Consistency beats intensity. Plateaus are normal — usually a sign your brain is reorganizing what you already know, not a sign you've hit a ceiling.",refs:["Ericsson, K. A. et al. (1993). The Role of Deliberate Practice. Psych Review, 100(3)."]}
 };
 
 /* ═══ NOTE PICKER STATE ═══ */
@@ -152,8 +152,8 @@ function toggleNote(id){if(PS.enabled.has(id))PS.enabled.delete(id);else PS.enab
 function setPreset(t){PS.enabled.clear();if(t==='nat')ALL_NOTES.filter(n=>n.nat).forEach(n=>PS.enabled.add(n.id));else if(t==='all')ALL_NOTES.forEach(n=>PS.enabled.add(n.id));else if(t==='pent')['C','D','E','G','A'].forEach(id=>PS.enabled.add(id));document.querySelectorAll('.note-btn').forEach(b=>b.classList.toggle('on',PS.enabled.has(b.dataset.id)))}
 function loadCP(i){const p=getCustomPresets();if(!p[i])return;PS.enabled.clear();p[i].notes.forEach(id=>PS.enabled.add(id));document.querySelectorAll('.note-btn').forEach(b=>b.classList.toggle('on',PS.enabled.has(b.dataset.id)))}
 function delCP(i){const p=getCustomPresets();p.splice(i,1);saveCustomPresets(p);renderCPs()}
-function showAddPM(){const c=document.getElementById('pm-container');if(!c||!PS.enabled.size){if(!PS.enabled.size)alert('Pilih minimal 1 note.');return}c.innerHTML=`<div class="preset-modal"><input type="text" id="pm-input" placeholder="Nama preset..." maxlength="30"><button class="pm-save" onclick="savePM()">Save</button><button class="pm-cancel" onclick="document.getElementById('pm-container').innerHTML=''">Cancel</button></div>`;setTimeout(()=>{const inp=document.getElementById('pm-input');if(inp)inp.focus()},50)}
-function savePM(){const inp=document.getElementById('pm-input');const name=(inp?inp.value:'').trim();if(!name)return alert('Masukkan nama.');const p=getCustomPresets();p.push({name,notes:[...PS.enabled]});saveCustomPresets(p);document.getElementById('pm-container').innerHTML='';renderCPs()}
+function showAddPM(){const c=document.getElementById('pm-container');if(!c||!PS.enabled.size){if(!PS.enabled.size)alert('Pick at least 1 note.');return}c.innerHTML=`<div class="preset-modal"><input type="text" id="pm-input" placeholder="Preset name..." maxlength="30"><button class="pm-save" onclick="savePM()">Save</button><button class="pm-cancel" onclick="document.getElementById('pm-container').innerHTML=''">Cancel</button></div>`;setTimeout(()=>{const inp=document.getElementById('pm-input');if(inp)inp.focus()},50)}
+function savePM(){const inp=document.getElementById('pm-input');const name=(inp?inp.value:'').trim();if(!name)return alert('Enter a name.');const p=getCustomPresets();p.push({name,notes:[...PS.enabled]});saveCustomPresets(p);document.getElementById('pm-container').innerHTML='';renderCPs()}
 function renderCPs(){const c=document.getElementById('cp-list');if(!c)return;const p=getCustomPresets();c.innerHTML=p.map((x,i)=>`<button class="custom-preset-chip" onclick="loadCP(${i})" title="${x.notes.join(', ')}">${x.name} <span class="chip-del" onclick="event.stopPropagation();delCP(${i})">×</span></button>`).join('')}
 function onBpmChange(v){PS.bpm=+v;updBpmLbl();if(PS.running){stopTmr();startTmr()}}
 
@@ -289,9 +289,9 @@ function relatedChipsHTML(id){
   });
   const chips=rel.map(rid=>{
     const t=(C[rid].title||'').replace(/\n/g,' ');
-    return `<button class="related-chip" onclick="selectNode('${rid}')" title="Loncat ke ${t}">${t}</button>`;
+    return `<button class="related-chip" onclick="selectNode('${rid}')" title="Jump to ${t}">${t}</button>`;
   }).join('');
-  return `<div class="related-block"><span class="related-label">Terhubung dengan</span>${chips}</div>`;
+  return `<div class="related-block"><span class="related-label">Connected with</span>${chips}</div>`;
 }
 
 function buildNodeHTML(id,opts){
@@ -325,7 +325,8 @@ function render(id){
 }
 
 /* ═══ ESSAY MODE ═══ */
-/* Urutan baca linear: root dulu, lalu L1 prosa berurutan, anak guitar disisipkan setelah guitar. */
+/* Linear reading order: root first, then L1 prose in sequence, with guitar's
+   children inserted right after the guitar node. */
 const ESSAY_ORDER=['root','sound','notes','intervals','scales','math','chords','family','modes','harmony','rhythm','guitar','caged','fretboard','techniques','ear','practice'];
 let viewMode=localStorage.getItem('guitar-view-mode')==='essay'?'essay':'map';
 
@@ -338,8 +339,8 @@ function renderEssay(){
     h+=`<article class="essay-section${isChild?' essay-child':''}" id="essay-${id}">${buildNodeHTML(id,{noAnim:true})}</article>`;
     if(idx<ESSAY_ORDER.length-1)h+='<div class="essay-divider"></div>';
   });
-  // Catatan untuk alat interaktif yang tidak punya versi prosa
-  h+=`<div class="essay-divider"></div><article class="essay-section"><div class="content-title">Alat Interaktif</div><p class="content-intro">Note Picker, Interval Trainer, Scale Visualizer, dan Chord Tone Highlighter bersifat interaktif, jadi cuma tersedia di mode Mind Map. <button class="essay-inline-link" onclick="setViewMode('map');selectNode('tools')">Buka Practice Tools di Mind Map →</button></p></article>`;
+  // Note: interactive tools have no prose equivalent — they live in Mind Map mode only.
+  h+=`<div class="essay-divider"></div><article class="essay-section"><div class="content-title">Interactive Tools</div><p class="content-intro">Note Picker, Interval Trainer, Scale Visualizer, and Chord Tone Highlighter are interactive, so they only live in Mind Map mode. <button class="essay-inline-link" onclick="setViewMode('map');selectNode('tools')">Open Practice Tools in Mind Map →</button></p></article>`;
   h+='</div>';
   cp.innerHTML=h;cp.scrollTop=0;
 }
@@ -348,7 +349,7 @@ function setViewMode(m){
   viewMode=m;localStorage.setItem('guitar-view-mode',m);
   document.body.classList.toggle('essay-mode',m==='essay');
   const b=document.getElementById('view-toggle');
-  if(b){b.textContent=m==='essay'?'🗺 Mind Map':'📄 Mode Esai';b.title=m==='essay'?'Beralih ke tampilan mind map':'Baca sebagai esai runtut'}
+  if(b){b.textContent=m==='essay'?'🗺 Mind Map':'📄 Essay';b.title=m==='essay'?'Switch back to the mind map':'Read straight through as an essay'}
   if(m==='essay')renderEssay();
   else render(selectedId||'root');
 }
@@ -356,13 +357,13 @@ function setViewMode(m){
 function renderToolsLanding(){
   cp.innerHTML=`<div class="tool-wrap">
     <div class="tool-title">Practice Tools</div>
-    <div class="tool-sub">Empat tools interaktif untuk membangun skill gitaris: fretboard mapping, interval recognition, scale visualization, dan chord tone awareness. Klik sub-node di mind map.</div>
+    <div class="tool-sub">Four interactive tools for building real guitarist skill: fretboard mapping, interval recognition, scale visualization, and chord tone awareness. Click a sub-node in the mind map to open one.</div>
     <div class="sec"><div class="sec-label">Available Tools</div>
     <ul class="sec-list">
-      <li><strong>Note Picker</strong> : random note generator untuk latihan hafal fretboard</li>
-      <li><strong>Interval Trainer</strong> : quiz interaktif untuk mengenali interval antar nada</li>
-      <li><strong>Scale Visualizer</strong> : lihat pattern scale apapun di fretboard, filter per posisi CAGED</li>
-      <li><strong>Chord Tone Highlighter</strong> : lihat chord tones (Root, 3rd, 5th, 7th) di seluruh fretboard dengan warna berbeda</li>
+      <li><strong>Note Picker</strong> : random note generator for drilling fretboard memory</li>
+      <li><strong>Interval Trainer</strong> : interactive quiz for recognizing the gap between two notes</li>
+      <li><strong>Scale Visualizer</strong> : see any scale pattern across the fretboard, filter by CAGED position</li>
+      <li><strong>Chord Tone Highlighter</strong> : see chord tones (Root, 3rd, 5th, 7th) across the whole fretboard, colored</li>
     </ul></div>
   </div>`;cp.scrollTop=0;
 }
@@ -370,7 +371,7 @@ function renderToolsLanding(){
 function renderPicker(){
   cp.innerHTML=`<div class="tool-wrap">
 <div class="tool-title">Note Picker</div>
-<div class="tool-sub">Random note generator untuk latihan fretboard mapping.</div>
+<div class="tool-sub">Random note generator for drilling fretboard mapping.</div>
 <div id="nd" class="note-display"><span class="note-empty">SELECT NOTES BELOW</span></div>
 <div class="beat-bar"><div id="bf" class="beat-fill"></div></div>
 <div id="picker-fb" class="fretboard-mini"></div>
@@ -402,7 +403,7 @@ function renderIntervalTrainer(){
   const rootOpts=NOTE_NAMES.map((n,i)=>`<option value="${i}">${n}</option>`).join('');
   cp.innerHTML=`<div class="tool-wrap">
 <div class="tool-title">Interval Trainer</div>
-<div class="tool-sub">Latih kemampuan mengenali interval. Mode Identify: lihat 2 nada, tebak intervalnya. Mode Build: lihat root + interval, tebak nada targetnya.</div>
+<div class="tool-sub">Train your ability to recognize intervals. Identify mode: see two notes, name the interval. Build mode: see a root + an interval, name the target note.</div>
 <div class="sub-label">Mode</div>
 <div class="tool-row" id="it-mode-row">
   <button class="p-btn on" data-mode="identify" onclick="itSetMode('identify')">Identify Interval</button>
@@ -425,7 +426,7 @@ function renderScaleViz(){
   const scaleOpts=Object.entries(SCALE_TYPES).map(([k,v])=>`<option value="${k}"${SV.scale===k?' selected':''}>${v.name}</option>`).join('');
   cp.innerHTML=`<div class="tool-wrap">
 <div class="tool-title">Scale Visualizer</div>
-<div class="tool-sub">Pilih root note dan tipe scale untuk melihat pattern-nya di seluruh fretboard. Filter per posisi CAGED.</div>
+<div class="tool-sub">Pick a root note and scale type to see the pattern across the whole fretboard. Filter by CAGED position.</div>
 <div class="tool-row">
   <div><div class="sub-label">Root Note</div><select class="tool-select" onchange="svSetRoot(this.value)">${rootOpts}</select></div>
   <div><div class="sub-label">Scale Type</div><select class="tool-select" onchange="svSetScale(this.value)">${scaleOpts}</select></div>
@@ -447,7 +448,7 @@ function renderChordHL(){
   const chordOpts=Object.entries(CHORD_TYPES).map(([k,v])=>`<option value="${k}"${CH.chord===k?' selected':''}>${v.name}</option>`).join('');
   cp.innerHTML=`<div class="tool-wrap">
 <div class="tool-title">Chord Tone Highlighter</div>
-<div class="tool-sub">Lihat di mana setiap chord tone (Root, 3rd, 5th, 7th) berada di seluruh fretboard. Pahami kenapa chord shape-nya berbentuk seperti itu.</div>
+<div class="tool-sub">See where each chord tone (Root, 3rd, 5th, 7th) sits across the whole fretboard. Helps you understand why chord shapes look the way they do.</div>
 <div class="tool-row">
   <div><div class="sub-label">Root Note</div><select class="tool-select" onchange="chSetRoot(this.value)">${rootOpts}</select></div>
   <div><div class="sub-label">Chord Type</div><select class="tool-select" onchange="chSetChord(this.value)">${chordOpts}</select></div>
@@ -558,7 +559,7 @@ let W=mp.clientWidth,H=mp.clientHeight;
 calcPos(W,H);
 
 /* Adjacency map — built from LINKS once, used for hover/select highlighting
-   and for the "Terhubung dengan" chips in the content panel. */
+   and for the "Connected with" chips in the content panel. */
 const adj={};NODES.forEach(n=>{adj[n.id]=new Set()});
 LINKS.forEach(l=>{adj[l.s].add(l.t);adj[l.t].add(l.s)});
 

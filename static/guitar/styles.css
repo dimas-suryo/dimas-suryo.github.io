@@ -1532,7 +1532,7 @@ input[type="range"]::-moz-range-thumb {
 
 /* === Mind-map UX additions === */
 
-/* "Terhubung dengan" chips — clickable connection list in content panel */
+/* "Connected with" chips — clickable connection list in content panel */
 .related-block {
   display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center;
   margin: 14px 0 18px; padding-top: 14px;
