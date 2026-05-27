@@ -21,11 +21,11 @@ Di sisi pendidikan, jaraknya kini berjalan ke arah yang mungkin mengejutkan bany
 
 Di pasar tenaga kerja, proporsi laki-laki usia prima (25–54 tahun) yang tidak bekerja sekaligus tidak mencari kerja terus naik sejak 1960-an. Ini bukan pengangguran, sebab pengangguran masih mengandaikan kamu mencari. Ini ketidakikutsertaan dalam angkatan kerja: laki-laki yang keluar sepenuhnya dari permainan. Di AS angkanya sekarang sekitar 11%, naik dari sekitar 3% di pertengahan abad ke-20. Sebagian bisa dijelaskan oleh perubahan struktural ekonomi. Sebagian tidak.
 
-Yang barangkali paling mencolok adalah data tentang kesendirian. American Survey of Social Life (2021) menemukan proporsi laki-laki yang melaporkan tidak punya teman dekat naik dari 3% pada 1990 menjadi 15% pada 2021. Lima kali lipat dalam tiga dekade. Perempuan juga mengalami peningkatan, tapi besarannya tidak sebanding.
+Yang paling mencolok mungkin data soal kesendirian. American Survey of Social Life (2021) nemuin proporsi laki-laki yang nggak punya teman dekat naik dari 3% pada 1990 jadi 15% pada 2021. Lima kali lipat dalam tiga dekade. Perempuan juga ngalamin peningkatan, tapi nggak sebesar itu.
 
-Dan di sisi yang paling intim, General Social Survey menunjukkan proporsi laki-laki muda (18–29) yang melaporkan tidak berhubungan seksual dalam 12 bulan terakhir naik dari sekitar 10% pada 2008 menjadi sekitar 27% pada 2018. Angka untuk perempuan di kelompok usia yang sama relatif stabil.
+Dan di sisi yang paling intim, General Social Survey nunjukin proporsi laki-laki muda (18–29) yang nggak berhubungan seksual dalam 12 bulan terakhir naik dari sekitar 10% pada 2008 jadi sekitar 27% pada 2018. Angka buat perempuan di kelompok usia yang sama relatif stabil.
 
-Saya ingin berhenti sejenak dan mengatakan sesuatu yang mungkin terdengar aneh, mengingat tulisan ini akan mengkritik laki-laki cukup keras: data-data ini betul-betul menyedihkan. Ini orang-orang nyata yang tidak bisa tidur, tidak punya siapa-siapa untuk ditelepon, tidak punya alasan untuk bangun pagi, dan dalam kasus paling ekstrem memutuskan tidak ada alasan untuk bangun sama sekali.
+Saya mau pause sebentar buat ngomong sesuatu yang mungkin kedengeran aneh, mengingat tulisan ini bakal ngeritik laki-laki cukup keras: data-data ini beneran menyedihkan. Ini orang nyata yang nggak bisa tidur, nggak punya siapa-siapa buat ditelepon, nggak punya alasan buat bangun pagi — dan dalam kasus paling ekstrem, memutuskan nggak ada alasan buat bangun sama sekali.
 
 Kalau respons pertamamu terhadap data ini adalah "ya itu karma patriarki" atau "akhirnya laki-laki merasakan apa yang perempuan rasakan", saya mengerti impulsnya, tapi saya pikir itu keliru secara empiris dan berbahaya secara strategis. Keliru secara empiris karena laki-laki yang bunuh diri di pedalaman West Virginia bukan laki-laki yang sama dengan yang menduduki ruang rapat Fortune 500. "Laki-laki" bukan monolit, dan menjatuhkan konsekuensi kategorikal pada kelompok yang sangat heterogen adalah persis kebiasaan berpikir yang semestinya sudah kita tinggalkan. Berbahaya secara strategis karena, dan ini yang akan saya pertahankan sepanjang tulisan ini, laki-laki yang rusak tidak rusak sendirian. Mereka merusak semua orang di sekitarnya.
 
@@ -45,9 +45,9 @@ Ini akan jadi tulisan yang tidak nyaman, buat saya menulisnya dan mudah-mudahan 
 
 ## II.
 
-Kata "lemah" itu bermasalah, dan saya tahu itu. Dalam konteks diskursus gender, menyebut laki-laki "lemah" terdengar seperti yang akan dikatakan seorang alpha male podcast host yang menjual kursus seharga $499 tentang cara mewing yang benar, atau bootcamp trading dan jadi kaya dalam sebulan. Saya perlu mendefinisikan apa yang saya maksud, dan sama pentingnya, apa yang tidak saya maksud, sebelum kita bisa lanjut.
+Kata "lemah" itu bermasalah, dan saya tahu itu. Dalam diskursus gender, nyebut laki-laki "lemah" itu kedengeran kayak yang bakal diomong sama alpha male podcast host yang jualan kursus seharga $499 soal cara mewing yang benar, atau bootcamp trading buat jadi kaya dalam sebulan. Saya perlu definisikan apa yang saya maksud — dan sama pentingnya, apa yang nggak saya maksud — sebelum kita bisa lanjut.
 
-Mari mulai dari yang bukan definisi "lemah" di tulisan ini.
+Mulai dari yang bukan definisi "lemah" di tulisan ini.
 
 Lemah bukan miskin. Orang yang bekerja dua shift dengan upah minimum demi menghidupi keluarganya bukan lelaki lemah. Dia mungkin lelaki terkuat di ruangan mana pun yang dia masuki. Bukan sumber daya yang menentukan kekuatan, melainkan apa yang kamu lakukan dengan sumber daya yang kamu punya.
 
@@ -157,9 +157,9 @@ Tapi ketika ini bukan momen individual melainkan pola kolektif, ketika sebagian 
 
 ## III.
 
-Kalau saya berhenti di Bagian II, tulisan ini cuma akan jadi versi lebih panjang dari ceramah "jadilah jantan" yang sudah ada ribuan di internet. Dan ceramah "jadilah jantan", selain menjemukan, punya satu cacat fundamental: hal ini tidak pernah bertanya kenapa.
+Kalau saya berhenti di Bagian II, tulisan ini cuma bakal jadi versi lebih panjang dari ceramah "jadilah jantan" yang udah ada ribuan di internet. Dan ceramah "jadilah jantan", selain menjemukan, punya satu cacat fundamental: nggak pernah nanya kenapa.
 
-Kenapa begitu banyak laki-laki muda, di generasi ini secara spesifik, menampilkan sindrom yang baru saya deskripsikan? Apakah mereka lahir lebih lemah dari generasi sebelumnya? Apakah ada mutasi genetik massal yang menghapus gen agensi? Tentu tidak. Sesuatu dalam lingkungan mereka berubah, dan berubah cukup drastis, sehingga jalur perkembangan bawaan laki-laki muda kini menghasilkan keluaran yang berbeda dari beberapa dekade lalu.
+Kenapa banyak banget laki-laki muda di generasi ini — secara spesifik — nampilin sindrom yang baru saya deskripsiin? Apakah mereka lahir lebih lemah dari generasi sebelumnya? Apakah ada mutasi genetik massal yang ngehapus gen agency? Tentu nggak. Sesuatu di lingkungan mereka berubah, dan berubah cukup drastis, sampe jalur perkembangan bawaan laki-laki muda sekarang ngehasilin keluaran yang beda dari beberapa dekade lalu.
 
 Kalau saya menuntut empati analitis, kemampuan memahami kenapa seseorang sampai di suatu titik tanpa membenarkan titik itu, terhadap hampir setiap kelompok lain, maka saya harus menerapkannya juga di sini. Bukan karena laki-laki lemah layak dikasihani, tapi karena diagnosis tanpa etiologi bukan diagnosis. Itu pelabelan.
 
@@ -343,9 +343,9 @@ Itu bukan masalah personal. Itu masalah publik. Dan masalah publik butuh lebih d
 
 ## V.
 
-Bagian ini akan terdengar seperti nasihat. Saya tidak suka memberi nasihat; ada sesuatu yang secara epistemik mencurigakan tentang seseorang berusia awal 20-an yang memberi tahu orang lain cara menjalani hidup. Tapi saya juga sudah menghabiskan empat bagian mendiagnosis masalah, dan diagnosis tanpa resep cuma keluhan yang lebih panjang. Jadi saya akan mencoba, dengan catatan bahwa saya sendiri tidak selalu mempraktikkan semua yang akan saya tulis di bawah, dan bahwa sebagian darinya mungkin salah.
+Bagian ini bakal kedengeran kayak nasihat. Saya nggak suka kasih nasihat — ada sesuatu yang secara epistemik mencurigakan soal orang awal 20-an yang ngasih tahu orang lain cara hidup. Tapi saya udah ngabisin empat bagian buat mendiagnosis masalah, dan diagnosis tanpa resep itu cuma keluhan yang lebih panjang. Jadi saya coba — dengan catatan bahwa saya sendiri nggak selalu mempraktikin semua yang bakal saya tulis di bawah, dan sebagian darinya mungkin salah.
 
-Catatan tambahan: resep ini ditujukan untuk laki-laki yang mengenali dirinya dalam deskripsi di Bagian II, yang setelah membaca berpikir "sial, beberapa dari ini tentang saya". Kalau kamu membaca Bagian II dan tidak mengenali dirimu sama sekali, entah kamu sudah jauh lebih maju dari yang saya asumsikan, atau kamu sedang dalam penyangkalan yang butuh lebih dari sebuah esai untuk ditembus. Saya tidak bisa membedakan keduanya dari sini.
+Catatan tambahan: resep ini ditujukan buat laki-laki yang ngenalin dirinya di deskripsi Bagian II, yang setelah baca mikir "sial, beberapa dari ini tentang saya". Kalau kamu baca Bagian II dan nggak ngenalin dirimu sama sekali, entah kamu udah jauh lebih maju dari yang saya asumsikan, atau kamu lagi dalam penyangkalan yang butuh lebih dari sebuah esai buat ditembus. Saya nggak bisa bedain keduanya dari sini.
 
 ### 1. Cari Satu Ranah yang Punya Skin in the Game untukmu. Satu Saja.
 
@@ -451,11 +451,11 @@ Kamu tidak perlu menjadi orang yang berbeda besok. Kamu perlu menjadi orang yang
 
 ## VI.
 
-"Jadilah jantan" mengandaikan masalahnya sepenuhnya individual: laki-laki lemah karena memilih lemah, dan solusinya memilih sebaliknya. Saya sudah berargumentasi di Bagian III bahwa ini sebagian benar, agensi itu nyata dan pilihan itu nyata. Tapi saya juga sudah menunjukkan bahwa pilihan-pilihan itu dibuat di dalam lingkungan yang secara sistematis mendorong ke arah kelemahan. Dan lingkungan tidak berubah karena individu "memilih lebih baik". Lingkungan berubah karena sistemnya didesain ulang.
+"Jadilah jantan" mengandaikan masalahnya sepenuhnya individual: laki-laki lemah karena milih lemah, dan solusinya milih sebaliknya. Saya udah berargumentasi di Bagian III bahwa ini sebagian benar — agency itu nyata dan pilihan itu nyata. Tapi saya juga udah nunjukin bahwa pilihan-pilihan itu dibuat dalam lingkungan yang secara sistematis mendorong ke arah kelemahan. Dan lingkungan nggak berubah karena individu "milih lebih baik". Lingkungan berubah karena sistemnya didesain ulang.
 
-Analogi yang mungkin berguna: kalau 30% populasi sebuah kota mengalami obesitas, kamu bisa menyalahkan tiap individu karena makan terlalu banyak dan kurang bergerak. Dan secara teknis kamu benar; tiap individu memang membuat pilihan itu. Tapi kalau kamu berhenti di situ, kamu melewatkan pertanyaan yang lebih penting: kenapa 30% dari populasi ini membuat pilihan yang sama? Adakah sesuatu tentang lingkungan mereka, gurun pangan, infrastruktur yang menuntut mobil, pemasaran makanan olahan, jam kerja yang tidak menyisakan waktu untuk memasak, yang membuat pilihan buruk jadi bawaan dan pilihan baik jadi usaha ekstra?
+Analogi yang mungkin berguna: kalau 30% populasi sebuah kota ngalamin obesitas, kamu bisa nyalahin tiap individu karena makan terlalu banyak dan kurang bergerak. Dan secara teknis kamu benar — tiap individu memang membuat pilihan itu. Tapi kalau kamu berhenti di situ, kamu ngelewatin pertanyaan yang lebih penting: kenapa 30% dari populasi ini bikin pilihan yang sama? Apakah ada sesuatu soal lingkungan mereka — gurun pangan, infrastruktur yang nuntut mobil, pemasaran makanan olahan, jam kerja yang nggak nyisain waktu buat masak — yang bikin pilihan buruk jadi default dan pilihan baik jadi usaha ekstra?
 
-Obesitas adalah masalah individual sekaligus masalah sistemik. Kelemahan laki-laki juga.
+Obesitas itu masalah individual sekaligus masalah sistemik. Kelemahan laki-laki juga.
 
 ### 1. Berhenti Memakai Jebakan Kafka dalam Diskursus Gender
 
@@ -541,11 +541,11 @@ Kalau kamu perhatikan, itu sebenarnya resep individual yang disamarkan sebagai r
 
 ## VII.
 
-Saya sudah menulis enam bagian yang mengkritik laki-laki lemah dengan presisi yang, mudah-mudahan, cukup tajam. Saya sudah mendefinisikan mereka, menjelaskan kenapa mereka jadi begitu, menunjukkan kerusakan yang mereka timbulkan, dan memberi resep tentang bagaimana mereka, dan sistem di sekitarnya, bisa berubah.
+Saya udah nulis enam bagian yang ngeritik laki-laki lemah dengan presisi yang — mudah-mudahan — cukup tajam. Saya udah mendefinisikan mereka, ngejelasin kenapa mereka jadi begitu, nunjukin kerusakan yang mereka timbulin, dan ngasih resep gimana mereka — dan sistem di sekitarnya — bisa berubah.
 
-Sekarang saya harus duduk dengan pertanyaan yang paling tidak nyaman dari semuanya: seberapa banyak dari ini yang tentang saya?
+Sekarang saya harus duduk sama pertanyaan yang paling nggak nyaman dari semuanya: seberapa banyak dari ini yang tentang saya?
 
-Bukan sebagai pertanyaan retoris. Bukan sebagai gestur kerendahan hati yang diperhitungkan supaya tulisan ini terasa lebih relatable. Tapi sebagai pertanyaan yang sungguh membuat saya pribadi tidak nyaman.
+Bukan sebagai pertanyaan retoris. Bukan sebagai gestur kerendahan hati yang diperhitungin biar tulisan ini terasa lebih relatable. Tapi sebagai pertanyaan yang beneran bikin saya pribadi nggak nyaman.
 
 Nihilisme tanpa konstruksi? Ada periode dalam hidup saya, tidak sesingkat yang ingin saya akui, ketika saya memakai sinisme sebagai pengganti kepribadian, ketika "semua itu tidak bermakna" bukan kesimpulan filosofis tapi justifikasi untuk tidak mencoba. Apakah saya sudah sepenuhnya keluar dari fase itu? Saya harap. Tapi "saya harap" bukan "saya yakin".
 

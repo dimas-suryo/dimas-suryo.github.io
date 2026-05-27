@@ -21,7 +21,7 @@ Tidak ada yang memilih ini. Tapi ini selalu terjadi. Setiap hari.
 
 Ganti contohnya. Narkoba. BNN mencatat perputaran transaksinya di Indonesia mencapai triliun rupiah, dengan profil pengguna yang semakin muda dan semakin miskin. Siapa yang ingin ini? Bandar, jelas. Tapi tanya bandar individu secara jujur, dia mungkin bilang dia juga ingin keluar. Kalau saja kompetitornya keluar duluan. Pengguna tidak ingin kecanduan. Keluarga pengguna tidak ingin tabungan mereka habis untuk hal yang menguap dalam hitungan menit. Kurir tidak ingin ditembak betisnya. Pemerintah tidak ingin reputasi negara jadi case study di paper regulatory failure.
 
-Tidak ada antagonis yang fixed, kan?. Tapi selalu ada korban. Dan satu industri yang terus tumbuh.
+Nggak ada antagonis yang fixed, kan. Tapi selalu ada korban. Dan satu industri yang terus tumbuh.
 
 Dua contoh ini terasa beda di permukaan tapi identik secara struktural, dan itu bukan kebetulan. Macet Jakarta dan industri narkoba adalah manifestasi dari satu mekanisme yang sama. Mekanisme yang sama mengoperasikan deforestasi Kalimantan. Konten TikTok yang merusak otak. Politik uang yang membuat caleg dengan rekam jejak terbaik kalah dari caleg dengan amplop tertebal. Industri rokok yang eksekutifnya tahu produknya membunuh tapi tidak bisa unilateral berhenti tanpa kompetitor mengisi gap-nya dalam hitungan minggu.
 
@@ -41,9 +41,9 @@ Mereka benar tentang adanya pola. Tapi mereka salah tentang isi polanya. Salah p
 
 Tidak butuh. The Machine lebih buruk dari semua konspirasi yang bisa kita bayangkan, persis karena The Machine tidak butuh konspirator. Tidak butuh siapa pun yang sadar sedang "melayani" The Machine. Dia cuma butuh insentif. Insentif sudah ada di mana-mana, sepanjang waktu, beroperasi pada setiap dari kita, sejak sebelum kita lahir.
 
-Pertanyaan utama tulisan ini bukan "siapa yang jahat." Pertanyaan utamanya adalah, apa yang membuat orang yang secara individual baik, menghasilkan dunia yang secara kolektif buruk?
+Pertanyaan utama tulisan ini bukan "siapa yang jahat". Pertanyaan utamanya: apa yang bikin orang yang secara individual baik, menghasilkan dunia yang secara kolektif buruk?
 
-Kalau jawaban refleksmu "rakus" atau "kapitalisme" atau "elit oligarki", kamu setengah benar, hampir benar. Tapi setengah benar untuk diagnosis fungsional ya sama dengan salah. Penjelasan-penjelasan itu ada benarnya, tapi mereka menunjuk ke gejala, bukan ke mekanisme. Tanpa memahami mekanisme, intervensi apa pun yang kamu rancang akan kalah sebelum dimulai. Kalau tidak percaya, lihat saja: kampanye anti-korupsi yang gagal, regulasi lingkungan yang tidak menggigit, gerakan moral yang menguap dalam dua musim. Bukti diagnosis yang berhenti di permukaan.
+Kalau jawaban refleksmu "rakus" atau "kapitalisme" atau "elit oligarki" — kamu setengah benar. Hampir benar. Tapi setengah benar buat diagnosis fungsional ya sama dengan salah. Penjelasan-penjelasan itu nunjuk ke gejala, bukan ke mekanisme. Tanpa paham mekanismenya, intervensi apa pun yang kamu rancang bakal kalah sebelum mulai. Kalau nggak percaya, lihat aja: kampanye anti-korupsi yang gagal, regulasi lingkungan yang nggak menggigit, gerakan moral yang menguap dalam dua musim. Diagnosis yang berhenti di permukaan, hasilnya begitu.
 
 Untuk sampai ke mekanisme, kita mundur jauh.
 
@@ -113,9 +113,9 @@ Bahkan altruisme beroperasi di dalam field ini. Donasi naik kalau struktur pajak
 
 Dari sini, satu klaim:
 
-**Kita tidak memperbaiki outcome dengan memperbaiki orang. Kita memperbaiki outcome dengan memperbaiki insentif.**
+**Kita nggak memperbaiki outcome dengan memperbaiki orang. Kita memperbaiki outcome dengan memperbaiki insentif.**
 
-Hampir pasti klaim ini akan terasa cynical bagi sebagian pembaca. Tapi cynical tidak otomatis berarti salah, kan?. Dan alternatifnya, mencoba memperbaiki outcome dengan memperbaiki orang, sudah dicoba beberapa ribu tahun dan track record-nya cukup jelas.
+Buat sebagian pembaca, klaim ini bakal kerasa cynical. Tapi cynical bukan berarti salah, kan. Dan alternatifnya — mencoba memperbaiki outcome dengan memperbaiki orang — udah dicoba beberapa ribu tahun, dan track record-nya cukup jelas.
 
 ## IV.
 
@@ -125,9 +125,9 @@ Yang tersisa tinggal menyatukan keduanya. Satu istilah dari ekonomi dan game the
 
 Istilahnya: **multipolar trap**.
 
-Definisinya: situasi di mana setiap aktor, secara rasional individual, memilih opsi yang menghasilkan outcome agregat yang merugikan semua aktor, termasuk dirinya sendiri.
+Definisinya: situasi di mana setiap aktor, secara rasional individual, memilih opsi yang ngehasilin outcome agregat yang merugikan semua aktor — termasuk dirinya sendiri.
 
-Saya ulang dengan kalimat lebih panjang karena ini klaim sentral yang harus land. Dari sudut pandang setiap pemain, defect adalah dominant strategy, pilihan yang menguntungkan dirimu di level individu, terlepas dari apa yang pemain lain lakukan. Karena semua pemain rasional, semua memilih defect. Karena semua memilih defect, outcome kolektif lebih buruk dari kalau semua memilih kooperasi. Tapi tidak ada pemain individu yang bisa mengubah outcome ini secara unilateral. Yang dia bisa kalau memilih kooperasi sendirian adalah kalah lebih cepat.
+Aku ulang lebih panjang karena ini klaim sentral. Dari sudut pandang tiap pemain, defect itu dominant strategy — pilihan yang menguntungkan kamu di level individu, terlepas dari apa yang pemain lain lakukan. Karena semua pemain rasional, semua milih defect. Karena semua milih defect, outcome kolektif lebih buruk dari kalau semua milih kooperasi. Tapi nggak ada pemain individu yang bisa ngubah outcome ini secara unilateral. Yang bisa dia lakukan kalau milih kooperasi sendirian: kalah lebih cepat.
 
 Bayangkan macet Jakarta dengan kacamata ini.
 
@@ -149,9 +149,9 @@ Ini yang saya sebut sebagai The Machine.
 
 The Machine bukan benda. Bukan organisasi. Bukan kelas sosial. The Machine adalah nama untuk attractor state yang muncul dari interaksi banyak agen rasional yang masing-masing tidak punya kemampuan mengubah outcome secara unilateral.
 
-The Machine muncul dari bawah, dari interaksi mikro, tanpa butuh siapa pun di atas yang merancangnya. Ini yang membuatnya lebih berbahaya dari konspirasi mana pun. Kalau lawan kita Bilderberg, kita bisa expose Bilderberg. Kalau lawan kita Davos, kita bisa demo Davos. Tapi kalau lawan kita konfigurasi insentif yang tidak punya wajah, kita jadi tidak punya target, kan?.
+The Machine muncul dari bawah, dari interaksi mikro, tanpa butuh siapa pun di atas yang merancangnya. Inilah yang bikin dia lebih berbahaya dari konspirasi mana pun. Kalau lawan kita Bilderberg, kita bisa expose Bilderberg. Kalau lawan kita Davos, kita bisa demo Davos. Tapi kalau lawan kita konfigurasi insentif tanpa wajah — kita nggak punya target.
 
-Dan ini yang membuat orang baik, secara individual, menghasilkan dunia yang buruk, secara kolektif. Mereka tidak diam-diam jahat. Di dalam multipolar trap, "baik" pada level individu tidak menjamin "baik" pada level kolektif. Dua variabel berbeda. Tapi kita, sejak SD sampai khotbah Jumat sampai postingan motivasi di Instagram, terus diajari bahwa keduanya hal yang sama.
+Dan ini yang bikin orang baik, secara individual, menghasilkan dunia yang buruk, secara kolektif. Mereka nggak diam-diam jahat. Di dalam multipolar trap, "baik" pada level individu nggak menjamin "baik" pada level kolektif. Dua variabel beda. Tapi kita — dari SD, khotbah Jumat, sampe postingan motivasi di Instagram — terus diajarin bahwa keduanya hal yang sama.
 
 Itu kebohongan paling berbahaya yang masih kita rawat sebagai peradaban.
 
@@ -191,16 +191,16 @@ Membosankan menang dari heroik. Berulang kali. Lihat data. Kita tidak butuh hero
 
 ## VII.
 
-Kita berbicara tentang The Machine seolah dia eksternal. Padahal bukan.
+Kita ngomongin The Machine seolah dia eksternal. Padahal bukan.
 
-The Machine adalah nama untuk konfigurasi yang dihasilkan oleh kumpulan keputusan individual kita. Saya, kamu, semua orang yang membaca ini. Termasuk keputusan untuk tetap diam ketika kita tahu sesuatu salah. Tetap defect ketika kita tahu ada cara lain. Tetap memilih jalan yang paling sedikit gesekannya karena itu yang paling murah.
+The Machine itu nama buat konfigurasi yang dihasilkan oleh kumpulan keputusan individual kita. Saya, kamu, semua orang yang baca ini. Termasuk keputusan buat tetap diam pas kita tahu sesuatu salah. Tetap defect pas kita tahu ada cara lain. Tetap milih jalan dengan friction paling sedikit karena itu yang paling murah.
 
-The Machine sulit untuk dikalahkan. Tidak akan, atau tidak bisa. Tapi setidaknya, dia bisa direkayasa ulang. Setiap insentif yang kita ubah, sekecil apapun, mengubah equilibrium di mana semua pemain lain harus mengoptimalkan ulang. Itu cara kerja sistem multi-agen. Itu juga cara kita keluar.
+The Machine susah dikalahin. Mungkin nggak bakal, mungkin nggak bisa. Tapi minimal, dia bisa direkayasa ulang. Tiap insentif yang kita ubah, sekecil apa pun, mengubah equilibrium di mana semua pemain lain harus optimize ulang. Itu cara kerja sistem multi-agen. Itu juga cara kita keluar.
 
-Ini bukan optimisme. Ini juga bukan pesimisme. Cuma deskripsi.
+Ini bukan optimisme. Bukan pesimisme. Cuma deskripsi.
 
-Tapi, untuk pertama kali, kita punya bahasa teknis untuk mendeskripsikan masalah ini. Game theory. Mechanism design. Generasi sebelum kita berkelahi dengan The Machine dengan mata tertutup. Mereka mana tahu tentang incentive design. Dan kita jadi tidak punya alasan untuk meneruskan tradisi itu.
+Tapi, untuk pertama kalinya, kita punya bahasa teknis buat ngedeskripsiin masalah ini. Game theory. Mechanism design. Generasi sebelum kita berkelahi sama The Machine dengan mata tertutup — mereka mana tahu soal incentive design. Kita nggak punya alasan buat ngelanjutin tradisi itu.
 
-TB Simatupang akan tetap macet besok pagi. Itu pertanyaan teknis dengan jawaban teknis. Apakah kita menjawabnya, atau menulis status soal kemacetan, adalah pilihan kita.
+TB Simatupang bakal tetap macet besok pagi. Itu pertanyaan teknis dengan jawaban teknis. Apakah kita jawab, atau nulis status soal kemacetan — itu pilihan kita.
 
-Kebanyakan dari kita akan memilih yang kedua. Itu juga The Machine.
+Kebanyakan dari kita bakal milih yang kedua. Itu juga The Machine.
