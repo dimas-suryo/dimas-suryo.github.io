@@ -25,7 +25,7 @@ Yang paling mencolok mungkin data soal kesendirian. American Survey of Social Li
 
 Dan di sisi yang paling intim, General Social Survey nunjukin proporsi laki-laki muda (18–29) yang nggak berhubungan seksual dalam 12 bulan terakhir naik dari sekitar 10% pada 2008 jadi sekitar 27% pada 2018. Angka buat perempuan di kelompok usia yang sama relatif stabil.
 
-Saya mau pause sebentar buat ngomong sesuatu yang mungkin kedengeran aneh, mengingat tulisan ini bakal ngeritik laki-laki cukup keras: data-data ini beneran menyedihkan. Ini orang nyata yang nggak bisa tidur, nggak punya siapa-siapa buat ditelepon, nggak punya alasan buat bangun pagi — dan dalam kasus paling ekstrem, memutuskan nggak ada alasan buat bangun sama sekali.
+Saya mau pause sebentar buat ngomong sesuatu yang mungkin kedengeran aneh, mengingat tulisan ini bakal ngeritik laki-laki cukup keras: data-data ini beneran menyedihkan. Ini orang nyata yang nggak bisa tidur, nggak punya siapa-siapa buat ditelepon, nggak punya alasan buat bangun pagi, dan dalam kasus paling ekstrem, memutuskan nggak ada alasan buat bangun sama sekali.
 
 Kalau respons pertamamu terhadap data ini adalah "ya itu karma patriarki" atau "akhirnya laki-laki merasakan apa yang perempuan rasakan", saya mengerti impulsnya, tapi saya pikir itu keliru secara empiris dan berbahaya secara strategis. Keliru secara empiris karena laki-laki yang bunuh diri di pedalaman West Virginia bukan laki-laki yang sama dengan yang menduduki ruang rapat Fortune 500. "Laki-laki" bukan monolit, dan menjatuhkan konsekuensi kategorikal pada kelompok yang sangat heterogen adalah persis kebiasaan berpikir yang semestinya sudah kita tinggalkan. Berbahaya secara strategis karena, dan ini yang akan saya pertahankan sepanjang tulisan ini, laki-laki yang rusak tidak rusak sendirian. Mereka merusak semua orang di sekitarnya.
 
@@ -45,7 +45,7 @@ Ini akan jadi tulisan yang tidak nyaman, buat saya menulisnya dan mudah-mudahan 
 
 ## II.
 
-Kata "lemah" itu bermasalah, dan saya tahu itu. Dalam diskursus gender, nyebut laki-laki "lemah" itu kedengeran kayak yang bakal diomong sama alpha male podcast host yang jualan kursus seharga $499 soal cara mewing yang benar, atau bootcamp trading buat jadi kaya dalam sebulan. Saya perlu definisikan apa yang saya maksud — dan sama pentingnya, apa yang nggak saya maksud — sebelum kita bisa lanjut.
+Kata "lemah" itu bermasalah, dan saya tahu itu. Dalam diskursus gender, nyebut laki-laki "lemah" itu kedengeran kayak yang bakal diomong sama alpha male podcast host yang jualan kursus seharga $499 soal cara mewing yang benar, atau bootcamp trading buat jadi kaya dalam sebulan. Saya perlu definisikan apa yang saya maksud, dan sama pentingnya, apa yang nggak saya maksud, sebelum kita bisa lanjut.
 
 Mulai dari yang bukan definisi "lemah" di tulisan ini.
 
@@ -159,7 +159,7 @@ Tapi ketika ini bukan momen individual melainkan pola kolektif, ketika sebagian 
 
 Kalau saya berhenti di Bagian II, tulisan ini cuma bakal jadi versi lebih panjang dari ceramah "jadilah jantan" yang udah ada ribuan di internet. Dan ceramah "jadilah jantan", selain menjemukan, punya satu cacat fundamental: nggak pernah nanya kenapa.
 
-Kenapa banyak banget laki-laki muda di generasi ini — secara spesifik — nampilin sindrom yang baru saya deskripsiin? Apakah mereka lahir lebih lemah dari generasi sebelumnya? Apakah ada mutasi genetik massal yang ngehapus gen agency? Tentu nggak. Sesuatu di lingkungan mereka berubah, dan berubah cukup drastis, sampe jalur perkembangan bawaan laki-laki muda sekarang ngehasilin keluaran yang beda dari beberapa dekade lalu.
+Kenapa banyak banget laki-laki muda di generasi ini, secara spesifik, nampilin sindrom yang baru saya deskripsiin? Apakah mereka lahir lebih lemah dari generasi sebelumnya? Apakah ada mutasi genetik massal yang ngehapus gen agency? Tentu nggak. Sesuatu di lingkungan mereka berubah, dan berubah cukup drastis, sampe jalur perkembangan bawaan laki-laki muda sekarang ngehasilin keluaran yang beda dari beberapa dekade lalu.
 
 Kalau saya menuntut empati analitis, kemampuan memahami kenapa seseorang sampai di suatu titik tanpa membenarkan titik itu, terhadap hampir setiap kelompok lain, maka saya harus menerapkannya juga di sini. Bukan karena laki-laki lemah layak dikasihani, tapi karena diagnosis tanpa etiologi bukan diagnosis. Itu pelabelan.
 
@@ -343,7 +343,7 @@ Itu bukan masalah personal. Itu masalah publik. Dan masalah publik butuh lebih d
 
 ## V.
 
-Bagian ini bakal kedengeran kayak nasihat. Saya nggak suka kasih nasihat — ada sesuatu yang secara epistemik mencurigakan soal orang awal 20-an yang ngasih tahu orang lain cara hidup. Tapi saya udah ngabisin empat bagian buat mendiagnosis masalah, dan diagnosis tanpa resep itu cuma keluhan yang lebih panjang. Jadi saya coba — dengan catatan bahwa saya sendiri nggak selalu mempraktikin semua yang bakal saya tulis di bawah, dan sebagian darinya mungkin salah.
+Bagian ini bakal kedengeran kayak nasihat. Saya nggak suka kasih nasihat, ada sesuatu yang secara epistemik mencurigakan soal orang awal 20-an yang ngasih tahu orang lain cara hidup. Tapi saya udah ngabisin empat bagian buat mendiagnosis masalah, dan diagnosis tanpa resep itu cuma keluhan yang lebih panjang. Jadi saya coba, dengan catatan bahwa saya sendiri nggak selalu mempraktikin semua yang bakal saya tulis di bawah, dan sebagian darinya mungkin salah.
 
 Catatan tambahan: resep ini ditujukan buat laki-laki yang ngenalin dirinya di deskripsi Bagian II, yang setelah baca mikir "sial, beberapa dari ini tentang saya". Kalau kamu baca Bagian II dan nggak ngenalin dirimu sama sekali, entah kamu udah jauh lebih maju dari yang saya asumsikan, atau kamu lagi dalam penyangkalan yang butuh lebih dari sebuah esai buat ditembus. Saya nggak bisa bedain keduanya dari sini.
 
@@ -451,9 +451,9 @@ Kamu tidak perlu menjadi orang yang berbeda besok. Kamu perlu menjadi orang yang
 
 ## VI.
 
-"Jadilah jantan" mengandaikan masalahnya sepenuhnya individual: laki-laki lemah karena milih lemah, dan solusinya milih sebaliknya. Saya udah berargumentasi di Bagian III bahwa ini sebagian benar — agency itu nyata dan pilihan itu nyata. Tapi saya juga udah nunjukin bahwa pilihan-pilihan itu dibuat dalam lingkungan yang secara sistematis mendorong ke arah kelemahan. Dan lingkungan nggak berubah karena individu "milih lebih baik". Lingkungan berubah karena sistemnya didesain ulang.
+"Jadilah jantan" mengandaikan masalahnya sepenuhnya individual: laki-laki lemah karena milih lemah, dan solusinya milih sebaliknya. Saya udah berargumentasi di Bagian III bahwa ini sebagian benar, agency itu nyata dan pilihan itu nyata. Tapi saya juga udah nunjukin bahwa pilihan-pilihan itu dibuat dalam lingkungan yang secara sistematis mendorong ke arah kelemahan. Dan lingkungan nggak berubah karena individu "milih lebih baik". Lingkungan berubah karena sistemnya didesain ulang.
 
-Analogi yang mungkin berguna: kalau 30% populasi sebuah kota ngalamin obesitas, kamu bisa nyalahin tiap individu karena makan terlalu banyak dan kurang bergerak. Dan secara teknis kamu benar — tiap individu memang membuat pilihan itu. Tapi kalau kamu berhenti di situ, kamu ngelewatin pertanyaan yang lebih penting: kenapa 30% dari populasi ini bikin pilihan yang sama? Apakah ada sesuatu soal lingkungan mereka — gurun pangan, infrastruktur yang nuntut mobil, pemasaran makanan olahan, jam kerja yang nggak nyisain waktu buat masak — yang bikin pilihan buruk jadi default dan pilihan baik jadi usaha ekstra?
+Analogi yang mungkin berguna: kalau 30% populasi sebuah kota ngalamin obesitas, kamu bisa nyalahin tiap individu karena makan terlalu banyak dan kurang bergerak. Dan secara teknis kamu benar, tiap individu memang membuat pilihan itu. Tapi kalau kamu berhenti di situ, kamu ngelewatin pertanyaan yang lebih penting: kenapa 30% dari populasi ini bikin pilihan yang sama? Apakah ada sesuatu soal lingkungan mereka, gurun pangan, infrastruktur yang nuntut mobil, pemasaran makanan olahan, jam kerja yang nggak nyisain waktu buat masak, yang bikin pilihan buruk jadi default dan pilihan baik jadi usaha ekstra?
 
 Obesitas itu masalah individual sekaligus masalah sistemik. Kelemahan laki-laki juga.
 
@@ -541,7 +541,7 @@ Kalau kamu perhatikan, itu sebenarnya resep individual yang disamarkan sebagai r
 
 ## VII.
 
-Saya udah nulis enam bagian yang ngeritik laki-laki lemah dengan presisi yang — mudah-mudahan — cukup tajam. Saya udah mendefinisikan mereka, ngejelasin kenapa mereka jadi begitu, nunjukin kerusakan yang mereka timbulin, dan ngasih resep gimana mereka — dan sistem di sekitarnya — bisa berubah.
+Saya udah nulis enam bagian yang ngeritik laki-laki lemah dengan presisi yang, mudah-mudahan, cukup tajam. Saya udah mendefinisikan mereka, ngejelasin kenapa mereka jadi begitu, nunjukin kerusakan yang mereka timbulin, dan ngasih resep gimana mereka, dan sistem di sekitarnya, bisa berubah.
 
 Sekarang saya harus duduk sama pertanyaan yang paling nggak nyaman dari semuanya: seberapa banyak dari ini yang tentang saya?
 

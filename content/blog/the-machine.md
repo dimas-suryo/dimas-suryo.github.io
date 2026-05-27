@@ -43,7 +43,7 @@ Tidak butuh. The Machine lebih buruk dari semua konspirasi yang bisa kita bayang
 
 Pertanyaan utama tulisan ini bukan "siapa yang jahat". Pertanyaan utamanya: apa yang bikin orang yang secara individual baik, menghasilkan dunia yang secara kolektif buruk?
 
-Kalau jawaban refleksmu "rakus" atau "kapitalisme" atau "elit oligarki" — kamu setengah benar. Hampir benar. Tapi setengah benar buat diagnosis fungsional ya sama dengan salah. Penjelasan-penjelasan itu nunjuk ke gejala, bukan ke mekanisme. Tanpa paham mekanismenya, intervensi apa pun yang kamu rancang bakal kalah sebelum mulai. Kalau nggak percaya, lihat aja: kampanye anti-korupsi yang gagal, regulasi lingkungan yang nggak menggigit, gerakan moral yang menguap dalam dua musim. Diagnosis yang berhenti di permukaan, hasilnya begitu.
+Kalau jawaban refleksmu "rakus" atau "kapitalisme" atau "elit oligarki", kamu setengah benar. Hampir benar. Tapi setengah benar buat diagnosis fungsional ya sama dengan salah. Penjelasan-penjelasan itu nunjuk ke gejala, bukan ke mekanisme. Tanpa paham mekanismenya, intervensi apa pun yang kamu rancang bakal kalah sebelum mulai. Kalau nggak percaya, lihat aja: kampanye anti-korupsi yang gagal, regulasi lingkungan yang nggak menggigit, gerakan moral yang menguap dalam dua musim. Diagnosis yang berhenti di permukaan, hasilnya begitu.
 
 Untuk sampai ke mekanisme, kita mundur jauh.
 
@@ -115,7 +115,7 @@ Dari sini, satu klaim:
 
 **Kita nggak memperbaiki outcome dengan memperbaiki orang. Kita memperbaiki outcome dengan memperbaiki insentif.**
 
-Buat sebagian pembaca, klaim ini bakal kerasa cynical. Tapi cynical bukan berarti salah, kan. Dan alternatifnya — mencoba memperbaiki outcome dengan memperbaiki orang — udah dicoba beberapa ribu tahun, dan track record-nya cukup jelas.
+Buat sebagian pembaca, klaim ini bakal kerasa cynical. Tapi cynical bukan berarti salah, kan. Dan alternatifnya, mencoba memperbaiki outcome dengan memperbaiki orang, udah dicoba beberapa ribu tahun, dan track record-nya cukup jelas.
 
 ## IV.
 
@@ -125,9 +125,9 @@ Yang tersisa tinggal menyatukan keduanya. Satu istilah dari ekonomi dan game the
 
 Istilahnya: **multipolar trap**.
 
-Definisinya: situasi di mana setiap aktor, secara rasional individual, memilih opsi yang ngehasilin outcome agregat yang merugikan semua aktor — termasuk dirinya sendiri.
+Definisinya: situasi di mana setiap aktor, secara rasional individual, memilih opsi yang ngehasilin outcome agregat yang merugikan semua aktor, termasuk dirinya sendiri.
 
-Aku ulang lebih panjang karena ini klaim sentral. Dari sudut pandang tiap pemain, defect itu dominant strategy — pilihan yang menguntungkan kamu di level individu, terlepas dari apa yang pemain lain lakukan. Karena semua pemain rasional, semua milih defect. Karena semua milih defect, outcome kolektif lebih buruk dari kalau semua milih kooperasi. Tapi nggak ada pemain individu yang bisa ngubah outcome ini secara unilateral. Yang bisa dia lakukan kalau milih kooperasi sendirian: kalah lebih cepat.
+Aku ulang lebih panjang karena ini klaim sentral. Dari sudut pandang tiap pemain, defect itu dominant strategy, pilihan yang menguntungkan kamu di level individu, terlepas dari apa yang pemain lain lakukan. Karena semua pemain rasional, semua milih defect. Karena semua milih defect, outcome kolektif lebih buruk dari kalau semua milih kooperasi. Tapi nggak ada pemain individu yang bisa ngubah outcome ini secara unilateral. Yang bisa dia lakukan kalau milih kooperasi sendirian: kalah lebih cepat.
 
 Bayangkan macet Jakarta dengan kacamata ini.
 
@@ -149,9 +149,9 @@ Ini yang saya sebut sebagai The Machine.
 
 The Machine bukan benda. Bukan organisasi. Bukan kelas sosial. The Machine adalah nama untuk attractor state yang muncul dari interaksi banyak agen rasional yang masing-masing tidak punya kemampuan mengubah outcome secara unilateral.
 
-The Machine muncul dari bawah, dari interaksi mikro, tanpa butuh siapa pun di atas yang merancangnya. Inilah yang bikin dia lebih berbahaya dari konspirasi mana pun. Kalau lawan kita Bilderberg, kita bisa expose Bilderberg. Kalau lawan kita Davos, kita bisa demo Davos. Tapi kalau lawan kita konfigurasi insentif tanpa wajah — kita nggak punya target.
+The Machine muncul dari bawah, dari interaksi mikro, tanpa butuh siapa pun di atas yang merancangnya. Inilah yang bikin dia lebih berbahaya dari konspirasi mana pun. Kalau lawan kita Bilderberg, kita bisa expose Bilderberg. Kalau lawan kita Davos, kita bisa demo Davos. Tapi kalau lawan kita konfigurasi insentif tanpa wajah, kita nggak punya target.
 
-Dan ini yang bikin orang baik, secara individual, menghasilkan dunia yang buruk, secara kolektif. Mereka nggak diam-diam jahat. Di dalam multipolar trap, "baik" pada level individu nggak menjamin "baik" pada level kolektif. Dua variabel beda. Tapi kita — dari SD, khotbah Jumat, sampe postingan motivasi di Instagram — terus diajarin bahwa keduanya hal yang sama.
+Dan ini yang bikin orang baik, secara individual, menghasilkan dunia yang buruk, secara kolektif. Mereka nggak diam-diam jahat. Di dalam multipolar trap, "baik" pada level individu nggak menjamin "baik" pada level kolektif. Dua variabel beda. Tapi kita, dari SD, khotbah Jumat, sampe postingan motivasi di Instagram, terus diajarin bahwa keduanya hal yang sama.
 
 Itu kebohongan paling berbahaya yang masih kita rawat sebagai peradaban.
 
@@ -199,8 +199,8 @@ The Machine susah dikalahin. Mungkin nggak bakal, mungkin nggak bisa. Tapi minim
 
 Ini bukan optimisme. Bukan pesimisme. Cuma deskripsi.
 
-Tapi, untuk pertama kalinya, kita punya bahasa teknis buat ngedeskripsiin masalah ini. Game theory. Mechanism design. Generasi sebelum kita berkelahi sama The Machine dengan mata tertutup — mereka mana tahu soal incentive design. Kita nggak punya alasan buat ngelanjutin tradisi itu.
+Tapi, untuk pertama kalinya, kita punya bahasa teknis buat ngedeskripsiin masalah ini. Game theory. Mechanism design. Generasi sebelum kita berkelahi sama The Machine dengan mata tertutup, mereka mana tahu soal incentive design. Kita nggak punya alasan buat ngelanjutin tradisi itu.
 
-TB Simatupang bakal tetap macet besok pagi. Itu pertanyaan teknis dengan jawaban teknis. Apakah kita jawab, atau nulis status soal kemacetan — itu pilihan kita.
+TB Simatupang bakal tetap macet besok pagi. Itu pertanyaan teknis dengan jawaban teknis. Apakah kita jawab, atau nulis status soal kemacetan, itu pilihan kita.
 
 Kebanyakan dari kita bakal milih yang kedua. Itu juga The Machine.

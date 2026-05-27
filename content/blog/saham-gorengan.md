@@ -13,15 +13,15 @@ summary: "Pasar romansa modern mengalami disfungsi struktural bukan karena hiper
 
 # TL;DR
 
-The Problem. Pasar romansa modern lagi disfungsi struktural. Bukan karena hipergami — hipergami itu mekanisme seleksi yang sehat dan natural. Tapi karena nilai pasar yang dipersepsikan di kedua sisi udah terdistorsi jauh dari nilai intrinsiknya, dan nggak ada mekanisme koreksi yang berfungsi.
+The Problem. Pasar romansa modern lagi disfungsi struktural. Bukan karena hipergami, hipergami itu mekanisme seleksi yang sehat dan natural. Tapi karena nilai pasar yang dipersepsikan di kedua sisi udah terdistorsi jauh dari nilai intrinsiknya, dan nggak ada mekanisme koreksi yang berfungsi.
 
-The Reason. Ada empat vektor distorsi yang dorong ini bareng-bareng: echo chamber pertemanan yang nggak ngasih umpan balik korektif, akses cross-tier dari top-tier individuals yang nyiptain anchoring effect yang menyesatkan, media sosial yang nge-decouple attention dari "intrinsic value", dan pornografi yang nyetel tolok ukur dari pencilan ekstrem. Keempatnya bekerja dua arah, ngepengaruhi kedua sisi pasar. Tapi alasan utama pasar nggak ngoreksi diri sendiri itu karena ada satu kelompok yang terus-menerus nyerap konsekuensinya — laki-laki lemah. Yaitu: laki-laki yang ngasih perhatian, sumber daya, dan komitmen tanpa minta timbal balik apa pun. Mereka ngehapus negative feedback yang harusnya ngoreksi ekspektasi yang salah kalibrasi.
+The Reason. Ada empat vektor distorsi yang dorong ini bareng-bareng: echo chamber pertemanan yang nggak ngasih umpan balik korektif, akses cross-tier dari top-tier individuals yang nyiptain anchoring effect yang menyesatkan, media sosial yang nge-decouple attention dari "intrinsic value", dan pornografi yang nyetel tolok ukur dari pencilan ekstrem. Keempatnya bekerja dua arah, ngepengaruhi kedua sisi pasar. Tapi alasan utama pasar nggak ngoreksi diri sendiri itu karena ada satu kelompok yang terus-menerus nyerap konsekuensinya, laki-laki lemah. Yaitu: laki-laki yang ngasih perhatian, sumber daya, dan komitmen tanpa minta timbal balik apa pun. Mereka ngehapus negative feedback yang harusnya ngoreksi ekspektasi yang salah kalibrasi.
 
-The Solution. Prinsip Sekufu (Kafa'ah) — framework pemilihan pasangan yang udah Lindy selama lebih dari 1.400 tahun. Bukan nyari yang "terbaik" atau yang "tertinggi", tapi yang setara di empat dimensi: epistemologi (cara berpikir dan ngeresolve konflik), nilai (kompas moral fundamental), trajectory (energi dan arah hidup), dan kapasitas emosional (kesediaan ngelakuin emotional labor). Sekufu secara mekanis ngelawan tiap vektor distorsi karena targetnya bukan maximization tapi kalibrasi. Dan laki-laki yang nerapinnya otomatis berhenti jadi penyubsidi tanpa syarat.
+The Solution. Prinsip Sekufu (Kafa'ah), framework pemilihan pasangan yang udah Lindy selama lebih dari 1.400 tahun. Bukan nyari yang "terbaik" atau yang "tertinggi", tapi yang setara di empat dimensi: epistemologi (cara berpikir dan ngeresolve konflik), nilai (kompas moral fundamental), trajectory (energi dan arah hidup), dan kapasitas emosional (kesediaan ngelakuin emotional labor). Sekufu secara mekanis ngelawan tiap vektor distorsi karena targetnya bukan maximization tapi kalibrasi. Dan laki-laki yang nerapinnya otomatis berhenti jadi penyubsidi tanpa syarat.
 
 Catatan Epistemik. Saya berusia 18-19 tahun ketika menulis ini, tidak lama setelah berakhirnya sebuah hubungan yang indah namun menyiksa. Pembaca disarankan memperhitungkan bias yang mungkin muncul dari konteks ini: recency bias, negativity bias, dan ukuran sampel n=1.
 
-> "In a market, price is set by the marginal buyer and the marginal seller. In the sexual marketplace, the marginal man has chosen to have no price at all." — Friedrich August von Hayek or something, probably.
+> "In a market, price is set by the marginal buyer and the marginal seller. In the sexual marketplace, the marginal man has chosen to have no price at all.", Friedrich August von Hayek or something, probably.
 
 ---
 
@@ -33,9 +33,9 @@ Pasar romansa modern lagi disfungsi, dan makin lama makin terdokumentasi. Angka 
 
 Yang biasanya disalahin? Algoritma dating app. Feminisme. Kapitalisme. Pornografi. Hipergami perempuan. Jawaban-jawaban ini benar, partially, tapi secara fundamental ngelewatin akar persoalannya.
 
-Tesis utama tulisan ini: biang kerok rusaknya price discovery di pasar romansa adalah perilaku kolektif laki-laki yang ngasih subsidi tanpa syarat. Perhatian, sumber daya, komitmen — diberi tanpa minta timbal balik yang bermakna. Perilaku ini secara agregat ngehapus negative feedback yang harusnya bisa ngoreksi ekspektasi yang salah kalibrasi di kedua sisi pasar.
+Tesis utama tulisan ini: biang kerok rusaknya price discovery di pasar romansa adalah perilaku kolektif laki-laki yang ngasih subsidi tanpa syarat. Perhatian, sumber daya, komitmen, diberi tanpa minta timbal balik yang bermakna. Perilaku ini secara agregat ngehapus negative feedback yang harusnya bisa ngoreksi ekspektasi yang salah kalibrasi di kedua sisi pasar.
 
-Apa yang tulisan ini bukan: bukan ngeklaim perempuan bersalah karena punya standar. Again, hipergami itu mekanisme evolusi yang sehat dan rasional. Bukan manifesto incel atau blackpill. Kalau ada yang disalahin di sini, ya laki-laki — lebih tepatnya pola perilaku kolektif laki-laki yang ngedistorsi struktur insentif pasar.
+Apa yang tulisan ini bukan: bukan ngeklaim perempuan bersalah karena punya standar. Again, hipergami itu mekanisme evolusi yang sehat dan rasional. Bukan manifesto incel atau blackpill. Kalau ada yang disalahin di sini, ya laki-laki, lebih tepatnya pola perilaku kolektif laki-laki yang ngedistorsi struktur insentif pasar.
 
 ---
 
@@ -49,13 +49,13 @@ Hipergami, kecenderungan mencari pasangan dengan status atau kebugaran genetik y
 
 - Hitsch, Hortaçsu & Ariely (2010) menganalisis data dari dating platform dan menemukan distribusi preference yang asimetris antara laki-laki dan perempuan dalam menilai daya tarik calon pasangan. (doi: 10.1257/aer.100.1.130)
 
-Sekali lagi: dalam kondisi natural, hipergami itu mekanisme seleksi yang sehat. Sistem selektif yang fungsional harusnya ngehasilin pasangan yang terkalibrasi sama realitas. Yang rusak bukan mekanismenya. Yang rusak adalah gimana beberapa vektor distorsi udah bikin persepsi soal posisi seseorang dalam hierarki jadi salah kalibrasi — secara fundamental, di kedua sisi pasar.
+Sekali lagi: dalam kondisi natural, hipergami itu mekanisme seleksi yang sehat. Sistem selektif yang fungsional harusnya ngehasilin pasangan yang terkalibrasi sama realitas. Yang rusak bukan mekanismenya. Yang rusak adalah gimana beberapa vektor distorsi udah bikin persepsi soal posisi seseorang dalam hierarki jadi salah kalibrasi, secara fundamental, di kedua sisi pasar.
 
 ---
 
 ## III.
 
-Ada empat mekanisme utama yang secara sistematis ngedistorsi nilai pasar yang dipersepsikan, ngedorongnya jauh dari nilai intrinsik. Catatan: distorsi ini bekerja dua arah, ngepengaruhi persepsi laki-laki dan perempuan — walau dengan mekanisme dan magnitude yang beda.
+Ada empat mekanisme utama yang secara sistematis ngedistorsi nilai pasar yang dipersepsikan, ngedorongnya jauh dari nilai intrinsik. Catatan: distorsi ini bekerja dua arah, ngepengaruhi persepsi laki-laki dan perempuan, walau dengan mekanisme dan magnitude yang beda.
 
 {{< figure src="/saham-gorengan-media/image4.png" >}}
 
@@ -195,15 +195,15 @@ Ini bukan berarti dua orang harus sama-sama sudah sembuh, as a matter of fact ti
 
 Kalau dipraktikin tulus, prinsip sekufu secara mekanis ngelawan tiap vektor distorsi yang diidentifikasi di Bagian III. Begini cara kerjanya, satu per satu:
 
-Buat echo chamber — sekufu maksa penilaian diri yang jujur. Targetnya bukan "yang terbaik yang bisa gue dapetin" tapi "yang setara dengan siapa gue sebenarnya". Itu sendiri udah nuntut kejujuran soal posisi sendiri.
+Buat echo chamber, sekufu maksa penilaian diri yang jujur. Targetnya bukan "yang terbaik yang bisa gue dapetin" tapi "yang setara dengan siapa gue sebenarnya". Itu sendiri udah nuntut kejujuran soal posisi sendiri.
 
-Buat cross-tier anchoring effect — sekufu secara eksplisit nolak pencilan sebagai tolok ukur. Yang dicari kesetaraan, bukan maximization. Ngeliminasi anchoring dari pengalaman dengan outlier.
+Buat cross-tier anchoring effect, sekufu secara eksplisit nolak pencilan sebagai tolok ukur. Yang dicari kesetaraan, bukan maximization. Ngeliminasi anchoring dari pengalaman dengan outlier.
 
-Buat inflasi attention dari medsos — sekufu nge-decouple harga diri dari validasi eksternal. Yang dicari fit yang substantif, bukan hierarki status yang digelembungin sama metrik digital.
+Buat inflasi attention dari medsos, sekufu nge-decouple harga diri dari validasi eksternal. Yang dicari fit yang substantif, bukan hierarki status yang digelembungin sama metrik digital.
 
-Buat pornografi — sekufu nolak pencilan fisik yang ekstrem sebagai standar yang sah. Fokus evaluasi pindah ke dimensi yang beneran prediktif buat keberhasilan hubungan jangka panjang.
+Buat pornografi, sekufu nolak pencilan fisik yang ekstrem sebagai standar yang sah. Fokus evaluasi pindah ke dimensi yang beneran prediktif buat keberhasilan hubungan jangka panjang.
 
-Buat subsidi tanpa syarat — laki-laki yang nerapin sekufu otomatis berhenti jadi penyubsidi. Mereka cuma bakal investasi waktu dan energi ke orang yang beneran sepadan, bukan ke orang dengan hierarki yang nggak realistis.
+Buat subsidi tanpa syarat, laki-laki yang nerapin sekufu otomatis berhenti jadi penyubsidi. Mereka cuma bakal investasi waktu dan energi ke orang yang beneran sepadan, bukan ke orang dengan hierarki yang nggak realistis.
 
 ## Sekufu sebagai Via Negativa
 
@@ -259,10 +259,10 @@ Orang tua saya pernah berkata, "cari pasangan yang setara, kalau tidak setara, y
 
 ## VIII.
 
-Tulisan ini nggak nyalahin satu gender. Hipergami itu mekanisme evolusi yang sehat dan rasional. Standar yang tinggi itu hak tiap individu. Yang diidentifikasi di sini lebih spesifik: bahwa distorsi yang terjadi di belantara pasar romansa terutama bukan karena hipergami itu sendiri, tapi karena sejumlah feedback udah misahin nilai yang dipersepsikan dari nilai intrinsik — dan diperkuat secara kritis sama perilaku kolektif yang ngasih subsidi tanpa syarat.
+Tulisan ini nggak nyalahin satu gender. Hipergami itu mekanisme evolusi yang sehat dan rasional. Standar yang tinggi itu hak tiap individu. Yang diidentifikasi di sini lebih spesifik: bahwa distorsi yang terjadi di belantara pasar romansa terutama bukan karena hipergami itu sendiri, tapi karena sejumlah feedback udah misahin nilai yang dipersepsikan dari nilai intrinsik, dan diperkuat secara kritis sama perilaku kolektif yang ngasih subsidi tanpa syarat.
 
-Solusi yang paling Lindy — yang udah bertahan lebih dari empat belas abad — adalah prinsip kuno yang sederhana tapi demanding: carilah yang sekufu. Bukan yang paling menarik. Bukan yang paling berstatus. Tapi yang setara dengan kamu, dalam cara berpikir, dalam memegang values, dalam ngelihat arah hidup, dan dalam kesediaan ngelakuin emotional labor.
+Solusi yang paling Lindy, yang udah bertahan lebih dari empat belas abad, adalah prinsip kuno yang sederhana tapi demanding: carilah yang sekufu. Bukan yang paling menarik. Bukan yang paling berstatus. Tapi yang setara dengan kamu, dalam cara berpikir, dalam memegang values, dalam ngelihat arah hidup, dan dalam kesediaan ngelakuin emotional labor.
 
-Kalibrasi ulang nggak bakal terasa nyaman. Tiap koreksi terhadap ekspektasi yang udah jadi bubble bakal terasa kayak nurunin standar — padahal itu cuma karena baseline-nya udah terdistorsi. Sebenarnya kamu lagi balik ke realitas. Dan realitas, walau nggak semenarik fiksi yang diciptain echo chamber-mu, medsos, dan pornografi, adalah satu-satunya tempat hubungan bisa di-build dan di-sustain.
+Kalibrasi ulang nggak bakal terasa nyaman. Tiap koreksi terhadap ekspektasi yang udah jadi bubble bakal terasa kayak nurunin standar, padahal itu cuma karena baseline-nya udah terdistorsi. Sebenarnya kamu lagi balik ke realitas. Dan realitas, walau nggak semenarik fiksi yang diciptain echo chamber-mu, medsos, dan pornografi, adalah satu-satunya tempat hubungan bisa di-build dan di-sustain.
 
 Terima bahwa kalibrasi ulang itu nggak enak. Tapi jangan salahin pasarnya. Jadilah bagian dari koreksinya.

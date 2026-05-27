@@ -23,7 +23,7 @@ Lima puluh dua ribu. Itu bukan sekadar angka, itu orang-orang yang tidak pernah 
 
 Jadi ketika perokok bilang "hak saya", yang sebenarnya mereka katakan: "saya berhak masukin karsinogen ke paru-paru orang lain tanpa konsen mereka". Itu bukan hak. Itu kekerasan, cuma slow-motion.
 
-Yang terjadi: seseorang ambil keuntungan kecil buat dirinya sendiri — nikmatnya rokok — sambil transfer kerugian besar ke orang lain. Asap pasif, biaya kesehatan publik, anak-anak yang sakit. Perokok dapat nikmat, orang lain dapat kanker. Moral hazard yang paling kasat mata di kehidupan sehari-hari.
+Yang terjadi: seseorang ambil keuntungan kecil buat dirinya sendiri, nikmatnya rokok, sambil transfer kerugian besar ke orang lain. Asap pasif, biaya kesehatan publik, anak-anak yang sakit. Perokok dapat nikmat, orang lain dapat kanker. Moral hazard yang paling kasat mata di kehidupan sehari-hari.
 
 ## II.
 
@@ -57,15 +57,15 @@ Dan poinnya di sini: perokok yang ngerokok di dalam rumah di depan anak-anaknya 
 
 Kata "pengecut" itu dipilih sengaja.
 
-Indonesia punya cultural bond yang kuat banget antara rokok dan maskulinitas. Rokok jadi simbol kedewasaan, kebersamaan, bahkan kejantanan. Iklan rokok masih ada di mana-mana — soalnya Indonesia satu-satunya anggota WHO di Asia Tenggara yang belum meratifikasi Framework Convention on Tobacco Control — dan iklan-iklan itu konsisten (dan bukan kebetulan) ngaitin merokok sama petualangan, keberanian, kebebasan.
+Indonesia punya cultural bond yang kuat banget antara rokok dan maskulinitas. Rokok jadi simbol kedewasaan, kebersamaan, bahkan kejantanan. Iklan rokok masih ada di mana-mana, soalnya Indonesia satu-satunya anggota WHO di Asia Tenggara yang belum meratifikasi Framework Convention on Tobacco Control, dan iklan-iklan itu konsisten (dan bukan kebetulan) ngaitin merokok sama petualangan, keberanian, kebebasan.
 
-Realitas adiksi justru kebalikan sempurna dari narrative itu. Orang yang nggak bisa duduk 30 menit di rapat tanpa gelisah mikirin rokok itu bukan orang bebas. Itu budak dari zat kimia. Orang yang ngabisin Rp50.000 per hari, Rp1,5 juta per bulan, Rp18 juta per tahun, buat sesuatu yang secara harfiah ngebunuh dia pelan-pelan — sementara keluarganya hidup di bawah garis kemiskinan — itu bukan orang "jantan". Data nunjukin pengeluaran rokok per kapita itu pengeluaran terbesar kedua rumah tangga Indonesia, cuma kalah dari makanan dan minuman jadi.
+Realitas adiksi justru kebalikan sempurna dari narrative itu. Orang yang nggak bisa duduk 30 menit di rapat tanpa gelisah mikirin rokok itu bukan orang bebas. Itu budak dari zat kimia. Orang yang ngabisin Rp50.000 per hari, Rp1,5 juta per bulan, Rp18 juta per tahun, buat sesuatu yang secara harfiah ngebunuh dia pelan-pelan, sementara keluarganya hidup di bawah garis kemiskinan, itu bukan orang "jantan". Data nunjukin pengeluaran rokok per kapita itu pengeluaran terbesar kedua rumah tangga Indonesia, cuma kalah dari makanan dan minuman jadi.
 
 Studi terbaru dari Mensa Indonesia menunjukkan sesuatu yang menarik: prevalensi merokok di kalangan anggota Mensa Indonesia hanya 10,8%, dibandingkan prevalensi nasional yang berkisar 28–40%. Angka ini kira-kira seperempat dari rata-rata populasi. Orang-orang yang paling mampu mengevaluasi risiko jangka panjang ternyata paling sedikit yang merokok.
 
-Ini bukan soal menghina kecerdasan perokok. Ini soal ngakuin bahwa keputusan buat terus ngerokok — apalagi di era info soal bahayanya udah ada di mana-mana — itu keputusan yang didorong sama kelemahan. Bukan kekuatan. Bukan pilihan sadar. Bukan keberanian. Tapi ketidakmampuan ngadepin ketidaknyamanan jangka pendek dari berhenti.
+Ini bukan soal menghina kecerdasan perokok. Ini soal ngakuin bahwa keputusan buat terus ngerokok, apalagi di era info soal bahayanya udah ada di mana-mana, itu keputusan yang didorong sama kelemahan. Bukan kekuatan. Bukan pilihan sadar. Bukan keberanian. Tapi ketidakmampuan ngadepin ketidaknyamanan jangka pendek dari berhenti.
 
-Dan mekanisme psikologis yang paling sering dipakai buat membenarkan: "kakek saya ngerokok sampe 90 tahun", "kita semua juga akan mati", "hidup cuma sekali" — semuanya survivorship bias dan rasionalisasi. Seorang rasionalis sejati akan ngenalin ini sebagai motivated reasoning. Cari alasan buat membenarkan keputusan yang udah diambil, bukan mengevaluasi bukti secara jujur sebelum memutuskan.
+Dan mekanisme psikologis yang paling sering dipakai buat membenarkan: "kakek saya ngerokok sampe 90 tahun", "kita semua juga akan mati", "hidup cuma sekali", semuanya survivorship bias dan rasionalisasi. Seorang rasionalis sejati akan ngenalin ini sebagai motivated reasoning. Cari alasan buat membenarkan keputusan yang udah diambil, bukan mengevaluasi bukti secara jujur sebelum memutuskan.
 
 Itu, tbh, pengecut. Bukan karena fisiknya lemah, tapi karena nggak cukup berani jujur sama dirimu sendiri.
 
@@ -73,13 +73,13 @@ Itu, tbh, pengecut. Bukan karena fisiknya lemah, tapi karena nggak cukup berani 
 
 Tapi nggak adil dan nggak jujur secara intelektual kalau tulisan ini cuma nyerang individu tanpa nyerang sistem.
 
-Indonesia bukan cuma negara yang gagal ngelindungin warganya dari rokok. Indonesia negara yang secara aktif memfasilitasi industri rokok. Indonesia satu-satunya negara anggota WHO di Asia Tenggara yang belum meratifikasi Framework Convention on Tobacco Control (FCTC). Skor pengendalian tembakau Indonesia juga yang terburuk di antara 10 negara ASEAN — cuma 20,2, bandingin sama Thailand (77,2) dan Singapura (75,8). Harga rokok di Indonesia masih sekitar Rp19.000 per bungkus, jauh di bawah Malaysia (Rp67.000) dan Australia (yang sudah di atas Rp500.000). Indonesia memproduksi sekitar 300 miliar batang rokok pada 2022. Dan industri rokok mempekerjakan sekitar 6 juta orang dari hulu ke hilir.
+Indonesia bukan cuma negara yang gagal ngelindungin warganya dari rokok. Indonesia negara yang secara aktif memfasilitasi industri rokok. Indonesia satu-satunya negara anggota WHO di Asia Tenggara yang belum meratifikasi Framework Convention on Tobacco Control (FCTC). Skor pengendalian tembakau Indonesia juga yang terburuk di antara 10 negara ASEAN, cuma 20,2, bandingin sama Thailand (77,2) dan Singapura (75,8). Harga rokok di Indonesia masih sekitar Rp19.000 per bungkus, jauh di bawah Malaysia (Rp67.000) dan Australia (yang sudah di atas Rp500.000). Indonesia memproduksi sekitar 300 miliar batang rokok pada 2022. Dan industri rokok mempekerjakan sekitar 6 juta orang dari hulu ke hilir.
 
 Nah di sini kompleksitas yang asli muncul. Jutaan orang nggantungin hidupnya dari industri ini, dari petani tembakau di Jember sampe buruh pabrik di Kudus. Nyerang rokok tanpa ngakuin realitas ini itu bentuk privilege intelektual.
 
 Tapi ngakuin realitas ini juga nggak otomatis membenarkan status quo. Fakta bahwa banyak orang bergantung sama industri senjata nggak bikin senjata jadi baik. Fakta bahwa kartel narkoba mempekerjakan ribuan orang nggak bikin narkoba jadi positif. Ketergantungan ekonomi sama industri yang ngebunuh 290.000 warganya per tahun itu bukan pembelaan, tapi diagnosis.
 
-Dan, actually, ini alasan lain kenapa kata pengecut itu pas — bukan cuma buat individu perokok, tapi buat bangsa ini secara kolektif. Kita semua tahu rokok membunuh. Kita semua lihat datanya. Tapi kita terlalu pengecut buat bikin perubahan struktural yang nyata, soalnya terlalu banyak kepentingan ekonomi dan politik yang nyangkut.
+Dan, actually, ini alasan lain kenapa kata pengecut itu pas, bukan cuma buat individu perokok, tapi buat bangsa ini secara kolektif. Kita semua tahu rokok membunuh. Kita semua lihat datanya. Tapi kita terlalu pengecut buat bikin perubahan struktural yang nyata, soalnya terlalu banyak kepentingan ekonomi dan politik yang nyangkut.
 
 ## VI.
 
@@ -91,7 +91,7 @@ Mantan perokok yang berhasil berhenti itu orang paling berani di obrolan ini. Me
 
 Di level sistem, solusinya juga sudah diketahui: ratifikasi FCTC, larangan total iklan rokok, kenaikan cukai yang signifikan dan konsisten, penegakan kawasan tanpa asap rokok yang serius, dan program berhenti merokok yang didanai publik. Semuanya udah dilakukan negara lain dan kebukti nurunin prevalensi merokok secara drastis.
 
-Data terakhir: di negara-negara yang serius soal kebijakan pengendalian tembakau, prevalensi merokok turun sampai di bawah 15%. Australia, misalnya, udah di bawah angka itu. Indonesia masih di 28–35%. Jaraknya bukan soal budaya atau takdir. Soal keberanian — politik sama individu.
+Data terakhir: di negara-negara yang serius soal kebijakan pengendalian tembakau, prevalensi merokok turun sampai di bawah 15%. Australia, misalnya, udah di bawah angka itu. Indonesia masih di 28–35%. Jaraknya bukan soal budaya atau takdir. Soal keberanian, politik sama individu.
 
 ## VII.
 
@@ -101,4 +101,4 @@ Kalau kamu perokok dan baca sampe sini, kamu udah nunjukin sesuatu yang banyak p
 
 Sekarang pertanyaannya simpel: apakah kamu cukup berani buat berhenti? Bukan besok. Bukan tahun depan. Bukan "nanti kalau sudah siap". Sekarang.
 
-Setiap batang yang kamu nyalain dari titik ini ke depan — setelah kamu tahu angkanya, dampaknya ke orang lain, bahwa cukaimu nggak nutup biayanya — itu bukan lagi soal hak atau pilihan. Itu soal apakah kamu berani ngadepin hidup tanpa tongkat kecil berisi tembakau itu. Atau memang pengecut.
+Setiap batang yang kamu nyalain dari titik ini ke depan, setelah kamu tahu angkanya, dampaknya ke orang lain, bahwa cukaimu nggak nutup biayanya, itu bukan lagi soal hak atau pilihan. Itu soal apakah kamu berani ngadepin hidup tanpa tongkat kecil berisi tembakau itu. Atau memang pengecut.

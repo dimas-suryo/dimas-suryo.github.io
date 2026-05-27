@@ -21,9 +21,9 @@ TL;DR
 
 Saya nggak yakin dari mana mulainya, tapi izinin saya jujur soal apa yang saya pikirin.
 
-Tiap kali orang debat Israel-Palestina, hampir selalu berakhir di tempat yang sama. Dua pihak sama-sama berteriak, nggak ada yang bergerak, semua orang kelelahan. Kenapa? Saya pikir — dan saya bisa salah — karena debatnya dimulai dari premis yang nggak produktif: moral dan agama.
+Tiap kali orang debat Israel-Palestina, hampir selalu berakhir di tempat yang sama. Dua pihak sama-sama berteriak, nggak ada yang bergerak, semua orang kelelahan. Kenapa? Saya pikir, dan saya bisa salah, karena debatnya dimulai dari premis yang nggak produktif: moral dan agama.
 
-Moral is important, to a degree, tapi moral punya satu kelemahan fatal dalam konteks ini — moral nggak bisa difalsifikasi. Buat sebagian orang, kita nggak bisa "menyalahkan" sebuah keyakinan moral pakai data. Makanya debatnya nggak pernah selesai. Memang nggak dirancang buat bisa selesai.
+Moral is important, to a degree, tapi moral punya satu kelemahan fatal dalam konteks ini, moral nggak bisa difalsifikasi. Buat sebagian orang, kita nggak bisa "menyalahkan" sebuah keyakinan moral pakai data. Makanya debatnya nggak pernah selesai. Memang nggak dirancang buat bisa selesai.
 
 Jadi, sebagai eksperimen pikiran, mari coba pendekatan beda. Kita perlakukan ini kayak soal matematika.
 
@@ -187,9 +187,9 @@ Tapi bagaimana dengan confederation model? Maksudmu dua sovereign state dengan s
 
 {{< figure src="/palestine-media/image5.png" >}}
 
-Ini bagian yang paling saya khawatirin — dan mungkin kamu juga khawatir tentang saya, bahwa saya kedengeran kayak orang yang terlalu obsessed sama game theory dan lupa bahwa di lapangan ada orang yang kehilangan keluarganya, bahwa saya nggak punya skin in the game.
+Ini bagian yang paling saya khawatirin, dan mungkin kamu juga khawatir tentang saya, bahwa saya kedengeran kayak orang yang terlalu obsessed sama game theory dan lupa bahwa di lapangan ada orang yang kehilangan keluarganya, bahwa saya nggak punya skin in the game.
 
-Saya sadar akan itu. Saya merasa sedih, dan saya ngelakuin apa yang bisa saya lakukan. Justru karena itu saya pikir analisis struktural kayak gini jadi penting — bukan buat ngegantiin empati, tapi buat ngejelasin kenapa empati saja nggak cukup. Orang-orang di kedua sisi konflik ini bukan nggak mau damai. Masalahnya, sistem nggak ngasih ruang buat itu. Dan itu yang harus diubah.
+Saya sadar akan itu. Saya merasa sedih, dan saya ngelakuin apa yang bisa saya lakukan. Justru karena itu saya pikir analisis struktural kayak gini jadi penting, bukan buat ngegantiin empati, tapi buat ngejelasin kenapa empati saja nggak cukup. Orang-orang di kedua sisi konflik ini bukan nggak mau damai. Masalahnya, sistem nggak ngasih ruang buat itu. Dan itu yang harus diubah.
 
 Meminjam frasa yang biasa dipakai Scott Alexander di SSC/ACX, kita sering berada dalam perangkap Moloch, yang dalam game theory kita kenal sebagai jebakan multipolar.
 
@@ -299,6 +299,6 @@ Bahkan tanpa analisis kelas, tanpa pembuktian-terbalik narasi kolonialis-imperia
 
 One-State Demokratis-Sekuler Palestina adalah solusi yang ketika dianalisis dengan pendekatan matematis tidak runtuh di bawah beban asumsinya sendiri.
 
-Kalau kamu mau nolak kesimpulan ini — dan saya beneran terbuka untuk itu, karena saya sangat mungkin salah — ada beberapa jalur yang bisa kamu tempuh. Pertama, tunjukin di mana aksioma saya keliru. Kedua, tunjukin bahwa disjungsinya nggak menyeluruh, bahwa ada opsi lain yang belum saya pertimbangin. Ketiga, tunjukin bahwa _¬E_ atau _¬T_ bisa difalsifikasi, di mana logika berpikir saya cacat. Keempat, tunjukin preseden historis di mana ethno-state dengan rasio demografis 50:50 bisa dipertahankan jangka panjang tanpa apartheid atau pembersihan etnis.
+Kalau kamu mau nolak kesimpulan ini, dan saya beneran terbuka untuk itu, karena saya sangat mungkin salah, ada beberapa jalur yang bisa kamu tempuh. Pertama, tunjukin di mana aksioma saya keliru. Kedua, tunjukin bahwa disjungsinya nggak menyeluruh, bahwa ada opsi lain yang belum saya pertimbangin. Ketiga, tunjukin bahwa _¬E_ atau _¬T_ bisa difalsifikasi, di mana logika berpikir saya cacat. Keempat, tunjukin preseden historis di mana ethno-state dengan rasio demografis 50:50 bisa dipertahankan jangka panjang tanpa apartheid atau pembersihan etnis.
 
 Saya nulis ini sebagai orang yang berusaha mikir jernih, bukan sebagai orang yang merasa udah benar. Kalau ada yang bisa nunjukkin kelemahan fundamental dalam argumen ini, saya bakal dengan senang hati merevisi posisi saya. Begitulah seharusnya cara kita berpikir, kan?

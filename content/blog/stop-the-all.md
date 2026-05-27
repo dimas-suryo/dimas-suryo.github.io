@@ -87,7 +87,7 @@ Lalu lingkungan kampusmu menyampaikan hal-hal ini, kadang eksplisit, kadang ters
 
 Perhatiin polanya: tiap respons yang mungkin kamu kasih udah dilabeli duluan sebagai bukti kesalahanmu. Nggak nyaman, privilese. Membantah, fragility. Diam, complicity. Nggak ada pintu keluar. Ini bukan dialog, ini kafka's trap.
 
-Saya tegasin: saya nggak bilang konsep privilese itu salah, atau laki-laki nggak punya keuntungan struktural tertentu. Di awal tulisan ini udah saya bilang asimetri pengalaman itu nyata. Tapi ada jurang besar antara ngomong "ada pola sosial yang perlu kamu pahami" dan ngomong "kamu bersalah karena keberadaanmu, dan setiap reaksimu terhadap tuduhan ini cuma membuktikan tuduhan itu benar". Yang pertama pendidikan. Yang kedua indoktrinasi — dan saya milih kata "indoktrinasi" dengan sadar.
+Saya tegasin: saya nggak bilang konsep privilese itu salah, atau laki-laki nggak punya keuntungan struktural tertentu. Di awal tulisan ini udah saya bilang asimetri pengalaman itu nyata. Tapi ada jurang besar antara ngomong "ada pola sosial yang perlu kamu pahami" dan ngomong "kamu bersalah karena keberadaanmu, dan setiap reaksimu terhadap tuduhan ini cuma membuktikan tuduhan itu benar". Yang pertama pendidikan. Yang kedua indoktrinasi, dan saya milih kata "indoktrinasi" dengan sadar.
 
 Dari setiap konteks lain di mana indoktrinasi terjadi, kita tahu efeknya bukan kepatuhan yang tulus, melainkan salah satu dari dua hal: ketundukan yang dipenuhi dendam, atau pemberontakan yang tak terarah.
 
@@ -129,7 +129,7 @@ Soal konsistensi, pertama. Kalau "Kill All Men" adalah hiperbola yang bisa diter
 
 Dan kalau kita mengizinkan logika "kelompok yang kurang berkuasa boleh memakai bahasa absolutis terhadap kelompok yang lebih berkuasa", maka dengan enggan saya harus menunjukkan bahwa logika yang persis sama bisa dipakai untuk membenarkan "All Muslims Are Stupid" oleh orang Prancis yang merasa Islam mengancam sekularisme negaranya. Atau "All Jews Are Evil" oleh simpatisan Neo-Nazi Amerika Serikat yang melihat AIPAC. Atau "All Israelis Should Die" oleh orang-orang Palestina yang melihat permukiman ilegal. Atau, lebih dekat ke rumah, segala sentimen anti-Tionghoa di Indonesia yang selalu dijustifikasi dengan "tapi mereka menguasai ekonomi kita".
 
-Kamu nyaman sama semua itu? Kalau nggak — dan saya harap nggak — maka prinsipnya bukan "kelompok lemah boleh pake bahasa absolutis terhadap kelompok kuat". Prinsipnya: nggak ada yang boleh pake bahasa absolutis terhadap kelompok mana pun, karena begitu pintunya kamu buka, kamu nggak bisa ngontrol siapa yang masuk.
+Kamu nyaman sama semua itu? Kalau nggak, dan saya harap nggak, maka prinsipnya bukan "kelompok lemah boleh pake bahasa absolutis terhadap kelompok kuat". Prinsipnya: nggak ada yang boleh pake bahasa absolutis terhadap kelompok mana pun, karena begitu pintunya kamu buka, kamu nggak bisa ngontrol siapa yang masuk.
 
 Soal presisi sebagai kewajiban moral, kedua. Ini mungkin argumen yang paling diremehkan. Ketika kamu bilang "All Cops Are Bastards", kamu menutup ruang untuk pertanyaan yang justru penting. Polisi di daerah mana? Kebijakan apa yang bermasalah? Masalahnya di rekrutmen, pelatihan, atau akuntabilitas? Adakah polisi yang sungguh-sungguh mencoba reformasi dari dalam, dan barusan kamu masukkan juga ke kategori "bastard"?
 
@@ -207,11 +207,11 @@ Kalau kamu salah satu yang memposting Instagram story mengecam mereka, tanyakan 
 
 - Pernahkah kamu tertawa pada candaan yang seharusnya tidak lucu, bukan karena kamu setuju, tapi karena menegurnya itu susah?
 
-Kalau jawabannya ya — dan buat kebanyakan laki-laki jawabannya memang ya — maka posting Instagram story itu bukan solusi. Itu lebih ke anestesi. Posting story bikin kamu merasa udah ngelakuin sesuatu, padahal kamu belum ngelakuin apa-apa.
+Kalau jawabannya ya, dan buat kebanyakan laki-laki jawabannya memang ya, maka posting Instagram story itu bukan solusi. Itu lebih ke anestesi. Posting story bikin kamu merasa udah ngelakuin sesuatu, padahal kamu belum ngelakuin apa-apa.
 
-Solusi yang sebenarnya itu mahal. Nuntut kamu negur teman dekatmu, dengan risiko dikucilkan. Nuntut kamu keluar dari circle yang toxic, dengan risiko sendirian. Nuntut kamu jujur sama diri sendiri soal kapan kamu pernah jadi bagian dari masalah — dan itu mungkin yang tersulit dari semuanya.
+Solusi yang sebenarnya itu mahal. Nuntut kamu negur teman dekatmu, dengan risiko dikucilkan. Nuntut kamu keluar dari circle yang toxic, dengan risiko sendirian. Nuntut kamu jujur sama diri sendiri soal kapan kamu pernah jadi bagian dari masalah, dan itu mungkin yang tersulit dari semuanya.
 
-Perhatiin: nggak satu pun dari hal-hal itu butuh slogan. Nggak butuh "Kill All Men" atau "All Men Are Trash" atau hashtag apa pun. Yang dibutuhkan jauh lebih sederhana — tapi juga jauh lebih sulit: konsistensi antara apa yang kamu posting dan apa yang kamu lakuin pas nggak ada yang lihat.
+Perhatiin: nggak satu pun dari hal-hal itu butuh slogan. Nggak butuh "Kill All Men" atau "All Men Are Trash" atau hashtag apa pun. Yang dibutuhkan jauh lebih sederhana, tapi juga jauh lebih sulit: konsistensi antara apa yang kamu posting dan apa yang kamu lakuin pas nggak ada yang lihat.
 
 Kata "all" itu nyaman. Kata tersebut membebaskan kita dari beban nuance. Kata "all" membuat dunia terasa rapi, ada yang baik dan ada yang jahat dan kamu tahu di sisi mana kamu berdiri. Tapi dunia tidak rapi. Orang yang memposting "All Men Are Trash" kadang berkencan dengan laki-laki yang memperlakukannya buruk, dan mereka tahu itu. Orang yang berteriak "ACAB" juga tetap menelepon polisi ketika rumahnya dibobol. Orang yang bilang "Kill All Men" juga punya ayah, saudara, teman laki-laki yang mereka cintai sepenuh hati.
 
