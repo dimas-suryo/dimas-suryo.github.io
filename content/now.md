@@ -2,29 +2,29 @@
 title: "Now"
 date: 2026-05-01
 draft: false
-summary: "Apa yang sedang saya kerjakan, baca, dan pikirkan saat ini."
+summary: "What I'm working on, reading, and thinking about right now."
 ---
 
-## Sedang dikerjakan
+## Working on
 
-- Beberapa tahun yang lalu, saya beli domain ini untuk 10 tahun, seems I have to take care of this for the next few years.
+- A few years ago I bought this domain for ten years, seems I have to take care of this for the next few years.
 - Still working those project-y things.
 - Also still @ Accounting UI, it's cozy here.
 
-## Sedang dibaca
+## Reading
 
-- Sedang di tengah beberapa buku sekaligus (kebiasaan buruk). The next few weeks, antara lain:
+- In the middle of several books at once (bad habit). Over the next few weeks, among others.
 
 - _The Elephant in the Brain by Robin Hanson,_
 - _Modern Principles by Tyler Cowen,_
 - _The Myth of the Rational Voter by Bryan Caplan,_
-- _10% Less Democracy by Garett Jones, dan_
+- _10% Less Democracy by Garett Jones, and_
 - _Inadequate Equilibria by Eliezer Yudkowsky._
 
-- Bukan tidak mungkin list di pertengahan pekan silih berganti :).
+- Not impossible the list shifts around mid-week :).
 
-## Di luar layar
+## Off-screen
 
 - Paper this and that.
-- In a bulk phase and sub-20 training block, also just got into Gravelism.
-- Mini music project with highschool friends.
+- In a bulk phase and a sub-20 training block, also just got into Gravelism.
+- Mini music project with high-school friends.
