@@ -5,202 +5,204 @@ draft: false
 summary: "How I think the world works. It's just math and biology."
 ---
 
-_Mengapa orang baik membangun dunia yang buruk._
+# The Machine
+
+_Why good people build a bad world._
 
 ## I.
 
-Jam tujuh pagi di TB Simatupang. Kamu di traffic yang panjangnya tidak masuk akal. Kamu marah pada driver di sebelahmu yang menyalip dari bahu jalan. Dia marah pada Trans Jakarta yang berhenti di tengah jalur. Trans Jakarta itu menyalahkan ojol yang bermanuver tanpa sein. Ojol menyalahkan pejalan kaki yang menyeberang sembarangan.
+It's seven in the morning at TB Simatupang. You're in traffic that doesn't make any sense. You're angry at the driver next to you who just cut in from the shoulder. He's angry at the TransJakarta bus stopped in the middle of the lane. The TJ driver is blaming the ojol weaving around without a signal. The ojol is blaming the pedestrian who crossed at random.
 
-Semua orang punya antagonisnya masing-masing. Tidak ada yang punya antagonis yang sebenarnya.
+Everyone has their own antagonist. Nobody has the real antagonist.
 
-Pertanyaan yang lebih tepat: siapa, persisnya, yang ingin Jakarta macet?
+A better question. Who, specifically, wants Jakarta to be jammed?
 
-Bukan kamu. Bukan driver di sebelahmu. Bukan ojol, TJ, pejalan kaki. Bukan Pemprov, yang kehilangan miliaran per hari dari produktivitas yang menguap di kendaraan tidak bergerak. Bukan developer real estate yang propertinya turun nilai karena akses yang neraka. Bukan perusahaan yang karyawannya tiba di kantor sudah lelah sebelum mulai bekerja.
+Not you. Not the driver next to you. Not the ojol, the TJ, the pedestrian. Not the provincial government, which loses billions a day to productivity evaporating in stationary vehicles. Not the real-estate developer whose property value falls because access to it is hellish. Not the company whose employees arrive at the office already tired before the workday begins.
 
-Tidak ada yang memilih ini. Tapi ini selalu terjadi. Setiap hari.
+Nobody chose this. But it happens. Every single day.
 
-Ganti contohnya. Narkoba. BNN mencatat perputaran transaksinya di Indonesia mencapai triliun rupiah, dengan profil pengguna yang semakin muda dan semakin miskin. Siapa yang ingin ini? Bandar, jelas. Tapi tanya bandar individu secara jujur, dia mungkin bilang dia juga ingin keluar. Kalau saja kompetitornya keluar duluan. Pengguna tidak ingin kecanduan. Keluarga pengguna tidak ingin tabungan mereka habis untuk hal yang menguap dalam hitungan menit. Kurir tidak ingin ditembak betisnya. Pemerintah tidak ingin reputasi negara jadi case study di paper regulatory failure.
+Change the example. Narcotics. BNN records transaction flows in Indonesia in the trillions of rupiah, with the user profile getting younger and poorer. Who wants this? The dealers, obviously. But ask an individual dealer honestly, he might say he wants out too. If only his competitor would leave first. The users don't want to be addicts. The users' families don't want their savings to vanish into something that evaporates in minutes. The couriers don't want to get shot in the leg. The government doesn't want the country's reputation to become a case study in a regulatory-failure paper.
 
-Nggak ada antagonis yang fixed, kan. Tapi selalu ada korban. Dan satu industri yang terus tumbuh.
+No antagonist. Only victims. And one industry that keeps growing.
 
-Dua contoh ini terasa beda di permukaan tapi identik secara struktural, dan itu bukan kebetulan. Macet Jakarta dan industri narkoba adalah manifestasi dari satu mekanisme yang sama. Mekanisme yang sama mengoperasikan deforestasi Kalimantan. Konten TikTok yang merusak otak. Politik uang yang membuat caleg dengan rekam jejak terbaik kalah dari caleg dengan amplop tertebal. Industri rokok yang eksekutifnya tahu produknya membunuh tapi tidak bisa unilateral berhenti tanpa kompetitor mengisi gap-nya dalam hitungan minggu.
+The two examples feel different on the surface but are structurally identical, and that isn't a coincidence. Jakarta gridlock and the narcotics trade are manifestations of one mechanism. The same mechanism runs the deforestation of Kalimantan. The TikTok content that's frying kids' brains. The money politics that makes the best-record candidate lose to the candidate with the thickest envelope. The tobacco industry whose executives know the product kills but cannot unilaterally stop without a competitor filling the gap in weeks.
 
-Ada sesuatu yang sedang bekerja di balik layar. Tidak punya kantor pusat. Tidak punya CEO. Tidak punya cabinet meeting. Tidak punya niat dalam arti apapun. Dan tetap saja, sesuatu ini sedang menulis sebagian besar sejarah modern manusia.
+Something is running behind the scenes. It has no head office. It has no CEO. It has no cabinet meeting. It has no intent in any meaningful sense. And still, it is writing most of modern human history.
 
-Saya akan memanggilnya The Machine (Originally 'Moloch' from Slate Star Codex's 'Meditations on Moloch').
+I'm going to call it The Machine. (Originally "Moloch", from Slate Star Codex's "Meditations on Moloch".)
 
-Sekarang. Sebelum kamu close tab.
+Now. Before you close the tab.
 
-Saya tahu kata The Machine terdengar seperti apa. Saya tahu siapa yang biasanya pakai kata ini dengan huruf kapital. Bisa saja Pria 38 tahun yang kebetulan moderator Discord yang tinggal di basement dengan tab Reddit dan Wikipedia tentang Bilderberg terbuka di sebelah Notepad++ yang berisi "manifesto" sepanjang 12.000 kata. Atau Anak SMA seumuran saya yang terpapar 4chan yang suka ngomong soal "they don't want you to know." Atau basically, Ted Kaczynski tanpa bom tapi dengan podcast.
+I know how that word sounds. I know who usually uses it with a capital letter. The thirty-eight-year-old Discord moderator who lives in a basement with Reddit and Wikipedia-on-Bilderberg tabs open next to a Notepad++ window holding a twelve-thousand-word "manifesto". The high schooler who's been on 4chan too much and likes to say "they don't want you to know". Basically Ted Kaczynski without the bombs but with a podcast.
 
-Saya tidak percaya pada Reptilian di Federal Reserve. Saya tidak percaya ada cabal lizard people di Davos yang narik string di belakang WEF. Itulah alasannya kenapa saya pakai kata The Machine.
+I don't believe there are Reptilians in the Federal Reserve. I don't believe there's a cabal of lizard people in Davos pulling strings. That's exactly why I use the term The Machine.
 
-Setiap conspiracy theorist yang pernah ada punya satu intuisi yang membuat mereka, despite semua kebodohan analisisnya, terasa benar di level-level tertentu yang sulit dijelaskan: **"ada pola. Bukan kebetulan kalau semuanya berakhir di tempat yang sama."**
+Every conspiracy theorist who's ever lived holds one intuition that, beneath all the bad analysis, feels true in a way that's hard to describe. There is a pattern. It isn't a coincidence that everything ends up in the same place.
 
-Mereka benar tentang adanya pola. Tapi mereka salah tentang isi polanya. Salah pada level yang luar biasa, karena mereka berasumsi pola itu butuh konspirator. Butuh seseorang di bayang-bayang. Butuh rapat rahasia di mana sebuah keputusan diambil.
+They are right about the pattern existing. They are wrong about its contents. Wrong on a spectacular level, because they assume the pattern needs conspirators. Needs someone in the shadows. Needs a secret meeting where The Decision is made.
 
-Tidak butuh. The Machine lebih buruk dari semua konspirasi yang bisa kita bayangkan, persis karena The Machine tidak butuh konspirator. Tidak butuh siapa pun yang sadar sedang "melayani" The Machine. Dia cuma butuh insentif. Insentif sudah ada di mana-mana, sepanjang waktu, beroperasi pada setiap dari kita, sejak sebelum kita lahir.
+It doesn't. The Machine is worse than any conspiracy you can imagine, precisely because it doesn't need conspirators. It doesn't need anyone who is consciously aware they're serving it. It only needs incentives. Incentives are everywhere, all the time, operating on every one of us, since before we were born.
 
-Pertanyaan utama tulisan ini bukan "siapa yang jahat". Pertanyaan utamanya: apa yang bikin orang yang secara individual baik, menghasilkan dunia yang secara kolektif buruk?
+The main question of this essay isn't "who is evil". The main question is, what makes individually good people produce a collectively bad world?
 
-Kalau jawaban refleksmu "rakus" atau "kapitalisme" atau "elit oligarki", kamu setengah benar. Hampir benar. Tapi setengah benar buat diagnosis fungsional ya sama dengan salah. Penjelasan-penjelasan itu nunjuk ke gejala, bukan ke mekanisme. Tanpa paham mekanismenya, intervensi apa pun yang kamu rancang bakal kalah sebelum mulai. Kalau nggak percaya, lihat aja: kampanye anti-korupsi yang gagal, regulasi lingkungan yang nggak menggigit, gerakan moral yang menguap dalam dua musim. Diagnosis yang berhenti di permukaan, hasilnya begitu.
+If your reflex answer is "greed" or "capitalism" or "the oligarchs", you're half right. Half right, on a functional diagnosis, is the same thing as wrong. Those explanations contain real signal. But they point at the symptom, not at the mechanism. Without understanding the mechanism, any intervention you design will lose before it begins. Look at the evidence. Anti-corruption campaigns that flop. Environmental regulations that don't bite. Moral movements that evaporate in two seasons. Diagnosis that stopped at the surface.
 
-Untuk sampai ke mekanisme, kita mundur jauh.
+To get to the mechanism, we have to go back. A long way back.
 
-Sampai ke laut pertama.
+All the way to the first ocean.
 
 ## II.
 
-Untuk memahami The Machine, kita perlu tahu di mana dia lahir.
+To understand The Machine, we need to know where it was born.
 
-Bukan parlemen. Bukan boardroom. Bukan rapat kabinet. Tempat lahirnya The Machine adalah kolam air di Bumi sekitar 4 miliar tahun lalu, sebelum ada sel pertama, di bentangan samudera yang luas sebelum layout bumi memiliki bentuk seperti sekarang.
+Not parliament. Not a boardroom. Not a cabinet meeting. The Machine was born in a pool of water on Earth roughly four billion years ago, before the first cell existed, in a vast ocean whose layout looked nothing like today's.
 
-Yang ada di kolam itu cuma molekul. Tertabrak satu sama lain selama jutaan tahun. Sebagian besar terurai cepat. Sampai pada satu titik, satu molekul terbentuk yang punya properti baru. Abiogenesis.
+What existed in that pool was molecules. Bumping into each other for millions of years. Most of them broke down quickly. Until at some point one molecule formed that had a new property. Abiogenesis.
 
-Dia bisa mengkopi dirinya sendiri.
+It could copy itself.
 
-Apakah dia RNA atau peptida atau sesuatu yang lebih eksotis, detail kimianya tidak penting. Yang penting implikasinya. Begitu satu molekul self-replicating muncul di kolam yang penuh molekul lain, kalkulasinya berubah permanen. Kompetisi acak antar molekul fana berubah menjadi kompetisi antar-entitas yang membuat lebih banyak dari dirinya sendiri.
+Whether it was RNA, peptides, or something more exotic, the chemistry isn't the point. The implication is. The moment one self-replicating molecule appeared in a pool full of other molecules, the math changed permanently. Random competition between mortal molecules became competition between entities that produced more of themselves.
 
-Satu hukum sederhana mulai bekerja. Saya akan menulisnya dengan huruf kapital karena hukum ini akan muncul lagi sepanjang tulisan:
+A simple law went into operation. I'm writing it in bold because it will reappear throughout this essay.
 
-**Apa pun yang lebih baik dalam mereplikasi dirinya, akan ada lebih banyak.**
+**Whatever is better at replicating itself will become more numerous.**
 
-Mekanisme ini tidak butuh kesadaran. Tidak butuh niat. Tidak butuh Tuhan, desainer, atau jiwa. Cuma butuh waktu, materi, dan kondisi awal yang minimal. Empat miliar tahun kemudian, saya, kamu, dan semua makhluk hidup yang ada di dunia ini sekarang adalah produk dari hukum itu yang jalan tanpa istirahat sejak detik pertama.
+It requires no consciousness. No intent. No God, designer, or soul. Just time, matter, and minimal initial conditions. Four billion years later, you are a product of that law running without rest from the first second.
 
-Ini yang Dawkins maksud ketika dia bilang gen itu "selfish". Gen tidak punya niat untuk egois. As a matter of fact, gen tidak punya niat sama sekali. Gen cuma urutan kimia yang lebih atau kurang efektif memproduksi salinan dirinya, lewat organisme yang dia bangun.
+This is what Dawkins meant when he called genes "selfish". Genes don't have intent to be selfish. Genes don't have intent at all. Genes are chemical sequences that are more or less effective at producing copies of themselves, via the organisms they build.
 
-"Egois" di sini adalah istilah teknis. Strategi yang berhasil adalah strategi yang membuat lebih banyak salinan. Tidak harus moral. Tidak harus indah. Cukup lolos, berhasil.
+"Selfish" here is a technical term. A successful strategy is a strategy that makes more copies. Not necessarily moral. Not necessarily beautiful. Just sufficient.
 
-Tahan dulu. Ini biasanya tempat orang berhenti, entah karena setuju terlalu cepat atau karena merasa dihina sebagai "hanya hewan." Dua-duanya keliru.
+Hold on. This is usually where people stop, either agreeing too fast or feeling insulted as "just animals". Both reactions are wrong.
 
-Kalau hukum di atas satu-satunya yang bekerja, dunia biologisnya akan sepenuhnya soliter. Setiap organisme membunuh saudaranya untuk satu kalori ekstra. Meninggalkan anaknya begitu lepas dari rahim. Tapi bukan itu dunia yang kita lihat. Lebah mati membela sarang. Induk burung menahan lapar demi anaknya. Sukarelawan lari ke gedung terbakar untuk orang asing.
+If the law above were the only one running, the biological world would be entirely solitary. Every organism killing its sibling for an extra calorie. Abandoning its offspring the moment they left the womb. But that isn't the world we see. Bees die defending the hive. Mother birds go hungry for their chicks. Volunteers run into burning buildings for strangers.
 
-Bagaimana hukum yang dingin tadi menghasilkan ini?
+How does that cold law produce this?
 
-Jawabannya dirangkum oleh William Hamilton pada tahun 1964, dalam inequality yang terlihat seperti aljabar SD tapi mengubah biologi selamanya.
+The answer was summarised by William Hamilton in 1964, in an inequality that looks like high-school algebra but changed biology forever.
 
 **rB > C**
 
-r adalah kedekatan genetik, B benefit untuk penerima, C cost untuk pemberi. Gen yang mengkode perilaku altruistik akan dipertahankan asal rB > C. Itu sebabnya induk berkorban untuk anak. Itu sebabnya kita lebih mungkin meminjamkan uang ke sepupu daripada orang asing. Itu sebabnya koloni lebah yang sharing 75% gen secara literal mati untuk satu sama lain.
+r is genetic closeness, B is the benefit to the receiver, C is the cost to the giver. A gene that codes for altruistic behaviour will be preserved as long as rB > C. That's why parents sacrifice for children. It's why you're more likely to lend money to a cousin than to a stranger. It's why a bee colony, sharing 75% of its genes, literally dies for itself.
 
-Pada tahun 1971, Robert Trivers melengkapi dengan reciprocal altruism. Kerja sama bisa stabil bahkan antar individu tidak terkait genetik, asal interaksi berulang, asal ada memori siapa yang cooperate vs defect, asal ada cara menghukum yang defect. Dasar dari gosip, reputasi, kontrak sosial yang kita semua hidup di dalamnya.
+In 1971, Robert Trivers added reciprocal altruism. Cooperation can be stable even between individuals who aren't genetically related, as long as the interaction repeats, there's memory of who cooperated vs defected, and there's a way to punish defectors. The foundation of gossip, reputation, the social contract we all live inside.
 
-Kita mewarisi dua subsistem yang sama-sama tua, sama-sama dalam, sama-sama riil. Satu menarik kita ke kepentingan individu. Satu menarik kita ke kerja sama, di mana kondisinya cocok.
+We inherit two subsystems that are equally old, equally deep, equally real. One pulls us toward individual interest. The other pulls us toward cooperation, where conditions allow.
 
-Yang menentukan mana yang aktif pada momen tertentu adalah **konfigurasi insentif di sekeliling kita**.
+What determines which one is active at any given moment is **the configuration of incentives around us**.
 
 ## III.
 
-II memberikan kita organisme dengan dua subsistem: egois dan kooperatif. Pertanyaannya: apa yang menentukan mana yang aktif?
+II gave us an organism with two subsystems, selfish and cooperative. The question is what determines which one runs.
 
-Jawabannya bukan kepribadian. Bukan iman. Bukan didikan orang tua.
+The answer isn't personality. It isn't faith. It isn't your parents.
 
-Ketiganya tetap penting, kamu bisa baca buku Nature via Nurture atau The Nurture Assumption. Balik lagi, mekanisme ini beroperasi di atas substrat yang lebih fundamental. Substrat itu: konfigurasi insentif di sekeliling kita pada momen pilihan dibuat.
+All three still matter. But they operate on top of a more fundamental substrate. That substrate is the configuration of incentives around us at the moment a choice is being made.
 
-Charlie Munger pernah bilang satu kalimat yang kalau kamu mengerti betul, sebagian besar tulisan ini hampir tidak perlu kamu baca: **"Show me the incentive, and I'll show you the outcome."**
+Charlie Munger once said a single sentence which, if you really get it, makes most of this essay unnecessary. **"Show me the incentive, and I'll show you the outcome."**
 
-Bukan probabilistik. Bukan kecenderungan. Tapi **Outcome**. Munger menghabiskan 60 tahun mengobservasi manusia di posisi pengambilan keputusan tinggi, dari CEO Fortune 500 sampai politisi, dan dia keluar dengan kesimpulan ini: dalam jangka panjang, di hampir semua kasus, struktur insentif memenangkan kepribadian.
+Not probabilistic. Not a tendency. Outcome. Munger spent sixty years observing humans in high-stakes decision-making positions, from Fortune 500 CEOs to politicians, and he came out with an uncomfortable conclusion. In the long run, in almost every case, incentive structure beats personality.
 
-Beberapa contoh.
+A few examples.
 
-Berikan bonus tahunan berdasarkan profit jangka pendek pada eksekutif keuangan. Dapat krisis 2008. Tidak ada di antara mereka yang merancang kehancuran. Mereka cuma mengoptimalkan apa yang kita minta untuk dioptimalkan.
+Pay an annual bonus based on short-term profit to a finance executive. You get the 2008 crisis. None of them designed the crash. They were just optimising what you asked them to optimise.
 
-TikTok punya satu objective function: watch-time. Hasilnya, industri konten yang sedang me-rewire reward system anak-anak di bawah umur. Engineer di ByteDance tidak menginginkan hal tersebut di level individual. Mereka cuma mengoptimasi metric yang dibayarkan ke mereka.
+TikTok has one objective function, watch-time. The result is a content industry currently rewiring the reward systems of primary-school children. The engineers at ByteDance don't want that. They're just optimising the metric they're paid for.
 
-Pilkada di sebagian besar Indonesia memilih pemenang berdasarkan distribusi amplop di hari H. Parlemen yang terbentuk akhirnya yang lihai membagi amplop, bukan yang lihai menyusun legislasi. Caleg yang baik tapi dompetnya tipis sudah tersaring keluar sejak babak pertama.
+Pilkada in most of Indonesia chooses winners by envelope distribution on election day. The parliament that gets formed is good at distributing envelopes, not at drafting legislation. The good candidate with a thin wallet was filtered out in the first round.
 
-Bahkan altruisme beroperasi di dalam field ini. Donasi naik kalau struktur pajak melindungi si pemberi. Volunteerism naik kalau ada recognition dari publik. Filantropi akan deras keluar dari orang-orang yang papan namanya bisa dipasang di billboard. Ini tidak menafikan ketulusan. Tapi menunjukkan bahkan motivasi yang paling tulus pun beroperasi di dalam struktur insentif, tidak terlepas dari hal tersebut.
+Even altruism operates inside this field. Donations go up when the tax structure protects the giver. Volunteering goes up when there is public recognition. Philanthropy flows most strongly from people whose name can be put on a building. This doesn't deny sincerity. Even the most sincere motivation operates inside an incentive structure, not separate from it.
 
-Dari sini, satu klaim:
+From all of this, one claim.
 
-**Kita nggak memperbaiki outcome dengan memperbaiki orang. Kita memperbaiki outcome dengan memperbaiki insentif.**
+**You don't fix outcomes by fixing people. You fix outcomes by fixing incentives.**
 
-Buat sebagian pembaca, klaim ini bakal kerasa cynical. Tapi cynical bukan berarti salah, kan. Dan alternatifnya, mencoba memperbaiki outcome dengan memperbaiki orang, udah dicoba beberapa ribu tahun, dan track record-nya cukup jelas.
+This will feel cynical to some readers. Cynical isn't automatically wrong, though. And the alternative, trying to fix outcomes by fixing people, has been tried for a few thousand years, and the track record is pretty clear.
 
 ## IV.
 
-II memberikan pemahaman bahwa kita adalah organisme yang secara default beroperasi untuk kepentingannya kita sendiri. Deskripsi mekanis, bukan moral. III memberikan pemahaman kita bahwa insentif sebagai field yang mengelilingi setiap pilihan. Substrat di mana semua pilihan terjadi.
+II gave us an organism that, by default, operates in its own interest. A mechanical description, not a moral one. It is the product of a selection process that has already killed its ancestors who didn't. III gave us incentives as a field surrounding every choice. The substrate where every choice actually happens.
 
-Yang tersisa tinggal menyatukan keduanya. Satu istilah dari ekonomi dan game theory, satu definisi yang cukup tajam supaya tidak ada ruang untuk pelarian.
+What's left is to put the two together. One term from economics and game theory, and one definition sharp enough to leave no escape.
 
-Istilahnya: **multipolar trap**.
+The term is **multipolar trap**.
 
-Definisinya: situasi di mana setiap aktor, secara rasional individual, memilih opsi yang ngehasilin outcome agregat yang merugikan semua aktor, termasuk dirinya sendiri.
+The definition. A situation in which every actor, acting rationally as an individual, chooses the option that produces an aggregate outcome which is bad for every actor, including himself.
 
-Aku ulang lebih panjang karena ini klaim sentral. Dari sudut pandang tiap pemain, defect itu dominant strategy, pilihan yang menguntungkan kamu di level individu, terlepas dari apa yang pemain lain lakukan. Karena semua pemain rasional, semua milih defect. Karena semua milih defect, outcome kolektif lebih buruk dari kalau semua milih kooperasi. Tapi nggak ada pemain individu yang bisa ngubah outcome ini secara unilateral. Yang bisa dia lakukan kalau milih kooperasi sendirian: kalah lebih cepat.
+Let me say it again with more sentences, because this claim has to land. From every player's point of view, defection is the dominant strategy, the choice that benefits you at the individual level regardless of what other players do. Because all players are rational, all of them defect. Because all of them defect, the collective outcome is worse than if all of them had cooperated. But no individual player can change the outcome unilaterally. If he chooses cooperation alone, all that does is make him lose faster.
 
-Bayangkan macet Jakarta dengan kacamata ini.
+Now look at Jakarta traffic through these glasses.
 
-Tiap pengguna mobil pribadi membuat pilihan yang masuk akal dari sudut pandangnya. Lebih nyaman dari TransJakarta yang penuh. Lebih aman dari motor pas hujan. Kalau jadwal KRL tidak cocok, kendaraan pribadi tetap berangkat. Pilihan rasional secara individual, dikalikan jutaan kendaraan, menghasilkan kota yang tidak bisa bergerak.
+Every private-vehicle user makes a choice that is rational from his point of view. More comfortable than a packed TransJakarta. Safer than a motorbike in the rain. If the KRL schedule doesn't fit, the private car goes anyway. Rational individual choice, multiplied by millions of vehicles, produces a city that cannot move.
 
-Solusinya struktural, bukan moralisasi "kurangi kendaraan pribadi" yang ditempel di JPO. Akan saya bantai pendekatan moral itu di V. Yang terbukti works: congestion pricing seperti Singapura dan London. Transit yang benar-benar lebih cepat dari kendaraan pribadi. Disinsentif yang dirasakan langsung di dompet.
+The fix is structural, not moralising. "Reduce private vehicles", stuck on pedestrian bridges, doesn't work. I'll demolish the moralising approach in V. What works is congestion pricing, the way Singapore and London do it. Transit that is genuinely faster than driving. Disincentives that show up directly in the wallet.
 
-Sekarang narkoba.
+Now narcotics.
 
-Tiap bandar yang masih beroperasi membuat pilihan rasional. Pasar masif. Margin tinggi. Risiko hukum bisa di-arbitrage lewat yurisdiksi offshore. Setiap bandar yang exit unilateral hanya membuat pangsa pasarnya diisi kompetitor dalam hitungan minggu. Tiap middle-man yang menerima transaksinya juga rasional: volume gila, margin bagi hasil yang menarik.
+Every dealer still operating is making a rational choice. Massive market. Fat margins. Legal risk that can be arbitraged through offshore jurisdictions. Any dealer who exits unilaterally just hands his market share to a competitor in weeks. Every middleman accepting his transactions is also rational. Insane volume, attractive profit splits.
 
-Apakah ada bandar yang merasa bersalah atas perceraian yang dia sebabkan? Mungkin. Apakah ada middle man dan kurir yang resah karena tabungan keluarga miskin yang mereka pindahkan ke perusahaan cangkang bos mereka? Bisa jadi. Tapi multipolar trap tidak peduli sama perasaan. Multipolar trap hanya peduli sama satu pertanyaan saja: kalau aktor X exit, apakah aktor Y akan masuk dan mengisi tempatnya?
+Are there dealers who feel guilty about the divorces they cause? Possibly. Are there middlemen and couriers who lose sleep over the savings of poor families moving into the shell companies of their bosses? Maybe. But the multipolar trap doesn't care about feelings. The multipolar trap only cares about one question. If actor X exits, will actor Y enter and fill the slot?
 
-Untuk narkoba, jawabannya selalu ya. Dan selama jawabannya ya, exit individual bukan solusi tapi exit individual hanyalah sacrifice tanpa efek.
+For narcotics, the answer is always yes. As long as the answer is yes, individual exit is not a solution. Individual exit is a sacrifice with no effect.
 
-Pola yang sama mengoperasikan kasus-kasus yang saya sebutkan di I. Caleg yang menolak politik uang kalah dari yang tidak menolak, karena pemilih dalam agregat masih merespon amplop. Eksekutif perusahaan rokok yang ingin menutup pabriknya tahu pabriknya akan dibeli kompetitor dalam tiga bulan. Content creator yang menolak engagement bait di-out-compete sampai harus pilih: kompromi atau quit.
+The same pattern runs the cases I mentioned in I. The candidate who refuses envelope politics loses to the one who doesn't, because the electorate in aggregate still responds to envelopes. The tobacco executive who wants to close his factory knows it will be bought by a competitor within three months. The content creator who refuses engagement bait gets out-competed until he has to choose between compromising and quitting.
 
-Ini yang saya sebut sebagai The Machine.
+This is what I'm calling The Machine.
 
-The Machine bukan benda. Bukan organisasi. Bukan kelas sosial. The Machine adalah nama untuk attractor state yang muncul dari interaksi banyak agen rasional yang masing-masing tidak punya kemampuan mengubah outcome secara unilateral.
+The Machine is not a thing. Not an organisation. Not a social class. The Machine is the name I'm giving to the attractor state that emerges from interactions of many rational agents, none of whom can change the outcome unilaterally.
 
-The Machine muncul dari bawah, dari interaksi mikro, tanpa butuh siapa pun di atas yang merancangnya. Inilah yang bikin dia lebih berbahaya dari konspirasi mana pun. Kalau lawan kita Bilderberg, kita bisa expose Bilderberg. Kalau lawan kita Davos, kita bisa demo Davos. Tapi kalau lawan kita konfigurasi insentif tanpa wajah, kita nggak punya target.
+The Machine emerges from below, from micro interactions, with no one above designing it. This is what makes it more dangerous than any conspiracy. If your enemy is Bilderberg, you can expose Bilderberg. If your enemy is Davos, you can protest Davos. If your enemy is an incentive configuration with no face, you have no target.
 
-Dan ini yang bikin orang baik, secara individual, menghasilkan dunia yang buruk, secara kolektif. Mereka nggak diam-diam jahat. Di dalam multipolar trap, "baik" pada level individu nggak menjamin "baik" pada level kolektif. Dua variabel beda. Tapi kita, dari SD, khotbah Jumat, sampe postingan motivasi di Instagram, terus diajarin bahwa keduanya hal yang sama.
+And this is what makes individually good people produce a collectively bad world. They are not secretly evil. Inside a multipolar trap, "good" at the individual level does not guarantee "good" at the collective level. Two different variables. But we, from primary school through Friday sermons through motivational posts on LinkedIn, are taught over and over that they are the same thing.
 
-Itu kebohongan paling berbahaya yang masih kita rawat sebagai peradaban.
+That is the most dangerous lie we still maintain as a civilisation.
 
 ## V.
 
-Setiap budaya yang pernah menghadapi multipolar trap punya respon default yang sama. Bukan reformasi struktural. Bukan redesign insentif. Tapi Khotbah.
+Every culture that has ever faced a multipolar trap has had the same default response. Not structural reform. Not redesigned incentives. The Sermon.
 
-"Jangan korupsi." "Jangan rakus." "Pikirkan anak cucumu." Setiap baliho. Setiap mimbar. Setiap pidato kenegaraan. Setiap kampanye CSR perusahaan. Setiap caption Instagram tokoh publik. Setiap nasihat orang tua.
+"Don't take bribes." "Don't be greedy." "Think of your grandchildren." Every billboard. Every pulpit. Every presidential address. Every corporate CSR campaign. Every Instagram caption from a public figure. Every parent giving advice to their kid.
 
-Semuanya. Tidak. Works.
+All. Of. It. Does. Not. Work.
 
-Pendengarnya setuju, setidaknya sebagian besar. Mayoritas pendengar kalau ditanya akan bilang dia berniat baik. Mayoritas pendengar kalau dilihat perilakunya tetap defect ketika momen pilihannya datang.
+The audience agrees, mostly. The majority, if asked, will say they intend well. The majority, if observed, defect anyway when the moment of choice arrives.
 
-Penyebabnya struktural. Di dalam multipolar trap, defect adalah dominant strategy, terlepas dari niatmu. Niat baik dari 95% pemain tidak menyelamatkan apapun selama 5% pemain yang defect tetap menang. Industri rokok tidak butuh 100% perokok, dia butuh enough smokers. Narkoba tidak butuh 100% pemain, dia butuh enough users. Politik uang tidak butuh 100% caleg ikut, dia butuh enough caleg untuk memaksa keluar yang tidak ikut.
+The cause is structural. Inside a multipolar trap, defection is the dominant strategy, regardless of your intent. Good intent from 95% of players doesn't save anything as long as the 5% who defect still win. The tobacco industry doesn't need 100% of people to smoke. It needs enough. Narcotics doesn't need 100% of players. It needs enough. Money politics doesn't need 100% of candidates to play. It needs enough to filter out the ones who don't.
 
-Lebih buruk lagi: khotbah yang tidak menyentuh insentif sering jadi mekanisme yang justru menopang The Machine. Energi marah disalurkan ke gestur moral yang murah. Posting kesal soal korupsi. Sumpah serapah terhadap big pharma. Status WhatsApp tentang generasi muda yang rusak. Energi yang tersalur ke sini adalah energi yang tidak tersalur ke perubahan struktural. Dari sudut pandang The Machine, ini outcome ideal: penduduk yang merasa sudah berbuat sesuatu, sambil dunia tetap berjalan ke arah yang sama.
+Worse. Sermons that don't touch incentives often become the mechanism that props up The Machine. Angry energy gets channelled into cheap moral gestures. Posting frustration about corruption. Cursing big pharma. WhatsApp statuses about the broken youth of today. The energy that ends up there is energy that doesn't end up driving structural change. From The Machine's point of view, this is the ideal outcome. A population that feels like it has already done something while the world keeps moving in the same direction.
 
-Kalau kamu pernah membaca soal virtue signalling-nya Nassim Taleb dan mengangguk, tapi feed-mu masih penuh postingan moral yang tidak diikuti tindakan struktural apapun, kamu adalah subjek dari paragraf ini. Saya juga demikian, ini menjadi pengingat.
+If you've ever read Taleb on virtue signalling and nodded, but your feed is still full of moral posts not followed by any structural action, you are the subject of this paragraph. So am I.
 
 ## VI.
 
-Berhenti khotbah. Mulai engineering.
+Stop sermonising. Start engineering.
 
-Ini satu kalimat. Saya tidak akan menjelaskannya tapi langsung menerjemahkannya.
+That's one sentence. I'm not going to explain it. I'm going to translate it.
 
-Di level kebijakan, engineering berarti Pigouvian tax untuk eksternalitas yang sudah diketahui. Cukai rokok Indonesia, salah satu intervensi kesehatan publik paling sukses dalam dua dekade terakhir, terbukti menurunkan prevalensi perokok remaja secara measurable. Anak SMA tidak butuh hidayah. Rokoknya yang jadi lebih mahal. Pajak karbon mengikuti logika yang sama untuk emisi. Pajak konsumsi makanan manis di Indonesia mengikuti logika yang sama. Tidak elegan. Tidak inspiratif. Tapi works.
+At the policy level, engineering means Pigouvian taxes on known externalities. Indonesia's cigarette excise, one of the most successful public-health interventions of the last two decades, has measurably reduced teenage smoking. High schoolers don't need divine guidance. The cigarettes just need to be more expensive. Carbon tax follows the same logic for emissions. Sugar taxes follow the same logic in Indonesia. Not elegant. Not inspiring. But it works.
 
-Di level institusi, engineering berarti design coordination mechanism yang menggigit. Elinor Ostrom memenangkan Nobel Ekonomi 2009 untuk mendokumentasikan bahwa commons di kondisi tertentu bisa dikelola tanpa privatisasi dan tanpa kontrol negara. Tapi syaratnya spesifik. Batas yang jelas siapa anggota dan siapa bukan. Aturan yang dibuat oleh peserta sendiri. Pemantauan oleh atau untuk peserta. Sanksi berjenjang untuk yang defect. Mekanisme resolusi konflik yang murah dan cepat. Pelajaran ini bisa diadopsi dari koperasi nelayan sampai regulasi platform.
+At the institutional level, engineering means coordination mechanisms that bite. Elinor Ostrom won the 2009 Nobel in Economics for documenting that commons, under certain conditions, can be managed without privatisation and without state control. The conditions are specific. Clear boundaries on who is in and who is out. Rules made by the participants themselves. Monitoring by or for the participants. Graduated sanctions for defectors. Cheap and fast conflict-resolution mechanisms. The lesson scales from fishing cooperatives to platform regulation.
 
-Di level individu, engineering berarti ekspos defection, perkecil cover. The Machine paling kuat ketika defection invisible. Industri rokok tidak collapse selama merokok terlihat normal. Politik uang tidak collapse selama amplop dibagikan tertutup. Setiap kali kita sebagai individu membuat defection visible, membuat normalisasi tidak nyaman, membuat opsi cooperate punya cover sosial yang lebih kuat, kita sedang menarik satu vektor melawan arah The Machine. Sedikit memang, tapi tidak nol.
+At the individual level, engineering means exposing defection and shrinking its cover. The Machine is strongest when defection is invisible. The tobacco industry doesn't collapse as long as smoking looks normal. Money politics doesn't collapse as long as envelopes are handed out in private. Every time you, as an individual, make defection visible, make the normalisation uncomfortable, make cooperation socially defensible, you are pulling one vector against The Machine. A small one. But not zero.
 
-Tidak satu pun dari ini terdengar epik. Karena bukan kebetulan, itu fitur, bukan bug. Solusi epik untuk masalah multipolar trap, sepanjang sejarah, hampir selalu menjadi tirani. Solusi epik mensyaratkan satu aktor cukup kuat untuk memaksa semua pemain lain kooperasi sekaligus. Aktor itu setelah dapat kekuatan jarang melepaskannya kembali. Power tends to corrupt, and absolute power corrupts absolutely.
+None of this sounds epic. That's a feature, not a bug. Epic solutions to multipolar traps, throughout history, almost always become tyrannies. Epic solutions require one actor strong enough to coerce every other player into cooperation at once. That actor, once given the power, rarely gives it back.
 
-Yang berhasil tidak akan dicap heroik. Yang berhasil pasti membosankan. Pajak naik 5 persen. Regulasi pengungkapan tambahan. Audit yang rutin. Sertifikasi yang membuat defection mahal. Reward system yang membuat cooperation lebih menguntungkan.
+What works isn't heroic. What works is boring. Tax goes up 5 percent. New disclosure regulation. Routine audits. Certification that makes defection expensive. Reward schemes that make cooperation more profitable.
 
-Membosankan menang dari heroik. Berulang kali. Lihat data. Kita tidak butuh hero.
+Boring beats heroic. Repeatedly. Look at the data.
 
 ## VII.
 
-Kita ngomongin The Machine seolah dia eksternal. Padahal bukan.
+We talk about The Machine as if it's external. It isn't.
 
-The Machine itu nama buat konfigurasi yang dihasilkan oleh kumpulan keputusan individual kita. Saya, kamu, semua orang yang baca ini. Termasuk keputusan buat tetap diam pas kita tahu sesuatu salah. Tetap defect pas kita tahu ada cara lain. Tetap milih jalan dengan friction paling sedikit karena itu yang paling murah.
+The Machine is the name we give to the configuration produced by the sum of our individual decisions. You, me, everyone reading this. Including the decision to stay quiet when we know something is wrong. Stay defecting when we know there's another way. Keep picking the path of least friction because it's the cheapest.
 
-The Machine susah dikalahin. Mungkin nggak bakal, mungkin nggak bisa. Tapi minimal, dia bisa direkayasa ulang. Tiap insentif yang kita ubah, sekecil apa pun, mengubah equilibrium di mana semua pemain lain harus optimize ulang. Itu cara kerja sistem multi-agen. Itu juga cara kita keluar.
+The Machine will not be defeated. Maybe it won't be. Maybe it can't be. But it can be re-engineered. Every incentive we change, however small, shifts an equilibrium that every other player now has to re-optimise around. That's how multi-agent systems work. That's also how we get out.
 
-Ini bukan optimisme. Bukan pesimisme. Cuma deskripsi.
+This isn't optimism. It isn't pessimism. It's description.
 
-Tapi, untuk pertama kalinya, kita punya bahasa teknis buat ngedeskripsiin masalah ini. Game theory. Mechanism design. Generasi sebelum kita berkelahi sama The Machine dengan mata tertutup, mereka mana tahu soal incentive design. Kita nggak punya alasan buat ngelanjutin tradisi itu.
+For the first time, we have a technical language for describing this problem. Game theory. Mechanism design. Incentive theory. The generations before us fought The Machine with their eyes closed. We have no excuse to continue the tradition.
 
-TB Simatupang bakal tetap macet besok pagi. Itu pertanyaan teknis dengan jawaban teknis. Apakah kita jawab, atau nulis status soal kemacetan, itu pilihan kita.
+TB Simatupang will still be jammed tomorrow morning. That is a technical question with a technical answer. Whether we answer it, or post a status update about traffic, is our choice.
 
-Kebanyakan dari kita bakal milih yang kedua. Itu juga The Machine.
+Most of us will choose the second. That is also The Machine.

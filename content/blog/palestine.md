@@ -1,304 +1,400 @@
 ---
-title: "Menggunakan Kalkulus Untuk Merumuskan Perdamaian"
+title: "Doing the Calculus on Peace"
 date: 2025-04-04
 draft: false
-summary: "Mengapa One-Democratic State Palestine adalah Satu-Satunya Jawaban yang Matematis, Sekarang."
+summary: "Why the only mathematically defensible answer for Israel-Palestine right now is the One-Democratic-Secular State. Not on moral grounds, not on theological grounds, but by process of elimination, the same way you'd do it in a lab."
 ---
 
 {{< figure src="/palestine-media/image1.jpeg" alt="Posters: The Palestinian Museum Digital Archive" caption="Posters: The Palestinian Museum Digital Archive" >}}
 
-TL;DR
+**TL;DR**
 
-1. Ethno-state gagal karena melawan fakta demografi 50:50 yang luar biasa sulitnya. Sistem yang butuh represi permanen untuk bertahan itu sulit disebut sistem tapi lebih tepat disebut bom waktu.
+1. The ethno-state fails because it has to fight a roughly 50/50 demographic fact that's extraordinarily hard to fight. A system that needs permanent repression to survive is hard to call a system. It's a time bomb.
 
-2. Two-state gagal karena lebih dari 700.000 pemukim ilegal Israel dan infrastruktur yang sudah entangled selama lebih dari 57 tahun sejak 1967, ketika West Bank pertama kali dianeksasi, membuat probabilitas suksesnya secara matematis mendekati nol, if not nol.
+2. The two-state solution fails because more than 700,000 illegal Israeli settlers and an infrastructure that has been entangled for over fifty-seven years (since the West Bank was first annexed in 1967) push the success probability mathematically close to zero. If not zero.
 
-3. Setelah kedua opsi dieliminasi lewat pendekatan matematis, yang tersisa cuma satu: One-State Demokratis-Sekuler Palestina, karena hanya itu arsitektur yang tidak ditakdirkan doomed sejak awal.
+3. Once both options are eliminated through this kind of mathematical approach, only one remains. A One-State Democratic-Secular Palestine. Because it's the only architecture that isn't doomed by design.
 
-4. Tidak, saya tidak benar-benar pakai kalkulus. :’(
+4. No, I didn't actually use calculus. 😢
 
 ## I.
 
-Saya nggak yakin dari mana mulainya, tapi izinin saya jujur soal apa yang saya pikirin.
+I'm not sure where to start with this, but let me be honest about what I think.
 
-Tiap kali orang debat Israel-Palestina, hampir selalu berakhir di tempat yang sama. Dua pihak sama-sama berteriak, nggak ada yang bergerak, semua orang kelelahan. Kenapa? Saya pikir, dan saya bisa salah, karena debatnya dimulai dari premis yang nggak produktif: moral dan agama.
+Every time people debate Israel-Palestine, it ends in the same place. Both sides shouting. Nobody moving. Everyone exhausted. Why? My guess, and I could be wrong, is that the debate begins on the wrong opening premise. Morality and religion.
 
-Moral is important, to a degree, tapi moral punya satu kelemahan fatal dalam konteks ini, moral nggak bisa difalsifikasi. Buat sebagian orang, kita nggak bisa "menyalahkan" sebuah keyakinan moral pakai data. Makanya debatnya nggak pernah selesai. Memang nggak dirancang buat bisa selesai.
+Morality matters, to some extent, but it has one fatal weakness in this context. Moral claims are not falsifiable. For a lot of people, you can't "disprove" a moral conviction with data. That's why the debate never ends. It wasn't designed to end.
 
-Jadi, sebagai eksperimen pikiran, mari coba pendekatan beda. Kita perlakukan ini kayak soal matematika.
+So as a thought experiment, let's try a different approach. Let's treat this as a maths problem.
 
-Anggap wilayah antara Sungai Jordan dan Laut Mediterania sebagai sebuah sistem. Ada variabel, ada constraint, ada feedback loops. Pertanyaan yang seharusnya kita ajukan bukanlah "siapa yang paling berhak", melainkan "arsitektur sistem mana yang secara struktural paling mungkin menghasilkan equilibrium yang stable dan menghilangkan risiko ruin (fat-tail risk)?"
+Take the area between the Jordan River and the Mediterranean Sea as a system. It has variables. It has constraints. It has feedback loops. The right question to ask isn't "who has the most right to be there". The right question is something else. Which system architecture is most likely to produce a stable equilibrium and remove the risk of ruin (the fat-tail risk)?
 
-Tesis utamanya: kedua model, baik ethno-state (Zionisme) maupun solusi two-state, gagal secara logis dan empiris, terutama setelah tanah-tanah di Palestina secara ilegal dianeksasi oleh pemukim yang dilegitimasi pemerintahan Israel. Setelah kedua opsi itu dieliminasi, yang tersisa hanya satu: One-State Demokratis-Sekuler. Saya tidak akan berargumen soal moral. Saya akan memakai process of elimination yang boring, persis seperti yang dilakukan para saintis di lab.
+Here's the central thesis. Both models, the ethno-state (Zionism) and the two-state solution, fail logically and empirically. Especially after Palestinian land has been illegally annexed by settlers who are legitimised by the Israeli government. Once both options are eliminated, only one remains. The One-State Democratic-Secular model.
 
-Versi terkuat dari argumen Zionis bukanlah "Tuhan memberi tanah ini ke kami" karena itu argumen adalah yang mudah dibantah. Versi terkuatnya adalah: setelah Holocaust, kelompok yang secara sistematis diburu dan dibunuh oleh hampir seluruh peradaban Barat selama dua milenium membutuhkan sebuah lokasi fisik yang bisa dipertahankan secara militer, bukan sebagai privilese, tapi sebagai asuransi eksistensial. Dan jujur, menurut saya pribadi, ini argumen yang cukup valid.
+I'm not going to argue from morality. I'm going to use the boring process of elimination, the same way a scientist would in a lab.
 
-Begitu juga, versi terkuat dari two-state bukan nostalgia peta 1967. Versi terkuatnya adalah: satu-satunya cara dua komunitas dengan trauma historis yang saling tumpang-tindih bisa membangun identitas politik yang sehat adalah dengan punya ruang kedaulatan masing-masing lebih dulu, integrasi prematur tanpa fondasi kepercayaan hanya akan menciptakan Yugoslavia, bukan Afrika Selatan.
+The strongest version of the Zionist argument is _not_ "God gave us this land". That one is easy to refute.
 
-Dua argumen di atas valid. Sekarang saya akan mencoba menunjukkan kenapa, bahkan dengan menerima premis terkuat dari kedua argumen itu, kesimpulannya tetap sama.
+The strongest version is this. After the Holocaust, a group that had been systematically hunted and killed by nearly all of Western civilisation for two millennia needs a physical location that can be militarily defended. Not as a privilege, but as existential insurance. And honestly, I think that's a reasonably valid argument. I respect it.
+
+Now, the strongest version of the two-state argument is _not_ nostalgia for the 1967 map.
+
+The strongest version is this. The only way two communities with overlapping historical traumas can build healthy political identities is to first have separate sovereign space. Premature integration with no trust foundation produces Yugoslavia, not South Africa.
+
+Both arguments are valid. I grant them in full.
+
+Now I'm going to show that even if you accept the strongest version of each, the conclusion is still the same.
 
 {{< figure src="/palestine-media/image2.jpeg" alt="Mapping how Israel's land grabs are reshaping the occupied West Bank" caption="<a href=&quot;https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank&quot;>Mapping how Israel's land grabs are reshaping the occupied West Bank</a> (Al Jazeera, 2025)" >}}
 
 ## II.
 
-Ethno-state versus realitas. Zionisme di atas tanah Palestina adalah sistem yang menghancurkan dirinya sendiri.
+The ethno-state against reality. Zionism on Palestinian land is a self-destructing system.
 
-Bertrand Russell, pas nulis _Principia Mathematica_, butuh ratusan halaman "cuma" buat membuktikan bahwa 1 + 1 = 2. Bukan karena hasilnya obvious, tapi karena dia mau mastiin kesimpulan itu mengikuti secara necessary dari aksioma-aksioma dasar, tanpa celah buat "tapi perasaan saya bilang beda". Saya pengen ngelakuin yang serupa di sini. Bukan membuktikan hal yang rumit, tapi membuktikan bahwa kesimpulan yang mungkin terlihat kontroversial itu sebenarnya follows necessarily dari premis-premis yang sudah ada.
+When Bertrand Russell wrote _Principia Mathematica_, he needed hundreds of pages just to prove that 1 + 1 = 2. Not because the result wasn't obvious, but because he wanted the conclusion to follow necessarily from the basic axioms, with no room for "but my feelings tell me otherwise".
 
-{{< figure src="/palestine-media/image3.jpeg" alt="Ey, shout out to The Organic Chemistry Tutor man, helped through my UTBK year" caption="Ey, shout out to The Organic Chemistry Tutor man, helped through my UTBK year" >}}
+I want to do something similar here. Not prove something complicated, but prove that a conclusion which might look controversial actually follows necessarily from premises that are already in place.
 
-Argumen termodinamika. Mari mulai dari first principles.
+{{< figure src="/palestine-media/image3.jpeg" alt="The Organic Chemistry Tutor" caption="Ey, shout out to The Organic Chemistry Tutor man, helped me through my UTBK year" >}}
 
-Dalam systems thinking, ada konsep dasar, closed system yang melawan entropi membutuhkan energy input yang terus meningkat, kalau tidak, pada akhirnya dia akan runtuh dengan sendirinya. Ini bukan metafora. Ini secara harfiah prinsip termodinamika yang bisa diaplikasikan ke banyak hal, sistem sosial-politik termasuk.
+**The Thermodynamics Argument**
 
-Ethno-state, by definition, adalah sistem yang mencoba mempertahankan komposisi demografis tertentu di dalam batas wilayah yang given. Masalahnya, demografi itu dinamis. Bergerak, berubah, bertambah, berkurang. Dan saat ini, data populasi antara Sungai Jordan dan Laut Mediterania sudah hampir 50:50, sekitar 7,2 juta Yahudi Israel berbanding 7,4 juta Arab Palestina.
+Let's start from first principles.
 
-Untuk mempertahankan ethno-state Yahudi dengan komposisi demografi seperti sekarang, sistem membutuhkan salah satu dari dua hal. Pertama, represi permanen, seperti kontrol mobilitas, legitimasi diskriminasi, dan pembatasan hak politik. Kedua, perubahan komposisi demografis secara paksa, yang dalam kacamata hukum internasional disebut ethnic cleansing.
+In systems thinking there's a basic concept. A closed system fighting entropy requires ever-increasing energy input. Otherwise it eventually collapses on its own. This isn't a metaphor. It's literally a thermodynamic principle, and it applies to a lot of things, social-political systems included.
 
-Opsi pertama menciptakan apa yang dalam system dynamics disebut reinforcing feedback loop: represi memicu resistensi, resistensi memicu eskalasi, eskalasi memicu represi yang lebih keras, dan seterusnya. Lingkaran ini tidak punya titik ekuilibrium, lingkaran ini akan terus bereskalasi sampai salah satu variabel collapse. Opsi kedua, secara hukum internasional, jelas kejahatan perang, dan secara praktis akan memicu respons internasional yang justru mempercepat keruntuhan sistem itu sendiri.
+An ethno-state, by what it is, is a system trying to maintain a particular demographic composition inside a given territory. The problem? Demographics are dynamic. They move. They change. They grow and shrink. Right now, the population data between the Jordan River and the Mediterranean is roughly 50/50. About 7.2 million Israeli Jews against 7.4 million Palestinian Arabs.
 
-Kesimpulan dari kacamata systems thinking, ethno-state adalah sistem yang secara struktural tidak bisa mencapai keadaan steady state. Bukan karena orang-orangnya jahat, saya mencoba tidak membuat klaim moral di sini, tapi karena arsitekturnya tidak kompatibel dengan realitas demografi yang ada. Ini sejalan dengan alasan Nassim Taleb mengatakan eksistensi negara Israel itu tidak antifragile.
+To maintain a Jewish ethno-state with the present demographic composition, the system needs one of two things.
 
-Secara logis-matematis, pertama kita definisikan:
+First, permanent repression. Mobility control, legitimised discrimination, restrictions on political rights.
 
-_DA(t) = populasi Arab pada waktu t_
+Second, forced change of the demographic composition. In international law, that's ethnic cleansing.
 
-_DJ(t) = populasi Yahudi pada waktu t_
+The first option creates what systems dynamics calls a reinforcing feedback loop. Repression triggers resistance, resistance triggers escalation, escalation triggers harder repression, harder repression triggers harder resistance, and so on. The loop has no equilibrium point. It will keep escalating until one variable collapses.
 
-Data demografis menunjukkan:
+The second option is a war crime in international law, and in practice it triggers an international response that accelerates the system's collapse anyway.
+
+Conclusion from a systems-thinking lens. The ethno-state is a system that structurally cannot reach steady state. Not because the people inside it are evil, I'm trying not to make moral claims here, but because its architecture is incompatible with demographic reality. This is consistent with Nassim Taleb's reading that the Israeli state, as currently configured, isn't antifragile.
+
+Logically and mathematically, define the following.
+
+_DA(t)_ = Arab population at time _t_
+
+_DJ(t)_ = Jewish population at time _t_
+
+The demographic data shows
 
 _dDA/dt > dDJ/dt_
 
-_(growth rate Arab > Jewish, empirically observed)_
+(Arab growth rate is greater than Jewish growth rate, empirically observed.)
 
-Untuk mempertahankan ethno-state, dibutuhkan supression level _σ(t)_ yang proporsional dengan rasio:
+To maintain the ethno-state, you need a suppression level _σ(t)_ proportional to the ratio
 
 _σ(t) ∝ DA(t)/DJ(t)_
 
-Karena _DA(t)/DJ(t)_ adalah fungsi yang meningkat monotically increasing terhadap _t_:
+Because _DA(t)/DJ(t)_ is monotonically increasing in _t_,
 
 _dσ/dt > 0 ∀t_
 
-Artinya energy input untuk represi tidak punya batas atas, dia akan terus naik tanpa batas. Sistem yang butuh input tak terbatas untuk bertahan adalah sistem yang secara definitif tidak sustainable. Ini bukan prediksi politik melainkan implikasi matematis langsung dari data demografis.
+The energy input for repression has no upper bound. It rises without limit. A system that requires unbounded input to survive is, by definition, not sustainable. This isn't a political prediction. It's a direct mathematical implication of the demographic data.
 
-Reinforcing feedback loop-nya itu bisa direpresentasikan sebagai sistem persamaan diferensial sederhana:
+The reinforcing feedback loop can be represented as a simple system of differential equations.
 
-_d(Represi)/dt = α · Resistensi, d(Resistensi)/dt = β · Represi_
+_d(Repression)/dt = α · Resistance, d(Resistance)/dt = β · Repression_
 
-di mana _α, β > 0_. Sistemnya tidak punya fixed point yang stabil selain collapse total, eigenvalue-nya positif, artinya solusinya divergen, bukan konvergen.
+where _α, β > 0_. The system has no stable fixed point other than total collapse. The eigenvalues are positive, which means the solution diverges, not converges.
 
-Kembali ke "asuransi eksistensial" di paragraf sebelumnya: kebutuhan yang legitimate, lokasi fisik yang bisa dipertahankan sebagai asuransi eksistensial, justru tidak terpenuhi oleh ethno-state yang sedang berada dalam umpan balik menuju keruntuhan. Ethno-state dengan demografi 50:50 itu lebih sulit dipertahankan, bukan lebih mudah. Asuransi eksistensial yang genuine membutuhkan sistem yang stabil, dan itu, setidaknya menurut analisis ini, hanya bisa datang dari constitutional hard guarantees yang melindungi kedua komunitas, bukan dari represi yang _dσ/dt > 0_-nya tanpa batas atas.
+Back to "existential insurance" from a few paragraphs ago. The legitimate need (a defensible physical location as existential insurance) is exactly what an ethno-state caught in a reinforcing feedback loop toward collapse fails to deliver. An ethno-state with 50/50 demographics is _less_ defensible, not more. Genuine existential insurance requires a stable system. And the only path to stability, at least under this analysis, comes from constitutional hard guarantees protecting both communities, not from repression whose _dσ/dt > 0_ has no upper bound.
 
-The Logical Consistency Problem. Ada juga masalah logis yang sering terlewat dan menurut saya layak direnungkan.
+**The Logical Consistency Problem**
 
-Argumen utama Zionisme adalah bangsa Yahudi, sebagai kelompok yang telah mengalami persekusi panjang, therefore mereka berhak atas self-determination di tanah leluhur mereka. Argumen yang berangkat dari pengalaman mereka tidak ingin saya invalidasi. Tapi kita perlu menerapkan universalizability test ala Kant, apakah, whether or not, prinsip ini bisa dijadikan universal tanpa kontradiksi?
+There is also a logical problem that often gets missed, and I think it's worth sitting with.
 
-Menurut analisis saya, tidak. Karena populasi Arab Palestina, yang juga telah ada di wilayah yang sama selama berabad-abad, secara struktural punya klaim yang identik. Mengakui hak penentuan nasib sendiri satu kelompok sambil menolak hak yang sama untuk kelompok lain dengan situasi yang secara struktural identik adalah kontradiksi logis, bukan argumen yang koheren.
+The main Zionist argument. The Jewish people, as a group that has experienced long persecution, are entitled to self-determination on their ancestral land.
 
-Kalau ditulis dalam logika formal, pendefinisiannya sebagai berikut:
+An argument that starts from their experience, I don't want to invalidate that. But we need to apply the Kantian universalisability test. Can this principle be universalised without contradiction?
 
-_P(x) = "kelompok x mengalami persekusi panjang"_
+By my reading, no.
 
-_H(x) = "kelompok x punya klaim historis atas wilayah tersebut"_
+Because the Palestinian Arab population, which has also been in the same territory for centuries, has a structurally identical claim. Acknowledging the right of self-determination for one group while denying the same right to another group in a structurally identical situation is a logical contradiction, not a coherent argument.
 
-_S(x) = "kelompok x punya hak self-determination atas wilayah tersebut"_
+Written in formal logic, the definitions are these.
 
-Premis Zionis (mereka sendiri yang assert):
+_P(x)_ = "group x has experienced long persecution"
 
-_Pr𝓏: P(Jews) ∧ H(Jews) → S(Jews)_
+_H(x)_ = "group x has a historical claim to the territory"
 
-Sekarang kita coba universalizability test ala Kant, kalau prinsip ini valid, ini harus bisa dijadikan universal:
+_S(x)_ = "group x has a right to self-determination on the territory"
 
-_Universalized: ∀x [P(x) ∧ H(x) → S(x)]_
+The Zionist premise, which they assert themselves, is
 
-Masukkan data empiris:
+_Pr_𝓏 _. P(Jews) ∧ H(Jews) → S(Jews)_
 
-_P(Palestinians), empirically true: 1948 Nakba & 57 years occupation_
+Now apply the Kantian universalisability test. If this principle is valid, it has to be universalisable.
 
-_H(Palestinians), empirically true: continuous presence for centuries, millenniums even_
+_Universalised. ∀x [P(x) ∧ H(x) → S(x)]_
 
-Dengan modus ponens:
+Plug in the empirical data.
+
+_P(Palestinians)_, empirically true, 1948 Nakba and 57 years of occupation.
+
+_H(Palestinians)_, empirically true, continuous presence for centuries, millennia even.
+
+By modus ponens,
 
 _∀x [P(x) ∧ H(x) → S(x)], P(Pal) ∧ H(Pal) ⊢ S(Palestinians)_
 
-Tapi Zionisme secara bersamaan assert:
+But Zionism simultaneously asserts
 
-_Pr𝓏: ¬S(Palestinians)_
+_Pr_𝓏 _. ¬S(Palestinians)_
 
-Dan inilah kontradiksinya:
+And there is the contradiction.
 
 _S(Palestinians) ∧ ¬S(Palestinians) ⊢ ⊥_
 
-⊥ adalah notasi kontradiksi logis di mana sistem yang menghasilkan ⊥ secara definitif tidak konsisten dan gugur. Again, ini bukan soal moral atau empati tapi soal Zionisme sebagai prinsip universal yang menghasilkan kontradiksi formal.
+⊥ is the logic notation for contradiction. A system that produces ⊥ is, by definition, inconsistent and collapses. This isn't about morality or empathy. It's about Zionism, as a universal principle, producing a formal contradiction.
 
-Counterargument yang sering muncul: situasi historisnya beda, klaimnya tidak apple-to-apple. Respons saya: ya hal tersebut tidak membantah universalizability test, itu cuma mengusulkan bahwa _P_ dan _H_ perlu didefinisikan ulang dengan kondisi tambahan. Tapi kalau kamu menambahkan kondisi supaya hanya orang Yahudi yang memenuhi syarat, yang sedang kamu lakukan adalah ad hoc modification, menambahkan asumsi ekstra bukan untuk alasan logis, tapi untuk menyelamatkan kesimpulan yang memang sudah diinginkan sejak awal. Sebuah prinsip yang hanya bekerja untuk satu kasus bukanlah prinsip tapi pengecualian yang menyamar.
+A common counterargument. "The historical situation is different. The claims aren't apple to apple."
+
+My response. That doesn't refute the universalisability test. It proposes that _P_ and _H_ need to be redefined with additional conditions. But if you add conditions so that only Jews qualify, what you're doing is ad-hoc modification. Adding extra assumptions not for logical reasons but to save a conclusion you wanted from the beginning. A principle that only works for one case isn't a principle. It's an exception in disguise.
 
 _Quod erat demonstrandum._
 
 ## III.
 
-{{< figure src="/palestine-media/image4.png" alt="One Democratic State Campaign, Palestinian-led campaign Against Zionist Israel Government" caption="One Democratic State Campaign, Palestinian-led campaign Against Zionist Israel Government" >}}
+{{< figure src="/palestine-media/image4.png" alt="One Democratic State Campaign" caption="One Democratic State Campaign, Palestinian-led campaign against the Zionist Israeli government." >}}
 
-**Two-state: banyak asumsinya, tipis probabilitasnya.**
+**Two-State. Many Assumptions, Thin Probability.**
 
-Argumen terkuatnya two-state: bahkan kalau infrastruktur sudah entangled, pemisahan politik bisa dilakukan secara bertahap, lihat Cekoslowakia yang pecah jadi Republik Ceko dan Slovakia pada 1993 tanpa pertumpahan darah. Ini preseden yang riil dan sering dipakai. Respons saya: Velvet Divorce berhasil karena dua kondisi yang tidak ada di sini, yaitu kedua pihak secara aktif menginginkan pemisahan, dan tidak ada populasi 700.000 pemukim ilegal dari satu pihak yang sudah tertanam di wilayah pihak lain. Tanpa dua kondisi itu, analogi Cekoslowakia runtuh.
+The strongest version. "Even if infrastructure is entangled, political separation can be done in stages. Look at Czechoslovakia, which split into the Czech Republic and Slovakia in 1993 without bloodshed." That precedent is real and often invoked.
 
-Masalah Compounding Assumptions. Occam's Razor memberi kita alat berpikir, di antara dua hipotesis yang sama-sama bisa menjelaskan realitas, pilih yang paling sedikit membutuhkan asumsi. Bukan karena yang sederhana selalu benar, tapi karena setiap asumsi tambahan adalah sumber galat tambahan.
+My response. The Velvet Divorce worked because two conditions existed there that don't exist here. Both sides actively wanted separation, AND there was no population of 700,000 illegal settlers from one side already embedded inside the other side's territory. Without those two conditions, the Czechoslovakia analogy collapses.
 
-Solusi two-state membutuhkan asumsi-asumsi di bawah ini secara bersamaan:
+**The Compounding Assumptions Problem**
 
-- A₁: lebih dari 700.000 pemukim ilegal Israel di West Bank bisa direlokasi atau menerima kewarganegaraan Palestina secara damai.
+Occam's Razor gives us a tool. Between two hypotheses that can both explain reality, pick the one that requires fewer assumptions.
 
-- A₂: sistem air, jalan raya, dan jaringan listrik yang sudah entangled 57 tahun bisa di-disentangle secara logistis.
+Not because the simple one is always right, but because every additional assumption is another source of error.
 
-- A₃: Gaza (di bawah Hamas) dan West Bank (di bawah Fatah) bisa berfungsi sebagai satu entitas negara yang koheren.
+The two-state solution requires all of the following assumptions to hold simultaneously.
 
-- A₄: kedua ekonomi yang terpisah bisa berdiri tanpa saling menyabotase dalam periode transisi.
+- A₁. The more than 700,000 illegal Israeli settlers in the West Bank can be relocated, or can accept Palestinian citizenship, peacefully.
 
-- A₅: ada political will dari kedua pihak yang cukup untuk execute semua hal di atas secara bersamaan.
+- A₂. The water systems, road network, and electric grid that have been entangled for 57 years can be logistically disentangled.
 
-Sekarang, bahkan jika kita murah hati dan memberi setiap asumsi probabilitas keberhasilan 70%, yang sudah sangat optimistis, probabilitas kumulatif semua asumsi terpenuhi secara bersamaan adalah:
+- A₃. Gaza (under Hamas) and the West Bank (under Fatah) can function as one coherent state entity.
 
-P(two-state berhasil) = 0,7⁵ = 0,168 ≈ 17%
+- A₄. Two separate economies can stand on their own without sabotaging each other during the transition.
 
-Secara intuitif orang sering menghitung ini sebagai 0,7⁵ = 17%, tapi itu sebenarnya mengandung error statistik karena mengasumsikan A₁ sampai A₅ saling independen, padahal mereka punya korelasi positif. Framing yang lebih tepat begini. Meminjam perkataan Taleb, setiap asumsi di atas adalah single point of failure. Bayangkan sebuah rantai dengan lima mata rantai kritis, tidak perlu semuanya putus untuk gagal, cukup satu saja. Dan kalau kamu bertanya mata rantai mana yang paling lemah, A₁ saja sudah cukup. Lebih dari 700.000 pemukim ilegal Israel yang sudah punya jalan, air, listrik, dan internet yang terintegrasi ke sistem Israel, ini bukan soal political will lagi, ini sudah menyangkut masalah infrastruktur. Belum ada preseden dalam sejarah modern di mana pemukiman sekompleks dan sebesar ini berhasil di-disentangle secara damai.
+- A₅. There is enough political will on both sides to execute all of the above simultaneously.
 
-Secara formal, definisikan _S_ = peristiwa "two-state berhasil". Therefore:
+Even if we are generous and assign each assumption a 70% success probability (which is already very optimistic), the cumulative probability of all of them holding together is
+
+**P(two-state succeeds) = 0.7⁵ = 0.168 ≈ 17%**
+
+Intuitively people calculate this as 0.7⁵ = 17%, but that contains a statistical error. It assumes A₁ through A₅ are independent, when in fact they are positively correlated. A more precise framing.
+
+Borrowing Taleb, every assumption above is a single point of failure. Picture a chain with five critical links. You don't need all of them to break for failure. One is enough. And if you ask which link is weakest, A₁ alone is sufficient. More than 700,000 illegal Israeli settlers already have roads, water, electricity, and internet integrated into the Israeli system. This is no longer a question of political will. This is an infrastructure problem. There is no precedent in modern history where a settlement this complex and this large has been peacefully disentangled.
+
+Formally, define _S_ as the event "two-state succeeds". So
 
 _S ≡ A₁ ∧ A₂ ∧ A₃ ∧ A₄ ∧ A₅_
 
-Ini conjunctive necessary condition bahwa semua asumsi harus terpenuhi secara bersamaan. Artinya:
+This is a conjunctive necessary condition. All assumptions have to hold simultaneously. Which means
 
-_¬Aᵢ ⊢ ¬S untuk setiap i ∈ {1,2,3,4,5}_
+_¬Aᵢ ⊢ ¬S for any i ∈ {1,2,3,4,5}_
 
-Setiap Aᵢ adalah necessary condition, dan kegagalan satu saja sufficient untuk menggagalkan keseluruhan. Dari sini terlihat bahwa ini bukan probability multiplication tapi logika kondisi yang jauh lebih ketat. Kamu tidak perlu tahu probabilitas masing-masing, cukup tunjukkan bahwa satu kondisi saja sudah tidak terpenuhi, dan argumennya selesai.
+Every Aᵢ is a necessary condition. Failure of any one is sufficient to fail the whole. This isn't probability multiplication. It's a much stricter logical condition. You don't even need to know the probability of each. You only need to show that one condition isn't met, and the argument is finished.
 
-Dan untuk A₁: merelokasi atau mengintegrasikan 700.000 pemukim yang sudah tertanam adalah kondisi yang, berdasarkan seluruh base rate historis yang ada, belum pernah berhasil dilakukan dalam konteks serupa.
+And for A₁, relocating or integrating 700,000 embedded settlers is a condition that, by all available historical base rates, has never been successfully done in a comparable context.
 
 _∴ ¬A₁_
 
 _∴ ¬S._
 
-Ini bukan pesimisme ideologis. Ini base rate thinking yang mendasar dan pembuktian logika formal saja.
+This isn't ideological pessimism. It's basic base-rate thinking, plus a formal proof.
 
-Tapi bagaimana dengan confederation model? Maksudmu dua sovereign state dengan shared institutions dan open borders? Opsi ini sering diajukan sebagai alternatif keempat. Tapi secara fungsional, Confederation dengan shared institutions yang cukup dalam adalah one-state dengan extra bureaucratic layers. Kalau institusinya cukup lemah untuk preserve full sovereignty, kita kembali lagi ke two-state dengan semua failure modes-nya. Confederation bukan titik tengah yang stabil, menurut hemat saya, ini cuma unstable equilibrium yang akan converge ke salah satu dari dua ujungnya. Disjunction tetap exhaustive.
+**But, the Confederation Model?**
+
+Meaning two sovereign states with shared institutions and open borders. This is often proposed as a fourth alternative. Functionally, a confederation with sufficiently deep shared institutions is a one-state with extra bureaucratic layers. If the institutions are weak enough to preserve full sovereignty, we are back to two-state with all the same failure modes. A confederation isn't a stable midpoint. As far as I can see, it's an unstable equilibrium that converges to one of the two endpoints. The disjunction remains exhaustive.
 
 ## IV.
 
 {{< figure src="/palestine-media/image5.png" >}}
 
-Ini bagian yang paling saya khawatirin, dan mungkin kamu juga khawatir tentang saya, bahwa saya kedengeran kayak orang yang terlalu obsessed sama game theory dan lupa bahwa di lapangan ada orang yang kehilangan keluarganya, bahwa saya nggak punya skin in the game.
+This is the part I'm most nervous about, and you might also be worried about me. That I sound like someone who got too excited about game theory and forgot that real people are losing their families on the ground. That I have no skin in the game.
 
-Saya sadar akan itu. Saya merasa sedih, dan saya ngelakuin apa yang bisa saya lakukan. Justru karena itu saya pikir analisis struktural kayak gini jadi penting, bukan buat ngegantiin empati, tapi buat ngejelasin kenapa empati saja nggak cukup. Orang-orang di kedua sisi konflik ini bukan nggak mau damai. Masalahnya, sistem nggak ngasih ruang buat itu. Dan itu yang harus diubah.
+I'm aware of that. I feel sad. I'm doing what I can. And it's precisely because of that that I think structural analysis like this matters. Not to replace empathy, but to explain why empathy alone is not enough.
 
-Meminjam frasa yang biasa dipakai Scott Alexander di SSC/ACX, kita sering berada dalam perangkap Moloch, yang dalam game theory kita kenal sebagai jebakan multipolar.
+People on both sides of this conflict don't refuse peace. The problem is that the system doesn't give them room for it. That is what has to change.
 
-Iterated Prisoner’s Dilemma. Situasi saat ini, setidaknya menurut saya, bisa dimodelkan cukup akurat dengan Iterated Prisoner’s Dilemma, salah satu framework yang paling powerful dalam game throy. Setup-nya adalah dua pemain, dua pilihan (cooperate atau defect), dan payoff matrix-nya kurang lebih seperti ini.
+Borrowing a phrase Scott Alexander uses often at SSC / ACX, we are stuck inside the Moloch trap. In game theory we call it the multipolar trap.
 
-{{< figure src="/palestine-media/image6.png" alt="Payoff Matrix Table (writer’s)" caption="Payoff Matrix Table (writer’s)" >}}
+**Iterated Prisoner's Dilemma**
 
-Angka-angka di atas merepresentasikan utility, makin tinggi, makin menguntungkan. Ideal outcome untuk kedua pihak ada di (3,3), keduanya bekerja sama, keduanya untung. Tapi perhatikan strukturnya. Apa pun yang B lakukan, A selalu lebih untung kalau defect. Kalau B cooperate, A dapat 5 (defect) berbanding 3 (cooperate). Kalau B defect, A dapat 1 (defect) berbanding 0 (cooperate). Defect selalu mendominasi cooperate, inilah yang disebut dominant strategy.
+The current situation, at least as I read it, can be modelled fairly accurately as an Iterated Prisoner's Dilemma, one of the most powerful frameworks in game theory.
 
-Karena logika ini berlaku simetris untuk kedua pihak, Nash equilibrium dari permainan ini ada di titik (1,1), keduanya terus defect, keduanya terus rugi. Bukan karena mereka bodoh atau jahat, tapi karena itu respons rasional terhadap struktur insentif yang ada. Ini yang saya pikir cukup mirip situasi Israel-Palestina hari ini. Kalau kita reduksi, kekerasan dan represi adalah dominant strategy bukan karena kedua pihak "tidak mau damai", tapi karena dalam struktur permainan yang sekarang, cooperate sepihak berarti existential vulnerability.
+The setup. Two players. Two choices (cooperate or defect). The payoff matrix looks roughly like this.
 
-{{< figure src="/palestine-media/image7.png" alt="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" caption="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" >}}
+{{< figure src="/palestine-media/image6.png" alt="Payoff Matrix Table" caption="Payoff Matrix Table (writer's)" >}}
 
-One-state changes the game itself. Solusinya bukan membujuk pemain untuk "lebih baik hati", melainkan mengubah struktur payoff matrix-nya itu sendiri. One-state melakukan persis itu. Ketika kedua kelompok menjadi satu entitas legal-konstitusional, struktur insentifnya berubah secara fundamental.
+The numbers represent utility. The higher the better. The ideal outcome for both sides is (3, 3), both cooperate, both win. But look at the structure.
 
-Sabotase ekonomi terhadap kelompok lain menjadi sabotase terhadap diri sendiri, karena mereka kini berada dalam satu jaringan pajak, rantai pasok, dan pasar tenaga kerja yang sama. Ekstremisme politik menjadi tidak rasional secara elektoral, karena untuk menang mayoritas parlemen, setiap partai harus meraih suara cross-ethnic, sistem memaksa moderation bukan lewat pegangan moral tapi lewat self-interest. Terorisme kehilangan kalkulasi rasionalnya karena target dan pelaku sekarang berada dalam satu sistem hukum dan ekonomi yang sama, therefore, blowback-nya simetris.
+Whatever B does, A is always better off defecting. If B cooperates, A gets 5 (defect) versus 3 (cooperate). If B defects, A gets 1 (defect) versus 0 (cooperate). Defect always dominates cooperate. This is what game theory calls a dominant strategy.
 
-Dalam incentive design, konsep ini bisa disebut preference alignment: sistem sengaja dirancang sedemikian rupa sehingga kepentingan individu otomatis sejalan dengan kepentingan kolektif. Prinsipnya sama seperti perusahaan yang memberi call option kepada direksi supaya kepentingan mereka dan perusahaan align. Hasilnya adalah Mutual Assured Construction, seperti Mutual Assured Destruction tapi arahnya terbalik. Bukan "kalau kamu hancur saya juga hancur, jadi kita tidak usah perang", tapi "kalau kamu maju saya juga maju, jadi kita punya insentif untuk bekerja sama".
+Because the logic is symmetric for both sides, the Nash equilibrium sits at (1, 1). Both sides keep defecting. Both sides keep losing. Not because they are stupid or evil, but because that's the rational response to the present incentive structure.
+
+This is, I think, fairly close to where Israel and Palestine sit today. Reduced to its skeleton, violence and repression are the dominant strategy not because either side "doesn't want peace", but because under the current game, unilateral cooperation means existential vulnerability.
+
+{{< figure src="/palestine-media/image7.png" alt="Meditations on Moloch" caption="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" >}}
+
+**One-State Changes the Game Itself**
+
+The solution isn't to persuade the players to "be nicer". The solution is to change the structure of the payoff matrix itself.
+
+One-state does precisely that. When both groups become a single legal-constitutional entity, the incentive structure changes fundamentally.
+
+Economic sabotage against the other group becomes sabotage against yourself, because they are now inside the same tax network, supply chain, and labour market.
+
+Political extremism becomes electorally irrational. To win a parliamentary majority, every party has to win cross-ethnic votes. The system forces moderation through self-interest, not through moral persuasion.
+
+Terrorism loses its rational calculus, because target and perpetrator now sit inside the same legal and economic system. The blowback is symmetric.
+
+In incentive design, this is called preference alignment. The system is deliberately structured so that individual interests automatically line up with collective ones. The principle is the same as giving directors call options so that their interests align with the company's.
+
+The result is what I'd call Mutual Assured Construction. Like Mutual Assured Destruction but reversed. Not "if you collapse I collapse so we don't fight", but "if you rise I rise, so we have a reason to cooperate".
 
 ## V.
 
-{{< figure src="/palestine-media/image8.jpeg" alt="Bayes Theorem visualized" caption="Bayes Theorem visualized" >}}
+{{< figure src="/palestine-media/image8.jpeg" alt="Bayes Theorem" caption="Bayes Theorem visualised" >}}
 
-Demografi adalah likelihood, bukan opini. Bayesian Reasoning pada dasarnya begini: kita punya keyakinan awal, lalu kita perbarui keyakinan itu berdasarkan likelihood dari data yang masuk.
+**Demographics Are a Likelihood, Not an Opinion**
 
-Prior kita: ethno-state bisa dipertahankan dalam jangka panjang. Likelihood dari data demografis: populasi 50:50 dengan tingkat pertumbuhan Arab Palestina yang lebih tinggi secara konsisten. Artinya, setiap dekade yang berlalu, mempertahankan ethno-state membutuhkan represi yang makin intensif. Tren ini monotically increasing, tidak ada reversal tanpa intervensi ekstrem. Posterior setelah diperbarui: probabilitas ethno-state bisa dipertahankan jangka panjang tanpa apartheid atau ethnic cleansing sangat rendah, mendekati nol.
+Bayesian reasoning, at the most basic level, goes like this. You have a prior belief. You update that belief based on the likelihood of incoming data.
 
-**Realitas de facto di lapangan.**
+Our prior. "An ethno-state can be sustained in the long run."
 
-{{< figure src="/palestine-media/image9.jpeg" alt="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" caption="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" >}}
+The likelihood from the demographic data. A 50/50 population with the Palestinian Arab growth rate consistently higher. Which means every decade that passes, sustaining the ethno-state requires increasingly intense repression. The trend is monotonically increasing. There is no natural reversal point without extreme intervention.
 
-Lebih dari 700.000 pemukim Israel di West Bank bukan angka politis tapi realitas infrastruktur. Jalan raya, sistem pengairan, jaringan listrik, dan internet di West Bank sudah entangled ke sistem Israel. Secara fisik, one-state de facto sudah ada sejak beberapa dekade lalu. Yang belum ada hanya bentuk de jure-nya, pengakuan legal-formal dan konstitusional. Two-state bukan melanjutkan status quo, tapi membalikkan realitas yang sudah ada. Dan probabilitas membalikkan infrastruktur sekompleks itu dalam iklim politik sekarang, bahkan setelah bersikap generous, mendekati nol, seperti yang sudah dihitung di atas.
+Posterior belief after the update. The probability that an ethno-state can be sustained in the long run without apartheid or ethnic cleansing is very low, close to zero.
 
-**Historical base rate.**
+**De Facto Reality on the Ground**
 
-{{< figure src="/palestine-media/image10.jpeg" alt="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" caption="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" >}}
+{{< figure src="/palestine-media/image9.jpeg" alt="Israeli settlers from Yitzhar" caption="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones at Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" >}}
 
-Dua kasus yang menurut saya paling relevan. Afrika Selatan (1994): transisi dari ethno-state apartheid ke one-state demokratis membuktikan bahwa integrasi konstitusional bisa menghentikan konflik eksistensial. Apakah hasilnya sudah sempurna? Jujur saja, jauh dari itu, ketimpangan ekonomi masih masif, tingkat kejahatan tinggi, dan beberapa indikator menunjukkan fragility negara yang concerning. Point stands, anyway.
+The 700,000-plus Israeli settlers in the West Bank are not a political figure. They are an infrastructure reality. Roads, water systems, electric grid, internet in the West Bank have all been integrated into the Israeli system. Physically, the de facto one-state has existed for several decades. What's missing is only the de jure version. The formal legal and constitutional recognition.
 
-Northern Ireland, Good Friday Agreement (1998): konflik antara Katolik-Nasionalis dan Protestan-Unionis yang berlangsung berabad-abad diselesaikan bukan dengan memisahkan wilayah secara fisik, tapi dengan power-sharing konstitusional yang terjamin secara legal. Konflik identitas ternyata jauh lebih efektif diselesaikan dengan integrasi institusional daripada separasi geografis. Base rate historisnya: model integrasi demokrasi punya rekam jejak yang lebih baik dalam menghentikan konflik eksistensial dibanding pemisahan. Memang bukan jaminan, tapi dalam konteks Bayesian Reasoning, ini prior yang kuat.
+The two-state solution isn't continuing the status quo. It's reversing a reality that has already taken shape. The probability of reversing infrastructure this complex in the current political climate, even after being generous, is close to zero, as calculated above.
+
+**Historical Base Rate**
+
+{{< figure src="/palestine-media/image10.jpeg" alt="Good Friday Agreement" caption="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" >}}
+
+The two cases I find most relevant are these.
+
+South Africa (1994). The transition from an apartheid ethno-state to a democratic one-state proved that constitutional integration can stop an existential conflict. Was the outcome perfect? Honestly, far from it. Economic inequality is still massive, crime rates are high, and several indicators show a concerning state fragility. But the point stands.
+
+Northern Ireland, the Good Friday Agreement (1998). A conflict between Catholic-Nationalists and Protestant-Unionists that had run for centuries was resolved not by physical separation of territory but by constitutional power-sharing. Legally guaranteed distribution of power. Identity conflict, it turned out, is far more effectively resolved by institutional integration than by geographic partition.
+
+Historical base rate. Democratic-integration models have a better track record at stopping existential conflict than partition does. Not a guarantee, but in the Bayesian sense, a strong prior.
 
 ## VI.
 
-{{< figure src="/palestine-media/image11.png" alt="Types of Boundary Conditions are from Wolfram Math" caption="Types of Boundary Conditions are from Wolfram Math" >}}
+{{< figure src="/palestine-media/image11.png" alt="Boundary Conditions" caption="Types of Boundary Conditions are from Wolfram Math" >}}
 
-Boundary Conditions, supaya tidak jadi Yugoslavia 2.0. One-state bukan silver bullet yang otomatis berhasil. Kalau kamu pernah belajar kimia pasti paham bahwa reaksi kimia membutuhkan kondisi tertentu untuk berjalan. Ada hard constraints yang kalau tidak dipenuhi akan membuat sistem ini kolaps jadi versi lain dari konflik yang sama.
+**Boundary Conditions, So It Doesn't Become Yugoslavia 2.0**
 
-{{< figure src="/palestine-media/image12.jpeg" alt="Superpower Country, Yugoslavia, to a non-existing one" caption="Superpower Country, Yugoslavia, to a non-existing one" >}}
+One-state isn't a silver bullet that automatically works. If you've taken chemistry, you know that a reaction requires certain conditions to run. There are hard constraints that, if violated, will make the system collapse into another version of the same conflict.
 
-Satu, konstitusi sekuler yang super-rigid. Agama dan etnis harus completely decoupled dari hak kenegaraan. Bukan "negara yang toleran terhadap agama", tapi negara yang secara konstitusional blind terhadap identitas etnis dan agama dalam hal hak sipil, hak politik, dan hak properti. Ini non-negotiable. Tanpa ini mayoritas demografis apa pun akan mendominasi minoritas dan kita kembali ke zero-sum game.
+{{< figure src="/palestine-media/image12.jpeg" alt="Yugoslavia" caption="Superpower country, Yugoslavia, to a non-existing one" >}}
 
-Dua, monopoli kekerasan oleh negara yang terintegrasi. Joint security forces, militer dan kepolisian yang komposisinya campuran, idealnya di bawah pengawasan pihak ketiga internasional pada satu sampai dua dekade pertama, atau setidaknya ada dewan pengawas. Vacuum of power dalam periode transisi adalah kondisi paling berbahaya karena akan diisi oleh aktor paling ekstrem dari kedua sisi.
+**One. A Super-Rigid Secular Constitution.**
 
-Tiga, konversi konflik historis ke bahasa ekonomi. Right of return untuk pengungsi Palestina yang kalau diartikan sebagai perpindahan fisik massal akan menciptakan zero-sum game baru yang persis sama dengan yang selama ini coba diselesaikan. Solusinya adalah, artikan ke bahasa ekonomi saja, misal, reparasi properti yang ekonomis. Kompensasi finansial yang terdokumentasi. Bukan pengusiran ulang yang akan memicu siklus berikutnya. Ini mengonversi konflik identitas menjadi transaksi yang terbatas dan bisa diselesaikan.
+Religion and ethnicity have to be completely decoupled from political rights. Not "a state that is tolerant of religion", but a state that is constitutionally blind to ethnic and religious identity when it comes to civil, political, and property rights. This is non-negotiable. Without it, any demographic majority will dominate the minority, and we are back to a zero-sum game.
 
-Tapi bagaimana dengan Lebanon?
+**Two. The Integrated State's Monopoly on Violence.**
 
-{{< figure src="/palestine-media/image13.jpeg" alt="Lebanon Civil War circa 1975–1990 photographed by © Raymond Depardon/Magnum Photos" caption="Lebanon Civil War circa 1975–1990 photographed by © Raymond Depardon/Magnum Photos" >}}
+Joint security forces. Mixed-composition military and police. Ideally with third-party international oversight for the first one to two decades, or at minimum a commissioner-like oversight board. A power vacuum during the transition is the most dangerous condition, because it will be filled by the most extreme actors from both sides.
 
-Pertanyaan yang sangat fair. Di permukaan, secara konstitusional Lebanon memang mirip dengan apa yang saya usulkan: multi-community, satu negara, power-sharing. Dan hasilnya? 15 tahun civil war, state collapse berulang, dan sekarang dalam kondisi yang sangat rapuh.
+**Three. Convert Historical Conflict into Economic Language.**
 
-Tapi ini bukan bantahan terhadap one-state. Ini justru bukti empiris bahwa boundary condition nomor satu di atas bukan opsional. Lebanon gagal bukan karena one-state, tapi karena sistem confessionalism-nya yang mengodifikasi identitas sektarian langsung ke dalam konstitusi, kursi parlemen dibagi berdasarkan agama, jabatan eksekutif dibagi berdasarkan etnis, secara permanen dan rigid. Lebanon bukan one-state sekuler. Lebanon adalah one-state yang arsitekturnya justru amplifying identitas komunal sebagai basis kekuasaan, persis kebalikan dari yang saya argumentasikan. Lebanon bukan refutation terhadap one-state. Lebanon adalah case study tentang apa yang terjadi kalau boundary condition nomor satu dilanggar. Justru Lebanon memperkuat argumen, bukan membantah.
+The right of return for Palestinian refugees, if interpreted as mass physical relocation, creates a new zero-sum game identical to the one we are trying to fix. The solution is to convert it into economic language. Economic property reparations. Documented financial compensation, not a fresh round of displacement that would trigger the next cycle. This turns identity conflict into a finite, solvable transaction.
+
+**But What About Lebanon?**
+
+{{< figure src="/palestine-media/image13.jpeg" alt="Lebanon Civil War" caption="Lebanon Civil War circa 1975–1990, photographed by © Raymond Depardon / Magnum Photos" >}}
+
+A very fair question. Lebanon, constitutionally, looks similar on the surface to what I'm proposing. Multi-community, one state, power-sharing. The result? Fifteen years of civil war, repeated state collapse, and a very fragile present.
+
+But this isn't a counterargument to one-state. It's empirical evidence that boundary condition one above isn't optional.
+
+Lebanon failed not because it was a one-state, but because its confessionalism codifies sectarian identity directly into the constitution. Parliamentary seats are divided by religion. Executive positions are divided by ethnicity. Permanently and rigidly. That isn't a secular one-state. That's a one-state whose architecture actively amplifies communal identity as the basis of power. The opposite of what I'm arguing.
+
+Lebanon isn't a refutation of one-state. Lebanon is a case study of what happens when boundary condition one is violated. It strengthens the argument, not the other way around.
 
 ## VII.
 
-{{< figure src="/palestine-media/image14.jpeg" alt="UN officials wait to inspect wounded man shot by Israeli forces as he was trying to return the north of the city through Salahaddin Road during four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." caption="UN officials wait to inspect wounded man shot by Israeli forces as he was trying to return the north of the city through Salahaddin Road during four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." >}}
+{{< figure src="/palestine-media/image14.jpeg" alt="Salahaddin Road, Gaza" caption="UN officials wait to inspect a wounded man shot by Israeli forces while trying to return to the north of the city through Salahaddin Road during a four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." >}}
 
-**Transition Problem.** Saya ingin sepenuhnya jujur di sini, mungkin pertanyaan game-theoretic yang paling penting. Dalam Iterated Prisoner’s Dilemma, periode transisi adalah saat kedua pihak punya maximum incentive to defect, justru sebelum sistem baru lock-in dan mengubah payoff matrix-nya. Sebelum constitutional guarantees terasa riil, sebelum joint-security forces membangun otoritas, dan sebelum economic integration menciptakan mutual dependency yang cukup kuat, di situlah jendela periode paling berbahaya.
+**The Transition Problem**
 
-Saya tidak akan berpura-pura punya blueprint teknisnya. Tapi ada satu hal yang logically necessary dari analisis game theory di atas, bahwasannya periode transisi membutuhkan external enforcement mechanism, bukan untuk memerintah, tapi untuk menjadi commitment device yang membuat defecting terlalu costly selama jendela transisi itu. UN Mandate, international guarantor, atau struktur serupa yang tugasnya spesifik dan time-limited.
+I want to be fully honest here. This might be the most important game-theoretic question of all. In an Iterated Prisoner's Dilemma, the transition period is when both sides have maximum incentive to defect. Precisely _before_ the new system locks in and changes the payoff matrix. Before constitutional guarantees feel real, before joint security forces have built authority, and before economic integration has produced enough mutual dependency. That window is the most dangerous one.
 
-Ini juga bukan argumen against one-state, lebih ke how, bukan whether. Dan ini persis yang ditulis untuk di-address oleh boundary condition nomor dua di atas. Saya secara terbuka mengakui bahwa ini titik paling lemah dari argumen saya pada sisi implementasi, tapi kelemahan implementasi bukan argumen bahwa opsi lain lebih baik, terutama ketika opsi lain sudah terbukti tidak feasible secara struktural.
+I'm not going to pretend I have the technical blueprint. But there is one thing that is logically necessary from the game-theory analysis above. The transition period requires an external enforcement mechanism. Not to rule, but to act as a commitment device that makes defection too costly during that window. A UN mandate, an international guarantor, or a similar structure with a specific and time-limited mandate.
+
+This isn't an argument against one-state. It's an argument about how, not whether. And it's exactly the issue boundary condition two above is written to address. I openly admit this is the weakest point of the argument on the implementation side. But a weakness in implementation isn't an argument that another option is better, especially when those other options have already been shown to be structurally infeasible.
 
 ## VIII.
 
-{{< figure src="/palestine-media/image15.jpeg" alt="xkcd: Car Size" caption="<a href=&quot;https://xkcd.com/3167/&quot;>xkcd: Car Size</a>" >}}
+{{< figure src="/palestine-media/image15.jpeg" alt="xkcd Car Size" caption="<a href=&quot;https://xkcd.com/3167/&quot;>xkcd: Car Size</a>" >}}
 
-One-state sering dicap utopis oleh kedua sisi sekaligus, atau terlalu "anti-Zionis" dari sisi Israel dan Barat. Tapi framing itu, menurut saya, melewatkan inti argumen. Saya tegaskan kembali, semua argumen saya bukan argumen moral, melainkan process of elimination.
+One-state is often called utopian by both sides at once. Or too "anti-Zionist" from the Israeli and Western side. That framing misses the point of the argument.
 
-Secara a priori, ethno-state gagal universalizability test dan melawan prinsip sustainable systems. Two-state gugur karena compounding probability dari terlalu banyak asumsi yang harus terpenuhi bersamaan. Keberadaan negara Israel yang di-drive ide Zionisme membuat Israel jadi negara yang tidak antifragile dan punya risiko ruin yang cukup besar.
+To restate it. This isn't a moral argument. It's a process of elimination.
 
-Secara a posteriori, demografi 50:50, lebih dari 700.000 pemukim Israel yang sudah embedded secara infrastruktur, dan base rate historis dari Afrika Selatan dan Irlandia Utara, semuanya menunjuk ke arah yang sama. Kalau dua opsi sudah dieliminasi secara logis dan empiris, yang tersisa adalah opsi ketiga, bukan karena opsi ketiga sempurna, tapi karena satu-satunya yang tidak ditakdirkan doomed secara struktural sejak awal.
+A priori. The ethno-state fails the universalisability test and breaks the principle of sustainable systems. The two-state solution fails on the compounding probability of too many assumptions that must hold at once. The Israeli state as currently driven by the idea of Zionism is not antifragile, and it carries significant ruin risk.
 
-Dan mungkin memang begitu seharusnya perdamaian berjalan, bukan karena semua orang tiba-tiba jadi baik hati, tapi karena sistem dirancang sedemikian rupa sehingga kekerasan menjadi irasional dan cooperate menjadi satu-satunya pilihan yang masuk akal. Matematika di sini tidak mewajibkan manusia saling mencintai. Matematika di sini hanya memastikan bahwa menghancurkan lawan berarti menghancurkan diri sendiri. Dan terkadang, itu sudah lebih dari cukup.
+A posteriori. A 50/50 demographic. More than 700,000 Israeli settlers embedded in the infrastructure. The historical base rates from South Africa and Northern Ireland. Everything points in the same direction.
 
-Ini biasa disebut struktur Disjunctive Syllogism.
+If two options have already been eliminated logically and empirically, what's left is the third option. Not because the third option is perfect, but because it's the only one not structurally doomed from the start.
 
-_(Exhaustive disjunction): E ∨ T ∨ O_
+Maybe this is how peace actually works. Not because everyone suddenly becomes kind, but because the system is designed so that violence becomes irrational and cooperation becomes the only sensible move.
 
-di mana _E_ = ethno-state, _T_ = two-state, _O_ = One-State Democratic Secular.
+The maths here doesn't require humans to love each other. The maths only ensures that destroying the other side means destroying yourself. And sometimes, that's more than enough.
 
-Dari Bagian II:
+This is what's called Disjunctive Syllogism.
 
-_¬E, Proven: Tidak bisa reach steady state, generates ⊥ via universalizability_
+_(Exhaustive disjunction). E ∨ T ∨ O_
 
-Dari Bagian III:
+where _E_ = ethno-state, _T_ = two-state, _O_ = One-State Democratic Secular.
 
-_¬T, Proven: ¬A₁ ⊢ ¬S, infrastruktur tidak reversible_
+From Section II,
 
-Dengan silogisme disjungtif:
+_¬E. Proven. Cannot reach steady state. Generates ⊥ via universalisability._
+
+From Section III,
+
+_¬T. Proven. ¬A₁ ⊢ ¬S. Infrastructure is not reversible._
+
+By Disjunctive Syllogism,
 
 _E ∨ T ∨ O, ¬E, ¬T ⊢ O_
 
-Ini bentuk inference yang deductively valid, tidak perlu probabilistik maupun induksi. Kalau kamu menerima premis exhaustive disjunction-nya dan kedua negasinya, _O_ follows necessarily.
+This is a deductively valid inference. No probability, no induction required. If you accept the exhaustive disjunction premise and both negations, _O_ follows necessarily.
 
-Bahkan tanpa analisis kelas, tanpa pembuktian-terbalik narasi kolonialis-imperialis, tanpa falsifikasi soal agama, dan tanpa debat kusir perkara moral.
+Without class analysis. Without flipping the colonial-imperialist narrative. Without falsifying religious silliness. Without a moralising shouting match.
 
-One-State Demokratis-Sekuler Palestina adalah solusi yang ketika dianalisis dengan pendekatan matematis tidak runtuh di bawah beban asumsinya sendiri.
+A One-State Democratic-Secular Palestine is the solution that, when analysed mathematically, does not collapse under the weight of its own assumptions.
 
-Kalau kamu mau nolak kesimpulan ini, dan saya beneran terbuka untuk itu, karena saya sangat mungkin salah, ada beberapa jalur yang bisa kamu tempuh. Pertama, tunjukin di mana aksioma saya keliru. Kedua, tunjukin bahwa disjungsinya nggak menyeluruh, bahwa ada opsi lain yang belum saya pertimbangin. Ketiga, tunjukin bahwa _¬E_ atau _¬T_ bisa difalsifikasi, di mana logika berpikir saya cacat. Keempat, tunjukin preseden historis di mana ethno-state dengan rasio demografis 50:50 bisa dipertahankan jangka panjang tanpa apartheid atau pembersihan etnis.
+If you want to reject this conclusion, and I am genuinely open to that because I might well be wrong, there are a few ways you can do it.
 
-Saya nulis ini sebagai orang yang berusaha mikir jernih, bukan sebagai orang yang merasa udah benar. Kalau ada yang bisa nunjukkin kelemahan fundamental dalam argumen ini, saya bakal dengan senang hati merevisi posisi saya. Begitulah seharusnya cara kita berpikir, kan?
+1. Show where my axiom is wrong.
+
+2. Show that the disjunction isn't exhaustive. Show another option I haven't considered.
+
+3. Show that _¬E_ or _¬T_ can be falsified. Show where my logic breaks.
+
+4. Show a historical precedent in which an ethno-state with 50/50 demographics has been sustained in the long run without apartheid or ethnic cleansing.
+
+I'm writing this as someone trying to think clearly, not as someone who thinks he is already right. If you can show a fundamental flaw in the argument, I'll happily revise my position. That's how thinking should work.

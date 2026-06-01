@@ -1,606 +1,616 @@
 ---
-title: "Laki-Laki Lemah"
+title: "Weak Men"
 date: 2026-04-30
 draft: false
-summary: "The Courage to feel Discomfort. Mengapa Lelaki Lemah Adalah Polutan Sistemik, dan Mengapa Itu (Sebagian) Bukan Salah Mereka."
+summary: "The courage to feel discomfort. Why weak men are a systemic pollutant, and why that is (partly) not their fault."
 ---
 
-> **Catatan Epistemik**
+> **Epistemic Note**
 >
-> Tulisan ini upaya mengonsolidasikan beberapa argumen yang tersebar di tulisan-tulisan saya sebelumnya, soal distorsi pasar romansa, soal virtue signalling, soal pornografi, menjadi satu diagnosis yang mudah-mudahan koheren. Saya menulisnya di usia yang belum genap 22, yang berarti saya hampir pasti salah tentang beberapa hal di sini, mungkin hal-hal yang penting. Saya juga menulisnya sebagai orang yang, di berbagai momen hidupnya, pernah menjadi versi dari apa yang saya kritik. Pembaca disarankan memperhitungkan kedua bias itu.
+> This essay tries to consolidate a few arguments scattered across my earlier writing, on the distortion of the romance market, on virtue signalling, on pornography, into a single (hopefully) coherent diagnosis. I'm writing this before I turn 22, which means I am almost certainly wrong about some things here, possibly important ones. I'm also writing this as someone who, at various points in his life, has been a version of what I criticise. Reader, please discount accordingly for both biases.
 >
-> Tulisan ini bukan manifesto men's rights, bukan incel blackpill, bukan ceramah soal "kembali ke kodrat maskulinitas". Kalau kamu datang mencari konfirmasi bahwa perempuan yang salah, kamu salah alamat. Yang saya salahkan di sini, secara eksplisit dan konsisten, adalah laki-laki. Lebih tepatnya, pola perilaku laki-laki yang, secara agregat, merusak hampir semua sistem yang mereka sentuh.
+> This essay is **not** a men's rights manifesto. Not an incel blackpill. Not a sermon about "returning to the natural state of masculinity". If you came here looking for confirmation that women are at fault, you have the wrong address. The thing I'm blaming, explicitly and consistently, is men.
+>
+> More precisely. The patterns of male behaviour that, in aggregate, damage almost every system they touch.
 
-## I.
+# I.
 
-Ada sesuatu yang sedang terjadi pada laki-laki. Bukan dalam pengertian retoris semacam "ada yang salah dengan maskulinitas modern", tapi dalam pengertian yang bisa diukur, dipetakan, dan dihitung kematiannya.
+Something is happening to men. Not in the rhetorical sense ("there is something wrong with modern masculinity") but in a sense that can be measured, mapped, and counted in deaths.
 
-Di Amerika Serikat, laki-laki meninggal karena bunuh diri pada angka hampir empat kali lipat perempuan. Data ini sudah konsisten selama beberapa dekade dan jaraknya tidak menyempit. Deaths of despair, bunuh diri, overdosis, penyakit terkait alkohol, secara tidak proporsional menghantam laki-laki usia produktif, terutama yang tanpa gelar universitas. Anne Case dan Angus Deaton dari Princeton mendokumentasikan ini dengan detail yang menyakitkan.
+In the United States, men die by suicide at a rate almost four times that of women. The data has been consistent for decades and the gap is not closing. Deaths of despair, suicide, overdose, alcohol-related illness, disproportionately strike working-age men, especially men without a university degree. Anne Case and Angus Deaton at Princeton documented this with painful detail.
 
-Di sisi pendidikan, jaraknya kini berjalan ke arah yang mungkin mengejutkan banyak orang. Di hampir setiap negara OECD, perempuan sekarang mengungguli laki-laki di semua level pendidikan. Di AS, perempuan meraih sekitar 60% gelar sarjana dan 63% gelar magister. Di Indonesia, partisipasi perempuan di pendidikan tinggi sudah melampaui laki-laki sejak beberapa tahun lalu. Richard Reeves dari Brookings Institution menulis satu buku penuh tentang ini, _Of Boys and Men_. Reeves bukan konservatif, dia mantan penasihat di pemerintahan Obama.
+On the education side, the gap is now running in a direction that might surprise people. In nearly every OECD country, women now outperform men at every level of education. In the US, women earn about 60% of bachelor's degrees and 63% of master's degrees. In Indonesia, women's participation in higher education has been ahead of men's for several years. Richard Reeves at the Brookings Institution, who is not a conservative (he was an adviser in the Obama administration), wrote an entire book about this, _Of Boys and Men_.
 
-Di pasar tenaga kerja, proporsi laki-laki usia prima (25–54 tahun) yang tidak bekerja sekaligus tidak mencari kerja terus naik sejak 1960-an. Ini bukan pengangguran, sebab pengangguran masih mengandaikan kamu mencari. Ini ketidakikutsertaan dalam angkatan kerja: laki-laki yang keluar sepenuhnya dari permainan. Di AS angkanya sekarang sekitar 11%, naik dari sekitar 3% di pertengahan abad ke-20. Sebagian bisa dijelaskan oleh perubahan struktural ekonomi. Sebagian tidak.
+In the labour market, the share of prime-age men (25-54 years old) who are neither working nor looking for work has been climbing since the 1960s. This isn't unemployment. Unemployment assumes you are still looking. This is labour-force non-participation. Men who have opted out of the game entirely. In the US, the figure is now around 11%, up from about 3% in the mid-20th century. Part of this is explained by structural changes in the economy. Part of it is not.
 
-Yang paling mencolok mungkin data soal kesendirian. American Survey of Social Life (2021) nemuin proporsi laki-laki yang nggak punya teman dekat naik dari 3% pada 1990 jadi 15% pada 2021. Lima kali lipat dalam tiga dekade. Perempuan juga ngalamin peningkatan, tapi nggak sebesar itu.
+The most striking data might be the data on loneliness. The American Survey of Social Life (2021) found that the share of men who report having no close friends rose from 3% in 1990 to 15% in 2021. A five-fold increase in three decades. Women also experienced an increase, but the magnitude isn't comparable.
 
-Dan di sisi yang paling intim, General Social Survey nunjukin proporsi laki-laki muda (18–29) yang nggak berhubungan seksual dalam 12 bulan terakhir naik dari sekitar 10% pada 2008 jadi sekitar 27% pada 2018. Angka buat perempuan di kelompok usia yang sama relatif stabil.
+And at the most intimate end of the data, the General Social Survey shows the proportion of young men (18-29) reporting no sexual activity in the past twelve months rose from about 10% in 2008 to roughly 27% in 2018. The same cohort for women was relatively stable.
 
-Saya mau pause sebentar buat ngomong sesuatu yang mungkin kedengeran aneh, mengingat tulisan ini bakal ngeritik laki-laki cukup keras: data-data ini beneran menyedihkan. Ini orang nyata yang nggak bisa tidur, nggak punya siapa-siapa buat ditelepon, nggak punya alasan buat bangun pagi, dan dalam kasus paling ekstrem, memutuskan nggak ada alasan buat bangun sama sekali.
+I want to pause and say something that might sound odd given that this essay is going to criticise men fairly hard. **The data is genuinely sad.** These are real people who can't sleep, who have no one to call, who have no reason to get up in the morning, and in the most extreme cases decide there is no reason to get up at all.
 
-Kalau respons pertamamu terhadap data ini adalah "ya itu karma patriarki" atau "akhirnya laki-laki merasakan apa yang perempuan rasakan", saya mengerti impulsnya, tapi saya pikir itu keliru secara empiris dan berbahaya secara strategis. Keliru secara empiris karena laki-laki yang bunuh diri di pedalaman West Virginia bukan laki-laki yang sama dengan yang menduduki ruang rapat Fortune 500. "Laki-laki" bukan monolit, dan menjatuhkan konsekuensi kategorikal pada kelompok yang sangat heterogen adalah persis kebiasaan berpikir yang semestinya sudah kita tinggalkan. Berbahaya secara strategis karena, dan ini yang akan saya pertahankan sepanjang tulisan ini, laki-laki yang rusak tidak rusak sendirian. Mereka merusak semua orang di sekitarnya.
+If your first reaction to this data is "well, that's the karma of patriarchy" or "finally, men feel what women feel", I get the impulse, but I think it's empirically wrong and strategically dangerous. Empirically wrong because the man dying by suicide in rural West Virginia is not the same man sitting on a Fortune 500 board. "Men" is not a monolith, and applying categorical consequences to a deeply heterogeneous group is precisely the habit of thought we should have outgrown. Strategically dangerous because, and this is what I'll argue throughout, men who are broken do not break alone. They break **everyone around them.**
 
-Tapi ada catatan penting di sini. Ada jarak yang sangat besar antara mengatakan "ada masalah pada laki-laki" dan mengatakan "laki-laki adalah korban". Laki-laki bukan korban dalam pengertian sistemik. Laki-laki masih memegang mayoritas kekuasaan politik, ekonomi, dan institusional di hampir setiap masyarakat di dunia. Asimetri pengalaman antara laki-laki dan perempuan dalam hal kekerasan seksual, pelecehan, dan keamanan fisik itu nyata, dan saya tidak hendak meminimalkannya di sini atau di mana pun.
+There is, however, an important caveat. There is a large gap between saying "there is a problem with men" and saying "men are victims". Men are not victims in any systemic sense. Men still hold the majority of political, economic, and institutional power in almost every society on Earth. The asymmetry of experience between men and women on sexual violence, harassment, and physical safety is real, and I do not intend to minimise it here or anywhere.
 
-Yang sedang saya katakan adalah sesuatu yang lebih spesifik dan, saya pikir, lebih berguna. Ada sesuatu yang secara mekanis rusak dalam cara sebagian besar laki-laki muda menjalani hidupnya, dan kerusakan itu punya eksternalitas yang ditanggung oleh semua orang, perempuan termasuk, dan mungkin terutama perempuan.
+What I _am_ saying is more specific, and I think more useful. There is something mechanically broken in how a large share of young men are living their lives, and that brokenness has externalities borne by everyone else, including (and maybe especially) by women.
 
-Pertanyaannya bukan "apakah kita harus kasihan pada laki-laki". Saya rasa tidak, tidak lebih dari kita kasihan pada siapa pun yang punya agensi tapi tidak memakainya. Pertanyaannya: apa, secara presisi, yang rusak, dan apakah kerusakan itu bisa diperbaiki, atau setidaknya dipahami cukup jelas sehingga kita bisa berhenti memperdebatkan gejalanya dan mulai mendiagnosis penyakitnya?
+The question is not "should we feel sorry for men". I don't think so. No more than we feel sorry for anyone who has agency and refuses to use it. The question is, **what, precisely, is broken? And can that breakage be fixed, or at least understood clearly enough that we can stop arguing about symptoms and start diagnosing the disease?**
 
-Saya curiga jawabannya melibatkan sesuatu yang tidak populer dikatakan di kedua sisi spektrum politik: bahwa masalah utamanya bukan patriarki (penjelasan kiri) dan bukan pula feminisme (penjelasan kanan atau manosphere). Masalahnya lebih sederhana, lebih tua, dan lebih memalukan dari keduanya.
+I suspect the answer involves something neither side of the political spectrum likes to say. The main problem is not patriarchy (the left's explanation). It's not feminism (the right's, or the manosphere's). The main problem is simpler, older, and more embarrassing than either.
 
-Masalahnya adalah laki-laki yang lemah. Kelemahan itu, yang akan saya definisikan dengan hati-hati karena kata "lemah" terlalu mudah disalahartikan, bukan kondisi yang menimpa mereka dari luar. Itu pilihan, serangkaian pilihan kecil yang terakumulasi menjadi karakter, atau lebih tepatnya menjadi ketiadaan karakter.
+The main problem is that men are **weak**. And the weakness, which I'll define carefully because the word "weak" is too easy to misread, is not a condition imposed from outside. It is a choice. A series of small choices that accumulate into character, or more precisely, into the absence of it.
 
-Dan kelemahan itu, secara agregat, mencemari hampir setiap sistem yang seharusnya berfungsi: pasar romansa, diskursus publik, kesehatan komunitas, bahkan politik. Bukan karena laki-laki lemah itu jahat, tapi karena dalam terminologi yang lebih teknis laki-laki lemah adalah eksternalitas negatif yang berjalan dan bernapas.
+That weakness, in aggregate, pollutes almost every system that ought to function. The romance market, public discourse, community health, even politics. Not because weak men are evil. Because, in more technical terminology, a weak man is a negative externality that walks and breathes.
 
-Ini akan jadi tulisan yang tidak nyaman, buat saya menulisnya dan mudah-mudahan buat kamu membacanya. Kalau kamu laki-laki, ada kemungkinan yang tidak kecil bahwa kamu akan mengenali dirimu di beberapa bagian yang akan datang. Saya tahu saya mengenali diri saya. Itu bukan alasan untuk berhenti membaca; justru sebaliknya.
+This is going to be uncomfortable to read. It was uncomfortable to write. If you are a man, there is a non-trivial chance you will recognise yourself in some of what's coming. I recognised myself. That is not a reason to stop reading. Actually, it's the opposite.
 
-## II.
+# II.
 
-Kata "lemah" itu bermasalah, dan saya tahu itu. Dalam diskursus gender, nyebut laki-laki "lemah" itu kedengeran kayak yang bakal diomong sama alpha male podcast host yang jualan kursus seharga $499 soal cara mewing yang benar, atau bootcamp trading buat jadi kaya dalam sebulan. Saya perlu definisikan apa yang saya maksud, dan sama pentingnya, apa yang nggak saya maksud, sebelum kita bisa lanjut.
+The word "weak" is loaded. I know that. In a gender-discourse context, calling men "weak" sounds like something an alpha-male podcast host would say to sell a 499-dollar course on proper mewing or a get-rich-in-30-days trading bootcamp. I need to define what I mean, and just as importantly, what I _don't_ mean, before we can go further.
 
-Mulai dari yang bukan definisi "lemah" di tulisan ini.
+**What "weak" does NOT mean in this essay.**
 
-Lemah bukan miskin. Orang yang bekerja dua shift dengan upah minimum demi menghidupi keluarganya bukan lelaki lemah. Dia mungkin lelaki terkuat di ruangan mana pun yang dia masuki. Bukan sumber daya yang menentukan kekuatan, melainkan apa yang kamu lakukan dengan sumber daya yang kamu punya.
+Weak isn't poor. Someone who works two shifts to feed his family on the minimum wage is not a weak man. He might be the strongest man in any room he walks into. Resources don't determine strength. What you do with the resources you have does.
 
-Lemah bukan introvert. Orang yang tidak suka pesta, tidak suka basa-basi, dan lebih memilih membaca sendirian pada Jumat malam bukan lelaki lemah. Preferensi sosial bukan indikator karakter.
+Weak isn't introverted. Someone who hates parties, hates small talk, and would rather read alone on a Friday night isn't a weak man. Social preference isn't a measure of character.
 
-Lemah bukan gagal. Orang yang memulai bisnis lalu bangkrut, yang menyatakan perasaan lalu ditolak, yang mencoba lalu tidak berhasil, tidak sedang menunjukkan kelemahan. Justru itu prasyarat kekuatan. Kamu tidak bisa kuat tanpa pernah menanggung konsekuensi dari usaha yang gagal.
+Weak isn't failure. Someone who starts a business and goes bankrupt, who confesses feelings and gets rejected, who tries and falls short, isn't displaying weakness. That is, if anything, a prerequisite for strength. You cannot be strong without ever bearing the consequence of an effort that didn't work.
 
-Lemah bukan sakit mental. Depresi klinis, gangguan kecemasan, PTSD, semuanya kondisi medis yang butuh penanganan medis. Menyamakan penyakit dengan kelemahan karakter adalah kebodohan yang sudah cukup lama merusak laki-laki, dan saya tidak hendak menambah kerusakan itu di sini.
+Weak isn't mental illness. Clinical depression, anxiety disorders, PTSD. These are medical conditions that need medical care. Conflating illness with weakness of character is a stupidity that has already damaged men for long enough, and I'm not going to add to the damage.
 
-Lalu apa?
+Then what is it?
 
-Lelaki lemah, dalam definisi operasional tulisan ini, adalah laki-laki yang menolak agency atas hidupnya sendiri. Bukan karena laki-laki lemah tidak punya pilihan, itu namanya tertindas dan itu kategori yang berbeda, tapi karena memilih menuntut sesuatu yang tidak bersedia laki-laki lemah bayar: ketidaknyamanan, risiko, kemungkinan gagal, dan yang paling berat, tanggung jawab atas hasilnya.
+**A weak man, by the operational definition of this essay, is a man who refuses agency over his own life.** Not because he has no choices. That's called oppression and it's a different category. But because choosing demands something he isn't willing to pay. Discomfort, risk, the possibility of failure, and the heaviest of all, responsibility for the outcome.
 
-Ini kelemahan yang spesifik. Bukan kelemahan otot, bukan kelemahan finansial. Ini kelemahan dalam hubungan seseorang dengan agensi: kemampuan dan kesediaan membuat pilihan yang punya konsekuensi, lalu berdiri di atas konsekuensi itu.
+It's a specific weakness. Not weakness of muscle, not weakness of finances. It is weakness in a person's relationship with agency. The capacity and willingness to make choices that carry consequences, and then to stand on the consequences.
 
-Saya rasa ada beberapa pola yang cukup konsisten muncul. Saya ingin mendeskripsikannya bukan sebagai dosa, tapi sebagai gejala dari satu sindrom yang sama.
+There are, I think, a few patterns that show up fairly consistently. I want to describe them not as sins, but as **symptoms** of one underlying syndrome.
 
-### Gejala 1: Nihilisme Tanpa Konstruksi
+## Symptom 1. Nihilism Without Construction
 
-Ada sejenis nihilisme yang produktif. Nietzsche menulis tentang ini, dan ya, saya sadar mengutip Nietzsche di tulisan soal maskulinitas sudah nyaris jadi parodi pada titik ini, tapi tahan dulu. Nietzsche mendeklarasikan kematian Tuhan bukan sebagai tujuan akhir, melainkan tahap awal. Pembongkaran nilai-nilai lama semestinya jadi transisi menuju penciptaan nilai-nilai baru, menuju Übermensch, manusia yang menciptakan maknanya sendiri setelah menatap kekosongan.
+There is a kind of nihilism that is productive. Nietzsche wrote about this, and yes, I'm aware that quoting Nietzsche in an essay on masculinity is nearly self-parody by now, but bear with me. Nietzsche didn't declare the death of God as the end point. That was supposed to be the beginning. The dismantling of old values was supposed to be a transition toward creating new ones, toward the Übermensch, the man who creates his own meaning after looking into the void.
 
-Nihilisme yang saya lihat pada sebagian besar laki-laki muda di sekeliling saya bukan nihilisme Nietzsche. Ini nihilisme yang berhenti di pembongkaran. "Hidup itu tidak bermakna", dan habis di situ, tanpa kelanjutan. Tidak ada "...dan karena itu saya akan menciptakan makna sendiri". Yang tersisa cuma kekosongan yang didekorasi ironi, sinisme, dan sikap acuh yang terasa keren di usia 19 tapi makin menyedihkan di usia 25, 30, 35.
+The nihilism I see in most young men around me isn't Nietzsche's. This is nihilism that **stops at the dismantling**. "Life is meaningless." Full stop. Nothing afterwards. No "and therefore I'll create my own meaning". Just an emptiness decorated with irony, cynicism, and a detachment that feels cool at 19 and gets sadder at 25, 30, 35.
 
-Yang membuatnya lebih problematik, nihilisme semacam ini terasa seperti kebijaksanaan. Kamu merasa sudah melihat menembus ilusi yang membuat orang lain termotivasi. "Karier itu roda hamster. Hubungan itu sementara. Semua sistem nilai itu konstruksi sosial." Secara teknis kamu mungkin benar soal semua itu. Tapi "benar" dan "berguna" bukan sinonim. Dan dalam praktiknya, nihilisme tanpa konstruksi cuma berfungsi sebagai justifikasi intelektual untuk tidak melakukan apa-apa. Itu bukan filsafat; itu pelarian yang meminjam kosakata filsafat.
+What makes it more problematic is that this kind of nihilism _feels_ like wisdom. You feel as if you have seen beyond the illusion that motivates everyone else. "A career is a hamster wheel. Relationships are temporary. All value systems are social constructs." Technically, maybe you're right about all of that. But "true" and "useful" are not synonyms. And nihilism without construction, in practice, only ever functions as **intellectual cover for not doing anything.**
 
-Tesnya simpel sebenarnya. Apakah nihilisme-mu menghasilkan sesuatu, entah seni, tulisan, tindakan, kerangka hidup yang betul-betul kamu jalani? Atau nihilisme-mu cuma menghasilkan alasan untuk tidak memulai?
+It isn't philosophy. It's cope dressed in the vocabulary of philosophy.
 
-### Gejala 2: Tidak Ada Skin in the Game di Mana Pun
+The diagnostic test is simple. Does your nihilism produce anything? Art, writing, action, a framework for life you actually live by? Or does it only produce reasons not to start?
 
-Nassim Taleb punya konsep yang menurut saya kurang dihargai di luar lingkaran yang sudah membacanya: skin in the game, gagasan bahwa kamu harus menanggung konsekuensi dari keputusanmu sendiri. Bukan hanya sebagai prinsip etis, tapi sebagai mekanisme informasi. Orang yang punya skin in the game belajar dari realitas. Orang yang tidak, belajar dari narasi, dan narasi bisa keliru tanpa batas waktu karena tidak ada umpan balik yang memaksa koreksi.
+## Symptom 2. No Skin in the Game Anywhere
 
-Lelaki lemah, dalam pola yang saya amati, cenderung tidak punya skin in the game di ranah mana pun yang bermakna. Bukan berarti mereka tidak melakukan apa-apa; banyak yang punya pekerjaan, kuliah, rutinitas. Tapi tidak ada arena tempat mereka sungguh-sungguh mempertaruhkan sesuatu, entah reputasi, waktu, energi emosional, uang, dengan kemungkinan gagal yang nyata dan konsekuensi gagal yang mereka rasakan langsung.
+Nassim Taleb has a concept I think is underappreciated outside the circle that has already read him. Skin in the game, the idea that you have to bear the consequences of your own decisions. Not only as an ethical principle, but as an informational mechanism. People with skin in the game learn from reality. People without it learn from narrative, and narrative can be wrong indefinitely because there is no feedback loop forcing correction.
 
-Pekerjaannya berjalan otomatis. Hubungannya minim taruhan, atau tidak ada. Opininya keras di Twitter tapi tidak pernah dipertaruhkan di ruang tempat orang bisa merespons langsung. Posisi moralnya gratis: memposting Instagram story soal isu sosial tanpa pernah menanggung biaya sosial apa pun dari posisi itu.
+A weak man, in the pattern I observe, tends not to have skin in the game in any meaningful domain. It isn't that he does nothing. Many have jobs, classes, routines. But there is no arena where they genuinely risk something, reputation, time, emotional energy, money, with a real chance of failure and a real consequence of failure that they will feel directly.
 
-Saya pernah menulis soal fenomena ini dalam konteks kasus FH UI '23, laki-laki yang memposting kecaman terhadap pelecehan seksual padahal group chat-nya sendiri tidak bersih. Itu bukan anomali, itu pola, dan pola itu berakar pada hal yang sama: tidak adanya ranah tempat apa yang kamu katakan dan apa yang kamu lakukan diuji oleh konsekuensi nyata.
+His job is on autopilot. His relationships are low-stakes or absent. His opinions are loud on Twitter but never staked in a room where someone can answer back. His moral positions are free. He posts an Instagram story about a social issue and never bears any social cost for the position.
 
-Kalau kamu mau tes yang brutal: lihat hidupmu dan tanya, di mana kegagalan punya harga? Di mana kamu bisa salah lalu merasakan salahnya, bukan cuma mengetahuinya secara abstrak? Kalau jawabannya "tidak di mana-mana", itu bukan kestabilan. Itu stagnasi yang menyamar sebagai rasa aman.
+I wrote about this phenomenon specifically in the context of the FH UI 2023 case. Men who post condemnations of sexual harassment whose own group chats are not clean. That isn't an anomaly. It's a pattern. And the pattern is rooted in the same thing. **No domain in which what you say and what you do gets tested by actual consequence.**
 
-### Gejala 3: Tubuh yang Diabaikan
+For a brutal test, look at your life and ask. Where does failure have a price? Where can you be wrong and _feel_ the wrongness, instead of only knowing it abstractly? If the answer is "nowhere", that isn't stability. That's stagnation disguised as safety.
 
-Ini yang paling mudah disalahartikan, jadi saya ingin sangat hati-hati.
+## Symptom 3. The Neglected Body
 
-Saya tidak sedang bicara estetika. Saya tidak bicara sixpack atau standar tubuh yang dipromosikan industri fitness yang, terus terang, sama terdistorsinya dengan industri kecantikan. Saya tidak bilang kamu harus bench press 120 kg untuk dianggap "kuat". Tubuh datang dalam beragam bentuk dan ukuran, dan mereduksi soal ini ke penampilan fisik adalah kedangkalan yang tidak ingin saya reproduksi.
+This is the easiest one to misread, so I want to be very careful.
 
-Yang sedang saya bicarakan jauh lebih mendasar: hubungan seseorang dengan ketidaknyamanan fisik yang disengaja.
+I am _not_ talking about aesthetics. I'm not talking about six-packs or the body standards pushed by the fitness industry, which is, frankly, as distorted as the beauty industry. I'm not saying you have to bench 120kg to be considered "strong". Bodies come in many shapes and sizes, and reducing this to physical appearance is a shallowness I have no interest in reproducing.
 
-Ada sesuatu yang terjadi ketika kamu, atas kehendak sendiri, menempatkan tubuhmu dalam situasi yang tidak nyaman, mengangkat beban yang berat, berlari lebih jauh dari yang nyaman, berlatih bela diri tempat seseorang secara harfiah mencoba menjatuhkanmu, lalu bertahan. Bukan karena ada yang memaksa. Bukan karena ada penonton. Tapi karena kamu memilih untuk tidak berhenti.
+What I _am_ talking about is something more fundamental. **A person's relationship with deliberate physical discomfort.**
 
-Itu bukan olahraga, atau lebih tepatnya bukan hanya olahraga. Itu pedagogi. Kamu sedang mengajari sistem sarafmu bahwa ketidaknyamanan bukan sinyal untuk berhenti, bahwa kamu bisa membatalkan setelan bawaan yang berkata "ini tidak enak, jangan diteruskan". Dan kemampuan itu, kemampuan bertahan melewati ketidaknyamanan secara sukarela, berpindah ke hampir setiap ranah lain dalam hidup.
+Something happens when you, voluntarily, place your body in an uncomfortable situation. Lift a heavy weight. Run further than is comfortable. Train in martial arts where someone is literally trying to put you on the floor. And then **endure.** Not because anyone is forcing you. Not because anyone is watching. But because you chose not to stop.
 
-Percakapan yang sulit. Pekerjaan yang membosankan tapi perlu diselesaikan. Hubungan yang menuntut kerja emosional. Proses belajar yang lambat dan bikin frustrasi. Semuanya menuntut kapasitas dasar yang sama: kemampuan untuk tidak berhenti cuma karena tidak enak.
+That isn't exercise. Or, more precisely, it isn't only exercise. It's **pedagogy.** You are teaching your nervous system something. That discomfort isn't a signal to stop. That you can override the default that says "this is unpleasant, don't continue". That capacity, the ability to voluntarily persist through discomfort, transfers to almost every other domain in life.
 
-Saya curiga, dan ini spekulasi, bukan klaim empiris, bahwa salah satu alasan begitu banyak laki-laki muda tidak bisa mempertahankan pekerjaan, hubungan, atau proyek apa pun dalam jangka panjang adalah karena mereka tidak pernah melatih kapasitas dasar ini. Tubuh yang tidak pernah ditantang menghasilkan, atau setidaknya berkorelasi dengan, jiwa yang tidak pernah ditantang. Dan jiwa yang tidak pernah ditantang akan selalu memilih jalan dengan hambatan paling kecil, yang di hampir semua konteks yang bermakna adalah jalan menuju ketidakrelevanan.
+Difficult conversations. Boring work that needs to be done anyway. Relationships that demand emotional labour. Slow, frustrating learning. All of these draw on the same base capacity. The capacity to **not stop just because something is unpleasant.**
 
-Data tentang penurunan kadar testosteron pada laki-laki muda secara generasional mungkin relevan di sini, mungkin juga tidak. Travison et al. (2007) menunjukkan penurunan sekitar 1% per tahun yang tidak bisa sepenuhnya dijelaskan oleh penuaan, obesitas, atau perubahan gaya hidup yang sudah dikontrol. Korelasinya ada; kausalitasnya belum jelas. Tapi melihat penurunan hormonal yang paralel dengan penurunan perilaku setidaknya memberi petunjuk soal adanya umpan balik antara aktivitas fisik, biologi, dan agensi.
+I suspect, and this is speculation rather than an empirical claim, that one reason so many young men can't sustain a job, a relationship, or a project for the long run is that they have **never trained this basic capacity.** A body that has never been challenged produces, or at least correlates with, a psyche that has never been challenged. And a psyche that has never been challenged will always pick the path of least resistance, which in almost any meaningful context is the path toward irrelevance.
 
-Saya ingin jujur soal satu hal: bagian ini sebagian juga autobiografis. Ada periode dalam hidup saya ketika saya tidak berolahraga, dan saya bisa merasakan efeknya bukan di cermin, tapi di cara saya menghadapi hal-hal yang sulit. Ambang menyerah saya turun. Toleransi saya terhadap ketidaknyamanan menyusut. Korelasi ini bisa saja sekadar bias konfirmasi. Tapi saya mencatatnya.
+The data on generational decline in young men's testosterone might be relevant here, or it might not. Travison et al. (2007) showed roughly a 1% per year decline that cannot be fully explained by ageing, obesity, or controlled changes in lifestyle. The correlation is there. Causality isn't yet clear. But the fact that we are seeing a hormonal decline running parallel to a behavioural decline is at least suggestive that there is a feedback loop between physical activity, biology, and agency.
 
-### Gejala 4: Konsumsi Tanpa Produksi
+I want to be honest about something. This section is partly autobiographical. There were periods in my life when I didn't exercise, and I could feel the effect not in the mirror but in how I handled hard things. My threshold for giving up dropped. My tolerance for discomfort shrank. The correlation could be confirmation bias. But I noted it.
 
-Saya rasa ini gejala yang paling diam-diam merusak, justru karena paling tidak terlihat seperti masalah.
+## Symptom 4. Consumption Without Production
 
-Mengonsumsi konten, media sosial, streaming, pornografi, gim, berita, podcast, bukan masalah dengan sendirinya. Semua orang mengonsumsi. Pertanyaannya bukan apakah kamu mengonsumsi, tapi rasio antara yang kamu konsumsi dan yang kamu produksi. Dan bagi banyak laki-laki muda yang saya kenal, rasio itu sudah lama melampaui titik di mana itu jadi disfungsional.
+This might be the most insidious symptom, precisely because it doesn't look like a problem.
 
-Saya pernah menulis soal pornografi secara spesifik, soal bagaimana mekanisme penyajiannya yang dioptimalkan algoritma bekerja pada sirkuit penghargaan otak dengan cara yang belum pernah diuji pada skala ini. Tapi pornografi cuma satu wujud dari masalah yang lebih luas: industri superstimulus modern secara keseluruhan.
+Content consumption, social media, streaming, pornography, gaming, news, podcasts, isn't a problem on its own. Everyone consumes. The question isn't whether you consume. The question is **the ratio between what you consume and what you produce.** And for a lot of the young men I know, that ratio has been past the dysfunctional point for a long time.
 
-Superstimulus adalah konsep dari etologi, studi perilaku hewan. Niko Tinbergen menemukan bahwa kamu bisa membuat burung camar lebih memilih telur palsu yang lebih besar dan lebih berwarna daripada telur aslinya sendiri. Telur palsu itu merangsang insting yang sama dengan telur asli, tapi dengan intensitas yang melampaui apa pun yang pernah ada di lingkungan tempat spesies itu berevolusi. Burung itu tidak bodoh. Perangkat bawaannya saja yang tidak dirancang untuk stimulasi pada level itu.
+I've written about pornography specifically, about how its algorithmically optimised delivery mechanism operates on the brain's reward circuitry in a way that has never been tested at this scale. But pornography is only one manifestation of a broader problem. **The modern superstimulus industry as a whole.**
 
-Pornografi adalah superstimulus seksual. Junk food superstimulus nutrisi. Media sosial superstimulus sosial. Video game modern superstimulus pencapaian: kamu mendapat umpan balik dari rasa berhasil, kemajuan, dan status yang di dunia nyata butuh berbulan-bulan atau bertahun-tahun, dikompresi jadi hitungan jam.
+Superstimulus is a concept from ethology, the study of animal behaviour. Niko Tinbergen found that you could get gulls to prefer a fake egg that was bigger and more brightly coloured than their own real egg. The fake egg triggered the same instinct as the real one, but with an intensity that exceeded anything found in the environment of evolutionary adaptedness. The bird wasn't stupid. Its firmware just wasn't designed for stimulation at that level.
 
-Tidak satu pun dari ini jahat dengan sendirinya. Tapi konsumsi superstimulus secara kronis, tanpa penyeimbang berupa produksi yang bermakna, menciptakan sesuatu yang menurut saya adalah versi modern dari apa yang orang-orang tua dulu sebut "jiwa yang kosong": seseorang yang sistem penghargaannya sudah terkalibrasi ke tingkat stimulasi yang tidak bisa dipenuhi oleh aktivitas normal. Pekerjaan terasa hambar. Percakapan terasa lambat. Hubungan nyata terasa melelahkan dibanding relasi parasosial yang tidak menuntut apa pun.
+Pornography is a sexual superstimulus. Junk food is a nutritional superstimulus. Social media is a social superstimulus. Modern video games are an achievement superstimulus. You get feedback loops of accomplishment, progression, and status that in the real world would take months or years, compressed into hours.
 
-Lalu terbentuk spiral. Makin banyak kamu mengonsumsi superstimulus, makin tumpul respons penghargaanmu terhadap stimulasi normal, makin kamu butuh superstimulus untuk merasakan apa pun, makin dalam spiralnya. Kühn dan Gallinat (2014) menunjukkan korelasi antara konsumsi pornografi berat dan berkurangnya materi abu-abu di nukleus kaudatus kanan, area otak yang sentral untuk pemrosesan reward. Apakah konsumsinya yang menyebabkan perubahan struktural itu, atau sebaliknya, belum bisa dibuktikan secara kausal. Tapi bagaimanapun, itu bukan sistem yang sehat.
+None of it is inherently evil. But chronic superstimulus consumption without the counterbalance of meaningful production creates, I think, a modern version of what older generations used to call an empty soul. Someone whose reward system has been calibrated to a level of stimulation that **ordinary activity can no longer satisfy.** Work feels flat. Conversation feels slow. Real relationships feel effortful compared to parasocial relationships that demand nothing.
 
-Produksi, menulis, membangun, membuat, menciptakan, bekerja di jalur rewarding yang berbeda. Reward-nya lebih lambat, lebih kecil per unit waktu, dan seringkali disertai frustrasi serta keraguan diri yang cukup besar. Tapi reward dari produksi punya sesuatu yang tidak dimiliki reward dari konsumsi: reward dari produksi itu berbunga. Tulisan yang kamu tulis hari ini masih ada besok. Keahlian yang kamu bangun bulan ini jadi fondasi bulan depan. Bunga majemuk dari produksi yang konsisten adalah cara manusia membangun apa pun yang bermakna, karier, hubungan, karya, identitas.
+And this produces a spiral. The more superstimulus you consume, the more blunted your reward response to normal stimulation, the more superstimulus you need to feel anything, the deeper the spiral. Kühn and Gallinat (2014) showed a correlation between heavy pornography use and reduced gray matter in the right caudate nucleus, a brain area central to reward processing. Whether consumption caused the structural change or the other way around cannot yet be proven causally. Either way, it isn't a healthy system.
 
-Konsumsi tanpa produksi, pada skala yang saya lihat di sekeliling saya, bukan pilihan gaya hidup. Itu parasitisme yang menyamar sebagai waktu luang.
+Production, writing, building, making, creating, runs on a different reward pathway. Its reward is slower, smaller per unit of time, and often comes with a healthy amount of frustration and self-doubt. But the reward from production has one thing the reward from consumption doesn't. **It compounds.** What you write today is still there tomorrow. The skill you build this month becomes the foundation for next month's. The compound interest of consistent production is how humans build anything that lasts, careers, relationships, work, identity.
 
-### Gejala 5: Kebajikan Tanpa Harga
+Consumption without production, at the scale I see around me, isn't a lifestyle choice. It's parasitism disguised as leisure.
 
-Yang terakhir ini sudah saya bahas cukup panjang di tulisan lain, jadi saya akan ringkas.
+## Symptom 5. Virtue Without a Price
 
-Ada beda antara memiliki kebajikan dan menampilkan kebajikan, dan bedanya cuma satu hal: harga.
+I've written about this at length elsewhere, so I'll keep it short.
 
-Kejujuran bukan kebajikan kalau kamu hanya jujur ketika jujur itu gratis. Kejujuran jadi kebajikan pada momen ketika jujur itu mahal, ketika mengatakan yang benar membuatmu kehilangan teman, posisi, atau rasa nyaman, dan kamu tetap mengatakannya.
+There is a difference between _having_ virtue and _displaying_ virtue. The difference is one thing. **The price.**
 
-Keberanian bukan kebajikan kalau kamu hanya berani di situasi yang aman. Keberanian jadi kebajikan pada momen ketika tindakan itu punya risiko nyata, dan kamu tetap bertindak.
+Honesty isn't a virtue if you are only honest when honesty is free. Honesty becomes a virtue at the moment honesty is costly, when saying what's true costs you a friend, a position, or a sense of comfort, and you say it anyway.
 
-Lelaki lemah, dalam pola yang saya amati, punya banyak nilai tapi sedikit kebajikan. Mereka tahu mana yang benar dan mana yang salah, secara abstrak. Mereka bisa mengartikulasikannya dengan fasih, di Instagram story, di thread Twitter, di percakapan yang aman. Tapi pada momen ketika nilai-nilai itu perlu dipraktikkan dengan biaya bagi diri mereka sendiri, mereka absen.
+Courage isn't a virtue if you are only brave in safe situations. Courage becomes a virtue at the moment an act carries real risk, and you act anyway.
 
-Group chat yang isinya melecehkan, dan kamu diam karena menegur itu "ribet". Teman yang memperlakukan pacarnya dengan buruk, dan kamu tidak berkata apa-apa karena "itu urusan mereka". Lingkungan kerja yang koruptif, dan kamu ikut arus karena "memang begitu sistemnya".
+Weak men, in the pattern I observe, have a lot of values and very few virtues. They know what's right and what's wrong, abstractly. They can articulate it fluently, in Instagram stories, in Twitter threads, in safe conversations. But at the moment those values need to be practised at cost to themselves, they are absent.
 
-Setiap kali kamu tahu sesuatu itu salah lalu memilih kenyamanan di atas prinsip, kamu sedang mengirim sinyal ke dirimu sendiri bahwa prinsip-prinsipmu punya harga, dan harganya rendah.
+A group chat that is making harassing jokes, and you stay quiet because pushing back would be awkward. A friend treating his partner badly, and you say nothing because "that's their business". A corrupt work environment, and you go along with it because "that's just how the system is".
 
-Tes yang saya pakai untuk diri sendiri, dan saya tidak selalu lulus: kapan terakhir kali prinsipmu benar-benar merugikanmu? Bukan ketidaknyamanan ringan. Bukan percakapan yang agak canggung. Tapi benar-benar kehilangan sesuatu, teman, uang, posisi, rasa aman, karena kamu memilih berdiri di atas apa yang kamu yakini benar?
+Every time you know something is wrong and you choose comfort over principle, you are sending yourself the signal that **your principles have a price, and the price is low.**
 
-Kalau jawabannya "sudah lama sekali" atau "belum pernah", maka yang kamu punya bukan prinsip. Yang kamu punya itu preferensi. Dan preferensi, tidak seperti prinsip, preferensi tidak menuntut apa pun dari kamu. Itulah kenapa rasanya begitu nyaman, dan itulah kenapa hal tersebut tidak bernilai.
+A test I use on myself, and don't always pass. **When was the last time your principle actually cost you something?** Not minor discomfort. Not a mildly awkward conversation. But losing something real, a friend, money, a position, a sense of safety, because you chose to stand on what you believed was right.
 
-Kelima gejala ini, nihilisme tanpa konstruksi, absennya skin in the game, tubuh yang diabaikan, konsumsi tanpa produksi, dan kebajikan tanpa harga, bukan lima masalah terpisah. Ini satu sindrom dengan lima manifestasi. Kalau kondisi yang mendasarinya harus saya reduksi ke satu kalimat: penolakan terhadap ketidaknyamanan sebagai mode bawaan menjalani hidup.
+If the answer is "a long time ago" or "never", then what you have isn't a principle. It's a preference. And a preference, unlike a principle, doesn't demand anything from you. That is why it feels so comfortable. And that is why it has no value.
 
-Coba perhatikan, setiap gejala itu varian dari hal yang sama, yaitu memilih yang mudah di atas yang bermakna. Nihilisme lebih mudah daripada membangun sistem nilai. Hidup tanpa skin in the game lebih mudah daripada mempertaruhkan sesuatu. Tidak berolahraga lebih mudah daripada bangun jam lima pagi untuk lari. Mengonsumsi lebih mudah daripada memproduksi. Menampilkan kebajikan lebih mudah daripada membayar harganya.
+These five symptoms, nihilism without construction, no skin in the game, the neglected body, consumption without production, and virtue without a price, aren't five separate problems. They are one syndrome with five manifestations. The underlying condition, if I had to reduce it to one sentence, is **the refusal of discomfort as a default operating mode for life.**
 
-Pada level individu, mungkin ini bisa dimaafkan. Semua orang punya momen lemah. Semua orang kadang memilih yang mudah. Saya memilih yang mudah lebih sering daripada yang ingin saya akui.
+Look at every symptom. Each is a variant of the same thing. Choosing what's _easy_ over what's _meaningful_. Nihilism is easier than building a value system. Life without skin in the game is easier than staking something. Not exercising is easier than getting up at 5am to run. Consuming is easier than producing. Displaying virtue is easier than paying its price.
 
-Tapi ketika ini bukan momen individual melainkan pola kolektif, ketika sebagian besar laki-laki di satu generasi secara bersamaan memilih mode bawaan ini, hal ini berhenti jadi masalah personal dan mulai jadi polutan sistemik. Dan polutan, seperti polutan mana pun, tidak menghormati batas. Polutan mencemari semua yang disentuhnya. Bagaimana persisnya akan saya uraikan di bagian berikutnya.
+At the individual level, this is forgivable. Everyone has weak moments. Everyone sometimes picks the easy thing. I pick the easy thing more often than I'd like to admit.
 
-## III.
+But when this stops being an individual moment and becomes a **collective pattern**, when a large share of men in a generation are simultaneously running this default mode, it stops being a personal problem and starts being a **systemic pollutant.**
 
-Kalau saya berhenti di Bagian II, tulisan ini cuma bakal jadi versi lebih panjang dari ceramah "jadilah jantan" yang udah ada ribuan di internet. Dan ceramah "jadilah jantan", selain menjemukan, punya satu cacat fundamental: nggak pernah nanya kenapa.
+And pollutants, like any pollutant, do not respect boundaries. They contaminate everything they touch. How, exactly, I'll lay out in the next section.
 
-Kenapa banyak banget laki-laki muda di generasi ini, secara spesifik, nampilin sindrom yang baru saya deskripsiin? Apakah mereka lahir lebih lemah dari generasi sebelumnya? Apakah ada mutasi genetik massal yang ngehapus gen agency? Tentu nggak. Sesuatu di lingkungan mereka berubah, dan berubah cukup drastis, sampe jalur perkembangan bawaan laki-laki muda sekarang ngehasilin keluaran yang beda dari beberapa dekade lalu.
+# III.
 
-Kalau saya menuntut empati analitis, kemampuan memahami kenapa seseorang sampai di suatu titik tanpa membenarkan titik itu, terhadap hampir setiap kelompok lain, maka saya harus menerapkannya juga di sini. Bukan karena laki-laki lemah layak dikasihani, tapi karena diagnosis tanpa etiologi bukan diagnosis. Itu pelabelan.
+If I stopped at Section II, this essay would only be a longer version of the thousand "man up" sermons already on the internet. And "man up" sermons, beyond being tedious, have one fundamental problem. They never ask **why.**
 
-Jadi, apa yang berubah?
+Why is it that so many young men, in this generation specifically, exhibit the syndrome I just described? Were they born weaker than the previous generation? Was there a mass genetic mutation that deleted the agency gene? Of course not. Something in their environment changed, and changed enough that the default developmental path of young men now produces a different output than it did a few decades ago.
 
-### A. Runtuhnya Institusi Pembentuk
+And if I demand analytic empathy, the ability to understand _why_ someone arrived at a certain place without justifying the place, from nearly every other group, I have to apply it here as well. Not because weak men deserve pity. But because a diagnosis without an etiology isn't a diagnosis. It's labelling.
 
-Sepanjang sebagian besar sejarah manusia, laki-laki muda tidak menjadi dewasa secara organik. Mereka dibentuk oleh institusi yang secara eksplisit dirancang untuk menyalurkan energi yang belum terarah menjadi sesuatu yang fungsional. Institusi ini bervariasi antarbudaya, tapi peran fungsionalnya sangat konsisten.
+So, what changed?
 
-Agama terorganisir memberi kerangka moral yang eksplisit, bukan sekadar "apa yang benar dan salah", tapi narasi kosmologis yang menempatkan hidupmu dalam konteks yang lebih besar dari dirimu sendiri. Saya sudah menulis soal keterbatasan dogma agama di tulisan lain dan saya tidak menarik kritik itu. Tapi saya bisa mengakui, secara bersamaan, bahwa agama menyelesaikan sebuah masalah nyata: agama memberi jawaban, tidak sempurna, kadang berbahaya, tapi tetap sebuah jawaban, terhadap pertanyaan "untuk apa saya hidup", yang tanpa jawaban apa pun menghasilkan nihilisme yang saya deskripsikan di Bagian II.
+## A. The Collapse of Formative Institutions
 
-Magang dan sistem gilda memberi lintasan yang jelas: kamu mulai sebagai pemula, belajar dari ahli, mengerjakan tugas yang membosankan dan sulit selama bertahun-tahun, lalu perlahan naik menjadi perajin yang kompeten. Prosesnya lambat, menyakitkan, penuh umpan balik yang jujur. Tapi di ujungnya kamu punya keahlian nyata, identitas yang berbasis kompetensi, dan tempat yang jelas di dalam komunitas.
+For most of human history, young men did not become adults organically. They were **formed** by institutions explicitly designed to channel unfocused energy into something functional. These institutions varied across cultures, but their functional role was remarkably consistent.
 
-Ritus peralihan, dari inisiasi suku hingga wajib militer, memberi ambang yang jelas antara "anak laki-laki" dan "laki-laki dewasa". Ambang itu hampir selalu melibatkan ujian berat, sesuatu yang sulit, menyakitkan, atau menakutkan yang harus kamu lalui. Setelah kamu melaluinya, ada pengakuan sosial bahwa kamu sudah berubah. Bukan anak-anak lagi. Sekarang kamu harus bertanggung jawab.
+Organised religion provided an explicit moral framework. Not only "what's right and what's wrong", but a cosmological narrative that placed your life in a context larger than yourself. I've written elsewhere about the limits of religious dogma, and I'm not walking that critique back. But I can also acknowledge, at the same time, that religion solved a real problem. It provided an answer, imperfect, sometimes dangerous, but still an _answer_, to the question of "what am I living for" that, without any answer at all, produces the nihilism I described in Section II.
 
-Saya tidak meromantisasi institusi-institusi ini. Agama terorganisir memproduksi dogmatisme dan kekerasan. Wajib militer adalah pemaksaan oleh negara. Ritus peralihan tradisional sering brutal dan eksklusif. Saya tidak ingin kembali ke semua itu, dan tebakan saya, kamu pun tidak.
+Apprenticeship and guild systems provided a clear trajectory. You started as a novice, learned from a master, did boring and difficult work for years, and slowly rose to become a competent craftsman. The process was slow, painful, and full of honest feedback. But at the end of it you had real skill, an identity built on competence, and a clear place in the community.
 
-Tapi inilah persoalannya. Kita meruntuhkan institusi-institusi ini, dan ada alasan bagus untuk meruntuhkan banyak di antaranya, tanpa membangun penggantinya. Kita menghapus jawaban-jawaban lama atas pertanyaan "bagaimana laki-laki muda menjadi laki-laki dewasa" tanpa menyediakan jawaban baru. Dan di dalam vakum itu, jawaban yang muncul secara bawaan bukan jawaban yang baik: influencer yang menjual maskulinitas transaksional, komunitas incel yang menjual dendam sebagai identitas, atau, yang paling umum sekaligus paling diam-diam merusak, tidak ada jawaban sama sekali, cuma kekosongan yang diisi superstimulus.
+Rites of passage, from tribal initiations to compulsory military service, provided a clear threshold between "boy" and "adult man". The threshold almost always involved an ordeal, something difficult, painful, or frightening that you had to walk through. And once you walked through it, there was a social recognition that you had changed. Not a child anymore. Now accountable.
 
-Analoginya mungkin seperti ekosistem. Kalau kamu menghilangkan predator puncak dari sebuah ekosistem karena predator itu berbahaya, dan memang berbahaya, tanpa memahami peran regulatornya, kamu tidak mendapat ekosistem yang lebih aman. Kamu mendapat ekosistem yang kolaps dengan cara yang tidak kamu prediksi: populasi rusa meledak, vegetasi habis, tanah tererosi, dan seterusnya. Menghilangkan sesuatu yang bermasalah tanpa memahami fungsi yang dipenuhinya bukan solusi. Itu cuma memindahkan masalah ke tempat yang kurang terlihat.
+I am _not_ romanticising these institutions. Organised religion produced dogmatism and violence. Compulsory military service is state coercion. Traditional rites of passage were often brutal and exclusionary. I don't want to go back to any of that, and my guess is you don't either.
 
-### B. Jebakan Kafka dalam Gender
+But here is the trouble. We tore those institutions down, and there were good reasons to tear many of them down, **without building any replacements.** We deleted the old answers to "how does a young man become an adult" without supplying any new ones. And in the vacuum that resulted, the answer that emerged by default was not a good one. Influencers selling transactional masculinity. Incel communities selling resentment as identity. Or, most common and most insidious, no answer at all. Only emptiness filled with superstimulus.
 
-Saya sudah membahas ini secara spesifik di tulisan tentang kasus FH UI '23, jadi di sini saya akan lebih ringkas. Tapi dinamikanya terlalu penting untuk dilewati.
+The analogy might be ecosystems. If you remove an apex predator from an ecosystem because the predator is dangerous, and it _is_ dangerous, without understanding its regulatory role, you don't end up with a safer ecosystem. You end up with one that collapses in ways you didn't predict. Deer populations explode, vegetation is wiped out, soil erodes, and so on. Removing something that's problematic without understanding the function it served isn't a solution. It only moves the problem to somewhere less visible.
 
-Ada versi diskursus gender yang bukan pendidikan, melainkan indoktrinasi. Bedanya, pendidikan berkata "ada pola sosial yang perlu kamu pahami, dan ini cara kamu bisa berkontribusi pada perubahan". Indoktrinasi berkata "kamu bersalah karena keberadaanmu, dan setiap responsmu terhadap tuduhan ini cuma membuktikan tuduhan itu benar".
+## B. The Kafka Trap of Gender
 
-Tidak nyaman? Itu privilese-mu yang bicara. Membantah? Fragility. Diam? Complicity. Setuju? Bagus, tapi jangan minta pujian karena ini semestinya baseline. Setiap pintu keluar sudah ditutup sebelum kamu masuk.
+I've covered this specifically in the essay on the FH UI 2023 case, so I'll be briefer here. But the dynamic is too important to skip.
 
-Saya tahu ini bukan representasi akurat dari keseluruhan feminisme. Saya sudah bilang ini di "Stop The All" dan saya ulangi di sini: sebagian besar orang yang bicara soal privilese dan patriarki sedang membuat poin yang sah dengan cara yang sebagian besarnya masuk akal. Persoalannya bukan pada mayoritas yang masuk akal itu, tapi pada minoritas vokal yang mengoperasikan jebakan kafka, dan pada kenyataan bahwa mayoritas yang masuk akal jarang sekali mengoreksi minoritas itu, mungkin karena mengoreksi "ke dalam" lebih mahal secara sosial daripada mengoreksi "ke luar".
+There is a version of gender discourse that isn't education. It is **indoctrination.** The difference. Education says "there is a social pattern you need to understand, and here is how you can contribute to changing it". Indoctrination says "you are guilty by virtue of what you are, and every response to this accusation only proves the accusation is true".
 
-Lalu apa efeknya pada laki-laki muda? Bukan kepatuhan yang tulus, melainkan salah satu dari tiga hal.
+Uncomfortable? Your privilege talking. Pushing back? Fragility. Quiet? Complicity. Agreeing? Fine, but don't ask for a cookie, that's just baseline. Every exit has been closed before you walked in.
 
-Pertama, ketundukan yang dipenuhi dendam. Laki-laki yang belajar bahasa yang "benar", yang bisa bicara soal consent dan toxic masculinity dan interseksionalitas dengan kosakata yang sempurna, tapi di belakang, di ruang-ruang tertutup, menjadi versi yang jauh lebih gelap dari dirinya. Inilah persis yang terjadi di group chat FH UI '23. Bukan kegagalan reformasi, melainkan pelarangan yang mendorong perilaku ke bawah tanah.
+I _know_ this isn't an accurate description of feminism as a whole. I said this in "Stop The All" and I'll say it again here. Most people talking about privilege and patriarchy are making a legitimate point in a mostly reasonable way. The problem isn't the reasonable majority. The problem is the vocal minority that runs the kafka trap, and the fact that the reasonable majority rarely corrects the minority, probably because correcting "inward" is more socially expensive than correcting "outward".
 
-Kedua, penarikan diri total. Laki-laki yang memutuskan bahwa berpartisipasi dalam diskursus gender terlalu berisiko, apa pun yang kamu katakan bisa dan akan dipakai melawanmu, lalu memilih keluar sepenuhnya. Bukan dengan marah, tapi dengan apatis. Dan apatis massal dari separuh populasi terhadap pertanyaan-pertanyaan soal gender, relasi, dan masyarakat bukan kemenangan bagi siapa pun.
+The effect on young men? Not sincere compliance. The effect is one of three things.
 
-Ketiga, radikalisasi. Laki-laki yang, setelah merasa ditolak diskursus arus utama, menemukan komunitas alternatif yang mau menerima mereka, Red Pill, MGTOW, forum incels.is, atau ujung yang lebih ekstrem. Komunitas ini tidak menuntut mereka merasa bersalah. Komunitas ini berkata "kamu benar, dunia yang salah". Itu narasi yang berbahaya, tapi bagi seseorang yang sudah bertahun-tahun mendengar bahwa mereka bersalah secara kategoris, narasi itu sangat, sangat menarik.
+First, **submission filled with resentment.** Men who learn the "right" language, who can talk about consent and toxic masculinity and intersectionality with a perfect vocabulary, but in the back, in closed spaces, become a much darker version of themselves. This is precisely what happened in the FH UI 2023 group chat. Not a failure of reform. It's prohibition pushing behaviour underground.
 
-Saya perlu mengulang catatan yang sudah saya tulis di "Stop The All": tidak satu pun dari dinamika ini membenarkan perilaku buruk. Laki-laki yang melecehkan, meradikalisasi diri, atau menarik diri dari tanggung jawab sosial tetap bertanggung jawab atas pilihannya. Mereka dewasa. Mereka punya agensi.
+Second, **total withdrawal.** Men who decide that participating in gender discourse is too risky (anything you say can and will be used against you) and choose to check out entirely. Not in anger. In apathy. And mass apathy from half the population on questions of gender, relationships, and society isn't a victory for anyone.
 
-Tapi kalau pertanyaannya bukan "siapa yang salah" melainkan "bagaimana kita mencegah ini", kita harus jujur bahwa lingkungan diskursif yang ada sekarang, bagi sebagian laki-laki muda, bukan lingkungan yang mendorong pertumbuhan. Itu lingkungan yang mendorong peniruan, penarikan diri, atau radikalisasi. Dan dari ketiga keluaran itu, tidak ada yang berguna untuk siapa pun.
+Third, **radicalisation.** Men who, after feeling rejected by mainstream discourse, find alternative communities that will take them. Red Pill, MGTOW, incels.is forums, or worse. These communities don't demand they feel guilty. These communities say "you are right, the world is wrong". That narrative is dangerous, but for someone who has been told for years that he is categorically guilty, it is very, very appealing.
 
-### C. Pasar Tenaga Kerja yang Berubah
+I need to repeat the caveat I wrote in "Stop The All". **None of these dynamics justifies bad behaviour.** Men who harass, who radicalise, who withdraw from social responsibility, are still responsible for their choices. They are adults. They have agency.
 
-Ini faktor yang paling jarang dibicarakan di lingkungan seperti SCBD atau FE UI, mungkin karena kita bukan demografi yang terdampak langsung.
+But if the question isn't "who is at fault" but "how do we prevent this", we have to be honest that the discursive environment as it exists is, for a significant share of young men, not an environment that produces growth. It's an environment that produces mimicry, withdrawal, or radicalisation. And none of those three outputs is useful to anyone.
 
-Selama sebagian besar abad ke-20, ada jalur yang jelas untuk laki-laki yang bukan juara akademis: pekerjaan manufaktur, konstruksi, pertambangan, dan kerja fisik lainnya yang memberi gaji cukup untuk menghidupi keluarga, identitas berbasis kompetensi ("saya tukang las yang bagus"), dan tempat yang jelas di komunitas.
+## C. A Shifting Labour Market
 
-Deindustrialisasi menghancurkan jalur ini. Di AS, lapangan kerja manufaktur turun dari sekitar 30% dari total tenaga kerja pada 1950-an menjadi sekitar 8% sekarang. Di Indonesia prosesnya berbeda secara kronologis tapi arahnya serupa: ekonomi bergerak menuju jasa dan kerja berbasis pengetahuan, dan laki-laki yang keunggulan kompetitifnya ada di pekerjaan fisik perlahan kehilangan relevansi ekonomi.
+This is the factor that's least talked about in places like SCBD or FE UI, possibly because we aren't the demographic directly affected.
 
-Pada saat yang sama, sistem pendidikan, gerbang utama menuju ekonomi pengetahuan, makin tidak ramah terhadap laki-laki. Riset menunjukkan anak laki-laki matang lebih lambat secara neurologis, terutama di korteks prefrontal yang mengatur kendali impuls dan fungsi eksekutif. Sistem pendidikan yang makin terstruktur, yang makin menuntut kemampuan duduk diam, fokus, dan patuh, hal-hal yang secara neurobiologis lebih sulit bagi anak laki-laki di usia yang sama, secara sistematis merugikan mereka. Ini bukan mempromosikan ideologi manosphere, melainkan neurobiologi perkembangan.
+Through most of the 20th century, there was a clear pathway for men who weren't academic achievers. Manufacturing jobs, construction, mining, and other physical work that paid enough to feed a family, that gave you a competence-based identity ("I'm a good welder"), and that gave you a clear place in your community.
 
-Richard Reeves, sekali lagi bukan konservatif, mengusulkan sesuatu yang sederhana tapi radikal: anak laki-laki mulai sekolah satu tahun lebih lambat dari anak perempuan, untuk mengompensasi jarak pematangan neurologis. Bisa ditebak, ide ini hampir tidak mendapat perhatian sama sekali. Bagi banyak orang, membicarakan kerugian yang dihadapi anak laki-laki dalam pendidikan masih terasa seperti pengkhianatan terhadap perjuangan kesetaraan gender, seolah pengakuan bahwa laki-laki bisa dirugikan di satu ranah otomatis membatalkan pengakuan bahwa perempuan dirugikan di ranah lain.
+Deindustrialisation destroyed that pathway. In the US, manufacturing employment fell from about 30% of total employment in the 1950s to about 8% today. In Indonesia the process is chronologically different but moves in the same direction. The economy shifts toward services and knowledge work, and the man whose competitive advantage is physical work slowly loses economic relevance.
 
-Ini cara berpikir zero-sum. Dan cara berpikir zero-sum soal gender, dari arah mana pun, adalah salah satu kegagalan kognitif paling merusak dalam diskursus publik kontemporer.
+At the same time, the education system, the main gateway to the knowledge economy, has become increasingly hostile to boys. Research shows boys mature more slowly neurologically, especially in the prefrontal-cortex regions that regulate impulse control and executive function. The increasingly structured education system, demanding more sitting still, more focus, more compliance, things that are neurobiologically harder for boys at the same age, systematically disadvantages them. This isn't manosphere ideology. It's developmental neuroscience.
 
-### D. Ketiadaan Ayah
+Richard Reeves, again not a conservative, proposes something simple but radical. That boys start school one year later than girls, to compensate for the neurological maturation gap. The idea, predictably, has gone almost nowhere. Talking about disadvantages faced by boys in education still feels, to many people, like a betrayal of the fight for gender equality. As if acknowledging that boys can be disadvantaged in one domain automatically cancels out the acknowledgement that women are disadvantaged in another.
 
-Ini mungkin faktor yang paling tidak nyaman dibicarakan, karena implikasinya menyentuh hampir setiap asumsi yang kita pegang soal struktur keluarga.
+This is zero-sum thinking. And zero-sum thinking about gender, from any direction, is one of the most damaging cognitive failures in contemporary public discourse.
 
-Raj Chetty, dalam studi longitudinal yang melibatkan jutaan titik data, menemukan bahwa ketiadaan ayah adalah salah satu prediktor terkuat untuk hasil buruk pada anak laki-laki, lebih kuat daripada pendapatan keluarga, lebih kuat daripada kualitas sekolah, lebih kuat daripada hampir semua variabel lain yang mereka ukur. Dan efeknya bergantung gender: anak laki-laki jauh lebih terdampak oleh ketiadaan ayah daripada anak perempuan.
+## D. The Absence of Fathers
 
-Kenapa? Hipotesis yang paling masuk akal melibatkan peniruan model. Anak laki-laki belajar cara "menjadi laki-laki dewasa" sebagian besar dari mengamati laki-laki dewasa di sekitarnya: cara mengelola kemarahan, cara memperlakukan pasangan, cara menghadapi kegagalan, cara bekerja. Ketika model itu absen, anak laki-laki tidak berhenti mencari model. Mereka mencarinya di tempat lain, dan "tempat lain" itu makin sering adalah internet. Model maskulinitas yang ditawarkan internet, dari Andrew Tate sampai forum incel, adalah model yang, saya rasa kita bisa sepakat, tidak ideal.
+This might be the most uncomfortable factor to discuss, because the implications touch nearly every assumption we hold about family structure.
 
-Saya sadar membahas ketiadaan ayah bisa terdengar seperti argumen untuk "keluarga tradisional" dalam pengertian konservatif. Bukan itu maksud saya. Dua ibu bisa membesarkan anak laki-laki yang luar biasa. Ibu tunggal bisa, dan kerap, melakukannya dengan heroik. Yang ditunjukkan data Chetty bukan bahwa "keluarga tradisional" satu-satunya susunan yang berhasil, tapi bahwa kehadiran panutan laki-laki dewasa yang fungsional, ayah, paman, guru, mentor, siapa pun, punya efek yang terukur dan signifikan pada perkembangan anak laki-laki. Dan bahwa ketiadaannya, yang makin umum, punya konsekuensi yang juga makin umum.
+Raj Chetty, in longitudinal studies involving literally millions of data points, found that fatherlessness is one of the strongest predictors of poor outcomes for boys. Stronger than family income. Stronger than school quality. Stronger than almost any other variable they measured. And the effect is gendered. Boys are far more affected by the absence of a father than girls.
 
-### E. Lingkungan Superstimulus
+Why? The most plausible hypothesis involves modelling. Boys learn how to "be an adult man" largely by observing the adult men around them. How to manage anger. How to treat a partner. How to handle failure. How to work. When that model is absent, boys do not stop looking for one. They look elsewhere, and "elsewhere" is, increasingly, the internet. The models of masculinity the internet offers, from Andrew Tate to incel forums, are not, I think we can agree, ideal.
 
-Ini faktor yang paling dekat dengan pengalaman langsungmu sebagai pembaca tulisan ini, jadi saya tidak perlu terlalu banyak menjelaskan.
+I'm aware that discussing father absence can sound like an argument for "the traditional family" in the conservative sense. That isn't what I'm saying. Two mothers can raise an extraordinary boy. A single mother can and often does this heroically. What the Chetty data shows isn't that "the traditional family" is the only working setting. It shows that the presence of a functional adult male role model, father, uncle, teacher, mentor, _anyone_, has a measurable and significant effect on boys' development. And that the absence of that role model, which is increasingly common, has consequences that are also increasingly common.
 
-Kamu hidup di lingkungan yang, untuk pertama kalinya dalam sejarah spesies ini, menawarkan akses tak terbatas ke stimulasi tingkat tinggi dengan biaya mendekati nol. Pornografi gratis. Gim gratis atau murah. Media sosial gratis. Streaming nyaris gratis. Semuanya dikirim lewat perangkat yang kamu bawa di saku, tersedia 24 jam, dan dioptimalkan oleh algoritma machine learning yang satu-satunya fungsi tujuannya memaksimalkan waktu yang kamu habiskan di platform.
+## E. The Superstimulus Environment
 
-Saya sudah menulis soal mekanisme ini secara spesifik dalam konteks pornografi, tapi prinsipnya menggeneralisasi. Sirkuit penghargaan manusia berevolusi untuk lingkungan tempat penghargaan itu langka dan menuntut usaha. Makanan enak butuh berburu atau meramu. Stimulasi seksual butuh hubungan sosial. Hiburan butuh komunitas. Status butuh kontribusi nyata.
+This is the factor closest to your direct experience as a reader, so I won't have to explain much.
 
-Di lingkungan modern, semua penghargaan ini tersedia tanpa usaha apa pun. Dan sistem penghargaan yang dirancang untuk kelangkaan tidak berfungsi baik dalam kelimpahan. Ini bukan kelemahan karakter, ini ketidakcocokan evolusioner. Burung camar yang memilih telur palsu bukan burung yang bodoh. Laki-laki muda yang menghabiskan enam jam sehari di TikTok bukan laki-laki yang lebih rendah secara moral. Keduanya beroperasi dengan perangkat bawaan yang tidak dirancang untuk input pada level itu.
+You live in an environment that, for the first time in this species' history, offers unlimited access to high-intensity stimulation at near-zero cost. Free pornography. Free or cheap gaming. Free social media. Near-free streaming. All of it delivered through a device you carry in your pocket, available 24 hours a day, and optimised by machine-learning algorithms whose only objective function is to maximise the time you spend on the platform.
 
-Tapi ada catatan yang krusial di sini: mengetahui bahwa kamu rentan terhadap sesuatu bukan izin untuk menyerah pada hal tersebut. Manusia bukan burung camar. Kita punya prefrontal cortex. Kita punya kapasitas mengenali pola, memahami mekanisme, dan membuat pilihan yang membatalkan setelan bawaan. Kapasitas itu mahal untuk dipakai, kemauan bukan sumber daya tak terbatas, tapi kapasitas itu ada. Dan menolak memakainya, setelah kamu tahu apa yang sedang terjadi, bukan lagi ketidakcocokan evolusioner. Itu pilihan.
+I've already written about this mechanism specifically in the pornography context. But the principle generalises. Human reward circuitry evolved for environments where rewards were scarce and required effort. Good food required hunting or gathering. Sexual stimulation required social bonds. Entertainment required community. Status required real contribution.
 
-Jadi: runtuhnya institusi pembentuk, jebakan kafka dalam diskursus gender, perubahan pasar tenaga kerja, ketiadaan panutan, dan lingkungan superstimulus. Lima faktor struktural yang secara konvergen menciptakan kondisi di mana kelemahan menjadi jalan dengan hambatan paling kecil bagi laki-laki muda.
+In the modern environment, all of those rewards are available with no effort at all. And a reward system designed for scarcity doesn't function well in abundance. This isn't a character flaw. It's evolutionary mismatch. The gull that preferred the fake egg wasn't stupid. The young man who spends six hours a day on TikTok isn't morally inferior. Both are operating with firmware that wasn't designed for input at that level.
 
-Apakah ini berarti laki-laki lemah itu "korban"?
+But there is a crucial caveat. **Knowing you are vulnerable to something is not permission to surrender to it.** Humans aren't gulls. We have a prefrontal cortex. We have the capacity to recognise patterns, understand mechanisms, and make choices that override defaults. That capacity is expensive to use. Willpower isn't infinite. But the capacity exists. And refusing to use it, once you know what is happening, is no longer evolutionary mismatch. It's a choice.
 
-Tidak.
+So. The collapse of formative institutions, the kafka trap of gender discourse, the shifting labour market, the absence of role models, and the superstimulus environment. Five structural factors that, convergently, create conditions in which weakness becomes the path of least resistance for young men.
 
-Semua faktor ini nyata. Semuanya membuat menjadi kuat lebih sulit daripada di generasi sebelumnya, atau setidaknya sulit dengan cara yang berbeda. Saya tidak akan meminimalkan itu. Lingkungan itu penting. Kondisi awal itu penting.
+Does this make weak men "victims"?
 
-Tapi pada akhirnya semua orang menghadapi kendala. Semua orang beroperasi di lingkungan yang tidak mereka pilih. Perempuan menghadapi kendala yang secara historis jauh lebih berat daripada apa pun yang saya deskripsikan di atas, dan entah bagaimana, sebagai kelompok, mereka mengungguli laki-laki di hampir setiap metrik pendidikan dan makin banyak metrik profesional. Kendala bukan alasan. Kendala adalah konteks.
+**No.**
 
-Memahami konteks ini penting bukan untuk membenarkan kelemahan, tapi untuk merancang intervensi yang benar-benar bekerja. "Jadilah jantan" bukan intervensi. Itu slogan. Dan slogan tidak mengubah lingkungan. Yang mengubah lingkungan adalah pemahaman yang cukup presisi tentang mekanisme yang menghasilkan hasil yang tidak kita inginkan, sehingga kita bisa memodifikasi mekanismenya, bukan cuma berteriak pada keluarannya.
+All these factors are real. All of them make becoming strong _harder_ than it was in earlier generations, or at least hard in a different way. I'm not going to minimise that. Environment matters. Starting conditions matter.
 
-Tapi sebelum bicara solusi, ada satu pertanyaan lagi yang perlu dijawab: kenapa ini masalah buat kamu? Kenapa kelemahan laki-laki bukan cuma masalah laki-laki? Kenapa polutan ini, meminjam metafora dari Bagian II, mencemari lebih dari sekadar sumbernya?
+But ultimately, everyone faces constraints. Everyone operates in an environment they didn't choose. Women face constraints that historically were far heavier than anything I've described above, and somehow, as a group, they outperform men on almost every educational metric and a growing list of professional ones. Constraints are not an excuse. Constraints are context.
 
-## IV.
+Understanding the context matters not because it justifies weakness, but because it lets us design **interventions that actually work.** "Man up" isn't an intervention. It's a slogan. And slogans don't change environments. What changes environments is sufficiently precise understanding of the **mechanism** producing the outcomes we don't want, so we can modify the mechanism, not just shout at the output.
 
-Ada godaan menganggap laki-laki lemah sebagai masalah yang berdiri sendiri. "Biarin aja, toh yang rugi mereka sendiri." Saya mengerti impuls itu; kadang saya merasakannya sendiri. Kalau kelemahan itu benar-benar berdiri sendiri, kalau laki-laki lemah cuma merusak diri sendiri tanpa menyentuh siapa pun, mungkin saya tidak akan menulis tulisan ini. Prinsip kebebasan berkata orang berhak menghancurkan hidupnya sendiri selama tidak merugikan orang lain.
+Before we talk about solutions, there is one more question worth answering. **Why is this _your_ problem?** Why is male weakness not just a problem for men? Why does this pollutant, borrowing the metaphor from Section II, contaminate more than its source?
 
-Persoalannya, merugikan orang lain justru yang mereka lakukan. Bukan dengan niat. Bukan dengan rencana. Tapi dengan cara yang sama seperti polusi udara merugikan orang lain, sebagai produk sampingan dari perilaku yang, bagi pelakunya, terasa sepenuhnya personal dan tidak berhubungan dengan siapa pun.
+# IV.
 
-Dalam ekonomi kita menyebutnya eksternalitas negatif: biaya dari suatu aktivitas yang ditanggung oleh pihak yang tidak terlibat dalam aktivitas itu. Pabrik yang membuang limbah ke sungai menikmati labanya; masyarakat hilir menanggung merkuri di air minumnya. Perokok menikmati nikotinnya; orang di sebelahnya menanggung asapnya.
+There is a temptation to treat the weak man as a self-contained problem. "Let him be. It's only him who suffers." I understand the impulse. I sometimes feel it myself. If weakness really were self-contained, if a weak man only damaged himself without touching anyone, I might not have written this essay. Liberty says people have the right to ruin their own lives as long as they don't harm anyone else.
 
-Laki-laki lemah, secara agregat, adalah pabrik yang membuang limbahnya ke setidaknya empat sungai sekaligus.
+The trouble is, harming other people is precisely what they do. Not by intent. Not by plan. But in the same way air pollution harms other people, as a byproduct of behaviour that, to the person doing it, feels entirely personal and unconnected to anyone.
 
-### Eksternalitas 1: Distorsi Pasar Romansa
+In economics this is called a **negative externality**. The cost of an activity that is borne by people who didn't participate in it. The factory dumping waste into the river gets the profit. The downstream community gets mercury in its drinking water. The smoker gets the nicotine. The person next to him gets the smoke.
 
-Saya sudah menulis panjang soal ini di "Layaknya Saham Gorengan", jadi di sini saya akan meringkas argumen utamanya dan menambahkan lapis yang waktu itu belum saya artikulasikan.
+A weak man, in aggregate, is a factory dumping waste into at least four rivers at once.
 
-Pasar romansa, seperti pasar mana pun, butuh penemuan harga yang berfungsi. Penemuan harga butuh umpan balik: ekspektasi yang tidak realistis semestinya menghadapi konsekuensi berupa tidak adanya yang bersedia memenuhinya, dan konsekuensi itu semestinya mendorong kalibrasi ulang.
+## Externality 1. Distortion of the Romance Market
 
-Laki-laki lemah menghancurkan penemuan harga ini.
+I've written about this at length in "Like a Pump-and-Dump Stock", so I'll summarise the main argument here and add a layer I didn't articulate at the time.
 
-Si Cadangan Permanen, yang menunggu seseorang yang tidak memprioritaskannya, mengirim sinyal palsu bahwa perhatian tanpa timbal balik itu berkelanjutan. Si Penyubsidi Tanpa Syarat, yang memberi dukungan emosional, sumber daya, dan waktu kepada seseorang yang tidak berniat membalas, secara artifisial menggelembungkan nilai pasar yang dipersepsikan si penerima. Si Penyerah yang Putus Asa, yang menerima kondisi hubungan yang secara objektif di bawah standar karena takut sendirian, mengonfirmasi ke pasar bahwa standar rendah pun tetap menghasilkan komitmen.
+The romance market, like any market, needs functional price discovery. Price discovery needs a feedback loop. Unrealistic expectations should run into the consequence of nobody being willing to meet them, and that consequence should drive recalibration.
 
-Ini mekanisme pasar yang elementer. Ketika pasokan perhatian laki-laki tidak pernah turun, apa pun kondisinya, penemuan harga tidak bisa terjadi. Dan ketika penemuan harga tidak terjadi, semua orang beroperasi di atas informasi yang salah tentang posisi riilnya. Termasuk laki-laki yang bukan penyubsidi, yang kini bersaing di pasar yang ekspektasinya sudah digelembungkan oleh perilaku kolektif yang bukan miliknya.
+Weak men destroy this price discovery.
 
-Lapis yang belum saya artikulasikan waktu itu: distorsi ini juga merugikan perempuan, bukan cuma laki-laki. Perempuan yang nilai pasar persepsiannya digelembungkan oleh subsidi tanpa syarat akan, secara mekanis, menolak pasangan yang sebenarnya sepadan dengan mereka, karena pasangan itu terasa seperti merendahkan standar relatif terhadap baseline yang sudah terdistorsi. Hasilnya, perempuan yang semestinya berada di hubungan yang fungsional dan memenuhi justru terus mencari sesuatu yang, secara statistik, tidak ada di kelompok mereka. Dan mereka baru menyadarinya setelah bertahun-tahun jendela optimal terbuang.
+The Permanent Standby, waiting on someone who has explicitly not chosen him as a priority, sends a false signal that attention without reciprocity is sustainable. The Unconditional Subsidizer, giving emotional support, resources, and time to someone who has no intention of reciprocating, artificially inflates the recipient's perceived market value. The Desperate Settler, accepting relationship conditions objectively below standard because he's afraid of being alone, confirms to the market that low standards still produce committed partners.
 
-Siapa yang menciptakan distorsi ini? Bukan perempuan yang punya standar tinggi; standar tinggi itu perilaku rasional di pasar mana pun. Bukan pula aplikasi kencan; aplikasi cuma mempercepat dinamika yang sudah ada. Distorsinya datang dari laki-laki yang terus-menerus memberikan sesuatu yang bernilai, waktu, perhatian, sumber daya, komitmen, tanpa mensyaratkan apa pun sebagai balasan. Laki-laki lemah. Penyubsidi tanpa syarat. Lantai yang terus turun.
+Basic market mechanics. When the supply of male attention never falls, no matter the conditions, price discovery can't happen. And when price discovery can't happen, **everyone** operates on wrong information about their actual position. Including the men who _aren't_ subsidisers, who are now competing in a market whose expectations have been inflated by collective behaviour not their own.
 
-### Eksternalitas 2: Kontaminasi Diskursus Publik
+The layer I didn't articulate at the time. The distortion also harms women, not only men. Women whose perceived market value has been inflated by unconditional subsidy will, mechanically, reject partners who are actually sekufu with them, because those partners _feel_ like settling relative to a distorted baseline. The outcome. Women who should be in functional, fulfilling relationships end up continuing to look for something that, statistically, doesn't exist in their bracket. And they only realise it after years of optimal window have been wasted.
 
-Di "Stop The All" saya menulis soal bagaimana virtue signalling mengontaminasi percakapan publik tentang gender. Tapi saya belum secara eksplisit menghubungkan virtue signalling itu ke sindrom yang sama.
+Who creates this distortion? Not women with high standards. High standards are rational behaviour in any market. Not the dating apps. The apps only accelerate dynamics that already exist. The distortion comes from men who keep giving away something valuable, time, attention, resources, commitment, with no requirement for anything in return. Weak men. Unconditional subsidisers. A floor that keeps falling.
 
-Laki-laki yang memposting Instagram story soal rape culture padahal group chat-nya tidak bersih bukan sedang mengalami disonansi kognitif yang acak. Itu gejala kelima dari sindrom yang sama, kebajikan tanpa harga. Laki-laki yang tidak punya skin in the game di ranah mana pun yang bermakna, yang mode bawaannya menghindari ketidaknyamanan, akan secara alami condong ke bentuk "kontribusi" yang paling murah yang tersedia. Dan tidak ada kontribusi yang lebih murah daripada memposting di media sosial.
+## Externality 2. Contamination of Public Discourse
 
-Efek kontaminasi ini bukan cuma bahwa diskursusnya jadi performatif. Efek yang lebih merusak adalah bahwa diskursusnya jadi tidak terbantahkan. Ketika orang yang paling vokal soal isu gender adalah orang yang paling tidak punya skin in the game, apa yang mereka katakan tidak pernah diuji oleh realitas. Dan klaim yang tidak diuji realitas cuma bisa mengalami satu hal: eskalasi. Posisi yang awalnya hati-hati bergeser jadi posisi yang ekspansif. Bahasa yang mulanya masuk akal jadi absolutis. "Ada pola yang perlu diperbaiki" bergeser jadi "Kill All Men". Bukan karena orang-orang yang terlibat jahat, tapi karena tidak ada mekanisme koreksi, tidak ada skin in the game yang memaksa klaim-klaim ini berhadapan dengan konsekuensi.
+In "Stop The All", I wrote about how virtue signalling contaminates public conversation about gender. But I didn't explicitly connect virtue signalling to the same syndrome.
 
-Siapa yang menanggung biaya dari diskursus yang terkontaminasi ini? Dua kelompok.
+A man posting an Instagram story about rape culture while his own group chat is dirty isn't experiencing random cognitive dissonance. He is the **fifth symptom of the same syndrome**. Virtue without a price. A man with no skin in the game in any meaningful domain, whose default mode is avoiding discomfort, will naturally gravitate to the cheapest available form of "contribution". And nothing is cheaper than posting on social media.
 
-Yang pertama, perempuan yang sungguh-sungguh sedang memperjuangkan perubahan yang sah. Setiap kali seorang laki-laki munafik membajak narasi feminis demi modal sosial, mereka langsung mengencerkan kredibilitas gerakan yang semestinya mereka dukung. Ketika orang mulai curiga bahwa "laki-laki feminis" cuma pertunjukan, kecurigaan itu tidak hanya mengenai laki-laki yang performatif. Hal itu mengenai semua orang yang memakai bahasa yang sama, termasuk yang tulus.
+The contamination effect isn't only that discourse becomes performative. The more damaging effect is that **discourse becomes unfalsifiable.** When the loudest people on a gender issue are the people with the least skin in the game, what they say never gets tested against reality. And a claim that isn't tested against reality can only escalate. The motte shifts into the bailey. The reasonable becomes the absolutist. "There is a pattern that needs fixing" shifts into "Kill All Men". Not because the people involved are evil, but because **there is no correction mechanism**, no skin in the game forcing those claims to face consequences.
 
-Yang kedua, laki-laki muda yang sungguh-sungguh sedang mencoba memahami dan memperbaiki diri. Laki-laki ini melihat diskursus yang terkontaminasi lalu menyimpulkan salah satu dari dua hal: "ini semua omong kosong, tidak ada yang tulus" (mendorong sinisme dan penarikan diri), atau "saya harus ikut memposting hal yang sama supaya aman secara sosial" (memproduksi satu pelaku virtue signalling lagi). Tidak ada satu pun dari kedua hasil itu yang menghasilkan laki-laki yang lebih baik. Keduanya memperkuat lingkaran yang sama.
+Who pays the cost of this contaminated discourse? Two groups.
 
-### Eksternalitas 3: Permintaan yang Menopang Industri Eksploitatif
+First, women who are genuinely fighting for legitimate change. Every time a hypocritical man co-opts the feminist narrative for social capital, he directly dilutes the credibility of the movement he is supposedly supporting. When people start to suspect that "male feminist" is only a performance, the suspicion does not stay on the performative ones. It hits everyone using the same language, including the sincere ones.
 
-Di tulisan tentang pornografi, saya berargumen bahwa industri pornografi tradisional adalah Bob Rubin Trade, struktur di mana eksekutif mengambil laba dan para pemain menanggung semua risiko. Tapi saya belum secara eksplisit menghubungkan sisi permintaan dari struktur itu ke sindrom yang sedang kita bahas.
+Second, young men who are genuinely trying to understand and improve themselves. They see the contaminated discourse and conclude one of two things. Either "this is all bullshit, nobody is sincere" (which pushes them toward cynicism and withdrawal), or "I had better post the same things to stay socially safe" (which produces one more virtue signaller). Neither outcome produces a better man. Both reinforce the loop.
 
-Begini hubungannya. Industri eksploitatif tidak bisa eksis tanpa permintaan. Dan permintaan untuk pornografi pada skala industrial, gratis, tak terbatas, dikonsumsi dalam volume yang, kalau diterapkan ke zat psikotropika mana pun akan membuat kita panik, datang secara tidak proporsional dari demografi yang sama: laki-laki muda yang konsumsinya jauh melebihi produksinya, yang sistem penghargaannya sudah terkalibrasi ke superstimulus, yang tidak punya sumber alternatif keintiman atau pencapaian yang bermakna.
+## Externality 3. The Demand That Sustains an Exploitative Industry
 
-Saya tidak sedang mengkhotbahkan moral. Pasokan mengikuti permintaan. Ketika jutaan laki-laki muda menghabiskan jam-jam yang semestinya bisa dipakai membangun sesuatu, keahlian, hubungan, kontribusi, untuk mengonsumsi konten yang diproduksi oleh industri dengan masalah struktural yang terdokumentasi, mereka bukan cuma merusak sirkuit penghargaannya sendiri. Mereka menopang model ekonomi yang merugikan orang-orang paling rentan di dalamnya.
+In the pornography essay, I argued that the traditional pornography industry is a Bob Rubin Trade. A structure where executives take the profit and performers take all the risk. But I didn't explicitly connect the demand side of that structure to the syndrome we are discussing.
 
-PornHub menampung materi eksploitasi anak selama bertahun-tahun dan baru bertindak ketika Visa dan Mastercard mengancam memutus pemrosesan pembayaran. Siapa yang memberi PornHub keleluasaan untuk tidak peduli selama itu? Lalu lintas. Ratusan juta kunjungan per hari. Lalu lintas itu permintaan, dan permintaan itu datang dari laki-laki.
+Here is the connection. An exploitative industry cannot exist without demand. And the demand for pornography at industrial scale (free, unlimited, consumed in volumes that, if applied to any psychotropic substance, would cause a moral panic) comes disproportionately from the same demographic. Young men whose consumption far exceeds their production, whose reward systems are calibrated to superstimulus, who have no alternative source of intimacy or meaningful achievement.
 
-Mengatakan "saya cuma nonton, saya tidak menyakiti siapa-siapa" dalam konteks ini setara dengan mengatakan "saya cuma beli, saya tidak terlibat dalam kondisi pabriknya". Secara murni personal, mungkin benar. Secara sistemik, itu kebutaan yang disengaja. Kamu adalah permintaan itu. Dan tanpa permintaanmu, pasokan itu tidak akan layak secara ekonomi.
+I am not moralising. Supply follows demand. When millions of young men spend hours that could have been used building something, skill, relationship, contribution, on consuming content produced by an industry with documented structural problems, they aren't only damaging their own reward circuitry. They are sustaining an economic model that harms the most vulnerable people inside it.
 
-### Eksternalitas 4: Radikalisasi dan Instabilitas Politik
+PornHub hosted child exploitation material for years and only acted when Visa and Mastercard threatened to cut off payment processing. Who gave PornHub the leverage to ignore the problem for that long? Traffic. Hundreds of millions of visits per day. The traffic is the demand. And the demand comes from men.
 
-Ini eksternalitas yang paling jarang diasosiasikan dengan "laki-laki lemah" tapi mungkin yang paling berbahaya pada skala besar.
+Saying "I'm just watching, I'm not hurting anyone" in this context is equivalent to saying "I'm just buying, I'm not part of the factory conditions". Strictly personally, maybe true. Systemically, it's wilful blindness. You **are** the demand. Without your demand, the supply isn't viable.
 
-Setiap gerakan ekstremis dalam sejarah modern, tanpa kecuali yang signifikan, dibangun di atas satu bahan baku yang sama: laki-laki muda yang tak punya arah dan dipenuhi dendam. ISIS merekrut dari populasi ini. Alt-right merekrut dari populasi ini. Gerakan incel adalah populasi ini yang mengorganisasi dirinya sendiri.
+## Externality 4. Radicalisation and Political Instability
 
-Tapi yang mungkin kurang diperhatikan, jalur dari "laki-laki biasa yang agak tersesat" ke "laki-laki yang teradikalisasi" itu jauh lebih pendek dari yang kita kira. Radikalisasi online bisa terjadi dalam hitungan bulan, bukan tahun. Mesin rekomendasi YouTube, TikTok, dan platform lain, yang dioptimalkan untuk keterlibatan, bukan kebenaran, secara efisien menyalurkan laki-laki muda dari konten yang sedikit nyeleneh ke konten yang sungguh ekstremis. Dari konten pengembangan diri, ke looksmaxxing, ke incel, ke supremasi kulit putih alt-right.
+This is the externality least often associated with "weak men", but maybe the most dangerous at scale.
 
-Siapa yang paling rentan terhadap jalur ini? Bukan laki-laki yang punya tujuan, komunitas, dan taruhan dalam masyarakat. Mereka terlalu sibuk, terlalu terinvestasi, terlalu banyak yang bisa hilang. Yang rentan adalah laki-laki yang tidak punya semua itu, yang nihilis, yang terisolasi, yang tidak punya skin in the game di mana pun, yang merasa dunia tidak menyediakan tempat untuk mereka. Laki-laki lemah. Bukan karena mereka jahat, tapi karena mereka kosong. Dan kekosongan itu ruang hampa yang bisa diisi oleh siapa saja yang cukup cerdik untuk mengeksploitasinya.
+Every extremist movement in modern history, without significant exception, has been built on the same raw material. **Directionless, resentful young men.** ISIS recruited from this population. The alt-right recruited from this population. The incel movement is literally this population organising itself.
 
-Setiap kali seorang laki-laki muda yang tak punya arah masuk ke lubang kelinci dan keluar sebagai ekstremis, itu bukan cuma tragedi individual. Itu vektor ancaman bagi semua orang di sekitarnya. Dan jumlah laki-laki yang berada di titik awal jalur ini, nihilis, terisolasi, marah, tanpa tujuan, lebih besar hari ini daripada di titik mana pun dalam sejarah modern.
+What may not be appreciated is that the pipeline from "ordinary, slightly lost young man" to "radicalised young man" is **much shorter than people think.** Online radicalisation can happen in months, not years. The recommendation algorithms on YouTube, TikTok, and other platforms, optimised for engagement and not for truth, efficiently funnel young men from mildly edgy content into genuinely extremist content. From self-improvement to looksmaxxing to incel to alt-right white supremacist.
 
-### Eksternalitas 5: Beban Tambahan pada Perempuan
+Who is most vulnerable to this pipeline? Not men with purpose, community, and a stake in society. They are too busy, too invested, with too much to lose. The vulnerable men are the ones who have **none of that**. The nihilists. The isolated. The men with no skin in the game anywhere. The men who feel the world has no place for them. Weak men. Not because they are evil, but because they are **empty**. And emptiness is the vacuum any sufficiently savvy operator can fill.
 
-Ini yang paling berlawanan dengan intuisi tapi mungkin paling penting untuk audiens tulisan ini.
+Every time a directionless young man enters the rabbit hole and exits as an extremist, that isn't only an individual tragedy. It is a threat vector against everyone around him. And the number of men sitting at the starting point of that pipeline, nihilistic, isolated, angry, purposeless, is larger today than at any point in modern history.
 
-Perspektif yang umum: patriarki merugikan perempuan, dan laki-laki adalah pihak yang diuntungkan. Ini benar secara agregat dan historis. Tapi di level interpersonal dan kontemporer, ada sesuatu yang lebih spesifik terjadi: laki-laki lemah menciptakan beban tambahan yang secara tidak proporsional ditanggung oleh perempuan di sekelilingnya.
+## Externality 5. The Extra Burden Carried by Women
 
-Beban ini datang dalam beberapa bentuk.
+This is the most counterintuitive of the five, but possibly the most important for this essay's audience.
 
-Kerja emosional tanpa timbal balik. Perempuan yang berpasangan dengan laki-laki yang belum pernah memproses kehidupan emosionalnya secara sadar, yang tidak punya kosakata untuk emosinya, yang respons bawaannya terhadap tekanan adalah menarik diri atau marah, yang tidak pernah belajar introspeksi, menjadi terapis tak dibayar secara de facto. Ini bukan soal laki-laki yang "tidak romantis". Ini soal laki-laki yang tidak punya kapasitas emosional dasar yang dibutuhkan untuk berpartisipasi setara dalam sebuah hubungan. Dan beban mengompensasi ketiadaan itu hampir selalu jatuh pada perempuan.
+The standard frame. Patriarchy harms women, and men are the beneficiaries. This is true _in aggregate and historically_. But at the interpersonal and contemporary level, something more specific is happening. **Weak men create an extra burden that falls disproportionately on the women around them.**
 
-Standar yang mustahil karena distorsi pasar. Seperti yang sudah saya bahas, ketika subsidi laki-laki lemah menggelembungkan nilai pasar yang dipersepsikan, perempuan beroperasi di atas informasi yang salah. Mereka menolak pasangan yang sebenarnya sepadan (sekufu) karena baseline-nya sudah terdistorsi. Dan ketika realitas akhirnya mengoreksi, ketika usia, fase hidup, atau akumulasi pengalaman membuat distorsi itu terlihat, koreksinya kerap terlambat dan menyakitkan.
+The burden takes several forms.
 
-Anak-anak yang dibesarkan tanpa orang tua pendamping yang fungsional. Ini yang paling tajam. Laki-laki yang tidak punya agensi atas hidupnya sendiri tidak bisa jadi orang tua pendamping yang fungsional. Dan ketika pengasuhan jatuh secara tidak proporsional pada ibu, entah karena ayah secara harfiah absen atau karena ayah hadir secara fisik tapi absen secara fungsional, itu bukan "dinamika keluarga". Itu eksternalitas yang ditanggung perempuan dan anak-anak.
+**Emotional labour without reciprocity.** A woman partnered with a man who has never consciously processed his emotional life, who has no vocabulary for his emotions, whose default response to distress is withdrawal or anger, who has never learned introspection, becomes a de facto unpaid therapist. This isn't about a man being "unromantic". It's about a man **not having the baseline emotional capacity required to participate as an equal in a relationship.** The burden of compensating for that absence almost always falls on the woman.
 
-Keamanan fisik. Ini yang paling suram. Mayoritas kekerasan terhadap perempuan dilakukan oleh laki-laki yang mereka kenal. Kekerasan ini punya banyak akar penyebab, tapi satu benang merah yang konsisten adalah laki-laki yang tidak punya kapasitas mengelola emosi, terutama kemarahan dan frustrasi, secara konstruktif. Laki-laki yang, dalam terminologi tulisan ini, lemah, yang respons bawaannya terhadap ketidaknyamanan emosional bukan memproses tapi melampiaskan, dan pelampiasan itu sering mengambil bentuk kekerasan terhadap orang yang paling dekat dan paling rentan.
+**Impossible standards from market distortion.** As discussed. When weak-male subsidy inflates perceived market value, women operate on wrong information. They reject partners who are actually compatible (sekufu) because the baseline has been distorted. When reality eventually corrects, when age, life stage, or accumulated experience makes the distortion visible, the correction is often too late and too painful.
 
-Saya tahu paragraf terakhir itu berat. Saya menulisnya dengan hati-hati karena saya tidak ingin mengklaim bahwa semua laki-laki lemah adalah pelaku kekerasan. Itu jelas tidak benar. Banyak laki-laki lemah sama sekali tidak melakukan kekerasan; mereka menarik diri, bukan agresif. Tapi ada irisan yang cukup signifikan antara sindrom yang saya deskripsikan, ketidakmampuan mengelola ketidaknyamanan, absennya regulasi emosi, nihilisme, dan profil risiko kekerasan domestik, sehingga menyebutkannya bukan sesuatu yang dipaksakan.
+**Children raised without a functional co-parent.** This is the starkest one. A man without agency over his own life cannot be a functional co-parent. And when parenting falls disproportionately on the mother, whether because the father is literally absent or because he is physically present but functionally absent, that isn't "family dynamics". That's an externality borne by women and children.
 
-Jadi: distorsi pasar romansa, kontaminasi diskursus publik, penopangan industri eksploitatif, radikalisasi politik, dan beban tambahan pada perempuan. Lima sungai yang tercemar oleh satu sumber polutan.
+**Physical safety.** This is the bleakest one. Most violence against women is committed by men they know. The violence has many causes, but one consistent thread is **men without the capacity to constructively manage emotion, especially anger and frustration.** Men who, in this essay's terminology, are weak. Whose default response to emotional discomfort is not processing but discharge, and whose discharge often takes the form of violence against the people closest and most vulnerable to them.
 
-Perhatikan satu hal: di setiap eksternalitas ini, yang menanggung biaya bukan yang menghasilkan polutan. Laki-laki lemah memang menanggung sebagian konsekuensinya, hidup mereka sendiri yang paling rusak. Tapi sebagian besar biayanya ditanggung perempuan, anak-anak, komunitas, dan masyarakat luas. Eksternalitas negatif yang klasik. Bob Rubin Trade yang klasik. Laki-laki lemah mengambil jalan dengan hambatan paling kecil, dan orang lain membayar tagihannya.
+I know that paragraph is heavy. I wrote it carefully because I do _not_ want to claim that all weak men are violent. That's clearly not true. Many weak men are not violent at all. They are withdrawn rather than aggressive. But there is enough overlap between the syndrome I've been describing (inability to handle discomfort, absence of emotional regulation, nihilism) and the risk profile for domestic violence that mentioning it is not a stretch.
 
-Itu bukan masalah personal. Itu masalah publik. Dan masalah publik butuh lebih dari nasihat individual soal "perbaiki dirimu". Masalah publik butuh perubahan di level individu sekaligus level sistem.
+So. Distortion of the romance market, contamination of public discourse, sustenance of an exploitative industry, political radicalisation, and the extra burden carried by women. Five rivers contaminated by a single source.
 
-## V.
+And notice this. In every externality, the people paying the cost **aren't** the people producing the pollutant. The weak man bears some of the consequence, of course. His own life is the most damaged. But most of the cost is borne by women, children, communities, and society at large. Classic negative externality. Classic Bob Rubin Trade. A weak man takes the path of least resistance and other people pay the bill.
 
-Bagian ini bakal kedengeran kayak nasihat. Saya nggak suka kasih nasihat, ada sesuatu yang secara epistemik mencurigakan soal orang awal 20-an yang ngasih tahu orang lain cara hidup. Tapi saya udah ngabisin empat bagian buat mendiagnosis masalah, dan diagnosis tanpa resep itu cuma keluhan yang lebih panjang. Jadi saya coba, dengan catatan bahwa saya sendiri nggak selalu mempraktikin semua yang bakal saya tulis di bawah, dan sebagian darinya mungkin salah.
+That isn't a personal problem. It is a public problem. And public problems require more than individual advice about "fix yourself". They require change at the individual level _and_ at the system level.
 
-Catatan tambahan: resep ini ditujukan buat laki-laki yang ngenalin dirinya di deskripsi Bagian II, yang setelah baca mikir "sial, beberapa dari ini tentang saya". Kalau kamu baca Bagian II dan nggak ngenalin dirimu sama sekali, entah kamu udah jauh lebih maju dari yang saya asumsikan, atau kamu lagi dalam penyangkalan yang butuh lebih dari sebuah esai buat ditembus. Saya nggak bisa bedain keduanya dari sini.
+# V.
 
-### 1. Cari Satu Ranah yang Punya Skin in the Game untukmu. Satu Saja.
+This section is going to sound like advice. I don't like giving advice. There is something epistemically suspicious about a person in his early twenties telling other people how to live. But I've already spent four sections diagnosing the problem, and a diagnosis without a prescription is only a longer complaint. So I'll try, with the caveat that I do not always practise everything I'm about to write, and that some of it might be wrong.
 
-Bukan lima, bukan tiga. Satu.
+Additional caveat. This prescription is aimed at men who **recognised themselves** in Section II. The ones who, after reading, thought "damn, some of that is about me". If you read Section II and didn't recognise yourself at all, you either are further along than I assumed, or you are in a denial that takes more than an essay to break. I can't tell the two apart from here.
 
-Saya sengaja menekankan ini karena salah satu cara gagal yang paling umum dari "self-improvement" adalah mencoba mengubah segalanya sekaligus. Itu bukan ambisi, itu resep untuk menyerah dalam dua minggu. Kemauan bukan sumber daya tak terbatas, dan setiap ranah baru yang kamu tambahkan menguras cadangan yang sama.
+## 1. Find One Domain Where You Have Skin in the Game. One.
 
-Yang saya maksud dengan "ranah yang punya skin in the game" adalah arena di mana kegagalan punya harga yang kamu rasakan, keberhasilan menuntut usaha yang kamu keluarkan, dan orang lain bisa menilai hasilnya.
+Not five. Not three. One.
 
-Ini bisa apa saja. Olahraga kompetitif tempat kamu kalah di depan orang. Bisnis kecil tempat kamu mempertaruhkan waktu dan uang. Keahlian teknis yang hasilnya terlihat dan bisa dikritik, coding, menulis, memasak, pertukangan, produksi musik, apa pun yang menghasilkan keluaran nyata. Proyek komunitas tempat kamu bertanggung jawab atas hasil kepada orang lain. Bahkan hubungan romantis yang berkomitmen, tempat kamu secara eksplisit mempertaruhkan waktu, energi emosional, dan kemungkinan patah hati.
+I'm emphasising this on purpose because one of the most common failure modes of "self-improvement" is trying to change everything at once. That isn't ambition. That's a recipe for giving up in two weeks. Willpower isn't infinite, and every additional domain you take on drains the same reservoir.
 
-Yang bukan ranah dengan skin in the game: menonton Zahid Ibrahim dan mengonsumsi konten tentang self-improvement, ironis mengingat kamu sedang membaca tulisan ini. Mengikuti akun Dafau Guciano di TikTok tanpa ikut ke gym seperti dirinya. Punya opini keras di internet tanpa pernah mempresentasikannya di ruang tempat orang bisa merespons langsung. Merencanakan tanpa mengeksekusi, sebab merencanakan bukan melakukan. Menulis daftar tugas bukan skin in the game. Mencoret item di daftar tugas pun belum tentu, tergantung apakah item itu bisa gagal atau tidak.
+By "a domain with skin in the game", I mean **an arena where failure has a price you actually feel, success requires effort you actually expend, and other people can judge the result.**
 
-Tes yang paling sederhana: adakah skenario di mana kamu bisa malu karena hasilnya buruk? Kalau ya, itu skin in the game. Kalau tidak, kamu masih di zona aman. Dan zona aman, seperti sudah saya argumentasikan, adalah tempat kelemahan berbunga majemuk.
+It can be anything. A competitive sport where you lose in front of other people. A small business where you stake real time and money. A technical skill whose result is visible and can be criticised, coding, writing, cooking, carpentry, music production, anything that produces a real output. A community project where you are responsible for an outcome to other people. Even a committed romantic relationship, where you explicitly stake time, emotional energy, and the possibility of heartbreak.
 
-Mulai dari satu. Jadikan itu tidak bisa ditawar. Baru kemudian, kalau kapasitasmu mengizinkan, tambah yang lain.
+What _isn't_ a domain with skin in the game. Watching Zahid Ibrahim and consuming self-improvement content (ironic, given that you are reading this essay). Following Dafau Guciano's TikTok without actually going to the gym like he does. Holding strong opinions on the internet without ever presenting them in a room where people can answer back. Planning without executing. Planning isn't doing. A to-do list isn't skin in the game. Crossing items off a to-do list might not be either, depending on whether the item could have failed.
 
-### 2. Tundukkan Tubuhmu pada Sesuatu yang Sulit. Secara Rutin.
+The simplest test. Is there a scenario in which you could be embarrassed by the outcome? If yes, that's skin in the game. If not, you're still in the safe zone. And the safe zone, I've argued, is where weakness compounds.
 
-Kalau kamu belum pernah berolahraga secara konsisten, mulailah dengan latihan beban. Bukan karena latihan beban secara objektif "terbaik", ada argumen bagus untuk lari, renang, bela diri, dan aktivitas lain, tapi karena latihan beban punya beberapa sifat yang membuatnya sangat cocok sebagai pintu masuk bagi orang yang belum pernah membangun kebiasaan fisik.
+Start with one. Make it non-negotiable. Only once your bandwidth allows it, add another.
 
-Umpan baliknya cepat dan jelas. Kamu bisa mengangkat 40 kg minggu ini dan 42,5 kg minggu depan, dan kamu tahu ada kemajuan. Tidak ada ambiguitas, tidak ada tafsir. Angkanya naik atau tidak. Bagi orang yang hidupnya penuh ambiguitas dan minim kemajuan yang terukur, kejernihan ini terasa menyembuhkan.
+## 2. Subject Your Body to Something Hard. Regularly.
 
-Hambatan masuknya rendah. Kamu tidak perlu bakat atletis, koordinasi yang bagus, atau rekan tim. Kamu perlu barbel dan gravitasi, dan keduanya tersedia.
+If you have never exercised consistently, start with resistance training. Not because resistance training is objectively "the best". There are good arguments for running, swimming, martial arts, and others. But resistance training has a few properties that make it especially suited as an entry point for someone who has never built a physical habit.
 
-Ketidaknyamanannya bertahap dan terkendali. Kamu bisa mulai dari beban ringan dan menaikkannya sedikit demi sedikit. Ini penting, sebab ketidaknyamanan yang terlalu besar terlalu cepat menghasilkan penghindaran, bukan adaptasi.
+The feedback loop is fast and clear. You lift 40kg this week and 42.5kg next week and you **know** progress happened. No ambiguity. No interpretation. The number went up or it didn't. For someone whose life is full of ambiguity and a lack of measurable progress, that clarity is therapeutic.
 
-Lalu ada satu efek yang sulit saya jelaskan secara mekanis tapi terlalu konsisten untuk diabaikan: laki-laki yang mulai mengangkat beban secara rutin hampir selalu melaporkan perubahan dalam cara mereka menghadapi hal-hal di luar gym. Percakapan yang sulit terasa sedikit kurang menakutkan. Tugas yang membosankan terasa sedikit lebih bisa ditangani. Ambang menyerah naik. Mungkin ini hormonal, latihan beban memang meningkatkan testosteron secara akut. Mungkin ini psikologis, bukti berulang bahwa kamu bisa bertahan melewati ketidaknyamanan mengubah model dirimu. Mungkin keduanya. Saya tidak tahu mekanisme pastinya, tapi saya tahu keluarannya cukup konsisten untuk dijadikan rekomendasi.
+The barrier to entry is low. You don't need athletic talent, good coordination, or teammates. You need a barbell and gravity. Both are available.
 
-Kalau kamu sudah punya kebiasaan fisik, bagus. Tapi tanyakan pada dirimu apakah kebiasaan itu masih menantang. Lari 5 km setiap hari yang sudah bisa kamu lakukan sambil setengah tidur bukan lagi latihan. Itu pemeliharaan. Dan pemeliharaan, meski lebih baik daripada tidak melakukan apa-apa, tidak menghasilkan adaptasi. Adaptasi butuh beban yang ditingkatkan secara progresif, secara berkala menaikkan stimulus di atas level yang sudah nyaman. Prinsip ini berlaku di gym, dan saya curiga berlaku juga di hidup.
+The discomfort is graduated and controllable. You can start with light loads and increase them incrementally. This matters. Too much discomfort too fast produces avoidance, not adaptation.
 
-### 3. Potong Superstimulus. Tidak Sekaligus. Tapi Potong.
+And there is one effect I find hard to explain mechanically but too consistent to ignore. Men who start lifting regularly almost always report a change in how they handle **things outside the gym.** Difficult conversations feel a little less terrifying. Boring tasks feel a little more manageable. The threshold for giving up rises. Maybe this is hormonal, resistance training does acutely raise testosterone. Maybe it's psychological, repeated evidence that you can endure discomfort changes your self-model. Maybe both. I don't know the exact mechanism. I do know the output is consistent enough to recommend.
 
-Ini resep yang paling mudah diucapkan dan paling sulit dilakukan, jadi saya ingin realistis.
+If you already have a physical habit, great. But ask yourself whether the habit is still challenging. Running 5km a day that you can already do half-asleep is no longer training. It's maintenance. And maintenance, while better than nothing, doesn't produce adaptation. Adaptation requires progressive overload, periodically raising the stimulus above what already feels comfortable. The principle holds in the gym, and I suspect it holds in life.
 
-Saya tidak akan bilang "hapus semua media sosial, berhenti main gim, dan jangan pernah nonton pornografi lagi mulai hari ini". Itu bukan resep, itu berhenti total mendadak, dan berhenti total mendadak punya tingkat keberhasilan yang rendah untuk hampir semua perilaku adiktif atau kebiasaan yang sudah mengakar.
+## 3. Cut the Superstimulus. Not All at Once. But Cut.
 
-Yang lebih realistis: buat konsumsi superstimulus lebih sulit secara mekanis, dan buat produksi lebih mudah secara mekanis.
+This is the prescription that's easiest to say and hardest to do, so I want to be realistic.
 
-Hapus aplikasi dari layar utama, jangan hapus akunnya. Tambahkan gesekan, pewaktu aplikasi, mode hitam-putih, menaruh ponsel di ruangan lain saat bekerja. Ganti perilaku bawaan saat bosan: kalau bawaanmu saat bosan adalah membuka Instagram, coba ganti jadi sesuatu yang sedikit lebih produktif. Bukan dari nol ke seratus, dari Instagram langsung ke jurnal akademis itu lompatan yang terlalu besar. Tapi dari Instagram ke membaca buku, atau dari main gim 4 jam ke main gim 2 jam plus 1 jam coding, itu masih bisa dilakukan.
+I am _not_ going to say "delete all social media, stop gaming, and never watch pornography again starting today". That isn't a prescription. That's cold turkey. And cold turkey has a low success rate for almost any addictive or entrenched behaviour.
 
-Untuk pornografi secara spesifik, argumen lengkapnya sudah saya tulis di tempat lain. Di sini saya cuma akan mengatakan ini: kalau kamu mengonsumsi pornografi secara rutin, coba berhenti selama 30 hari dan lihat apa yang terjadi. Bukan sebagai tantangan moral, tapi sebagai eksperimen. Perhatikan apakah ada perubahan dalam energi, motivasi, cara kamu memandang orang di sekitarmu, kualitas interaksi sosialmu. Kalau tidak ada perubahan yang kentara, ya sudah. Tapi kalau ada, dan menurut pengalaman banyak orang yang mencoba ini memang ada, kamu punya data personal yang lebih berharga dari argumen apa pun yang bisa saya tulis.
+What's more realistic. **Make superstimulus consumption mechanically harder. Make production mechanically easier.**
 
-Satu prinsip kunci: jangan umumkan ini ke siapa pun. Jangan posting soal NoFap atau detoks digital. Begitu kamu mengumumkan perubahan perilaku secara publik, kamu mendapat penghargaan sosial dari niat tanpa harus mengeksekusi. Dan penghargaan tanpa eksekusi itu persis pola yang sedang kamu coba patahkan.
+Delete apps from the home screen, don't delete the account. Add friction. App timers. Grayscale mode. Phone in another room while you work. Change the default behaviour when you're bored. If your default when bored is to open Instagram, try changing the default to something marginally more productive. Not 0 to 100. From Instagram to academic journals is too big a jump. But from Instagram to a book, or from 4 hours of gaming to 2 hours plus 1 hour of coding, is feasible.
 
-### 4. Produksi Sesuatu. Apa Pun. Secara Rutin.
+On pornography specifically, the full argument is in another essay. Here I'll only say this. If you consume pornography regularly, try stopping for 30 days and see what happens. Not as a moral challenge. As an experiment. Notice whether there is any change in energy, motivation, the way you see people around you, the quality of your social interaction. If there is no noticeable change, fair enough. But if there is, and many people who have tried this report that there is, you have personal data more valuable than any argument I could write.
 
-Saya menempatkan ini terpisah dari skin in the game karena, meski irisannya besar, keduanya tidak identik. Kamu bisa memproduksi sesuatu tanpa skin in the game, seperti menulis jurnal pribadi yang tidak pernah dipublikasikan, dan kamu bisa punya skin in the game tanpa memproduksi, seperti berjudi, ada risiko nyata tapi tidak ada yang diciptakan.
+A key principle. Do not announce it to anyone. Do not post about NoFap or a digital detox. The moment you publicly announce a behaviour change, you collect the social reward of **intent** without having to execute. And reward without execution is precisely the pattern you are trying to break.
 
-Yang saya tekankan di sini adalah kebiasaan rutin menciptakan sesuatu yang sebelumnya tidak ada. Tulisan, kode, musik, masakan, desain, apa saja yang setelah kamu selesai bisa kamu tunjuk sambil berkata "ini belum ada tadi pagi, dan sekarang ada karena saya".
+## 4. Produce Something. Anything. Regularly.
 
-Kenapa ini penting secara mekanis, bukan cuma secara motivasional?
+I'm putting this separately from skin in the game because, while they overlap, they aren't the same. You can produce something without skin in the game (a personal journal that nobody reads), and you can have skin in the game without producing (gambling, for instance, real risk but no creation).
 
-Karena produksi adalah penawar paling langsung untuk nihilisme. Nihilisme berkata "tidak ada yang bermakna". Produksi merespons bukan dengan argumen, bukan dengan kontra-filsafat, tapi dengan bukti: ini ada sekarang, dan ini tidak ada sebelum saya membuatnya. Makna tidak perlu didiskusikan secara filosofis kalau kamu sedang secara aktif menciptakannya.
+What I'm pointing at here. **A regular habit of creating something that wasn't there before.** Writing. Code. Music. A meal. A design. Anything that, when you're done, you can point at and say "this wasn't here this morning, and now it is, because of me".
 
-Saya rasa ini juga yang sebenarnya Nietzsche maksud, bukan bahwa kamu perlu menemukan makna yang sudah ada di suatu tempat, tapi bahwa kamu perlu membuatnya. Dan kamu membuatnya bukan dengan merenungi hidup, tapi dengan mengisi hidup dengan keluaran yang kamu pertaruhkan dan kamu pedulikan.
+Why does this matter mechanically, not just motivationally?
 
-Satu catatan: produksi yang saya maksud bukan budaya gila kerja. Bukan "selalu produktif setiap detik". Itu patologi yang berbeda; gila kerja adalah superstimulus yang menyamar sebagai kebajikan. Yang saya maksud adalah rasio. Apakah aliran bersih hidupmu condong ke konsumsi atau produksi? Kalau jawaban jujurnya "konsumsi, dan bukan sedikit", ada sesuatu yang perlu dikoreksi. Perbaiki cara kamu mengalokasikan keduanya.
+Because production is the most direct antidote to nihilism. Nihilism says "nothing is meaningful". Production answers not with an argument, not with counter-philosophy, but with **evidence**. This exists now, and it didn't before I made it. Meaning does not need to be discussed philosophically when you are actively making it.
 
-### 5. Miliki Prinsip yang Bisa Diuji dan Pernah Diuji
+I think this is what Nietzsche really meant. Not that you have to find meaning already lying somewhere, but that you have to **make** it. And you make it not by sitting around contemplating life, but by filling life with output you stake and care about.
 
-Saya sudah menulis soal beda antara nilai dan kebajikan di Bagian II. Di sini saya ingin menambah satu lapis: prinsip yang bisa diuji versus prinsip yang tidak bisa diuji.
+One caveat. The production I'm talking about is not hustle culture. It isn't "always productive every second". That's a different pathology. Workaholism is a superstimulus disguised as virtue. What I'm pointing at is **the ratio**. Does the net flow of your life tilt toward consumption or toward production? If the honest answer is "consumption, and not by a little", something needs correcting. Fix the allocation.
 
-Prinsip yang tidak bisa diuji terdengar indah tapi tidak menuntut apa pun darimu. "Saya percaya pada kejujuran." Bagus. Kapan terakhir kali kejujuranmu merugikanmu? "Saya menghargai kesetiaan." Bagus. Pernahkah kamu memilih setia pada seseorang ketika berkhianat jauh lebih menguntungkan?
+## 5. Have Principles That Are Falsifiable, and That Have Been Tested
 
-Prinsip yang bisa diuji punya konsekuensi yang bisa diamati. Dari luar, orang bisa melihat apakah seseorang benar-benar memegang prinsip itu atau tidak. Prinsip "saya tidak akan diam ketika teman saya memperlakukan orang lain dengan buruk" itu bisa diuji; ada momen spesifik tempat prinsip ini diuji, dan kamu bisa lulus atau gagal. Prinsip "saya percaya semua orang layak dihormati" tidak bisa diuji, tidak ada situasi di mana kamu bisa gagal memegang prinsip ini secara kasatmata, karena prinsip ini terlalu abstrak untuk menghasilkan prediksi yang bisa diuji tentang perilakumu.
+I've already written about the difference between values and virtues in Section II. Here I want to add a layer. **Falsifiable principles versus unfalsifiable ones.**
 
-Latihan yang mungkin berguna: tuliskan tiga prinsip yang kamu pegang. Untuk tiap prinsip, tuliskan (a) situasi konkret terakhir tempat prinsip ini diuji, dan (b) apa yang kamu lakukan. Kalau kamu tidak bisa mengisi (a), prinsipmu belum pernah diuji, yang berarti kamu belum tahu apakah itu benar-benar prinsipmu atau cuma aspirasi. Kalau kamu bisa mengisi (a) tapi jawaban (b) mengecewakan, ya sudah, sekarang kamu tahu di mana celahnya. Ini pekerjaan rumah; tolong dikerjakan.
+An unfalsifiable principle sounds nice and demands nothing of you. "I believe in honesty." Great. When was the last time your honesty cost you something? "I value loyalty." Great. Have you ever chosen to stay loyal to someone when betrayal would have been more profitable?
 
-Ini bukan soal kesempurnaan. Semua orang gagal memegang prinsipnya di suatu titik. Saya pernah gagal di tempat yang saya malu menceritakannya. Pertanyaannya bukan apakah kamu pernah gagal, tapi apakah kamu tahu di mana kamu gagal, dan apakah kamu berniat berbeda di kesempatan berikutnya. Itu beda antara orang yang punya prinsip dan sedang memperbaiki implementasinya, dan orang yang punya nilai-nilai dekoratif yang memang tidak pernah dimaksudkan untuk dipraktikkan.
+A falsifiable principle has observable consequences. From the outside, someone can see whether you actually hold the principle. The principle "I will not stay silent when my friend treats someone badly" is falsifiable. There are specific moments where the principle gets tested, and you can pass or fail. The principle "I believe all people deserve respect" is unfalsifiable. There is no situation in which you can _visibly_ fail to hold it, because the statement is too abstract to produce a testable prediction about your behaviour.
 
-### 6. Terapkan Sekufu ke Dirimu Sendiri Lebih Dulu
+A useful exercise. Write down three principles you hold. For each one, write (a) the most recent concrete situation in which the principle was tested, and (b) what you did. If you can't fill in (a), the principle has never been tested, which means you don't yet know whether it is actually your principle or just an aspiration. If you can fill in (a) but the answer to (b) is disappointing, then you now know where the gap is. This is homework. Please do it.
 
-Di "Layaknya Saham Gorengan", saya menulis soal sekufu sebagai kerangka pemilihan pasangan: mencari kesetaraan dalam epistemologi, nilai, lintasan, dan kapasitas emosional. Saya masih memegang argumen itu.
+This isn't about being perfect. Everyone fails to hold their principles at some point. I've failed in places I'm ashamed to describe. The question isn't whether you've ever failed. The question is, **do you know where you failed, and do you intend to do differently next time?** That's the difference between someone who has a principle and is improving the implementation, and someone who has decorative values that were never meant to be practised.
 
-Tapi ada satu langkah yang saya lewati di tulisan itu, dan yang semestinya saya katakan lebih eksplisit: sekufu menuntut penilaian diri yang jujur, sesuatu yang kebanyakan orang belum siap lakukan.
+## 6. Apply Sekufu to Yourself First
 
-Mengatakan "saya hanya mau bersama orang yang sepadan dengan saya" mengandaikan kamu tahu siapa dirimu. Bukan tahu dalam pengertian abstrak, "saya orang baik, lumayan pintar, cukup pekerja keras", tapi tahu dalam pengertian operasional. Di mana posisimu sebenarnya dalam setiap dimensi sekufu?
+In "Like a Pump-and-Dump Stock" I wrote about sekufu as a partner-selection framework. Looking for equality in epistemology, values, trajectory, and emotional capacity. I still hold that argument.
 
-Epistemologimu: apakah kamu benar-benar bisa berubah pikiran ketika diberi bukti baru? Atau kamu orang yang merasa dirinya rasional padahal cuma pandai merasionalisasi kesimpulan yang sudah kamu pegang? Berapa kali dalam setahun terakhir kamu sungguh-sungguh mengubah posisi soal sesuatu yang penting, bukan sesuatu yang sepele?
+But there is a step I skipped in that essay, and which I should have said more explicitly. **Sekufu demands an honest self-assessment that most people are not yet ready to perform.**
 
-Nilai-nilaimu: bukan yang kamu klaim, tapi yang tersingkap lewat perilaku. Kamu bilang menghargai kejujuran, tapi berapa kali kamu berbohong, termasuk bohong dengan cara menyembunyikan, dalam seminggu terakhir? Kamu bilang percaya pada kerja keras, tapi apa yang kamu lakukan ketika kerja keras itu sungguh tidak menyenangkan dan tidak ada yang mengawasi?
+Saying "I'll only settle for someone equal to me" assumes you know who you are. And not in the abstract sense of "I'm a good person, fairly smart, reasonably hard-working", but in the operational sense. Where do you actually sit on each dimension of sekufu?
 
-Lintasanmu: kamu mau ke mana? Bukan dalam pengertian tujuan karier yang kamu tulis di LinkedIn, itu pertunjukan. Tapi dalam pengertian nyata: apakah hidupmu, hari ini, bergerak ke arah yang kamu inginkan? Atau kamu sedang terombang-ambing, dan tujuan karier itu cuma dekorasi yang menutupi kenyataan bahwa kamu sebenarnya tidak tahu mau ke mana?
+Your epistemology. Can you really change your mind when given new evidence? Or are you the kind of person who _feels_ rational but is actually only good at rationalising conclusions he already holds? How many times in the last year have you genuinely changed your position on something important, not something trivial?
 
-Kapasitas emosionalmu: bisakah kamu duduk dengan emosi yang tidak nyaman tanpa langsung melampiaskannya, marah, menarik diri, menyalahkan orang lain, mengobati diri dengan superstimulus? Bisakah kamu mendengarkan seseorang bicara soal sesuatu yang menyakitkan tanpa langsung mencoba "memperbaiki" atau mengganti topik? Pernahkah kamu menangis di depan orang lain? Tahukah kamu kenapa kamu merasakan apa yang kamu rasakan, atau perasaanmu cuma sesuatu yang "terjadi" padamu tanpa bisa kamu baca?
+Your values. Not the ones you claim, the ones you reveal through behaviour. You say you value honesty, but how many times have you lied (including lies of omission) in the past week? You say you believe in hard work, but what do you do when the hard work is genuinely unpleasant and nobody is watching?
 
-Pertanyaan-pertanyaan ini tidak nyaman, dan itu memang disengaja. Kalau pertanyaannya nyaman, akan menjadi tidak berguna.
+Your trajectory. Where are you going? Not in the sense of the career goal you write on LinkedIn, that's performance. In the actual sense. Is your life, today, moving in the direction you want? Or are you drifting, and the career goal is only the decoration covering the fact that you don't actually know where you want to go?
 
-Tujuan penilaian diri ini bukan mencambuk diri sendiri, bukan supaya kamu merasa buruk tentang dirimu. Tujuannya adalah kalibrasi: mengetahui di mana posisimu yang sebenarnya, sehingga kamu bisa (a) memperbaiki celah antara di mana kamu sekarang dan di mana kamu ingin berada, dan (b) mencari pasangan yang sungguh sepadan dengan dirimu sekarang, bukan sepadan dengan versi dirimu yang sudah kamu idealkan.
+Your emotional capacity. Can you sit with an uncomfortable emotion without immediately discharging it, getting angry, withdrawing, blaming someone else, self-medicating with superstimulus? Can you listen to someone talk about something painful without immediately trying to "fix" it or change the subject? Have you ever cried in front of another person? Do you know **why** you feel what you feel, or is the feeling something that just "happens" to you, illegible to you?
 
-Karena inilah yang paling sering saya lihat gagal: laki-laki yang ingin pasangan dengan epistemologi yang canggih, nilai yang kuat, lintasan yang ambisius, dan kapasitas emosional yang matang, padahal dirinya sendiri belum memenuhi standar itu di satu pun dari empat dimensi tadi. Itu bukan sekufu. Itu angan-angan yang memakai kosakata sekufu.
+These questions are uncomfortable. That's by design. If the question is comfortable, the question is useless.
 
-"Perbaiki dirimu dulu" bukan nasihat yang menarik, tapi kadang diperlukan secara mekanis. Kamu tidak bisa menilai kesetaraan dengan akurat kalau kamu tidak tahu posisimu sendiri. Dan kamu tidak bisa menuntut dari orang lain apa yang kamu sendiri tidak mampu tawarkan.
+The point of the self-assessment is not self-flagellation. It isn't to make you feel bad about yourself. The point is **calibration**. Knowing your real position, so that you can (a) close the gap between where you are and where you want to be, and (b) look for a partner who is genuinely equal to who you are **now**, not equal to the idealised version of yourself.
 
-Satu hal terakhir tentang semua resep di atas.
+This is what I see fail most often. Men who want a partner with sophisticated epistemology, strong values, ambitious trajectory, and mature emotional capacity, but who themselves haven't met that standard on a _single one_ of those four dimensions. That isn't sekufu. That's wishful thinking dressed in the vocabulary of sekufu.
 
-Saya sadar daftar ini, kalau dibaca sebagai keseluruhan, terasa memberatkan. Cari skin in the game. Olahraga. Kurangi superstimulus. Produksi sesuatu. Punya prinsip yang nyata. Kalibrasi diri sendiri. Itu banyak, itu melelahkan. Dan kalau kamu sudah lama berada dalam mode bawaan yang saya deskripsikan di Bagian II, nihilis, pasif, berat ke konsumsi, tanpa skin in the game, maka jarak antara kamu dan semua ini terasa jauh secara absurd.
+Fix yourself first isn't sexy advice. But it's mechanically necessary. You can't accurately judge equality if you don't know your own position. And you can't ask of someone else what you yourself can't offer.
 
-Saya tidak punya solusi untuk perasaan itu selain mengatakan: jangan lihat jaraknya, lihat langkah pertamanya. Langkah pertama selalu kecil dan selalu tidak mengesankan. Tapi langkah tersebut mengubah satu hal yang sangat penting, yaitu lintasan. Dan lintasan, bukan posisi, yang pada akhirnya menentukan di mana kamu berakhir.
+One last thing about all of the prescriptions above.
 
-Kamu tidak perlu menjadi orang yang berbeda besok. Kamu perlu menjadi orang yang, besok, bergerak ke arah yang benar. Bahkan kalau gerakannya kecil. Bahkan kalau tidak ada yang melihat. Terutama kalau tidak ada yang melihat, karena justru itu yang membedakan perubahan dari pertunjukan.
+I'm aware that this list, read as a whole, feels overwhelming. Find skin in the game. Exercise. Cut superstimulus. Produce something. Have real principles. Calibrate yourself. That's a lot. It's effortful. And if you've been in the default mode I described in Section II for a long time, nihilistic, passive, consumer-heavy, no skin in the game, the distance between yourself and all of this feels absurdly far.
 
-## VI.
+I don't have a solution to that feeling, except to say this. **Don't look at the distance. Look at the first step.** The first step is always small and always unimpressive. But it changes one thing that crucially matters. It changes the trajectory. And trajectory, not position, is what eventually determines where you end up.
 
-"Jadilah jantan" mengandaikan masalahnya sepenuhnya individual: laki-laki lemah karena milih lemah, dan solusinya milih sebaliknya. Saya udah berargumentasi di Bagian III bahwa ini sebagian benar, agency itu nyata dan pilihan itu nyata. Tapi saya juga udah nunjukin bahwa pilihan-pilihan itu dibuat dalam lingkungan yang secara sistematis mendorong ke arah kelemahan. Dan lingkungan nggak berubah karena individu "milih lebih baik". Lingkungan berubah karena sistemnya didesain ulang.
+You don't need to be a different person tomorrow. You need to be a person who, **tomorrow, is moving in the right direction.** Even if the movement is small. Even if nobody sees it. _Especially_ if nobody sees it, because that is what distinguishes change from performance.
 
-Analogi yang mungkin berguna: kalau 30% populasi sebuah kota ngalamin obesitas, kamu bisa nyalahin tiap individu karena makan terlalu banyak dan kurang bergerak. Dan secara teknis kamu benar, tiap individu memang membuat pilihan itu. Tapi kalau kamu berhenti di situ, kamu ngelewatin pertanyaan yang lebih penting: kenapa 30% dari populasi ini bikin pilihan yang sama? Apakah ada sesuatu soal lingkungan mereka, gurun pangan, infrastruktur yang nuntut mobil, pemasaran makanan olahan, jam kerja yang nggak nyisain waktu buat masak, yang bikin pilihan buruk jadi default dan pilihan baik jadi usaha ekstra?
+# VI.
 
-Obesitas itu masalah individual sekaligus masalah sistemik. Kelemahan laki-laki juga.
+"Man up" assumes the problem is entirely individual. Weak men are weak because they choose to be weak, and the solution is choosing otherwise. I argued in Section III that this is partly true. Agency is real and choice is real. But I also showed that those choices are made inside an environment that systematically pushes toward weakness. And environments don't change because individuals "choose better". Environments change because **systems are redesigned.**
 
-### 1. Berhenti Memakai Jebakan Kafka dalam Diskursus Gender
+A possibly useful analogy. If 30% of a city's population is obese, you can blame each individual for eating too much and moving too little. And you'd technically be right. Each individual is making that choice. But if you stop there, you miss the more important question. **Why** are 30% of this population making the same choice? Is there something about their environment, food deserts, car-dependent infrastructure, processed-food marketing, working hours that leave no time to cook, that has made the bad choice the default and the good choice an effort?
 
-Saya sudah membahas ini di "Stop The All" dan di Bagian III tulisan ini, tapi saya perlu mengatakannya sekali lagi dalam konteks preskriptif: cara kita berbicara soal maskulinitas kepada laki-laki muda itu penting, dan cara yang sedang berjalan tidak bekerja.
+Obesity is an individual problem _and_ a systemic one. So is male weakness.
 
-Mengatakan kepada seseorang "kamu bersalah karena dirimu yang sekarang, dan setiap responsmu terhadap tuduhan ini membuktikan tuduhan itu benar" bukan pendidikan. Itu kerangka yang menghasilkan salah satu dari tiga keluaran yang semuanya buruk: kepatuhan palsu, penarikan diri, atau radikalisasi. Tidak ada di antara ketiganya yang menghasilkan laki-laki yang lebih baik. Apa benar itu cara yang berhasil?
+## 1. Stop Using the Kafka Trap in Gender Discourse
 
-Sejauh yang bisa saya nilai dari bukti yang tersedia, yang berhasil adalah pendekatan yang melakukan dua hal sekaligus: mengakui masalah secara jujur tanpa mengategorikan seluruh kelompok sebagai penyebab masalah. "Ada pola perilaku yang merugikan, dan kamu mungkin tanpa sadar berpartisipasi dalam pola itu, mari kita lihat bersama" sangat berbeda dari "kamu, sebagai laki-laki, bagian dari sistem yang menindas, dan privilese-mu membuatmu tidak bisa melihatnya".
+I've discussed this in "Stop The All" and in Section III of this essay, but I need to say it once more in a prescriptive frame. **How we talk about masculinity to young men matters, and the current approach is not working.**
 
-Yang pertama mengundang introspeksi. Yang kedua mengundang pertahanan diri. Dan kamu tidak bisa berintrospeksi sambil mempertahankan diri; keduanya butuh sumber daya kognitif yang sama dan bergerak ke arah yang berlawanan.
+Telling someone "you are guilty because of who you are, and every response you give to this accusation proves it" is not education. It is a setup that produces one of three outputs, all bad. False compliance, withdrawal, or radicalisation. None of those outputs produces better men.
 
-Ini bukan soal jadi "lebih lembut" terhadap laki-laki. Ini soal jadi lebih efektif. Kalau tujuanmu mengubah perilaku, bukan sekadar mengekspresikan kemarahan, maka kerangka yang menghasilkan defensif itu bukan strategi. Itu menembak kaki sendiri yang terasa memuaskan.
+Is that really working?
 
-Dan untuk laki-laki yang sudah berpartisipasi dalam diskursus ini: berhentilah memakai bahasa yang tidak kamu pahami cuma karena bahasa itu aman secara sosial. Kalau kamu memposting soal "membongkar patriarki" tapi tidak bisa mendefinisikan patriarki dengan cara yang bisa diuji, kamu bukan sekutu. Kamu derau. Dan derau merusak sinyal dari orang-orang yang sungguh sedang mencoba melakukan pekerjaan yang sulit.
+What does work, as best I can tell from the available evidence, is an approach that does two things at once. **Acknowledge the problem honestly without categorising the entire group as the cause.** "There is a behavioural pattern that does harm, and you may be unconsciously participating in it. Let's look at it together." That's very different from "you, as a man, are part of an oppressive system, and your privilege keeps you from seeing it".
 
-### 2. Bangun Institusi Pembentuk yang Baru
+The first invites introspection. The second invites self-defence. And you can't introspect while defending yourself. Both require the same cognitive resources, pulling in opposite directions.
 
-Di Bagian III saya mendeskripsikan bagaimana kita meruntuhkan institusi-institusi lama yang membentuk laki-laki muda, agama terorganisir, magang, ritus peralihan, tanpa membangun penggantinya. Resep yang logis: bangun penggantinya.
+This isn't about being "softer" on men. It's about being **more effective.** If the goal is to change behaviour, not to express anger, then framing that produces defensiveness isn't a strategy. It's self-sabotage that feels satisfying.
 
-Ini bukan berarti kembali ke masjid atau menghidupkan lagi wajib militer. Ini berarti mendesain institusi baru yang memenuhi fungsi yang sama, memberi struktur, akuntabilitas, kemajuan bertahap, dan komunitas, tanpa beban yang membuat institusi lama layak diruntuhkan.
+And for men who already participate in this discourse. Stop using language you don't understand only because it is socially safe. If you post about "dismantling patriarchy" but can't define patriarchy in a falsifiable way, you are not an ally. You are noise. And noise damages the signal from the people who are genuinely trying to do the hard work.
 
-Beberapa yang sudah ada dan, menurut saya, berhasil, meski belum pada skala yang cukup.
+## 2. Build New Formative Institutions
 
-Program mentorship yang terstruktur. Bukan mentorship informal yang bergantung pada keberuntungan siapa yang kamu kenal, tapi program yang secara sengaja memasangkan laki-laki muda dengan laki-laki dewasa yang fungsional. Richard Reeves dari Brookings menekankan pentingnya ini, terutama untuk anak laki-laki yang tumbuh tanpa figur ayah. Program seperti Big Brothers Big Sisters, meski tidak sempurna, menunjukkan hasil positif yang terukur pada para mentee: partisipasi sekolah meningkat, perilaku antisosial menurun, efikasi diri naik.
+In Section III I described how we tore down the old institutions that formed young men, organised religion, apprenticeship, rites of passage, without building replacements. The logical prescription. **Build them.**
 
-Gym bela diri dan komunitas olahraga yang serius. Bukan pusat kebugaran yang kamu datangi sambil pakai headphone tanpa bicara dengan siapa pun, tapi ruang dengan hierarki berbasis kompetensi, tempat senior mengajar junior, tempat ada tantangan fisik yang harus dihadapi bersama. Gym BJJ, klub tinju, kamp muay thai yang dikelola dengan baik secara fungsional adalah ritus peralihan modern. Kamu datang sebagai pemula yang tidak tahu apa-apa, kamu direndahkan secara rutin, kamu perlahan membangun kompetensi, dan di sepanjang proses itu kamu dikelilingi orang-orang yang sudah melewati apa yang sedang kamu lewati. Itu bukan gym. Itu institusi pembentuk yang kebetulan berlokasi di gym.
+This doesn't mean returning to the mosque or reviving compulsory military service. It means designing new institutions that fulfil the same _function_. Structure, accountability, progression, community. Without the baggage that made the old ones worth tearing down.
 
-Pendidikan vokasi dan sekolah kejuruan yang tidak distigma. Tidak semua orang harus kuliah. Tidak semua orang berkembang di lingkungan akademis. Untuk banyak laki-laki muda, terutama yang keunggulan kompetitifnya ada di pekerjaan langsung-tangan, jalur lewat pendidikan vokasi, tukang las, mekanik, teknisi, instalatir listrik, bisa memberi persis apa yang mereka butuhkan: keahlian nyata, identitas berbasis kompetensi, pendapatan yang layak, dan skin in the game. Di Jerman dan Swiss, sistem pendidikan ganda yang mengintegrasikan magang dengan pendidikan formal menghasilkan hasil yang konsisten baik. Tidak ada alasan struktural kenapa Indonesia atau negara lain tidak bisa mengadopsi model serupa; alasannya sebagian besar kultural, dan kultur bisa diubah.
+A few that already exist and, I think, **work**, though not yet at sufficient scale.
 
-Komunitas berbasis proyek. Hackathon, ruang kreasi, kolektif seni, proyek open-source, ruang tempat orang datang bukan untuk bersosialisasi secara abstrak tapi untuk membuat sesuatu bersama. Komunitas yang dibangun di atas produksi bersama cenderung lebih kuat dan lebih fungsional daripada komunitas yang dibangun di atas konsumsi bersama atau identitas bersama, karena produksi memberi pijakan bersama yang objektif, yang tidak bergantung pada apakah kalian saling suka.
+**Structured mentorship programmes.** Not informal mentorship that depends on the luck of who you happen to know, but programmes that deliberately pair young men with functional adult men. Richard Reeves at Brookings emphasises this, especially for boys growing up without a father figure. Programmes like Big Brothers Big Sisters, while imperfect, show measurable positive outcomes for mentees. Better school attendance, less antisocial behaviour, more self-efficacy.
 
-### 3. Reformasi Pendidikan yang Mengakui Kesenjangan Gender
+**Martial arts gyms and serious athletic communities.** Not fitness centres where you arrive, put on headphones, and never speak to anyone. Spaces where there is a competence-based hierarchy, where seniors teach juniors, where there is a physical challenge to face together. A well-run BJJ gym, boxing club, or muay thai camp is functionally a modern rite of passage. You arrive as a beginner who knows nothing. You get humbled regularly. You slowly build competence. And along the way you are surrounded by people who have already been through what you are going through. That isn't a gym. It's a formative institution that happens to be located in a gym.
 
-Saya akan blak-blakan: anak laki-laki sedang gagal di sistem pendidikan kita, dan hampir tidak ada yang mau membicarakannya.
+**Vocational training and trade schools, destigmatised.** Not everyone has to go to university. Not everyone thrives in an academic environment. For many young men, especially those whose competitive advantage is in hands-on work, a pathway through vocational training, welding, mechanics, technicians, electricians, can deliver exactly what they need. Real skill, competence-based identity, a decent income, and skin in the game. In Germany and Switzerland, dual-education systems that integrate apprenticeship with formal schooling consistently produce good outcomes. There is no structural reason Indonesia or any other country couldn't adopt a similar model. The reasons are mostly cultural, and culture is changeable.
 
-Data yang saya sebut di Bagian I, perempuan mengungguli laki-laki di hampir setiap level pendidikan di hampir setiap negara OECD, bukan fenomena baru. Kesenjangan ini sudah ada selama beberapa dekade dan terus melebar. Tapi jumlah perhatian kebijakan yang diberikan padanya mendekati nol, terutama dibandingkan perhatian, yang sah, yang diberikan pada kesenjangan gender yang merugikan perempuan di STEM, kepemimpinan, dan bidang lain.
+**Project-based communities.** Hackathons, maker spaces, art collectives, open-source projects. Spaces where people show up not to socialise abstractly but to **make something together.** Communities built on shared production tend to be stronger and more functional than communities built on shared consumption or shared identity, because production gives an objective common ground that does not depend on whether you all like each other.
 
-Kenapa? Saya curiga karena mengakui bahwa laki-laki bisa dirugikan di satu ranah masih terasa, bagi banyak orang, seperti mengkhianati pengakuan bahwa perempuan dirugikan di ranah lain. Ini cara berpikir zero-sum yang sudah saya kritik sebelumnya, dan sama merusaknya dalam konteks ini.
+## 3. Education Reform That Acknowledges the Gender Gap
 
-Dua hal bisa benar bersamaan: perempuan menghadapi hambatan struktural di banyak ranah, dan anak laki-laki sedang tertinggal di pendidikan. Mengakui yang kedua tidak membatalkan yang pertama. Menolak mengakui yang kedua karena takut membatalkan yang pertama bukan kesetaraan. Itu dogma.
+I'll be blunt. **Boys are failing in our education system, and almost nobody wants to talk about it.**
 
-Beberapa intervensi yang punya basis bukti.
+The data I cited in Section I, that women outperform men at almost every level of education in almost every OECD country, is not new. The gap has been opening for decades. But the amount of policy attention paid to it is close to zero, especially compared with the (legitimate) attention paid to gender gaps that disadvantage women in STEM, in leadership, and in other fields.
 
-Reeves mengusulkan agar anak laki-laki mulai sekolah satu tahun lebih lambat, sejenis penundaan masuk, berdasarkan data neurosains perkembangan yang menunjukkan anak laki-laki matang lebih lambat secara neurologis di area yang krusial untuk keberhasilan akademis. Ini intervensi yang sederhana, murah, dan berbasis bukti, tapi hampir tidak mendapat perhatian sama sekali.
+Why? My suspicion is that acknowledging boys can be disadvantaged in one domain still feels, to many people, like betraying the acknowledgement that women are disadvantaged in another. This is zero-sum thinking, which I've already criticised, and it is just as damaging in this context.
 
-Menambah jumlah guru laki-laki, terutama di pendidikan dasar. Di banyak negara, proporsi guru laki-laki di SD sangat rendah, di beberapa tempat di bawah 15%. Korelasi antara kehadiran guru laki-laki dan performa akademis anak laki-laki sudah terdokumentasi, meski kausalitasnya masih butuh penelitian lebih lanjut. Setidaknya ini variabel yang bisa diintervensi.
+Two things can be true at once. Women face structural barriers in many domains, AND boys are falling behind in education. Acknowledging the second does not cancel the first. Refusing to acknowledge the second because of fear that it cancels the first isn't equality. It's dogma.
 
-Mendesain kurikulum dan pedagogi yang mengakomodasi variasi gaya belajar: lebih banyak belajar langsung-praktik, lebih banyak gerak fisik, lebih banyak kompetisi terstruktur, lebih sedikit duduk diam selama tujuh jam. Ini bukan soal membuat sekolah "lebih ramah laki-laki" dengan mengorbankan perempuan, tapi soal mengenali bahwa pedagogi seragam yang makin dominan secara sistematis tidak cocok untuk sebagian besar anak laki-laki.
+A few interventions with an evidence base.
 
-### 4. Normalisasi Umpan Balik Korektif di Antara Laki-Laki
+Reeves proposes that boys start school one year later than girls. This is sometimes called redshirting. The basis is developmental-neuroscience data showing that boys mature more slowly in regions of the brain crucial for academic success. It is simple, cheap, and evidence-based. It has gained almost no traction.
 
-Di "Layaknya Saham Gorengan", saya mendeskripsikan kamar gema dalam pertemanan perempuan yang tidak memberi umpan balik korektif. Tapi laki-laki punya kamar gema yang berbeda bentuk dan sama rusaknya: penghindaran.
+Increase the number of male teachers, especially in primary school. In many countries, the share of male primary teachers is very low, in some places under 15%. The correlation between male teacher presence and academic performance of boys is documented, though causality still needs more research. At minimum, this is a variable that can be intervened on.
 
-Perempuan cenderung memvalidasi berlebihan. Laki-laki cenderung kurang terlibat. Pertemanan laki-laki sering beroperasi di atas kontrak tak terucap: "saya tidak akan mengomentari hidupmu, kamu tidak mengomentari hidup saya". Ini terasa seperti rasa hormat, padahal sebenarnya kelalaian yang menyamar sebagai penghormatan.
+Design curriculum and pedagogy that accommodates variation in learning styles. More hands-on learning. More physical movement. More structured competition. Less sitting still for seven hours. This isn't about making schools "more boy-friendly" at the expense of girls. It's about recognising that one-size-fits-all pedagogy, which has only become more dominant, systematically doesn't fit most boys.
 
-Kapan terakhir kali kamu berkata ke teman laki-lakimu, "Dul, saya pikir kamu sedang menghancurkan hidupmu"? Kapan terakhir kali kamu berkata, "Cara kamu memperlakukan pacarmu itu tidak benar"? Kapan terakhir kali kamu berkata, "Kamu sudah enam bulan tidak melakukan apa-apa yang bermakna, dan saya khawatir"?
+## 4. Normalise Corrective Feedback Among Men
 
-Kalau jawabannya "tidak pernah", dan untuk kebanyakan laki-laki jawabannya memang "tidak pernah", maka kamu bukan teman yang baik. Kamu teman yang nyaman. Dan teman yang nyaman, pada akhirnya, adalah teman yang membiarkan orang yang kamu sayangi tenggelam sambil berdiri di tepi kolam berkata "ya, itu sih urusan dia".
+In "Like a Pump-and-Dump Stock", I described the echo chamber of female friendship that fails to provide corrective feedback. Men have an echo chamber of a different shape and equal damage. **Avoidance.**
 
-Ada alasan kenapa laki-laki tidak melakukan ini. Percakapan seperti itu canggung, bisa merusak pertemanan, bisa direspons dengan defensif atau marah. Semua itu benar. Dan justru itulah kenapa percakapan seperti itu salah satu kontribusi paling berharga yang bisa kamu beri kepada seseorang: karena ini mahal, karena kamu mengambil risiko ketidaknyamanan demi kepentingan orang lain. Itu bukan sekadar umpan balik. Itu kebajikan dalam pengertian yang saya definisikan di Bagian II, sesuatu yang kamu lakukan dengan biaya bagi dirimu sendiri.
+Women tend to over-validate. Men tend to under-engage. Male friendship often runs on an unspoken contract. "I won't comment on your life. You don't comment on mine." This feels like respect. It is actually negligence dressed up as respect.
 
-Normalisasi ini tidak akan datang dari kampanye. Normalisasi akan datang dari keputusan-keputusan individual laki-laki untuk berhenti jadi penonton dalam kehidupan teman-temannya. Satu percakapan yang jujur, satu konfrontasi yang hormat tapi tidak nyaman, satu momen ketika kamu memilih mengatakan yang perlu dikatakan alih-alih yang aman dikatakan.
+When was the last time you said to a male friend, "Dul, I think you are wrecking your life"? When was the last time you said, "the way you treat your girlfriend isn't right"? When was the last time you said, "you haven't done anything meaningful in six months and I'm worried"?
 
-### 5. Regulasi Superstimulus untuk Remaja
+If the answer is "never", and for most men the answer is "never", then you aren't a good friend. You are a **comfortable friend.** And a comfortable friend is, in the end, the one who lets the person he loves drown while standing at the edge of the pool saying "well, that's his business".
 
-Ini resep yang paling berorientasi kebijakan dan mungkin paling kontroversial, jadi saya ingin sangat presisi soal apa yang saya usulkan dan apa yang tidak.
+There are reasons men don't do this. Conversations like that are awkward. They can damage the friendship. They can be met with defensiveness or anger. All true. And that is precisely why a conversation like that is one of the most valuable contributions you can make to someone. Because it is costly. Because you are taking on discomfort in someone else's interest. It isn't only feedback. It is **virtue** in the sense I defined in Section II, something you do at cost to yourself.
 
-Yang tidak saya usulkan: pelarangan media sosial atau gim untuk orang dewasa. Saya sudah menulis di tulisan pornografi bahwa pelarangan tidak works; pelarangan cuma mendorong perilaku ke bawah tanah dan memperburuk kondisi bagi yang paling rentan. Orang dewasa berhak membuat keputusan buruk atas hidupnya sendiri. Itu kebebasan.
+Normalisation won't come from a campaign. It will come from individual decisions by individual men to stop being bystanders in their friends' lives. One honest conversation. One respectful but uncomfortable confrontation. One moment in which you choose to say what needs to be said instead of what is safe to say.
 
-Yang saya usulkan: penghalang yang berarti antara remaja dan superstimulus yang sirkuit penghargaan mereka belum siap menanganinya.
+## 5. Regulate Superstimulus for Adolescents
 
-Regulasi rekomendasi algoritmik untuk pengguna di bawah umur. Mesin rekomendasi dioptimalkan untuk keterlibatan, yang secara mekanis berarti dioptimalkan untuk konten yang memicu respons emosional terkuat, kemarahan, kecemasan, gairah, iri. Untuk otak dewasa yang korteks prefrontalnya sudah matang, ini menjengkelkan. Untuk otak remaja yang korteks prefrontalnya masih dalam konstruksi, ini berpotensi membentuk dengan cara yang belum sepenuhnya kita pahami. Prinsip kehati-hatian berlaku di sini: kalau kita tidak tahu efek jangka panjangnya, dan potensi kerugiannya besar serta sulit dibalikkan, setelan bawaannya semestinya pembatasan, bukan akses.
+This is the most policy-oriented prescription and probably the most controversial, so I want to be very precise about what I'm proposing and what I'm not.
 
-Saya tahu bantahannya: "orang tua yang semestinya mengawasi". Ya, idealnya. Tapi di dunia nyata, sebagian besar orang tua tidak cukup melek digital untuk memahami apa yang anak mereka konsumsi, apalagi mengelolanya. Menyerahkan tanggung jawab sepenuhnya ke orang tua padahal kamu tahu kebanyakan orang tua tidak punya alat untuk memenuhinya bukan kebebasan. Itu pengabaian yang menyamar sebagai prinsip.
+What I am _not_ proposing. A ban on social media or gaming for adults. I've written in the pornography essay that prohibition doesn't work. It only pushes behaviour underground and worsens the situation for the most vulnerable. Adults have the right to make bad decisions about their own lives. That's liberty.
 
-Saya sadar bagian ini, soal "apa yang perlu dilakukan masyarakat", jauh lebih tentatif daripada Bagian V. Resep individual lebih mudah karena cakupannya kecil dan umpan baliknya cepat: kamu mulai ikut kamp BJJ, kamu merasakan efeknya dalam hitungan minggu. Resep sistemik lebih sulit karena melibatkan masalah koordinasi, kemauan politik, pertukaran kepentingan yang riil, dan implementasi yang berantakan.
+What I am proposing. **Meaningful barriers between adolescents and superstimulus that their reward circuitry isn't ready to handle.**
 
-Tapi saya pikir setidaknya ada nilai dalam menamai apa yang perlu berubah, bahkan kalau caranya masih belum jelas. Dan kalau saya harus memilih satu hal dari semua yang saya tulis di atas yang menurut saya akan memberi dampak terbesar per unit usaha, itu adalah normalisasi corrective feedback di antara laki-laki.
+Regulate algorithmic recommendation for under-age users. Recommendation engines are optimised for engagement, which mechanically means optimised for content that triggers the strongest emotional response, outrage, anxiety, arousal, envy. For an adult brain with a matured prefrontal cortex, that's annoying. For an adolescent brain whose prefrontal cortex is still under construction, that is potentially formative in ways we do not yet fully understand. The precautionary principle applies. If we do not know the long-term effects, and the downside is potentially large and hard to reverse, the default should be **restriction, not access.**
 
-Bukan karena ini solusi terbesar, tapi karena ini solusi yang bisa dimulai sekarang, oleh siapa pun, tanpa menunggu perubahan kebijakan, reformasi pendidikan, atau kemauan politik yang mungkin tidak akan pernah datang. Kamu cuma perlu cukup peduli pada temanmu untuk mengatakan hal yang tidak ingin mereka dengar, dan cukup kuat untuk menanggung ketidaknyamanan dari percakapan itu.
+I know the counterargument. "Parents should supervise." Yes, ideally. But in the real world, most parents aren't digitally savvy enough to understand what their kids are consuming, let alone manage it. Handing the entire responsibility to parents when you know most parents lack the tools to fulfil it isn't liberty. It is abdication dressed up as principle.
 
-Kalau kamu perhatikan, itu sebenarnya resep individual yang disamarkan sebagai resep sistemik. Dan mungkin itu memang intinya. Mungkin perubahan sistemik, pada akhirnya, dimulai dari keputusan-keputusan individual yang dibuat cukup banyak orang secara bersamaan sampai ini menjadi norma. Mungkin "dari atas" dan "dari bawah" bukan dikotomi. Mungkin keduanya bertemu di titik yang sama: seseorang, pada suatu momen, memutuskan melakukan hal yang sulit.
+I'm aware that this section, "what society needs to do", is much more tentative than Section V. Individual prescriptions are easier because the scope is small and the feedback loop is fast. You start going to BJJ camp, you feel the effect within weeks. Systemic prescriptions are harder because they involve coordination problems, political will, genuine trade-offs, and messy implementation.
 
-## VII.
+But I think there is at least value in **naming** what needs to change, even if the how isn't clear yet. And if I had to pick one thing from all of the above that, in my view, has the largest impact per unit of effort.
 
-Saya udah nulis enam bagian yang ngeritik laki-laki lemah dengan presisi yang, mudah-mudahan, cukup tajam. Saya udah mendefinisikan mereka, ngejelasin kenapa mereka jadi begitu, nunjukin kerusakan yang mereka timbulin, dan ngasih resep gimana mereka, dan sistem di sekitarnya, bisa berubah.
+**Normalise corrective feedback among men.**
 
-Sekarang saya harus duduk sama pertanyaan yang paling nggak nyaman dari semuanya: seberapa banyak dari ini yang tentang saya?
+Not because it is the biggest solution, but because it is the solution that can start **now**, by **anyone**, without waiting for policy change, education reform, or political will that may never arrive. You only need to care enough about your friend to say the thing he doesn't want to hear. And to be strong enough to absorb the discomfort of the conversation.
 
-Bukan sebagai pertanyaan retoris. Bukan sebagai gestur kerendahan hati yang diperhitungin biar tulisan ini terasa lebih relatable. Tapi sebagai pertanyaan yang beneran bikin saya pribadi nggak nyaman.
+That, if you notice, is an individual prescription disguised as a systemic one. And maybe that is the point. Maybe systemic change, in the end, starts from individual decisions made by enough people at the same time that they become a norm. Maybe "top-down" and "bottom-up" aren't a dichotomy. Maybe they meet at the same point. A person, at a particular moment, deciding to do the hard thing.
 
-Nihilisme tanpa konstruksi? Ada periode dalam hidup saya, tidak sesingkat yang ingin saya akui, ketika saya memakai sinisme sebagai pengganti kepribadian, ketika "semua itu tidak bermakna" bukan kesimpulan filosofis tapi justifikasi untuk tidak mencoba. Apakah saya sudah sepenuhnya keluar dari fase itu? Saya harap. Tapi "saya harap" bukan "saya yakin".
+# VII.
 
-Skin in the game? Saya menulis tulisan ini, dan itu sedikit skin in the game; ada orang yang akan membaca lalu menilai. Tapi menulis kritik soal laki-laki lemah, di lingkungan sosial tempat kritik semacam ini akan diterima baik oleh sebagian besar audiens saya, bukan perilaku berisiko tinggi. Kalau saya ingin jujur, skin in the game yang sesungguhnya bukan menulis tentang kelemahan. Skin in the game yang sesungguhnya adalah berhenti menjadi lemah dalam praktik, di momen-momen yang tidak ada yang melihat, di pilihan-pilihan kecil yang tidak bisa dijadikan tulisan.
+I've written six sections criticising weak men with what I hope is enough precision. I've defined them, explained why they got this way, shown the damage they cause, and offered prescriptions for how they, and the system around them, can change.
 
-Tubuh yang diabaikan? Saya berolahraga. Tapi apakah saya berolahraga dengan intensitas yang sungguh menantang, atau saya sudah lama berada di zona pemeliharaan yang terasa produktif padahal sebenarnya nyaman? Jawaban jujurnya: tergantung minggu.
+Now I have to sit with the question I find least comfortable of all. **How much of this is about me?**
 
-Konsumsi tanpa produksi? Saya memproduksi tulisan. Tapi saya juga mengonsumsi lebih banyak dari yang ingin saya akui, scroll yang semestinya 5 menit jadi 45, malam-malam yang hilang ke konten yang tidak menambah apa pun. Rasionya lebih baik dari nol, tapi apakah rasionya bagus? Saya tidak yakin.
+Not as a rhetorical question. Not as a calculated humility gesture to make the essay feel more relatable. As a question that genuinely makes me, personally, uncomfortable.
 
-Kebajikan tanpa harga? Saya menulis soal kejujuran dan prinsip. Tapi ada percakapan-percakapan yang semestinya saya lakukan dengan teman-teman yang tidak saya lakukan karena canggung. Ada momen-momen ketika saya tahu sesuatu itu salah lalu memilih diam karena biaya sosial menegurnya terasa terlalu tinggi. Itu, dalam terminologi saya sendiri, kebajikan tanpa harga. Menurut definisi saya sendiri, saya gagal di tes saya sendiri.
+Nihilism without construction? There was a period in my life, not as short as I'd like to admit, when I used cynicism as a substitute for personality. When "everything is meaningless" wasn't a philosophical conclusion but a justification for not trying. Am I fully out of that phase? I hope so. But "I hope so" isn't "I'm sure".
 
-Dan ini yang paling tidak nyaman dari semuanya: apakah tulisan ini sendiri adalah substitusi untuk pekerjaan yang lebih sulit?
+Skin in the game? I am writing this essay. That's some skin in the game, people will read this and judge. But writing a critique of weak men, in a social environment where the critique will be well received by most of my audience, isn't high-risk behaviour. If I'm honest, real skin in the game isn't writing **about** weakness. Real skin in the game is **not being weak in practice**, in the moments when nobody is watching, in the small choices that can't be turned into an essay.
 
-Menulis 10.000 kata tentang laki-laki lemah itu memuaskan. Ada dopaminnya, merasa sudah mengidentifikasi masalah dengan presisi, merasa "di atas" situasi yang saya deskripsikan, merasa bahwa menulis tentang kelemahan itu sendiri bukti kekuatan. Dan dopamin itu, kalau saya jujur, tidak terlalu beda dari dopamin yang saya kritik pada laki-laki yang memposting Instagram story soal isu sosial tanpa pernah melakukan apa pun tentangnya.
+The neglected body? I exercise. But am I exercising at intensities that are genuinely challenging, or am I in a maintenance zone that feels productive while actually being comfortable? Honest answer. Depends on the week.
 
-Apakah menulis ini lebih dari memposting Instagram story? Ya, saya pikir iya, ada usaha analitis yang nyata, ada riset, ada argumen yang harus dipertahankan secara koheren sepanjang ribuan kata. Tapi apakah menulis ini cukup? Apakah menulis ini memenuhi standar skin in the game yang saya sendiri tetapkan?
+Consumption without production? I produce writing. But I also consume more than I want to admit. Scroll that was supposed to be five minutes becoming forty-five. Nights lost to content that adds nothing. The ratio is better than zero, but is the ratio **good**? I'm not sure.
 
-Saya tidak tahu. Dan saya curiga jawabannya "belum".
+Virtue without a price? I write about honesty and principle. But there are conversations I should have had with friends that I didn't have because they would have been awkward. There are moments when I knew something was wrong and I chose silence because the social cost of pushing back felt too high. That is, by my own definition, virtue without a price. By my own standard, I'm failing my own test.
 
-Di "Stop The All", saya menutup dengan pengakuan bahwa tulisan yang mengkritik virtue signalling bisa jadi bentuk signalling juga, tepatnya signalling superioritas intelektual alih-alih signalling superioritas moral, tapi tetap signalling. Saya menulis bahwa mungkin tidak ada yang benar-benar di atas permainan ini, dan yang terbaik yang bisa kita lakukan adalah sadar bahwa kita sedang memainkannya dan bisa menavigasi siapa berperan sebagai apa.
+And here is the most uncomfortable one. **Is this essay itself a substitute for the harder work?**
 
-Tulisan ini berada dalam keadaan sulit yang sama, mungkin lebih dalam.
+Writing 15,000 words about weak men is satisfying. There is dopamine in it. The feeling of having identified the problem with precision. The feeling of being "above" the situation I'm describing. The feeling that writing about weakness is itself evidence of strength. And that dopamine, if I'm honest, isn't all that different from the dopamine I criticise in men who post Instagram stories about social issues without ever doing anything about them.
 
-Karena beginilah yang sedang terjadi kalau saya membongkarnya dengan jujur: saya, laki-laki yang usianya belum genap 22 tahun dan masih dalam proses menjadi apa pun yang akan saya menjadi, menulis tulisan panjang yang mengkritik laki-laki lain karena tidak menjadi apa yang semestinya mereka perjuangkan. Ada sesuatu yang nyaris lucu karena lancangnya di sini. Siapa saya sehingga berhak memberi tahu siapa pun cara menjalani hidupnya dengan benar? Apa kualifikasi saya selain kemampuan menulis seperti ini?
+Is writing this _more_ than posting an Instagram story? Yes, I think so. There is real analytic effort, real research, an argument that has to hold coherently across thousands of words. But is it **enough**? Does it meet the standard for skin in the game that I myself set?
 
-Dan saya tahu, saya tahu betul, bahwa sebagian dari motivasi saya menulis ini bukan altruistik. Sebagian motivasinya adalah merasa bahwa saya bukan laki-laki lemah yang saya deskripsikan. Mendefinisikan kategori itu, mendeskripsikannya dengan detail, lalu secara tersirat menempatkan diri saya di luarnya. Itu identitas yang dibangun di atas negasi: "saya bukan mereka". Dan identitas yang dibangun di atas negasi itu rapuh, karena identitas ini bergantung pada keberadaan "mereka" untuk berfungsi.
+I don't know. And I suspect the answer is "not yet".
 
-Ini regresi tanpa ujung yang sama yang saya identifikasi di "Stop The All": setiap lapisan kesadaran-diri bisa jadi lapisan performativitas yang baru. "Saya sadar bahwa saya sedang signalling", itu sendiri signalling. "Saya sadar bahwa kesadaran-diri saya juga signalling", masih signalling. Kura-kura di atas kura-kura sampai ke dasar.
+In "Stop The All" I closed by acknowledging that an essay criticising virtue signalling can itself be a form of signalling. Intellectual superiority signalling instead of moral superiority signalling, but signalling all the same. I wrote that maybe nobody is truly above this game. That the best we can do is to be **aware** we are playing it, and navigate who is who.
 
-Saya tidak punya solusi untuk regresi ini, dan saya tidak yakin ada solusinya. Mungkin yang bisa kita lakukan cuma memilih di level mana kita berhenti, lalu bertindak dari level itu sejujur mungkin, sambil mengakui bahwa kejujuran itu sendiri mungkin pertunjukan yang tidak bisa kita lihat dari dalam.
+This essay sits in the same predicament, maybe more deeply.
 
-Tapi ada satu hal yang, saya pikir, bukan pertunjukan. Atau setidaknya, kalau ini pertunjukan, ini pertunjukan yang cukup mahal sehingga mungkin tidak sepadan untuk dipalsukan.
+Because here is what's actually happening, if I unpack it honestly. I, a man not yet 22, who is himself still in the process of becoming whatever he will become, am writing a long essay criticising other men for failing to be what they should fight to become. There is something almost comically presumptuous about that. Who am I to tell anyone how to live their life, correctly? What's my qualification beyond the ability to write like this?
 
-Hal itu adalah ketidaknyamanan yang kita rasakan saat ini.
+And I know, I know really well, that part of my motivation for writing this isn't altruistic. Part of the motivation is to **feel** that I'm not the weak man I'm describing. Defining the category, describing it in detail, then implicitly placing myself outside it. That is **identity built on negation.** "I'm not them." And an identity built on negation is fragile, because it depends on the existence of "them" to function.
 
-Kalau kamu laki-laki, dan kamu membaca tulisan ini sampai di sini, dan ada bagian-bagian yang membuat perutmu sedikit mulas, bagian soal nihilisme tanpa konstruksi, atau soal konsumsi tanpa produksi, atau soal kebajikan tanpa harga, maka mulas itu bukan serangan. Itu data. Itu umpan balik yang sedang bekerja. Itu realitas yang mengetuk dan bertanya, "apakah ini tentangmu?"
+This is the same infinite regress I identified in "Stop The All". Every layer of self-awareness can be a new layer of performance. "I'm aware I'm signalling", itself signalling. "I'm aware that my self-awareness is signalling", still signalling. Turtles all the way down.
 
-Dan jawaban yang jujur, untuk kebanyakan dari kita, saya termasuk: sebagian, ya.
+I don't have a solution to this regress. I'm not sure there is one. Maybe what we can do is **pick a level at which we stop**, and act from that level as honestly as possible, while acknowledging that the honesty itself might be a performance we can't see from the inside.
 
-Pertanyaannya bukan apakah kamu pernah lemah. Semua orang pernah lemah. Pertanyaannya apakah kamu akan tetap lemah. Apakah kelemahan itu akan jadi identitas, sesuatu yang kamu bela dan rasionalisasi dan kamu bangun untuk hidup di atasnya, atau apakah kelemahan ini akan jadi titik data, sesuatu yang kamu akui, kamu pahami mekanismenya, lalu kamu pakai sebagai titik awal untuk bergerak ke arah yang berbeda.
+But there is one thing that, I think, isn't performance. Or at least, if this is performance, it's a performance costly enough that it probably isn't worth faking.
 
-Saya tidak tahu arah mana yang akan kamu pilih. Saya tidak selalu tahu arah mana yang akan saya pilih. Tapi saya tahu ini: tulisan ini, dengan semua catatan, keraguan diri, dan regresi tanpa ujungnya, ditulis dari premis bahwa bergerak itu mungkin. Bahwa orang bisa berubah. Bahwa laki-laki yang hari ini mengenali dirinya di Bagian II bisa, besok atau lusa atau bulan depan, mulai menjadi seseorang yang tidak lagi mengenali dirinya di sana.
+It's the discomfort you are feeling right now.
 
-Itu bukan kepastian. Itu hipotesis. Dan seperti hipotesis mana pun, hipotesis hanya bisa diuji dengan bertindak, bukan dengan membaca tulisannya saja.
+If you are a man, and you read this essay all the way down here, and there are parts that made your stomach turn a little, the part about nihilism without construction, or about consumption without production, or about virtue without a price, then that turning isn't an attack. It is **data**. It is a feedback loop doing its job. It is reality knocking and asking, "is this about you?"
 
-Jadi tutup tab ini. Tutup laptopmu, atau taruh ponselmu. Dan lakukan satu hal. Satu hal saja yang sudah lama kamu tahu perlu kamu lakukan tapi belum kamu lakukan karena tidak nyaman.
+And the honest answer, for most of us, including me, is **partly, yes.**
 
-Bukan besok. Sekarang. Atau setidaknya hari ini.
+The question isn't whether you have ever been weak. Everyone has. The question is **WILL YOU STAY WEAK?** Is the weakness going to become an identity, something you defend and rationalise and build your life on, or is it going to become a data point, something you acknowledge, understand the mechanism of, and then use as a starting point to move in a different direction?
 
-Dan kalau kamu melakukannya, kalau kamu benar-benar melakukannya, bukan cuma berpikir "ya, nanti saya lakukan" lalu scroll ke konten berikutnya, maka tulisan ini, mungkin, bukan cuma Instagram story yang lebih panjang.
+I don't know which direction you'll pick. I don't always know which direction I'll pick. But I know this. This essay, with all its caveats and self-doubt and infinite regress, is written from the premise that **movement is possible.** That people can change. That a man who recognises himself in Section II today can, tomorrow or the day after or next month, start becoming someone who no longer recognises himself there.
 
-Mungkin.
+That isn't certainty. It is a hypothesis. And like any hypothesis, it can only be tested by **acting**, not by reading the essay.
 
-Saya, sungguh, tidak yakin. Tapi saya bersedia mempertaruhkan kemungkinan itu.
+So close this tab. Close your laptop, or put down your phone. And do one thing. One thing you have known for a while you need to do but haven't done because it was uncomfortable.
 
-Itu sedikit skin in the game. Tidak banyak. Tapi ada.
+Not tomorrow. Now. Or at least, today.
 
-Grazie, ciao.
+And if you do it, if you actually do it, not just think "yeah, I'll do it later" and scroll to the next piece of content, then this essay might not, in the end, be only a longer Instagram story.
+
+Maybe.
+
+I'm genuinely not sure. But I'm willing to bet on the possibility.
+
+That's some skin in the game. Not much. But some.
+
+_Grazie, ciao._
