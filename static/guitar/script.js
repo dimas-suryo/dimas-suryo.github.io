@@ -361,6 +361,11 @@ const C = {
         ],
       },
     ],
+    practice: [
+      { drill: "Pick one node per week, complete every drill in it, then move on. Six months covers the whole map.", why: "Depth compounds. Breadth at the intermediate level just produces fluent ignorance." },
+      { drill: "Record yourself playing four staples (open chords, a barre progression, a pentatonic improv, one full song) once a month.", why: "Memory lies about progress. A/B recordings are the only honest mirror." },
+      { drill: "Before learning a new lick, sing the line out loud first, then find it on the fretboard.", why: "Ear-to-hand is the bottleneck for every intermediate guitarist, not finger speed." },
+    ],
     tk: "Theory is a GPS, not a prison. Its job is to explain the 'why' behind music you already feel. That way you don't get lost every time you try to make something new.",
     refs: [
       "Aldwell, E., Schachter, C. (2018). Harmony and Voice Leading, 5th ed. Cengage.",
@@ -444,6 +449,11 @@ const C = {
         ],
       },
     ],
+    practice: [
+      { drill: "Run the Note Picker on strings 6 and 5 for ten minutes a day at BPM 60 then 80, for a full week.", why: "Until those two strings are reflex, every CAGED and barre conversation later costs extra brain cycles." },
+      { drill: "Pick a favorite song, write the note name of every chord root, and verify each with a tuner.", why: "Abstract pitches stick when they're glued to music you actually play." },
+      { drill: "Octave drill: pick a random note, find it on all six strings, repeat with five different notes per session.", why: "Octave navigation is how players cover 12 frets in one motion instead of crawling fret by fret." },
+    ],
     tk: "12-TET is a compromise. We give up genuinely pure intervals in exchange for the freedom to play in any of the 12 keys without retuning every time we change keys.",
     refs: [
       "Isacoff, S. (2001). Temperament. Vintage.",
@@ -492,6 +502,11 @@ const C = {
         t: "Interval names plus their inversions always sum to 9, and the semitones always sum to 12. Example: M3 (4 semitones) flipped is m6 (8 semitones). Major always flips to minor.",
       },
     ],
+    practice: [
+      { drill: "Run the Interval Trainer in Identify mode, All Intervals, five minutes daily.", why: "Chords and scales are stacked intervals. Without recognition, everything else is rote memorization." },
+      { drill: "From a single root (say C), play AND sing every interval up to the octave.", why: "Hand alone makes intervals abstract. Voice plus hand makes them permanent." },
+      { drill: "Pick four bars of a melody you love and write out the interval between each consecutive note.", why: "Theory dies in a week without a real-world anchor." },
+    ],
     tk: "Internalize these 13 intervals, on paper and in your ear. The rest of theory is just ways to combine them, so the time you spend here pays you back everywhere else.",
     refs: [
       "Kostka, S. & Payne, D. (2012). Tonal Harmony, 7th ed. McGraw-Hill.",
@@ -530,6 +545,11 @@ const C = {
         l: "Blues Scale",
         t: "Minor pentatonic plus a ♭5, the 'blue note': 1 ♭3 4 ♭5 5 ♭7. That single extra note is what turns everything bluesy.",
       },
+    ],
+    practice: [
+      { drill: "Drill the Major scale in all 5 positions, key of C, 60 to 120 BPM ascending and descending, one week per position.", why: "Position fluency is what lets melody travel sideways instead of staying stuck in one box." },
+      { drill: "Same five-position drill for the Minor Pentatonic, key of Am.", why: "Ninety percent of your improvisation will live inside these shapes. Make them automatic." },
+      { drill: "Pick one fresh scale (Dorian or Mixolydian), drill it in two positions, and name its signature note out loud (natural 6 for Dorian, b7 for Mixolydian).", why: "Variety prevents pentatonic stagnation, but only if you can name what makes the new scale different." },
     ],
     tk: "Major scale is the reference point for all theory. Minor pentatonic is the everyday improv scale. Both need to live under your fingers.",
     refs: ["Persichetti, V. (1961). Twentieth-Century Harmony. Norton."],
@@ -596,6 +616,11 @@ const C = {
         t: "Sus4 (1 4 5) and Sus2 (1 2 5) swap the 3rd for either a 4 or a 2. The 3rd is what decides major versus minor, so sus chords sound ambiguous, neither, just hanging.",
       },
     ],
+    practice: [
+      { drill: "Play Major triads on three string sets (1-2-3, 2-3-4, 3-4-5), nine voicings total. Verify each shape with the Chord Tone Highlighter.", why: "Triads on inner strings are the gateway away from cowboy chords and into real comping." },
+      { drill: "Drill the four common 7th chord shapes (Maj7, Dom7, m7, m7b5) in two voicings each.", why: "Almost every modern pop and jazz tune you'll touch uses a 7th somewhere." },
+      { drill: "Take a favorite progression and reharmonize one chord with an extension (9, 11, or 13). Play the original then the extended version back to back.", why: "Extensions are how Mayer and Asato sound 'modern' instead of 'open-mic'." },
+    ],
     tk: "A chord is a stack of intervals. The thing that makes a Dominant 7 special: there's a tritone inside it, and that tritone is what pulls the chord toward resolution.",
     refs: [
       "Levine, M. (1995). The Jazz Theory Book. Sher Music.",
@@ -646,6 +671,11 @@ const C = {
         },
       },
     ],
+    practice: [
+      { drill: "Play all 7 diatonic 7th chords in C ascending (Cmaj7, Dm7, Em7, Fmaj7, G7, Am7, Bm7b5) and say the Roman numeral out loud as you go.", why: "Most progressions you hear collapse to a Roman numeral pattern. Naming them is half the battle." },
+      { drill: "Pick three favorite songs and label the Roman numeral progression of each.", why: "Pattern recognition turns 'I don't know this song' into 'oh, it's just I-V-vi-IV again'." },
+      { drill: "Compose your own four-chord progression using I-V-vi-IV or ii-V-I, then play it in three different keys.", why: "Function transcends key. If a pattern only works in C, you haven't really learned it yet." },
+    ],
     tk: "Roman numerals work universally in any key. A good progression is really just a play with tension and its release.",
     refs: ["Aldwell & Schachter (2018). Harmony and Voice Leading. Cengage."],
   },
@@ -679,6 +709,11 @@ const C = {
         l: "Chord-Scale Theory",
         t: "Each diatonic chord has its own best-fit mode, e.g., Dm7 in the key of C wants D Dorian over it.",
       },
+    ],
+    practice: [
+      { drill: "Drill A Dorian against an Am vamp, highlighting the natural 6 (F#). Repeat with G Mixolydian over G7 and C Lydian over Cmaj7#11.", why: "A mode is one note different from its parent scale. Don't overcomplicate it." },
+      { drill: "Improvise two minutes per mode over a backing vamp built for that mode.", why: "Modes only click in the right harmonic context. Outside the vamp they collapse back into the parent scale." },
+      { drill: "Play Am to Dm (natural minor) then Am to D7 (Dorian). Listen for the shift before you analyze it.", why: "Ear-based mode discrimination beats every textbook definition." },
     ],
     tk: "Lydian is the brightest, Locrian is the darkest. Chord-Scale Theory is the bridge between each chord and the mode that fits over it.",
     refs: ["Russell, G. (2001). Lydian Chromatic Concept. Concept Publishing."],
@@ -718,6 +753,11 @@ const C = {
         ],
       },
     ],
+    practice: [
+      { drill: "Drill all four cadences (PAC, Plagal, Half, Deceptive) in the key of C, played back to back, and listen for the difference.", why: "Cadences are punctuation. Without them, every progression sounds like one long run-on sentence." },
+      { drill: "Insert one secondary dominant into a familiar progression (e.g., C, D7, G in C major).", why: "One small substitution and a simple progression suddenly sounds sophisticated." },
+      { drill: "Try a tritone sub: replace G7 with Db7 in a ii-V-I, and play both versions.", why: "This is the gateway drug to jazz reharmonization, with almost no theory cost." },
+    ],
     tk: "Cadences are the punctuation marks of harmony. Everything in this section is fundamentally play with the listener's expectations.",
     refs: ["Piston, W. (1987). Harmony, 5th ed. Norton."],
   },
@@ -749,6 +789,11 @@ const C = {
         t: "The emphasis lands on the offbeats instead of the strong beats. This is the core of groove in funk, reggae, and jazz.",
       },
     ],
+    practice: [
+      { drill: "16th-note all-down strums on a muted chord, 60 to 90 BPM, ten minutes a day.", why: "16th-note groove is the base layer of funk, R&B, and modern pop. There's no shortcut around it." },
+      { drill: "Add ghost notes on the off-beats and accents on beats 1 and 3 to that same 16th pattern.", why: "Dynamics separate alive grooves from robot grooves. Velocity is half the rhythm." },
+      { drill: "Pick one funk track (Cory Wong, Nile Rodgers, anything tight) and transcribe eight bars of its strum pattern.", why: "Real-world reference outperforms abstract metronome drills every single time." },
+    ],
     tk: "Time signature is how the beats are grouped; syncopation is what gives them groove. None of it matters if your time is wobbly, though. Metronome first, syncopation later.",
     refs: ["London, J. (2012). Hearing in Time. Oxford UP."],
   },
@@ -774,6 +819,11 @@ const C = {
         ],
       },
     ],
+    practice: [
+      { drill: "Alternate-pick single-string 8th notes on the low E, 80 to 120 BPM, ten minutes daily for a week.", why: "Right-hand consistency is the bottleneck most intermediate players don't admit to." },
+      { drill: "Drill barre chord transitions through the CAGED shapes (C-A-G-E-D), root C, at 60 BPM.", why: "CAGED transition fluency unlocks every position on the neck from a single root." },
+      { drill: "Hybrid picking basic: pick plus middle plus ring across a C-Am-F-G arpeggio.", why: "Hybrid picking opens R&B, country, and pop vocabulary that's literally impossible with a flatpick alone." },
+    ],
     tk: "Every fret is one semitone. Lock in open chords, barre chords, and one pentatonic shape before worrying about anything else.",
     refs: ["Leavitt, W. (1966). A Modern Method for Guitar. Berklee Press."],
   },
@@ -790,6 +840,11 @@ const C = {
         l: "Root Navigation",
         cd: "Str 6: E F F# G G# A A# B C C# D D# E\nFret:  0 1 2  3 4  5 6  7 8 9  10 11 12\n\nStr 5: A A# B C C# D D# E F F# G G# A\nFret:  0 1  2 3 4  5 6  7 8 9  10 11 12",
       },
+    ],
+    practice: [
+      { drill: "Play C major in all 5 CAGED shapes without skipping any, at 60 BPM, ascending and descending the neck.", why: "Memorize the order once and you can navigate the whole neck from any root." },
+      { drill: "Repeat the same drill for A major and G major.", why: "Patterns transpose. A key change should never mean starting from zero." },
+      { drill: "Connect each CAGED shape via its root: play the root, slide to the next shape's root, continue along the string.", why: "The root is the bridge. Without it, the five shapes feel like five disconnected memorized boxes." },
     ],
     tk: "Memorize root positions on strings 6 and 5 first. That's the launchpad for every CAGED shape. Once the root is visible, the shape your hand already knows takes care of the rest.",
     refs: ["Kolb, T. (2006). The CAGED System. Hal Leonard."],
@@ -811,6 +866,11 @@ const C = {
           "Octave: 6 → 4 = +2 strings, +2 frets",
         ],
       },
+    ],
+    practice: [
+      { drill: "Note Picker, All 12 notes, all strings, BPM 60 to 100, ten minutes daily.", why: "Without fretboard fluency, 'playing a song' is really 'pressing memorized positions'." },
+      { drill: "Octave drill: pick a note on string 6, find its octaves on strings 4, 3, 2, and 1.", why: "Octave shapes are how pros leap across the neck without thinking." },
+      { drill: "Write the note name for every chord root in a song you play often, then verify each with a tuner.", why: "Abstract notes become permanent the moment they're attached to music you actually keep playing." },
     ],
     tk: "Memorize the natural notes first (C D E F G A B). Sharps and flats are just one fret off from the natural. Five minutes a day for a year and you'll know it cold.",
     refs: ["Gambale, F. (1997). Fretboard Knowledge. Manhattan Music."],
@@ -839,6 +899,11 @@ const C = {
         l: "Bend & Vibrato",
         t: "These two are what separate guitarists more than anything else. A bend has to land dead on pitch, slightly off and the audience hears it instantly. Vibrato has to be rhythmically consistent, wobbly vibrato sounds like someone who just learned to bend yesterday.",
       },
+    ],
+    practice: [
+      { drill: "Bend half-step, full-step, and 1.5-step on string 3 fret 7, verify each pitch with a tuner, 10 reps per bend.", why: "Bend pitch is pitch. There is no 'almost in tune' in lead playing." },
+      { drill: "Vibrato to a metronome at 80 BPM, four cycles per beat.", why: "Consistent vibrato is your signature. Wobbly vibrato is the giveaway tell of a beginner." },
+      { drill: "Hammer-on and pull-off drills inside the A minor pentatonic position 1, for four weeks.", why: "Legato is what makes a melodic line flow instead of sounding like Morse code." },
     ],
     tk: "Lead technique is about control and expression. Speed is a side effect of well-developed control, not the goal.",
     refs: ["Denyer, R. (1992). The Guitar Handbook. Knopf."],
@@ -870,6 +935,11 @@ const C = {
           "Apps: Functional Ear Trainer, EarMaster",
         ],
       },
+    ],
+    practice: [
+      { drill: "Interval Trainer in Identify mode, All Intervals, five minutes daily, every day.", why: "Interval recognition is the foundation. Without it, every other ear skill collapses." },
+      { drill: "Sing then play: pick a four-note melody from YouTube or an app, sing it back, then find it on the guitar.", why: "The ear-to-hand bridge is the most important skill almost nobody practices." },
+      { drill: "Transcribe four bars of a solo by ear every week with no tab open.", why: "Output is what counts. Ear theory without transcription practice is wasted reading." },
     ],
     tk: "Relative pitch can be trained, this isn't a talent thing. The single biggest payoff: transcribing solos by ear without looking at tabs. It's brutal at first. That's the point.",
     refs: ["Karpinski, G. S. (2000). Aural Skills Acquisition. Oxford UP."],
@@ -907,6 +977,11 @@ const C = {
           "<strong>Everything is Connected</strong> : chord = scale = mode = interval",
         ],
       },
+    ],
+    practice: [
+      { drill: "Keep a practice diary. Write three personal weak spots and one hypothesis for each one's cause.", why: "Without awareness, drilling is just rolling dice on what improves." },
+      { drill: "Record yourself playing four takes (open-chord rhythm, barre chord, pentatonic improv, full song). Save as baseline. Re-record six weeks later.", why: "A/B comparison is the only objective progress signal. Memory lies in your favor by default." },
+      { drill: "Set up a 60-minute daily session split into five segments (warm-up, technique, theory, repertoire, improv). Stick to the structure even on bad days.", why: "Consistency compounds. Intensity decays. Pick the one that compounds." },
     ],
     tk: "Consistency beats intensity. Plateaus are normal, usually a sign your brain is reorganizing what you already know, not a sign you've hit a ceiling.",
     refs: [
@@ -1380,10 +1455,16 @@ function buildNodeHTML(id, opts) {
     if (s.cd) h += `<pre class="sec-code">${s.cd}</pre>`;
     h += `</div>`;
   });
+  let extraDelay = 0;
+  if (d.practice && d.practice.length) {
+    const pDelay = d.secs.length * 0.04;
+    h += `<div class="practice"${opts.noAnim ? "" : ` style="animation-delay:${pDelay}s"`}><div class="practice-label">Recommended Practice</div><ul class="practice-list">${d.practice.map((p) => `<li class="practice-drill">${p.drill}<span class="practice-why">${p.why}</span></li>`).join("")}</ul></div>`;
+    extraDelay = 1;
+  }
   if (d.tk)
-    h += `<div class="takeaway"${opts.noAnim ? "" : ` style="animation-delay:${d.secs.length * 0.04}s"`}><div class="takeaway-label">Key Takeaway</div><p class="takeaway-text">${d.tk}</p></div>`;
+    h += `<div class="takeaway"${opts.noAnim ? "" : ` style="animation-delay:${(d.secs.length + extraDelay) * 0.04}s"`}><div class="takeaway-label">Key Takeaway</div><p class="takeaway-text">${d.tk}</p></div>`;
   if (d.refs)
-    h += `<div class="ref-block"${opts.noAnim ? "" : ` style="animation-delay:${(d.secs.length + 1) * 0.04}s"`}><div class="ref-label">References</div><ul class="ref-list">${d.refs.map((r) => `<li>${r}</li>`).join("")}</ul></div>`;
+    h += `<div class="ref-block"${opts.noAnim ? "" : ` style="animation-delay:${(d.secs.length + extraDelay + 1) * 0.04}s"`}><div class="ref-label">References</div><ul class="ref-list">${d.refs.map((r) => `<li>${r}</li>`).join("")}</ul></div>`;
   return h;
 }
 
@@ -1404,6 +1485,10 @@ function render(id) {
   }
   if (id === "chordhl") {
     renderChordHL();
+    return;
+  }
+  if (id === "chordlib") {
+    renderChordLib();
     return;
   }
   if (id === "tools") {
@@ -1477,13 +1562,14 @@ function setViewMode(m) {
 function renderToolsLanding() {
   cp.innerHTML = `<div class="tool-wrap">
     <div class="tool-title">Practice Tools</div>
-    <div class="tool-sub">Four interactive tools for building real guitarist skill: fretboard mapping, interval recognition, scale visualization, and chord tone awareness. Click a sub-node in the mind map to open one.</div>
+    <div class="tool-sub">Five interactive tools for building real guitarist skill: fretboard mapping, interval recognition, scale visualization, chord tone awareness, and a voicing library with inversion playback. Click a sub-node in the mind map to open one.</div>
     <div class="sec"><div class="sec-label">Available Tools</div>
     <ul class="sec-list">
       <li><strong>Note Picker</strong> : random note generator for drilling fretboard memory</li>
       <li><strong>Interval Trainer</strong> : interactive quiz for recognizing the gap between two notes</li>
       <li><strong>Scale Visualizer</strong> : see any scale pattern across the fretboard, filter by CAGED position</li>
       <li><strong>Chord Tone Highlighter</strong> : see chord tones (Root, 3rd, 5th, 7th) across the whole fretboard, colored</li>
+      <li><strong>Chord Voicing Library</strong> : browse triad, drop-2 7th, and shell voicings across every inversion, with audio playback</li>
     </ul></div>
   </div>`;
   cp.scrollTop = 0;
@@ -1619,6 +1705,320 @@ ${buildLegend([
 </div>`;
   cp.scrollTop = 0;
   chUpdate();
+}
+
+/* ═══ CHORD VOICING LIBRARY + INVERSION EXPLORER ═══
+   Renders playable voicings across string sets: triads (3 strings),
+   drop-2 7ths (4 strings), and shell 7ths (3 strings with optional skip).
+   Each voicing is generated by placing pitch classes on the requested
+   string set so each successive note is higher in MIDI than the previous.
+   Includes a tiny Web Audio synth so the user can hear the arpeggio. */
+
+// MIDI for each open string (stringIdx 0 = high E, 5 = low E)
+const OPEN_STRING_MIDI = [64, 59, 55, 50, 45, 40];
+
+function fretForPcAbove(stringIdx, targetPc, minMidi) {
+  const openMidi = OPEN_STRING_MIDI[stringIdx];
+  let fret = ((targetPc - (openMidi % 12)) + 12) % 12;
+  let midi = openMidi + fret;
+  while (minMidi !== null && minMidi !== undefined && midi <= minMidi) {
+    fret += 12;
+    midi += 12;
+  }
+  if (fret > 17) return null;
+  return { fret, midi };
+}
+
+// Place a sequence of pitch classes onto a string set so each note is
+// strictly higher than the previous. Returns highlights for renderFB.
+function placeVoicing(notesPc, stringSet, labels, colors) {
+  const positions = [];
+  let prevMidi = -1;
+  for (let i = 0; i < notesPc.length; i++) {
+    const found = fretForPcAbove(stringSet[i], notesPc[i], prevMidi);
+    if (!found) return null;
+    positions.push({
+      stringIdx: stringSet[i],
+      fret: found.fret,
+      label: labels[i],
+      colorClass: colors[i],
+      midi: found.midi,
+    });
+    prevMidi = found.midi;
+  }
+  // Reject silly stretches
+  const fretted = positions.map((p) => p.fret).filter((f) => f > 0);
+  if (fretted.length > 1) {
+    const span = Math.max(...fretted) - Math.min(...fretted);
+    if (span > 6) return null;
+  }
+  return positions;
+}
+
+function rotateForInversion(tones, labels, colors, inv) {
+  const n = tones.length;
+  const rT = [], rL = [], rC = [];
+  for (let i = 0; i < n; i++) {
+    const idx = (inv + i) % n;
+    rT.push(tones[idx]);
+    rL.push(labels[idx]);
+    rC.push(colors[idx]);
+  }
+  return { tones: rT, labels: rL, colors: rC };
+}
+
+// Drop-2: take the closed voicing (4 notes low→high), drop the
+// 2nd-from-top down an octave so it becomes the new bass.
+function applyDrop2(arr) {
+  if (arr.length !== 4) return arr.slice();
+  return [arr[2], arr[0], arr[1], arr[3]];
+}
+
+const VOICING_FAMILIES = {
+  "triad-123": { name: "Triad · top 3 strings (1-2-3)", strings: [2, 1, 0], type: "triad" },
+  "triad-234": { name: "Triad · mid 3 strings (2-3-4)", strings: [3, 2, 1], type: "triad" },
+  "triad-345": { name: "Triad · inner 3 strings (3-4-5)", strings: [4, 3, 2], type: "triad" },
+  "triad-456": { name: "Triad · low 3 strings (4-5-6)", strings: [5, 4, 3], type: "triad" },
+  "drop2-1234": { name: "Drop-2 · top 4 strings (1-2-3-4)", strings: [3, 2, 1, 0], type: "drop2" },
+  "drop2-2345": { name: "Drop-2 · mid 4 strings (2-3-4-5)", strings: [4, 3, 2, 1], type: "drop2" },
+  "drop2-3456": { name: "Drop-2 · low 4 strings (3-4-5-6)", strings: [5, 4, 3, 2], type: "drop2" },
+  "shell-6": { name: "Shell · bass on string 6", strings: [5, 3, 2], type: "shell-6" },
+  "shell-5": { name: "Shell · bass on string 5", strings: [4, 3, 2], type: "shell-5" },
+};
+
+const DROP2_BASS_LABELS = ["5 in bass", "♭7/7 in bass", "Root in bass", "3rd in bass"];
+const TRIAD_INV_LABELS = ["Root position", "1st inversion", "2nd inversion"];
+
+function generateVoicings(rootPc, chordKey, famKey) {
+  const fam = VOICING_FAMILIES[famKey];
+  const chord = CHORD_TYPES[chordKey];
+  if (!fam || !chord) return [];
+  const tonesAbs = chord.tones.slice(0, 4).map((t) => (rootPc + t) % 12);
+  const labels = chord.labels.slice(0, 4);
+  const colors = chord.colors.slice(0, 4);
+  const isSeventh = chord.tones.length === 4;
+  const out = [];
+
+  if (fam.type === "triad") {
+    if (chord.tones.length < 3) return [];
+    const t3 = tonesAbs.slice(0, 3);
+    const l3 = labels.slice(0, 3);
+    const c3 = colors.slice(0, 3);
+    for (let inv = 0; inv < 3; inv++) {
+      const rot = rotateForInversion(t3, l3, c3, inv);
+      const pos = placeVoicing(rot.tones, fam.strings, rot.labels, rot.colors);
+      if (pos) out.push({ invLabel: TRIAD_INV_LABELS[inv], positions: pos });
+    }
+  } else if (fam.type === "drop2") {
+    if (!isSeventh) return [];
+    for (let inv = 0; inv < 4; inv++) {
+      const rot = rotateForInversion(tonesAbs, labels, colors, inv);
+      const dT = applyDrop2(rot.tones);
+      const dL = applyDrop2(rot.labels);
+      const dC = applyDrop2(rot.colors);
+      const pos = placeVoicing(dT, fam.strings, dL, dC);
+      if (pos) out.push({ invLabel: DROP2_BASS_LABELS[inv], positions: pos });
+    }
+  } else if (fam.type === "shell-6" || fam.type === "shell-5") {
+    if (!isSeventh) return [];
+    // Shell = R + 3 + 7 (skip 5). Two common arrangements per shell family.
+    const r = tonesAbs[0], third = tonesAbs[1], sev = tonesAbs[3];
+    const arrangements = fam.type === "shell-6"
+      ? [
+          { name: "R-♭7/7-3 (E-shape)", tones: [r, sev, third], labs: [labels[0], labels[3], labels[1]], cols: [colors[0], colors[3], colors[1]] },
+          { name: "R-3-♭7/7 (E-shape alt)", tones: [r, third, sev], labs: [labels[0], labels[1], labels[3]], cols: [colors[0], colors[1], colors[3]] },
+        ]
+      : [
+          { name: "R-3-♭7/7 (A-shape)", tones: [r, third, sev], labs: [labels[0], labels[1], labels[3]], cols: [colors[0], colors[1], colors[3]] },
+          { name: "R-♭7/7-3 (A-shape alt)", tones: [r, sev, third], labs: [labels[0], labels[3], labels[1]], cols: [colors[0], colors[3], colors[1]] },
+        ];
+    arrangements.forEach((a) => {
+      const pos = placeVoicing(a.tones, fam.strings, a.labs, a.cols);
+      if (pos) out.push({ invLabel: a.name, positions: pos });
+    });
+  }
+  return out;
+}
+
+/* Web Audio plucked-string synth — single AudioContext, two oscillators
+   per note (triangle + sine octave), envelope, lowpass for warmth.
+   Arpeggiates low→high to mimic a strum. */
+let CV_AC = null;
+function cvAudioCtx() {
+  if (!CV_AC) {
+    const Ctx = window.AudioContext || window.webkitAudioContext;
+    if (!Ctx) return null;
+    CV_AC = new Ctx();
+  }
+  return CV_AC;
+}
+function cvPlayNote(ac, midi, when, dur) {
+  const freq = 440 * Math.pow(2, (midi - 69) / 12);
+  const o1 = ac.createOscillator();
+  const o2 = ac.createOscillator();
+  o1.type = "triangle";
+  o2.type = "sine";
+  o1.frequency.value = freq;
+  o2.frequency.value = freq * 2;
+  const g = ac.createGain();
+  const og = ac.createGain();
+  og.gain.value = 0.35;
+  const f = ac.createBiquadFilter();
+  f.type = "lowpass";
+  f.frequency.value = 2400;
+  f.Q.value = 0.7;
+  o1.connect(f);
+  o2.connect(og);
+  og.connect(f);
+  f.connect(g);
+  g.connect(ac.destination);
+  g.gain.setValueAtTime(0, when);
+  g.gain.linearRampToValueAtTime(0.16, when + 0.006);
+  g.gain.exponentialRampToValueAtTime(0.001, when + dur);
+  o1.start(when);
+  o2.start(when);
+  o1.stop(when + dur + 0.05);
+  o2.stop(when + dur + 0.05);
+}
+function cvPlayVoicing(positions) {
+  const ac = cvAudioCtx();
+  if (!ac) return;
+  if (ac.state === "suspended") ac.resume();
+  const sorted = [...positions].sort((a, b) => a.midi - b.midi);
+  const stagger = 0.055;
+  const tail = 1.6;
+  const t = ac.currentTime + 0.04;
+  sorted.forEach((p, i) => cvPlayNote(ac, p.midi, t + i * stagger, tail));
+}
+
+const CV = { root: 0, chord: "maj7", fam: "drop2-1234", activeIdx: 0 };
+
+function cvChordSymbol(rootPc, chordKey) {
+  const suffix = {
+    major: "", minor: "m", dim: "°", aug: "+",
+    maj7: "maj7", dom7: "7", min7: "m7", hdim7: "ø", dim7: "°7",
+    sus4: "sus4", sus2: "sus2",
+    dom9: "9", add9: "add9", min9: "m9",
+  }[chordKey] || "";
+  return NOTE_NAMES[rootPc] + suffix;
+}
+
+function renderChordLib() {
+  const rootOpts = NOTE_NAMES.map(
+    (n, i) => `<option value="${i}"${CV.root === i ? " selected" : ""}>${n}</option>`,
+  ).join("");
+  const chordOpts = Object.entries(CHORD_TYPES)
+    .map(([k, v]) => `<option value="${k}"${CV.chord === k ? " selected" : ""}>${v.name}</option>`)
+    .join("");
+  const chord = CHORD_TYPES[CV.chord];
+  const isSeventh = chord && chord.tones.length === 4;
+
+  // Filter family list to what's applicable for this chord type
+  const famKeys = Object.keys(VOICING_FAMILIES).filter((k) => {
+    const f = VOICING_FAMILIES[k];
+    if (f.type === "triad") return true;
+    return isSeventh; // drop2 + shell only for 7ths
+  });
+  // Auto-correct family if current one isn't applicable
+  if (!famKeys.includes(CV.fam)) CV.fam = famKeys[0];
+
+  const famTabs = famKeys
+    .map((k) => `<button class="cv-tab${CV.fam === k ? " on" : ""}" onclick="cvSetFam('${k}')">${VOICING_FAMILIES[k].name}</button>`)
+    .join("");
+
+  cp.innerHTML = `<div class="tool-wrap">
+<div class="tool-title">Chord Voicing Library</div>
+<div class="tool-sub">Browse triad voicings, drop-2 seventh chord voicings, and shell voicings across every inversion. Click an inversion card to load it on the main fretboard, or hit ▶ to hear it arpeggiated low to high.</div>
+<div class="tool-row">
+  <div><div class="sub-label">Root</div><select class="tool-select" onchange="cvSetRoot(this.value)">${rootOpts}</select></div>
+  <div><div class="sub-label">Chord Type</div><select class="tool-select" onchange="cvSetChord(this.value)">${chordOpts}</select></div>
+</div>
+<div class="sub-label">Voicing Family</div>
+<div class="cv-fam-row">${famTabs}</div>
+${buildLegend([
+  { cls: "root", name: "Root (R)" },
+  { cls: "third", name: "3rd" },
+  { cls: "fifth", name: "5th" },
+  { cls: "seventh", name: "7th" },
+  { cls: "other", name: "Other" },
+])}
+<div class="fb-board" id="cv-fb"></div>
+<div class="cv-info" id="cv-info"></div>
+<div class="sub-label">Inversions / Arrangements</div>
+<div class="cv-inv-row" id="cv-inv-row"></div>
+</div>`;
+  cp.scrollTop = 0;
+  cvUpdate();
+}
+
+function cvUpdate() {
+  const voicings = generateVoicings(CV.root, CV.chord, CV.fam);
+  const fb = document.getElementById("cv-fb");
+  const info = document.getElementById("cv-info");
+  const row = document.getElementById("cv-inv-row");
+  if (!voicings.length) {
+    if (fb) fb.innerHTML = '<div class="cv-empty">No voicings available for this combination. Try a 7th chord, or pick a triad family.</div>';
+    if (info) info.innerHTML = "";
+    if (row) row.innerHTML = "";
+    return;
+  }
+  if (CV.activeIdx >= voicings.length) CV.activeIdx = 0;
+
+  // Render thumbnail row
+  row.innerHTML = voicings
+    .map((v, i) => `<button class="cv-inv-card${CV.activeIdx === i ? " on" : ""}" onclick="cvSetInv(${i})"><div class="cv-inv-label">${v.invLabel}</div><div class="cv-inv-mini" id="cv-mini-${i}"></div></button>`)
+    .join("");
+  voicings.forEach((v, i) => renderFBMini("cv-mini-" + i, v.positions));
+
+  // Main fretboard
+  const active = voicings[CV.activeIdx];
+  renderFB("cv-fb", active.positions, 15);
+
+  // Info panel: chord symbol, note breakdown, fret range, play button
+  const noteList = active.positions
+    .map((p) => `<span class="cv-note ${p.colorClass}">${p.label} = ${NOTE_NAMES[p.midi % 12]}</span>`)
+    .join("");
+  const frets = active.positions.map((p) => p.fret);
+  const minF = Math.min(...frets), maxF = Math.max(...frets);
+  const fretInfo = minF === maxF
+    ? (minF === 0 ? "all open strings" : `fret ${minF}`)
+    : `frets ${minF}-${maxF}`;
+  info.innerHTML = `<div class="cv-info-head"><span class="cv-chord-sym">${cvChordSymbol(CV.root, CV.chord)}</span> <span class="cv-inv-tag">${active.invLabel}</span><button class="cv-play-btn" onclick="cvPlayActive()">▶ Play</button></div>
+<div class="cv-info-notes">${noteList}</div>
+<div class="cv-info-frets">${fretInfo}</div>`;
+}
+
+function renderFBMini(containerId, positions) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  const frets = positions.map((p) => p.fret);
+  const minF = Math.max(0, Math.min(...frets) - 1);
+  const maxF = Math.min(17, Math.max(...frets) + 1);
+  const hmap = {};
+  positions.forEach((p) => { hmap[`${p.stringIdx}-${p.fret}`] = p; });
+  let html = '<table class="cv-mini-tbl"><tbody>';
+  for (let si = 0; si < 6; si++) {
+    html += "<tr>";
+    for (let f = minF; f <= maxF; f++) {
+      const h = hmap[`${si}-${f}`];
+      html += h
+        ? `<td><span class="cv-mini-dot ${h.colorClass}">${h.label}</span></td>`
+        : "<td></td>";
+    }
+    html += "</tr>";
+  }
+  html += "</tbody></table>";
+  if (minF > 0) html += `<div class="cv-mini-fret">fr ${minF}</div>`;
+  el.innerHTML = html;
+}
+
+function cvSetRoot(v) { CV.root = +v; CV.activeIdx = 0; renderChordLib(); }
+function cvSetChord(v) { CV.chord = v; CV.activeIdx = 0; renderChordLib(); }
+function cvSetFam(k) { CV.fam = k; CV.activeIdx = 0; renderChordLib(); }
+function cvSetInv(i) { CV.activeIdx = i; cvUpdate(); }
+function cvPlayActive() {
+  const voicings = generateVoicings(CV.root, CV.chord, CV.fam);
+  if (voicings[CV.activeIdx]) cvPlayVoicing(voicings[CV.activeIdx].positions);
 }
 
 /* ═══ MIND MAP ═══
@@ -1808,6 +2208,14 @@ const NODES = [
     lv: 2,
     sp: true,
   },
+  {
+    id: "chordlib",
+    lab: "Chord Voicing\nLibrary",
+    emoji: "🎼",
+    cat: "harm",
+    lv: 2,
+    sp: true,
+  },
 ];
 const LINKS = [
   // Hub spokes, root to every L1 topic
@@ -1860,11 +2268,14 @@ const LINKS = [
   { s: "tools", t: "intrainer", k: "parent" },
   { s: "tools", t: "scaleviz", k: "parent" },
   { s: "tools", t: "chordhl", k: "parent" },
+  { s: "tools", t: "chordlib", k: "parent" },
   { s: "picker", t: "notes", k: "cross" }, // note picker exercises notes
   { s: "intrainer", t: "intervals", k: "cross" }, // interval trainer
   { s: "intrainer", t: "ear", k: "cross" }, // interval trainer = ear training
   { s: "scaleviz", t: "scales", k: "cross" }, // scale visualizer
   { s: "chordhl", t: "chords", k: "cross" }, // chord-tone highlight tool
+  { s: "chordlib", t: "chords", k: "cross" }, // voicing library
+  { s: "chordlib", t: "caged", k: "cross" }, // voicings connect to CAGED
 ];
 const L1 = [
   "sound",
@@ -1915,10 +2326,11 @@ function calcPos(W, H) {
   // Tools children
   const ta = -Math.PI / 2 + TI * ((2 * Math.PI) / n);
   [
-    ["picker", -0.3],
-    ["intrainer", -0.1],
-    ["scaleviz", 0.1],
-    ["chordhl", 0.3],
+    ["picker", -0.36],
+    ["intrainer", -0.18],
+    ["scaleviz", 0],
+    ["chordhl", 0.18],
+    ["chordlib", 0.36],
   ].forEach(([id, off]) => {
     nmap[id].x = cx + r2 * Math.cos(ta + off);
     nmap[id].y = cy + r2 * Math.sin(ta + off);
