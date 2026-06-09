@@ -1491,6 +1491,10 @@ function render(id) {
     renderChordLib();
     return;
   }
+  if (id === "cagedviz") {
+    renderCAGED();
+    return;
+  }
   if (id === "tools") {
     renderToolsLanding();
     return;
@@ -1562,7 +1566,7 @@ function setViewMode(m) {
 function renderToolsLanding() {
   cp.innerHTML = `<div class="tool-wrap">
     <div class="tool-title">Practice Tools</div>
-    <div class="tool-sub">Five interactive tools for building real guitarist skill: fretboard mapping, interval recognition, scale visualization, chord tone awareness, and a voicing library with inversion playback. Click a sub-node in the mind map to open one.</div>
+    <div class="tool-sub">Six interactive tools for building real guitarist skill: fretboard mapping, interval recognition, scale visualization, chord tone awareness, voicing library with inversion playback, and CAGED neck-connection visualizer. Click a sub-node in the mind map to open one.</div>
     <div class="sec"><div class="sec-label">Available Tools</div>
     <ul class="sec-list">
       <li><strong>Note Picker</strong> : random note generator for drilling fretboard memory</li>
@@ -1570,6 +1574,7 @@ function renderToolsLanding() {
       <li><strong>Scale Visualizer</strong> : see any scale pattern across the fretboard, filter by CAGED position</li>
       <li><strong>Chord Tone Highlighter</strong> : see chord tones (Root, 3rd, 5th, 7th) across the whole fretboard, colored</li>
       <li><strong>Chord Voicing Library</strong> : browse triad, drop-2 7th, and shell voicings across every inversion, with audio playback</li>
+      <li><strong>CAGED Connections</strong> : see the 5 movable major shapes laid out across the neck and the root notes where they connect</li>
     </ul></div>
   </div>`;
   cp.scrollTop = 0;
@@ -2021,6 +2026,248 @@ function cvPlayActive() {
   if (voicings[CV.activeIdx]) cvPlayVoicing(voicings[CV.activeIdx].positions);
 }
 
+/* ═══ CAGED CONNECTION VISUALIZER ═══
+   The 5 movable major chord shapes (C, A, G, E, D) laid out in order
+   up the neck for any major root. Highlights the shared root notes
+   where consecutive shapes connect — the moment CAGED stops feeling
+   like five disconnected boxes. */
+
+// Each shape's positions are encoded as offsets above its barre fret.
+// `anchor` = stringIdx of the lowest-root string; `anchorOffset` = how
+// far above the barre that root sits. barre_fret is then derived from
+// the desired chord root via cagedBarreFor().
+const CAGED_SHAPES = {
+  C: { letter: "C", anchor: 4, anchorOffset: 3, positions: [
+    { s: 0, o: 0, r: "3" },
+    { s: 1, o: 1, r: "R" },
+    { s: 2, o: 0, r: "5" },
+    { s: 3, o: 2, r: "3" },
+    { s: 4, o: 3, r: "R" },
+  ]},
+  A: { letter: "A", anchor: 4, anchorOffset: 0, positions: [
+    { s: 0, o: 0, r: "5" },
+    { s: 1, o: 2, r: "3" },
+    { s: 2, o: 2, r: "R" },
+    { s: 3, o: 2, r: "5" },
+    { s: 4, o: 0, r: "R" },
+  ]},
+  G: { letter: "G", anchor: 5, anchorOffset: 3, positions: [
+    { s: 0, o: 3, r: "R" },
+    { s: 1, o: 0, r: "3" },
+    { s: 2, o: 0, r: "R" },
+    { s: 3, o: 0, r: "5" },
+    { s: 4, o: 2, r: "3" },
+    { s: 5, o: 3, r: "R" },
+  ]},
+  E: { letter: "E", anchor: 5, anchorOffset: 0, positions: [
+    { s: 0, o: 0, r: "R" },
+    { s: 1, o: 0, r: "5" },
+    { s: 2, o: 1, r: "3" },
+    { s: 3, o: 2, r: "R" },
+    { s: 4, o: 2, r: "5" },
+    { s: 5, o: 0, r: "R" },
+  ]},
+  D: { letter: "D", anchor: 3, anchorOffset: 0, positions: [
+    { s: 0, o: 2, r: "3" },
+    { s: 1, o: 3, r: "R" },
+    { s: 2, o: 2, r: "5" },
+    { s: 3, o: 0, r: "R" },
+  ]},
+};
+const CAGED_ORDER = ["C", "A", "G", "E", "D"];
+
+function cagedBarreFor(shapeKey, rootPc) {
+  const sh = CAGED_SHAPES[shapeKey];
+  const openPc = STRINGS[sh.anchor].openIdx;
+  return (((rootPc - openPc - sh.anchorOffset) % 12) + 12) % 12;
+}
+
+// Walk C→A→G→E→D in monotonic up-neck order, shifting +12 when needed.
+function cagedSequence(rootPc) {
+  let prev = -1;
+  const out = [];
+  for (const k of CAGED_ORDER) {
+    let b = cagedBarreFor(k, rootPc);
+    while (b <= prev) b += 12;
+    if (b > 14) break;
+    out.push({ shape: k, barre: b });
+    prev = b;
+  }
+  return out;
+}
+
+function cagedShapePositions(shapeKey, barre) {
+  const sh = CAGED_SHAPES[shapeKey];
+  const cls = { R: "root", "3": "third", "5": "fifth" };
+  const out = [];
+  for (const p of sh.positions) {
+    const fret = barre + p.o;
+    if (fret < 0 || fret > 17) continue;
+    out.push({
+      stringIdx: p.s,
+      fret,
+      label: p.r,
+      colorClass: cls[p.r] || "other",
+      shape: shapeKey,
+    });
+  }
+  return out;
+}
+
+function cagedAllPositions(rootPc) {
+  const seq = cagedSequence(rootPc);
+  const all = [];
+  seq.forEach((item) => {
+    cagedShapePositions(item.shape, item.barre).forEach((p) => all.push(p));
+  });
+  return { positions: all, sequence: seq };
+}
+
+// A connection = a (string, fret) where a Root appears in 2+ shapes.
+function cagedConnections(rootPc) {
+  const seq = cagedSequence(rootPc);
+  const rootMap = {};
+  seq.forEach((item) => {
+    cagedShapePositions(item.shape, item.barre).forEach((p) => {
+      if (p.label === "R") {
+        const k = p.stringIdx + "-" + p.fret;
+        rootMap[k] = rootMap[k] || [];
+        rootMap[k].push(item.shape);
+      }
+    });
+  });
+  return Object.entries(rootMap)
+    .filter(([, shapes]) => shapes.length >= 2)
+    .map(([k, shapes]) => {
+      const [s, f] = k.split("-").map(Number);
+      return { stringIdx: s, fret: f, shapes };
+    });
+}
+
+const CG = { root: 0, focused: null };
+
+function renderCAGED() {
+  const rootOpts = NOTE_NAMES.map(
+    (n, i) => `<option value="${i}"${CG.root === i ? " selected" : ""}>${n}</option>`,
+  ).join("");
+  const focusBtns = `<button class="cg-focus-btn${CG.focused === null ? " on" : ""}" onclick="cgSetFocus(null)">All 5 Shapes</button>` +
+    CAGED_ORDER.map(
+      (k) => `<button class="cg-focus-btn cg-shape-${k.toLowerCase()}${CG.focused === k ? " on" : ""}" onclick="cgSetFocus('${k}')">${k}</button>`,
+    ).join("");
+
+  cp.innerHTML = `<div class="tool-wrap">
+<div class="tool-title">CAGED Connection Visualizer</div>
+<div class="tool-sub">The 5 CAGED chord shapes laid out across the neck for any major chord, and the root notes where consecutive shapes connect. Click "All" to see them at once, or pick a single shape to study in isolation.</div>
+<div class="tool-row">
+  <div><div class="sub-label">Root</div><select class="tool-select" onchange="cgSetRoot(this.value)">${rootOpts}</select></div>
+</div>
+<div class="sub-label">View</div>
+<div class="cg-focus-row">${focusBtns}</div>
+${buildLegend([
+  { cls: "root", name: "Root (R)" },
+  { cls: "third", name: "3rd" },
+  { cls: "fifth", name: "5th" },
+])}
+<div class="fb-board" id="cg-fb"></div>
+<div class="cg-info" id="cg-info"></div>
+<div class="sub-label">CAGED Sequence (lowest C-shape up the neck)</div>
+<div class="cg-thumb-row" id="cg-thumb-row"></div>
+</div>`;
+  cp.scrollTop = 0;
+  cgUpdate();
+}
+
+function cgUpdate() {
+  const { positions, sequence } = cagedAllPositions(CG.root);
+  const connections = cagedConnections(CG.root);
+  const connSet = new Set(connections.map((c) => c.stringIdx + "-" + c.fret));
+
+  // Build display positions. In "All" mode use shape-color classes; in
+  // focus mode use role-color and only the focused shape's positions.
+  let display;
+  if (CG.focused === null) {
+    // For overlapping spots, keep the EARLIER shape in CAGED order (which is
+    // the visual layer below). renderFB's hmap keeps the LAST write, so
+    // iterate reverse to keep the first.
+    const seen = {};
+    positions.forEach((p) => {
+      const key = p.stringIdx + "-" + p.fret;
+      if (!seen[key]) seen[key] = p;
+    });
+    display = Object.values(seen).map((p) => {
+      const isConn = connSet.has(p.stringIdx + "-" + p.fret);
+      return {
+        stringIdx: p.stringIdx,
+        fret: p.fret,
+        label: p.label,
+        colorClass: "cg-shape-" + p.shape.toLowerCase() + (isConn ? " cg-conn" : ""),
+      };
+    });
+  } else {
+    display = positions
+      .filter((p) => p.shape === CG.focused)
+      .map((p) => {
+        const isConn = connSet.has(p.stringIdx + "-" + p.fret) && p.label === "R";
+        return {
+          stringIdx: p.stringIdx,
+          fret: p.fret,
+          label: p.label,
+          colorClass: p.colorClass + (isConn ? " cg-conn" : ""),
+        };
+      });
+  }
+  renderFB("cg-fb", display, 17);
+
+  // Info panel
+  const info = document.getElementById("cg-info");
+  const rootName = NOTE_NAMES[CG.root];
+  if (CG.focused === null) {
+    const seqText = sequence
+      .map((s) => `<span class="cg-shape-tag cg-shape-${s.shape.toLowerCase()}">${s.shape}@${s.barre}</span>`)
+      .join(' <span class="cg-arrow">→</span> ');
+    const connList = connections.length
+      ? connections.map((c) => `string ${6 - c.stringIdx} · fret ${c.fret} (${c.shapes.join("↔")})`).join(", ")
+      : "—";
+    info.innerHTML = `<div class="cg-info-head">${rootName} Major — All CAGED Positions</div>
+<div class="cg-info-seq">${seqText}</div>
+<div class="cg-info-conn"><span class="cg-info-label">Connection roots:</span> ${connList}</div>`;
+  } else {
+    const item = sequence.find((s) => s.shape === CG.focused);
+    const barreText = item ? `Barre at fret ${item.barre}` : "Not in the lowest-octave sequence (try a different root or the higher octave)";
+    const sh = CAGED_SHAPES[CG.focused];
+    const rolePerString = sh.positions
+      .map((p) => `s${6 - p.s}=${p.r}@+${p.o}`)
+      .join(" · ");
+    info.innerHTML = `<div class="cg-info-head">${rootName} Major — <span class="cg-shape-tag cg-shape-${CG.focused.toLowerCase()}">${CG.focused} shape</span></div>
+<div class="cg-info-seq">${barreText}</div>
+<div class="cg-info-conn"><span class="cg-info-label">Role per string (above barre):</span> ${rolePerString}</div>`;
+  }
+
+  // Thumbnail row
+  const row = document.getElementById("cg-thumb-row");
+  row.innerHTML = sequence
+    .map(
+      (s) => `<button class="cg-thumb cg-shape-${s.shape.toLowerCase()}${CG.focused === s.shape ? " on" : ""}" onclick="cgSetFocus('${s.shape}')">
+        <div class="cg-thumb-letter">${s.shape}</div>
+        <div class="cg-thumb-fret">barre ${s.barre}</div>
+        <div class="cg-thumb-mini" id="cg-mini-${s.shape}"></div>
+      </button>`,
+    )
+    .join("");
+  sequence.forEach((s) => {
+    renderFBMini("cg-mini-" + s.shape, cagedShapePositions(s.shape, s.barre));
+  });
+}
+
+function cgSetRoot(v) {
+  CG.root = +v;
+  renderCAGED();
+}
+function cgSetFocus(k) {
+  CG.focused = k;
+  cgUpdate();
+}
+
 /* ═══ MIND MAP ═══
    GRINDE Grouping by category:
    found  = Foundation (violet): physics + the 12-note system
@@ -2216,6 +2463,14 @@ const NODES = [
     lv: 2,
     sp: true,
   },
+  {
+    id: "cagedviz",
+    lab: "CAGED\nConnections",
+    emoji: "🔗",
+    cat: "harm",
+    lv: 2,
+    sp: true,
+  },
 ];
 const LINKS = [
   // Hub spokes, root to every L1 topic
@@ -2269,6 +2524,7 @@ const LINKS = [
   { s: "tools", t: "scaleviz", k: "parent" },
   { s: "tools", t: "chordhl", k: "parent" },
   { s: "tools", t: "chordlib", k: "parent" },
+  { s: "tools", t: "cagedviz", k: "parent" },
   { s: "picker", t: "notes", k: "cross" }, // note picker exercises notes
   { s: "intrainer", t: "intervals", k: "cross" }, // interval trainer
   { s: "intrainer", t: "ear", k: "cross" }, // interval trainer = ear training
@@ -2276,6 +2532,8 @@ const LINKS = [
   { s: "chordhl", t: "chords", k: "cross" }, // chord-tone highlight tool
   { s: "chordlib", t: "chords", k: "cross" }, // voicing library
   { s: "chordlib", t: "caged", k: "cross" }, // voicings connect to CAGED
+  { s: "cagedviz", t: "caged", k: "cross" }, // CAGED viz reinforces the CAGED page
+  { s: "cagedviz", t: "fretboard", k: "cross" }, // CAGED viz teaches neck layout
 ];
 const L1 = [
   "sound",
@@ -2326,11 +2584,12 @@ function calcPos(W, H) {
   // Tools children
   const ta = -Math.PI / 2 + TI * ((2 * Math.PI) / n);
   [
-    ["picker", -0.36],
-    ["intrainer", -0.18],
-    ["scaleviz", 0],
-    ["chordhl", 0.18],
-    ["chordlib", 0.36],
+    ["picker", -0.42],
+    ["intrainer", -0.25],
+    ["scaleviz", -0.08],
+    ["chordhl", 0.08],
+    ["chordlib", 0.25],
+    ["cagedviz", 0.42],
   ].forEach(([id, off]) => {
     nmap[id].x = cx + r2 * Math.cos(ta + off);
     nmap[id].y = cy + r2 * Math.sin(ta + off);

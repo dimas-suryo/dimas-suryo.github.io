@@ -1828,3 +1828,157 @@ input[type="range"]::-moz-range-thumb {
   border-radius: var(--radius);
   border: 1px dashed var(--border-accent);
 }
+
+/* ═══ CAGED CONNECTION VISUALIZER ═══ */
+.cg-focus-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.cg-focus-btn {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1.5px solid var(--border-accent);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.cg-focus-btn:hover {
+  filter: brightness(1.15);
+}
+.cg-focus-btn.on {
+  filter: brightness(1.25);
+  font-weight: 700;
+}
+/* Per-shape accent palettes — reused by buttons, thumbs, tags, and dots */
+.cg-shape-c { --cg-fg: var(--accent); --cg-bg: var(--accent-ghost); --cg-border: var(--accent-dim); }
+.cg-shape-a { --cg-fg: var(--emerald); --cg-bg: var(--emerald-ghost); --cg-border: var(--emerald-dim); }
+.cg-shape-g { --cg-fg: var(--amber); --cg-bg: var(--amber-ghost); --cg-border: var(--amber-dim); }
+.cg-shape-e { --cg-fg: var(--red); --cg-bg: var(--red-ghost); --cg-border: var(--red-dim); }
+.cg-shape-d { --cg-fg: var(--violet); --cg-bg: var(--violet-ghost); --cg-border: var(--violet-dim); }
+.cg-focus-btn[class*="cg-shape-"] {
+  color: var(--cg-fg);
+  background: var(--cg-bg);
+  border-color: var(--cg-border);
+}
+.cg-focus-btn[class*="cg-shape-"].on {
+  border-color: var(--cg-fg);
+}
+.cg-info {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius);
+}
+.cg-info-head {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.cg-info-seq {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 6px;
+}
+.cg-info-conn {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+.cg-info-label {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+.cg-arrow {
+  color: var(--text-dim);
+  font-family: var(--mono);
+  font-weight: 700;
+}
+.cg-shape-tag {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--cg-fg);
+  background: var(--cg-bg);
+  border: 1px solid var(--cg-border);
+}
+.cg-thumb-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.cg-thumb {
+  background: var(--surface);
+  border: 1.5px solid var(--border-accent);
+  border-radius: var(--radius);
+  padding: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cg-thumb[class*="cg-shape-"] {
+  border-color: var(--cg-border);
+}
+.cg-thumb[class*="cg-shape-"]:hover,
+.cg-thumb[class*="cg-shape-"].on {
+  border-color: var(--cg-fg);
+  background: var(--cg-bg);
+}
+.cg-thumb-letter {
+  font-family: var(--mono);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--cg-fg);
+  line-height: 1;
+}
+.cg-thumb-fret {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+.cg-thumb-mini {
+  margin-top: 4px;
+}
+
+/* Fretboard dots colored by CAGED shape (used in "All" view) */
+.fb-dot.cg-shape-c { background: var(--accent-ghost); color: var(--accent); border: 1.5px solid var(--accent); }
+.fb-dot.cg-shape-a { background: var(--emerald-ghost); color: var(--emerald); border: 1.5px solid var(--emerald); }
+.fb-dot.cg-shape-g { background: var(--amber-ghost); color: var(--amber); border: 1.5px solid var(--amber); }
+.fb-dot.cg-shape-e { background: var(--red-ghost); color: var(--red); border: 1.5px solid var(--red); }
+.fb-dot.cg-shape-d { background: var(--violet-ghost); color: var(--violet); border: 1.5px solid var(--violet); }
+.cv-mini-dot.cg-shape-c { background: var(--accent-ghost); color: var(--accent); border: 1px solid var(--accent); }
+.cv-mini-dot.cg-shape-a { background: var(--emerald-ghost); color: var(--emerald); border: 1px solid var(--emerald); }
+.cv-mini-dot.cg-shape-g { background: var(--amber-ghost); color: var(--amber); border: 1px solid var(--amber); }
+.cv-mini-dot.cg-shape-e { background: var(--red-ghost); color: var(--red); border: 1px solid var(--red); }
+.cv-mini-dot.cg-shape-d { background: var(--violet-ghost); color: var(--violet); border: 1px solid var(--violet); }
+
+/* Connection root highlight — pulses softly to make it pop */
+.fb-dot.cg-conn,
+.cv-mini-dot.cg-conn {
+  box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px currentColor;
+  position: relative;
+  z-index: 2;
+}
