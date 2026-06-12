@@ -49,7 +49,7 @@ Then you introduce the variable "Holy Land", and the variable "Property Deed Sig
 
 I should be honest. This isn't the only way to read the conflict, and I'm aware Israel-Palestine has thick colonial, ethnic, and geopolitical layers I'm not engaging with here. But the theological component is hard to pretend isn't there.
 
-1995. Yitzhak Rabin, Prime Minister of Israel, is about to close the Two-State Solution through Oslo II. He's not a naive peacenik. He's a former general who has run the probabilities and concluded that land-for-security is the best deal Israel can possibly get.
+In 1995. Yitzhak Rabin, Prime Minister of Israel, is about to close the Two-State Solution through Oslo II. He's not a naive peacenik. He's a former general who has run the probabilities and concluded that land-for-security is the best deal Israel can possibly get.
 
 Yigal Amir, a religious law student, shoots Rabin in the back. Not from political calculation. From Din Rodef, the Jewish law that holds anyone threatening the life of the Jewish community may be killed. To Amir, giving up "holy land" was a direct threat to the life of the community.
 
@@ -93,7 +93,7 @@ Rabin knew. It cost him his life.
 
 The stem cell scientists knew. It cost them a decade.
 
-If there is no invisible hand coming to fix climate change, or the next pandemic, or misaligned AI, and I happen to estimate that probability as low, then the hands that have to move are ours. I could be wrong about the probability. But the stakes are too high to act as if someone else is on the job.
+If there is no invisible hand coming to fix climate change, or the next Holocaust, or Nuclear War, and I happen to estimate that probability as low, then the hands that have to move are ours. I could be wrong about the probability. But the stakes are too high to act as if someone else is on the job.
 
 The shield that once saved our ancestors from extinction may have mutated into something else by now. Not because it was evil from the start, but because it wasn't designed for a world like this one.
 
