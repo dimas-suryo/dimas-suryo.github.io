@@ -1,13 +1,13 @@
 ---
-title: "Like a Pump-and-Dump Stock"
+title: "Like a Deep-Fried Stock"
 date: 2023-12-23
 draft: false
 summary: "The modern romance market is structurally broken. Not because of hypergamy (that's a healthy mechanism), but because perceived value on both sides has drifted from intrinsic value, and the men who unconditionally subsidise the market have erased every corrective feedback loop. The Lindy fix is the old kafa'ah principle. Match on epistemology, values, trajectory, and emotional capacity. Not on whoever sits highest."
 ---
 
-{{< figure src="/saham-gorengan-media/image1.png" alt="How Women Rate Men on okcupid.com" caption="How Women Rate Men on okcupid.com" >}}
+{{< figure src="/deep-fried-stocks-media/image1.png" alt="How Women Rate Men on okcupid.com" caption="How Women Rate Men on okcupid.com" >}}
 
-{{< figure src="/saham-gorengan-media/image2.png" alt="How Men Rate Women on okcupid.com" caption="How Men Rate Women on okcupid.com" >}}
+{{< figure src="/deep-fried-stocks-media/image2.png" alt="How Men Rate Women on okcupid.com" caption="How Men Rate Women on okcupid.com" >}}
 
 # TL;DR
 
@@ -41,7 +41,7 @@ Worth saying clearly what this essay is _not_ claiming. It is not claiming that 
 
 Hypergamy is the tendency to seek a partner with equal or higher status or genetic fitness. It is an evolved behavioural tendency with a solid biological foundation. Parental Investment Theory explains the mechanism. The sex that bears the heavier reproductive cost ends up evolutionarily more selective. In mammals, including humans, that's the female. It isn't a social construct. It's an asymmetry that falls out of basic biology, and it's been documented across cultures.
 
-{{< figure src="/saham-gorengan-media/image3.png" >}}
+{{< figure src="/deep-fried-stocks-media/image3.png" >}}
 
 - Bruch & Newman (2018) analysed 186,000 dating-platform users in the US and found that women, on aggregate, send messages to men who are on average 26% higher on the desirability hierarchy. (doi 10.1126/sciadv.aap9815)
 
@@ -55,7 +55,7 @@ Under natural conditions, hypergamy is a healthy selection mechanism. A working 
 
 There are four main mechanisms that systematically distort perceived market value (fair value) and push it away from intrinsic value (overvalued). One important note before we start. These distortions operate bilaterally. They affect both men's and women's perceptions, though through different mechanisms and at different magnitudes.
 
-{{< figure src="/saham-gorengan-media/image4.png" >}}
+{{< figure src="/deep-fried-stocks-media/image4.png" >}}
 
 ### Vector 1. Echo Chamber and the Absence of Corrective Feedback
 
@@ -117,7 +117,7 @@ A man who accepts a relationship objectively below standard. Breadcrumbing, situ
 
 In aggregate, these patterns build an ecosystem in which men collectively offer attention, resources, and commitment without any qualifying requirement at all, distorting the entire incentive structure of the market.
 
-{{< figure src="/saham-gorengan-media/image5.png" >}}
+{{< figure src="/deep-fried-stocks-media/image5.png" >}}
 
 Expectation inflation does not happen because the ceiling is organically rising. It happens because the floor is being continuously lowered by men willing to accept any condition, and the absence of consequence wipes out the market's corrective mechanism.
 
