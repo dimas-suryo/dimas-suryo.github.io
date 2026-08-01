@@ -1,15 +1,14 @@
 ---
 title: "Now"
-date: 2026-05-01
+date: 2026-08-01
 draft: false
 summary: "What I'm working on, reading, and thinking about right now."
 ---
 
 ## Working on
 
-- A few years ago I bought this domain for ten years, seems I have to take care of this for the next few years.
-- Still working those project-y things.
-- Also still @ Accounting UI, it's cozy here.
+- 9-5 sitting in front of Lenovo ThinkPad doing investment thing-y.
+- Figuring out gpt-wrapper with folks.
 
 ## Reading
 
