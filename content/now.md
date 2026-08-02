@@ -9,6 +9,7 @@ summary: "What I'm working on, reading, and thinking about right now."
 
 - 9-5 sitting in front of Lenovo ThinkPad doing investment thing-y.
 - Figuring out gpt-wrapper with folks.
+- Paper this and that.
 
 ## Reading
 
@@ -24,6 +25,5 @@ summary: "What I'm working on, reading, and thinking about right now."
 
 ## Off-screen
 
-- Paper this and that.
 - In a bulk phase and a sub-20 training block, also just got into Gravelism.
 - Mini music project with high-school friends.
