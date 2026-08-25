@@ -39,7 +39,7 @@ In 2017, a study cited by the Ministry of Health put macroeconomic losses from t
 
 These losses include direct healthcare costs and indirect costs from productive years lost to illness, disability, and early death. In 2022, BPJS Kesehatan spent about Rp24 trillion on eight catastrophic illnesses (heart disease, cancer, stroke, kidney failure, and a handful of others), most of them tied to smoking. Heart disease alone took Rp17.5 trillion across 20.5 million cases. BPJS's 2023 deficit was Rp7.2 trillion, and tobacco-driven non-communicable diseases are a leading reason.
 
-So for every rupiah a smoker pays in excise, the state has to spend two to four rupiah cleaning up after him. F*ck a contribution. That's some debt nobody settles.
+So for every rupiah a smoker pays in excise, the state has to spend two to four rupiah cleaning up after him. F\*ck a contribution. That's some debt nobody settles.
 
 Who pays the gap? Not the smokers. Non-smokers do. Their BPJS contributions go toward treating people who chose to destroy their own bodies. The smoker has no skin in the game. That's one of the reasons the word "coward" fits.
 
@@ -71,7 +71,7 @@ A recent Mensa Indonesia study turned up something interesting. Smoking prevalen
 
 This isn't about insulting smokers' intelligence. It's about being honest that the decision to keep smoking, in an era when the harms are documented everywhere, is a decision driven by weakness. Not strength. Not conscious choice. Not courage. But the inability to sit with the short-term discomfort of stopping.
 
-The standard justifications smokers reach for ("my grandpa smoked until he was ninety", "we're all going to die anyway", "you only live once") are survivorship bias dressed up as wisdom. They're rationalzations. An honest rationalist would recognise them as motivated reasoning, finding reasons to defend a decision he's already made instead of evaluating evidence before he makes it.
+The standard justifications smokers reach for ("my grandpa smoked until he was ninety", "we're all going to die anyway", "you only live once") are survivorship bias dressed up as wisdom. They're rationalizations. An honest rationalist would recognise them as motivated reasoning, finding reasons to defend a decision he's already made instead of evaluating evidence before he makes it.
 
 That is cowardice. Not physical weakness. Not even moral weakness, exactly. Just the unwillingness to be honest with yourself.
 
