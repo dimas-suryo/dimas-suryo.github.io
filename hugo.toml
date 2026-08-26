@@ -5,7 +5,8 @@ disableKinds = ['taxonomy', 'term']
 
 [params]
   tagline = 'Ultra-Cyclist | Reader & Writer'
-  description = "Dimas Suryo's personal site. Writing on financial markets, systems thinking, and more."
+  description = "Dimas Suryo's personal site."
+  favicon = "favicon.jpg"
 
 [menu]
   [[menu.main]]
