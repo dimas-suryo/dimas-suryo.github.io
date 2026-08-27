@@ -5,13 +5,13 @@ draft: false
 summary: "The courage to feel discomfort. Why weak men are a systemic pollutant, and why that is (partly) not their fault."
 ---
 
-> # Epistemic Note
->
-> This essay tries to consolidate a few arguments scattered across my earlier writing, on the distortion of the romance market, on virtue signalling, on pornography, into a single (hopefully) coherent diagnosis. I'm writing this before I turn 22, which means I am almost certainly wrong about some things here, possibly important ones. I'm also writing this as someone who, at various points in his life, has been a version of what I criticize. Reader, please discount accordingly for both biases.
->
-> This essay is **not** a men's rights manifesto. Not an incel blackpill. Not a sermon about "returning to the natural state of masculinity". If you came here looking for confirmation that women are at fault, you have the wrong address. The thing I'm blaming, explicitly and consistently, is men.
->
-> More precisely. The patterns of male behaviour that, in aggregate, damage almost every system they touch.
+**Epistemic Note**
+
+1. This essay tries to consolidate a few arguments scattered across my earlier writing, on the distortion of the romance market, on virtue signalling, on pornography, into a single (hopefully) coherent diagnosis. I'm writing this before I turn 22, which means I am almost certainly wrong about some things here, possibly important ones. I'm also writing this as someone who, at various points in his life, has been a version of what I criticize. Reader, please discount accordingly for both biases.
+
+2. This essay is **not** a men's rights manifesto. Not an incel blackpill. Not a sermon about "returning to the natural state of masculinity". If you came here looking for confirmation that women are at fault, you have the wrong address. The thing I'm blaming, explicitly and consistently, is men.
+
+3. More precisely. The patterns of male behaviour that, in aggregate, damage almost every system they touch.
 
 ## I.
 
