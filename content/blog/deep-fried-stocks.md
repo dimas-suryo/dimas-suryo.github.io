@@ -39,13 +39,13 @@ Worth saying clearly what this essay is _not_ claiming. It is not claiming that 
 
 ## II.
 
-Hypergamy is the tendency to seek a partner with equal or higher status or genetic fitness. It is an evolved behavioural tendency with a solid biological foundation. Parental Investment Theory explains the mechanism. The sex that bears the heavier reproductive cost ends up evolutionarily more selective. In mammals, including humans, that's the female. It isn't a social construct. It's an asymmetry that falls out of basic biology, and it's been documented across cultures.
+Hypergamy is the tendency to seek a partner with equal or higher status or genetic fitness. It is an evolved behavioural tendency with a solid biological foundation. Parental Investment Theory explains the mechanism. The sex that bears the heavier reproductive cost ends up evolutionarily more selective. In mammals, including humans, that's the female. It is an asymmetry that falls out of basic biology, and it's been documented across cultures.
 
 {{< figure src="/deep-fried-stocks-media/image3.png" >}}
 
-- Bruch & Newman (2018) analysed 186,000 dating-platform users in the US and found that women, on aggregate, send messages to men who are on average 26% higher on the desirability hierarchy. (doi 10.1126/sciadv.aap9815)
+- Bruch & Newman (2018) analyzed 186,000 dating-platform users in the US and found that women, on aggregate, send messages to men who are on average 26% higher on the desirability hierarchy. (doi 10.1126/sciadv.aap9815)
 
-- Hitsch, Hortaçsu & Ariely (2010) analysed dating-platform data and found asymmetric preference distributions between men and women in how they evaluate attractiveness. (doi 10.1257/aer.100.1.130)
+- Hitsch, Hortaçsu & Ariely (2010) analyzed dating-platform data and found asymmetric preference distributions between men and women in how they evaluate attractiveness. (doi 10.1257/aer.100.1.130)
 
 Under natural conditions, hypergamy is a healthy selection mechanism. A working selective system should produce pairings that are calibrated to reality. What's broken is not the mechanism. What's broken is the way several distortion vectors have made people's perception of their own position in the hierarchy fundamentally miscalibrated, on both sides of the market.
 
@@ -157,7 +157,7 @@ Classical fiqh names a few dimensions of kafa'ah. Nasab (lineage), din (religiou
 
 #### A. Epistemic Sekufu, or Equality in How You Think
 
-This is the most important dimension and the one most often ignored. It isn't about identical IQ. It's about how a person processes information, handles disagreement, and revises beliefs.
+This is the most important dimension and the one most often ignored. It is about how a person processes information, handles disagreement, and revises beliefs.
 
 The diagnostic question. Can he argue without attacking character? Can he change his mind when presented with new evidence? Is he interested in ideas, or only in conclusions that confirm what he already believes?
 
@@ -183,7 +183,7 @@ Trajectory incompatibility produces one of two destructive dynamics. Resentment 
 
 #### D. Emotional Sekufu, or Equality in Regulation Capacity
 
-Are you matched in your capacity to recognise, express, and regulate emotion?
+Are you matched in your capacity to recognize, express, and regulate emotion?
 
 If one person is used to introspection and managing emotion, while the other is still entirely reactive and has never consciously processed any emotional experience, the relationship will end up in an exhausting asymmetry. One person will become a de facto therapist. The other will be the perpetual patient. That isn't really a partnership. It's closer to caregiving.
 
@@ -195,17 +195,17 @@ Practised genuinely, the principle of sekufu mechanically cuts every distortion 
 
 How does sekufu correct the echo chamber? Sekufu forces honest self-assessment because the target isn't "the best I can get" but "the equal of who I really am". That inherently requires honesty about your own position.
 
-How does sekufu correct cross-tier anchoring? Sekufu explicitly rejects the outlier as a benchmark. The target is equality, not maximisation. The anchoring effect from outlier experience is eliminated.
+How does sekufu correct cross-tier anchoring? Sekufu explicitly rejects the outlier as a benchmark. The target is equality, not maximization. The anchoring effect from outlier experience is eliminated.
 
 How does sekufu correct social media attention inflation? Sekufu decouples self-worth from external validation, because the target is substantive fit, not a status hierarchy inflated by digital metrics.
 
 How does sekufu correct pornography? Sekufu rejects extreme physical outliers as legitimate standards and refocuses evaluation on the dimensions that actually predict long-term relationship success.
 
-How does sekufu correct unconditional subsidy? A man who applies sekufu naturally stops being a subsidiser, because he only invests time and energy in people who are genuinely matched, not in people whose self-assessed hierarchy is unrealistic.
+How does sekufu correct unconditional subsidy? A man who applies sekufu naturally stops being a subsidizer, because he only invests time and energy in people who are genuinely matched, not in people whose self-assessed hierarchy is unrealistic.
 
 ### Sekufu as Via Negativa
 
-In practice, sekufu is more powerful as a negative filter than as a positive checklist. You aren't looking for someone whose epistemology is identical to yours. You're learning to recognise the markers of incompatibility.
+In practice, sekufu is more powerful as a negative filter than as a positive checklist. You aren't looking for someone whose epistemology is identical to yours. You're learning to recognize the markers of incompatibility.
 
 - Epistemic incompatibility. You feel constantly forced to simplify yourself, or constantly forced to prove yourself. Conflict always ends in personal attack instead of resolution.
 

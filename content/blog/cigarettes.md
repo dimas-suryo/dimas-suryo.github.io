@@ -9,11 +9,13 @@ summary: "Smoking isn't really a personal health choice. It externalises harm on
 
 There's a guy at the warung kopi next to me. He lights a kretek and takes a long drag. Then he blows the smoke at the next table, where a young mother sits with her baby. The baby is maybe nine months old. Nobody at the warung thinks this is strange. The mother doesn't even flinch.
 
-This isn't an essay about health. You already know cigarettes kill. It says so on the pack you bought. I want to talk about something else. About sixty-five million adults in this country choose to be cowards every time they light up, and I think that's worth a few thousand words.
+Point is?
+
+I want to talk about sixty-five million adults in this country choose to be cowards every time they light up, and I think that's worth a few thousand words.
 
 ## I.
 
-The standard defence is "it's my right". OK, let's see if that holds.
+The standard defence is "it's my right". OK dude, let's see if that holds.
 
 Rights end where they start harming someone else. You have the right to swing your fist. That right ends at the tip of someone else's nose. Cigarettes don't behave like a fist. The smoke you exhale doesn't stay in your lungs. It goes into your wife's lungs, your kid's lungs, the lungs of a stranger sitting next to you on the angkot. This is not a metaphor.
 
@@ -31,7 +33,7 @@ The structure is the cleanest moral hazard you can find in everyday life. Someon
 
 This is the second-most-common defence. It's also the easiest to take apart. Just look at the numbers.
 
-In 2022, Indonesian cigarette excise revenue hit about Rp200 trillion. Big number. Officials and the tobacco industry love this number. They brag about it as a massive contribution to the economy, sometimes claiming it's bigger than the combined contribution of all state-owned enterprises put together.
+In 2022, Indonesian cigarette excise revenue hit about Rp200 trillion. Big number isn't it Bu Sri Mulyani? Or is it actually? Thing is, officials and the tobacco industry love this number. They brag about it as a massive contribution to the economy, sometimes claiming it's bigger than the combined contribution of all state-owned enterprises put together. Heck no.
 
 Now look at the other side of the ledger.
 
@@ -45,7 +47,7 @@ Who pays the gap? Not the smokers. Non-smokers do. Their BPJS contributions go t
 
 ## III.
 
-This is the saddest part to write.
+There is even a sadder thing.
 
 Indonesia has the highest child smoking prevalence in the world. More than 30% of Indonesian kids have reportedly tried a cigarette before they turned 10. About 5.9 million children aged 10 to 18 are already active smokers. Smoking among teenagers aged 15 to 19 jumped from 13.7% in 1995 to 37.3% in 2013.
 
@@ -53,9 +55,9 @@ At home, 78.4% of adults are exposed to secondhand smoke. Children spend most of
 
 Now ask yourself something. Where is the agency of these children?
 
-Yes, quitting is neurologically hard. Yes, many smokers started young because of social pressure. Yes, agency is complicated. But the very thing is, the argument about agency runs in both directions. If you want sympathy for a smoker whose agency has been chemically eroded by addiction, you have to also account for the agency of a baby who has been forced to inhale his father's smoke from day one. And that number is zero.
+Yes, quitting is neurologically hard. Yes, many smokers started young because of social pressure. Also yes and also true, agency is complicated. But the very thing is, the argument about agency runs in both directions. If you want sympathy for a smoker whose agency has been chemically eroded by addiction, you have to also account for the agency of a baby who has been forced to inhale his father's smoke from day one. And that number is zero.
 
-A smoker who lights up in the living room in front of his kids is not a victim of addiction. He has options. He can go outside. He can not light up in the room with his family. He can protect the people most dependent on him. Those are minimal choices. When he refuses them, "coward" starts to sound about right.
+A smoker who lights up in the living room in front of his kids is not a victim of addiction man. Bro has options. Bro can go outside. Bro can not light up in the room with bros family. Bro can protect the people most dependent on him. Those are minimal choices. But bro refuses them, and now "coward" starts to sound about right no?
 
 ## IV.
 
@@ -69,9 +71,9 @@ A man who can't sit through a thirty-minute meeting without fidgeting about a ci
 
 A recent Mensa Indonesia study turned up something interesting. Smoking prevalence among members is 10.8%, against a national rate of 28–40%. So roughly a quarter of the population average. The people who can most carefully evaluate long-term risk are the ones who smoke least.
 
-This isn't about insulting smokers' intelligence. It's about being honest that the decision to keep smoking, in an era when the harms are documented everywhere, is a decision driven by weakness. Not strength. Not conscious choice. Not courage. But the inability to sit with the short-term discomfort of stopping.
+This isn't about insulting smokers' intelligence but about being honest that the decision to keep smoking, in an era when the harms are documented everywhere, is a decision driven by weakness. Not strength. Not conscious choice. Not courage. But the inability to sit with the short-term discomfort of stopping.
 
-The standard justifications smokers reach for ("my grandpa smoked until he was ninety", "we're all going to die anyway", "you only live once") are survivorship bias dressed up as wisdom. They're rationalizations. An honest rationalist would recognise them as motivated reasoning, finding reasons to defend a decision he's already made instead of evaluating evidence before he makes it.
+The standard justifications smokers reach for ("my grandpa smoked until he was ninety", "we're all going to die anyway", "you only live once") are survivorship bias dressed up as wisdom. They're rationalizations. An honest rationalist would recognize them as motivated reasoning, finding reasons to defend a decision he's already made instead of evaluating evidence before he makes it.
 
 That is cowardice. Not physical weakness. Not even moral weakness, exactly. Just the unwillingness to be honest with yourself.
 
@@ -83,7 +85,7 @@ Indonesia doesn't just fail to protect its citizens from tobacco. Indonesia acti
 
 Here is where the real complexity sits. Millions of people depend on this industry for their living, from tobacco farmers in Jember to factory workers in Kudus. Attacking cigarettes without acknowledging this is a form of intellectual privilege.
 
-But acknowledging it does not justify the status quo. The fact that millions depend on the arms industry does not make weapons good. The fact that drug cartels employ thousands does not make narcotics a net positive. Economic dependence on an industry that kills 290,000 of its own citizens a year is not a defence. It's a diagnosis.
+But acknowledging it does not justify the status quo. The fact that millions depend on the arms industry does not make weapons good. The fact that drug cartels employ thousands does not make narcotics a net positive. Economic dependence on an industry that kills 290,000 of its own citizens a year is a diagnosis.
 
 This is another reason the word "coward" fits. Not just for the individual smoker, but for the nation as a whole. We know cigarettes kill. We've seen the data. We are too afraid of the economic and political backlash to make any real structural change. We chose this.
 
@@ -101,11 +103,11 @@ That is courage. Not lighting a cigarette on a motorbike. Not blowing smoke arou
 
 At the system level, the answer is just as well-known. Ratify the FCTC. Ban tobacco advertising. Raise the excise tax significantly and consistently. Enforce smoke-free zones properly. Fund quit-smoking programmes publicly. Other countries have done all of these and seen smoking prevalence collapse.
 
-One last data point. Countries that take tobacco control seriously have driven smoking prevalence below 15%. Australia is one of them. Indonesia is still at 28–35%. The gap is not about culture. It is not about destiny. The gap is about political and individual courage.
+One last data point. Countries that take tobacco control seriously have driven smoking prevalence below 15%. Australia is one of them. Indonesia is still at 28–35%. The gap is about political and individual courage.
 
 ## VII.
 
-This essay isn't here to judge. It's here to challenge.
+This essay is here to challenge.
 
 If you're a smoker and you read this far, you've already shown something a lot of smokers don't have. You sat through an argument designed to make you uncomfortable. That's a real start.
 

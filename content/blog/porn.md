@@ -11,41 +11,45 @@ summary: "The honest accounting of what it costs, to you, to performers, to cult
 
 ### The Problem With How We Talk About This
 
-This essay is going to make some people uncomfortable. Not because I'm moralizing, I'm not a pastor and this isn't a sermon. It's because the data on what pornography actually does, at scale, to real people, is genuinely disturbing, and we've collectively agreed, for reasons worth examining, not to talk about it seriously.
+This essay is going to make some people uncomfortable. But not in the way that I'm going to moralize everything, I'm not a pastor and this isn't a sermon. It's probably because the data on what pornography actually does, at scale, to real people, is genuinely disturbing, and we've collectively agreed, for reasons worth examining, not to talk about it seriously.
 
 The dynamic I've observed is this. Whenever someone raises concerns about pornography, they get sorted into a box immediately. Religious prude. Sex-negative. Repressed. The conversation shuts down before it starts. The people raising concerns, often backed by peer-reviewed research, get dismissed while the burden of proof somehow never lands on the other side. That's a broken epistemics problem, not a values problem.
 
 Consider how we handled alcohol. For decades the conversation ran the same way. Drinking is sinful, drinkers are weak, this is a moral failing. It wasn't until we started asking what sustained alcohol exposure actually does to the brain's reward circuitry that we made any real progress. The moral framing generated heat, the systems framing generated insight.
 
-Pornography is in that same uncomfortable transition. The conversation has been dominated by two equally unhelpful camps. Religious conservatives who frame it as sin, and libertarians who frame it as pure personal freedom. Both talk past each other, and both miss the more interesting question. What actually happens, mechanically, neurologically, behaviorally, when hundreds of millions of people consume this content at industrial scale, produced by an industry with documented structural problems?
+Pornography is in that same uncomfortable transition, I suppose. The conversation has been dominated by two equally unhelpful camps. Religious conservatives who frame it as sin, and libertarians who frame it as pure personal freedom. Both talk past each other, and both miss the more interesting question. What actually happens, mechanically, neurologically, behaviorally, when hundreds of millions of people consume this content at industrial scale, produced by an industry with documented structural problems?
 
 That's the question I'm trying to work through, and I want to be upfront that I'm not fully confident in my conclusions. The evidence is strong in some places and genuinely ambiguous in others. But I think the overall picture is concerning enough that intellectual honesty requires engagement rather than dismissal.
 
 ## II.
 
-### The Best Case For Porn, Because I Really Am Trying To Be Fair
+### The Best Case For Porn
 
 The first argument is that bodily autonomy is not negotiable. If consenting adults choose to film themselves having sex and distribute that content, the baseline presumption should be that this is none of your business. We don't ban coal mining because it's dangerous. We don't ban alcohol because it causes addiction. The moment governments or social pressure campaigns get to determine which legal sexual expression is acceptable, we are on extremely dangerous ground. Gay pornography was criminalized within living memory. "Harm" rhetoric has historically been weaponized against minority sexualities more than anyone else. The autonomy argument isn't a cop-out, it's a hard-won principle.
 
 The second argument is that porn might actually reduce sexual violence. This is the one anti-porn advocates least want to engage with. The catharsis hypothesis holds that pornography provides an outlet for sexual urges that might otherwise manifest as real-world aggression. Some cross-national data supports this. Countries that liberalized access to pornography did not show corresponding spikes in rape rates, and some showed declines. If porn functions as a pressure valve, restricting it has a body count. That's a serious claim that deserves a serious response.
 
-The third argument is that performers have agency and shouldn't be treated as victims. Many performers say they chose their careers freely, find them meaningful, and deeply resent being cast as inherent victims by people who've never spoken to them. Treating every performer as coerced is its own form of dehumanization, stripping them of the very agency their critics claim pornography denies women. Organizations like APAG argue the real answer is labor protections and destigmatization, not abolition. That's a coherent position.
+The third argument is that performers have agency and shouldn't be treated as victims. Many performers say they chose their careers freely, find them meaningful, and deeply resent being cast as inherent victims by people who've never spoken to them. Treating every performer as coerced is its own form of dehumanization, stripping them of the very agency their critics claim pornography denies women. Organizations like APAG argue the real answer is labor protections and de-stigmatization, not abolition. And that's a coherent position me think.
 
 The fourth argument is that for many people, porn fills a real gap. LGBTQ+ individuals in repressive environments. People with disabilities exploring their sexuality. Teenagers in countries with zero sex education. People in sexless marriages managing their own needs without external harm. For all of these groups, blanket condemnation causes real damage, isolation, shame, suppression, while offering nothing in return.
 
-The fifth argument is that "porn addiction" isn't even in the DSM-5. The American Psychiatric Association reviewed the evidence and declined to classify hypersexual disorder or pornography addiction as an official diagnosis. Prominent researchers like David Ley have argued that what looks like porn addiction is better explained by moral incongruence. People feel distressed about their porn use primarily because they believe it's morally wrong, not because of any pharmacological-style dependence. If that's true, the neurological harm framework has a serious problem.
+The fifth argument is that "porn addiction" isn't even in the DSM-5. The American Psychiatric Association reviewed the evidence and declined to classify hypersexual disorder or pornography addiction as an official diagnosis. Researchers like David Ley have argued that what looks like porn addiction is better explained by moral incongruence. People feel distressed about their porn use primarily because they believe it's morally wrong, not because of any pharmacological-style dependence. If that's true, the neurological harm framework has a serious problem, no?
 
-The first and third arguments in particular are ones I take seriously and won't fully refute, and I'll be honest about that. Here is what I am going to argue. Even granting full autonomy to every performer, even believing every performer's consent is genuine, the downstream effects on viewers, on culture, and on the most structurally vulnerable people inside the industry are severe enough that the honest, evidence-based position is that we should probably stop.
+The first and third arguments in particular are ones I take seriously and won't fully refute. What I am going to argue, however, even granting full autonomy to every performer, even believing every performer's consent is genuine, the downstream effects on viewers, on culture, and on the most structurally vulnerable people inside the industry are severe enough that the honest, evidence-based position is that we should probably stop.
 
 ## III.
 
-Prostitution, the direct exchange of sexual services between individuals, has existed in virtually every human civilization for thousands of years. Whatever its social costs, and they are real, the practice itself has coexisted with functional societies across vastly different cultures, legal frameworks, and moral systems. Prostitution is Lindy.
+Prostitution, the direct exchange of sexual services between individuals, has existed in virtually every human civilization for thousands of years. Whatever its social costs, and they are real, the practice itself has coexisted with functional societies across vastly different cultures, legal frameworks, and moral systems. Prostitution is Lindy, dude.
 
-Internet pornography, free, unlimited, high-definition, algorithmically optimized video content consumed in isolation by hundreds of millions of people daily, is roughly twenty-five years old. We have no idea what the tail risks look like. We are running an experiment on the dopaminergic reward systems of an entire generation, and the experiment has no control group, no informed consent, and no exit strategy.
+Internet pornography, free, unlimited, high-definition, algorithmically optimized video content whatsoever consumed in isolation by hundreds of millions of people daily, is roughly twenty-five years old. We have no idea what the tail risks look like. We are running an experiment on the dopaminergic reward systems of an entire generation, and the experiment has no control group, no informed consent, and no exit strategy.
 
-This is the distinction that both pro-porn libertarians and anti-porn conservatives consistently miss. The question isn't whether sexual content is inherently good or bad, humans have been producing erotica since cave paintings. The question is whether this specific delivery mechanism, infinite, free, algorithmically escalating, consumed from age eleven, is something we should be confident about. By the Lindy standard, confidence is exactly what we should not have. This thing is too new for us to know.
+This is the distinction that both pro-porn libertarians and anti-porn conservatives consistently miss. The question isn't whether sexual content is inherently good or bad, humans have been producing erotica since cave paintings, do you know how long that is, anon? Sixty. Flipping. Thousand. Years.
 
-When the downside is potentially severe, non-linear, and difficult to reverse, the burden of proof should sit with those claiming safety, not those raising concerns, and it applies to pornography with unusual clarity. Brain architecture changes are not easily reversed. Normalized attitudes toward aggression are not easily unlearned. The question is not "can you prove porn is harmful?" The question is "can you prove it's safe?" And the honest answer is no, we can't. Not yet. Maybe not ever, given the timescale required.
+The question then is whether this specific delivery mechanism, infinite, free, algorithmically escalating, consumed from age eleven, is something we should be confident about. By the Lindy standard, confidence is exactly what we should not have. This thing is too new for us to know.
+
+When the downside is potentially severe, non-linear, and difficult to reverse, the burden of proof should sit with those claiming safety, not those raising concerns, and it applies to pornography with unusual clarity. Brain architecture changes are not easily reversed. Normalized attitudes toward aggression are not easily unlearned. The question is not "can you prove porn is harmful?" The question is "can you prove it's safe?"
+
+And the honest answer is? No, we can't. Not yet. Maybe not ever, given the timescale required.
 
 ## IV.
 
@@ -53,49 +57,49 @@ When the downside is potentially severe, non-linear, and difficult to reverse, t
 
 Every medium has a grammar. Film teaches you how to read a scene through camera angles, editing, framing. Pornography has a grammar too.
 
-Content analyses of mainstream pornography show consistent patterns. Roughly 79% of videos feature extended camera focus on fragmented female body parts rather than the person as a whole. Around 45% of scenes contain at least one act of physical aggression. In scenes depicting aggression, women are the target 97% of the time, and their depicted response is neutral or positive in the overwhelming majority of cases. Men are the perpetrators in about 76% of those scenes. This isn't fringe material, it's mainstream, and it's what the algorithm serves by default.
+Content analyses of mainstream pornography show consistent patterns. Roughly 79% of videos feature extended camera focus on fragmented female body parts rather than the person as a whole. Around 45% of scenes contain at least one act of physical aggression. In scenes depicting aggression, women are the target 97% of the time, and their depicted response is neutral or positive in the overwhelming majority of cases. Men are the perpetrators in about 76% of those scenes. What does that mean? This thing isn't fringe material, it's mainstream, and it's what the algorithm serves by default.
 
-The grammar, read plainly, is that women are parts rather than people, that aggression is normal, and that a positive response to aggression is expected.
+The grammar is that women are parts rather than people, that aggression is normal, and that a positive response to aggression is expected.
 
-Here's a question worth sitting with. If you consumed any other medium communicating these messages, a film genre, a book category, a video game, at the same frequency and intensity that regular pornography consumers engage with this content, would you expect it to have zero effect on your attitudes? We take media effects seriously everywhere else. Sports coverage shapes how we think about competition. News framing shapes how we perceive risk. The idea that pornography, which operates through the brain's reward system in ways that other media don't, somehow leaves attitudes untouched requires an extraordinarily selective theory of media effects.
+Now there's a question worth sitting with. If you consumed any other medium communicating these messages, a film genre, a book category, a video game, at the same frequency and intensity that regular pornography consumers engage with this content, would you expect it to have zero effect on your attitudes? We take media effects seriously everywhere else. Sports coverage shapes how we think about competition. News framing shapes how we perceive risk. The idea that pornography, which operates through the brain's reward system in ways that other media somehow don't, somehow leaves attitudes untouched requires an extraordinarily selective theory of media effects.
 
 The empirical record is consistent. Hald, Malamuth & Yuen (2010) found a significant positive association between pornography consumption and attitudes supporting violence against women (r = .18, p < .001). Violent pornography showed a stronger association (r = .24) than non-violent (r = .13), though both were statistically significant. One critical finding. Heterogeneity across studies indicates moderating variables, and the association is stronger for men who already hold hostile attitudes toward women. This isn't a uniform effect, it's a conditional one.
 
-I want to be honest about the causation problem, because it's real. These studies are correlational, and directionality is genuinely hard to establish. Do objectifying attitudes drive pornography consumption, or does consumption drive objectifying attitudes? Probably both. But "probably both" is not an exoneration. A feedback loop where harmful attitudes and harmful content mutually reinforce each other is not a safe system, it's an escalating one.
+These studies I mentioned are correlational, and directionality is genuinely hard to establish. Do objectifying attitudes drive pornography consumption, or does consumption drive objectifying attitudes? Probably both. But "probably both" is not an exoneration. A feedback loop where harmful attitudes and harmful content mutually reinforce each other is an escalating system.
 
 The youth dimension makes this more urgent. In the absence of comprehensive sex education, pornography is the de facto sexual curriculum for a significant portion of adolescents. Adolescents who consume violent pornography are six times more likely to exhibit sexually aggressive behavior. Boys exposed to violent pornography are more than twice as likely to report committing sexual violence against a dating partner. The content is the curriculum, and the curriculum is teaching something specific.
 
 ## V.
 
-### "Porn Addiction Isn't Real." Okay, Let's Actually Test That.
+### "Porn Addiction Isn't Real."
 
 The DSM-5 not classifying porn addiction is a real fact. But it doesn't mean the neurological effects aren't real. It means the classification committee made a judgment call about diagnostic thresholds, a judgment that has since been contested by substantial neuroscientific research.
 
 In 2014, Kühn and Gallinat at the Max Planck Institute published a study where they scanned 64 healthy adult men using 3-Tesla MRI and found a significant negative association between hours of pornography consumption per week and gray matter volume in the right caudate nucleus (p < .001), a region central to reward processing and motivation. They also found weakened functional connectivity between the caudate and the left dorsolateral prefrontal cortex, the region governing impulse control and decision-making. During a sexual cue-reactivity task, higher consumers showed lower activation in the left putamen when exposed to sexual images, consistent with a downregulated reward response.
 
-Intellectual honesty requires a pause here. The paper itself explicitly acknowledges what it cannot resolve. The structural findings could reflect neural plasticity changes caused by intense stimulation of the reward system, or they could reflect a pre-existing neurological profile that makes pornography consumption more rewarding. The study can't distinguish these causal pathways.
+We need a pause here for the sake of intellectual honesty. The paper itself explicitly acknowledges what it cannot resolve. The structural findings could reflect neural plasticity changes caused by intense stimulation of the reward system, or they could reflect a pre-existing neurological profile that makes pornography consumption more rewarding. The study can't distinguish these causal pathways.
 
 Either interpretation, though, describes a problematic system. If pornography causes structural brain changes, that's a direct harm. If pre-existing neurological profiles make certain people especially vulnerable to escalating use, that's a harm amplifier. Neither reading is reassuring.
 
-What about David Ley's moral incongruence theory, the idea that people feel "addicted" mainly because they feel guilty? It's a legitimate hypothesis, and it probably explains some of what gets labeled porn addiction. But moral incongruence cannot explain reduced gray matter volume in an MRI. Guilt doesn't show up on a voxel-based morphometry scan. The structural findings exist independent of how the participant feels about their use.
+Moreover about David Ley's moral incongruence theory, the idea that people feel "addicted" mainly because they feel guilty. It's a legitimate hypothesis, and it probably explains some of what gets labeled porn addiction. But moral incongruence cannot explain reduced gray matter volume in an MRI. Guilt doesn't show up on a voxel-based morphometry scan. The structural findings exist independent of how the participant feels about their use.
 
 My honest summary is this. "Porn addiction" as a clinical label remains contested, and the causal arrow in the neuroimaging data is not fully resolved. But the neurological associations with heavy pornography consumption, reduced striatal gray matter, weakened frontostriatal connectivity, blunted reward response, are real and replicable. The distinction between "we can't call it an addiction yet" and "the brain effects aren't happening" is enormous, and collapsing it is not a neutral act.
 
 ## VI.
 
-### Does Porn Reduce Violence? The Safety Valve, Tested
+### Does Porn Reduce Violence?
 
 The cross-national correlational data is real. Some countries that liberalized pornography access saw rape rates stay flat or decline. That finding shouldn't be dismissed. But correlation between national policy liberalization and rape statistics is an extraordinarily blunt instrument. It can't account for simultaneous changes in reporting rates, policing, cultural attitudes, or dozens of other variables shifting across the same time period.
 
 When you move to more controlled studies, the ones that actually isolate pornography consumption as a variable, the picture reverses. Wright, Tokunaga & Kraus (2016) conducted a meta-analysis of 22 studies from 7 countries. Pornography consumption was significantly associated with sexual aggression in both cross-sectional and longitudinal data, across experimental and non-experimental designs.
 
-Malamuth et al.'s confluence model adds nuance. The relationship between pornography and sexual aggression is conditional. Men who already hold hostile attitudes toward women show dramatically stronger associations between consumption and aggression. For these men, pornography doesn't release pressure, it amplifies it.
+Malamuth et al.'s confluence model adds more nuance to it. The relationship between pornography and sexual aggression is conditional. Men who already hold hostile attitudes toward women show dramatically stronger associations between consumption and aggression. For these men, pornography doesn't release pressure, it amplifies it.
 
-So the more precise statement is this. Pornography may function as a pressure valve for men with no pre-existing risk factors. For men who are already on the risk spectrum, and there are a lot of them, it functions as an accelerant. The safety valve hypothesis assumes a uniform population, the data shows the population is not uniform. And if you can't tell which type you're talking to, and you really can't, the aggregate bet is not obviously safe.
+So the more precise statement would be pornography may function as a pressure valve for men with no pre-existing risk factors. For men who are already on the risk spectrum whichs there are a lot of them, it functions as an accelerant. The safety valve hypothesis assumes a uniform population, the data shows the population is not uniform. And if you can't tell which type you're talking to, and you really can't, the aggregate bet is not obviously safe.
 
 ## VII.
 
-### Skin in the Game. Who Actually Bears the Risk?
+### Who Actually Bears the Risk?
 
 Taleb's core ethical insight is about symmetry. In any system, the people making decisions should bear the consequences of those decisions. When the risk-takers and the reward-collectors are different people, you have a structural problem, what Taleb calls the "Bob Rubin Trade," after the Citigroup executive who collected enormous bonuses during good times and faced no personal downside when the firm needed a taxpayer bailout.
 
@@ -103,43 +107,41 @@ The traditional pornography industry is a Bob Rubin Trade.
 
 Studio executives and platform owners at companies like Aylo (formerly MindGeek, parent company of PornHub, Brazzers, and dozens of other brands) capture the majority of economic value. Performers bear the overwhelming majority of risk. Physical risk such as STI exposure and injury, reputational risk in the form of permanent and searchable digital records, psychological risk, and economic risk from short career spans, minimal residuals, and limited career transition options.
 
-The majority of performers report feeling pressure to perform without condoms to secure work. This isn't a preference, it's an economic ultimatum. When your ability to pay rent depends on accepting specific physical risks, the word "consent" is doing extraordinary heavy lifting. Economic coercion is still coercion. It just wears different clothes.
+The majority of performers report feeling pressure to perform without condoms to secure work. This looks like an economic ultimatum I might say. When your ability to pay rent depends on accepting specific physical risks, the word "consent" is doing extraordinary heavy lifting. Economic coercion is still coercion.
 
-The most unambiguous case is the PornHub scandal documented by Nicholas Kristof in the _New York Times_ in 2020. Videos of child sexual abuse material and non-consensually filmed assault were hosted and monetized on the platform for years, with victims repeatedly requesting removal and being ignored. PornHub removed approximately ten million videos in response, not proactively, but under threat of Mastercard and Visa cutting payment processing. This isn't a fringe case about one bad actor, it's a systemic accountability failure by the largest platform in the industry.
+The most unambiguous case is the PornHub scandal documented by Nicholas Kristof in the _New York Times_ in 2020. Videos of child sexual abuse material and non-consensually filmed assault were hosted and monetized on the platform for years, with victims repeatedly requesting removal and being ignored. PornHub removed approximately ten million videos in response, not proactively, but under threat of Mastercard and Visa cutting payment processing. This is a systemic accountability failure by the largest platform in the industry.
 
-The asymmetry here is staggering. Platform executives collected revenue from this content and bore none of the harm. The performers and victims bore all of it. That is the precise structure Taleb identifies as ethically bankrupt, and it's the default operating model of the largest companies in the industry.
+Heck the asymmetry is staggering. I mean platform executives collected revenue from this content and bore none of the harm. The performers and victims bore all of it. That is the precise structure Taleb identifies as ethically bankrupt, and it's the default operating model of the largest companies in the industry.
 
 ## VIII.
 
 ### OnlyFans and the Interesting Structural Question
 
-Here is where things get genuinely complicated, and where intellectual honesty requires me to weaken my own case somewhat.
+This is getting genuinely complicated, and where intellectual honesty requires me to weaken my own case somewhat xD :V.
 
 OnlyFans represents a structurally different model. Creators own their means of production, a camera and an internet connection. They set their own prices, determine their own content, maintain direct relationships with consumers, and keep a significantly larger share of revenue than traditional studio performers ever did.
 
-Aella, a prominent sex worker and member of the rationalist (LessWrong) community, makes an argument I find hard to dismiss. She compares her current work, which she chose, controls, and profits from directly, with her previous life working in a factory, waking at half past four in the morning for repetitive assembly-line tasks at 54 hours per week. She asks why people talk about "survival sex work" but not "survival factory work". The framing that sex work is uniquely degrading while factory labor is merely unfortunate seems to rely on assumptions that deserve examination.
+Aella, a sex worker and member of the rationalist (LessWrong) community, makes an argument hard to dismiss. She compares her current work, which she chose, controls, and profits from directly, with her previous life working in a factory, waking at half past four in the morning for repetitive assembly-line tasks at 54 hours per week. She asks why people talk about "survival sex work" but not "survival factory work". The framing that sex work is uniquely degrading while factory labor is merely unfortunate seems to rely on assumptions that deserve examination.
 
 From a skin in the game perspective, OnlyFans is structurally superior to the studio model in several ways. The creator bears risk but also captures reward. There is no executive class extracting value while externalizing consequences. The creator decides what to produce, when, and for whom. This is closer to the artisan model that Taleb admires, someone with "soul in the game," who has skin in the outcome of their own work.
 
-But the structural advantages of OnlyFans don't resolve the demand-side concerns, and this is important. Even if every creator on OnlyFans is operating with genuine autonomy, and many are, the aggregate effect on consumers may still be net-negative. The content is still pornography. The neurological mechanisms still operate the same way. The Lindy concerns about untested delivery mechanisms still apply.
+But the structural advantages of OnlyFans don't resolve the demand-side concerns, and this is important. Even if every creator on OnlyFans is operating with genuine autonomy, which many are, I'm afraid the aggregate effect on consumers may still be net-negative. The content is still pornography. The neurological mechanisms still operate the same way. The Lindy concerns about untested delivery mechanisms still apply.
 
 There's also a question I don't have a confident answer to. Does OnlyFans, by reducing exploitation on the supply side, make the demand-side problems worse by removing the most emotionally compelling argument against consumption? If the exploitation argument weakens, does consumption increase? And if it does, do the viewer-side harms scale? I genuinely don't know. But it's the kind of second-order effect that worries me.
 
 ## IX.
 
-### Sex Work More Broadly, Where I'm Less Confident
-
-I want to be precise about the boundary of my argument.
+### Sex Work More Broadly
 
 I've been arguing that pornography, specifically the mass consumption of industrially produced or algorithmically distributed sexual content, has aggregate effects concerning enough to warrant individual cessation and serious policy attention. I am not making the same argument about sex work in general, and here's why.
 
 Sex work, the direct exchange of sexual services between individuals, operates on fundamentally different mechanisms than pornography consumption. There is no algorithmic escalation. There is no infinite free content training the brain's reward system toward tolerance. There is no parasocial relationship replacing real intimacy. The transaction is between two people who are physically present to each other, which creates a kind of accountability, skin in the game, if you will, that mediated consumption eliminates.
 
-This doesn't mean sex work is without problems. Trafficking is real. Economic coercion is real. Violence against sex workers is endemic, and it's made worse by criminalization that prevents workers from seeking police protection. But these are problems of implementation and policy, not problems inherent to the act itself. In Taleb's language, they are problems of fragility in the system's design, and they have known solutions, decriminalization, labor protections, destigmatization, that the evidence broadly supports.
+This doesn't mean sex work is without problems. Trafficking is real. Again, economic coercion is real. Violence against sex workers is endemic, and it's made worse by criminalization that prevents workers from seeking police protection. But hey, these are problems of implementation and policy, not problems inherent to the act itself. In Taleb's language, they are problems of fragility in the system's design, and they have known solutions, de-criminalization, labor protections, de-stigmatization, that the evidence broadly supports.
 
-The rationalist community, which I find intellectually serious on these questions, broadly supports decriminalization of sex work, not because they're naive about the harms, but because the consequentialist analysis is fairly clear. Criminalization increases violence against sex workers, reduces their access to legal protection, and does not measurably reduce demand. It's a policy that makes the problem worse by every metric that matters.
+The rationalist community broadly supports de-criminalization of sex work, but not because they're naive about the harms, because the consequentialist analysis is quite clear. Criminalization increases violence against sex workers, reduces their access to legal protection, and does not measurably reduce demand. It's a policy that makes the problem worse by every metric that matters.
 
-I find this convincing. The Lindy argument supports it too. Prostitution has existed for millennia, and the societies that managed it best were generally those that regulated rather than prohibited it.
+The Lindy argument supports it too. Prostitution has existed for millennia, and the societies that managed it best were generally those that regulated rather than prohibited it.
 
 So my position, which I hold with varying levels of confidence, is roughly this. First, sex work between consenting adults should probably be decriminalized and regulated. Second, the production and mass distribution of pornographic content raises different and more concerning questions that the sex work debate doesn't resolve. Third, the mass consumption of internet pornography at population scale is an experiment whose results are looking increasingly unfavorable. These are three different questions, and conflating them, which both sides of the debate do constantly, makes all three harder to answer.
 
@@ -147,17 +149,17 @@ So my position, which I hold with varying levels of confidence, is roughly this.
 
 ### What I Think The Evidence Actually Demands
 
-Let me tell you what I'm not arguing. I'm not arguing for legal prohibition, history is clear that prohibition of vice doesn't eliminate it, it drives it underground and makes conditions worse for the most vulnerable. I'm not arguing that every person who watches pornography is damaged or culpable. I'm not arguing that desire is shameful.
+I'm not arguing for legal prohibition, history is clear that prohibition of vice doesn't eliminate it, it drives it underground and makes conditions worse for the most vulnerable. I'm not arguing that every person who watches pornography is damaged or culpable. I'm not arguing that desire is shameful.
 
-Here's what I am arguing, and I want to be precise. The evidence describes a system with asymmetric downside risk. The neurological effects of heavy consumption are measurable and negative. The association with sexual aggression is robust across methodologies and countries. The traditional industry structurally undermines the consent it claims to operate on. Because the content is free, ubiquitous, and increasingly the primary sexual education for adolescents who have no framework to contextualize it, the population-level exposure is not marginal. It's total.
+However, what I am arguing is. The evidence describes a system with asymmetric downside risk. The neurological effects of heavy consumption are measurable and negative. The association with sexual aggression is robust across methodologies and countries. The traditional industry structurally undermines the consent it claims to operate on. Because the content is free, ubiquitous, and increasingly the primary sexual education for adolescents who have no framework to contextualize it, the population-level exposure is not marginal. It's total.
 
 Taleb's precautionary principle applies here. When you're dealing with a system where the downside is severe, non-linear, and difficult to reverse, brain architecture changes, normalized aggression, coercion laundered as consent, the burden of proof should not sit with the people raising concerns. It should sit with the people insisting there's no problem.
 
-But I want to end with a note of genuine uncertainty, because I think it's warranted. I could be wrong about some of this. The causation question in the neuroimaging data is not fully resolved. The relationship between individual consumption and aggregate outcomes is complex. The possibility that pornography provides net benefits for some populations, the catharsis hypothesis for low-risk individuals, sexual education in repressive contexts, is real, and I haven't fully addressed it.
+But I want to end with a note of genuine uncertainty, because I think it's warranted. I could be wrong about some of this. The causation question in the neuroimaging data is not fully resolved just yet. The relationship between individual consumption and aggregate outcomes is very much a complex topic. The possibility that pornography provides net benefits for some populations, the catharsis hypothesis for low-risk individuals, sexual education in repressive contexts, is real, and I haven't fully addressed it.
 
-What I don't think I'm wrong about is this. The current default, unlimited free access to algorithmically optimized content starting in early adolescence, produced by an industry with well-documented structural problems, consumed in quantities that would alarm us if applied to literally any other psychoactive stimulus, is not a defensible status quo. It's an accident of technology outpacing deliberation, and treating it as a settled question is not rationality. It's incuriosity.
+What I don't think I'm wrong about is this. The current default, unlimited free access to algorithmically optimized content starting in early adolescence, produced by an industry with well-documented structural problems, consumed in quantities that would alarm us if applied to literally any other psychoactive stimulus, is not a defensible status quo. It's an accident of technology outpacing deliberation, and treating it as a settled question is incuriosity.
 
-Stop watching porn. Not because someone told you it's sinful, but because the honest accounting of what it costs, to you, to performers, to culture, doesn't obviously add up, and because the honest answer to "is this safe?" is that we don't know yet, and that should worry you more than it does.
+Stop watching porn. Not because someone told you it's sinful, but because the honest accounting of what it costs, to you, to performers, to culture, doesn't obviously add up, and also because the honest answer to "is this safe?" is that we don't know it just yet, and that should worry you more than it does.
 
 ---
 

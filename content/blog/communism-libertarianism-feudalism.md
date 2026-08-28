@@ -7,11 +7,11 @@ summary: "Noble Goals, Broken Vessels. What I think pretty much about Communism,
 
 ## I.
 
-I'll start with the position I find hardest to defend, which is that communism is right.
+Communism is right.
 
 Not right historically. Historically communism is a long list of famines, gulags, and economies that flatlined. I mean the moral intuition. "From each according to his ability, to each according to his needs" is, if you read it slowly and without the weight of the twentieth century pressing on your shoulders, one of the more sane sentences anyone has written. A world where the lottery of your birth does not decide whether you eat, where basic needs are not a prize you have to win.
 
-I know your reflex here. It's to bring up Venezuela, or Cambodia, or bread lines in Moscow. Hold that thought, because I am going to use it in a second, and not the way you expect. I am not defending the track record. I am making a narrower and, I think, harder claim. The goal was never the problem. The problem is us.
+I know you people's reflex here. It's to bring up Venezuela, or Cambodia, or bread lines in Moscow. Hold that thought, because I am going to use it in a second, but not the way you expect. I am making a narrower and harder claim. The goal was never the problem. The problem is us.
 
 ## II.
 
@@ -25,23 +25,23 @@ Here is where your Moscow bread line earns its keep, except as data rather than 
 
 The second break is moral, and it is the one I care about more. To run central planning you have to put very large power in the hands of a small number of people. The pattern there, across cultures, ideologies, and centuries, is too consistent to be bad luck. Power of that size is almost always, eventually, used in the interest of whoever is holding it. Not because communists are uniquely wicked, but because humans are humans, and you just handed a group of them a lever that is much too big.
 
-Neither objection is a naturalistic fallacy. I am not saying centralization is "against nature, therefore wrong"; that is the lazy version. I am saying centralization runs against the mechanisms that empirically make complex systems work. Look at anything intricate and robust, ecosystems, immune systems, evolution itself. None of them has a central controller. They are bottom up, redundant, driven by tight feedback loops and absurd amounts of variation. That is not a design flaw waiting to be fixed; it is the source of the robustness.
+Neither objection is a naturalistic fallacy. I am not saying centralization is "against nature, therefore wrong"; that's just lazy tbh. What I am saying however, centralization runs against the mechanisms that empirically make complex systems work. Look at anything intricate and robust, ecosystems, immune systems, evolution itself. None of them has a central controller. They are bottom up, redundant, driven by tight feedback loops and absurd amounts of variation. That is not a design flaw waiting to be fixed; it is the source of the robustness.
 
 ## III.
 
 Fine. If the goal is noble but the operators cannot be trusted, where are you stranded?
 
-I am stranded on something Tyler Cowen named in a January 2020 essay. He called it state capacity libertarianism. I want to be honest that this is not a sexy position. Nobody prints a banner for "the honest second best." But that is where I am, so let me say what it actually is rather than gesture at it.
+I am stranded on something Tyler Cowen named in a January 2020 essay. He called it state capacity libertarianism. Nobody prints a banner for "the honest second best." But that is where I am, so let me say what it actually is rather than gesture at it.
 
 Cowen laid it out as a set of propositions, and the load-bearing ones are roughly these. Markets and capitalism are extremely powerful and you should give them their due. A strong, competent state is not the enemy of that; it is a precondition for it. Rule of law that actually functions. Contracts that are actually enforced. Infrastructure. Basic research that no private actor will ever fund because the payoff is too diffuse and too far away. But the state does not allocate. Who gets how much toothpaste is left to decentralized markets, not because markets are holy, but because markets happen to fit the shape of the human brain. We did evolve to make local decisions from information directly in front of us. We did not evolve to execute instructions from an enormous entity we will never meet.
 
-The honest thing is to flag the strongest objection to my own position. Geloso and Salter argue that the apparent correlation between strong states and prosperity suffers from survivorship bias. You do not see the strong states that used their capacity to strangle their own economies, because they did not survive into the dataset of rich countries. I think that critique is real and only partly answerable. My defense is not that strong states reliably produce good outcomes. It is narrower. A weak state cannot even attempt the enabling functions, while a strong one at least can, and then the entire game becomes constraining that strength. Good institutions are basically distrust frozen into rules. That is not cynicism; it is engineering, the same way a seatbelt is not an accusation that you intend to crash.
+The honest thing is to flag the strongest objection to my own position. Geloso and Salter argue that the apparent correlation between strong states and prosperity suffers from survivorship bias. You do not see the strong states that used their capacity to strangle their own economies, because they did not survive into the dataset of rich countries. I think that critique is real and only partly answerable. My defense is not that strong states reliably produce good outcomes. It is much narrower. A weak state cannot even attempt the enabling functions, while a strong one at least can, and then the entire game becomes constraining that strength. Good institutions are basically distrust frozen into rules. That is engineering dude, the same way a seatbelt is not an accusation that you intend to crash.
 
 {{< figure src="/communism-libertarianism-feudalism-media/image1.jpeg" alt="Modern Principles: Macroeconomics, one of the very few books FEB UI's Introduction to Macroeconomics' lecturer recommendation" >}}
 
 ## IV.
 
-Now the interesting part, because every argument above quietly leans on one assumption I never opened. That humans are the ones in charge.
+Humans are the ones in charge.
 
 Pull that assumption out and the whole thing shifts.
 
@@ -55,7 +55,7 @@ That is the strong case, and I do not want to knock it over too quickly. But the
 
 The first crack. Preference aggregation is not a computation problem. Even a singleton that knows exactly who needs what still has to know what to optimize, and human wants are heterogeneous, mutually contradictory, and unstable over time. That is not a bug you fix with more GPUs. It is a feature of having eight billion people who want different things, and it does not get easier when the planner is superhuman. It arguably gets worse, because now the objective function is being chosen by something even fewer people control.
 
-The second crack is the deep one, and it bites the whole essay. AGI does not fall from the sky. It is built, trained, and aligned by humans. If my premise from the start was that I do not trust humans holding a lever that is too big, then building a singleton is the largest lever in history, also handed to humans, precisely at the most fragile moment. And the empirical picture there is not reassuring. Epoch AI estimates that the United States holds around three quarters of global GPU cluster performance, that the largest known training data centers now run on the order of hundreds of thousands of top-end chips at tens of billions of dollars in capital cost, and that the leading lab's revenue has been tripling annually. That is not the profile of a neutral utility emerging from global consensus. It is the profile of an asset concentrating into very few hands, very fast. You can tell me alignment is open and consensus-based and will therefore be fine. I hope so. But "open" is not "agreed," the alignment community does not agree on the approach, and the real question was never "can alignment be solved." It is whether it is aligned to whose values, and for whose benefit.
+The second crack is the deep one. AGI does not fall from the sky. It is built, trained, and aligned by humans. If my premise from the start was that I do not trust humans holding a lever that is too big, then building a singleton is the largest lever in history, also handed to humans, precisely at the most fragile moment. And the empirical picture there is not reassuring. Epoch AI estimates that the United States holds around three quarters of global GPU cluster performance, that the largest known training data centers now run on the order of hundreds of thousands of top-end chips at tens of billions of dollars in capital cost, and that the leading lab's revenue has been tripling annually. That is not the profile of a neutral utility emerging from global consensus. It is the profile of an asset concentrating into very few hands, very fast. You can tell me alignment is open and consensus-based and will therefore be fine. I hope so. But "open" is not "agreed," the alignment community does not agree on the approach, and the real question was never "can alignment be solved." It is whether it is aligned to whose values, and for whose benefit.
 
 So if I am honest about probability rather than hope, the future most likely does not look like a planned utopia. It most likely looks like one of three things. The most probable is techno-feudalism. The first AGI captured by a handful of firms, and Yanis Varoufakis roughly right that we have already become serfs working land owned by cloud lords, paying rent in data and attention rather than grain. The most dangerous is two competing singletons aligned to incompatible values, splitting the world with leverage that makes nuclear weapons look tame. The most underrated is no dramatic moment at all, AGI just seeping into markets, bureaucracy, and the military until humans still nominally lead while the decisions that matter quietly stopped being ours. And the bitter irony is the engine of the whole essay. It is precisely because I do not trust humans that I expect the transition to be used to concentrate power, not to distribute it.
 
@@ -63,14 +63,12 @@ So if I am honest about probability rather than hope, the future most likely doe
 
 ## V.
 
-So where do I actually land.
-
-I think communism's goal is noble. I think humans cannot reach it without breaking it on the way. Therefore, as long as humans lead, state capacity libertarianism is the most honest answer I have, not because it is beautiful, but because it prices in who we actually are instead of who we wish we were.
+I think communism's goal is noble. I think humans cannot reach it without breaking it on the way. Therefore, as long as humans lead, state capacity libertarianism is the most honest answer I have, because it prices in who we actually are instead of who we wish we were.
 
 And when AGI arrives, I suspect the categories "state," "market," and "planning" stop applying in the shape we know them. Maybe the goal finally finds its vessel. More likely, the vessel ends up in the same hands I distrusted from the beginning, and nothing changes except the scale, which is the worst possible thing to change about it.
 
-Let me close so this is not misread as nihilism, because it is not. Not trusting humans is not a reason to give up. It is the precondition for building anything worth having. We design robust institutions exactly because we know the people inside them are fragile, ourselves very much included, especially on the day it happens to be us holding the lever.
+Btw, this is nowhere near nihilism, I'm afraid people misread it. Not trusting humans is not a reason to give up. It is the precondition for building anything worth having. We design robust institutions exactly because we know the people inside them are fragile, ourselves very much included, especially on the day it happens to be us holding the lever.
 
-The goal is noble. The vessel is cracked. The job is not to pretend the vessel is whole. The job is to be honest about the crack, and pour very carefully anyway.
+The goal is noble. But the vessel is cracked. The job is not to pretend the vessel is whole. The job is to be honest about the crack, and pour very carefully anyway.
 
 {{< figure src="/communism-libertarianism-feudalism-media/image3.jpeg" alt="Nick Bostrom's idea of Singleton originally came from this exact book" >}}

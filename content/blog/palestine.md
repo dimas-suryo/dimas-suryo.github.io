@@ -19,7 +19,7 @@ summary: "Why the only mathematically defensible answer for Israel-Palestine rig
 
 ## I.
 
-I'm not sure where to start with this, but let me be honest about what I think.
+I'm not sure where to start with this. Flip it.
 
 Every time people debate Israel-Palestine, it ends in the same place. Both sides shouting. Nobody moving. Everyone exhausted. Why? My guess, and I could be wrong, is that the debate begins on the wrong opening premise. Morality and religion.
 
@@ -29,13 +29,13 @@ So as a thought experiment, let's try a different approach. Let's treat this as 
 
 Take the area between the Jordan River and the Mediterranean Sea as a system. It has variables. It has constraints. It has feedback loops. The right question to ask isn't "who has the most right to be there". The right question is something else. Which system architecture is most likely to produce a stable equilibrium and remove the risk of ruin (the fat-tail risk)?
 
-Here's the central thesis. Both models, the ethno-state (Zionism) and the two-state solution, fail logically and empirically. Especially after Palestinian land has been illegally annexed by settlers who are legitimised by the Israeli government. Once both options are eliminated, only one remains. The One-State Democratic-Secular model.
+Here's the central thesis. Both models, the ethno-state (Zionism) and the two-state solution, fail logically and empirically. Especially after Palestinian land has been illegally annexed by settlers who are legitimized by the Israeli government. Once both options are eliminated, only one remains. The One-State Democratic-Secular model.
 
-I'm not going to argue from morality. I'm going to use the boring process of elimination, the same way a scientist would in a lab.
+I'm not going to argue from morality.
 
 The strongest version of the Zionist argument is _not_ "God gave us this land". That one is easy to refute.
 
-The strongest version is this. After the Holocaust, a group that had been systematically hunted and killed by nearly all of Western civilisation for two millennia needs a physical location that can be militarily defended. Not as a privilege, but as existential insurance. And honestly, I think that's a reasonably valid argument. I respect it.
+The strongest version is this. After the Holocaust, a group that had been systematically hunted and killed by nearly all of Western civilization for two millennia needs a physical location that can be militarily defended. Not as a privilege, but as existential insurance. And honestly, I think that's a reasonably valid argument. I respect it.
 
 Now, the strongest version of the two-state argument is _not_ nostalgia for the 1967 map.
 
@@ -51,7 +51,7 @@ Now I'm going to show that even if you accept the strongest version of each, the
 
 The ethno-state against reality. Zionism on Palestinian land is a self-destructing system.
 
-When Bertrand Russell wrote _Principia Mathematica_, he needed hundreds of pages just to prove that 1 + 1 = 2. Not because the result wasn't obvious, but because he wanted the conclusion to follow necessarily from the basic axioms, with no room for "but my feelings tell me otherwise".
+When Bertrand Russell wrote _Principia Mathematica_, he needed hundreds of pages just to prove that 1 + 1 = 2. But not in the way because the result wasn't obvious, because he wanted the conclusion to follow necessarily from the basic axioms, with no room for "but my feelings tell me otherwise".
 
 I want to do something similar here. Not prove something complicated, but prove that a conclusion which might look controversial actually follows necessarily from premises that are already in place.
 
@@ -113,7 +113,7 @@ There is also a logical problem that often gets missed, and I think it's worth s
 
 The main Zionist argument. The Jewish people, as a group that has experienced long persecution, are entitled to self-determination on their ancestral land.
 
-An argument that starts from their experience, I don't want to invalidate that. But we need to apply the Kantian universalisability test. Can this principle be universalised without contradiction?
+An argument that starts from their experience, I don't want to invalidate that. But we need to apply the Kantian universalizability test. Can this principle be universalized without contradiction?
 
 By my reading, no.
 
@@ -129,7 +129,7 @@ _S(x)_ = "group x has a right to self-determination on the territory"
 
 The Zionist premise, which they assert themselves, is
 
-_Pr_𝓏 _. P(Jews) ∧ H(Jews) → S(Jews)_
+*Pr*𝓏 _. P(Jews) ∧ H(Jews) → S(Jews)_
 
 Now apply the Kantian universalisability test. If this principle is valid, it has to be universalisable.
 
@@ -147,7 +147,7 @@ _∀x [P(x) ∧ H(x) → S(x)], P(Pal) ∧ H(Pal) ⊢ S(Palestinians)_
 
 But Zionism simultaneously asserts
 
-_Pr_𝓏 _. ¬S(Palestinians)_
+*Pr*𝓏 _. ¬S(Palestinians)_
 
 And there is the contradiction.
 
@@ -157,7 +157,7 @@ _S(Palestinians) ∧ ¬S(Palestinians) ⊢ ⊥_
 
 A common counterargument. "The historical situation is different. The claims aren't apple to apple."
 
-My response. That doesn't refute the universalisability test. It proposes that _P_ and _H_ need to be redefined with additional conditions. But if you add conditions so that only Jews qualify, what you're doing is ad-hoc modification. Adding extra assumptions not for logical reasons but to save a conclusion you wanted from the beginning. A principle that only works for one case isn't a principle. It's an exception in disguise.
+My response. That doesn't refute the universalizability test. It proposes that _P_ and _H_ need to be redefined with additional conditions. But if you add conditions so that only Jews qualify, what you're doing is ad-hoc modification. Adding extra assumptions not for logical reasons but to save a conclusion you wanted from the beginning. A principle that only works for one case isn't a principle. It's an exception in disguise.
 
 _Quod erat demonstrandum._
 
@@ -267,7 +267,7 @@ The result is what I'd call Mutual Assured Construction. Like Mutual Assured Des
 
 ## V.
 
-{{< figure src="/palestine-media/image8.jpeg" alt="Bayes Theorem" caption="Bayes Theorem visualised" >}}
+{{< figure src="/palestine-media/image8.jpeg" alt="Bayes Theorem" caption="Bayes Theorem visualized" >}}
 
 **Demographics Are a Likelihood, Not an Opinion**
 
@@ -383,9 +383,9 @@ _E ∨ T ∨ O, ¬E, ¬T ⊢ O_
 
 This is a deductively valid inference. No probability, no induction required. If you accept the exhaustive disjunction premise and both negations, _O_ follows necessarily.
 
-Without class analysis. Without flipping the colonial-imperialist narrative. Without falsifying religious silliness. Without a moralising shouting match.
+Without class analysis. Without flipping the colonial-imperialist narrative. Without falsifying religious silliness. Without a moralizing shouting match.
 
-A One-State Democratic-Secular Palestine is the solution that, when analysed mathematically, does not collapse under the weight of its own assumptions.
+A One-State Democratic-Secular Palestine is the solution that, when analyzed mathematically, does not collapse under the weight of its own assumptions.
 
 If you want to reject this conclusion, and I am genuinely open to that because I might well be wrong, there are a few ways you can do it.
 
@@ -397,4 +397,4 @@ If you want to reject this conclusion, and I am genuinely open to that because I
 
 4. Show a historical precedent in which an ethno-state with 50/50 demographics has been sustained in the long run without apartheid or ethnic cleansing.
 
-I'm writing this as someone trying to think clearly, not as someone who thinks he is already right. If you can show a fundamental flaw in the argument, I'll happily revise my position. That's how thinking should work.
+I'm writing this as someone trying to think clearly, not as someone who thinks he is already right. If you can show a fundamental flaw in the argument, I'll happily revise my position. Because that's how thinking should work no?
