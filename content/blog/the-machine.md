@@ -5,8 +5,6 @@ draft: false
 summary: "How I think the world works. It's just math and biology."
 ---
 
-# The Machine
-
 _Why good people build a bad world._
 
 ## I.

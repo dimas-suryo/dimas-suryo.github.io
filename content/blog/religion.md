@@ -41,7 +41,7 @@ When the software you wrote to bind a hundred and fifty people in a desert villa
 
 **Glitch Uno. When Compromise Becomes Sin.**
 
-{{< figure src="/religion-media/image2.jpeg" alt="Bobby Fischer vs Mikhail Tal in Leipzig Olympiad (1960)" caption="<em><a href=&quot;https://www.youtube.com/watch?v=ABezr4s10sc&quot;>Bobby Fischer vs Mikhail Tal in Leipzig Olympiad (1960)</a></em>" >}}
+{{< figure src="/religion-media/image2.jpeg" alt="Bobby Fischer vs Mikhail Tal in Leipzig Olympiad (1960)" caption="<a href=&quot;https://www.youtube.com/watch?v=ABezr4s10sc&quot;>Bobby Fischer vs Mikhail Tal in Leipzig Olympiad (1960)</a>" >}}
 
 If you peel every religious label off the Israel-Palestine conflict, what you find at the centre is a property dispute. A fight over land and resources. In the most basic game theory, land is a divisible good. You can cut it up. You can trade it. You can carve out a joint economic zone where both sides win.
 

@@ -7,7 +7,7 @@ summary: "Why the only mathematically defensible answer for Israel-Palestine rig
 
 {{< figure src="/palestine-media/image1.jpeg" alt="Posters: The Palestinian Museum Digital Archive" caption="Posters: The Palestinian Museum Digital Archive" >}}
 
-**TL;DR**
+# TL;DR
 
 1. The ethno-state fails because it has to fight a roughly 50/50 demographic fact that's extraordinarily hard to fight. A system that needs permanent repression to survive is hard to call a system. It's a time bomb.
 
