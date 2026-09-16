@@ -23,8 +23,6 @@ summary: "The modern romance market is structurally broken. Not because of hyper
 >
 > Friedrich August von Hayek or something, probably.
 
----
-
 ## I.
 
 The modern romance market is in a dysfunction that's becoming increasingly well-documented. Marriage rates in industrialised countries are at historic lows. Birth rates have dropped below replacement. The share of the population that has never married or partnered keeps rising every decade. This is publicly available demographic data.

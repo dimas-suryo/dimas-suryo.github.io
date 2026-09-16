@@ -11,11 +11,11 @@ Communism is right.
 
 Not right historically. Historically communism is a long list of famines, gulags, and economies that flatlined. I mean the moral intuition. "From each according to his ability, to each according to his needs" is, if you read it slowly and without the weight of the twentieth century pressing on your shoulders, one of the more sane sentences anyone has written. A world where the lottery of your birth does not decide whether you eat, where basic needs are not a prize you have to win.
 
-I know you people's reflex here. It's to bring up Venezuela, or Cambodia, or bread lines in Moscow. Hold that thought, because I am going to use it in a second, but not the way you expect. I am making a narrower and harder claim. The goal was never the problem. The problem is us.
+I know you people's reflex here. It's to bring up Venezuela, or Cambodia, or bread lines in Moscow. Hold that thought, because I am going to use it in a second, but not the way you expect. I am making a narrower and harder claim. The problem is us and it was never the goal.
 
 ## II.
 
-To the central-planning sympathizer, markets are wasteful. They produce ten brands of toothpaste while someone somewhere has no teeth left to brush. They are blind to externalities, they underprovide public goods, and they systematically reward capital over labor. If we actually had a full picture of who needs what, leaving it to the accidental tug of war of prices rather than coordinating it on purpose is close to morally indefensible. Planning, in this framing, is not tyranny. Planning is the adults finally sitting down and cleaning up the mess.
+To the central-planning sympathizer, markets are wasteful. They produce ten brands of toothpaste while someone somewhere has no teeth left to brush. They are blind to externalities, they under-provide public goods, and they systematically reward capital over labor. If we actually had a full picture of who needs what, leaving it to the accidental tug of war of prices rather than coordinating it on purpose is close to morally indefensible. Planning, in this framing, is not tyranny. Planning is the adults finally sitting down and cleaning up the mess.
 
 That is a good argument, and I do not think it is stupid. But it breaks at two distinct points, and the entire essay hinges on not blurring them together.
 

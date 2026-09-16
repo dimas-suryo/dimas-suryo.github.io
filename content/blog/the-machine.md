@@ -9,7 +9,7 @@ _Why good people build a bad world._
 
 ## I.
 
-It's seven in the morning at TB Simatupang. I'm in traffic that doesn't make any sense. I'm angry at the driver next to you who just cut in from the shoulder. He's angry at the TransJakarta bus stopped in the middle of the lane. The TJ driver is blaming the ojol weaving around without a signal. The ojol is blaming the pedestrian who crossed at random.
+It's seven in the morning at TB Simatupang. I'm in traffic that doesn't make any sense. I'm angry at the driver next to me who just cut in from the shoulder. He's angry at the TransJakarta bus stopped in the middle of the lane. The TJ driver is blaming the ojol weaving around without a signal. The ojol is blaming the pedestrian who crossed at random.
 
 Everyone has their own antagonist but somehow nobody has the _real_ antagonist.
 
