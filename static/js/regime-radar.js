@@ -170,9 +170,11 @@
     const lines = [];
     const more = (pend) => {
       const left = pend.needed - pend.days;
+      const words = ["Zero", "One", "Two", "Three", "Four", "Five", "Six"];
+      const n = words[left] || String(left);
       return left === 1
         ? "One more day like it would switch the label."
-        : `${left} more days like it would switch the label.`;
+        : `${n} more days like it would switch the label.`;
     };
     if (l.trend_pending && TREND[l.trend_pending.label]) {
       lines.push(`Today's trend reading is ${TREND[l.trend_pending.label].name.toLowerCase()}. ${more(l.trend_pending)}`);
@@ -612,6 +614,7 @@
       <span class="regime-radar__links">
         <button type="button" class="regime-radar__linkbtn">Download CSV</button>
         <a href="${esc(state.base + slug(p.meta.symbol) + ".json")}">Raw JSON</a>
+        <a href="${esc(state.base + "feed-" + slug(p.meta.symbol) + ".xml")}">Feed of ${esc(p.meta.display_name || p.meta.symbol)} changes</a>
       </span>`;
     foot.querySelector("button").addEventListener("click", () => downloadCSV(p));
 

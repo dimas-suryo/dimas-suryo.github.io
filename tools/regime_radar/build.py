@@ -3,7 +3,8 @@
 Run from the repo root:  python -m tools.regime_radar.build
 
 Writes static/data/regime-radar/<SYMBOL>.json for each ticker in UNIVERSE, then
-index.json with the latest reading of every ticker that has a file. A ticker
+index.json with the latest reading of every ticker that has a file, and the
+Atom feeds of regime changes (see feed.py). A ticker
 that fails keeps its previous file, so one broken symbol never blocks the rest.
 Exit code is 1 if any ticker failed, so the workflow run still shows red.
 """
@@ -22,6 +23,7 @@ import numpy as np
 import pandas as pd
 
 from .data import clean_prices, daily_log_returns, fetch_prices
+from .feed import write_feeds
 from .signals import (
     confirm,
     realized_vol,
@@ -333,6 +335,7 @@ def main(universe: list[Ticker] | None = None, out_dir: Path = OUT_DIR) -> int:
             failures.append((ticker.symbol, msg))
 
     write_index(out_dir, universe)
+    write_feeds(out_dir, universe)
     print(f"\nDone: {len(universe) - len(failures)} ok, {len(failures)} failed.")
     return 1 if failures else 0
 

@@ -8,6 +8,7 @@ status: "live"
 stack: ["Python", "pandas", "yfinance", "GitHub Actions", "Plotly.js"]
 repo: "https://github.com/dimas-suryo/dimas-suryo.github.io/tree/main/tools/regime_radar"
 homepage_badge: "regime-radar"
+feed: "/data/regime-radar/feed.xml"
 ---
 
 Regime Radar answers one question: what kind of market are we in right now? It says nothing about tomorrow. Two rules sort every trading day into a trend label and a volatility label, and the chart shows how those labels have moved over the past two decades.
@@ -70,6 +71,8 @@ Prices come from `yfinance`, a community scraper for Yahoo Finance's internal en
 
 Two cleaning steps run before any label is computed. If the build runs while a market is still open, today's intraday price is dropped, so no label is ever computed from a close that has not happened yet. Bad prints are removed: a close that sits far from the median of the surrounding month, with the bar raised in turbulent months so that real crash days survive. On the current history that removes a handful of USD/IDR quotes, mostly one wrong value that kept reappearing in late 2013, and nothing from IHSG or the S&P 500. Weekend bars, which Yahoo sometimes emits for FX, are dropped too. Every JSON file lists what was removed under `meta.cleaning`. Yahoo's USD/IDR history is still the least reliable of the three series.
 
+If you would rather be told than check, there is an Atom feed of regime changes, with one entry each time a label switches: [all three assets](/data/regime-radar/feed.xml), or just [IHSG](/data/regime-radar/feed-_JKSE.xml), the [S&P 500](/data/regime-radar/feed-_GSPC.xml) or [USD/IDR](/data/regime-radar/feed-IDR_X.xml). Any feed reader works, and an RSS-to-email service can turn it into email. Each entry says what changed and why, and nothing about what to do.
+
 Every series can be downloaded as CSV from the link under the chart. The raw files are at `/data/regime-radar/`, and `index.json` there lists each asset with its latest labels.
 
 ## Roadmap
@@ -79,6 +82,6 @@ Every series can be downloaded as CSV from the link under the chart. The raw fil
 
 ## Changes
 
-- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, and today's rows marked in the table.
+- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes.
 
 Issues and pull requests are welcome on [GitHub](https://github.com/dimas-suryo/dimas-suryo.github.io/issues).
