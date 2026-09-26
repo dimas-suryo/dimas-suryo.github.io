@@ -189,9 +189,14 @@ def build_payload(
     p = {**PARAMS, **(params or {})}
     if prices is None:
         prices = fetch_prices(ticker.symbol, start=p["history_start"], stooq_symbol=ticker.stooq)
-        prices, notes = clean_prices(prices, tz=ticker.tz, close_time=ticker.close_time, now=now)
+        prices, notes = clean_prices(
+            prices, tz=ticker.tz, close_time=ticker.close_time, now=now,
+            bad_print_floor=ticker.bad_print_floor,
+        )
         for n in notes:
             print(f"  · {ticker.symbol}: {n}", file=sys.stderr)
+    else:
+        notes = []
 
     df = classify(prices, p)
     if df.empty:
@@ -215,6 +220,8 @@ def build_payload(
             .isoformat()
             .replace("+00:00", "Z"),
             "params": p,
+            # What the cleaning step removed, so anyone can audit it.
+            "cleaning": notes,
         },
         "series": {
             "date": [_iso(d) for d in df.index],

@@ -188,7 +188,7 @@ def main(argv: list[str] | None = None) -> int:
                 prices = _load_csv(args.prices_csv)
             else:
                 prices = fetch_prices(t.symbol, start=PARAMS["history_start"], stooq_symbol=t.stooq)
-                prices, _ = clean_prices(prices, tz=t.tz, close_time=t.close_time)
+                prices, _ = clean_prices(prices, tz=t.tz, close_time=t.close_time, bad_print_floor=t.bad_print_floor)
             print(f"  · {t.symbol}: {len(prices)} rows, running {len(VARIANTS)} variants", file=sys.stderr)
             sections.append(report(t, prices, run_variants(prices, args.reps)))
         except Exception as e:

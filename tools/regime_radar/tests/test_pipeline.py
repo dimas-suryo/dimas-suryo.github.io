@@ -159,15 +159,15 @@ class TestCleanPrices:
             clean_prices(self._df(), tz="Asia/Jakarta", close_time="16:30", now=dt.datetime(2026, 9, 25))
 
     def test_removes_isolated_spike(self):
-        close = np.full(10, 100.0)
-        close[4] = 1000.0  # bad tick, back to 100 the next day
+        close = np.full(40, 100.0)
+        close[20] = 1000.0  # bad tick, back to 100 the next day
         out, notes = clean_prices(_prices(close))
-        assert len(out) == 9 and out["close"].max() == 100.0 and notes
+        assert len(out) == 39 and out["close"].max() == 100.0 and notes
 
     def test_keeps_real_crash(self):
-        close = np.r_[np.full(5, 100.0), np.full(5, 80.0)]  # -22%, no reversal
+        close = np.r_[np.full(30, 100.0), np.full(30, 80.0)]  # -22% and it stays there
         out, _ = clean_prices(_prices(close))
-        assert len(out) == 10
+        assert len(out) == 60
 
     def test_duplicates_and_nonpositive(self):
         df = self._df(5)
@@ -261,3 +261,61 @@ class TestBuild:
         assert (tmp_path / "_OK.json").exists() and not (tmp_path / "_BAD.json").exists()
         idx = json.loads((tmp_path / "index.json").read_text())
         assert [t["symbol"] for t in idx["tickers"]] == ["^OK"]
+
+
+# ============================================================
+# Bad-print filter on real price paths
+# ============================================================
+
+from tools.regime_radar.data import rolling_median_outliers  # noqa: E402
+from tools.regime_radar.tests import fixtures_real as real  # noqa: E402
+from tools.regime_radar.universe import UNIVERSE  # noqa: E402
+
+
+def _series(rows):
+    return pd.Series([c for _, c in rows], index=pd.to_datetime([d for d, _ in rows]))
+
+
+def _flagged(rows, floor):
+    s = _series(rows)
+    return [d.strftime("%Y-%m-%d") for d in s.index[rolling_median_outliers(s, floor=floor).to_numpy()]]
+
+
+FLOOR = {t.symbol: t.bad_print_floor for t in UNIVERSE}
+
+
+class TestBadPrintsOnRealData:
+    def test_usdidr_2013_stuck_quote_removed(self):
+        got = _flagged(real.IDR_2013_STUCK_QUOTE, FLOOR["IDR=X"])
+        assert got == ["2013-10-28", "2013-11-29", "2013-12-02", "2013-12-03", "2013-12-06", "2013-12-09"]
+
+    def test_usdidr_boxing_day_2024_removed(self):
+        assert _flagged(real.IDR_2024_BOXING_DAY, FLOOR["IDR=X"]) == ["2024-12-26"]
+
+    def test_usdidr_2008_crisis_kept(self):
+        assert _flagged(real.IDR_2008_CRISIS, FLOOR["IDR=X"]) == []
+
+    def test_ihsg_2008_crash_kept(self):
+        assert _flagged(real.JKSE_2008_CRASH, FLOOR["^JKSE"]) == []
+
+    def test_ihsg_8_june_2026_kept(self):
+        rows = real.JKSE_2026_JUNE
+        assert ("2026-06-08", 5342.14) in rows
+        assert _flagged(rows, FLOOR["^JKSE"]) == []
+
+    def test_clean_prices_reports_what_it_dropped(self):
+        s = _series(real.IDR_2013_STUCK_QUOTE)
+        df = pd.DataFrame({"open": s, "high": s, "low": s, "close": s, "volume": 0})
+        out, notes = clean_prices(df, bad_print_floor=FLOOR["IDR=X"])
+        assert len(out) == len(df) - 6
+        assert any("2013-12-09" in n for n in notes)
+        assert out["close"].min() > 10000
+
+
+class TestWeekendBars:
+    def test_saturday_bar_dropped(self):
+        idx = pd.DatetimeIndex(["2026-09-24", "2026-09-25", "2026-09-26"])  # Thu, Fri, Sat
+        df = pd.DataFrame({"open": 1.0, "high": 1.0, "low": 1.0, "close": [17837.3, 17559.5, 17890.0], "volume": 0}, index=idx)
+        out, notes = clean_prices(df)
+        assert out.index[-1] == pd.Timestamp("2026-09-25")
+        assert any("weekend" in n for n in notes)

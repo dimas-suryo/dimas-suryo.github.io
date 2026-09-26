@@ -109,30 +109,58 @@ def fetch_prices(symbol: str, start: str = "2000-01-01", stooq_symbol: str | Non
     raise ValueError(f"All data sources failed for {symbol}:\n  - " + "\n  - ".join(errors))
 
 
+def rolling_median_outliers(
+    close: pd.Series, window: int = 10, n_mad: float = 6.0, floor: float = 0.10
+) -> pd.Series:
+    """True where a close sits implausibly far from the prices around it.
+
+    Compares each log close with the median of the `window` days on either side
+    (21 days in total). A day is flagged when its distance from that median is
+    larger than both `floor` and `n_mad` robust standard deviations (1.4826 x the
+    median absolute deviation over the same window). The MAD term raises the bar
+    in turbulent months, which is what keeps real crash days such as IHSG on
+    8 Oct 2008 or 8 Jun 2026 from being flagged. The floor keeps the filter from
+    firing on ordinary moves in calm months, when the MAD is tiny.
+
+    This catches what a one-day reversal check misses: a wrong value that
+    persists for a few days or keeps coming back, like USD/IDR at 9,612.45 on
+    six days in late 2013. It looks at days after t, so it revises history as
+    new data arrives. That is data correction, like a vendor fixing a bad tick,
+    and it never feeds future prices into the signal rules themselves.
+    """
+    x = np.log(close)
+    w = 2 * window + 1
+    med = x.rolling(w, center=True, min_periods=window + 1).median()
+    dev = (x - med).abs()
+    mad = dev.rolling(w, center=True, min_periods=window + 1).median() * 1.4826
+    return (dev > np.maximum(floor, n_mad * mad)).fillna(False)
+
+
 def clean_prices(
     df: pd.DataFrame,
     tz: str | None = None,
     close_time: str | None = None,
     now: dt.datetime | None = None,
-    spike: float = 0.15,
-    revert: float = 0.03,
+    bad_print_floor: float = 0.10,
 ) -> tuple[pd.DataFrame, list[str]]:
     """Remove rows that would produce a wrong label. Returns (clean_df, notes).
 
-    1. Duplicate dates and non-positive closes.
+    1. Duplicate dates, non-positive closes, and weekend bars. No market we track
+       trades on Saturday or Sunday; Yahoo sometimes emits a weekend FX bar anyway.
     2. An unfinished bar. If the build runs while the exchange is open (a manual
        run, or a push during the IDX session), Yahoo returns today's intraday
-       price as if it were a close. The label for today would then be computed
-       from a price that will still move. Needs `tz` and `close_time`; FX has no
+       price as if it were a close. Needs `tz` and `close_time`; FX has no
        session close and is left alone.
-    3. Isolated bad prints: a daily move larger than `spike` (in log terms) that
-       is almost fully undone the next day. Real crashes do not revert to within
-       `revert` overnight; data errors do. A bad print on the very last row
-       cannot be detected yet and gets caught on the next run.
+    3. Bad prints, via rolling_median_outliers() with `bad_print_floor`.
     """
     notes: list[str] = []
     out = df[~df.index.duplicated(keep="last")].sort_index()
     out = out[out["close"] > 0]
+
+    weekend = out.index.dayofweek >= 5
+    if weekend.any():
+        notes.append("dropped weekend bars " + ", ".join(d.strftime("%Y-%m-%d") for d in out.index[weekend]))
+        out = out[~weekend]
 
     if tz and close_time and len(out):
         now_utc = now or dt.datetime.now(dt.timezone.utc)
@@ -146,12 +174,10 @@ def clean_prices(
             notes.append(f"dropped unfinished bar {last.isoformat()}")
             out = out.iloc[:-1]
 
-    r = np.log(out["close"]).diff()
-    bad = (r.abs() > spike) & ((r + r.shift(-1)).abs() < revert)
+    bad = rolling_median_outliers(out["close"], floor=bad_print_floor)
     if bad.any():
-        dates = [d.strftime("%Y-%m-%d") for d in out.index[bad.to_numpy()]]
-        notes.append("dropped bad prints " + ", ".join(dates))
-        out = out[~bad]
+        notes.append("dropped bad prints " + ", ".join(d.strftime("%Y-%m-%d") for d in out.index[bad.to_numpy()]))
+        out = out[~bad.to_numpy()]
 
     return out, notes
 

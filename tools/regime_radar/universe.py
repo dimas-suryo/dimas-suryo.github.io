@@ -20,6 +20,10 @@ class Ticker:
     close_time: str | None = None  # Local time ("HH:MM") after which today's bar is final
     stooq: str | None = None  # Stooq symbol when it differs from symbol.lower()
     note: str = ""  # One sentence shown under the status line
+    # Minimum distance (log) from the surrounding 21-day median before a close
+    # counts as a bad print. 10% suits equity indices, where 5% flags real days
+    # such as the S&P 500 on 10 Aug 2011. See data.rolling_median_outliers.
+    bad_print_floor: float = 0.10
 
 
 UNIVERSE: list[Ticker] = [
@@ -46,6 +50,11 @@ UNIVERSE: list[Ticker] = [
         kind="fx",
         stooq="usdidr",
         note="Rupiah per dollar, so an uptrend here means the rupiah is weakening.",
+        # Chosen by looking at the data, so treat it as a judgment call: 6% removes
+        # the stuck 9,612.45 quotes of late 2013 and the 26 Dec 2024 spike, and
+        # keeps 5 Nov 2008, an ambiguous day in a real crisis. When in doubt the
+        # filter keeps the data.
+        bad_print_floor=0.06,
     ),
     # LQ45 names go here once the page can handle a longer list, e.g.
     # Ticker("BBCA.JK", "BCA", "stock", tz="Asia/Jakarta", close_time="16:30"),
