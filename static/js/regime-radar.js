@@ -1,350 +1,676 @@
-/* Regime Radar — client-side renderer.
+/* Regime Radar, client-side renderer.
  *
- * Scans every `.regime-radar` root on the page, fetches the JSON payload(s)
- * for the ticker(s) listed in `data-tickers`, and renders:
- *   1. A "latest snapshot" panel (vol + trend badges, date, close, ann. vol)
- *   2. A two-panel time-series chart (close on top, realized vol on bottom)
- *      with regime-colored background bands per panel.
- * Plus a staleness banner if data is more than STALE_DAYS old.
- * If multiple tickers, also renders a <select>; failed tickers are excluded
- * with a footer note showing why.
+ * For every .regime-radar element on the page:
+ *   1. Loads index.json (latest reading of every ticker) to draw the asset tiles.
+ *   2. Loads the selected ticker's full JSON on demand and caches it.
+ *   3. Renders a status line, today's rule inputs, a two-panel chart with
+ *      regime bands, a legend, and the "what followed" table.
+ * The chart redraws when the site theme is toggled.
  *
- * Deps: Plotly.js basic bundle (loaded by the Hugo shortcode).
- *
- * Known v0 limitations:
- *   - Theme (dark/light) is captured at render time. Toggling theme requires
- *     page reload for chart colors to update.
- *   - All JSON for the page's tickers is fetched up-front. Fine up to ~20.
+ * Needs Plotly.js (basic bundle), loaded by the Hugo shortcode.
  */
 (function () {
   "use strict";
 
-  const REGIME_COLORS = {
-    up: "#16a34a", down: "#dc2626", sideways: "#94a3b8",
-    low: "#3b82f6", mid: "#f59e0b", high: "#ef4444",
+  const TREND = {
+    up: { name: "Up", color: "#16a34a", opacity: 0.16 },
+    sideways: { name: "Sideways", color: "#94a3b8", opacity: 0.1 },
+    down: { name: "Down", color: "#dc2626", opacity: 0.16 },
   };
-  const STALE_DAYS = 7;
+  // Volatility is ordered (low < mid < high), so it gets one hue at three strengths.
+  const VOL_RGB = "245, 158, 11";
+  const VOL = {
+    low: { name: "Low", band: 0.03, dot: 0 },
+    mid: { name: "Mid", band: 0.12, dot: 0.6 },
+    high: { name: "High", band: 0.26, dot: 1 },
+  };
+  const RANGES = [["1Y", 1], ["5Y", 5], ["10Y", 10], ["All", null]];
+  const DEFAULT_YEARS = 5;
+  const STALE_DAYS = 10; // Lebaran closes the IDX for about a week, so 7 would cry wolf
   const VERY_STALE_DAYS = 21;
+  const MAX_TILES = 6;
+  const LOCALE = "en-US";
 
-  function getTheme() {
-    const isLight = document.body.classList.contains("light");
+  // ---------- small helpers ----------
+
+  const esc = (s) =>
+    String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+  const isNum = (x) => typeof x === "number" && isFinite(x);
+
+  const fmtNum = (x, d = 2) =>
+    isNum(x) ? x.toLocaleString(LOCALE, { minimumFractionDigits: d, maximumFractionDigits: d }) : "n/a";
+
+  // Rounds first so a value like -0.0004 prints as 0.0%, not -0.0%.
+  const fmtPct = (x, d = 1) => {
+    if (!isNum(x)) return "n/a";
+    const v = Number((x * 100).toFixed(d));
+    return (v === 0 ? 0 : v).toFixed(d) + "%";
+  };
+
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  // "25 Sep 2026". Built by hand because en-GB prints "Sept" in newer browsers.
+  const fmtDate = (iso) => {
+    if (!iso) return "n/a";
+    const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
+    return `${d} ${MONTHS[m - 1]} ${y}`;
+  };
+
+  function fmtLocalTime(isoTs) {
+    const t = new Date(isoTs);
+    if (isNaN(t)) return "n/a";
+    const pad = (n) => String(n).padStart(2, "0");
+    const tz = (new Intl.DateTimeFormat(LOCALE, { timeZoneName: "short" })
+      .formatToParts(t).find((x) => x.type === "timeZoneName") || {}).value || "";
+    return `${t.getDate()} ${MONTHS[t.getMonth()]} ${t.getFullYear()}, ${pad(t.getHours())}:${pad(t.getMinutes())} ${tz}`.trim();
+  }
+
+  const daysAgo = (iso) => Math.floor((Date.now() - new Date(iso + "T00:00:00Z")) / 86400000);
+
+  const plural = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
+
+  const slug = (symbol) => symbol.replace(/\^/g, "_").replace(/\./g, "_").replace(/=/g, "_");
+
+  const cssVar = (name, fallback) =>
+    getComputedStyle(document.body).getPropertyValue(name).trim() || fallback;
+
+  function hexToRgba(hex, a) {
+    const n = parseInt(hex.slice(1), 16);
+    return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`;
+  }
+
+  function theme() {
+    const light = document.body.classList.contains("light");
     return {
-      isLight,
-      bg: "rgba(0,0,0,0)",
-      fg: isLight ? "#1f2937" : "#e2e8f0",
-      grid: isLight ? "rgba(0,0,0,0.07)" : "rgba(255,255,255,0.07)",
-      line: isLight ? "#1f2937" : "#e2e8f0",
+      fg: cssVar("--text-color", light ? "#333333" : "#ffffff"),
+      accent: cssVar("--link-color", light ? "#007acc" : "#1da1f2"),
+      grid: light ? "rgba(0,0,0,0.07)" : "rgba(255,255,255,0.07)",
+      muted: light ? "rgba(0,0,0,0.45)" : "rgba(255,255,255,0.45)",
     };
   }
 
-  function tickerSlug(symbol) {
-    return symbol.replace(/\^/g, "_").replace(/\./g, "_");
-  }
+  const trendDot = (lab) =>
+    TREND[lab] ? `<span class="regime-radar__dot" style="background:${TREND[lab].color}"></span>` : "";
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, (c) => ({
-      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-    })[c]);
-  }
+  // Low volatility is drawn as a ring, so it stays visible on a dark background.
+  const volDot = (lab) =>
+    VOL[lab]
+      ? `<span class="regime-radar__dot" style="background:rgba(${VOL_RGB},${VOL[lab].dot});box-shadow:inset 0 0 0 1.5px rgb(${VOL_RGB})"></span>`
+      : "";
 
-  function daysBetween(isoA, isoB) {
-    return (new Date(isoB) - new Date(isoA)) / (1000 * 60 * 60 * 24);
+  // ---------- data loading ----------
+
+  async function fetchJSON(url) {
+    let res;
+    try {
+      res = await fetch(url, { cache: "no-cache" });
+    } catch (e) {
+      throw { kind: "network", url };
+    }
+    if (res.status === 404) throw { kind: "missing", url };
+    if (!res.ok) throw { kind: "http", url, status: res.status };
+    try {
+      return await res.json();
+    } catch (e) {
+      throw { kind: "malformed", url, reason: "not valid JSON" };
+    }
   }
 
   function validatePayload(p) {
-    if (!p || typeof p !== "object") {
-      throw { kind: "malformed", reason: "payload bukan object" };
-    }
-    if (!p.meta || !p.series || !p.latest) {
-      throw { kind: "malformed", reason: "kekurangan field meta/series/latest" };
+    if (!p || !p.meta || !p.series || !p.latest) {
+      throw { kind: "malformed", reason: "missing meta, series or latest" };
     }
     const s = p.series;
-    if (!Array.isArray(s.date) || s.date.length === 0) {
-      throw { kind: "malformed", reason: "series.date kosong" };
-    }
-    const n = s.date.length;
+    const n = Array.isArray(s.date) ? s.date.length : 0;
+    if (!n) throw { kind: "malformed", reason: "empty series" };
     for (const k of ["close", "realized_vol", "vol_regime", "trend_regime"]) {
       if (!Array.isArray(s[k]) || s[k].length !== n) {
-        throw {
-          kind: "malformed",
-          reason: `series.${k} length mismatch (${s[k] ? s[k].length : "missing"} vs ${n})`,
-        };
+        throw { kind: "malformed", reason: `series.${k} does not match series.date` };
       }
     }
     return p;
   }
 
-  async function fetchPayload(base, symbol) {
-    const url = base + tickerSlug(symbol) + ".json";
-    let res;
-    try {
-      res = await fetch(url, { cache: "no-cache" });
-    } catch (e) {
-      throw { kind: "network", url, reason: e.message };
-    }
-    if (res.status === 404) throw { kind: "missing", url };
-    if (!res.ok) throw { kind: "http", url, status: res.status };
-    let json;
-    try {
-      json = await res.json();
-    } catch (e) {
-      throw { kind: "malformed", url, reason: "JSON parse: " + e.message };
-    }
-    return validatePayload(json);
-  }
-
-  function formatError(err) {
+  function describeError(err) {
     switch (err && err.kind) {
-      case "missing":   return "data belum di-generate (file belum ada)";
-      case "network":   return `network error: ${err.reason || "tidak bisa connect"}`;
-      case "http":      return `HTTP ${err.status}`;
-      case "malformed": return `data corrupt — ${err.reason || "shape salah"}`;
-      default:          return String((err && (err.message || err.reason)) || err || "unknown");
+      case "missing": return "The data file has not been generated yet.";
+      case "network": return "Could not reach the server. Check your connection and reload.";
+      case "http": return `The server answered with HTTP ${err.status}.`;
+      case "malformed": return `The data file is damaged (${err.reason}).`;
+      default: return String((err && (err.message || err.reason)) || err || "Unknown error.");
     }
   }
 
-  function buildBands(dates, labels, yref) {
+  // ---------- text blocks ----------
+
+  function statusHTML(p) {
+    const l = p.latest;
+    const name = esc(p.meta.display_name || p.meta.symbol);
+    const trendPhrase = { up: "in an uptrend", down: "in a downtrend", sideways: "moving sideways" }[l.trend_regime];
+    const volPhrase = { low: "low", mid: "in its middle band", high: "high" }[l.vol_regime];
+
+    let trend = "";
+    if (trendPhrase) {
+      trend = isNum(l.trend_days)
+        ? `${name} has been ${trendPhrase} for ${plural(l.trend_days, "trading day")}, since ${fmtDate(l.trend_since)}.`
+        : `${name} is ${trendPhrase}.`;
+    }
+    let vol = "";
+    if (volPhrase) {
+      vol = l.vol_since
+        ? ` Its volatility has been ${volPhrase} since ${fmtDate(l.vol_since)}.`
+        : ` Its volatility is ${volPhrase}.`;
+    }
+    return trend + vol;
+  }
+
+  function pendingHTML(p) {
+    const l = p.latest;
+    const lines = [];
+    const more = (pend) => {
+      const left = pend.needed - pend.days;
+      return left === 1
+        ? "One more day like it would switch the label."
+        : `${left} more days like it would switch the label.`;
+    };
+    if (l.trend_pending && TREND[l.trend_pending.label]) {
+      lines.push(`Today's trend reading is ${TREND[l.trend_pending.label].name.toLowerCase()}. ${more(l.trend_pending)}`);
+    }
+    if (l.vol_pending && VOL[l.vol_pending.label]) {
+      lines.push(`Today's volatility reading is ${VOL[l.vol_pending.label].name.toLowerCase()}. ${more(l.vol_pending)}`);
+    }
+    return lines.map((t) => `<div>${esc(t)}</div>`).join("");
+  }
+
+  function staleInfo(p) {
+    const age = daysAgo(p.latest.date);
+    if (age <= STALE_DAYS) return null;
+    return {
+      cls: age > VERY_STALE_DAYS ? "regime-radar__stale regime-radar__stale--error" : "regime-radar__stale",
+      text: `The latest close is from ${fmtDate(p.latest.date)}, ${age} days ago. Either the market has been closed or the daily update is failing.`,
+    };
+  }
+
+  function inputsHTML(p) {
+    const l = p.latest;
+    const prm = p.meta.params || {};
+    const shortW = prm.trend_short || 50;
+    const longW = prm.trend_long || 200;
+    const slopeW = prm.trend_slope_window || 60;
+    const hasTrend = isNum(l.close) && isNum(l.ma_short) && isNum(l.ma_long) && isNum(l.ma_long_change);
+    const hasVol = isNum(l.realized_vol_annualized) && isNum(l.vol_lo) && isNum(l.vol_hi);
+    if (!hasTrend && !hasVol) return "";
+
+    const check = (label, ok, detail) =>
+      `<div class="regime-radar__row"><span>${esc(label)}</span><span><span class="${ok ? "is-yes" : "is-no"}">${ok ? "Yes" : "No"}</span>, ${esc(detail)}</span></div>`;
+    const plain = (label, value) =>
+      `<div class="regime-radar__row"><span>${esc(label)}</span><span>${esc(value)}</span></div>`;
+
+    let out = "";
+    if (hasTrend) {
+      const gapClose = l.close / l.ma_long - 1;
+      const gapMA = l.ma_short / l.ma_long - 1;
+      const slope = l.ma_long_change / (l.ma_long - l.ma_long_change);
+      const side = (x) => `${Math.abs(x * 100).toFixed(1)}% ${x >= 0 ? "above" : "below"}`;
+      out += `
+        <div class="regime-radar__block">
+          <div class="regime-radar__block-title">Trend rule on ${fmtDate(l.date)}</div>
+          ${plain("Close", fmtNum(l.close))}
+          ${check(`Close above ${longW}-day average`, gapClose > 0, side(gapClose))}
+          ${check(`${shortW}-day above ${longW}-day average`, gapMA > 0, side(gapMA))}
+          ${check(`${longW}-day average rising over ${slopeW} days`, slope > 0, `${slope >= 0 ? "up" : "down"} ${Math.abs(slope * 100).toFixed(1)}%`)}
+          <div class="regime-radar__block-foot">Up needs three yes answers, down needs three no. Anything mixed is sideways.</div>
+        </div>`;
+    }
+    if (hasVol) {
+      const lookYears = Math.round((prm.vol_quantile_lookback || 1260) / 252);
+      const q = prm.vol_quantile_breaks || [0.33, 0.67];
+      out += `
+        <div class="regime-radar__block">
+          <div class="regime-radar__block-title">Volatility rule on ${fmtDate(l.date)}</div>
+          ${plain(`Realized volatility, last ${prm.vol_window || 21} days`, fmtPct(l.realized_vol_annualized) + " a year")}
+          ${plain("Low band ends at", fmtPct(l.vol_lo))}
+          ${plain("High band starts at", fmtPct(l.vol_hi))}
+          <div class="regime-radar__block-foot">The cut points are the ${Math.round(q[0] * 100)}th and ${Math.round(q[1] * 100)}th percentiles of the previous ${lookYears} years, so they drift slowly with the market.</div>
+        </div>`;
+    }
+    return out;
+  }
+
+  function tableHTML(p) {
+    const st = p.stats;
+    if (!st || !st.all || !st.trend || !st.vol) return "";
+    const h = st.horizon_days || 21;
+    const level = Math.round((st.ci_level || 0.95) * 100);
+    const hasCI = !!(st.all.ci || st.trend.some((r) => r.ci) || st.vol.some((r) => r.ci));
+
+    // One outcome cell: value, an asterisk if the gap to all days is outside
+    // its interval, and the interval itself on a second line.
+    const cell = (r, m, d, isBaseline) => {
+      const c = r.ci && r.ci[m];
+      const gap = c && c.gap_ci;
+      const star = gap && (gap[0] > 0 || gap[1] < 0)
+        ? `<span class="regime-radar__star" title="Gap to all days is outside its ${level}% interval">*</span>`
+        : "";
+      let band = "";
+      if (c && c.ci) band = `<span class="regime-radar__ci">${fmtPct(c.ci[0], d)} to ${fmtPct(c.ci[1], d)}</span>`;
+      else if (hasCI && !isBaseline) band = `<span class="regime-radar__ci">too few episodes</span>`;
+      return `<td>${fmtPct(r[m], d)}${star}${band}</td>`;
+    };
+    const outcome = (r, isBaseline) =>
+      cell(r, "median_return", 1, isBaseline) + cell(r, "share_positive", 0, isBaseline) + cell(r, "median_vol", 1, isBaseline);
+
+    const row = (r, dot, name) => `
+      <tr>
+        <th scope="row">${dot}${esc(name)}</th>
+        <td>${fmtPct(r.share, 0)}</td>
+        <td>${r.episodes}</td>
+        <td>${r.median_length == null ? "n/a" : plural(r.median_length, "day")}</td>
+        ${r.days_with_future ? outcome(r, false) : `<td colspan="3" class="regime-radar__na">no history yet</td>`}
+      </tr>`;
+    const group = (title) =>
+      `<tr class="regime-radar__group"><th scope="rowgroup" colspan="7">${esc(title)}</th></tr>`;
+
+    const note = hasCI
+      ? `The ranges are ${level}% intervals from resampling whole episodes rather than days, because
+         neighbouring days share most of their next ${h} days and are not independent evidence.
+         An asterisk marks a gap to All days whose interval excludes zero. With eighteen cells, one
+         asterisk can turn up by luck alone, so look for a pattern rather than a single star. Rows
+         with fewer than five episodes get no range. This is the history of one market, not a forecast.`
+      : `Neighbouring days share most of their next ${h} days, so the day counts overstate how much
+         independent evidence there is; the episode count is closer to the real sample size. If a row
+         looks like the All days row, that label told you nothing about what came next. This is the
+         history of one market, not a forecast.`;
+
+    return `
+      <div class="regime-radar__table-title">What followed each regime</div>
+      <div class="regime-radar__table-intro">
+        Every labeled day since ${fmtDate(st.first_date)}, grouped by its label, with what happened over the next ${h} trading days.
+      </div>
+      <div class="regime-radar__scroll">
+        <table class="regime-radar__table">
+          <thead>
+            <tr>
+              <th scope="col">Regime</th>
+              <th scope="col">Time spent</th>
+              <th scope="col">Episodes</th>
+              <th scope="col">Median length</th>
+              <th scope="col">Median return, next ${h}d</th>
+              <th scope="col">Windows that ended up</th>
+              <th scope="col">Median volatility, next ${h}d</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="regime-radar__baseline">
+              <th scope="row">All days</th><td>100%</td><td></td><td></td>${outcome(st.all, true)}
+            </tr>
+            ${group("Trend")}
+            ${st.trend.map((r) => row(r, trendDot(r.label), (TREND[r.label] || {}).name || r.label)).join("")}
+            ${group("Volatility")}
+            ${st.vol.map((r) => row(r, volDot(r.label), (VOL[r.label] || {}).name || r.label)).join("")}
+          </tbody>
+        </table>
+      </div>
+      <div class="regime-radar__table-note">${note}</div>`;
+  }
+
+  // ---------- chart ----------
+
+  function bands(dates, labels, yref, fill) {
     const shapes = [];
-    let runStart = 0;
+    let start = 0;
     for (let i = 1; i <= labels.length; i++) {
-      if (i === labels.length || labels[i] !== labels[runStart]) {
-        const lab = labels[runStart];
-        if (lab && REGIME_COLORS[lab]) {
+      if (i === labels.length || labels[i] !== labels[start]) {
+        const f = fill(labels[start]);
+        if (f) {
+          // Run the band up to the first day of the next run, so bands touch.
           shapes.push({
-            type: "rect", xref: "x", yref,
-            x0: dates[runStart], x1: dates[i - 1], y0: 0, y1: 1,
-            fillcolor: REGIME_COLORS[lab], opacity: 0.14,
-            line: { width: 0 }, layer: "below",
+            type: "rect", xref: "x", yref, layer: "below",
+            x0: dates[start], x1: dates[Math.min(i, labels.length - 1)], y0: 0, y1: 1,
+            fillcolor: f, line: { width: 0 },
           });
         }
-        runStart = i;
+        start = i;
       }
     }
     return shapes;
   }
 
-  function renderSnapshot(root, payload) {
-    const m = payload.meta;
-    const l = payload.latest;
-    const generatedStr = new Date(m.generated_at).toLocaleString(undefined, {
-      year: "numeric", month: "short", day: "numeric",
-      hour: "2-digit", minute: "2-digit", timeZoneName: "short",
-    });
-    root.querySelector(".regime-radar__generated").textContent = "Diperbarui " + generatedStr;
-
-    const num = (x, d = 2) =>
-      x == null || !isFinite(x)
-        ? "—"
-        : Number(x).toLocaleString(undefined, {
-            minimumFractionDigits: d, maximumFractionDigits: d,
-          });
-
-    const safeLabel = (v) => REGIME_COLORS[v] ? v : "—";
-    const safeDotClass = (v) =>
-      REGIME_COLORS[v]
-        ? `regime-radar__dot regime-radar__dot--${v}`
-        : "regime-radar__dot";
-
-    root.querySelector(".regime-radar__snapshot").innerHTML = `
-      <div class="regime-radar__badge">
-        <span class="regime-radar__badge-label">Vol regime</span>
-        <span class="regime-radar__badge-value">
-          <span class="${safeDotClass(l.vol_regime)}"></span>
-          ${escapeHtml(safeLabel(l.vol_regime))}
-        </span>
-      </div>
-      <div class="regime-radar__badge">
-        <span class="regime-radar__badge-label">Trend regime</span>
-        <span class="regime-radar__badge-value">
-          <span class="${safeDotClass(l.trend_regime)}"></span>
-          ${escapeHtml(safeLabel(l.trend_regime))}
-        </span>
-      </div>
-      <div class="regime-radar__numbers">
-        <span><span class="regime-radar__num-label">Tanggal</span>${escapeHtml(l.date || "—")}</span>
-        <span><span class="regime-radar__num-label">Close</span>${num(l.close)}</span>
-        <span><span class="regime-radar__num-label">Vol ann.</span>${num(l.realized_vol_annualized * 100, 1)}%</span>
-      </div>
-    `;
-  }
-
-  function renderStalenessBanner(root, payload) {
-    const ageDays = daysBetween(payload.meta.generated_at, new Date().toISOString());
-    const banner = root.querySelector(".regime-radar__staleness");
-    if (!banner) return;
-    if (ageDays > VERY_STALE_DAYS) {
-      banner.className = "regime-radar__staleness regime-radar__staleness--error";
-      banner.textContent =
-        `⚠ Data berumur ${Math.round(ageDays)} hari — workflow harian kemungkinan stuck. Cek tab Actions.`;
-      banner.hidden = false;
-    } else if (ageDays > STALE_DAYS) {
-      banner.className = "regime-radar__staleness regime-radar__staleness--warn";
-      banner.textContent =
-        `Data berumur ${Math.round(ageDays)} hari. Refresh terbaru mungkin gagal — workflow auto retry besok.`;
-      banner.hidden = false;
-    } else {
-      banner.hidden = true;
-    }
-  }
-
-  function renderChart(chartEl, payload) {
-    const theme = getTheme();
-    const s = payload.series;
+  // Plotly autorange looks at all data, not the visible window, so a 1Y view
+  // would look flat. Compute the y ranges for the window by hand.
+  function viewWindow(p, years, logScale) {
+    const s = p.series;
     const dates = s.date;
+    const n = dates.length;
+    let i0 = 0;
+    if (years) {
+      const end = new Date(dates[n - 1] + "T00:00:00Z");
+      const startIso = new Date(Date.UTC(end.getUTCFullYear() - years, end.getUTCMonth(), end.getUTCDate()))
+        .toISOString().slice(0, 10);
+      while (i0 < n - 1 && dates[i0] < startIso) i0++;
+    }
+    let lo = Infinity;
+    let hi = -Infinity;
+    let vhi = 0;
+    for (let i = i0; i < n; i++) {
+      for (const v of [s.close[i], s.ma_short && s.ma_short[i], s.ma_long && s.ma_long[i]]) {
+        if (isNum(v)) { lo = Math.min(lo, v); hi = Math.max(hi, v); }
+      }
+      for (const v of [s.realized_vol[i], s.vol_hi && s.vol_hi[i]]) {
+        if (isNum(v)) vhi = Math.max(vhi, v * 100);
+      }
+    }
+    let y;
+    if (logScale && lo > 0) {
+      const a = Math.log10(lo);
+      const b = Math.log10(hi);
+      const pad = (b - a) * 0.05 || 0.01;
+      y = [a - pad, b + pad];
+    } else {
+      const pad = (hi - lo) * 0.05 || 1;
+      y = [lo - pad, hi + pad];
+    }
+    return { x: [dates[i0], dates[n - 1]], y, y2: [0, vhi * 1.08 || 1] };
+  }
 
-    const closeTrace = {
-      x: dates, y: s.close, type: "scatter", mode: "lines", name: "Close",
-      line: { color: theme.line, width: 1.5 },
-      hovertemplate: "%{x|%d %b %Y}<br>Close: %{y:,.2f}<extra></extra>",
-      yaxis: "y",
-    };
-    const volTrace = {
-      x: dates,
-      y: s.realized_vol.map((v) => (v == null ? null : v * 100)),
-      type: "scatter", mode: "lines", name: "Realized vol (ann %)",
-      line: { color: theme.line, width: 1.2 },
-      hovertemplate: "%{x|%d %b %Y}<br>Vol: %{y:.1f}%<extra></extra>",
-      yaxis: "y2",
-    };
+  function drawChart(el, p, years, logScale) {
+    const t = theme();
+    const s = p.series;
+    const d = s.date;
+    const prm = p.meta.params || {};
+    const trendName = (v) => (TREND[v] ? TREND[v].name.toLowerCase() : "n/a");
+    const volName = (v) => (VOL[v] ? VOL[v].name.toLowerCase() : "n/a");
+    const pct = (arr) => (arr || []).map((v) => (isNum(v) ? v * 100 : null));
+    const hasMA = Array.isArray(s.ma_short) && Array.isArray(s.ma_long);
+    const hasCuts = Array.isArray(s.vol_lo) && Array.isArray(s.vol_hi);
 
-    const layout = {
-      paper_bgcolor: theme.bg, plot_bgcolor: theme.bg,
-      font: { color: theme.fg, family: "Poppins, sans-serif", size: 11 },
-      showlegend: false,
-      margin: { l: 50, r: 16, t: 10, b: 36 },
-      hovermode: "x unified",
-      xaxis: {
-        type: "date", gridcolor: theme.grid, showline: false, zeroline: false,
-        domain: [0, 1], anchor: "y2",
+    const traces = [
+      {
+        x: d, y: s.close, customdata: s.trend_regime.map(trendName), yaxis: "y",
+        type: "scatter", mode: "lines", line: { color: t.fg, width: 1.4 },
+        hovertemplate: "Close %{y:,.2f}, trend %{customdata}<extra></extra>",
       },
+    ];
+    if (hasMA) {
+      traces.push(
+        {
+          x: d, y: s.ma_short, yaxis: "y", type: "scatter", mode: "lines",
+          line: { color: t.muted, width: 1, dash: "dot" },
+          hovertemplate: `${prm.trend_short || 50}-day avg %{y:,.2f}<extra></extra>`,
+        },
+        {
+          x: d, y: s.ma_long, yaxis: "y", type: "scatter", mode: "lines",
+          line: { color: t.accent, width: 1.2 },
+          hovertemplate: `${prm.trend_long || 200}-day avg %{y:,.2f}<extra></extra>`,
+        },
+      );
+    }
+    if (hasCuts) {
+      for (const k of ["vol_lo", "vol_hi"]) {
+        traces.push({
+          x: d, y: pct(s[k]), yaxis: "y2", type: "scatter", mode: "lines", hoverinfo: "skip",
+          line: { color: t.muted, width: 1, dash: "dot" },
+        });
+      }
+    }
+    traces.push({
+      x: d, y: pct(s.realized_vol), customdata: s.vol_regime.map(volName), yaxis: "y2",
+      type: "scatter", mode: "lines", line: { color: t.fg, width: 1.2 },
+      hovertemplate: "Volatility %{y:.1f}%, %{customdata}<extra></extra>",
+    });
+
+    const w = viewWindow(p, years, logScale);
+    // fixedrange: no drag-to-zoom, so a finger on the chart scrolls the page on phones.
+    const axis = { gridcolor: t.grid, showline: false, zeroline: false, fixedrange: true };
+    const layout = {
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)",
+      font: { color: t.fg, family: "Poppins, sans-serif", size: 11 },
+      showlegend: false,
+      margin: { l: 56, r: 12, t: 8, b: 32 },
+      hovermode: "x unified",
+      hoverlabel: { font: { family: "Poppins, sans-serif", size: 11 } },
+      xaxis: { ...axis, type: "date", domain: [0, 1], anchor: "y2", range: w.x, hoverformat: "%d %b %Y" },
       yaxis: {
-        title: { text: "Close", standoff: 8, font: { size: 10 } },
-        gridcolor: theme.grid, showline: false, zeroline: false,
-        domain: [0.55, 1.0],
+        ...axis, domain: [0.5, 1], type: logScale ? "log" : "linear", range: w.y,
+        title: { text: "Price", standoff: 6, font: { size: 10 } },
       },
       yaxis2: {
-        title: { text: "Vol (ann %)", standoff: 8, font: { size: 10 } },
-        gridcolor: theme.grid, showline: false, zeroline: false,
-        domain: [0.0, 0.42],
+        ...axis, domain: [0, 0.4], range: w.y2, ticksuffix: "%",
+        title: { text: "Volatility", standoff: 6, font: { size: 10 } },
       },
       shapes: [
-        ...buildBands(dates, s.trend_regime, "y domain"),
-        ...buildBands(dates, s.vol_regime, "y2 domain"),
+        ...bands(d, s.trend_regime, "y domain", (v) => (TREND[v] ? hexToRgba(TREND[v].color, TREND[v].opacity) : null)),
+        ...bands(d, s.vol_regime, "y2 domain", (v) => (VOL[v] ? `rgba(${VOL_RGB},${VOL[v].band})` : null)),
       ],
     };
-
-    window.Plotly.newPlot(
-      chartEl, [closeTrace, volTrace], layout,
-      { displayModeBar: false, responsive: true, doubleClick: "reset" },
-    );
+    return window.Plotly.react(el, traces, layout, { displayModeBar: false, responsive: true });
   }
 
-  function renderFatalError(root, kind, msg) {
-    root.innerHTML = `<div class="regime-radar__error">
-      <strong>${escapeHtml(kind)}.</strong> ${escapeHtml(msg)}
-    </div>`;
+  // ---------- CSV ----------
+
+  function downloadCSV(p) {
+    const s = p.series;
+    const prm = p.meta.params || {};
+    const cols = [
+      ["date", s.date],
+      ["close", s.close],
+      [`ma${prm.trend_short || 50}`, s.ma_short],
+      [`ma${prm.trend_long || 200}`, s.ma_long],
+      ["realized_vol", s.realized_vol],
+      ["vol_low_cut", s.vol_lo],
+      ["vol_high_cut", s.vol_hi],
+      ["trend_regime", s.trend_regime],
+      ["vol_regime", s.vol_regime],
+    ].filter(([, arr]) => Array.isArray(arr));
+    const lines = [cols.map(([h]) => h).join(",")];
+    for (let i = 0; i < s.date.length; i++) {
+      lines.push(cols.map(([, arr]) => (arr[i] == null ? "" : arr[i])).join(","));
+    }
+    const blob = new Blob([lines.join("\n") + "\n"], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `regime-radar${slug(p.meta.symbol)}_${p.latest.date}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => {
+      URL.revokeObjectURL(a.href);
+      a.remove();
+    }, 0);
   }
 
-  function buildScaffold(root, tickers, failedNotes) {
-    const showSelector = tickers.length > 1;
-    const failedBlock = failedNotes.length
-      ? `<div class="regime-radar__partial-fail">
-           Ticker tidak ter-load:
-           ${failedNotes.map((n) => `<code>${escapeHtml(n.ticker)}</code> (${escapeHtml(n.reason)})`).join(", ")}
-         </div>`
-      : "";
+  // ---------- page assembly ----------
+
+  function scaffold(root) {
+    const trendKey = Object.values(TREND)
+      .map((v) => `<span class="regime-radar__key"><span class="regime-radar__swatch" style="background:${hexToRgba(v.color, 0.55)}"></span>${v.name}</span>`)
+      .join("");
+    const volKey = Object.values(VOL)
+      .map((v) => `<span class="regime-radar__key"><span class="regime-radar__swatch" style="background:rgba(${VOL_RGB},${Math.min(1, v.band * 3)});box-shadow:inset 0 0 0 1px rgba(${VOL_RGB},0.8)"></span>${v.name}</span>`)
+      .join("");
     root.innerHTML = `
-      <div class="regime-radar__header">
-        ${showSelector
-          ? `<select class="regime-radar__ticker" aria-label="Pilih ticker">
-               ${tickers.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("")}
-             </select>`
-          : `<span class="regime-radar__ticker" aria-disabled="true">${escapeHtml(tickers[0])}</span>`}
-        <span class="regime-radar__generated"></span>
+      <div class="regime-radar__picker"></div>
+      <div class="regime-radar__stale" hidden></div>
+      <div class="regime-radar__status" aria-live="polite"></div>
+      <div class="regime-radar__note"></div>
+      <div class="regime-radar__pending"></div>
+      <div class="regime-radar__inputs"></div>
+      <div class="regime-radar__toolbar">
+        <div class="regime-radar__ranges" role="group" aria-label="Chart range">
+          ${RANGES.map(([label, yrs]) =>
+            `<button type="button" class="regime-radar__btn" data-years="${yrs || ""}" aria-pressed="${yrs === DEFAULT_YEARS}">${label}</button>`).join("")}
+        </div>
+        <button type="button" class="regime-radar__btn regime-radar__log" aria-pressed="false">Log price</button>
       </div>
-      <div class="regime-radar__staleness" hidden></div>
-      <div class="regime-radar__snapshot"></div>
       <div class="regime-radar__chart"></div>
-      ${failedBlock}
-      <div class="regime-radar__footnote">
-        Diperbarui harian via GitHub Actions. Label regime bersifat
-        <em>deskriptif</em>, bukan prediktif — lihat methodology di bawah.
-        Bukan saran investasi.
+      <div class="regime-radar__legend">
+        <div>
+          <div><span class="regime-radar__legend-head">Top panel, trend</span>${trendKey}</div>
+          <div class="regime-radar__legend-lines">Lines: close, 50-day average (dotted), 200-day average (blue).</div>
+        </div>
+        <div>
+          <div><span class="regime-radar__legend-head">Bottom panel, volatility</span>${volKey}</div>
+          <div class="regime-radar__legend-lines">Lines: realized volatility and the two cut points (dotted).</div>
+        </div>
       </div>
-    `;
+      <div class="regime-radar__stats"></div>
+      <div class="regime-radar__foot"></div>`;
+  }
+
+  function renderPicker(state) {
+    const el = state.root.querySelector(".regime-radar__picker");
+    const list = state.tickers;
+    if (list.length < 2) {
+      el.innerHTML = "";
+      return;
+    }
+    if (list.length > MAX_TILES) {
+      el.innerHTML = `<select class="regime-radar__select" aria-label="Choose an asset">
+        ${list.map((t) => `<option value="${esc(t)}"${t === state.selected ? " selected" : ""}>${esc(state.names[t])}</option>`).join("")}
+      </select>`;
+      el.querySelector("select").addEventListener("change", (e) => select(state, e.target.value));
+      return;
+    }
+    el.innerHTML = `<div class="regime-radar__tiles" role="group" aria-label="Choose an asset">
+      ${list.map((t) => {
+        const e = state.index[t];
+        const l = e && e.latest;
+        const lines = l
+          ? `<span class="regime-radar__tile-line">${trendDot(l.trend_regime)}Trend ${esc(((TREND[l.trend_regime] || {}).name || "n/a").toLowerCase())}</span>
+             <span class="regime-radar__tile-line">${volDot(l.vol_regime)}Volatility ${esc(((VOL[l.vol_regime] || {}).name || "n/a").toLowerCase())}</span>`
+          : "";
+        return `<button type="button" class="regime-radar__tile" data-ticker="${esc(t)}" aria-pressed="${t === state.selected}">
+          <span class="regime-radar__tile-name">${esc(state.names[t])}</span>${lines}
+        </button>`;
+      }).join("")}
+    </div>`;
+    el.querySelectorAll(".regime-radar__tile").forEach((b) =>
+      b.addEventListener("click", () => select(state, b.getAttribute("data-ticker"))));
+  }
+
+  function renderPayload(state, p) {
+    const r = state.root;
+    const stale = staleInfo(p);
+    const staleEl = r.querySelector(".regime-radar__stale");
+    if (stale) {
+      staleEl.className = stale.cls;
+      staleEl.textContent = stale.text;
+      staleEl.hidden = false;
+    } else {
+      staleEl.hidden = true;
+    }
+
+    r.querySelector(".regime-radar__status").innerHTML = statusHTML(p);
+    r.querySelector(".regime-radar__note").textContent = p.meta.note || "";
+    r.querySelector(".regime-radar__pending").innerHTML = pendingHTML(p);
+    r.querySelector(".regime-radar__inputs").innerHTML = inputsHTML(p);
+    r.querySelector(".regime-radar__stats").innerHTML = tableHTML(p);
+
+    const built = fmtLocalTime(p.meta.generated_at);
+    const foot = r.querySelector(".regime-radar__foot");
+    foot.innerHTML = `
+      Prices from Yahoo Finance, rebuilt every weekday before the IDX opens (last build ${esc(built)}).
+      The labels describe what already happened. They are not a forecast and not investment advice.
+      <span class="regime-radar__links">
+        <button type="button" class="regime-radar__linkbtn">Download CSV</button>
+        <a href="${esc(state.base + slug(p.meta.symbol) + ".json")}">Raw JSON</a>
+      </span>`;
+    foot.querySelector("button").addEventListener("click", () => downloadCSV(p));
+
+    redraw(state);
+  }
+
+  function redraw(state) {
+    const p = state.cache[state.selected];
+    if (!p || typeof window.Plotly === "undefined") return;
+    drawChart(state.root.querySelector(".regime-radar__chart"), p, state.years, state.log);
+  }
+
+  function renderTickerError(state, ticker, err) {
+    const r = state.root;
+    r.querySelector(".regime-radar__status").innerHTML =
+      `<span class="regime-radar__error-inline">Could not load ${esc(state.names[ticker] || ticker)}. ${esc(describeError(err))}</span>`;
+    for (const k of ["note", "pending", "inputs", "stats", "foot"]) {
+      r.querySelector(".regime-radar__" + k).innerHTML = "";
+    }
+    r.querySelector(".regime-radar__stale").hidden = true;
+    if (window.Plotly) window.Plotly.purge(r.querySelector(".regime-radar__chart"));
+  }
+
+  async function select(state, ticker) {
+    state.selected = ticker;
+    renderPicker(state);
+    if (!state.cache[ticker]) {
+      state.root.querySelector(".regime-radar__status").textContent = "Loading…";
+      try {
+        state.cache[ticker] = validatePayload(await fetchJSON(state.base + slug(ticker) + ".json"));
+      } catch (err) {
+        if (state.selected === ticker) renderTickerError(state, ticker, err);
+        return;
+      }
+    }
+    if (state.selected === ticker) renderPayload(state, state.cache[ticker]);
+  }
+
+  function wireToolbar(state) {
+    const r = state.root;
+    const rangeBtns = r.querySelectorAll(".regime-radar__ranges .regime-radar__btn");
+    rangeBtns.forEach((b) => {
+      b.addEventListener("click", () => {
+        const v = b.getAttribute("data-years");
+        state.years = v ? Number(v) : null;
+        rangeBtns.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        redraw(state);
+      });
+    });
+    const logBtn = r.querySelector(".regime-radar__log");
+    logBtn.addEventListener("click", () => {
+      state.log = !state.log;
+      logBtn.setAttribute("aria-pressed", String(state.log));
+      redraw(state);
+    });
   }
 
   async function initRoot(root) {
     const base = root.getAttribute("data-base") || "/data/regime-radar/";
-    const tickers = (root.getAttribute("data-tickers") || "^JKSE")
-      .split(",").map((s) => s.trim()).filter(Boolean);
-
+    const wanted = (root.getAttribute("data-tickers") || "^JKSE").split(",").map((s) => s.trim()).filter(Boolean);
     root.innerHTML = `<div class="regime-radar__loading">Loading regime data…</div>`;
 
-    const results = await Promise.all(
-      tickers.map(async (t) => {
-        try {
-          const p = await fetchPayload(base, t);
-          return { ticker: t, ok: true, payload: p };
-        } catch (e) {
-          return { ticker: t, ok: false, error: e };
-        }
-      }),
-    );
+    let index = null;
+    try {
+      index = await fetchJSON(base + "index.json");
+    } catch (e) {
+      index = null; // Deploys from before index.json existed: fall back to the shortcode's list.
+    }
+    const byTicker = {};
+    if (index && Array.isArray(index.tickers)) for (const e of index.tickers) byTicker[e.symbol] = e;
+    const tickers = index ? wanted.filter((t) => byTicker[t]) : wanted;
 
-    const ok = results.filter((r) => r.ok);
-    const failed = results.filter((r) => !r.ok);
-
-    if (ok.length === 0) {
-      const kinds = new Set(failed.map((r) => r.error.kind));
-      if (kinds.size === 1 && kinds.has("missing")) {
-        renderFatalError(
-          root, "Data belum tersedia",
-          "Workflow harian kemungkinan belum jalan. Trigger manual dari tab GitHub Actions repo ini, atau tunggu cron berikutnya.",
-        );
-      } else if (kinds.size === 1 && kinds.has("network")) {
-        renderFatalError(
-          root, "Tidak bisa connect",
-          "Cek koneksi internet, lalu reload halaman.",
-        );
-      } else {
-        const msg = failed.map((r) => `${r.ticker}: ${formatError(r.error)}`).join("; ");
-        renderFatalError(root, "Tidak bisa memuat data", msg);
-      }
+    if (!tickers.length) {
+      root.innerHTML = `<div class="regime-radar__error">No data has been published yet. The daily build has probably not run.</div>`;
       return;
     }
 
-    const failedNotes = failed.map((r) => ({
-      ticker: r.ticker, reason: formatError(r.error),
-    }));
-    const usableTickers = ok.map((r) => r.ticker);
-    const payloads = Object.fromEntries(ok.map((r) => [r.ticker, r.payload]));
-
-    buildScaffold(root, usableTickers, failedNotes);
-
-    const chartEl = root.querySelector(".regime-radar__chart");
-    const draw = (t) => {
-      const p = payloads[t];
-      renderSnapshot(root, p);
-      renderStalenessBanner(root, p);
-      renderChart(chartEl, p);
+    const state = {
+      root, base, tickers, index: byTicker,
+      names: Object.fromEntries(tickers.map((t) => [t, (byTicker[t] && byTicker[t].display_name) || t])),
+      cache: {}, selected: tickers[0], years: DEFAULT_YEARS, log: false,
     };
-    draw(usableTickers[0]);
+    scaffold(root);
+    wireToolbar(state);
+    await select(state, state.selected);
 
-    const sel = root.querySelector("select.regime-radar__ticker");
-    if (sel) sel.addEventListener("change", (e) => draw(e.target.value));
+    new MutationObserver(() => redraw(state)).observe(document.body, {
+      attributes: true, attributeFilter: ["class"],
+    });
   }
 
   function init() {
-    if (typeof window.Plotly === "undefined") {
-      return void setTimeout(init, 60);
-    }
+    if (typeof window.Plotly === "undefined") return void setTimeout(init, 60);
     document.querySelectorAll(".regime-radar").forEach(initRoot);
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
-    init();
-  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
 })();

@@ -2,6 +2,7 @@
 title: "Noble Goals, Broken Vessels"
 date: 2023-11-08
 draft: false
+aliases: ["/blog/communism-libertarianism-feudalism/"]
 summary: "What I think about communism, the future of libertarianism, and what the world is about to look like."
 ---
 

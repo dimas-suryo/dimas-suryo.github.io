@@ -1,0 +1,48 @@
+name: regime-radar research
+
+# Manual only. Runs the sensitivity report on real data and prints it on the
+# run's summary page (Actions tab -> this workflow -> the run -> Summary).
+# Commits nothing and does not touch the live page.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Comma-separated Yahoo symbols"
+        default: "^JKSE,^GSPC,IDR=X"
+      reps:
+        description: "Bootstrap replicates per cell"
+        default: "2000"
+
+permissions:
+  contents: read
+
+jobs:
+  sensitivity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/regime_radar/requirements.txt
+
+      - name: Install deps
+        run: pip install -r tools/regime_radar/requirements.txt
+
+      - name: Run sensitivity report
+        env:
+          TICKERS: ${{ inputs.tickers }}
+          REPS: ${{ inputs.reps }}
+        run: |
+          python -m tools.regime_radar.sensitivity --tickers "$TICKERS" --reps "$REPS" --out sensitivity.md
+          cat sensitivity.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the report as a file too
+        uses: actions/upload-artifact@v4
+        with:
+          name: sensitivity-report
+          path: sensitivity.md

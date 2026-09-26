@@ -1,18 +1,25 @@
 {{- /*
-  Regime Radar dashboard shortcode.
+  Regime Radar dashboard.
 
-  Usage:  {{< regime-radar tickers="^JKSE" >}}
-  Multi:  {{< regime-radar tickers="^JKSE,BBCA.JK,BBRI.JK" >}}
+  Usage:  {{< regime-radar >}}
+          {{< regime-radar tickers="^JKSE,^GSPC,IDR=X" >}}
 
-  Pakai class (bukan id) supaya boleh multiple instance per page.
-  Asset CSS/JS hanya dimuat sekali per halaman via Page.Scratch guard.
+  `tickers` sets which assets appear and in what order; the first one opens
+  by default. Only tickers that have a published data file are shown.
+  Uses a class rather than an id, so a page can hold more than one instance.
+  CSS and JS load once per page via the Page.Scratch guard.
 */ -}}
 
 <div
   class="regime-radar"
-  data-tickers="{{ .Get "tickers" | default "^JKSE" }}"
+  data-tickers="{{ .Get "tickers" | default "^JKSE,^GSPC,IDR=X" }}"
   data-base="{{ "/data/regime-radar/" | relURL }}"
-></div>
+>
+  <noscript>
+    The dashboard needs JavaScript. The data itself is at
+    <a href="{{ "/data/regime-radar/index.json" | relURL }}">/data/regime-radar/index.json</a>.
+  </noscript>
+</div>
 
 {{- if not (.Page.Scratch.Get "regime_radar_assets_loaded") -}}
   {{- .Page.Scratch.Set "regime_radar_assets_loaded" true -}}

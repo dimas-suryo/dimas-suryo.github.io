@@ -1,2 +1,3 @@
-# Dev-only deps untuk run test. Tidak dipakai di production cron.
+# Test-only dependencies. The daily cron installs these too, and skips
+# publishing if the tests fail.
 pytest>=8.0

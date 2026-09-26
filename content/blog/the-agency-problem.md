@@ -2,7 +2,7 @@
 title: "The Agency Problem"
 date: 2026-04-30
 draft: false
-aliases: ["/blog/the-agency-problem/"]
+aliases: ["/blog/weak-men/", "/blog/lelaki-lemah/"]
 summary: "An essay about the courage to feel discomfort: why weak men act as a pollutant on the systems around them, and why that is only partly their fault."
 ---
 

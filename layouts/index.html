@@ -43,7 +43,10 @@
       {{ range first 5 (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
         {{ $href := .RelPermalink }}
         {{ with .Params.external_url }}{{ $href = . }}{{ end }}
-        <li><a href="{{ $href }}">{{ .Title }}</a></li>
+        <li>
+          <a href="{{ $href }}">{{ .Title }}</a>
+          {{ with .Params.homepage_badge }}{{ partial (printf "badges/%s.html" .) $ }}{{ end }}
+        </li>
       {{ end }}
     </ul>
     <p><a href="/projects/">View all projects →</a></p>

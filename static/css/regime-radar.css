@@ -1,169 +1,410 @@
-/* Regime Radar — semua class di-prefix .regime-radar supaya tidak konflik dengan
-   stylesheet site. Pakai design tokens existing (--bg-color, --text-color, dll). */
+/* Regime Radar. Every class is prefixed .regime-radar__ to stay out of the
+   site stylesheet's way. Uses the site tokens (--bg-color, --text-color,
+   --link-color). No <p> inside the widget: .blog-post .content p would
+   override the spacing here. */
 
 .regime-radar {
-  margin: 24px 0;
+  --rr-line: rgba(127, 127, 127, 0.3);
+  --rr-soft: rgba(127, 127, 127, 0.1);
+  --rr-yes: #16a34a;
+  --rr-no: #dc2626;
+  margin: 28px 0 36px;
+  font-size: 0.92em;
+  line-height: 1.55;
+}
+
+.regime-radar button {
   font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.regime-radar :focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 2px;
 }
 
 .regime-radar__loading,
 .regime-radar__error {
   padding: 20px;
-  border: 1px solid var(--nav-border);
-  border-radius: 10px;
+  border: 1px solid var(--rr-line);
+  border-radius: 8px;
   text-align: center;
-  font-size: 0.9em;
-  opacity: 0.75;
+}
+
+.regime-radar__loading {
+  opacity: 0.7;
 }
 
 .regime-radar__error {
   border-color: #ef4444;
-  opacity: 1;
 }
 
-/* Header row: ticker selector + meta */
-.regime-radar__header {
+/* Asset picker */
+.regime-radar__tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.regime-radar__tile {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 14px;
-}
-
-.regime-radar__ticker {
-  font-family: inherit;
-  font-size: 0.95em;
-  padding: 6px 10px;
-  border: 1px solid var(--nav-border);
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+  padding: 10px 12px;
+  background: transparent;
+  border: 1px solid var(--rr-line);
   border-radius: 8px;
-  background-color: var(--bg-color);
-  color: var(--text-color);
   cursor: pointer;
 }
 
-.regime-radar__generated {
-  font-size: 0.75em;
-  opacity: 0.55;
+.regime-radar__tile:hover {
+  border-color: var(--link-color);
 }
 
-/* Snapshot card: 2 badges + numeric details */
-.regime-radar__snapshot {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  padding: 16px;
-  border: 1px solid var(--nav-border);
-  border-radius: 10px;
-  margin-bottom: 14px;
+.regime-radar__tile[aria-pressed="true"] {
+  border-color: var(--link-color);
+  box-shadow: inset 0 0 0 1px var(--link-color);
 }
 
-.regime-radar__badge {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.regime-radar__tile-name {
+  font-weight: 600;
+  font-size: 1.05em;
 }
 
-.regime-radar__badge-label {
-  font-size: 0.7em;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  opacity: 0.55;
-}
-
-.regime-radar__badge-value {
+.regime-radar__tile-line {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 1.05em;
-  font-weight: 600;
+  gap: 6px;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.regime-radar__select {
+  font-family: inherit;
+  font-size: 1em;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--rr-line);
+  border-radius: 8px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .regime-radar__dot {
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   display: inline-block;
+  flex: none;
+  margin-right: 6px;
+  vertical-align: 0.05em;
 }
 
-/* Regime colors — sengaja muted-tapi-cukup-kontras, sama buat dark & light bg */
-.regime-radar__dot--up      { background: #16a34a; }
-.regime-radar__dot--down    { background: #dc2626; }
-.regime-radar__dot--sideways{ background: #94a3b8; }
-.regime-radar__dot--low     { background: #3b82f6; }
-.regime-radar__dot--mid     { background: #f59e0b; }
-.regime-radar__dot--high    { background: #ef4444; }
+.regime-radar__tile-line .regime-radar__dot {
+  margin-right: 0;
+}
 
-.regime-radar__numbers {
-  grid-column: 1 / -1;
+/* Status */
+.regime-radar__status {
+  font-size: 1.15em;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.regime-radar__note {
+  opacity: 0.7;
+  margin-bottom: 6px;
+}
+
+.regime-radar__pending {
+  font-size: 0.92em;
+  opacity: 0.85;
+  margin-bottom: 6px;
+}
+
+.regime-radar__pending > div::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background: rgb(245, 158, 11);
+  vertical-align: 0.1em;
+}
+
+.regime-radar__error-inline {
+  color: #ef4444;
+}
+
+.regime-radar__stale {
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 0.9em;
+  border: 1px solid #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.regime-radar__stale--error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+/* Today's rule inputs */
+.regime-radar__inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 18px 0 22px;
+}
+
+.regime-radar__block {
+  padding: 14px 16px;
+  background: var(--rr-soft);
+  border-radius: 8px;
+}
+
+.regime-radar__block-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.regime-radar__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--rr-line);
+  font-size: 0.93em;
+}
+
+.regime-radar__row > span:last-child {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.regime-radar__row .is-yes {
+  color: var(--rr-yes);
+  font-weight: 600;
+}
+
+.regime-radar__row .is-no {
+  color: var(--rr-no);
+  font-weight: 600;
+}
+
+.regime-radar__block-foot {
+  font-size: 0.85em;
+  opacity: 0.65;
+  margin-top: 8px;
+}
+
+/* Chart controls */
+.regime-radar__toolbar {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
-  padding-top: 12px;
-  border-top: 1px solid var(--nav-border);
-  font-size: 0.85em;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
-.regime-radar__num-label {
-  opacity: 0.55;
-  margin-right: 6px;
+.regime-radar__ranges {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.regime-radar__btn {
+  padding: 3px 10px;
+  font-size: 0.88em;
+  background: transparent;
+  border: 1px solid var(--rr-line);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.regime-radar__btn[aria-pressed="true"] {
+  border-color: var(--link-color);
+  color: var(--link-color);
 }
 
 .regime-radar__chart {
   width: 100%;
-  min-height: 480px;
-  margin-bottom: 8px;
+  min-height: 460px;
 }
 
-.regime-radar__footnote {
-  font-size: 0.75em;
+.regime-radar__legend {
+  font-size: 0.85em;
+  opacity: 0.85;
+  margin: 6px 0 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+
+.regime-radar__legend-head {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.regime-radar__key {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.regime-radar__swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.regime-radar__legend-lines {
+  opacity: 0.7;
+  margin-top: 2px;
+}
+
+/* "What followed" table */
+.regime-radar__table-title {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+
+.regime-radar__table-intro,
+.regime-radar__table-note {
+  opacity: 0.75;
+  font-size: 0.92em;
+}
+
+.regime-radar__table-note {
+  margin-top: 10px;
+}
+
+.regime-radar__scroll {
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.regime-radar__table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums;
+}
+
+.regime-radar__table td {
+  white-space: nowrap;
+}
+
+.regime-radar__table th,
+.regime-radar__table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--rr-line);
+  text-align: right;
+  vertical-align: top;
+}
+
+.regime-radar__table thead th {
+  vertical-align: bottom;
+  font-weight: 500;
+  font-size: 0.9em;
+  opacity: 0.7;
+  line-height: 1.3;
+}
+
+.regime-radar__table th[scope="row"],
+.regime-radar__table thead th:first-child {
+  text-align: left;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.regime-radar__group th {
+  text-align: left;
+  font-weight: 600;
+  padding-top: 14px;
+  border-bottom: none;
+}
+
+.regime-radar__baseline td,
+.regime-radar__baseline th {
+  background: var(--rr-soft);
+}
+
+.regime-radar__ci {
+  display: block;
+  font-size: 0.8em;
   opacity: 0.55;
-  margin-top: 12px;
-  line-height: 1.55;
+  white-space: nowrap;
 }
 
-/* Mobile */
+.regime-radar__star {
+  color: var(--link-color);
+  font-weight: 600;
+  margin-left: 1px;
+}
+
+.regime-radar__na {
+  opacity: 0.5;
+  text-align: center !important;
+}
+
+/* Footer */
+.regime-radar__foot {
+  font-size: 0.82em;
+  opacity: 0.65;
+  margin-top: 22px;
+  line-height: 1.6;
+}
+
+.regime-radar__links {
+  display: inline-flex;
+  gap: 14px;
+  margin-left: 4px;
+}
+
+.regime-radar__linkbtn {
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--link-color) !important;
+  cursor: pointer;
+}
+
+.regime-radar__linkbtn:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
-  .regime-radar__snapshot {
+  .regime-radar__tiles {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 6px;
+  }
+  .regime-radar__tile {
+    padding: 8px 9px;
+  }
+  .regime-radar__tile-line {
+    font-size: 0.78em;
+    gap: 4px;
+  }
+  .regime-radar__inputs,
+  .regime-radar__legend {
     grid-template-columns: 1fr;
   }
   .regime-radar__chart {
-    min-height: 420px;
+    min-height: 400px;
   }
-}
-
-/* Staleness banner — warning kalau data > 7d, error kalau > 21d */
-.regime-radar__staleness {
-  padding: 8px 12px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-  font-size: 0.82em;
-  border: 1px solid transparent;
-}
-
-.regime-radar__staleness--warn {
-  border-color: #f59e0b;
-  background: rgba(245, 158, 11, 0.08);
-}
-
-.regime-radar__staleness--error {
-  border-color: #ef4444;
-  background: rgba(239, 68, 68, 0.10);
-  font-weight: 500;
-}
-
-/* Per-ticker failure note (when some tickers loaded, some didn't) */
-.regime-radar__partial-fail {
-  margin-top: 12px;
-  padding: 8px 12px;
-  font-size: 0.78em;
-  opacity: 0.7;
-  border-top: 1px dashed var(--nav-border);
-}
-
-.regime-radar__partial-fail code {
-  background-color: rgba(127, 127, 127, 0.15);
-  padding: 1px 5px;
-  border-radius: 4px;
-  font-size: 0.95em;
+  .regime-radar__row > span:last-child {
+    white-space: normal;
+  }
 }

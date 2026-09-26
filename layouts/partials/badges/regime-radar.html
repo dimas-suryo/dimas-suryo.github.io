@@ -1,0 +1,13 @@
+{{- /*
+  One-line live reading of IHSG under the Regime Radar entry on the homepage.
+  Enabled per project with `homepage_badge: "regime-radar"` in front matter.
+  Stays hidden if index.json is missing, unreadable, or more than 21 days old,
+  so the homepage never shows a stale or broken reading.
+*/ -}}
+<div
+  class="regime-badge"
+  data-ticker="^JKSE"
+  data-base="{{ "/data/regime-radar/" | relURL }}"
+  hidden
+></div>
+<script src="{{ "/js/regime-badge.js" | relURL }}" defer></script>

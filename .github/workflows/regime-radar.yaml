@@ -1,16 +1,15 @@
 name: regime-radar daily
 
-# Cron jalan 22:30 UTC Sun-Thu = 05:30 WIB Mon-Fri pagi.
-# Hari-of-week 0-4 (bukan 1-5) supaya UTC Sunday → WIB Monday morning refresh
-# tetap ter-cover. Cron 1-5 sebelumnya keliru: skip Minggu UTC → Senin WIB stale.
-# workflow_dispatch supaya bisa di-trigger manual dari UI.
-# push (paths) supaya data langsung di-build ulang tiap kali kode tool/workflow berubah.
+# 22:30 UTC Sunday to Thursday = 05:30 WIB Monday to Friday, after the US close
+# and before the IDX opens. Days 0-4 rather than 1-5 because the Monday WIB run
+# happens on Sunday UTC.
+# push (paths): rebuild whenever the tool or this workflow changes.
+# workflow_dispatch: run by hand from the Actions tab.
 #
-# Catatan loop & deploy: push yang pakai GITHUB_TOKEN TIDAK men-trigger workflow
-# lain (termasuk hugo.yaml via `on: push`). Jadi commit data dari sini aman dari
-# loop, tapi juga tidak otomatis re-deploy Pages. Karena itu step terakhir
-# memanggil hugo.yaml lewat workflow_dispatch, satu-satunya jenis event dari
-# GITHUB_TOKEN yang tetap dieksekusi.
+# A push made with GITHUB_TOKEN does not trigger other workflows, so the data
+# commit below cannot loop, but it also does not redeploy Pages on its own.
+# The last step starts hugo.yaml through workflow_dispatch, which is the one
+# event GITHUB_TOKEN is allowed to trigger.
 
 on:
   schedule:
@@ -23,8 +22,8 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write # untuk git push hasil
-  actions: write # untuk trigger hugo.yaml (deploy) setelah data baru di-push
+  contents: write # push the refreshed data
+  actions: write # start hugo.yaml after the push
 
 concurrency:
   group: regime-radar
@@ -33,7 +32,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -44,20 +43,29 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: tools/regime_radar/requirements.txt
+          cache-dependency-path: |
+            tools/regime_radar/requirements.txt
+            tools/regime_radar/requirements-dev.txt
 
       - name: Install deps
-        run: pip install -r tools/regime_radar/requirements.txt
+        run: pip install -r tools/regime_radar/requirements.txt -r tools/regime_radar/requirements-dev.txt
 
+      # Broken signal code should never reach the public page.
+      - name: Test
+        run: python -m pytest tools/regime_radar/tests -q
+
+      # One failing ticker must not block the others, so this step may fail
+      # without stopping the job. The last step turns the run red afterwards.
       - name: Build payloads
+        id: build
+        continue-on-error: true
         run: python -m tools.regime_radar.build
 
       - name: Commit & push (only if data changed)
         id: commit
         run: |
-          # `git add` dulu, baru cek staged diff. `git diff` biasa tidak melihat
-          # file baru (untracked), itu sebabnya dulu JSON pertama tidak pernah
-          # ke-commit walaupun run-nya "success".
+          # Stage first, then check the staged diff. Plain `git diff` ignores
+          # untracked files, which is why the first JSON was never committed.
           git add static/data/regime-radar/
           if git diff --cached --quiet; then
             echo "No data changes; nothing to commit."
@@ -75,3 +83,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run hugo.yaml --ref main --repo "${{ github.repository }}"
+
+      - name: Fail the run if any ticker failed
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "::error::At least one ticker failed. The others were published; see the Build payloads log."
+          exit 1

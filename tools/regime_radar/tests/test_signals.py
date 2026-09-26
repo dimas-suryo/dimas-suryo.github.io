@@ -1,10 +1,10 @@
-"""Table-driven tests untuk signals.py.
+"""Tests for signals.py, data.py and the payload contract in build.py.
 
 Run:  pip install -r tools/regime_radar/requirements-dev.txt
       pytest tools/regime_radar/tests/ -v
 
-Fokus: invariants yang KRITIS (no-lookahead, regime detection on controlled data).
-Bukan exhaustive line-coverage.
+Focus is on the invariants that matter (no lookahead, regimes detected on
+controlled data, payload shape the page depends on), not line coverage.
 """
 from __future__ import annotations
 
@@ -51,7 +51,7 @@ class TestRealizedVol:
         assert (rv.dropna() == 0).all()
 
     def test_constant_sigma_matches_input(self):
-        """Realized vol dari sample sigma=0.01 daily harus close ke 0.01*sqrt(252) ≈ 0.159."""
+        """Realized vol of daily sigma=0.01 should be close to 0.01*sqrt(252) ≈ 0.159."""
         returns = _gbm_returns(1000, mu=0.0, sigma=0.01, seed=1)
         rv = realized_vol(returns, window=63)  # 1 quarter
         median_rv = rv.dropna().median()
@@ -87,9 +87,9 @@ class TestVolRegime:
         assert set(labels.unique()) <= {"low", "mid", "high"}
 
     def test_warmup_returns_nan(self, long_calm_returns):
-        """Sebelum trailing 5y quantile cukup terisi, label harus NaN."""
+        """Labels stay NaN until the trailing 5y baseline is full."""
         labels = vol_regime(long_calm_returns, quantile_lookback=252 * 5)
-        # Pertama 252*5 + 21 baris seharusnya NaN (vol window + quantile lookback)
+        # The first 252*5 + 21 rows should be NaN (vol window + quantile lookback)
         first_valid = labels.first_valid_index()
         assert first_valid is not None
         position = labels.index.get_loc(first_valid)
@@ -98,25 +98,25 @@ class TestVolRegime:
         )
 
     def test_no_lookahead_invariance(self):
-        """Properti DEFINING: extending series dengan future data TIDAK boleh ubah past labels.
+        """The defining property: appending future data must not change past labels.
 
-        Compute labels untuk series S. Append future data → recompute. Labels untuk
-        rentang tanggal asli harus IDENTIK. Kalau berubah, lookahead bocor.
+        Compute labels for a series, append a year, recompute. Labels over the
+        original dates must be identical. If any change, lookahead has leaked in.
         """
         full = _gbm_returns(252 * 7, mu=0.0, sigma=0.01, seed=7)
         original = vol_regime(full.iloc[: 252 * 6])
         extended = vol_regime(full)  # Adds 1 extra year of data
         overlap = original.index
-        # Compare label-by-label di rentang yang overlap
+        # Compare label by label over the overlapping dates
         diff = (
             original.dropna().compare(extended.loc[overlap].dropna(), keep_equal=False)
         )
         assert diff.empty, (
-            f"Lookahead bocor — {len(diff)} labels berubah ketika future data ditambahkan"
+            f"Lookahead leak: {len(diff)} labels changed when future data was appended"
         )
 
     def test_detects_vol_regime_shift(self):
-        """Inject vol shift LOW → HIGH di tengah, baseline established → labels should follow."""
+        """Inject a low-vol era then a high-vol era after the baseline; labels should follow."""
         n_baseline = 252 * 5
         n_low = 252 * 2
         n_high = 252 * 1
@@ -142,8 +142,8 @@ class TestVolRegime:
         low_pct = (low_labels == "low").mean()
         high_pct = (high_labels == "high").mean()
 
-        assert low_pct > 0.8, f"Low era seharusnya didominasi 'low', got {low_pct:.2%}"
-        assert high_pct > 0.8, f"High era seharusnya didominasi 'high', got {high_pct:.2%}"
+        assert low_pct > 0.8, f"Low era should be mostly 'low', got {low_pct:.2%}"
+        assert high_pct > 0.8, f"High era should be mostly 'high', got {high_pct:.2%}"
 
 
 # ============================================================
@@ -181,11 +181,11 @@ class TestTrendRegime:
             index=_bdates(n),
         )
         labels = trend_regime(prices).dropna()
-        # Flat: tidak ada signal up/down; semua sideways
+        # Flat prices: no up or down signal, everything sideways
         assert (labels == "sideways").all(), f"Flat prices → all sideways, got {labels.value_counts().to_dict()}"
 
     def test_reversal_up_then_down(self):
-        """Trend ke atas selama setengah, lalu ke bawah. Labels harus follow setelah lag."""
+        """Up for half the sample, then down. Labels should follow after the MA lag."""
         n_each = 400
         prices = pd.DataFrame(
             {"open": [100.0] * (n_each * 2), "high": [100.0] * (n_each * 2), "low": [100.0] * (n_each * 2),
@@ -197,16 +197,16 @@ class TestTrendRegime:
             index=_bdates(n_each * 2),
         )
         labels = trend_regime(prices)
-        # Ambil label di tengah era pertama (sudah past warmup MA200+slope60)
+        # Middle of the first era, past the MA200 + slope60 warmup
         era1_mid = labels.iloc[260:n_each - 30].dropna()
-        era2_late = labels.iloc[-100:].dropna()  # last 100 bars dari era 2 — past reversal lag
+        era2_late = labels.iloc[-100:].dropna()  # last 100 bars of era 2, past the reversal lag
         up_pct_era1 = (era1_mid == "up").mean()
         down_pct_era2 = (era2_late == "down").mean()
         assert up_pct_era1 > 0.9, f"Era 1 (up) → expected 'up' dominant, got {up_pct_era1:.2%}"
         assert down_pct_era2 > 0.9, f"Era 2 (down) → expected 'down' dominant, got {down_pct_era2:.2%}"
 
     def test_no_lookahead_invariance(self):
-        """Sama dengan vol_regime: extending data tidak boleh ubah past labels."""
+        """Same property as vol_regime: appending data must not change past labels."""
         n_full = 1000
         rng = np.random.default_rng(11)
         close_full = 100.0 * np.exp(np.cumsum(rng.normal(0.0005, 0.01, n_full)))
@@ -222,7 +222,7 @@ class TestTrendRegime:
         diff = labels_short.dropna().compare(
             labels_full.loc[labels_short.index].dropna(), keep_equal=False
         )
-        assert diff.empty, f"Lookahead bocor di trend_regime — {len(diff)} labels berubah"
+        assert diff.empty, f"Lookahead leak in trend_regime: {len(diff)} labels changed"
 
 
 # ============================================================
@@ -266,7 +266,7 @@ from tools.regime_radar.universe import Ticker
 class TestBuildPayloadSchema:
     @pytest.fixture
     def synthetic_prices(self):
-        n = 252 * 7  # cukup untuk quantile_lookback 5y warmup
+        n = 252 * 7  # enough for the 5y quantile warmup
         rng = np.random.default_rng(123)
         returns = rng.normal(0.0003, 0.012, n)
         close = 5000.0 * np.exp(np.cumsum(returns))
@@ -281,7 +281,7 @@ class TestBuildPayloadSchema:
         return build_payload(ticker, prices=synthetic_prices)
 
     def test_top_level_keys(self, payload):
-        assert set(payload.keys()) == {"meta", "series", "latest"}
+        assert set(payload.keys()) == {"meta", "series", "latest", "stats"}
 
     def test_meta_shape(self, payload):
         m = payload["meta"]
@@ -294,7 +294,7 @@ class TestBuildPayloadSchema:
     def test_series_columns_and_alignment(self, payload):
         s = payload["series"]
         for k in ("date", "close", "realized_vol", "vol_regime", "trend_regime"):
-            assert isinstance(s[k], list), f"series.{k} bukan list"
+            assert isinstance(s[k], list), f"series.{k} is not a list"
         n = len(s["date"])
         assert n > 0
         for k in ("close", "realized_vol", "vol_regime", "trend_regime"):
@@ -320,7 +320,7 @@ class TestBuildPayloadSchema:
         assert l["realized_vol_annualized"] == s["realized_vol"][-1]
 
     def test_no_nan_or_inf_in_numeric_series(self, payload):
-        """JSON tidak punya NaN/Inf — kalau lewat lolos, JSON.parse di browser akan rusak."""
+        """JSON has no NaN/Inf. If one slips through, JSON.parse in the browser fails."""
         s = payload["series"]
         for v in s["close"]:
             assert v is None or (isinstance(v, (int, float)) and np.isfinite(v))
