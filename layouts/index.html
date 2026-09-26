@@ -22,19 +22,9 @@
     </p>
     <p>
       I also do: Bouldering (V5 plateau), chess (1600 ELO is all I got), poker
-      (negative EV in tournament, positive EV in cash), I jam to blues, and
+      (mostly for decision theory), I jam to blues, and
       guess what, I have good dribbling skills (Messi regen?).
     </p>
-  </section>
-
-  <section id="blog">
-    <h2>Blog</h2>
-    <ul>
-      {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-    <p><a href="/blog/">View all posts →</a></p>
   </section>
 
   <section id="projects">
@@ -50,6 +40,16 @@
       {{ end }}
     </ul>
     <p><a href="/projects/">View all projects →</a></p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    <p><a href="/blog/">View all posts →</a></p>
   </section>
 
   <section id="contact">
