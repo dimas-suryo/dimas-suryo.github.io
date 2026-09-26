@@ -31,15 +31,15 @@ The case for trend rules has never been a better typical month. Its proponents, 
 
 ## Why rules and not a hidden Markov model
 
-Hidden Markov models show up in most papers on regime detection. For a public dashboard they have three problems.
+Hidden Markov models show up in most papers on regime detection. This section used to give three reasons against them. In September 2026 I finally tested all three on IHSG, and they held up less well than I had assumed:
 
-1. The labels move. Refit with one more day of data and the model can relabel months of history. Someone who looked at the chart yesterday would see a different past today.
-2. The states have no fixed meaning. State 0 in one fit can be state 1 in the next, so mapping states to "bull" or "bear" needs a manual rule after the fact.
-3. The probabilities look more precise than they are. "82% chance of a high-volatility regime" leans on a Gaussian, stationary model that daily IHSG returns do not follow.
+1. The labels move when the model is refit. True, but it depends on the model. A two-state HMM refit every month relabeled a median of three past days out of thousands. A three-state one refit every six months relabeled a median of 61 days, and in one refit almost half of its history.
+2. The states have no fixed meaning. True, and easy to fix: sort the states by volatility after each fit.
+3. The probabilities look more precise than they are. Not supported. Within each state, IHSG returns are close to Gaussian, and when the real-time model was at least 90% sure of turbulence, its own later hindsight agreed every time.
 
-Rules are reproducible: same prices in, same labels out, every time. They have a cost of their own. The numbers 50, 200 and 60 are conventions rather than estimates, and different choices would move some of the switch dates. I used the most common settings instead of tuning them to IHSG, and the table shows how they have done.
+What survives is simpler. A rule's label never changes after the fact, anyone can check it with a spreadsheet, and it can give three regimes without the instability that three HMM states bring. The price is that 50, 200 and 60 are conventions rather than estimates, and different choices would move some of the switch dates. I used the most common settings instead of tuning them to IHSG, and the table shows how they have done.
 
-An HMM may come back later as an experimental third panel, clearly marked as a model.
+A two-state HMM run in real time is a reasonable alternative for telling calm from turbulent, which is why the roadmap below includes one.
 
 ## Limits
 
@@ -78,10 +78,10 @@ Every series can be downloaded as CSV from the link under the chart. The raw fil
 ## Roadmap
 
 - LQ45 constituents, once the picker scales past a handful of assets.
-- An experimental HMM panel, estimated in plain NumPy and labeled as a model.
+- An experimental two-state HMM panel, run in real time (a forward filter with monthly refits) and labeled as a model.
 
 ## Changes
 
-- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes.
+- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes. Then a test of the HMM claims in this page, which corrected two of them.
 
 Issues and pull requests are welcome on [GitHub](https://github.com/dimas-suryo/dimas-suryo.github.io/issues).

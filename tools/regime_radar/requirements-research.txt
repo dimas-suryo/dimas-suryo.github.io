@@ -1,0 +1,3 @@
+# Only for tools/regime_radar/hmm_refit.py, which is a one-off study and not
+# part of the daily build. The daily workflow does not install this.
+hmmlearn>=0.3
