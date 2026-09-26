@@ -11,9 +11,10 @@ Run from the repo root (needs internet for yfinance):
 Offline, from a CSV with date and close columns:
     python -m tools.regime_radar.sensitivity --prices-csv jkse.csv --tickers ^JKSE
 
-Reading the report: each cell is the median over the next horizon, the 95%
-episode-bootstrap interval in brackets, and the episode count. An asterisk
-means the gap to the all-days median has an interval that excludes zero.
+Reading the report: each cell is the statistic named in its table heading, the
+95% episode-bootstrap interval in brackets, and the episode count. An asterisk
+means the gap to the all-days value has an interval that excludes zero. The
+pre-registered verdict comes first; see prereg.py for why it was fixed in advance.
 With dozens of cells per ticker, a few asterisks will appear by chance alone
 (at 95%, about one in twenty), so look for patterns that hold across variants,
 not single stars.
@@ -29,6 +30,7 @@ import pandas as pd
 
 from .build import PARAMS, TREND_ORDER, VOL_ORDER, classify, summarize
 from .data import clean_prices, fetch_prices
+from .prereg import PREREGISTRATION, evaluate, sign_agreement
 from .universe import UNIVERSE, Ticker
 
 # (name, parameter overrides, period). Period is (start, end) on labeled days, or
@@ -135,6 +137,10 @@ def report(ticker: Ticker, prices: pd.DataFrame, results: list[dict]) -> str:
         "",
         *_table(results, "trend", TREND_ORDER, TREND_NAMES, "median_return", 1),
         "",
+        f"### Trend label: 10th percentile return over the next {h} trading days (pre-registered)",
+        "",
+        *_table(results, "trend", TREND_ORDER, TREND_NAMES, "p10_return", 1),
+        "",
         f"### Trend label: share of {h}-day windows that ended up",
         "",
         *_table(results, "trend", TREND_ORDER, TREND_NAMES, "share_positive", 0),
@@ -145,6 +151,38 @@ def report(ticker: Ticker, prices: pd.DataFrame, results: list[dict]) -> str:
         "",
     ]
     return "\n".join(out)
+
+
+def prereg_section(results_by_symbol: dict[str, list[dict]]) -> list[str]:
+    """The locked hypothesis, then a mechanical verdict for each market it names."""
+    pr = PREREGISTRATION
+    out = [
+        f"## Pre-registered test (locked {pr['locked_on']})",
+        "",
+        f"Hypothesis: {pr['hypothesis']}",
+        "",
+        f"Decision rule: {pr['decision_rule']}",
+        "",
+        f"Power check: {pr['power_check']}",
+        "",
+        "| Role | Market | Down row | All days | Gap [95% interval] | Verdict | Variants agreeing on sign |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    for role in ("primary", "replication"):
+        spec = pr[role]
+        res = results_by_symbol.get(spec["symbol"])
+        if not res or not res[0]["stats"]:
+            out.append(f"| {role} | {spec['symbol']} | n/a | n/a | n/a | not run | n/a |")
+            continue
+        e = evaluate(res[0]["stats"], spec)  # res[0] is the baseline variant
+        agree, total = sign_agreement(res, spec)
+        gap_ci = f"[{_pct(e['gap_ci'][0])}, {_pct(e['gap_ci'][1])}]" if e["gap_ci"] else f"({e.get('reason', 'n/a')})"
+        out.append(
+            f"| {role} | {spec['symbol']} | {_pct(e['estimate'])} | {_pct(e['all_days'])} | "
+            f"{_pct(e['gap'])} {gap_ci} | {e['verdict']} | {agree} of {total} |"
+        )
+    out += ["", f"If not supported: {pr['if_not_supported']}", ""]
+    return out
 
 
 def _load_csv(path: Path) -> pd.DataFrame:
@@ -176,12 +214,13 @@ def main(argv: list[str] | None = None) -> int:
         "# Regime Radar sensitivity report",
         "",
         f"Generated {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC. "
-        f"Each cell: median, [95% episode-bootstrap interval], episode count. "
-        f"`*` = the gap to the all-days median has an interval excluding zero. "
+        f"Each cell: the statistic in the table heading, [95% episode-bootstrap interval], episode count. "
+        f"`*` = the gap to the all-days value has an interval excluding zero. "
         f"Expect about one chance asterisk per twenty cells; trust patterns across rows, not single stars.",
         "",
     ]
     failed = 0
+    by_symbol: dict[str, list[dict]] = {}
     for t in tickers:
         try:
             if args.prices_csv:
@@ -190,13 +229,16 @@ def main(argv: list[str] | None = None) -> int:
                 prices = fetch_prices(t.symbol, start=PARAMS["history_start"], stooq_symbol=t.stooq)
                 prices, _ = clean_prices(prices, tz=t.tz, close_time=t.close_time, bad_print_floor=t.bad_print_floor)
             print(f"  · {t.symbol}: {len(prices)} rows, running {len(VARIANTS)} variants", file=sys.stderr)
-            sections.append(report(t, prices, run_variants(prices, args.reps)))
+            res = run_variants(prices, args.reps)
+            by_symbol[t.symbol] = res
+            sections.append(report(t, prices, res))
         except Exception as e:
             failed += 1
             sections += [f"## {t.display_name} ({t.symbol})", "", f"Failed: {type(e).__name__}: {e}", ""]
             print(f"  ✗ {t.symbol}: {e}", file=sys.stderr)
 
-    args.out.write_text("\n".join(sections))
+    head, body = sections[:4], sections[4:]
+    args.out.write_text("\n".join(head + prereg_section(by_symbol) + body))
     print(f"Wrote {args.out}")
     return 1 if failed == len(tickers) else 0
 

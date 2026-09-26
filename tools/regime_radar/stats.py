@@ -10,6 +10,12 @@ import pandas as pd
 
 from .signals import TRADING_DAYS_PER_YEAR
 
+# How bad a bad month is: the return that one forward window in ten fell below.
+# Added 26 Sep 2026, after the median columns showed no trend effect. The case
+# for trend rules has always been about smaller losses in bad months rather
+# than a better typical month, so this is the column that tests their claim.
+TAIL_Q = 0.10
+
 
 def episodes(labels: pd.Series) -> pd.DataFrame:
     """Runs of identical consecutive labels: label, start, end, length (trading days)."""
@@ -55,6 +61,7 @@ def _summary(mask: pd.Series, fwd: pd.DataFrame, run_id: pd.Series | None) -> di
     out = {
         "days_with_future": int(valid.sum()),
         "median_return": None if fr.empty else round(float(fr.median()), 4),
+        "p10_return": None if fr.empty else round(float(fr.quantile(TAIL_Q)), 4),
         "share_positive": None if fr.empty else round(float((fr > 0).mean()), 3),
         "median_vol": None if fv.empty else round(float(fv.median()), 4),
     }
@@ -107,12 +114,13 @@ def current_episode(labels: pd.Series) -> tuple[str | None, int]:
 # Episode bootstrap
 # ---------------------------------------------------------------------------
 
-METRICS = ("median_return", "share_positive", "median_vol")
+METRICS = ("median_return", "share_positive", "median_vol", "p10_return")
 
 
 def _metrics(arr: np.ndarray) -> np.ndarray:
-    """arr columns: fwd_return, fwd_vol. Returns the three table metrics."""
-    return np.array([np.median(arr[:, 0]), np.mean(arr[:, 0] > 0), np.median(arr[:, 1])])
+    """arr columns: fwd_return, fwd_vol. Returns the table metrics, in METRICS order."""
+    r = arr[:, 0]
+    return np.array([np.median(r), np.mean(r > 0), np.median(arr[:, 1]), np.quantile(r, TAIL_Q)])
 
 
 def _episode_blocks(labels: pd.Series, fwd: pd.DataFrame, order: list[str]) -> dict[str, list[np.ndarray]]:
@@ -173,8 +181,8 @@ def bootstrap_intervals(
         return {"all": None, **{k: None for k in order}}
 
     rng = np.random.default_rng(seed)
-    reps = {k: np.empty((n_boot, 3)) for k in usable}
-    reps_all = np.empty((n_boot, 3))
+    reps = {k: np.empty((n_boot, len(METRICS))) for k in usable}
+    reps_all = np.empty((n_boot, len(METRICS)))
     for b in range(n_boot):
         pooled = []
         for k in usable:

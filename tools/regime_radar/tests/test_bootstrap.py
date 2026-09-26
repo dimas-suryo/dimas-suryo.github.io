@@ -73,7 +73,7 @@ class TestBootstrapIntervals:
         for row in garch_stats["trend"] + garch_stats["vol"]:
             if not row["ci"]:
                 continue
-            for m in ("median_return", "share_positive", "median_vol"):
+            for m in ("median_return", "share_positive", "median_vol", "p10_return"):
                 lo, hi = row["ci"][m]["ci"]
                 assert lo <= row[m] <= hi, (row["label"], m, lo, row[m], hi)
 
@@ -130,7 +130,7 @@ class TestSensitivity:
         md = report(Ticker("^T", "Test", "index"), prices, res)
         for r in res:
             assert r["name"] in md
-        assert md.count("| Variant |") == 3
+        assert md.count("| Variant |") == 4  # median, 10th percentile, share up, volatility
         assert "nan" not in md.lower()
 
     def test_cell_marks_star_only_when_gap_excludes_zero(self):

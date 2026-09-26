@@ -238,6 +238,27 @@
     return out;
   }
 
+  // Only for volatility: it is the label with a result that holds up across
+  // markets. The sentence says "not clearly different" when the row has no
+  // asterisk, so it never claims more than the table shows.
+  function todayVolHTML(p) {
+    const st = p.stats;
+    const lab = p.latest.vol_regime;
+    const r = st && st.vol && st.vol.find((x) => x.label === lab);
+    const base = st && st.all && st.all.median_vol;
+    if (!r || !isNum(r.median_vol) || !isNum(base) || !VOL[lab]) return "";
+    const h = st.horizon_days || 21;
+    const gap = r.ci && r.ci.median_vol && r.ci.median_vol.gap_ci;
+    const band = { low: "low", mid: "middle", high: "high" }[lab];
+    let verb = "not clearly different from";
+    if (gap && gap[0] > 0) verb = "higher than";
+    else if (gap && gap[1] < 0) verb = "lower than";
+    return `<div class="regime-radar__today-line">
+      In the past, days in the ${band} volatility band were followed by a median volatility of
+      ${fmtPct(r.median_vol)} over the next ${h} trading days, ${verb} ${fmtPct(base)} for all days.
+    </div>`;
+  }
+
   function tableHTML(p) {
     const st = p.stats;
     if (!st || !st.all || !st.trend || !st.vol) return "";
@@ -258,26 +279,40 @@
       else if (hasCI && !isBaseline) band = `<span class="regime-radar__ci">too few episodes</span>`;
       return `<td>${fmtPct(r[m], d)}${star}${band}</td>`;
     };
+    const hasTail = st.all.p10_return !== undefined;
     const outcome = (r, isBaseline) =>
-      cell(r, "median_return", 1, isBaseline) + cell(r, "share_positive", 0, isBaseline) + cell(r, "median_vol", 1, isBaseline);
+      cell(r, "median_return", 1, isBaseline) +
+      (hasTail ? cell(r, "p10_return", 1, isBaseline) : "") +
+      cell(r, "share_positive", 0, isBaseline) +
+      cell(r, "median_vol", 1, isBaseline);
+    const nOutcome = hasTail ? 4 : 3;
 
-    const row = (r, dot, name) => `
-      <tr>
-        <th scope="row">${dot}${esc(name)}</th>
+    // Rows matching today's labels are marked, so a visitor can find "days like today".
+    const current = { trend: p.latest.trend_regime, vol: p.latest.vol_regime };
+    const row = (r, dot, name, group) => {
+      const now = current[group] === r.label;
+      return `
+      <tr${now ? ' class="is-current"' : ""}>
+        <th scope="row">${dot}${esc(name)}${now ? '<span class="regime-radar__today">today</span>' : ""}</th>
         <td>${fmtPct(r.share, 0)}</td>
         <td>${r.episodes}</td>
         <td>${r.median_length == null ? "n/a" : plural(r.median_length, "day")}</td>
-        ${r.days_with_future ? outcome(r, false) : `<td colspan="3" class="regime-radar__na">no history yet</td>`}
+        ${r.days_with_future ? outcome(r, false) : `<td colspan="${nOutcome}" class="regime-radar__na">no history yet</td>`}
       </tr>`;
+    };
     const group = (title) =>
-      `<tr class="regime-radar__group"><th scope="rowgroup" colspan="7">${esc(title)}</th></tr>`;
+      `<tr class="regime-radar__group"><th scope="rowgroup" colspan="${4 + nOutcome}">${esc(title)}</th></tr>`;
 
+    const tailNote = hasTail
+      ? ` The 10th percentile shows how bad a bad month was: one window in ten did worse.`
+      : "";
     const note = hasCI
       ? `The ranges are ${level}% intervals from resampling whole episodes rather than days, because
          neighbouring days share most of their next ${h} days and are not independent evidence.
-         An asterisk marks a gap to All days whose interval excludes zero. With eighteen cells, one
-         asterisk can turn up by luck alone, so look for a pattern rather than a single star. Rows
-         with fewer than five episodes get no range. This is the history of one market, not a forecast.`
+         An asterisk marks a gap to All days whose interval excludes zero. With this many cells, an
+         asterisk or two can turn up by luck alone, so look for a pattern rather than a single star.
+         Rows with fewer than five episodes get no range.${tailNote} This is the history of one
+         market, not a forecast.`
       : `Neighbouring days share most of their next ${h} days, so the day counts overstate how much
          independent evidence there is; the episode count is closer to the real sample size. If a row
          looks like the All days row, that label told you nothing about what came next. This is the
@@ -285,6 +320,7 @@
 
     return `
       <div class="regime-radar__table-title">What followed each regime</div>
+      ${todayVolHTML(p)}
       <div class="regime-radar__table-intro">
         Every labeled day since ${fmtDate(st.first_date)}, grouped by its label, with what happened over the next ${h} trading days.
       </div>
@@ -297,6 +333,7 @@
               <th scope="col">Episodes</th>
               <th scope="col">Median length</th>
               <th scope="col">Median return, next ${h}d</th>
+              ${hasTail ? `<th scope="col">Bad month: 10th percentile, next ${h}d</th>` : ""}
               <th scope="col">Windows that ended up</th>
               <th scope="col">Median volatility, next ${h}d</th>
             </tr>
@@ -306,9 +343,9 @@
               <th scope="row">All days</th><td>100%</td><td></td><td></td>${outcome(st.all, true)}
             </tr>
             ${group("Trend")}
-            ${st.trend.map((r) => row(r, trendDot(r.label), (TREND[r.label] || {}).name || r.label)).join("")}
+            ${st.trend.map((r) => row(r, trendDot(r.label), (TREND[r.label] || {}).name || r.label, "trend")).join("")}
             ${group("Volatility")}
-            ${st.vol.map((r) => row(r, volDot(r.label), (VOL[r.label] || {}).name || r.label)).join("")}
+            ${st.vol.map((r) => row(r, volDot(r.label), (VOL[r.label] || {}).name || r.label, "vol")).join("")}
           </tbody>
         </table>
       </div>
