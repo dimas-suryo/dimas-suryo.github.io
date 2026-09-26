@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Regime Radar: IHSG regime changes</title>
+  <subtitle>One entry each time a Regime Radar trend or volatility label switches. Regime labels describe what already happened. They are not a forecast and not investment advice.</subtitle>
+  <id>tag:dimassuryo.com,2026:regime-radar/feed-_JKSE.xml</id>
+  <link rel="self" type="application/atom+xml" href="https://dimassuryo.com/data/regime-radar/feed-_JKSE.xml" />
+  <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+  <updated>2026-09-22T00:00:00Z</updated>
+  <author>
+    <name>Dimas Suryo</name>
+  </author>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2026-09-22</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-09-22T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 22 Sep 2026 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 14.4% a year, inside the middle band of 10.7% to 14.6%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to down</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2026-06-09</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-06-09T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 9 Jun 2026 the IHSG trend label changed from sideways to down, after three trading days of down readings. Close 5,746.65, 50-day average 6,879.33, 200-day average 7,897.17. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from up to sideways</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2026-03-05</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-03-05T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 5 Mar 2026 the IHSG trend label changed from up to sideways, after three trading days of sideways readings. Close 7,710.54, 50-day average 8,500.95, 200-day average 7,954.68. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2026-01-30</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-01-30T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 30 Jan 2026 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 29.4% a year, above the high cut of 14.2%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from low to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2026-01-23</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-01-23T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 23 Jan 2026 the IHSG volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.3% a year, inside the middle band of 10.6% to 14.1%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to low</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-11-27</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-11-27T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 27 Nov 2025 the IHSG volatility label changed from mid to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 10.5% a year, below the low cut of 10.9%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-11-20</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-11-20T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 20 Nov 2025 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.7% a year, inside the middle band of 10.9% to 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-10-21</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-10-21T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 21 Oct 2025 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 17.6% a year, above the high cut of 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from low to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-10-16</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-10-16T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 16 Oct 2025 the IHSG volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.4% a year, inside the middle band of 10.9% to 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to low</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-10-10</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-10-10T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 10 Oct 2025 the IHSG volatility label changed from mid to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 9.6% a year, below the low cut of 10.9%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-10-03</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-10-03T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 3 Oct 2025 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 13.2% a year, inside the middle band of 10.9% to 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to up</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-09-30</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-09-30T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 30 Sep 2025 the IHSG trend label changed from sideways to up, after three trading days of up readings. Close 8,061.06, 50-day average 7,788.18, 200-day average 7,122.73. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-09-02</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-09-02T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 2 Sep 2025 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 14.8% a year, above the high cut of 14.4%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from low to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-08-06</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-08-06T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 6 Aug 2025 the IHSG volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.9% a year, inside the middle band of 10.9% to 14.5%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to low</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-07-25</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-07-25T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 25 Jul 2025 the IHSG volatility label changed from mid to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 9.5% a year, below the low cut of 11.0%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from down to sideways</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-07-16</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-07-16T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 16 Jul 2025 the IHSG trend label changed from down to sideways, after three trading days of sideways readings. Close 7,192.02, 50-day average 7,005.57, 200-day average 7,077.17. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to down</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-06-20</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-06-20T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 20 Jun 2025 the IHSG trend label changed from sideways to down, after three trading days of down readings. Close 6,907.14, 50-day average 6,812.26, 200-day average 7,128.59. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from down to sideways</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-06-12</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-06-12T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 12 Jun 2025 the IHSG trend label changed from down to sideways, after three trading days of sideways readings. Close 7,204.37, 50-day average 6,727.05, 200-day average 7,132.22. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to down</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-06-04</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-06-04T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 4 Jun 2025 the IHSG trend label changed from sideways to down, after three trading days of down readings. Close 7,069.04, 50-day average 6,680.76, 200-day average 7,134.03. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from down to sideways</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-05-23</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-05-23T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 23 May 2025 the IHSG trend label changed from down to sideways, after three trading days of sideways readings. Close 7,214.16, 50-day average 6,605.04, 200-day average 7,138.90. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-05-19</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-05-19T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 19 May 2025 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 12.2% a year, inside the middle band of 11.0% to 15.0%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-02-10</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-02-10T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 10 Feb 2025 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 16.0% a year, above the high cut of 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to down</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2025-01-23</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-01-23T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 23 Jan 2025 the IHSG trend label changed from sideways to down, after three trading days of down readings. Close 7,232.64, 50-day average 7,185.38, 200-day average 7,304.73. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-01-23</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-01-23T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 23 Jan 2025 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 12.5% a year, inside the middle band of 10.7% to 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-01-17</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-01-17T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 17 Jan 2025 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 15.1% a year, above the high cut of 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2025-01-10</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2025-01-10T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 10 Jan 2025 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 13.5% a year, inside the middle band of 10.7% to 14.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from up to sideways</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2024-12-17</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-12-17T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 17 Dec 2024 the IHSG trend label changed from up to sideways, after three trading days of sideways readings. Close 7,157.73, 50-day average 7,413.56, 200-day average 7,331.56. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to up</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2024-12-10</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-12-10T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 10 Dec 2024 the IHSG trend label changed from sideways to up, after three trading days of up readings. Close 7,453.29, 50-day average 7,436.55, 200-day average 7,330.02. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-12-05</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-12-05T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 5 Dec 2024 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 17.6% a year, above the high cut of 14.1%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from up to sideways</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2024-11-11</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-11-11T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 11 Nov 2024 the IHSG trend label changed from up to sideways, after three trading days of sideways readings. Close 7,266.46, 50-day average 7,634.77, 200-day average 7,327.00. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from low to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-11-11</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-11-11T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 11 Nov 2024 the IHSG volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.8% a year, inside the middle band of 10.5% to 14.1%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to low</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-11-01</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-11-01T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 1 Nov 2024 the IHSG volatility label changed from mid to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 9.5% a year, below the low cut of 10.6%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-10-23</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-10-23T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 23 Oct 2024 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 13.0% a year, inside the middle band of 10.6% to 14.2%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-10-03</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-10-03T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 3 Oct 2024 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 14.3% a year, above the high cut of 14.2%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from low to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-09-24</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-09-24T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 24 Sep 2024 the IHSG volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.1% a year, inside the middle band of 10.5% to 14.1%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to low</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-09-05</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-09-05T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 5 Sep 2024 the IHSG volatility label changed from high to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 9.5% a year, below the low cut of 10.5%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG trend changed from sideways to up</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/trend/2024-08-19</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-08-19T00:00:00Z</updated>
+    <category term="trend" />
+    <summary type="text">On 19 Aug 2024 the IHSG trend label changed from sideways to up, after three trading days of up readings. Close 7,466.83, 50-day average 7,160.82, 200-day average 7,143.97. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from low to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-08-07</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-08-07T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 7 Aug 2024 the IHSG volatility label changed from low to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 15.9% a year, above the high cut of 14.1%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from mid to low</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-07-19</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-07-19T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 19 Jul 2024 the IHSG volatility label changed from mid to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 9.5% a year, below the low cut of 10.6%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+  <entry>
+    <title>IHSG volatility changed from high to mid</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2024-07-10</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2024-07-10T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 10 Jul 2024 the IHSG volatility label changed from high to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.1% a year, inside the middle band of 10.6% to 14.1%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
+</feed>
