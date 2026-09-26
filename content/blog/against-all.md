@@ -1,5 +1,5 @@
 ---
-title: "Stop The All"
+title: "Against 'All'"
 date: 2026-04-17
 draft: false
 summary: "The world has too many loser men and too many crazy women, but the louder lesson is that absolutist slogans erase the precision we need to actually fix anything. An essay about virtue signalling, motte-and-bailey, the kafka-trap version of gender discourse, and why the smallest, hardest place to start fixing things is your own group chat."

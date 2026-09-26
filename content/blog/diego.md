@@ -1,8 +1,8 @@
 ---
-title: "Diego: Nabi Akhir Zaman dan Nubuat Masa Depan"
+title: "Diego: Manusia Akhir Zaman dan Nubuat Masa Depan"
 date: 2021-12-08
 draft: false
-summary: "Nubuat Kenabian, sebuah Pedagogi Tata Cara Hidup, bagaimana Diego memilih untuk tetap 'tinggal' di 'Society' yang sudah 'mati'."
+summary: "Pedagogi Tata Cara Hidup, bagaimana Diego memilih untuk tetap 'tinggal' di 'Society' yang sudah 'mati'."
 ---
 
 Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).

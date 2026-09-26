@@ -1,8 +1,8 @@
 ---
-title: "Communism, Libertarianism, and Feudalism"
+title: "Noble Goals, Broken Vessels"
 date: 2023-11-08
 draft: false
-summary: "Noble goals, broken vessels: what I think about communism, the future of libertarianism, and what the world is about to look like."
+summary: "What I think about communism, the future of libertarianism, and what the world is about to look like."
 ---
 
 _Epistemic status: Sections II and III lean on well-studied economics. Section IV is speculation about AI from someone with no special access to the future, and its numbers will date quickly._

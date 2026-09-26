@@ -39,7 +39,7 @@ Start with the ethno-state. My claim is that Zionism, as a state project on land
 
 Whitehead and Russell needed a few hundred pages of _Principia Mathematica_ before they could prove that 1 + 1 = 2. They never doubted the result. They wanted it to follow necessarily from basic axioms, leaving no room for "but my feelings tell me otherwise". I want to do something similar on a much smaller scale: take premises that are already on the table and show that a conclusion which looks controversial follows from them.
 
-{{< figure src="/images/blog/palestine/image3.jpeg" alt="The Organic Chemistry Tutor" caption="Ey, shout out to The Organic Chemistry Tutor man, helped me through my UTBK year" >}}
+{{< figure src="/images/blog/palestine/image3.jpeg" alt="The Organic Chemistry Tutor" caption="Courtesy of The Organic Chemistry Tutor" >}}
 
 ### The thermodynamics argument
 

@@ -20,7 +20,7 @@ Imagine you're a behavioural economist who has been asked to design a civilizati
 
 Modern behavioural science has existed for about fifty years. Our ancestors, without game theory, without Kahneman, and without Elinor Ostrom, solved this problem with what I think is one of the most elegant pieces of cognitive engineering in human history.
 
-Anthropology gives us Dunbar's number: a cognitive limit, somewhere around 150 people, on the number of stable relationships a primate brain can maintain. (The number itself is contested; a 2021 reanalysis put its 95% confidence interval anywhere from 4 to 520. But some limit clearly exists, and the argument only needs that.) Past that limit, social cohesion falls apart, because gossip and communal memory aren't enough to keep free riders from chewing through the commons.
+Anthropology gives us Dunbar's number: a cognitive limit, somewhere around 150 people, on the number of stable relationships a primate brain can maintain. (The number itself is contested; a reanalysis put its 95% confidence interval anywhere from 4 to 520. But some limit clearly exists, and the argument only needs that.) Past that limit, social cohesion falls apart, because gossip and communal memory aren't enough to keep free riders from chewing through the commons.
 
 The solution was stories about the heavens: invisible beings watching every move (cosmic CCTV, if you like), plus the reward of heaven and the eternal punishment of hell, which together calibrate the incentive structure more effectively than any police force could. Add calendars and rituals that synchronize people in time, and you get fifty thousand strangers praying at the same hour, fasting on the same day, and facing the same direction.
 
