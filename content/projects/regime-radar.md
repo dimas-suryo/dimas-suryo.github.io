@@ -23,7 +23,7 @@ The volatility label compares the last 21 trading days of realized volatility (t
 
 Both labels then pass one more filter: a label only changes after the new reading has held for three trading days in a row. Before I added this, roughly 30% of all regime spells in the IHSG data lasted one or two days, mostly readings bouncing across a cut point. The cost is that a real switch shows up two days late. When today's reading disagrees with the label, the dashboard says so and counts the days.
 
-The table under the chart is the tool checking itself. For every labeled day it looks at what happened over the following 21 trading days, then groups those outcomes by the label the day had. A label that carries information should produce a row that looks different from the All days row. Volatility clusters (calm months tend to follow calm months, turbulent ones follow turbulent ones), so the volatility rows should separate clearly in the forward volatility column. Whether the trend rows separate is the more interesting question. As of September 2026 they do not in the median return column in any of the three markets. On the S&P 500 the down rows are followed by clearly higher volatility, which fits a risk signal better than a return signal. Each cell carries a 95% interval from resampling whole episodes, and an asterisk marks a gap to All days that is outside its interval. Those intervals are still a little optimistic, because volatility clusters across episode boundaries and a forward window can spill into the next episode.
+The table under the chart is the tool checking itself. For every labeled day it looks at what happened over the following 21 trading days, then groups those outcomes by the label the day had. A label that carries information should produce a row that looks different from the All days row. Volatility clusters (calm months tend to follow calm months, turbulent ones follow turbulent ones), so the volatility rows should separate clearly in the forward volatility column. Whether the trend rows separate is the more interesting question. As of September 2026 ([what that means](/blog/one-crisis-deep/)) they do not in the median return column in any of the three markets. On the S&P 500 the down rows are followed by clearly higher volatility, which fits a risk signal better than a return signal. Each cell carries a 95% interval from resampling whole episodes, and an asterisk marks a gap to All days that is outside its interval. Those intervals are still a little optimistic, because volatility clusters across episode boundaries and a forward window can spill into the next episode.
 
 The obvious objection to any table like this is that the result might come from my choice of 50, 200 and 60. The repo includes a sensitivity script that reruns the same table with faster and slower averages, different cut points, no confirmation, a longer horizon, and each half of the history separately. If a result only shows up under one setting, I would not trust it.
 
@@ -51,17 +51,17 @@ An HMM may come back later as an experimental third panel, clearly marked as a m
 
 ## Parameters
 
-| Parameter             | Value                                    | Why                                                                                                  |
-| --------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Volatility window     | 21 trading days                          | About one month                                                                                      |
-| Volatility cut points | 33rd and 67th percentile                 | Thirds of the baseline window                                                                        |
-| Volatility baseline   | 1,260 trading days (5 years)             | Long enough to contain a full stress episode, short enough to adapt when a market changes            |
-| Short average         | 50 days                                  | Common convention                                                                                    |
-| Long average          | 200 days                                 | The most widely used long-run trend filter; the 10-month average in Faber (2007) is about as long    |
-| Slope window          | 60 days                                  | About one quarter                                                                                    |
-| Confirmation          | 3 days                                   | Removes one- and two-day flips; real switches show up two days late                                  |
-| History               | From 2000, or as far back as Yahoo goes  | The first five years go into the volatility baseline, so labels start about five years later         |
-| Refresh               | 05:30 WIB, Monday to Friday              | After the US close and before the IDX opens                                                          |
+| Parameter             | Value                                   | Why                                                                                               |
+| --------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Volatility window     | 21 trading days                         | About one month                                                                                   |
+| Volatility cut points | 33rd and 67th percentile                | Thirds of the baseline window                                                                     |
+| Volatility baseline   | 1,260 trading days (5 years)            | Long enough to contain a full stress episode, short enough to adapt when a market changes         |
+| Short average         | 50 days                                 | Common convention                                                                                 |
+| Long average          | 200 days                                | The most widely used long-run trend filter; the 10-month average in Faber (2007) is about as long |
+| Slope window          | 60 days                                 | About one quarter                                                                                 |
+| Confirmation          | 3 days                                  | Removes one- and two-day flips; real switches show up two days late                               |
+| History               | From 2000, or as far back as Yahoo goes | The first five years go into the volatility baseline, so labels start about five years later      |
+| Refresh               | 05:30 WIB, Monday to Friday             | After the US close and before the IDX opens                                                       |
 
 All of these live in the `PARAMS` dict in [`tools/regime_radar/build.py`](https://github.com/dimas-suryo/dimas-suryo.github.io/blob/main/tools/regime_radar/build.py), and every JSON file records the values that produced it. To test a different rule, fork the repo and change one number.
 
