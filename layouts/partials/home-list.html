@@ -1,0 +1,37 @@
+{{- /*
+  Curated homepage list.
+  items:   [[params.home.writing]] or [[params.home.projects]] from hugo.toml,
+           each with `page` (content path) and an optional `note`.
+  section: fallback section if the list is empty (shows the 5 newest, as before).
+  A path that doesn't resolve (typo, renamed file, draft) prints a build warning.
+*/ -}}
+{{- $items := .items -}}
+{{- $section := .section -}}
+<ul class="home-list">
+  {{- if $items }}
+    {{- range $items }}
+      {{- $note := .note }}
+      {{- $path := .page }}
+      {{- with site.GetPage $path }}
+        {{- $href := .RelPermalink }}
+        {{- with .Params.external_url }}{{ $href = . }}{{ end }}
+  <li>
+    <a href="{{ $href }}">{{ .Title }}</a>
+    {{- with $note }}
+    <span class="home-note">{{ . }}</span>
+    {{- end }}
+    {{- with .Params.homepage_badge }}{{ partial (printf "badges/%s.html" .) . }}{{ end }}
+  </li>
+      {{- else }}
+        {{- warnf "homepage: featured page %q not found (check hugo.toml [params.home])" $path }}
+      {{- end }}
+    {{- end }}
+  {{- else }}
+    {{- range first 5 (where site.RegularPages "Section" $section).ByDate.Reverse }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- with .Params.homepage_badge }}{{ partial (printf "badges/%s.html" .) . }}{{ end }}
+  </li>
+    {{- end }}
+  {{- end }}
+</ul>

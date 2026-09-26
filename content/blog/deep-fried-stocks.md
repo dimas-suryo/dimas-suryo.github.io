@@ -6,10 +6,6 @@ aliases: ["/blog/saham-gorengan/", "/blog/pump-and-dump-stocks/"]
 summary: "The modern romance market is broken because perceived value on both sides has drifted away from intrinsic value, and the men who subsidize the market unconditionally have erased every feedback loop that could correct it. The Lindy fix is the old principle of kafa'ah: match on epistemology, values, trajectory, and emotional capacity, and stop chasing whoever sits highest."
 ---
 
-{{< figure src="/images/blog/deep-fried-stocks/image1.png" alt="How Women Rate Men on okcupid.com" caption="How Women Rate Men on okcupid.com" >}}
-
-{{< figure src="/images/blog/deep-fried-stocks/image2.png" alt="How Men Rate Women on okcupid.com" caption="How Men Rate Women on okcupid.com" >}}
-
 _Epistemic status: I was twenty when I wrote this, not long after the end of a relationship that was both exquisite and agonizing. Discount for recency bias, negativity bias, and a sample size of one. I flag the weakest parts of the evidence as I go._
 
 The short version: the modern romance market is broken by miscalibration. Perceived value on both sides has drifted far from intrinsic value, pushed up by four distortions (friendship echo chambers, cross-tier anchoring, social media, and pornography), and the feedback that should pull it back gets absorbed by men who hand out attention, resources, and commitment with no reciprocity attached. Hypergamy, which usually gets the blame, is a healthy mechanism. The fix I propose is kafa'ah (sekufu), a mate-selection principle that has been Lindy for fourteen hundred years: match with an equal in how you think, what you value, where you're going, and how you handle emotion.
@@ -44,7 +40,11 @@ The chart above (US Census data on childless cohabiting couples where the man ea
 
 - Hitsch, Hortaçsu & Ariely (2010) estimated mate preferences from online-dating data. The weight people put on looks barely differed by sex, but women put about twice as much weight on a partner's income as men did, and showed a strong preference for tall and educated partners. (doi 10.1257/aer.100.1.130)
 
-The two charts at the top of this post are an older, cruder version of the same kind of data. In 2009, OkCupid's data blog reported that women on the site rated about 80% of men as worse-looking than medium, while men's ratings of women formed a symmetric curve (Christian Rudder, "Your Looks and Your Inbox"). The same post has a detail that's awkward for anyone who wants to blame women: women's messages aimed only slightly above the curve, while two-thirds of men's messages went to the best-looking third of women. I'll come back to that, because I think it's the subsidy problem in miniature.
+{{< figure src="/images/blog/deep-fried-stocks/image1.png" alt="How Women Rate Men on okcupid.com" caption="How Women Rate Men on okcupid.com" >}}
+
+{{< figure src="/images/blog/deep-fried-stocks/image2.png" alt="How Men Rate Women on okcupid.com" caption="How Men Rate Women on okcupid.com" >}}
+
+The two charts above are an older, cruder version of the same kind of data. In 2009, OkCupid's data blog reported that women on the site rated about 80% of men as worse-looking than medium, while men's ratings of women formed a symmetric curve (Christian Rudder, "Your Looks and Your Inbox"). The same post has a detail that's awkward for anyone who wants to blame women: women's messages aimed only slightly above the curve, while two-thirds of men's messages went to the best-looking third of women. I'll come back to that, because I think it's the subsidy problem in miniature.
 
 Under natural conditions, hypergamy is a healthy selection mechanism, and a working selective system should produce pairings that are calibrated to reality. The trouble is that several distortions have left people miscalibrated about their own position in the hierarchy, on both sides of the market.
 
@@ -168,7 +168,7 @@ The diagnostic questions: can he argue without attacking your character? Can he 
 
 John Gottman's research on couples is useful here. The couples he calls the masters of relationships fight too; the difference is that they fight productively, and I think the capacity to fight productively is closely tied to epistemic equality. It means two people can treat a conflict as a shared problem to solve rather than a zero-sum war.
 
-Epistemic incompatibility creates frustration that can't be resolved. If you approach conflict with logic and data while your partner approaches it with emotional manipulation, no repair mechanism will work, because the two of you are running communication protocols that are fundamentally incompatible.
+Epistemic incompatibility creates frustration that can't be resolved, because the two of you are running communication protocols that are fundamentally incompatible, and no repair mechanism works across that gap.
 
 #### B. Values sekufu: equality in the moral compass
 

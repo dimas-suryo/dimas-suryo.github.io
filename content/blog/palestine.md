@@ -31,7 +31,7 @@ The two-state side deserves the same treatment. Its best argument says that two 
 
 I grant both arguments in full. What I want to show is that even if you accept the strongest version of each, the conclusion comes out the same.
 
-{{< figure src="/images/blog/palestine/image2.jpeg" alt="Mapping how Israel's land grabs are reshaping the occupied West Bank" caption="<a href=&quot;https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank&quot;>Mapping how Israel's land grabs are reshaping the occupied West Bank</a> (Al Jazeera, 2025)" >}}
+{{< figure src="/images/blog/palestine/image2.jpeg" alt="Mapping how Israel's land grabs are reshaping the occupied West Bank" caption="[Mapping how Israel's land grabs are reshaping the occupied West Bank](https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank) (Al Jazeera, 2025)" >}}
 
 ## II.
 
@@ -127,7 +127,7 @@ _S(Palestinians) ∧ ¬S(Palestinians) ⊢ ⊥_
 
 The usual reply is that the historical situations are different and the claims aren't apples to apples. I don't think that rescues the principle. What the reply actually does is redefine _P_ and _H_, adding conditions until only Jews qualify. That's an ad hoc modification, extra assumptions added to protect a conclusion you already wanted, and catching exactly that move is what the universalizability test is for. A principle that only works for one case is an exception wearing a principle's clothes.
 
-_Quod erat demonstrandum._
+_That's my best guess._
 
 ## III.
 
@@ -229,7 +229,7 @@ South Africa (1994). The transition from an apartheid ethno-state to a democrati
 
 Northern Ireland and the Good Friday Agreement (1998). A conflict between Catholic nationalists and Protestant unionists that had run for centuries was settled by constitutional power-sharing, a legally guaranteed distribution of power, without drawing a new border through anyone's town.
 
-Two cases don't make a dataset, but they point the same way: identity conflicts have ended through institutional integration more often than through partition. I'd treat that as a strong prior while admitting it's no guarantee.
+Two cases don't make a dataset, but they point the same way: identity conflicts have ended through institutional integration more often than through partition. I'd treat that as a strong prior while admitting it's no guarantee, and Section VIII is where I push back on it.
 
 ## VI.
 
@@ -265,13 +265,25 @@ That's an argument about how to get there, and it's the problem the second bound
 
 ## VIII.
 
-{{< figure src="/images/blog/palestine/image15.jpeg" alt="xkcd Car Size" caption="<a href=&quot;https://xkcd.com/3167/&quot;>xkcd: Car Size</a>" >}}
+The strongest objection to this essay is that I hold the two-state solution to a standard I never apply to my own proposal.
+
+In Section III, two-state fails because nobody has ever peacefully unwound a settlement this large and this entangled. Fair enough. But nobody has ever built a single democratic state out of two national groups of roughly equal size, straight out of decades of war, where most people on each side say they don't want one either. If "no precedent" is enough to rule out _T_, it should at least dent _O_, and I didn't let it.
+
+My two precedents carry less than I claimed, too. In South Africa, the white minority was well under a fifth of the population, so the transition was a majority taking power from a minority, which is a different problem from two roughly equal halves sharing it. Northern Ireland is worse for me. The Good Friday Agreement didn't merge anything into one state; it built power-sharing inside a territory that exists because of a partition in 1921, and it left the constitutional question to future referendums. If anything, it's evidence for partition plus power-sharing, which sounds a lot like the confederation I dismissed in a single paragraph.
+
+The same goes for A₅. I listed political will as an assumption the two-state solution needs, and one state needs it at least as much: the Israeli Jewish public would have to agree to give up a Jewish-majority state, and nothing in the polling I've seen suggests that's close.
+
+What survives, I think, is something smaller. The options differ in where their hardest problem sits. Two-state's is physical: roads, water, grids, and hundreds of thousands of people wired into them, and it gets harder to reverse every year. One state's is political: consent, trust, and institutions that don't exist yet. Political conditions have sometimes changed within a decade in ways infrastructure rarely does, which is why I still lean toward _O_. But that's a judgement about which improbable thing is less improbable, and it doesn't deserve the word "proven".
+
+## IX.
+
+{{< figure src="/images/blog/palestine/image15.jpeg" alt="xkcd Car Size" caption="[xkcd: Car Size](https://xkcd.com/3167/)" >}}
 
 Both sides tend to call the one-state idea utopian, and the Israeli and Western side often adds that it's "anti-Zionist". I think that framing misses what the argument is doing. To restate it: this is a process of elimination, and morality doesn't do any of the work.
 
-On the a priori side, the ethno-state fails the universalizability test and has no steady state, the two-state solution fails on a conjunction of assumptions it can't meet, and the state as currently driven by Zionism isn't antifragile and carries significant ruin risk. On the a posteriori side, there's a 50/50 demographic split, more than 700,000 settlers wired into the infrastructure, and the base rates from South Africa and Northern Ireland. Everything points the same way.
+On the a priori side, the ethno-state fails the universalizability test and has no steady state, the two-state solution fails on a conjunction of assumptions it can't meet, and the state as currently driven by Zionism isn't antifragile and carries significant ruin risk. On the a posteriori side, there's a 50/50 demographic split, more than 700,000 settlers wired into the infrastructure, and the base rates from South Africa and Northern Ireland, for whatever they're worth after Section VIII. Most of it points the same way.
 
-If two options have been eliminated, logically and empirically, what's left is the third. It has plenty of problems (Sections VI and VII are basically a list of them), but it's the only one that isn't structurally doomed from the start.
+If two options fall, logically and empirically, what's left is the third. It has plenty of problems (Sections VI and VII are basically a list of them), but it's the only one that isn't structurally doomed from the start.
 
 Maybe this is how peace actually works. Nobody has to become kind; the system has to make violence irrational and cooperation the only sensible move. The maths doesn't need anyone to love anyone. It only needs destroying the other side to mean destroying yourself.
 
@@ -283,17 +295,17 @@ where _E_ = ethno-state, _T_ = two-state, _O_ = One-State Democratic Secular.
 
 From Section II,
 
-_¬E. Proven. Cannot reach steady state. Generates ⊥ via universalisability._
+_¬E. My best guess: cannot reach steady state, and generates ⊥ via universalisability._
 
 From Section III,
 
-_¬T. Proven. ¬A₁ ⊢ ¬S. Infrastructure is not reversible._
+_¬T. My best guess: ¬A₁ ⊢ ¬S, because the infrastructure is not reversible._
 
 By disjunctive syllogism,
 
 _E ∨ T ∨ O, ¬E, ¬T ⊢ O_
 
-This is a deductively valid inference, with no probability or induction required. If you accept the exhaustive disjunction and both negations, _O_ follows necessarily.
+The inference is valid, in the sense that if you accept the exhaustive disjunction and both negations, _O_ follows. Whether it's sound depends on those premises, and after Section VIII I'd call them my best guess rather than proofs.
 
 Notice what the argument never needed: class analysis, the colonial-imperialist narrative, theology, or a moralizing shouting match. A One-State Democratic-Secular Palestine is the option that, analyzed this way, doesn't collapse under the weight of its own assumptions.
 

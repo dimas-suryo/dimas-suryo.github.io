@@ -29,26 +29,13 @@
 
   <section id="projects">
     <h2>Projects</h2>
-    <ul>
-      {{ range first 5 (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
-        {{ $href := .RelPermalink }}
-        {{ with .Params.external_url }}{{ $href = . }}{{ end }}
-        <li>
-          <a href="{{ $href }}">{{ .Title }}</a>
-          {{ with .Params.homepage_badge }}{{ partial (printf "badges/%s.html" .) $ }}{{ end }}
-        </li>
-      {{ end }}
-    </ul>
+    {{ partial "home-list.html" (dict "items" site.Params.home.projects "section" "projects") }}
     <p><a href="/projects/">View all projects →</a></p>
   </section>
 
   <section id="blog">
     <h2>Blog</h2>
-    <ul>
-      {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
+    {{ partial "home-list.html" (dict "items" site.Params.home.writing "section" "blog") }}
     <p><a href="/blog/">View all posts →</a></p>
   </section>
 

@@ -16,7 +16,7 @@ This essay isn't about them, though.
 
 It's about what happened next: the wave of Instagram stories, Twitter threads, and LinkedIn posts after the news broke, from people who suddenly needed to declare their position on sexual harassment, as if anyone had been confused about it, and especially from the men who wrote long paragraphs about rape culture, toxic masculinity, and how "we as men need to introspect".
 
-I happen to know (know, rather than suspect) that a non-trivial number of those men do the exact same thing in their own group chats. Theirs just haven't leaked yet.
+None of those posts tells you what the poster's own group chat looks like, and that gap is what this essay is about.
 
 ## II.
 

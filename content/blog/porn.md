@@ -109,7 +109,7 @@ The traditional pornography industry is a Bob Rubin trade.
 
 Studio executives and platform owners at companies like Aylo (called MindGeek until 2023, and the parent company of Pornhub, Brazzers, and dozens of other brands) capture most of the economic value. Performers bear most of the risk: physical risk such as STI exposure and injury, reputational risk from permanent and searchable digital records, psychological risk, and economic risk from short careers, minimal residuals, and few options for moving into other work.
 
-Performers have reported that insisting on a condom can cost them the job, and one content analysis found condoms in about 3% of heterosexual vaginal-sex scenes. When your ability to pay rent depends on accepting a specific physical risk, the word "consent" is doing a lot of heavy lifting. I'd call that economic coercion.
+Performers have reported that insisting on a condom can cost them the job, and one content analysis of US films from 2005 and 2006 found condoms in 3% of heterosexual vaginal-sex scenes (Grudzen et al., 2009). When your ability to pay rent depends on accepting a specific physical risk, the word "consent" is doing a lot of heavy lifting. I'd call that economic coercion.
 
 The clearest case is the Pornhub scandal documented by Nicholas Kristof in the _New York Times_ in December 2020. Videos of child sexual abuse and non-consensually filmed assault had been hosted and monetized on the platform for years, while victims repeatedly asked for removal and were ignored. Within days of the column, Mastercard cut Pornhub off and Visa suspended payments, and Pornhub then removed roughly nine million unverified videos, more than half its library. It acted under financial pressure, and only after the fact. That's a systemic accountability failure by the largest platform in the industry.
 
@@ -123,7 +123,7 @@ This is where it gets complicated, and where I have to weaken my own case somewh
 
 OnlyFans represents a structurally different model. Creators own their means of production, a camera and an internet connection. They set their own prices, decide their own content, keep direct relationships with their audience, and keep a much larger share of revenue (OnlyFans takes 20%) than studio performers ever did.
 
-Aella, a sex worker and prominent rationalist blogger, makes an argument that's hard to dismiss. In a 2022 interview with Reason, she compared her current work, which she chose, controls, and profits from directly, with her earlier job in a factory: waking at 4:30 a.m. for repetitive assembly-line tasks, often 54 hours a week. She asks why people talk about "survival sex work" but not "survival factory work". The framing in which sex work is uniquely degrading while factory labour is merely unfortunate relies on assumptions that deserve examination.
+Aella, a sex worker and prominent rationalist blogger, makes an argument that's hard to dismiss. In a 2022 interview with John Stossel, she compared her current work, which she chose, controls, and profits from directly, with the assembly-line job she took after leaving home at 17, and asked where the people worried about her exploitation had been when she was working in the factory. The framing in which sex work is uniquely degrading while factory labour is merely unfortunate relies on assumptions that deserve examination.
 
 From a skin-in-the-game perspective, OnlyFans is structurally better than the studio model in several ways. The creator bears risk but also captures the reward. There's no executive class extracting value while pushing the consequences onto someone else. The creator decides what to produce, when, and for whom. This is closer to the artisan model Taleb admires, someone with "soul in the game" who has a stake in the outcome of their own work.
 
@@ -133,27 +133,11 @@ There's also a question I don't have a confident answer to. Does OnlyFans, by re
 
 ## IX.
 
-### Sex work more broadly
-
-I've been arguing that pornography, specifically the mass consumption of industrially produced or algorithmically distributed sexual content, has aggregate effects concerning enough to warrant individual cessation and serious policy attention. I'm not making the same argument about sex work in general, and here's why.
-
-Sex work, the direct exchange of sexual services between individuals, runs on different mechanisms. It lacks the features that worry me most about pornography: algorithmic escalation, infinite free content training the reward system toward tolerance, and parasocial relationships standing in for intimacy. The transaction is between two people who are physically present with each other, which creates a kind of accountability (skin in the game, if you like) that mediated consumption removes.
-
-Sex work has serious problems of its own: trafficking, economic coercion, and endemic violence against sex workers, which criminalization makes worse by keeping workers from seeking police protection. I think these are mostly problems of policy rather than of the act itself. In Taleb's language they come from fragility in the system's design, and they have known remedies (decriminalization, labour protections, de-stigmatization) that the evidence broadly supports.
-
-The rationalist writers I've read mostly support decriminalizing sex work, and they're not naive about the harms; the consequentialist evidence points that way. The largest systematic review I know of, Platt et al. (2018), pooled 134 studies from 33 countries and found that repressive policing of sex workers went with about three times the odds of sexual or physical violence against them. On the outcomes that matter most to sex workers themselves, criminalization seems to make things worse.
-
-The Lindy argument supports this too. Prostitution has existed for millennia, and the societies that managed it best were generally those that regulated it instead of prohibiting it.
-
-So my position, which I hold with varying levels of confidence, is roughly this. First, sex work between consenting adults should probably be decriminalized and regulated. Second, the production and mass distribution of pornographic content raise different and more concerning questions that the sex work debate doesn't resolve. Third, mass consumption of internet pornography is an experiment at population scale whose results look increasingly unfavourable. These are three different questions, and conflating them, which both sides of the debate do constantly, makes all three harder to answer.
-
-## X.
-
 ### What I think the evidence actually demands
 
 Let me say what I'm not arguing. I'm not arguing for legal prohibition: prohibiting a vice tends to drive it underground and make conditions worse for the most vulnerable. Nor do I think every person who watches pornography is damaged or culpable, or that desire is shameful.
 
-What I am arguing is that the evidence describes a system with asymmetric downside risk. The neurological associations with heavy use are suggestive, if thinly replicated. The association with sexual aggression shows up across countries and in longitudinal as well as cross-sectional studies. The traditional industry structurally undermines the consent it claims to operate on. And the content is free, ubiquitous, and increasingly the main sexual education for adolescents who have no framework to put it in context; in Common Sense Media's 2022 survey, nearly three-quarters of American 13- to 17-year-olds had seen it.
+What I am arguing is that the evidence describes a system with asymmetric downside risk. The neurological associations with heavy use are suggestive, if thinly replicated. The association with sexual aggression shows up across countries and in longitudinal as well as cross-sectional studies. The traditional industry structurally undermines the consent it claims to operate on. And the content is free, ubiquitous, and increasingly the main sexual education for adolescents who have no framework to put it in context; in a Common Sense Media survey fielded in 2022, nearly three-quarters of American 13- to 17-year-olds had seen it.
 
 I'm borrowing from Taleb here, with a caveat: his precautionary principle is meant for risks of systemic ruin, and pornography isn't that. The weaker version I'd defend is that when a stimulus is new, enormous in scale, and hard to undo (possible changes to the reward system, normalized aggression, coercion laundered as consent), the burden of proof should sit with the people insisting there's no problem.
 
@@ -165,20 +149,46 @@ So, to the reader who sorted me into the religious-prude box back in Section I: 
 
 ## References
 
-1. Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption. _JAMA Psychiatry_, 71(7), 827–834.
+1. American Psychiatric Association. (2013). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed.).
 
-2. Hilton, D. L., & Watts, C. (2011). Pornography addiction, a neuroscience perspective. _Surgical Neurology International_, 2, 19.
+2. Conard, N. J. (2009). A female figurine from the basal Aurignacian of Hohle Fels Cave in southwestern Germany. _Nature_, 459, 248–252.
 
-3. Wright, P. J., Tokunaga, R. S., & Kraus, A. (2016). A meta-analysis of pornography consumption and actual acts of sexual aggression in general population studies. _Journal of Communication_, 66(1), 183–205.
+3. Diamond, M., Jozifkova, E., & Weiss, P. (2011). Pornography and sex crimes in the Czech Republic. _Archives of Sexual Behavior_, 40(5), 1037–1043.
 
-4. Hald, G. M., Malamuth, N. M., & Yuen, C. (2010). Pornography and attitudes supporting violence against women, revisiting the relationship in nonexperimental studies. _Aggressive Behavior_, 36(1), 14–20.
+4. Fritz, N., Malic, V., Paul, B., & Zhou, Y. (2020). A descriptive analysis of the types, targets, and relative frequency of aggression in mainstream pornography. _Archives of Sexual Behavior_, 49(8), 3041–3053.
 
-5. Malamuth, N. M., Addison, T., & Koss, M. (2000). Pornography and sexual aggression, are there reliable effects and can we understand them? _Annual Review of Sex Research_, 11(1), 26–91.
+5. Grubbs, J. B., Perry, S. L., Wilt, J. A., & Reid, R. C. (2019). Pornography problems due to moral incongruence: An integrative model with a systematic review and meta-analysis. _Archives of Sexual Behavior_, 48(2), 397–415.
 
-6. Farley, M., et al. (2003). Prostitution and trafficking in nine countries. _Journal of Trauma Practice_, 2(3–4), 33–74.
+6. Grudzen, C. R., Elliott, M. N., Kerndt, P. R., Schuster, M. A., Brook, R. H., & Gelberg, L. (2009). Condom use and high-risk sexual acts in adult films: A comparison of heterosexual and homosexual films. _American Journal of Public Health_, 99(S1), S152–S156.
 
-7. Hald, G. M., Malamuth, N. M., & Lange, T. (2013). Pornography and sexist attitudes among heterosexuals. _Journal of Communication_, 63(4), 638–660.
+7. Hald, G. M., Malamuth, N. M., & Yuen, C. (2010). Pornography and attitudes supporting violence against women: Revisiting the relationship in nonexperimental studies. _Aggressive Behavior_, 36(1), 14–20.
 
-8. Taleb, N. N. (2012). _Antifragile. Things That Gain from Disorder._ Random House.
+8. Kristof, N. (2020, December 4). The children of Pornhub. _The New York Times_.
 
-9. Taleb, N. N. (2018). _Skin in the Game. Hidden Asymmetries in Daily Life._ Random House.
+9. Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption: The brain on porn. _JAMA Psychiatry_, 71(7), 827–834.
+
+10. Kutchinsky, B. (1973). The effect of easy availability of pornography on the incidence of sex crimes: The Danish experience. _Journal of Social Issues_, 29(3), 163–181.
+
+11. Ley, D., Prause, N., & Finn, P. (2014). The emperor has no clothes: A review of the "pornography addiction" model. _Current Sexual Health Reports_, 6(2), 94–105.
+
+12. Malamuth, N. M., Addison, T., & Koss, M. (2000). Pornography and sexual aggression: Are there reliable effects and can we understand them? _Annual Review of Sex Research_, 11, 26–91.
+
+13. Malamuth, N. M., Hald, G. M., & Koss, M. (2012). Pornography, individual differences in risk and men's acceptance of violence against women in a representative sample. _Sex Roles_, 66(7–8), 427–439.
+
+14. Robb, M. B., & Mann, S. (2023). _Teens and Pornography_. Common Sense Media.
+
+15. Rostad, W. L., Gittins-Stone, D., Huntington, C., Rizzo, C. J., Pearlman, D., & Orchowski, L. (2019). The association between exposure to violent pornography and teen dating violence in grade 10 high school students. _Archives of Sexual Behavior_, 48(7), 2137–2147.
+
+16. Stossel, J. (2022, September 14). Sex work. Creators Syndicate.
+
+17. Taleb, N. N. (2012). _Antifragile: Things That Gain from Disorder_. Random House.
+
+18. Taleb, N. N. (2018). _Skin in the Game: Hidden Asymmetries in Daily Life_. Random House.
+
+19. Taleb, N. N., Read, R., Douady, R., Norman, J., & Bar-Yam, Y. (2014). The precautionary principle (with application to the genetic modification of organisms). arXiv:1410.5787.
+
+20. World Health Organization. (2019). _ICD-11_, 6C72: Compulsive sexual behaviour disorder.
+
+21. Wright, P. J., Tokunaga, R. S., & Kraus, A. (2016). A meta-analysis of pornography consumption and actual acts of sexual aggression in general population studies. _Journal of Communication_, 66(1), 183–205.
+
+22. Ybarra, M. L., Mitchell, K. J., Hamburger, M., Diener-West, M., & Leaf, P. J. (2011). X-rated material and perpetration of sexually aggressive behavior among children and adolescents: Is there a link? _Aggressive Behavior_, 37(1), 1–18.

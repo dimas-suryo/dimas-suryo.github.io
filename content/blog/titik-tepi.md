@@ -7,7 +7,7 @@ summary: "Di Jakarta tahun 2031, seorang analis keuangan bernama Diego menyabota
 
 Prequel dari [Diego: Nabi Akhir Zaman dan Nubuat Masa Depan](/blog/diego/).
 
-{{< figure src="/images/blog/titik-tepi/image1.png" alt="Credit to nagafujiriku" caption="<em>Credit to <a href=&quot;https://www.instagram.com/nagafujiriku/&quot;>nagafujiriku</a></em>" >}}
+{{< figure src="/images/blog/titik-tepi/image1.png" alt="Credit to nagafujiriku" caption="_Credit to [nagafujiriku](https://www.instagram.com/nagafujiriku/)_" >}}
 
 Di lantai 56 Treasury Tower, kawasan SCBD, keheningan adalah produk dari insulasi akustik seharga miliaran rupiah, yang dirancang untuk memisahkan para dewa finansial dari dengung keputusasaan kota di bawah mereka.
 
