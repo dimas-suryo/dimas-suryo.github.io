@@ -1,0 +1,12 @@
+# Simpan semua file teks dengan line ending LF (di repo & working tree),
+# supaya git nggak nunjukin file "modified" cuma karena CRLF dari Windows.
+* text=auto eol=lf
+
+# Binary: jangan pernah di-convert
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary

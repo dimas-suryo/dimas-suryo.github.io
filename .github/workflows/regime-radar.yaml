@@ -4,18 +4,27 @@ name: regime-radar daily
 # Hari-of-week 0-4 (bukan 1-5) supaya UTC Sunday → WIB Monday morning refresh
 # tetap ter-cover. Cron 1-5 sebelumnya keliru: skip Minggu UTC → Senin WIB stale.
 # workflow_dispatch supaya bisa di-trigger manual dari UI.
+# push (paths) supaya data langsung di-build ulang tiap kali kode tool/workflow berubah.
 #
-# Catatan loop: workflow ini TIDAK trigger pada push, jadi commit dari workflow ini
-# tidak men-trigger ulang dirinya sendiri. Tapi push akan trigger hugo.yaml — yang
-# memang kita mau, supaya Pages re-deploy dengan data baru. Self-healing.
+# Catatan loop & deploy: push yang pakai GITHUB_TOKEN TIDAK men-trigger workflow
+# lain (termasuk hugo.yaml via `on: push`). Jadi commit data dari sini aman dari
+# loop, tapi juga tidak otomatis re-deploy Pages. Karena itu step terakhir
+# memanggil hugo.yaml lewat workflow_dispatch, satu-satunya jenis event dari
+# GITHUB_TOKEN yang tetap dieksekusi.
 
 on:
   schedule:
     - cron: "30 22 * * 0-4"
+  push:
+    branches: [main]
+    paths:
+      - "tools/regime_radar/**"
+      - ".github/workflows/regime-radar.yaml"
   workflow_dispatch: {}
 
 permissions:
-  contents: write  # untuk git push hasil
+  contents: write # untuk git push hasil
+  actions: write # untuk trigger hugo.yaml (deploy) setelah data baru di-push
 
 concurrency:
   group: regime-radar
@@ -44,13 +53,25 @@ jobs:
         run: python -m tools.regime_radar.build
 
       - name: Commit & push (only if data changed)
+        id: commit
         run: |
-          if git diff --quiet -- static/data/regime-radar/; then
+          # `git add` dulu, baru cek staged diff. `git diff` biasa tidak melihat
+          # file baru (untracked), itu sebabnya dulu JSON pertama tidak pernah
+          # ke-commit walaupun run-nya "success".
+          git add static/data/regime-radar/
+          if git diff --cached --quiet; then
             echo "No data changes; nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add static/data/regime-radar/
           git commit -m "data: regime-radar refresh ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin main
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger deploy (hugo.yaml)
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run hugo.yaml --ref main --repo "${{ github.repository }}"

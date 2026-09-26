@@ -1,0 +1,4 @@
+# Prettier merusak sintaks Go template Hugo ({{ ... }}),
+# contoh: `date: { { .Date } }` di archetypes/projects.md.
+layouts/
+archetypes/

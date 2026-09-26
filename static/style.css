@@ -13,8 +13,6 @@ body {
   --link-color: #1da1f2;
   --nav-bg: #0f1419;
   --nav-border: #1da1f2;
-  --dropdown-bg: #1da1f2;
-  --dropdown-shadow: rgba(0, 0, 0, 0.5);
   --footer-bg: #0f1419;
 }
 
@@ -24,8 +22,6 @@ body {
   --link-color: #007acc;
   --nav-bg: #ffffff;
   --nav-border: #eee;
-  --dropdown-bg: #ffffff;
-  --dropdown-shadow: rgba(0, 0, 0, 0.2);
   --footer-bg: #f9f9f9;
 }
 
@@ -67,10 +63,6 @@ nav ul {
   display: flex;
 }
 
-nav li {
-  position: relative;
-}
-
 nav a {
   display: block;
   padding: 15px 20px;
@@ -80,30 +72,6 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--dropdown-bg);
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px var(--dropdown-shadow);
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content a {
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  color: var(--text-color);
-}
-
-.dropdown-content a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -402,21 +370,6 @@ footer {
   border-radius: 4px;
 }
 
-/* Caption from title attribute with pseudo-element */
-.blog-post .content img[title] {
-  margin-bottom: 8px;
-}
-
-.blog-post .content img[title]::after {
-  content: attr(title);
-  display: block;
-  text-align: center;
-  font-size: 0.85em;
-  font-style: italic;
-  opacity: 0.7;
-  margin-top: 8px;
-}
-
 /* === Italic (emphasis) === */
 .blog-post .content em {
   font-style: italic;
@@ -648,4 +601,61 @@ footer {
 
 .project-cta .cta-secondary:hover {
   border-color: var(--link-color);
+}
+
+/* === 404 === */
+.not-found {
+  text-align: center;
+  padding: 48px 0 8px;
+}
+
+.not-found-code {
+  font-size: 4.5em;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: var(--link-color);
+}
+
+.not-found h1 {
+  font-size: 1.8em;
+  margin: 12px 0 16px;
+}
+
+.not-found-lede {
+  max-width: 460px;
+  margin: 0 auto 40px;
+  opacity: 0.8;
+}
+
+.not-found h2 {
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.65;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 12px;
+}
+
+.not-found ul {
+  margin-bottom: 32px;
+}
+
+.not-found .project-cta {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .not-found {
+    padding-top: 24px;
+  }
+
+  .not-found-code {
+    font-size: 3.5em;
+  }
+
+  .not-found h1 {
+    font-size: 1.5em;
+  }
 }

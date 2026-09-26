@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main>
+  <section class="not-found">
+    <p class="not-found-code">404</p>
+    <h1>This page got delisted.</h1>
+    <p class="not-found-lede">
+      Either it never existed, it moved, or I renamed it (I do that a lot).
+      Here's what's still trading:
+    </p>
+
+    <h2>Latest posts</h2>
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+
+    {{ with (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
+      <h2>Projects</h2>
+      <ul>
+        {{ range . }}
+          {{ $href := .RelPermalink }}
+          {{ with .Params.external_url }}{{ $href = . }}{{ end }}
+          <li><a href="{{ $href }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+    <p class="project-cta"><a class="cta-primary" href="/">← Back home</a></p>
+  </section>
+</main>
+{{ end }}

@@ -27,7 +27,7 @@
   const VERY_STALE_DAYS = 21;
 
   function getTheme() {
-    const isLight = document.documentElement.classList.contains("light");
+    const isLight = document.body.classList.contains("light");
     return {
       isLight,
       bg: "rgba(0,0,0,0)",
@@ -228,8 +228,8 @@
         domain: [0.0, 0.42],
       },
       shapes: [
-        ...buildBands(dates, s.trend_regime, "y"),
-        ...buildBands(dates, s.vol_regime, "y2"),
+        ...buildBands(dates, s.trend_regime, "y domain"),
+        ...buildBands(dates, s.vol_regime, "y2 domain"),
       ],
     };
 

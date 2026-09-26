@@ -1,42 +1,23 @@
 {{ define "main" }}
 <main>
   <section id="blog-list">
-    <h1>Projects</h1>
-    <p class="blog-intro">
-      Tools and projects I've worked on, both personal and professional. Some
-      are open source, some are not. Some are still in development, some are no
-      longer maintained.
-    </p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="blog-intro">{{ . }}</p>{{ end }}
     <ul class="blog-cards">
-      {{ range .Pages.ByDate.Reverse }} {{ $href := .RelPermalink }} {{ $ext :=
-      false }} {{ with .Params.external_url }}{{ $href = . }}{{ $ext = true }}{{
-      end }}
-      <li class="blog-card">
-        <a
-          href="{{ $href }}"
-          {{
-          if
-          $ext
-          }}
-          target="_blank"
-          rel="noopener"
-          {{
-          end
-          }}
-        >
-          <h2>
-            {{ .Title }}{{ if $ext }} <span class="ext-mark">↗</span>{{ end }}
-          </h2>
-          <p class="date">
-            {{ .Date.Format "2 January 2006" }} {{ with .Params.status }}<span
-              class="separator"
-              >·</span
-            >
-            {{ . }}{{ end }}
-          </p>
-          <p class="summary">{{ .Summary }}</p>
-        </a>
-      </li>
+      {{ range .Pages.ByDate.Reverse }}
+        {{ $href := .RelPermalink }}
+        {{ $ext := false }}
+        {{ with .Params.external_url }}{{ $href = . }}{{ $ext = true }}{{ end }}
+        <li class="blog-card">
+          <a href="{{ $href }}"{{ if $ext }} target="_blank" rel="noopener"{{ end }}>
+            <h2>{{ .Title }}{{ if $ext }} <span class="ext-mark">↗</span>{{ end }}</h2>
+            <p class="date">
+              {{ .Date.Format "2 January 2006" }}
+              {{ with .Params.status }}<span class="separator">·</span> {{ . }}{{ end }}
+            </p>
+            <p class="summary">{{ .Summary }}</p>
+          </a>
+        </li>
       {{ end }}
     </ul>
   </section>

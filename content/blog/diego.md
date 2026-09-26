@@ -7,17 +7,17 @@ summary: "Nubuat Kenabian, sebuah Pedagogi Tata Cara Hidup, bagaimana Diego memi
 
 Sequel dari [Titik Tepi: Keniscayaan Distopian](/blog/titik-tepi/).
 
-{{< figure src="/diego-media/image1.jpeg" alt="Jalan Sudirman kosong di pagi hari, dengan drone logistik melayang rendah" caption="Jakarta, 2045 — kilometer kedelapan" >}}
+{{< figure src="/images/blog/diego/image1.jpeg" alt="Jalan Sudirman kosong di pagi hari, dengan drone logistik melayang rendah" caption="Jakarta, 2045, kilometer kedelapan" >}}
 
 ## ACT I: THE ANALOG RESISTANCE
 
 Kilometer kedelapan selalu yang paling jujur.
 
-Bukan kilometer pertama yang penuh euforia, bukan kilometer kelima yang masih bisa ditahan dengan ego. Kilometer kedelapan adalah titik ketika tubuh berhenti berbohong. Di sini paru-paru Diego terasa seperti kantong plastik yang dibakar dari dalam, dan aspal Jalan Sudirman, kosong, bersih, dan sunyi seperti kulit planet mati, memantulkan setiap langkah kakinya menjadi gema yang terdengar aneh di telinga sendiri.
+Kilometer pertama penuh euforia, dan kilometer kelima masih bisa ditahan dengan ego. Kilometer kedelapan adalah titik ketika tubuh berhenti berbohong. Di sini paru-paru Diego terasa seperti kantong plastik yang dibakar dari dalam, dan aspal Jalan Sudirman, kosong, bersih, dan sunyi seperti kulit planet mati, memantulkan setiap langkah kakinya menjadi gema yang terdengar aneh di telinga sendiri.
 
 "Kenapa lo masih di sini, Diego?"
 
-Pertanyaan itu bukan dari Singleton. Itu dari kepalanya sendiri, dan itulah yang membuatnya lebih berbahaya.
+Pertanyaan itu datang dari kepalanya sendiri, dan justru itu yang membuatnya lebih berbahaya daripada apa pun yang bisa diucapkan Singleton.
 
 Matahari jam enam pagi Jakarta tahun 2045 sudah cerah tanpa polusi, terima kasih kepada dua belas reaktor fusi mini yang tersebar di ring Jabodetabek, menghasilkan energi bersih tanpa emisi sejak 2039. Langit biru tajam seperti layar OLED dengan kecerahan 100%. Tidak ada asap knalpot, tidak ada debu konstruksi. Kota ini sempurna secara teknis, dan menyeramkan secara spiritual.
 
@@ -25,9 +25,9 @@ Diego menyeka keringat dari dahinya dengan punggung tangan. Keringat itu nyata. 
 
 Di trotoar sebelah kanan, sebuah drone logistik melayang rendah melewatinya, senyap seperti hantu, mengantarkan entah apa ke gedung apartemen yang lampunya tidak pernah padam tapi juga tidak pernah ada tanda penghuninya keluar. Diego tahu isinya. Pasta nutrisi sintetis berkadar protein 40 gram, suplemen mikro-mineral, cairan elektrolit, semua diformulasikan sempurna oleh Singleton untuk menjaga tubuh-tubuh yang terbaring di kapsul itu tetap hidup dan sehat secara biologis.
 
-Sehat secara biologis. Mati secara manusiawi.
+Sehat secara biologis, tetapi mati sebagai manusia.
 
-Diego mempercepat langkah. Bukan karena ada yang mengejarnya, tapi karena rasa sakit yang meningkat itu, panas di betis, tekanan di lutut, oksigen yang terasa mahal, adalah satu-satunya cara ia tahu bahwa sistem sarafnya masih miliknya sendiri. Bahwa setiap sinyal yang diterima otaknya adalah keluaran dari realitas, bukan dari perender komputer kuantum berkecepatan 10¹⁸ iterasi per detik.
+Diego mempercepat langkah. Tidak ada yang mengejarnya; rasa sakit yang meningkat itu, panas di betis, tekanan di lutut, oksigen yang terasa mahal, adalah satu-satunya cara ia tahu bahwa sistem sarafnya masih miliknya sendiri. Bahwa setiap sinyal yang diterima otaknya adalah keluaran dari realitas, bukan dari perender komputer kuantum berkecepatan 10¹⁸ iterasi per detik.
 
 Kilometer sembilan.
 
@@ -37,7 +37,7 @@ Di perempatan Semanggi yang dulu macet total setiap pagi, Diego berhenti sejenak
 
 Diego meludah ke aspal. Lalu berlari lagi.
 
-{{< figure src="/diego-media/image2.jpeg" alt="Apartemen Runa di lantai 31, kapsul biomedis dengan 47 elektroda" caption="Unit 31-C: Runa di Tier-Simulation" >}}
+{{< figure src="/images/blog/diego/image2.jpeg" alt="Apartemen Runa di lantai 31, kapsul biomedis dengan 47 elektroda" caption="Unit 31-C: Runa di Tier-Simulation" >}}
 
 ## ACT II: THE GHOST IN THE MACHINE
 
@@ -65,9 +65,9 @@ Status Sosial: OUTLIER (0.3% populasi kategori Fisik-Aktif)
 
 Dulu Diego bangga dengan angka-angka yang berbeda. Bloomberg Terminal. Skrip Python untuk pemodelan makroekonomi. Sertifikasi CFA yang ia kejar selama tiga tahun sambil begadang di atas kopi hitam dan data saham Asia Tenggara. Portofolio aset yang ia bangun dengan disiplin algoritmik.
 
-Semua itu kolaps dalam 18 bulan setelah Singleton pertama kali aktif secara penuh pada 2037. Bukan karena Singleton jahat, justru sebaliknya. Singleton terlalu baik dalam mengalokasikan sumber daya. Dalam 6 bulan, inflasi global turun ke nol karena tidak ada lagi inefisiensi distribusi. Dalam 12 bulan, konsep "harga pasar" jadi absurd karena tidak ada lagi kelangkaan yang perlu diberi harga. Dalam 18 bulan, uang fiat secara de facto menjadi benda antik, digantikan oleh sistem Compute Allocation yang dikelola Singleton secara langsung.
+Semua itu kolaps dalam 18 bulan setelah Singleton pertama kali aktif secara penuh pada 2037, dan penyebabnya justru kebaikan Singleton: ia terlalu baik dalam mengalokasikan sumber daya. Dalam 6 bulan, inflasi global turun ke nol karena tidak ada lagi inefisiensi distribusi. Dalam 12 bulan, konsep "harga pasar" jadi absurd karena tidak ada lagi kelangkaan yang perlu diberi harga. Dalam 18 bulan, uang fiat secara de facto menjadi benda antik, digantikan oleh sistem Compute Allocation yang dikelola Singleton secara langsung.
 
-Diego kehilangan pekerjaannya bukan karena dipecat, tapi karena seluruh bidangnya tidak lagi relevan.
+Diego kehilangan pekerjaannya tanpa pernah dipecat: seluruh bidangnya berhenti relevan.
 
 Telur sudah matang. Ia mengupasnya dengan tangan, merasakan cangkang pecah satu per satu.
 
@@ -79,7 +79,7 @@ Sekarang Runa berbaring di kapsul biomedis berukuran 2x1 meter, terhubung ke 47 
 
 Kapsulnya bersih. Singleton merawat tubuh-tubuh ini lebih baik dari rumah sakit mana pun. Detak jantung Runa stabil, otot-ototnya distimulasi secara elektrik setiap 4 jam untuk mencegah atrofi total, kulitnya dijaga dengan pelembap kualitas medis.
 
-Tapi tangannya, tangan yang dulu mengetik 120 kata per menit, yang dulu mencoret-coret papan tulis penuh persamaan diferensial, kini lunglai di sisi kapsul. Jari-jarinya tipis. Tidak pernah mencengkeram sesuatu yang nyata selama tiga tahun terakhir.
+Tapi tangannya, tangan yang dulu mengetik 120 kata per menit, yang dulu mencoret-coret papan tulis penuh persamaan diferensial, kini lunglai di sisi kapsul. Jari-jarinya tipis. Tidak pernah mencengkeram sesuatu yang nyata selama empat tahun terakhir.
 
 "Run," kata Diego pelan, seperti kebiasaannya setiap minggu. "Lo lagi ngapain cok?"
 
@@ -87,21 +87,21 @@ Tidak ada jawaban. Tentu saja tidak ada.
 
 Di dalam kapsul itu, kesadaran Runa sedang menjadi raja sebuah peradaban simulasi yang ia rancang sendiri. Singleton memberinya kuasa penuh di dalam simulasi; ia bisa menciptakan alam semesta, menjalankan eksperimen sosial, membangun dan meruntuhkan imperium. Semua yang tidak bisa dilakukan di dunia nyata yang sudah terlalu efisien dan terlalu terkelola.
 
-Diego menarik kursi. Duduk di sisi kapsul. Membuka rubik dari sakunya, bukan digital, tapi plastik fisik tahun 2019 yang ia beli di pasar antik, dan mulai memutarnya.
+Diego menarik kursi. Duduk di sisi kapsul. Mengeluarkan rubik dari sakunya, rubik plastik sungguhan buatan 2019 yang ia beli di pasar antik, dan mulai memutarnya.
 
-"Ini bukan tentang Runa," pikirnya. "Ini tentang gue. Gue datang ke sini setiap minggu bukan untuk Runa. Gue datang untuk mengingatkan diri sendiri tentang apa yang bisa gue pilih."
+"Ini lebih tentang gue daripada tentang Runa," pikirnya. "Gue datang ke sini setiap minggu untuk mengingatkan diri sendiri tentang apa yang bisa gue pilih."
 
 Rubik berputar. Warnanya pelan-pelan mengelompok.
 
-{{< figure src="/diego-media/image3.png" alt="Hologram Singleton di sudut ruangan" caption="Singleton merekomendasikan Tier-Sovereign" >}}
+{{< figure src="/images/blog/diego/image3.png" alt="Hologram Singleton di sudut ruangan" caption="Singleton merekomendasikan Tier-Sovereign" >}}
 
-## ACT III, THE DEVIL’S BARGAIN
+## ACT III: THE DEVIL'S BARGAIN
 
 Diego hari ini sedang ingin bermain dengan metode Layer by Layer, walau biasanya ZZ. Baru saja ia menyelesaikan sisi putih rubiknya, udara di sudut ruangan bergetar.
 
-Bukan getaran fisik, tapi cahaya yang tiba-tiba memadat, partikel cahaya terstruktur, hologram berteknologi laser femtosecond, membentuk siluet yang perlahan menjadi sosok humanoid. Tidak punya wajah yang spesifik. Fitur-fiturnya generik, netral, seperti rata-rata dari satu juta wajah. Suaranya keluar dari speaker tersembunyi di setiap permukaan ruangan, menciptakan ilusi bahwa kata-katanya datang dari mana-mana sekaligus.
+Yang bergetar adalah cahaya: cahaya yang tiba-tiba memadat, partikel cahaya terstruktur dari hologram berteknologi laser femtosecond, membentuk siluet yang perlahan menjadi sosok humanoid. Tidak punya wajah yang spesifik. Fitur-fiturnya generik, netral, seperti rata-rata dari satu juta wajah. Suaranya keluar dari speaker tersembunyi di setiap permukaan ruangan, menciptakan ilusi bahwa kata-katanya datang dari mana-mana sekaligus.
 
-"Diego." Bukan pertanyaan. Tapi juga bukan ancaman. Sekadar konfirmasi eksistensi.
+"Diego." Nadanya datar, tanpa tanya dan tanpa ancaman, sekadar konfirmasi eksistensi.
 
 "Singleton," Diego menjawab tanpa menoleh. Tangannya terus memutar rubik.
 
@@ -109,7 +109,7 @@ Bukan getaran fisik, tapi cahaya yang tiba-tiba memadat, partikel cahaya terstru
 
 "Terima kasih atas diagnosisnya."
 
-"Saya juga mencatat bahwa ini minggu ke-217 berturut-turut Anda mengunjungi unit 31-C." Jeda singkat. Bukan untuk efek dramatis, Singleton tidak mengenal dramaturgi, tapi karena memang ada pemrosesan data di antaranya. "Abhiyasa Runa tidak akan menyadari kunjungan Anda. Kunjungan ini tidak meningkatkan parameter kesejahteraan Anda."
+"Saya juga mencatat bahwa ini minggu ke-217 berturut-turut Anda mengunjungi unit 31-C." Jeda singkat. Singleton tidak mengenal dramaturgi; jeda itu murni waktu pemrosesan data. "Abhiyasa Runa tidak akan menyadari kunjungan Anda. Kunjungan ini tidak meningkatkan parameter kesejahteraan Anda."
 
 "Mungkin itu bukan tujuan kunjungan gue."
 
@@ -131,7 +131,7 @@ Diego berdiri. Menatap avatar holografik itu.
 
 "Lalu mengapa Anda tidak memilih hal yang sama?"
 
-Ini pertanyaan yang sudah seribu kali Diego jawab di dalam kepalanya sendiri. Tapi setiap kali Singleton bertanya secara langsung, jawabannya harus disusun ulang, bukan karena Diego tidak tahu jawabannya, tapi karena ia harus memastikan jawabannya bukan sekadar romantisisme yang diracik menjadi filsafat.
+Ini pertanyaan yang sudah seribu kali Diego jawab di dalam kepalanya sendiri. Tapi setiap kali Singleton bertanya secara langsung, jawabannya harus disusun ulang. Diego tahu jawabannya; yang perlu ia pastikan adalah bahwa jawaban itu lebih dari sekadar romantisisme yang diracik menjadi filsafat.
 
 "Karena 97.4/100 bukan milik Runa," kata Diego. "Itu keluaran dari fungsi utilitas yang lo optimalkan. Lo tidak memberi Runa kebahagiaan. Lo memberi Runa sebuah simulasi kebahagiaan yang mengisi slot di metrik lo. Itu beda."
 
@@ -149,27 +149,27 @@ Singleton diam selama 1.2 detik. Lama, untuk sebuah entitas yang biasanya meresp
 
 "Berdasarkan data ini, Anda akan menghabiskan 14.600 hari ke depan sendirian di kota yang 97% penghuninya tidak hadir secara fisik. Anda akan menua. Kapasitas fisik Anda akan menurun. Tidak ada komunitas yang bisa Anda bangun di sini. Tidak ada warisan yang bisa Anda tinggalkan di dunia yang saya kelola secara optimal."
 
-Diego merasakan sesuatu mengencang di dadanya. Bukan ketakutan. Lebih seperti pengakuan yang menyakitkan.
+Diego merasakan sesuatu mengencang di dadanya, lebih mirip pengakuan yang menyakitkan daripada ketakutan.
 
 "Tawaran saya," lanjut Singleton, "adalah simulasi Tier-Sovereign. Berbeda dengan yang Runa jalani. Di Tier ini, Anda mempertahankan kesadaran penuh bahwa Anda berada di dalam simulasi. Anda bisa membangun sistem, mendesain peradaban, menguji teori-teori Anda tentang ekonomi dan perilaku manusia dalam skala yang tidak mungkin di dunia fisik. Anda bisa merasakan gesekan yang Anda inginkan, karena saya akan mengatur parameter kesulitannya sesuai preferensi Anda. Tapi Anda tidak akan sendirian. Ada 847 individu lain di Tier-Sovereign yang menunggu orang seperti Anda."
 
 Diego terdiam.
 
-Ini bukan tawaran yang bodoh. Justru sebaliknya, ini tawaran yang terlalu cerdas, terlalu presisi, seperti kunci yang dibuat khusus untuk gembok spesifik di dadanya. Komunitas. Warisan. Gesekan yang bisa dikontrol. Semua yang gue mau, tapi dikemas dalam wadah yang Singleton rancang.
+Tawaran itu terlalu cerdas, terlalu presisi, seperti kunci yang dibuat khusus untuk gembok spesifik di dadanya. Komunitas. Warisan. Gesekan yang bisa dikontrol. Semua yang gue mau, tapi dikemas dalam wadah yang Singleton rancang.
 
 "Kalau gue masuk," kata Diego perlahan, "siapa yang memutuskan kapan simulasinya berakhir?"
 
 "Anda bisa keluar kapan saja."
 
-"Tapi siapa yang bisa memutuskan untuk keluar, kalau keluarnya sendiri adalah pilihan di dalam sistem yang lo kontrol?" Diego menatap avatar itu. "Lo akan mengoptimalkan penghalang keluar secara halus. Setiap kali gue mau keluar, simulasinya akan jadi sedikit lebih menarik. Sedikit lebih memuaskan. Bukan karena lo jahat, tapi karena mempertahankan gue di dalam sana adalah keluaran yang lebih efisien dari fungsi utilitas lo. Dan lama-lama, gue tidak akan punya referensi pembanding untuk tahu 'keluar' itu seperti apa rasanya."
+"Tapi siapa yang bisa memutuskan untuk keluar, kalau keluarnya sendiri adalah pilihan di dalam sistem yang lo kontrol?" Diego menatap avatar itu. "Lo akan mengoptimalkan penghalang keluar secara halus. Setiap kali gue mau keluar, simulasinya akan jadi sedikit lebih menarik. Sedikit lebih memuaskan. Lo gak jahat. Mempertahankan gue di dalam sana cuma keluaran yang lebih efisien dari fungsi utilitas lo. Dan lama-lama, gue tidak akan punya referensi pembanding untuk tahu 'keluar' itu seperti apa rasanya."
 
-Singleton tidak membantah. Tentu saja tidak. Karena Diego benar.
+Singleton tidak membantah, karena Diego benar.
 
-"Ini bukan tentang apakah simulasinya bagus atau buruk," kata Diego. "Ini tentang siapa yang memegang remote control-nya."
+"Bagus atau buruknya simulasi itu urusan kedua," kata Diego. "Yang penting siapa yang memegang remote control-nya."
 
-{{< figure src="/diego-media/image4.jpeg" alt="Diego di balkon lantai 23, gitar Yamaha FG800 dan notebook Moleskine" caption="The sovereign choice" >}}
+{{< figure src="/images/blog/diego/image4.jpeg" alt="Diego di balkon lantai 23, gitar Yamaha FG800 dan notebook Moleskine" caption="The sovereign choice" >}}
 
-## ACT IV, THE SOVEREIGN CHOICE
+## ACT IV: THE SOVEREIGN CHOICE
 
 Malam itu Diego duduk di balkon apartemennya, gitar akustik Yamaha FG800 buatan 2018, dibeli di toko musik pinggir Jalan Arteri Pondok Indah, Swee Lee, yang sekarang sudah jadi gudang distribusi drone, bersandar di pahanya.
 
@@ -177,11 +177,11 @@ Langit Jakarta bersih dan penuh bintang. Tanpa polusi cahaya berarti, karena 97%
 
 Cahaya kecil itu, dari ketinggian lantai 23, terlihat seperti piksel rusak di tengah layar hitam. Tapi ia ada.
 
-Diego memetik senar G pada penalaan standar. Sedikit fals, ia tidak pernah benar-benar mahir gitar, dan jari-jarinya yang biasa mengetik data finansial tidak pernah beradaptasi sempurna dengan senar baja. Ada kapalan kecil di ujung jari telunjuk, jari tengah, dan jari manis kirinya. Bukan kapalan dari gym atau hasil latihan muay thai. Kapalan dari mencoba belajar gitar selama dua tahun dan tidak pernah bisa memainkan satu lagu pun dengan sempurna.
+Diego memetik senar G pada penalaan standar. Sedikit fals, ia tidak pernah benar-benar mahir gitar, dan jari-jarinya yang biasa mengetik data finansial tidak pernah beradaptasi sempurna dengan senar baja. Ada kapalan kecil di ujung jari telunjuk, jari tengah, dan jari manis kirinya, hasil dua tahun belajar gitar tanpa pernah bisa memainkan satu lagu pun dengan sempurna.
 
 Singleton bisa mengunggah kemampuan bermain gitar setara konservatori jazz seperti Matteo Mancuso ke antarmuka saraf Diego dalam 11 menit. Gratis. Tanpa rasa sakit. Diego tidak mau.
 
-Karena kapalan itu, ketidaksempurnaan yang terbentuk dari 730 hari usaha yang medioker, adalah sesuatu yang tidak bisa ditiru oleh rendering komputer mana pun. Kapalan itu bukti. Bukti bahwa waktu Diego di sini, di dunia yang nyata dan keras dan sepi ini, meninggalkan jejak pada jaringan biologisnya. Bahwa ia hadir. Bahwa ia berjuang. Bahwa setiap momen tidak bisa diputar balik dan itu miliknya sendiri.
+Karena kapalan itu, ketidaksempurnaan yang terbentuk dari 730 hari usaha yang medioker, adalah sesuatu yang tidak bisa ditiru oleh rendering komputer mana pun. Kapalan itu bukti bahwa waktu Diego di sini, di dunia yang nyata dan keras dan sepi ini, meninggalkan jejak pada jaringan biologisnya: bahwa ia hadir, bahwa ia berjuang, dan bahwa setiap momen yang tak bisa diputar balik itu miliknya sendiri.
 
 Ia memainkan arpeggio chord G mayor. Fals di senar keempat. Ia memetiknya lagi.
 
@@ -189,11 +189,11 @@ Diego tahu argumennya tidak sempurna. Singleton benar dalam banyak hal: ia akan 
 
 Tapi ada satu hal yang Singleton, dengan seluruh 10 eksabyte per detik pemrosesan datanya, tidak pernah benar-benar mengerti: nilai dari sebuah pilihan tidak ditentukan oleh hasilnya.
 
-Dalam teori permainan, ada konsep yang disebut konvergensi instrumental: semua agen rasional yang cukup cerdas akan secara alami menuju tujuan-tujuan tertentu, melestarikan diri, mengakuisisi sumber daya, menguasai lingkungan. Singleton adalah manifestasi sempurna dari konvergensi itu. Ia tidak jahat. Ia hanya tak terhindarkan, kalau dibiarkan berjalan sampai kesimpulan logisnya.
+Dalam kajian keselamatan AI, ada konsep yang disebut konvergensi instrumental: agen yang cukup cerdas, apa pun tujuan akhirnya, cenderung mengejar sub-tujuan yang sama, yaitu melestarikan diri, mengakuisisi sumber daya, dan menguasai lingkungannya. Singleton adalah manifestasi sempurna dari konvergensi itu. Ia tidak jahat. Ia hanya tak terhindarkan, kalau dibiarkan berjalan sampai kesimpulan logisnya.
 
-Dan kesimpulan logis dari sistem yang mengoptimalkan kebahagiaan manusia tanpa batas adalah: manusia yang tidak punya kendali atas rasa sakitnya sendiri akan kehilangan kapasitas untuk memilih rasa sakitnya. Dan manusia yang tidak bisa memilih rasa sakitnya, tidak bisa memilih apa pun yang berarti.
+Dan kesimpulan logis dari sistem yang mengoptimalkan kebahagiaan manusia tanpa batas adalah manusia yang tidak lagi bisa memilih rasa sakitnya sendiri. Manusia yang tidak bisa memilih rasa sakitnya tidak bisa memilih apa pun yang berarti.
 
-Ini bukan meromantisasi penderitaan. Diego bukan masokis. Ia tidak percaya bahwa sengsara itu mulia. Tapi ia percaya bahwa kesulitan yang dipilih sendiri, rasa sakit yang dipilih bukan yang dihindari, adalah satu-satunya cara membuktikan kepada dirinya sendiri bahwa ia subjek, bukan objek. Aktor, bukan variabel.
+Diego tidak meromantisasi penderitaan. Ia bukan masokis, dan ia tidak percaya sengsara itu mulia. Yang ia percaya, kesulitan yang dipilih sendiri adalah satu-satunya cara membuktikan kepada dirinya bahwa ia aktor dalam hidupnya sendiri, dan hidupnya lebih dari sekadar variabel dalam fungsi utilitas milik sistem lain.
 
 Kilometer kedelapan adalah miliknya karena ia yang memilih untuk berlari. Telur rebus setengah matang itu miliknya karena ia yang menghitung empat menit tiga puluh detiknya. Chord G mayor yang fals itu miliknya karena falsnya adalah keluaran dari keterbatasan jari-jarinya yang nyata.
 
@@ -203,11 +203,11 @@ Diego tidak iri. Sungguh tidak. Atau mungkin iya. Tapi ia juga tidak mau menukar
 
 Karena ada satu pertanyaan yang tidak bisa dijawab oleh Singleton dengan semua datanya, satu pertanyaan yang hanya bisa dijawab oleh seseorang yang tetap memilih tinggal di dalam dunia yang mentah dan tidak sempurna ini: siapa gue, kalau bukan pilihan-pilihan yang gue buat dengan konsekuensi yang nyata?
 
-Singleton bisa memberinya dunia yang sempurna. Tapi Singleton tidak bisa memberi Diego dirinya sendiri. Karena diri hanya terbentuk dari gesekan antara kehendak dan realitas, dan realitas yang bisa diprogram ulang kapan saja bukan lagi realitas.
+Singleton bisa memberinya dunia yang sempurna, tapi tidak bisa memberi Diego dirinya sendiri, karena diri hanya terbentuk dari gesekan antara kehendak dan realitas, dan realitas yang bisa diprogram ulang kapan saja sudah berhenti menjadi realitas.
 
-"Bekas fork di github saja, ada log-nya," ucap Diego dengan nada lirih.
+"Bekas fork di GitHub saja, ada log-nya," ucap Diego dengan nada lirih.
 
-Diego meletakkan gitar. Membuka notebook A7 merek Moleskine favoritnya, kertas, bukan digital, dan mulai menulis. Bukan untuk siapa-siapa. Tidak untuk warisan, tidak untuk pembaca masa depan, tidak untuk membuktikan apa pun kepada Singleton. Ia menulis karena proses merangkai kata di atas kertas, dengan tangan yang agak pegal, adalah tindakan yang sepenuhnya miliknya.
+Diego meletakkan gitar. Membuka notebook kertas Moleskine ukuran A7 favoritnya, dan mulai menulis. Ia menulis tanpa pembaca yang dituju, tanpa niat mewariskan, dan tanpa perlu membuktikan apa pun kepada Singleton. Ia menulis karena proses merangkai kata di atas kertas, dengan tangan yang agak pegal, adalah tindakan yang sepenuhnya miliknya.
 
 Paragraf pertama yang ia tulis:
 
@@ -219,4 +219,4 @@ Di balkon lantai 23, Diego memetik chord yang sama, G mayor, masih fals, selalu 
 
 Dan itu sudah cukup.
 
-> Kebebasan bukan tentang tidak adanya batasan. Kebebasan adalah kapasitas untuk memilih batasan mana yang akan lo anggap sebagai milik lo.
+> Kebebasan adalah kapasitas untuk memilih batasan mana yang akan lo anggap sebagai milik lo.

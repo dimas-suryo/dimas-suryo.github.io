@@ -2,124 +2,94 @@
 title: "Doing the Calculus on Peace"
 date: 2025-04-04
 draft: false
-summary: "Why the only mathematically defensible answer for Israel-Palestine right now is the One-Democratic-Secular State. Not on moral grounds, not on theological grounds, but by process of elimination, the same way you'd do it in a lab."
+summary: "An attempt to settle Israel-Palestine by elimination: treat the ethno-state and the two-state solution as systems, find where each one breaks, and see what survives. What survives is one democratic secular state."
 ---
 
-{{< figure src="/palestine-media/image1.jpeg" alt="Posters: The Palestinian Museum Digital Archive" caption="Posters: The Palestinian Museum Digital Archive" >}}
+{{< figure src="/images/blog/palestine/image1.jpeg" alt="Posters: The Palestinian Museum Digital Archive" caption="Posters: The Palestinian Museum Digital Archive" >}}
 
-# TL;DR
+_Epistemic status: fairly confident in the structure of the argument, much less confident in the numbers I feed into it. Also, no, I didn't actually use calculus. 😢_
 
-1. The ethno-state fails because it has to fight a roughly 50/50 demographic fact that's extraordinarily hard to fight. A system that needs permanent repression to survive is hard to call a system. It's a time bomb.
-
-2. The two-state solution fails because more than 700,000 illegal Israeli settlers and an infrastructure that has been entangled for over fifty-seven years (since the West Bank was first annexed in 1967) push the success probability mathematically close to zero. If not zero.
-
-3. Once both options are eliminated through this kind of mathematical approach, only one remains. A One-State Democratic-Secular Palestine. Because it's the only architecture that isn't doomed by design.
-
-4. No, I didn't actually use calculus. 😢
+The short version, for people who won't read four thousand words about this (a reasonable choice): an ethno-state has to hold a population that is already about half non-Jewish, which takes repression that must keep rising forever, and a system like that has no steady state. The two-state solution needs more than 700,000 illegal settlers, plus fifty-seven years of shared roads, water, and power lines, to be pulled apart peacefully, which nobody has ever done. If those two options fall, the only architecture left standing is a single democratic, secular state.
 
 ## I.
 
 I'm not sure where to start with this. Flip it.
 
-Every time people debate Israel-Palestine, it ends in the same place. Both sides shouting. Nobody moving. Everyone exhausted. Why? My guess, and I could be wrong, is that the debate begins on the wrong opening premise. Morality and religion.
+Every argument about Israel-Palestine I've watched ends in the same place: both sides shouting, nobody moving, everyone exhausted. My guess, and I hold it loosely, is that the argument starts from the wrong premises, which are usually morality and religion. Morality matters, but in this particular debate it has one fatal property: moral claims can't be falsified. You can't change someone's moral conviction with a table of numbers, and so the debate never ends. As far as I can tell, it was never set up to end.
 
-Morality matters, to some extent, but it has one fatal weakness in this context. Moral claims are not falsifiable. For a lot of people, you can't "disprove" a moral conviction with data. That's why the debate never ends. It wasn't designed to end.
+So, as a thought experiment, I want to treat it as a maths problem instead.
 
-So as a thought experiment, let's try a different approach. Let's treat this as a maths problem.
+Take the land between the Jordan River and the Mediterranean as a system. It has variables, constraints, and feedback loops. "Who has the most right to be there" is a real question, but I'm going to set it aside and ask a narrower one: which system architecture is most likely to settle into a stable equilibrium without risking ruin (the fat-tailed, can't-come-back-from-it kind of outcome Taleb keeps warning about)?
 
-Take the area between the Jordan River and the Mediterranean Sea as a system. It has variables. It has constraints. It has feedback loops. The right question to ask isn't "who has the most right to be there". The right question is something else. Which system architecture is most likely to produce a stable equilibrium and remove the risk of ruin (the fat-tail risk)?
+Here is the thesis I'll defend. Both existing models, the ethno-state (Zionism) and the two-state solution, fail logically and empirically, and the failure has become much harder to dispute since Israeli governments started legitimizing settler annexation of Palestinian land. Eliminate both, and one model is left: a single democratic, secular state.
 
-Here's the central thesis. Both models, the ethno-state (Zionism) and the two-state solution, fail logically and empirically. Especially after Palestinian land has been illegally annexed by settlers who are legitimized by the Israeli government. Once both options are eliminated, only one remains. The One-State Democratic-Secular model.
+I'm going to argue this without leaning on morality at all, which means I owe both rival positions their strongest versions first.
 
-I'm not going to argue from morality.
+The strongest Zionist argument skips "God gave us this land" (easy to refute) and goes like this: after the Holocaust, a people that had been hunted and killed across most of Western civilization for two thousand years needs a physical place it can defend militarily. Think of it as existential insurance. I think that's a reasonably valid argument, and I respect it.
 
-The strongest version of the Zionist argument is _not_ "God gave us this land". That one is easy to refute.
+The two-state side deserves the same treatment. Its best argument says that two communities with overlapping historical traumas can only build healthy political identities if each first gets sovereign space of its own. Integrate them too early, with no foundation of trust, and you get Yugoslavia instead of South Africa.
 
-The strongest version is this. After the Holocaust, a group that had been systematically hunted and killed by nearly all of Western civilization for two millennia needs a physical location that can be militarily defended. Not as a privilege, but as existential insurance. And honestly, I think that's a reasonably valid argument. I respect it.
+I grant both arguments in full. What I want to show is that even if you accept the strongest version of each, the conclusion comes out the same.
 
-Now, the strongest version of the two-state argument is _not_ nostalgia for the 1967 map.
-
-The strongest version is this. The only way two communities with overlapping historical traumas can build healthy political identities is to first have separate sovereign space. Premature integration with no trust foundation produces Yugoslavia, not South Africa.
-
-Both arguments are valid. I grant them in full.
-
-Now I'm going to show that even if you accept the strongest version of each, the conclusion is still the same.
-
-{{< figure src="/palestine-media/image2.jpeg" alt="Mapping how Israel's land grabs are reshaping the occupied West Bank" caption="<a href=&quot;https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank&quot;>Mapping how Israel's land grabs are reshaping the occupied West Bank</a> (Al Jazeera, 2025)" >}}
+{{< figure src="/images/blog/palestine/image2.jpeg" alt="Mapping how Israel's land grabs are reshaping the occupied West Bank" caption="<a href=&quot;https://www.aljazeera.com/news/2025/3/30/mapping-how-israels-land-grabs-are-reshaping-the-occupied-west-bank&quot;>Mapping how Israel's land grabs are reshaping the occupied West Bank</a> (Al Jazeera, 2025)" >}}
 
 ## II.
 
-The ethno-state against reality. Zionism on Palestinian land is a self-destructing system.
+Start with the ethno-state. My claim is that Zionism, as a state project on land with this demography, destroys itself.
 
-When Bertrand Russell wrote _Principia Mathematica_, he needed hundreds of pages just to prove that 1 + 1 = 2. But not in the way because the result wasn't obvious, because he wanted the conclusion to follow necessarily from the basic axioms, with no room for "but my feelings tell me otherwise".
+Whitehead and Russell needed a few hundred pages of _Principia Mathematica_ before they could prove that 1 + 1 = 2. They never doubted the result. They wanted it to follow necessarily from basic axioms, leaving no room for "but my feelings tell me otherwise". I want to do something similar on a much smaller scale: take premises that are already on the table and show that a conclusion which looks controversial follows from them.
 
-I want to do something similar here. Not prove something complicated, but prove that a conclusion which might look controversial actually follows necessarily from premises that are already in place.
+{{< figure src="/images/blog/palestine/image3.jpeg" alt="The Organic Chemistry Tutor" caption="Ey, shout out to The Organic Chemistry Tutor man, helped me through my UTBK year" >}}
 
-{{< figure src="/palestine-media/image3.jpeg" alt="The Organic Chemistry Tutor" caption="Ey, shout out to The Organic Chemistry Tutor man, helped me through my UTBK year" >}}
+### The thermodynamics argument
 
-**The Thermodynamics Argument**
+Let's start from first principles. Systems thinking borrows an idea, loosely, from thermodynamics: a system that fights its own tendency to drift needs a steady and growing input of energy, or it eventually falls apart. Applied to politics this is an analogy, and I'll treat it as one. It earns its place because the maths underneath it turns out to be real, as we'll see in a moment.
 
-Let's start from first principles.
+An ethno-state is, by definition, a system that tries to hold a particular demographic composition inside a given territory. The trouble is that demographics move: populations grow, shrink, migrate, and age. Right now the population between the Jordan and the Mediterranean is roughly 50/50, about 7.2 million Israeli Jews and 7.4 million Palestinian Arabs.
 
-In systems thinking there's a basic concept. A closed system fighting entropy requires ever-increasing energy input. Otherwise it eventually collapses on its own. This isn't a metaphor. It's literally a thermodynamic principle, and it applies to a lot of things, social-political systems included.
+To keep a Jewish ethno-state with that composition, the system needs one of two things. The first is permanent repression: mobility controls, legalized discrimination, restrictions on political rights. The second is forcibly changing the demographic composition, which international law calls ethnic cleansing.
 
-An ethno-state, by what it is, is a system trying to maintain a particular demographic composition inside a given territory. The problem? Demographics are dynamic. They move. They change. They grow and shrink. Right now, the population data between the Jordan River and the Mediterranean is roughly 50/50. About 7.2 million Israeli Jews against 7.4 million Palestinian Arabs.
+The first option creates what systems dynamics calls a reinforcing feedback loop. Repression provokes resistance, resistance provokes escalation, escalation provokes harsher repression, and so on around the circle. The loop has no equilibrium point; it keeps escalating until one of the variables breaks. The second option is a war crime, and in practice it triggers an international response that speeds up the collapse anyway.
 
-To maintain a Jewish ethno-state with the present demographic composition, the system needs one of two things.
+So, through a systems lens, the ethno-state can't reach a steady state. I'm trying hard not to make a moral claim here: the problem is an architecture that's incompatible with demographic reality, and it would be a problem even if everyone inside it were a saint. This is consistent with Nassim Taleb's reading that the Israeli state, as currently configured, isn't antifragile.
 
-First, permanent repression. Mobility control, legitimised discrimination, restrictions on political rights.
-
-Second, forced change of the demographic composition. In international law, that's ethnic cleansing.
-
-The first option creates what systems dynamics calls a reinforcing feedback loop. Repression triggers resistance, resistance triggers escalation, escalation triggers harder repression, harder repression triggers harder resistance, and so on. The loop has no equilibrium point. It will keep escalating until one variable collapses.
-
-The second option is a war crime in international law, and in practice it triggers an international response that accelerates the system's collapse anyway.
-
-Conclusion from a systems-thinking lens. The ethno-state is a system that structurally cannot reach steady state. Not because the people inside it are evil, I'm trying not to make moral claims here, but because its architecture is incompatible with demographic reality. This is consistent with Nassim Taleb's reading that the Israeli state, as currently configured, isn't antifragile.
-
-Logically and mathematically, define the following.
+Now the maths. Define
 
 _DA(t)_ = Arab population at time _t_
 
 _DJ(t)_ = Jewish population at time _t_
 
-The demographic data shows
+The demographic data show that the Arab population grows faster than the Jewish one:
 
 _dDA/dt > dDJ/dt_
 
-(Arab growth rate is greater than Jewish growth rate, empirically observed.)
-
-To maintain the ethno-state, you need a suppression level _σ(t)_ proportional to the ratio
+Next comes a modelling assumption. I think it's the natural one, but it is an assumption: the level of suppression needed to hold the ethno-state, _σ(t)_, is proportional to the ratio between the two populations.
 
 _σ(t) ∝ DA(t)/DJ(t)_
 
-Because _DA(t)/DJ(t)_ is monotonically increasing in _t_,
+Since _DA(t)/DJ(t)_ keeps increasing with _t_,
 
 _dσ/dt > 0 ∀t_
 
-The energy input for repression has no upper bound. It rises without limit. A system that requires unbounded input to survive is, by definition, not sustainable. This isn't a political prediction. It's a direct mathematical implication of the demographic data.
+The required repression has no ceiling. A system that needs unbounded input to survive isn't sustainable, and that conclusion comes from the demographic data plus one plain assumption, with no political prediction involved.
 
-The reinforcing feedback loop can be represented as a simple system of differential equations.
+The feedback loop from a few paragraphs ago can be written as a tiny system of differential equations:
 
 _d(Repression)/dt = α · Resistance, d(Resistance)/dt = β · Repression_
 
-where _α, β > 0_. The system has no stable fixed point other than total collapse. The eigenvalues are positive, which means the solution diverges, not converges.
+where _α, β > 0_. The matrix of this system has two eigenvalues, _+√(αβ)_ and _−√(αβ)_. The negative one belongs to a direction in which one of the two quantities would have to be negative, which is impossible for real repression and real resistance. So from any actual starting point the positive eigenvalue takes over, and both variables grow exponentially. The only fixed point is zero repression with zero resistance, and it's a saddle: unstable, so the slightest push sets the loop running.
 
-Back to "existential insurance" from a few paragraphs ago. The legitimate need (a defensible physical location as existential insurance) is exactly what an ethno-state caught in a reinforcing feedback loop toward collapse fails to deliver. An ethno-state with 50/50 demographics is _less_ defensible, not more. Genuine existential insurance requires a stable system. And the only path to stability, at least under this analysis, comes from constitutional hard guarantees protecting both communities, not from repression whose _dσ/dt > 0_ has no upper bound.
+Go back now to "existential insurance", the strongest Zionist argument from Section I. The legitimate need behind it, a defensible home, is exactly what an ethno-state caught in a runaway loop fails to deliver. A state with a 50/50 population and ever-rising repression becomes harder to defend over time. Real existential insurance needs a stable system, and under this analysis stability can only come from hard constitutional guarantees that protect both communities. Repression with _dσ/dt > 0_ has no upper bound, so it can't be the thing that provides it.
 
-**The Logical Consistency Problem**
+### The consistency problem
 
-There is also a logical problem that often gets missed, and I think it's worth sitting with.
+There's also a logical problem that gets missed a lot, and I think it deserves some time.
 
-The main Zionist argument. The Jewish people, as a group that has experienced long persecution, are entitled to self-determination on their ancestral land.
+The main Zionist argument says that the Jewish people, as a group that has suffered long persecution, are entitled to self-determination on their ancestral land. I don't want to invalidate the experience that argument starts from. But a principle like this has to pass Kant's universalizability test: can you apply it to everyone without producing a contradiction?
 
-An argument that starts from their experience, I don't want to invalidate that. But we need to apply the Kantian universalizability test. Can this principle be universalized without contradiction?
+As far as I can tell, it can't. The Palestinian Arab population, present in the same territory for centuries, has a structurally identical claim. Granting self-determination to one group while denying it to another group in the same structural position is a logical contradiction.
 
-By my reading, no.
-
-Because the Palestinian Arab population, which has also been in the same territory for centuries, has a structurally identical claim. Acknowledging the right of self-determination for one group while denying the same right to another group in a structurally identical situation is a logical contradiction, not a coherent argument.
-
-Written in formal logic, the definitions are these.
+In formal logic, with these definitions,
 
 _P(x)_ = "group x has experienced long persecution"
 
@@ -127,15 +97,15 @@ _H(x)_ = "group x has a historical claim to the territory"
 
 _S(x)_ = "group x has a right to self-determination on the territory"
 
-The Zionist premise, which they assert themselves, is
+the Zionist premise, which Zionists assert themselves, is
 
 *Pr*𝓏 _. P(Jews) ∧ H(Jews) → S(Jews)_
 
-Now apply the Kantian universalisability test. If this principle is valid, it has to be universalisable.
+If the principle is valid, it has to survive being universalized:
 
 _Universalised. ∀x [P(x) ∧ H(x) → S(x)]_
 
-Plug in the empirical data.
+Now plug in the empirical data:
 
 _P(Palestinians)_, empirically true, 1948 Nakba and 57 years of occupation.
 
@@ -145,39 +115,31 @@ By modus ponens,
 
 _∀x [P(x) ∧ H(x) → S(x)], P(Pal) ∧ H(Pal) ⊢ S(Palestinians)_
 
-But Zionism simultaneously asserts
+But Zionism also asserts
 
 *Pr*𝓏 _. ¬S(Palestinians)_
 
-And there is the contradiction.
+and there's the contradiction:
 
 _S(Palestinians) ∧ ¬S(Palestinians) ⊢ ⊥_
 
-⊥ is the logic notation for contradiction. A system that produces ⊥ is, by definition, inconsistent and collapses. This isn't about morality or empathy. It's about Zionism, as a universal principle, producing a formal contradiction.
+⊥ is logic notation for a contradiction, and a principle that produces one is inconsistent. None of this depends on how much empathy you feel for either side. It's what happens to Zionism once you treat it as a universal principle and apply it evenly.
 
-A common counterargument. "The historical situation is different. The claims aren't apple to apple."
-
-My response. That doesn't refute the universalizability test. It proposes that _P_ and _H_ need to be redefined with additional conditions. But if you add conditions so that only Jews qualify, what you're doing is ad-hoc modification. Adding extra assumptions not for logical reasons but to save a conclusion you wanted from the beginning. A principle that only works for one case isn't a principle. It's an exception in disguise.
+The usual reply is that the historical situations are different and the claims aren't apples to apples. I don't think that rescues the principle. What the reply actually does is redefine _P_ and _H_, adding conditions until only Jews qualify. That's an ad hoc modification, extra assumptions added to protect a conclusion you already wanted, and catching exactly that move is what the universalizability test is for. A principle that only works for one case is an exception wearing a principle's clothes.
 
 _Quod erat demonstrandum._
 
 ## III.
 
-{{< figure src="/palestine-media/image4.png" alt="One Democratic State Campaign" caption="One Democratic State Campaign, Palestinian-led campaign against the Zionist Israeli government." >}}
+{{< figure src="/images/blog/palestine/image4.png" alt="One Democratic State Campaign" caption="One Democratic State Campaign, Palestinian-led campaign against the Zionist Israeli government." >}}
 
-**Two-State. Many Assumptions, Thin Probability.**
+### Two states: many assumptions, thin probability
 
-The strongest version. "Even if infrastructure is entangled, political separation can be done in stages. Look at Czechoslovakia, which split into the Czech Republic and Slovakia in 1993 without bloodshed." That precedent is real and often invoked.
+The strongest version of the two-state case: "Even if the infrastructure is entangled, separation can happen in stages. Look at Czechoslovakia, which split into the Czech Republic and Slovakia in 1993 without bloodshed." The precedent is real, and people invoke it often.
 
-My response. The Velvet Divorce worked because two conditions existed there that don't exist here. Both sides actively wanted separation, AND there was no population of 700,000 illegal settlers from one side already embedded inside the other side's territory. Without those two conditions, the Czechoslovakia analogy collapses.
+I think the Velvet Divorce worked because of two conditions that are missing here. Both sides actively wanted to separate, and neither side had 700,000 illegal settlers already embedded inside the other's territory. Remove those two conditions and the analogy falls apart.
 
-**The Compounding Assumptions Problem**
-
-Occam's Razor gives us a tool. Between two hypotheses that can both explain reality, pick the one that requires fewer assumptions.
-
-Not because the simple one is always right, but because every additional assumption is another source of error.
-
-The two-state solution requires all of the following assumptions to hold simultaneously.
+The deeper problem is the number of things that have to go right. Occam's Razor says that between two hypotheses that explain the same facts, you should prefer the one that needs fewer assumptions, since every extra assumption is one more place to be wrong. The two-state solution needs all of the following to hold at once:
 
 - A₁. The more than 700,000 illegal Israeli settlers in the West Bank can be relocated, or can accept Palestinian citizenship, peacefully.
 
@@ -189,181 +151,131 @@ The two-state solution requires all of the following assumptions to hold simulta
 
 - A₅. There is enough political will on both sides to execute all of the above simultaneously.
 
-Even if we are generous and assign each assumption a 70% success probability (which is already very optimistic), the cumulative probability of all of them holding together is
+Be generous and give each assumption a 70% chance of working out, which is already optimistic. If the five were independent, the chance that all of them hold would be
 
 **P(two-state succeeds) = 0.7⁵ = 0.168 ≈ 17%**
 
-Intuitively people calculate this as 0.7⁵ = 17%, but that contains a statistical error. It assumes A₁ through A₅ are independent, when in fact they are positively correlated. A more precise framing.
+That number comes with a caveat that cuts against my own case. The assumptions are positively correlated (a government with enough political will for A₅ is also more likely to manage A₁), and positive correlation pushes the joint probability up, so 17% is, if anything, too pessimistic. I don't want to lean on the multiplication at all. The stronger argument is structural, and it needs no probabilities.
 
-Borrowing Taleb, every assumption above is a single point of failure. Picture a chain with five critical links. You don't need all of them to break for failure. One is enough. And if you ask which link is weakest, A₁ alone is sufficient. More than 700,000 illegal Israeli settlers already have roads, water, electricity, and internet integrated into the Israeli system. This is no longer a question of political will. This is an infrastructure problem. There is no precedent in modern history where a settlement this complex and this large has been peacefully disentangled.
+Borrowing Taleb's framing, every assumption on that list is a single point of failure. Picture a chain with five critical links: it takes only one broken link for the chain to fail, and A₁ alone is enough. More than 700,000 illegal Israeli settlers already have roads, water, electricity, and internet wired into the Israeli system. At this point it's an infrastructure problem more than a question of political will, and I don't know of any case in modern history where a settlement this large and this entangled has been peacefully unwound.
 
-Formally, define _S_ as the event "two-state succeeds". So
+Formally, let _S_ be the event "two-state succeeds". Then
 
 _S ≡ A₁ ∧ A₂ ∧ A₃ ∧ A₄ ∧ A₅_
 
-This is a conjunctive necessary condition. All assumptions have to hold simultaneously. Which means
+This is a conjunction of necessary conditions, so
 
 _¬Aᵢ ⊢ ¬S for any i ∈ {1,2,3,4,5}_
 
-Every Aᵢ is a necessary condition. Failure of any one is sufficient to fail the whole. This isn't probability multiplication. It's a much stricter logical condition. You don't even need to know the probability of each. You only need to show that one condition isn't met, and the argument is finished.
-
-And for A₁, relocating or integrating 700,000 embedded settlers is a condition that, by all available historical base rates, has never been successfully done in a comparable context.
+The failure of any single _Aᵢ_ is enough to sink the whole plan, which is a much stricter condition than probability multiplication. You don't need each probability; you only need to show that one condition fails. For A₁, relocating or integrating 700,000 embedded settlers has, by every historical base rate I'm aware of, never been done in a comparable setting. So
 
 _∴ ¬A₁_
 
 _∴ ¬S._
 
-This isn't ideological pessimism. It's basic base-rate thinking, plus a formal proof.
+That's a base rate plus a syllogism. You can dispute the base rate (and if you know a counterexample, I want to hear it), but there's no ideology hiding in either step.
 
-**But, the Confederation Model?**
-
-Meaning two sovereign states with shared institutions and open borders. This is often proposed as a fourth alternative. Functionally, a confederation with sufficiently deep shared institutions is a one-state with extra bureaucratic layers. If the institutions are weak enough to preserve full sovereignty, we are back to two-state with all the same failure modes. A confederation isn't a stable midpoint. As far as I can see, it's an unstable equilibrium that converges to one of the two endpoints. The disjunction remains exhaustive.
+What about a confederation, two sovereign states with shared institutions and open borders? It gets proposed as a fourth option, and I think it collapses into one of the other two. If the shared institutions are deep enough to work, what you have is one state with extra layers of bureaucracy; if they're shallow enough to preserve full sovereignty, you're back to two states with all the same failure modes. As far as I can see, a confederation is an unstable equilibrium that drifts toward one of the endpoints, so the disjunction stays exhaustive.
 
 ## IV.
 
-{{< figure src="/palestine-media/image5.png" >}}
+{{< figure src="/images/blog/palestine/image5.png" >}}
 
-This is the part I'm most nervous about, and you might also be worried about me. That I sound like someone who got too excited about game theory and forgot that real people are losing their families on the ground. That I have no skin in the game.
+This is the part I'm most nervous about. You might worry that I sound like someone who got too excited about game theory and forgot that real people are losing their families on the ground, someone with no skin in the game. I know. I feel sad about it, and I'm doing what I can. I think structural analysis matters because empathy alone keeps failing to end this, and it helps to understand why.
 
-I'm aware of that. I feel sad. I'm doing what I can. And it's precisely because of that that I think structural analysis like this matters. Not to replace empathy, but to explain why empathy alone is not enough.
+I don't think people on either side refuse peace. I think the system gives them no room for it, and the system is what has to change.
 
-People on both sides of this conflict don't refuse peace. The problem is that the system doesn't give them room for it. That is what has to change.
+Scott Alexander has a name for this kind of system in "Meditations on Moloch": Moloch, the god of situations where everyone follows their incentives into an outcome nobody wants. Game theorists call it a multipolar trap.
 
-Borrowing a phrase Scott Alexander uses often at SSC / ACX, we are stuck inside the Moloch trap. In game theory we call it the multipolar trap.
+The situation can be modelled, fairly accurately I think, as an iterated prisoner's dilemma, one of the most useful frameworks in game theory. The setup: two players, two choices (cooperate or defect), and a payoff matrix that looks roughly like this.
 
-**Iterated Prisoner's Dilemma**
+{{< figure src="/images/blog/palestine/image6.png" alt="Payoff Matrix Table" caption="Payoff Matrix Table (writer's)" >}}
 
-The current situation, at least as I read it, can be modelled fairly accurately as an Iterated Prisoner's Dilemma, one of the most powerful frameworks in game theory.
+The numbers are utility, and higher is better. The best outcome for both sides is (3, 3), where both cooperate and both win. But look at the structure. Whatever B does, A does better by defecting: 5 instead of 3 if B cooperates, 1 instead of 0 if B defects. Defection is a dominant strategy, and because the logic is symmetric, the Nash equilibrium sits at (1, 1), where both sides keep defecting and both keep losing. Neither side has to be stupid or evil for this to happen. Defecting is simply the rational response to the incentives as they stand.
 
-The setup. Two players. Two choices (cooperate or defect). The payoff matrix looks roughly like this.
+Reduced to its skeleton, I think this is fairly close to where Israel and Palestine sit today. Violence and repression are the dominant strategy because under the current game, unilateral cooperation means existential vulnerability, and that holds whether or not either side "wants peace".
 
-{{< figure src="/palestine-media/image6.png" alt="Payoff Matrix Table" caption="Payoff Matrix Table (writer's)" >}}
+{{< figure src="/images/blog/palestine/image7.png" alt="Meditations on Moloch" caption="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" >}}
 
-The numbers represent utility. The higher the better. The ideal outcome for both sides is (3, 3), both cooperate, both win. But look at the structure.
+### How one state changes the game
 
-Whatever B does, A is always better off defecting. If B cooperates, A gets 5 (defect) versus 3 (cooperate). If B defects, A gets 1 (defect) versus 0 (cooperate). Defect always dominates cooperate. This is what game theory calls a dominant strategy.
+You don't get out of a dominant-strategy equilibrium by persuading the players to be nicer. You get out by changing the payoff matrix, and that's what a single state does. Once both groups live inside one legal and constitutional entity, the incentives shift in at least three places.
 
-Because the logic is symmetric for both sides, the Nash equilibrium sits at (1, 1). Both sides keep defecting. Both sides keep losing. Not because they are stupid or evil, but because that's the rational response to the present incentive structure.
+Economic sabotage against the other group becomes sabotage against yourself, because the other group is now inside your tax base, your supply chains, and your labour market.
 
-This is, I think, fairly close to where Israel and Palestine sit today. Reduced to its skeleton, violence and repression are the dominant strategy not because either side "doesn't want peace", but because under the current game, unilateral cooperation means existential vulnerability.
+Political extremism becomes electorally irrational. To win a parliamentary majority, every party has to win votes across ethnic lines, so the system forces moderation through self-interest, with no moral persuasion required.
 
-{{< figure src="/palestine-media/image7.png" alt="Meditations on Moloch" caption="from Meditations on Moloch by Slate Star Codex (Scott Alexander)" >}}
+Terrorism loses its calculus, because the target and the perpetrator now sit inside the same legal and economic system, and the blowback lands on both of them.
 
-**One-State Changes the Game Itself**
-
-The solution isn't to persuade the players to "be nicer". The solution is to change the structure of the payoff matrix itself.
-
-One-state does precisely that. When both groups become a single legal-constitutional entity, the incentive structure changes fundamentally.
-
-Economic sabotage against the other group becomes sabotage against yourself, because they are now inside the same tax network, supply chain, and labour market.
-
-Political extremism becomes electorally irrational. To win a parliamentary majority, every party has to win cross-ethnic votes. The system forces moderation through self-interest, not through moral persuasion.
-
-Terrorism loses its rational calculus, because target and perpetrator now sit inside the same legal and economic system. The blowback is symmetric.
-
-In incentive design, this is called preference alignment. The system is deliberately structured so that individual interests automatically line up with collective ones. The principle is the same as giving directors call options so that their interests align with the company's.
-
-The result is what I'd call Mutual Assured Construction. Like Mutual Assured Destruction but reversed. Not "if you collapse I collapse so we don't fight", but "if you rise I rise, so we have a reason to cooperate".
+In incentive design this is called aligning preferences: you structure the system so that individual interests line up with collective ones, the way companies give directors call options so their interests track the share price. I'd call the result Mutual Assured Construction. It's Mutual Assured Destruction run in reverse, where "if you collapse, I collapse, so we don't fight" becomes "if you rise, I rise, so we have a reason to cooperate".
 
 ## V.
 
-{{< figure src="/palestine-media/image8.jpeg" alt="Bayes Theorem" caption="Bayes Theorem visualized" >}}
+{{< figure src="/images/blog/palestine/image8.jpeg" alt="Bayes Theorem" caption="Bayes Theorem visualized" >}}
 
-**Demographics Are a Likelihood, Not an Opinion**
+Bayesian reasoning, at its most basic, goes like this: you hold a prior belief, you see some data, and you update according to how likely that data would be if the belief were true.
 
-Bayesian reasoning, at the most basic level, goes like this. You have a prior belief. You update that belief based on the likelihood of incoming data.
+Take the prior "an ethno-state can be sustained in the long run" and the data: a 50/50 population, with the Palestinian Arab growth rate consistently higher. Under that data, every decade that passes requires more intense repression to keep the ethno-state intact, and the trend only goes one way; there's no natural reversal point short of extreme intervention. After updating, the probability that an ethno-state can be sustained in the long run without apartheid or ethnic cleansing comes out very low, close to zero.
 
-Our prior. "An ethno-state can be sustained in the long run."
+{{< figure src="/images/blog/palestine/image9.jpeg" alt="Israeli settlers from Yitzhar" caption="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones at Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" >}}
 
-The likelihood from the demographic data. A 50/50 population with the Palestinian Arab growth rate consistently higher. Which means every decade that passes, sustaining the ethno-state requires increasingly intense repression. The trend is monotonically increasing. There is no natural reversal point without extreme intervention.
+The facts on the ground point the same way. The 700,000-plus Israeli settlers in the West Bank are an infrastructure fact as much as a political figure: roads, water, the electric grid, and the internet in the West Bank have all been folded into the Israeli system. Physically, a de facto single state has existed for decades. What's missing is the de jure version, meaning formal legal and constitutional recognition. Seen this way, the two-state solution is a proposal to reverse a reality that has already set, and the odds of reversing infrastructure this complex in the current political climate are, even on generous assumptions, close to zero.
 
-Posterior belief after the update. The probability that an ethno-state can be sustained in the long run without apartheid or ethnic cleansing is very low, close to zero.
+{{< figure src="/images/blog/palestine/image10.jpeg" alt="Good Friday Agreement" caption="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" >}}
 
-**De Facto Reality on the Ground**
+History gives us a base rate too. The two cases I find most relevant:
 
-{{< figure src="/palestine-media/image9.jpeg" alt="Israeli settlers from Yitzhar" caption="Israeli settlers from the illegal Jewish-only Israeli settlement of Yitzhar, accompanied by IDF, throw stones at Palestinian olive harvesters in Huwwara, October 7, 2020. (Photo: Activestills / Heather Sharona Weiss)" >}}
+South Africa (1994). The transition from an apartheid ethno-state to a democratic single state showed that constitutional integration can end an existential conflict. The outcome is far from perfect: inequality is still massive, crime is high, and several indicators suggest a fragile state. But the conflict ended.
 
-The 700,000-plus Israeli settlers in the West Bank are not a political figure. They are an infrastructure reality. Roads, water systems, electric grid, internet in the West Bank have all been integrated into the Israeli system. Physically, the de facto one-state has existed for several decades. What's missing is only the de jure version. The formal legal and constitutional recognition.
+Northern Ireland and the Good Friday Agreement (1998). A conflict between Catholic nationalists and Protestant unionists that had run for centuries was settled by constitutional power-sharing, a legally guaranteed distribution of power, without drawing a new border through anyone's town.
 
-The two-state solution isn't continuing the status quo. It's reversing a reality that has already taken shape. The probability of reversing infrastructure this complex in the current political climate, even after being generous, is close to zero, as calculated above.
-
-**Historical Base Rate**
-
-{{< figure src="/palestine-media/image10.jpeg" alt="Good Friday Agreement" caption="The Belfast Agreement, or Good Friday Agreement, is a landmark 1998 peace deal" >}}
-
-The two cases I find most relevant are these.
-
-South Africa (1994). The transition from an apartheid ethno-state to a democratic one-state proved that constitutional integration can stop an existential conflict. Was the outcome perfect? Honestly, far from it. Economic inequality is still massive, crime rates are high, and several indicators show a concerning state fragility. But the point stands.
-
-Northern Ireland, the Good Friday Agreement (1998). A conflict between Catholic-Nationalists and Protestant-Unionists that had run for centuries was resolved not by physical separation of territory but by constitutional power-sharing. Legally guaranteed distribution of power. Identity conflict, it turned out, is far more effectively resolved by institutional integration than by geographic partition.
-
-Historical base rate. Democratic-integration models have a better track record at stopping existential conflict than partition does. Not a guarantee, but in the Bayesian sense, a strong prior.
+Two cases don't make a dataset, but they point the same way: identity conflicts have ended through institutional integration more often than through partition. I'd treat that as a strong prior while admitting it's no guarantee.
 
 ## VI.
 
-{{< figure src="/palestine-media/image11.png" alt="Boundary Conditions" caption="Types of Boundary Conditions are from Wolfram Math" >}}
+{{< figure src="/images/blog/palestine/image11.png" alt="Boundary Conditions" caption="Types of Boundary Conditions are from Wolfram Math" >}}
 
-**Boundary Conditions, So It Doesn't Become Yugoslavia 2.0**
+One state is no silver bullet. If you've taken chemistry, you know a reaction only runs under certain conditions, and this one has hard constraints: violate them and the system collapses into another version of the same conflict.
 
-One-state isn't a silver bullet that automatically works. If you've taken chemistry, you know that a reaction requires certain conditions to run. There are hard constraints that, if violated, will make the system collapse into another version of the same conflict.
+{{< figure src="/images/blog/palestine/image12.jpeg" alt="Yugoslavia" caption="Superpower country, Yugoslavia, to a non-existing one" >}}
 
-{{< figure src="/palestine-media/image12.jpeg" alt="Yugoslavia" caption="Superpower country, Yugoslavia, to a non-existing one" >}}
+I count three boundary conditions that have to hold if this isn't going to become Yugoslavia 2.0.
 
-**One. A Super-Rigid Secular Constitution.**
+1. A super-rigid secular constitution. Religion and ethnicity have to be completely decoupled from political rights. I mean a state that is constitutionally blind to ethnic and religious identity when it comes to civil, political, and property rights, which is a much stronger requirement than a state that "tolerates religion". This is non-negotiable. Without it, whichever group holds the demographic majority dominates the other, and we're back to a zero-sum game.
 
-Religion and ethnicity have to be completely decoupled from political rights. Not "a state that is tolerant of religion", but a state that is constitutionally blind to ethnic and religious identity when it comes to civil, political, and property rights. This is non-negotiable. Without it, any demographic majority will dominate the minority, and we are back to a zero-sum game.
+2. An integrated monopoly on violence. Joint security forces, with a mixed-composition military and police, ideally under third-party international oversight for the first one or two decades, or at minimum a commissioner-style oversight board. A power vacuum during the transition is the most dangerous condition of all, because the most extreme actors on both sides will rush to fill it.
 
-**Two. The Integrated State's Monopoly on Violence.**
+3. Historical claims translated into economic language. If the Palestinian right of return is read as mass physical relocation, it creates a new zero-sum game identical to the one we're trying to escape. The way out is to convert it into economic terms: property reparations and documented financial compensation, in place of a fresh round of displacement that would start the next cycle. That turns an identity conflict into a finite transaction that can actually be settled.
 
-Joint security forces. Mixed-composition military and police. Ideally with third-party international oversight for the first one to two decades, or at minimum a commissioner-like oversight board. A power vacuum during the transition is the most dangerous condition, because it will be filled by the most extreme actors from both sides.
+The obvious objection is Lebanon, and it's a fair one.
 
-**Three. Convert Historical Conflict into Economic Language.**
+{{< figure src="/images/blog/palestine/image13.jpeg" alt="Lebanon Civil War" caption="Lebanon Civil War circa 1975–1990, photographed by © Raymond Depardon / Magnum Photos" >}}
 
-The right of return for Palestinian refugees, if interpreted as mass physical relocation, creates a new zero-sum game identical to the one we are trying to fix. The solution is to convert it into economic language. Economic property reparations. Documented financial compensation, not a fresh round of displacement that would trigger the next cycle. This turns identity conflict into a finite, solvable transaction.
-
-**But What About Lebanon?**
-
-{{< figure src="/palestine-media/image13.jpeg" alt="Lebanon Civil War" caption="Lebanon Civil War circa 1975–1990, photographed by © Raymond Depardon / Magnum Photos" >}}
-
-A very fair question. Lebanon, constitutionally, looks similar on the surface to what I'm proposing. Multi-community, one state, power-sharing. The result? Fifteen years of civil war, repeated state collapse, and a very fragile present.
-
-But this isn't a counterargument to one-state. It's empirical evidence that boundary condition one above isn't optional.
-
-Lebanon failed not because it was a one-state, but because its confessionalism codifies sectarian identity directly into the constitution. Parliamentary seats are divided by religion. Executive positions are divided by ethnicity. Permanently and rigidly. That isn't a secular one-state. That's a one-state whose architecture actively amplifies communal identity as the basis of power. The opposite of what I'm arguing.
-
-Lebanon isn't a refutation of one-state. Lebanon is a case study of what happens when boundary condition one is violated. It strengthens the argument, not the other way around.
+On paper, Lebanon looks a lot like what I'm proposing: several communities, one state, power-sharing. The result was fifteen years of civil war, repeated state collapse, and a very fragile present. I think Lebanon is evidence for the first boundary condition, though, because its confessional system writes sectarian identity straight into the constitution. Parliamentary seats are divided by religion and the top executive posts by sect, permanently and rigidly. That makes it a single state whose architecture amplifies communal identity as the basis of power, which is the opposite of what I'm arguing for. Lebanon shows what happens when condition one is violated, and I'd file it as support for the argument.
 
 ## VII.
 
-{{< figure src="/palestine-media/image14.jpeg" alt="Salahaddin Road, Gaza" caption="UN officials wait to inspect a wounded man shot by Israeli forces while trying to return to the north of the city through Salahaddin Road during a four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." >}}
+{{< figure src="/images/blog/palestine/image14.jpeg" alt="Salahaddin Road, Gaza" caption="UN officials wait to inspect a wounded man shot by Israeli forces while trying to return to the north of the city through Salahaddin Road during a four-day humanitarian pause on November 25, 2023, Gaza City, Gaza." >}}
 
-**The Transition Problem**
+Here is the part of the argument I'm least sure about. In an iterated prisoner's dilemma, the transition period is when both sides have the strongest incentive to defect: after the old game ends and before the new system locks in and changes the payoffs. Constitutional guarantees don't feel real yet, joint security forces haven't built authority, and economic integration hasn't produced enough mutual dependence. That window is the most dangerous one.
 
-I want to be fully honest here. This might be the most important game-theoretic question of all. In an Iterated Prisoner's Dilemma, the transition period is when both sides have maximum incentive to defect. Precisely _before_ the new system locks in and changes the payoff matrix. Before constitutional guarantees feel real, before joint security forces have built authority, and before economic integration has produced enough mutual dependency. That window is the most dangerous one.
+I won't pretend I have a technical blueprint. But the game theory above implies one requirement: the transition needs an external enforcement mechanism, a commitment device that makes defection too costly while the window is open. That could be a UN mandate, an international guarantor, or a similar structure with a specific, time-limited mandate. Its only job would be to raise the price of defecting until the new payoffs take hold.
 
-I'm not going to pretend I have the technical blueprint. But there is one thing that is logically necessary from the game-theory analysis above. The transition period requires an external enforcement mechanism. Not to rule, but to act as a commitment device that makes defection too costly during that window. A UN mandate, an international guarantor, or a similar structure with a specific and time-limited mandate.
-
-This isn't an argument against one-state. It's an argument about how, not whether. And it's exactly the issue boundary condition two above is written to address. I openly admit this is the weakest point of the argument on the implementation side. But a weakness in implementation isn't an argument that another option is better, especially when those other options have already been shown to be structurally infeasible.
+That's an argument about how to get there, and it's the problem the second boundary condition is written for. I'll admit openly that implementation is the weakest point of the whole case. But a weak implementation plan doesn't make another option better, especially when the other options have already been shown to be structurally infeasible.
 
 ## VIII.
 
-{{< figure src="/palestine-media/image15.jpeg" alt="xkcd Car Size" caption="<a href=&quot;https://xkcd.com/3167/&quot;>xkcd: Car Size</a>" >}}
+{{< figure src="/images/blog/palestine/image15.jpeg" alt="xkcd Car Size" caption="<a href=&quot;https://xkcd.com/3167/&quot;>xkcd: Car Size</a>" >}}
 
-One-state is often called utopian by both sides at once. Or too "anti-Zionist" from the Israeli and Western side. That framing misses the point of the argument.
+Both sides tend to call the one-state idea utopian, and the Israeli and Western side often adds that it's "anti-Zionist". I think that framing misses what the argument is doing. To restate it: this is a process of elimination, and morality doesn't do any of the work.
 
-To restate it. This isn't a moral argument. It's a process of elimination.
+On the a priori side, the ethno-state fails the universalizability test and has no steady state, the two-state solution fails on a conjunction of assumptions it can't meet, and the state as currently driven by Zionism isn't antifragile and carries significant ruin risk. On the a posteriori side, there's a 50/50 demographic split, more than 700,000 settlers wired into the infrastructure, and the base rates from South Africa and Northern Ireland. Everything points the same way.
 
-A priori. The ethno-state fails the universalisability test and breaks the principle of sustainable systems. The two-state solution fails on the compounding probability of too many assumptions that must hold at once. The Israeli state as currently driven by the idea of Zionism is not antifragile, and it carries significant ruin risk.
+If two options have been eliminated, logically and empirically, what's left is the third. It has plenty of problems (Sections VI and VII are basically a list of them), but it's the only one that isn't structurally doomed from the start.
 
-A posteriori. A 50/50 demographic. More than 700,000 Israeli settlers embedded in the infrastructure. The historical base rates from South Africa and Northern Ireland. Everything points in the same direction.
+Maybe this is how peace actually works. Nobody has to become kind; the system has to make violence irrational and cooperation the only sensible move. The maths doesn't need anyone to love anyone. It only needs destroying the other side to mean destroying yourself.
 
-If two options have already been eliminated logically and empirically, what's left is the third option. Not because the third option is perfect, but because it's the only one not structurally doomed from the start.
-
-Maybe this is how peace actually works. Not because everyone suddenly becomes kind, but because the system is designed so that violence becomes irrational and cooperation becomes the only sensible move.
-
-The maths here doesn't require humans to love each other. The maths only ensures that destroying the other side means destroying yourself. And sometimes, that's more than enough.
-
-This is what's called Disjunctive Syllogism.
+For completeness, here's the whole argument as a disjunctive syllogism.
 
 _(Exhaustive disjunction). E ∨ T ∨ O_
 
@@ -377,17 +289,15 @@ From Section III,
 
 _¬T. Proven. ¬A₁ ⊢ ¬S. Infrastructure is not reversible._
 
-By Disjunctive Syllogism,
+By disjunctive syllogism,
 
 _E ∨ T ∨ O, ¬E, ¬T ⊢ O_
 
-This is a deductively valid inference. No probability, no induction required. If you accept the exhaustive disjunction premise and both negations, _O_ follows necessarily.
+This is a deductively valid inference, with no probability or induction required. If you accept the exhaustive disjunction and both negations, _O_ follows necessarily.
 
-Without class analysis. Without flipping the colonial-imperialist narrative. Without falsifying religious silliness. Without a moralizing shouting match.
+Notice what the argument never needed: class analysis, the colonial-imperialist narrative, theology, or a moralizing shouting match. A One-State Democratic-Secular Palestine is the option that, analyzed this way, doesn't collapse under the weight of its own assumptions.
 
-A One-State Democratic-Secular Palestine is the solution that, when analyzed mathematically, does not collapse under the weight of its own assumptions.
-
-If you want to reject this conclusion, and I am genuinely open to that because I might well be wrong, there are a few ways you can do it.
+If you want to reject the conclusion (and I'm open to that, because I could well be wrong), here's where to push:
 
 1. Show where my axiom is wrong.
 
@@ -397,4 +307,4 @@ If you want to reject this conclusion, and I am genuinely open to that because I
 
 4. Show a historical precedent in which an ethno-state with 50/50 demographics has been sustained in the long run without apartheid or ethnic cleansing.
 
-I'm writing this as someone trying to think clearly, not as someone who thinks he is already right. If you can show a fundamental flaw in the argument, I'll happily revise my position. Because that's how thinking should work no?
+I'm writing this as someone trying to think clearly about a subject that mostly gets discussed at the top of people's lungs. If you can show me a fundamental flaw, I'll happily revise my position. That's how thinking should work, no?

@@ -40,10 +40,10 @@
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      {{ range first 5 (where .Site.RegularPages "Section"
-      "projects").ByDate.Reverse }} {{ $href := .RelPermalink }} {{ with
-      .Params.external_url }}{{ $href = . }}{{ end }}
-      <li><a href="{{ $href }}">{{ .Title }}</a></li>
+      {{ range first 5 (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
+        {{ $href := .RelPermalink }}
+        {{ with .Params.external_url }}{{ $href = . }}{{ end }}
+        <li><a href="{{ $href }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
     <p><a href="/projects/">View all projects →</a></p>
