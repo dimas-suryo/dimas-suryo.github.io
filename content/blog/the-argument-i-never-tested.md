@@ -1,7 +1,7 @@
 ---
 title: "The Argument I Never Tested"
-date: 2026-09-26
-draft: true
+date: 2026-09-27
+draft: false
 summary: "The Regime Radar page gave three reasons not to use a hidden Markov model, and nobody had checked them, including me. Tested on IHSG, the argument mostly fails for the simple two-state model and only comes back when you ask the model for three regimes."
 ---
 

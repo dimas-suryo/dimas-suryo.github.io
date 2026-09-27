@@ -33,7 +33,7 @@ The case for trend rules has never been a better typical month. Its proponents, 
 
 ## Why rules and not a hidden Markov model
 
-Hidden Markov models show up in most papers on regime detection. This section used to give three reasons against them. In September 2026 I finally tested all three on IHSG, and they held up less well than I had assumed:
+Hidden Markov models show up in most papers on regime detection. This section used to give three reasons against them. In September 2026 I finally tested all three on IHSG ([details](/blog/the-argument-i-never-tested/)), and they held up less well than I had assumed:
 
 1. The labels move when the model is refit. True, but it depends on the model. A two-state HMM refit every month relabeled a median of three past days out of thousands. A three-state one refit every six months relabeled a median of 61 days, and in one refit almost half of its history.
 2. The states have no fixed meaning. True, and easy to fix: sort the states by volatility after each fit.
