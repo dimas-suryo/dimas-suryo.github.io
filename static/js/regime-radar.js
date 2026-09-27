@@ -24,6 +24,8 @@
     mid: { name: "Mid", band: 0.12, dot: 0.6 },
     high: { name: "High", band: 0.26, dot: 1 },
   };
+  // The model panel gets its own colour, so it never reads as one of the rule-based labels.
+  const HMM_COLOR = "#8b5cf6";
   const RANGES = [["1Y", 1], ["5Y", 5], ["10Y", 10], ["All", null]];
   const DEFAULT_YEARS = 5;
   const STALE_DAYS = 10; // Lebaran closes the IDX for about a week, so 7 would cry wolf
@@ -413,6 +415,10 @@
     return { x: [dates[i0], dates[n - 1]], y, y2: [0, vhi * 1.08 || 1] };
   }
 
+  const hasHMM = (p) =>
+    !!(p.hmm && p.hmm.shown && Array.isArray(p.series.hmm_p_turbulent) &&
+      p.series.hmm_p_turbulent.length === p.series.date.length);
+
   function drawChart(el, p, years, logScale) {
     const t = theme();
     const s = p.series;
@@ -459,6 +465,21 @@
       hovertemplate: "Volatility %{y:.1f}%, %{customdata}<extra></extra>",
     });
 
+    const model = hasHMM(p);
+    if (model) {
+      traces.push({
+        x: d, y: s.hmm_p_turbulent.map((v) => (v == null ? null : v * 100)), yaxis: "y3",
+        type: "scatter", mode: "lines", connectgaps: false,
+        line: { color: HMM_COLOR, width: 1 }, fill: "tozeroy", fillcolor: hexToRgba(HMM_COLOR, 0.28),
+        hovertemplate: "Model P(turbulent) %{y:.0f}%<extra></extra>",
+      });
+    }
+    el.classList.toggle("regime-radar__chart--tall", model);
+    // Set the height explicitly from the CSS: Plotly would otherwise keep the height of
+    // the previous asset, and switching from a chart with the model strip to one
+    // without it leaves the plot overflowing onto the legend.
+    const height = parseInt(getComputedStyle(el).minHeight, 10) || (model ? 580 : 460);
+
     const w = viewWindow(p, years, logScale);
     // fixedrange: no drag-to-zoom, so a finger on the chart scrolls the page on phones.
     const axis = { gridcolor: t.grid, showline: false, zeroline: false, fixedrange: true };
@@ -467,16 +488,17 @@
       plot_bgcolor: "rgba(0,0,0,0)",
       font: { color: t.fg, family: "Poppins, sans-serif", size: 11 },
       showlegend: false,
+      height,
       margin: { l: 56, r: 12, t: 8, b: 32 },
       hovermode: "x unified",
       hoverlabel: { font: { family: "Poppins, sans-serif", size: 11 } },
-      xaxis: { ...axis, type: "date", domain: [0, 1], anchor: "y2", range: w.x, hoverformat: "%d %b %Y" },
+      xaxis: { ...axis, type: "date", domain: [0, 1], anchor: model ? "y3" : "y2", range: w.x, hoverformat: "%d %b %Y" },
       yaxis: {
-        ...axis, domain: [0.5, 1], type: logScale ? "log" : "linear", range: w.y,
+        ...axis, domain: model ? [0.58, 1] : [0.5, 1], type: logScale ? "log" : "linear", range: w.y,
         title: { text: "Price", standoff: 6, font: { size: 10 } },
       },
       yaxis2: {
-        ...axis, domain: [0, 0.4], range: w.y2, ticksuffix: "%",
+        ...axis, domain: model ? [0.27, 0.51] : [0, 0.4], range: w.y2, ticksuffix: "%",
         title: { text: "Volatility", standoff: 6, font: { size: 10 } },
       },
       shapes: [
@@ -484,6 +506,16 @@
         ...bands(d, s.vol_regime, "y2 domain", (v) => (VOL[v] ? `rgba(${VOL_RGB},${VOL[v].band})` : null)),
       ],
     };
+    if (model) {
+      layout.yaxis3 = {
+        ...axis, domain: [0, 0.18], range: [0, 100], tickvals: [0, 50, 100], ticktext: ["0%", "50%", "100%"],
+        title: { text: "Model", standoff: 6, font: { size: 10 } },
+      };
+      layout.shapes.push({
+        type: "line", xref: "paper", yref: "y3", x0: 0, x1: 1, y0: 50, y1: 50,
+        line: { color: t.muted, width: 1, dash: "dot" }, layer: "below",
+      });
+    }
     return window.Plotly.react(el, traces, layout, { displayModeBar: false, responsive: true });
   }
 
@@ -502,6 +534,7 @@
       ["vol_high_cut", s.vol_hi],
       ["trend_regime", s.trend_regime],
       ["vol_regime", s.vol_regime],
+      ["hmm_p_turbulent", s.hmm_p_turbulent],
     ].filter(([, arr]) => Array.isArray(arr));
     const lines = [cols.map(([h]) => h).join(",")];
     for (let i = 0; i < s.date.length; i++) {
@@ -522,12 +555,6 @@
   // ---------- page assembly ----------
 
   function scaffold(root) {
-    const trendKey = Object.values(TREND)
-      .map((v) => `<span class="regime-radar__key"><span class="regime-radar__swatch" style="background:${hexToRgba(v.color, 0.55)}"></span>${v.name}</span>`)
-      .join("");
-    const volKey = Object.values(VOL)
-      .map((v) => `<span class="regime-radar__key"><span class="regime-radar__swatch" style="background:rgba(${VOL_RGB},${Math.min(1, v.band * 3)});box-shadow:inset 0 0 0 1px rgba(${VOL_RGB},0.8)"></span>${v.name}</span>`)
-      .join("");
     root.innerHTML = `
       <div class="regime-radar__picker"></div>
       <div class="regime-radar__stale" hidden></div>
@@ -543,18 +570,65 @@
         <button type="button" class="regime-radar__btn regime-radar__log" aria-pressed="false">Log price</button>
       </div>
       <div class="regime-radar__chart"></div>
-      <div class="regime-radar__legend">
-        <div>
-          <div><span class="regime-radar__legend-head">Top panel, trend</span>${trendKey}</div>
-          <div class="regime-radar__legend-lines">Lines: close, 50-day average (dotted), 200-day average (blue).</div>
-        </div>
-        <div>
-          <div><span class="regime-radar__legend-head">Bottom panel, volatility</span>${volKey}</div>
-          <div class="regime-radar__legend-lines">Lines: realized volatility and the two cut points (dotted).</div>
-        </div>
-      </div>
+      <div class="regime-radar__legend"></div>
+      <div class="regime-radar__hmm"></div>
       <div class="regime-radar__stats"></div>
       <div class="regime-radar__foot"></div>`;
+  }
+
+  function legendHTML(p) {
+    const trendKey = Object.values(TREND)
+      .map((v) => `<span class="regime-radar__key"><span class="regime-radar__swatch" style="background:${hexToRgba(v.color, 0.55)}"></span>${v.name}</span>`)
+      .join("");
+    const volKey = Object.values(VOL)
+      .map((v) => `<span class="regime-radar__key"><span class="regime-radar__swatch" style="background:rgba(${VOL_RGB},${Math.min(1, v.band * 3)});box-shadow:inset 0 0 0 1px rgba(${VOL_RGB},0.8)"></span>${v.name}</span>`)
+      .join("");
+    const model = hasHMM(p);
+    return `
+      <div>
+        <div><span class="regime-radar__legend-head">Top panel, trend</span>${trendKey}</div>
+        <div class="regime-radar__legend-lines">Lines: close, 50-day average (dotted), 200-day average (blue).</div>
+      </div>
+      <div>
+        <div><span class="regime-radar__legend-head">${model ? "Middle" : "Bottom"} panel, volatility</span>${volKey}</div>
+        <div class="regime-radar__legend-lines">Lines: realized volatility and the two cut points (dotted).</div>
+      </div>
+      ${model ? `
+      <div class="regime-radar__legend-model">
+        <div><span class="regime-radar__legend-head">Bottom strip, model (experimental)</span><span class="regime-radar__key"><span class="regime-radar__swatch" style="background:${hexToRgba(HMM_COLOR, 0.6)}"></span>P(turbulent)</span></div>
+        <div class="regime-radar__legend-lines">What a hidden Markov model said on each day, at the time. Explained below.</div>
+      </div>` : ""}`;
+  }
+
+  // The model is a second opinion. Its numbers come from payload.hmm, and the text
+  // says plainly what it is, how it was run, and where to read about its limits.
+  function hmmHTML(p) {
+    const h = p.hmm;
+    if (!h || !Array.isArray(h.states) || h.states.length < 2) return "";
+    const name = esc(p.meta.display_name || p.meta.symbol);
+    const more = `<a href="#why-rules-and-not-a-hidden-markov-model">Why this is a side panel</a>`;
+    if (!h.shown) {
+      return `<div class="regime-radar__hmm-title">A second opinion from a model (experimental)</div>
+        <div class="regime-radar__hmm-text">No model panel for ${name}. ${esc(h.reason || "")} ${more}.</div>`;
+    }
+    const [calm, turb] = h.states;
+    const pct = (x) => (isNum(x) ? (x * 100).toFixed(1) + "%" : "n/a");
+    const days = (x) => (isNum(x) ? `${Math.round(x)} trading days` : "n/a");
+    const pNow = isNum(h.p_turbulent) ? Math.round(h.p_turbulent * 100) : null;
+    return `<div class="regime-radar__hmm-title">A second opinion from a model (experimental)</div>
+      <div class="regime-radar__hmm-text">
+        A two-state hidden Markov model, fitted on ${name}'s returns through ${fmtDate(h.fitted_through)} and run
+        forward one day at a time, put the probability that the market was in its turbulent state at
+        <span class="regime-radar__hmm-p">${pNow == null ? "n/a" : pNow + "%"}</span> on ${fmtDate(h.p_date)}.
+        Its calm state moves about ${pct(calm.daily_sd)} a day and lasts ${days(calm.expected_days)} on average;
+        its turbulent state moves about ${pct(turb.daily_sd)} a day and lasts ${days(turb.expected_days)}.
+        Over the past year it called ${isNum(h.turbulent_share_last_year) ? Math.round(h.turbulent_share_last_year * 100) + "%" : "n/a"} of days turbulent.
+      </div>
+      <div class="regime-radar__hmm-text regime-radar__hmm-fine">
+        The strip at the bottom of the chart shows what the model said on each day at the time, never what it
+        would say now with hindsight. It is refit at every month end, and the rule-based labels above remain the
+        ones this page is built on. ${more}.
+      </div>`;
   }
 
   function renderPicker(state) {
@@ -605,6 +679,8 @@
     r.querySelector(".regime-radar__pending").innerHTML = pendingHTML(p);
     r.querySelector(".regime-radar__inputs").innerHTML = inputsHTML(p);
     r.querySelector(".regime-radar__stats").innerHTML = tableHTML(p);
+    r.querySelector(".regime-radar__legend").innerHTML = legendHTML(p);
+    r.querySelector(".regime-radar__hmm").innerHTML = hmmHTML(p);
 
     const built = fmtLocalTime(p.meta.generated_at);
     const foot = r.querySelector(".regime-radar__foot");
@@ -631,7 +707,7 @@
     const r = state.root;
     r.querySelector(".regime-radar__status").innerHTML =
       `<span class="regime-radar__error-inline">Could not load ${esc(state.names[ticker] || ticker)}. ${esc(describeError(err))}</span>`;
-    for (const k of ["note", "pending", "inputs", "stats", "foot"]) {
+    for (const k of ["note", "pending", "inputs", "stats", "foot", "legend", "hmm"]) {
       r.querySelector(".regime-radar__" + k).innerHTML = "";
     }
     r.querySelector(".regime-radar__stale").hidden = true;

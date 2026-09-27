@@ -24,6 +24,7 @@ import pandas as pd
 
 from .data import clean_prices, daily_log_returns, fetch_prices
 from .feed import write_feeds
+from .hmm import describe, realtime_turbulent
 from .signals import (
     confirm,
     realized_vol,
@@ -52,6 +53,13 @@ PARAMS = {
     "bootstrap_seed": 7,
     "ci_level": 0.95,
     "min_episodes_for_ci": 5,
+    # Experimental HMM panel (see hmm.py). Refit at every month end from hmm_start.
+    "hmm_enabled": True,
+    "hmm_start": "2010-01",
+    "hmm_n_init": 3,
+    # A turbulent state that lasts only a few days on average is a jump detector, not a
+    # regime (USD/IDR: about 5 days). Below this, the panel is not shown for that asset.
+    "hmm_min_turbulent_days": 10,
 }
 
 OUT_DIR = Path("static/data/regime-radar")
@@ -181,13 +189,63 @@ def summarize(
     }
 
 
+def hmm_block(df: pd.DataFrame, p: dict, cache: list[dict] | None) -> tuple[dict | None, list | None, list[dict] | None, str | None]:
+    """(payload block, aligned series, refits to cache, error). Never raises."""
+    # Use the closes exactly as published, so the panel can be rebuilt from the JSON
+    # and float noise in the source data cannot invalidate the cache.
+    published = df["close"].map(_round_sig)
+    try:
+        prob, refits = realtime_turbulent(published, start=p["hmm_start"], n_init=p["hmm_n_init"], cache=cache)
+    except Exception as e:  # the panel is optional; the build must not fail because of it
+        return None, None, None, f"{type(e).__name__}: {e}"
+    if not refits or prob.dropna().empty:
+        return None, None, refits, "not enough history for a first refit"
+    valid = prob.dropna()
+    last_year = valid.iloc[-252:]
+    info = describe(refits[-1])
+    turb_days = info["states"][1]["expected_days"] or 0
+    if turb_days < p["hmm_min_turbulent_days"]:
+        block = {
+            **info,
+            "shown": False,
+            "reason": (
+                f"The model's turbulent state lasts about {turb_days:.0f} trading days on average, closer to "
+                f"a single jump than a regime (the panel needs at least {p['hmm_min_turbulent_days']})."
+            ),
+        }
+        return block, None, refits, None
+    block = {
+        "model": (
+            "Two-state Gaussian hidden Markov model on daily log returns. Refit at every month end on the "
+            f"returns up to that day (best of {p['hmm_n_init']} starts, states sorted by volatility). Each day's "
+            "probability comes from a forward filter with the model fitted through the previous month end, "
+            "so no value uses data from after its own day."
+        ),
+        **info,
+        "shown": True,
+        "p_turbulent": round(float(valid.iloc[-1]), 4),
+        "p_date": _iso(valid.index[-1]),
+        "series_start": _iso(valid.index[0]),
+        "turbulent_share_last_year": round(float((last_year > 0.5).mean()), 3),
+        "refits": len(refits),
+    }
+    series = [None if pd.isna(v) else round(float(v), 3) for v in prob.tolist()]
+    return block, series, refits, None
+
+
 def build_payload(
     ticker: Ticker,
     prices: pd.DataFrame | None = None,
     now: dt.datetime | None = None,
     params: dict | None = None,
+    hmm_cache: list[dict] | None = None,
 ) -> dict:
-    """End to end for one ticker. Pass prices=... in tests to skip the network."""
+    """End to end for one ticker. Pass prices=... in tests to skip the network.
+
+    If the HMM panel is enabled, the monthly refits it used are returned under
+    the private key "_hmm_refits", which main() writes to its own file and
+    removes before the payload is saved.
+    """
     p = {**PARAMS, **(params or {})}
     if prices is None:
         prices = fetch_prices(ticker.symbol, start=p["history_start"], stooq_symbol=ticker.stooq)
@@ -211,7 +269,13 @@ def build_payload(
     def col(name: str, fn) -> list:
         return [fn(v) for v in df[name].tolist()]
 
-    return {
+    hmm, hmm_series, hmm_refits, hmm_error = (None, None, None, None)
+    if p.get("hmm_enabled"):
+        hmm, hmm_series, hmm_refits, hmm_error = hmm_block(df, p, hmm_cache)
+        if hmm_error:
+            print(f"  · {ticker.symbol}: HMM panel skipped: {hmm_error}", file=sys.stderr)
+
+    payload = {
         "meta": {
             "symbol": ticker.symbol,
             "display_name": ticker.display_name,
@@ -258,6 +322,16 @@ def build_payload(
         },
         "stats": summarize(df, prices["close"], p),
     }
+    if hmm:
+        payload["hmm"] = hmm
+        if hmm.get("shown"):
+            payload["series"]["hmm_p_turbulent"] = hmm_series
+            payload["latest"]["hmm_p_turbulent"] = hmm["p_turbulent"]
+    if hmm_error:
+        payload["meta"]["hmm_error"] = hmm_error
+    if hmm_refits is not None:
+        payload["_hmm_refits"] = hmm_refits
+    return payload
 
 
 def _atomic_write_json(obj: dict, path: Path) -> Path:
@@ -320,8 +394,13 @@ def main(universe: list[Ticker] | None = None, out_dir: Path = OUT_DIR) -> int:
 
     for ticker in universe:
         try:
-            payload = build_payload(ticker)
+            cache_path = out_dir / f"hmm-{safe_filename(ticker.symbol)}.json"
+            cache = json.loads(cache_path.read_text()).get("refits") if cache_path.exists() else None
+            payload = build_payload(ticker, hmm_cache=cache)
+            refits = payload.pop("_hmm_refits", None)
             path = write_payload(payload, out_dir)
+            if refits:
+                _atomic_write_json({"symbol": ticker.symbol, "refits": refits}, cache_path)
             l = payload["latest"]
             print(
                 f"  ✓ {ticker.symbol:<8} {l['date']}  trend={l['trend_regime']:<8} "

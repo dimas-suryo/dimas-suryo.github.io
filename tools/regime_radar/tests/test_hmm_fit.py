@@ -1,5 +1,5 @@
-"""Fitting tests for hmm_refit.py. Need hmmlearn (requirements-research.txt);
-skipped in the daily build, which does not install it."""
+"""Fitting tests for hmm_refit.py and hmm.py. Need hmmlearn, which is in requirements.txt;
+skipped only where it is not installed."""
 from __future__ import annotations
 
 import numpy as np

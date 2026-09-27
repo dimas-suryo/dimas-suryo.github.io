@@ -23,6 +23,8 @@ The volatility label compares the last 21 trading days of realized volatility (t
 
 Both labels then pass one more filter: a label only changes after the new reading has held for three trading days in a row. Before I added this, roughly 30% of all regime spells in the IHSG data lasted one or two days, mostly readings bouncing across a cut point. The cost is that a real switch shows up two days late. When today's reading disagrees with the label, the dashboard says so and counts the days.
 
+Below the volatility panel, IHSG and the S&P 500 also get an experimental strip: the probability a two-state hidden Markov model gives to its turbulent state, as the model said it on each day at the time. It is a second opinion from a statistical model rather than a rule, refit every month on the data up to that point. It is left out for USD/IDR, where the model's turbulent state lasts only a few days, which makes it a detector of single jumps rather than a regime. The labels, the table and the feeds all come from the rules.
+
 The table under the chart is the tool checking itself. For every labeled day it looks at what happened over the following 21 trading days, then groups those outcomes by the label the day had. A label that carries information should produce a row that looks different from the All days row. Volatility clusters (calm months tend to follow calm months, turbulent ones follow turbulent ones), so the volatility rows should separate clearly in the forward volatility column. Whether the trend rows separate is the more interesting question. As of September 2026 ([what that means](/blog/one-crisis-deep/)) they do not in the median return column in any of the three markets. On the S&P 500 the down rows are followed by clearly higher volatility, which fits a risk signal better than a return signal. Each cell carries a 95% interval from resampling whole episodes, and an asterisk marks a gap to All days that is outside its interval. Those intervals are still a little optimistic, because volatility clusters across episode boundaries and a forward window can spill into the next episode.
 
 The obvious objection to any table like this is that the result might come from my choice of 50, 200 and 60. The repo includes a sensitivity script that reruns the same table with faster and slower averages, different cut points, no confirmation, a longer horizon, and each half of the history separately. If a result only shows up under one setting, I would not trust it.
@@ -39,7 +41,7 @@ Hidden Markov models show up in most papers on regime detection. This section us
 
 What survives is simpler. A rule's label never changes after the fact, anyone can check it with a spreadsheet, and it can give three regimes without the instability that three HMM states bring. The price is that 50, 200 and 60 are conventions rather than estimates, and different choices would move some of the switch dates. I used the most common settings instead of tuning them to IHSG, and the table shows how they have done.
 
-A two-state HMM run in real time is a reasonable alternative for telling calm from turbulent, which is why the roadmap below includes one.
+A two-state HMM run in real time is a reasonable alternative for telling calm from turbulent, which is why the dashboard now shows one as an experimental side panel, for the assets where the model finds lasting regimes.
 
 ## Limits
 
@@ -69,7 +71,7 @@ All of these live in the `PARAMS` dict in [`tools/regime_radar/build.py`](https:
 
 Prices come from `yfinance`, a community scraper for Yahoo Finance's internal endpoints rather than an official API. For daily closes it works most days and breaks once or twice a year when Yahoo changes something. When that happens the page keeps showing the last good file, and a banner appears once the latest close is more than ten days old. Stooq is wired in as a backup source, though I have not yet confirmed that it carries every series here.
 
-Two cleaning steps run before any label is computed. If the build runs while a market is still open, today's intraday price is dropped, so no label is ever computed from a close that has not happened yet. Bad prints are removed: a close that sits far from the median of the surrounding month, with the bar raised in turbulent months so that real crash days survive. On the current history that removes a handful of USD/IDR quotes, mostly one wrong value that kept reappearing in late 2013, and nothing from IHSG or the S&P 500. Weekend bars, which Yahoo sometimes emits for FX, are dropped too. Every JSON file lists what was removed under `meta.cleaning`. Yahoo's USD/IDR history is still the least reliable of the three series.
+Two cleaning steps run before any label is computed. If the build runs while a market is still open, today's intraday price is dropped, so no label is ever computed from a close that has not happened yet. Bad prints are removed: a close that sits far from the median of the surrounding month, with the bar raised in turbulent months so that real crash days survive. On the current history that removes a handful of USD/IDR quotes, mostly one wrong value that kept reappearing in late 2013, and nothing from IHSG or the S&P 500. Weekend bars, which Yahoo sometimes emits for FX, are dropped too. Every JSON file lists what was removed under `meta.cleaning`, and every monthly model behind the experimental strip is published in `hmm-<symbol>.json` next to it. Yahoo's USD/IDR history is still the least reliable of the three series.
 
 If you would rather be told than check, there is an Atom feed of regime changes, with one entry each time a label switches: [all three assets](/data/regime-radar/feed.xml), or just [IHSG](/data/regime-radar/feed-_JKSE.xml), the [S&P 500](/data/regime-radar/feed-_GSPC.xml) or [USD/IDR](/data/regime-radar/feed-IDR_X.xml). Any feed reader works, and an RSS-to-email service can turn it into email. Each entry says what changed and why, and nothing about what to do.
 
@@ -78,10 +80,9 @@ Every series can be downloaded as CSV from the link under the chart. The raw fil
 ## Roadmap
 
 - LQ45 constituents, once the picker scales past a handful of assets.
-- An experimental two-state HMM panel, run in real time (a forward filter with monthly refits) and labeled as a model.
 
 ## Changes
 
-- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes. Then a test of the HMM claims in this page, which corrected two of them.
+- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes. Then a test of the HMM claims in this page, which corrected two of them. Then the experimental HMM strip.
 
 Issues and pull requests are welcome on [GitHub](https://github.com/dimas-suryo/dimas-suryo.github.io/issues).

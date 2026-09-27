@@ -15,7 +15,7 @@ and not a strawman of it:
     the most recent monthly refit, which is how one would run it in production
 
 Run from the repo root (reads the published payload, no network needed):
-    pip install -r tools/regime_radar/requirements-research.txt
+    pip install -r tools/regime_radar/requirements.txt
     python -m tools.regime_radar.hmm_refit --out hmm_k2                            # about 4 min
     python -m tools.regime_radar.hmm_refit --k 3 --every 3 --daily 0 --out hmm_k3q  # about 6 min
     python -m tools.regime_radar.hmm_refit --k 3 --every 6 --daily 0 --out hmm_k3h  # about 3 min
@@ -29,7 +29,6 @@ from __future__ import annotations
 import argparse
 import json
 import warnings
-from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
@@ -40,33 +39,7 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 
 
-@dataclass
-class HMMParams:
-    """Parameters of a Gaussian HMM with states already sorted by variance."""
-
-    startprob: np.ndarray  # (K,)
-    transmat: np.ndarray  # (K, K)
-    means: np.ndarray  # (K,)
-    variances: np.ndarray  # (K,)
-
-
-def forward_filter(x: np.ndarray, p: HMMParams, prior: np.ndarray | None = None) -> np.ndarray:
-    """P(state_t | x_1..x_t) for every t. Uses no data after t, unlike smoothing.
-
-    `prior` is the state distribution before x[0]; defaults to the start probabilities.
-    """
-    K = len(p.means)
-    out = np.empty((len(x), K))
-    alpha = (p.startprob if prior is None else prior).astype(float)
-    sd = np.sqrt(p.variances)
-    for t, xt in enumerate(x):
-        if t > 0 or prior is not None:
-            alpha = alpha @ p.transmat
-        dens = np.exp(-0.5 * ((xt - p.means) / sd) ** 2) / (sd * np.sqrt(2 * np.pi))
-        alpha = alpha * np.maximum(dens, 1e-300)
-        alpha /= alpha.sum()
-        out[t] = alpha
-    return out
+from .hmm import HMMParams, fit_best, forward_filter  # noqa: E402,F401  (re-exported for tests)
 
 
 def relabel_share(prev: np.ndarray, new: np.ndarray) -> float:
@@ -97,32 +70,6 @@ def self_agreement(realtime_p: np.ndarray, hindsight_label: np.ndarray, lo: floa
 # ---------------------------------------------------------------------------
 # Fitting (needs hmmlearn)
 # ---------------------------------------------------------------------------
-
-
-def fit_best(x: np.ndarray, k: int = 2, n_init: int = 5, seed: int = 0):
-    """Best-of-n Gaussian HMM. Returns (params sorted by variance, raw index of the most volatile state)."""
-    from hmmlearn.hmm import GaussianHMM
-
-    X = x.reshape(-1, 1)
-    best = None
-    with warnings.catch_warnings():
-        warnings.simplefilter("ignore")
-        for i in range(n_init):
-            m = GaussianHMM(n_components=k, covariance_type="diag", n_iter=500, tol=1e-6, random_state=seed + i)
-            m.fit(X)
-            score = m.score(X)
-            if best is None or score > best[0]:
-                best = (score, m)
-    m = best[1]
-    var = m.covars_.reshape(k, -1)[:, 0]
-    order = np.argsort(var)
-    params = HMMParams(
-        startprob=m.startprob_[order],
-        transmat=m.transmat_[np.ix_(order, order)],
-        means=m.means_.ravel()[order],
-        variances=var[order],
-    )
-    return params, int(order[-1]), m, order
 
 
 def state_labels(m, order, x: np.ndarray) -> np.ndarray:

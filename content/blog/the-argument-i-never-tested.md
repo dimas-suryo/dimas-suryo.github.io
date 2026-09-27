@@ -88,9 +88,11 @@ What's left of the case for rules is shorter than the page said, and I think mor
 - Anyone can check a rule with a spreadsheet. Checking an HMM label means refitting the model.
 - A rule can give three regimes without the instability that three HMM states bring. The three-state model is where the HMM case really breaks down.
 
-And one concession: a two-state HMM, run in real time and refit monthly, is a reasonable alternative for telling calm from turbulent. The page's roadmap has listed "an experimental HMM panel" since May, half as a gesture. It now looks worth building.
+And one concession: a two-state HMM, run in real time and refit monthly, is a reasonable alternative for telling calm from turbulent. The page's roadmap had listed "an experimental HMM panel" since May, half as a gesture, so I built it. It sits under the chart as a separate strip, showing only what the model said on each day at the time, and every monthly model it uses is published next to the data.
 
-I've rewritten that section of the page to say this, with the numbers.
+Building it turned up one more result. For USD/IDR, the same model's turbulent state lasts about five trading days on average, which makes it a detector of single jumps rather than a regime, so the strip is left out for that series. The panel only appears where the model finds spells of at least ten days, which today means IHSG and the S&P 500.
+
+I've rewritten that section of the page to say all this, with the numbers.
 
 ## VIII.
 

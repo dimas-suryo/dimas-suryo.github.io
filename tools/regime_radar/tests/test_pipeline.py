@@ -287,7 +287,9 @@ FLOOR = {t.symbol: t.bad_print_floor for t in UNIVERSE}
 class TestBadPrintsOnRealData:
     def test_usdidr_2013_stuck_quote_removed(self):
         got = _flagged(real.IDR_2013_STUCK_QUOTE, FLOOR["IDR=X"])
-        assert got == ["2013-10-28", "2013-11-29", "2013-12-02", "2013-12-03", "2013-12-06", "2013-12-09"]
+        # 14 Oct 2013 (10,787 between 11,463 and 11,337, back the next day) is caught by
+        # the snap-back test; the other six are the stuck 9,612.45 quote.
+        assert got == ["2013-10-14", "2013-10-28", "2013-11-29", "2013-12-02", "2013-12-03", "2013-12-06", "2013-12-09"]
 
     def test_usdidr_boxing_day_2024_removed(self):
         assert _flagged(real.IDR_2024_BOXING_DAY, FLOOR["IDR=X"]) == ["2024-12-26"]
@@ -307,7 +309,7 @@ class TestBadPrintsOnRealData:
         s = _series(real.IDR_2013_STUCK_QUOTE)
         df = pd.DataFrame({"open": s, "high": s, "low": s, "close": s, "volume": 0})
         out, notes = clean_prices(df, bad_print_floor=FLOOR["IDR=X"])
-        assert len(out) == len(df) - 6
+        assert len(out) == len(df) - 7
         assert any("2013-12-09" in n for n in notes)
         assert out["close"].min() > 10000
 
@@ -319,3 +321,63 @@ class TestWeekendBars:
         out, notes = clean_prices(df)
         assert out.index[-1] == pd.Timestamp("2026-09-25")
         assert any("weekend" in n for n in notes)
+
+
+# ============================================================
+# The live edge: the latest days have no future yet
+# ============================================================
+
+def _flat_then(after: list[float], n_calm: int = 60) -> pd.Series:
+    """A calm, gently wiggling series at ~100, followed by the given closes."""
+    calm = 100 * (1 + 0.002 * np.sin(np.arange(n_calm)))
+    c = np.r_[calm, after]
+    return pd.Series(c, index=pd.bdate_range("2026-01-05", periods=len(c)))
+
+
+class TestLiveEdge:
+    @pytest.mark.parametrize("k", [0, 1, 2, 3, 5, 8, 12, 20])
+    def test_real_crash_on_the_latest_days_is_kept(self, k):
+        """A -15% crash that stays down must never be removed, however many days later we look."""
+        s = _flat_then([85.0 * (1 + 0.003 * np.sin(i)) for i in range(k + 1)])
+        assert not rolling_median_outliers(s, floor=0.10).any()
+
+    @pytest.mark.parametrize("k", [1, 2, 5, 12])
+    def test_bad_tick_near_the_end_is_caught_once_it_reverts(self, k):
+        s = _flat_then([80.0] + [100.0 * (1 + 0.002 * np.sin(i)) for i in range(k)])
+        flagged = s.index[rolling_median_outliers(s, floor=0.10).to_numpy()]
+        assert list(flagged) == [s.index[60]]
+
+    def test_latest_day_is_never_flagged(self):
+        s = _flat_then([60.0])  # -40% on the last day: could be an error, could be real; keep it
+        assert not rolling_median_outliers(s, floor=0.10).iat[-1]
+
+    @pytest.mark.parametrize("name", ["JKSE_2008_CRASH", "JKSE_2026_JUNE", "IDR_2008_CRISIS"])
+    def test_replaying_real_crises_day_by_day_never_drops_a_real_day(self, name):
+        """As if the build ran every day through the crisis: nothing may ever be flagged."""
+        rows = getattr(real, name)
+        s = _series(rows)
+        floor = FLOOR["IDR=X"] if name.startswith("IDR") else FLOOR["^JKSE"]
+        for k in range(12, len(s) + 1):
+            flagged = rolling_median_outliers(s.iloc[:k], floor=floor)
+            assert not flagged.any(), f"{name}: flagged {list(s.index[:k][flagged.to_numpy()])} with data to {s.index[k-1].date()}"
+
+    def test_replaying_boxing_day(self):
+        """Not knowable on the day; caught within ten trading days; never un-caught after that."""
+        s = _series(real.IDR_2024_BOXING_DAY)
+        bad = pd.Timestamp("2024-12-26")
+        k_bad = s.index.get_loc(bad)
+        seen = [bool(rolling_median_outliers(s.iloc[: k + 1], floor=FLOOR["IDR=X"]).loc[bad])
+                for k in range(k_bad, len(s))]
+        assert seen[0] is False, "cannot be known on the day itself"
+        first = seen.index(True)
+        assert first <= 10, f"caught only after {first} days"
+        assert all(seen[first:]), "once caught, it stays caught"
+
+    @pytest.mark.parametrize("name", ["IDR_2013_STUCK_QUOTE", "IDR_2024_BOXING_DAY"])
+    def test_replay_flags_only_real_bad_prints(self, name):
+        """During a day-by-day replay, nothing outside the final list is ever flagged."""
+        s = _series(getattr(real, name))
+        final = set(s.index[rolling_median_outliers(s, floor=FLOOR["IDR=X"]).to_numpy()])
+        for k in range(12, len(s) + 1):
+            now = set(s.index[:k][rolling_median_outliers(s.iloc[:k], floor=FLOOR["IDR=X"]).to_numpy()])
+            assert now <= final, f"temporarily flagged {sorted(now - final)} with data to {s.index[k-1].date()}"

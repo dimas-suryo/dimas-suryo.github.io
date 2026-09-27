@@ -267,9 +267,50 @@
   margin-right: 5px;
 }
 
+.regime-radar__legend-model {
+  grid-column: 1 / -1;
+}
+
 .regime-radar__legend-lines {
   opacity: 0.7;
   margin-top: 2px;
+}
+
+/* Experimental model panel */
+.regime-radar__chart--tall {
+  min-height: 580px;
+}
+
+.regime-radar__hmm {
+  margin: -8px 0 30px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border-left: 3px solid #8b5cf6;
+  background: rgba(139, 92, 246, 0.07);
+}
+
+.regime-radar__hmm:empty {
+  display: none;
+}
+
+.regime-radar__hmm-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.regime-radar__hmm-text {
+  font-size: 0.93em;
+}
+
+.regime-radar__hmm-fine {
+  margin-top: 6px;
+  opacity: 0.7;
+  font-size: 0.86em;
+}
+
+.regime-radar__hmm-p {
+  font-weight: 600;
+  color: #8b5cf6;
 }
 
 /* "What followed" table */
@@ -430,6 +471,9 @@
   }
   .regime-radar__chart {
     min-height: 400px;
+  }
+  .regime-radar__chart--tall {
+    min-height: 500px;
   }
   .regime-radar__row > span:last-child {
     white-space: normal;

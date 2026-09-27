@@ -110,30 +110,56 @@ def fetch_prices(symbol: str, start: str = "2000-01-01", stooq_symbol: str | Non
 
 
 def rolling_median_outliers(
-    close: pd.Series, window: int = 10, n_mad: float = 6.0, floor: float = 0.10
+    close: pd.Series, window: int = 10, n_mad: float = 6.0, floor: float = 0.10, back: float = 0.25
 ) -> pd.Series:
-    """True where a close sits implausibly far from the prices around it.
+    """True where a close is a bad print. Two tests, both in log terms:
 
-    Compares each log close with the median of the `window` days on either side
-    (21 days in total). A day is flagged when its distance from that median is
-    larger than both `floor` and `n_mad` robust standard deviations (1.4826 x the
-    median absolute deviation over the same window). The MAD term raises the bar
-    in turbulent months, which is what keeps real crash days such as IHSG on
-    8 Oct 2008 or 8 Jun 2026 from being flagged. The floor keeps the filter from
-    firing on ordinary moves in calm months, when the MAD is tiny.
+    1. Snap-back, for every day but the latest: the close sits further than the
+       threshold from the median of the `window` days before it, and the very
+       next close is back within `back` (a quarter) of that distance. Real
+       crashes rarely undo themselves overnight; data errors do. This catches
+       single bad ticks like USD/IDR on 26 Dec 2024 as soon as the next day
+       arrives.
+    2. Rolling median, only for days with a full `window` of days after them:
+       the close sits further than the threshold from the median of the 21 days
+       around it. This catches wrong values that persist or keep coming back,
+       like USD/IDR at 9,612.45 on six days in late 2013.
 
-    This catches what a one-day reversal check misses: a wrong value that
-    persists for a few days or keeps coming back, like USD/IDR at 9,612.45 on
-    six days in late 2013. It looks at days after t, so it revises history as
-    new data arrives. That is data correction, like a vendor fixing a bad tick,
-    and it never feeds future prices into the signal rules themselves.
+    The threshold is the larger of `floor` and `n_mad` robust standard deviations
+    (1.4826 x the median absolute deviation around the rolling median). The MAD
+    term raises the bar in turbulent months, which keeps real crash days such as
+    IHSG on 8 Oct 2008 or 8 Jun 2026 from being flagged; the floor keeps the
+    filter quiet on ordinary moves in calm months.
+
+    Why test 2 skips the latest days: without days after them, it would only ask
+    "is today far from last week?", and for a real crash the answer is yes. An
+    earlier version dropped a real -12% crash on the latest day for about a week.
+    So the latest day can never be flagged, and a recent day only by test 1, once
+    the data shows it snapped back. Replays of 2008 and June 2026, day by day,
+    are in the tests.
+
+    Both tests look at days after t, so the cleaned history can be revised as
+    data arrives. That is data correction, like a vendor fixing a bad tick; the
+    signal rules themselves never see future prices.
     """
     x = np.log(close)
+    n = len(x)
+    if n == 0:
+        return pd.Series(False, index=close.index)
     w = 2 * window + 1
     med = x.rolling(w, center=True, min_periods=window + 1).median()
     dev = (x - med).abs()
     mad = dev.rolling(w, center=True, min_periods=window + 1).median() * 1.4826
-    return (dev > np.maximum(floor, n_mad * mad)).fillna(False)
+    thr = np.maximum(floor, n_mad * mad)
+
+    pre = x.rolling(window, min_periods=1).median().shift(1)
+    d = (x - pre).abs()
+    nxt = (x.shift(-1) - pre).abs()
+    snap = (d > thr) & (nxt <= back * d) & pre.notna() & nxt.notna()
+
+    has_future = pd.Series(np.arange(n) <= n - 1 - window, index=close.index)
+    persistent = (dev > thr) & has_future
+    return (snap | persistent).fillna(False)
 
 
 def clean_prices(
