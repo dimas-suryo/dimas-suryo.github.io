@@ -33,8 +33,13 @@
     dot.style.background = t.color;
     el.textContent = "";
     el.appendChild(dot);
+    // The move since the label began, so "downtrend" is not read as "falling".
+    const x = l.trend_change_since;
+    const move = typeof x === "number" && span
+      ? (Math.abs(x) < 0.0005 ? " and is roughly unchanged since then" : ` and is ${x > 0 ? "up" : "down"} ${Math.abs(x * 100).toFixed(1)}% since then`)
+      : "";
     el.appendChild(document.createTextNode(
-      `${entry.display_name || entry.symbol} has been ${t.phrase}${span}, with ${VOL[l.vol_regime]} (close of ${fmtDate(l.date)}).`
+      `${entry.display_name || entry.symbol} has been ${t.phrase}${span}${move}, with ${VOL[l.vol_regime]} (close of ${fmtDate(l.date)}).`
     ));
     el.hidden = false;
   }

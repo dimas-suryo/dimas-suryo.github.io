@@ -115,6 +115,16 @@
   margin-bottom: 6px;
 }
 
+.regime-radar__lag {
+  font-size: 0.92em;
+  opacity: 0.8;
+  margin-bottom: 6px;
+}
+
+.regime-radar__lag:empty {
+  display: none;
+}
+
 .regime-radar__note {
   opacity: 0.7;
   margin-bottom: 6px;

@@ -264,6 +264,14 @@ def build_payload(
 
     last = df.iloc[-1]
     trend_since, trend_days = current_episode(df["trend_regime"])
+    # How far the price has moved since the current trend label began. A trend label
+    # compares the price with slow averages, so it can sit on a price moving the
+    # other way for weeks (IHSG: "down" since 9 Jun 2026 while up 8.6%). Showing the
+    # move next to the label keeps a visitor from reading "downtrend" as "falling".
+    trend_change = None
+    if trend_since:
+        start_close = df["close"].loc[pd.Timestamp(trend_since)]
+        trend_change = _round_fixed(last["close"] / start_close - 1, 4)
     vol_since, vol_days = current_episode(df["vol_regime"])
 
     def col(name: str, fn) -> list:
@@ -308,6 +316,7 @@ def build_payload(
             "realized_vol_annualized": _round_fixed(last["realized_vol"], 5),
             "trend_since": trend_since,
             "trend_days": trend_days,
+            "trend_change_since": trend_change,
             "vol_since": vol_since,
             "vol_days": vol_days,
             "trend_raw": last["trend_raw"],
@@ -356,7 +365,7 @@ def write_payload(payload: dict, out_dir: Path) -> Path:
 
 INDEX_LATEST_KEYS = (
     "date", "close", "trend_regime", "vol_regime", "realized_vol_annualized",
-    "trend_since", "trend_days", "vol_since", "vol_days",
+    "trend_since", "trend_days", "trend_change_since", "vol_since", "vol_days",
 )
 
 

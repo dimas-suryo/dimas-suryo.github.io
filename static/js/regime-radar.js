@@ -146,6 +146,35 @@
 
   // ---------- text blocks ----------
 
+  // Price change since the current trend label began. Taken from the payload when
+  // present, otherwise computed from the series, so older payloads still get it.
+  function trendChange(p) {
+    const l = p.latest;
+    if (isNum(l.trend_change_since)) return l.trend_change_since;
+    const s = p.series;
+    const i = l.trend_since ? s.date.indexOf(l.trend_since) : -1;
+    const a = i >= 0 ? s.close[i] : null;
+    const b = s.close[s.close.length - 1];
+    return isNum(a) && isNum(b) && a > 0 ? b / a - 1 : null;
+  }
+
+  const moveWords = (x) => {
+    if (!isNum(x)) return "";
+    if (Math.abs(x) < 0.0005) return "is roughly unchanged since then";
+    return `is ${x > 0 ? "up" : "down"} ${Math.abs(x * 100).toFixed(1)}% since then`;
+  };
+
+  // A trend label compares the price with slow averages, so it can sit on a price
+  // moving the other way for weeks. When that happens, say so next to the label.
+  function lagHTML(p) {
+    const l = p.latest;
+    const x = trendChange(p);
+    const longW = (p.meta.params || {}).trend_long || 200;
+    const against = (l.trend_regime === "down" && x >= 0.01) || (l.trend_regime === "up" && x <= -0.01);
+    if (!isNum(x) || !against) return "";
+    return `The trend label compares the price with its ${longW}-day average, so it can lag a turn like this one for weeks.`;
+  }
+
   function statusHTML(p) {
     const l = p.latest;
     const name = esc(p.meta.display_name || p.meta.symbol);
@@ -154,8 +183,9 @@
 
     let trend = "";
     if (trendPhrase) {
+      const move = moveWords(trendChange(p));
       trend = isNum(l.trend_days)
-        ? `${name} has been ${trendPhrase} for ${plural(l.trend_days, "trading day")}, since ${fmtDate(l.trend_since)}.`
+        ? `${name} has been ${trendPhrase} for ${plural(l.trend_days, "trading day")}, since ${fmtDate(l.trend_since)}${move ? `, and ${move}` : ""}.`
         : `${name} is ${trendPhrase}.`;
     }
     let vol = "";
@@ -559,6 +589,7 @@
       <div class="regime-radar__picker"></div>
       <div class="regime-radar__stale" hidden></div>
       <div class="regime-radar__status" aria-live="polite"></div>
+      <div class="regime-radar__lag"></div>
       <div class="regime-radar__note"></div>
       <div class="regime-radar__pending"></div>
       <div class="regime-radar__inputs"></div>
@@ -675,6 +706,7 @@
     }
 
     r.querySelector(".regime-radar__status").innerHTML = statusHTML(p);
+    r.querySelector(".regime-radar__lag").textContent = lagHTML(p);
     r.querySelector(".regime-radar__note").textContent = p.meta.note || "";
     r.querySelector(".regime-radar__pending").innerHTML = pendingHTML(p);
     r.querySelector(".regime-radar__inputs").innerHTML = inputsHTML(p);
@@ -707,7 +739,7 @@
     const r = state.root;
     r.querySelector(".regime-radar__status").innerHTML =
       `<span class="regime-radar__error-inline">Could not load ${esc(state.names[ticker] || ticker)}. ${esc(describeError(err))}</span>`;
-    for (const k of ["note", "pending", "inputs", "stats", "foot", "legend", "hmm"]) {
+    for (const k of ["note", "lag", "pending", "inputs", "stats", "foot", "legend", "hmm"]) {
       r.querySelector(".regime-radar__" + k).innerHTML = "";
     }
     r.querySelector(".regime-radar__stale").hidden = true;

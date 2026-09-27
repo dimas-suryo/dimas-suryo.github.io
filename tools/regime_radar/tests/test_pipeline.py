@@ -208,6 +208,17 @@ class TestBuild:
         assert l["trend_days"] == n
         assert l["trend_since"] == s["date"][-n]
 
+    def test_trend_change_since_matches_prices(self, payload):
+        s, l = payload["series"], payload["latest"]
+        i = s["date"].index(l["trend_since"])
+        expected = s["close"][-1] / s["close"][i] - 1
+        assert l["trend_change_since"] == pytest.approx(expected, abs=2e-4)  # closes are rounded to 6 digits
+
+    def test_index_carries_trend_change_for_the_homepage(self, payload, tmp_path):
+        write_payload(payload, tmp_path)
+        idx = json.loads(write_index(tmp_path, [Ticker("^TEST", "Test", "index")]).read_text())
+        assert idx["tickers"][0]["latest"]["trend_change_since"] == payload["latest"]["trend_change_since"]
+
     def test_pending_is_consistent(self, payload):
         l = payload["latest"]
         for sig in ("trend", "vol"):

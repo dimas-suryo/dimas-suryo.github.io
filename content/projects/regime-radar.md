@@ -79,10 +79,12 @@ Every series can be downloaded as CSV from the link under the chart. The raw fil
 
 ## Roadmap
 
-- LQ45 constituents, once the picker scales past a handful of assets.
+Nothing big is planned. The dashboard is in maintenance mode: the daily build keeps running, and I rerun the sensitivity report once a year or after the next large drawdown, because the pre-registered test can only be settled by a history with more than one crisis in it.
+
+Not planned: LQ45 constituents, or an LQ45 breadth signal such as the share of LQ45 stocks in an uptrend. It would be another trend-based signal, and the trend label has shown no information about IHSG's next-month return. Its history would also be biased upward, because building it from today's constituents leaves out the stocks that fell out of the index.
 
 ## Changes
 
-- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes. Then a test of the HMM claims in this page, which corrected two of them. Then the experimental HMM strip.
+- September 2026: history now goes back to 2000 (before, the chart started in December 2021, because half of the ten fetched years went into the baseline). Added the three-day confirmation rule, the S&P 500 and USD/IDR, today's rule inputs, the "what followed" table and CSV download. The chart now follows the site's light and dark theme without a reload. Later the same month: bootstrap intervals in the table, a sensitivity script, a pre-registered 10th percentile test, today's rows marked in the table, and feeds of regime changes. Then a test of the HMM claims in this page, which corrected two of them. Then the experimental HMM strip. Later still: the status line shows how far the price has moved since the trend label changed, and the roadmap says what is not planned.
 
 Issues and pull requests are welcome on [GitHub](https://github.com/dimas-suryo/dimas-suryo.github.io/issues).
