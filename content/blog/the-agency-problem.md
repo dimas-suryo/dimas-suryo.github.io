@@ -1,12 +1,14 @@
 ---
 title: "The Agency Problem"
 date: 2026-04-30
+revised: 2026-09-26
+revision_note: "Shortened by about a third."
 draft: false
 aliases: ["/blog/weak-men/", "/blog/lelaki-lemah/"]
 summary: "An essay about the courage to feel discomfort: why weak men act as a pollutant on the systems around them, and why that is only partly their fault."
 ---
 
-_Epistemic status: I'm writing this before I turn 22, so I'm almost certainly wrong about some of it, possibly the important parts. I have also been, at various points in my life, a version of the man I'm criticizing. Discount for both. This essay pulls together arguments scattered across my earlier posts, on the romance market, on virtue signalling, and on pornography, into a single diagnosis that I hope is coherent._
+_Epistemic note: I'm writing this before I turn 22, and I have also been, at various points in my life, a version of the man I'm criticizing. Discount for both. This essay pulls together arguments scattered across my earlier posts, on the romance market, on virtue signalling, and on pornography, into a single diagnosis that I hope is coherent._
 
 One more thing before we start. This is not a men's rights manifesto, an incel blackpill, or a sermon about returning to some natural state of masculinity. If you came here looking for proof that women are to blame, you have the wrong address. The thing I'm blaming, explicitly and consistently, is men, or more precisely the patterns of male behaviour that, added up, damage almost every system they touch.
 

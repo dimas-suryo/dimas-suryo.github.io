@@ -1,14 +1,14 @@
 ---
 title: "The Shield That Became a Sword"
 date: 2019-06-30
+revised: 2026-09-26
+revision_note: "Rewritten around sacred values, with sources updated."
 draft: false
 aliases: ["/blog/perisai/", "/blog/agama/"]
 summary: "Religion may be the most elegant coordination technology humans ever built, and its most dangerous feature is also its most portable one: turning divisible goods into sacred values that nobody is allowed to trade. Secular ideologies do it too."
 ---
 
 {{< figure src="/images/blog/religion/image1.jpeg" alt="Caveman (Wikipedia)" caption="Caveman (Wikipedia)" >}}
-
-_Epistemic status: the origin story in Section I is the one I find most plausible, but it's contested, and I flag where the evidence is thin. The argument in the later sections doesn't depend on it, and it applies to secular ideologies as much as to religious ones._
 
 ## I.
 

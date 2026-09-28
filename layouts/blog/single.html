@@ -7,9 +7,16 @@
         <time datetime="{{ .Date.Format "2006-01-02" }}">
           {{ .Date.Format "2 January 2006" }}
         </time>
+        {{- with .Params.revised }}
+        <span class="separator">·</span>
+        <span class="revised">Revised <time datetime="{{ (time .).Format "2006-01-02" }}">{{ (time .).Format "January 2006" }}</time></span>
+        {{- end }}
         <span class="separator">·</span>
         <span class="reading-time">{{ .ReadingTime }} minutes read</span>
       </p>
+      {{- with .Params.revision_note }}
+      <p class="revision-note">{{ . | markdownify }}</p>
+      {{- end }}
     </header>
 
     <div class="content">

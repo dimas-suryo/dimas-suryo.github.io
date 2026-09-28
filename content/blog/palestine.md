@@ -1,13 +1,15 @@
 ---
 title: "Doing the Calculus on Peace"
 date: 2025-04-04
+revised: 2026-09-26
+revision_note: "Section VIII, on the strongest objection, added."
 draft: false
 summary: "An attempt to settle Israel-Palestine by elimination: treat the ethno-state and the two-state solution as systems, find where each one breaks, and see what survives. What survives is one democratic secular state."
 ---
 
 {{< figure src="/images/blog/palestine/image1.jpeg" alt="Posters: The Palestinian Museum Digital Archive" caption="Posters: The Palestinian Museum Digital Archive" >}}
 
-_Epistemic status: fairly confident in the structure of the argument, much less confident in the numbers I feed into it. Also, no, I didn't actually use calculus. 😢_
+_Epistemic note: fairly confident in the structure of the argument, much less confident in the numbers I feed into it, and the strongest objection to it is in Section VIII. Also, no, I didn't actually use calculus. 😢_
 
 The short version, for people who won't read four thousand words about this (a reasonable choice): an ethno-state has to hold a population that is already about half non-Jewish, which takes repression that must keep rising forever, and a system like that has no steady state. The two-state solution needs more than 700,000 illegal settlers, plus fifty-seven years of shared roads, water, and power lines, to be pulled apart peacefully, which nobody has ever done. If those two options fall, the only architecture left standing is a single democratic, secular state.
 

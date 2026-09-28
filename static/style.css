@@ -711,3 +711,11 @@ footer {
   line-height: 1.5;
   opacity: 0.7;
 }
+
+/* === Revision line on posts === */
+.revision-note {
+  margin-top: -4px;
+  font-size: 0.85em;
+  font-style: italic;
+  opacity: 0.7;
+}

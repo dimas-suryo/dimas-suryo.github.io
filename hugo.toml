@@ -12,15 +12,18 @@ disableKinds = ['taxonomy', 'term']
   # /blog/ and /projects/. Remove a block to hide it; leave a list empty to
   # fall back to "5 newest".
   [[params.home.writing]]
+    page = "/blog/one-crisis-deep"
+    note = "A pre-registered test of the 200-day trend rule. In IHSG, its protection in bad months rests on one episode: 2008."
+  [[params.home.writing]]
+    page = "/blog/the-argument-i-never-tested"
+    note = "I tested the three reasons my dashboard gave for not using a hidden Markov model. For the simple model, two didn't hold up."
+  [[params.home.writing]]
     page = "/blog/the-machine"
     note = "Why individually good people add up to a bad world, starting from a traffic jam on TB Simatupang."
   [[params.home.writing]]
     page = "/blog/noble-goals-broken-vessels"
     note = "Hayek's knowledge problem, state capacity, and what a superintelligent planner would change."
-  [[params.home.writing]]
-    page = "/blog/cigarettes"
-    note = "What Indonesia's smoking habit costs the people who never lit up, in lives and in rupiah."
-  # Add once the title change is live:
+  # Optional:
   # [[params.home.writing]]
   #   page = "/blog/diego"
   #   note = "Short fiction: Jakarta, 2045, and a man who turns down a perfect simulation."

@@ -1,12 +1,12 @@
 ---
 title: "Noble Goals, Broken Vessels"
 date: 2023-11-08
+revised: 2026-09-26
+revision_note: "Figures in Section IV updated."
 draft: false
 aliases: ["/blog/communism-libertarianism-feudalism/"]
 summary: "What I think about communism, the future of libertarianism, and what the world is about to look like."
 ---
-
-_Epistemic status: Sections II and III lean on well-studied economics. Section IV is speculation about AI from someone with no special access to the future, and its numbers will date quickly._
 
 ## I.
 
@@ -48,7 +48,7 @@ I think that critique is real and only partly answerable. My defence is much nar
 
 ## IV.
 
-Everything so far assumes that humans are the ones in charge. Pull that assumption out and the whole argument shifts.
+This section is speculation from someone with no special access to the future, and its numbers will date quickly. Everything so far assumes that humans are the ones in charge. Pull that assumption out and the whole argument shifts.
 
 Strip Hayek down and the epistemic half of his case is a claim about computation and information aggregation: knowledge is dispersed, no processor is large enough to hold it, and the feedback loops are too slow. Those are statements about a limit, and limits move. Imagine an AGI, in particular one that grows into what Nick Bostrom calls a singleton, a world order with a single decision-making agency at the top. Such a thing could, in principle, absorb distributed information in close to real time, close the feedback loops that stayed broken in every centralized system of the last century, and correct itself faster than any market. The socialist calculation debate, which most economists think Hayek won, would reopen. Remove the computational constraint and the epistemic half of the case against communism starts to evaporate, though I suspect the tacit part, the welder's hunch that he couldn't put into words for anyone, would be the last piece to go. The moral half is untouched, and I'll come back to it.
 

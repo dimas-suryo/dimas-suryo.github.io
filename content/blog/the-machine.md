@@ -1,6 +1,7 @@
 ---
 title: "The Machine"
 date: 2020-09-23
+revised: 2026-09-26
 draft: false
 summary: "How I think the world works. It's just math and biology."
 ---

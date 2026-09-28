@@ -1,6 +1,8 @@
 ---
 title: "Smokers Are Cowards"
 date: 2023-12-18
+revised: 2026-09-26
+revision_note: "Figures updated."
 draft: false
 aliases: ["/blog/perokok/", "/blog/rokok/"]
 summary: "Smoking isn't really a personal health choice. It pushes harm onto people who never agreed to it (kids included), drains the public health system, and reveals an unwillingness to do the structural work Indonesia actually needs."
@@ -8,7 +10,7 @@ summary: "Smoking isn't really a personal health choice. It pushes harm onto peo
 
 {{< figure src="/images/blog/cigarettes/image1.png" alt="from JKN (2023)" caption="from JKN (2023)" >}}
 
-_Epistemic status: confident about the harms, less confident about the fiscal accounting, and deliberately provocative about the word "coward", which I defend in Section IV. Figures are the latest I could find, with years given._
+_Epistemic note: confident about the harms, less confident about the fiscal accounting, and deliberately provocative about the word "coward", which I defend in Section IV._
 
 There's a guy at the warung kopi next to me. He lights a kretek, takes a long drag, and blows the smoke toward the next table, where a young mother sits with her baby. The baby is maybe nine months old. Nobody at the warung thinks this is strange, and the mother doesn't even flinch.
 

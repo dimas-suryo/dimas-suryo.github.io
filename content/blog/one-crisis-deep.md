@@ -5,8 +5,6 @@ draft: false
 summary: "I pre-registered a test of the 200-day trend rule on IHSG and the S&P 500 before looking at the answer. The rule's promised protection in bad months rests almost entirely on one episode, 2008, which is roughly what you should expect when you test a claim about rare events with twenty years of data. The volatility label, meanwhile, works everywhere."
 ---
 
-_Epistemic status: The numbers are real, and everything can be rerun from the code behind [Regime Radar](/projects/regime-radar/). The interpretation rests on twelve IHSG downtrends and ten in the S&P 500, which is not a lot, and I try to say so every time it matters. Section VII is a hypothesis, not a finding._
-
 ## I.
 
 On Monday 8 June 2026, IHSG closed at 5,342.14. It was down 4.52% on the day, its fourth straight loss, almost 13% lower than a week earlier and more than 40% below its January high. On Tuesday it bounced 7.6%, and that was the day my own dashboard decided the market was in a downtrend.

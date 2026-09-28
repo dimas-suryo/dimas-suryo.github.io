@@ -1,12 +1,14 @@
 ---
 title: "Like a Deep-Fried Stock"
 date: 2023-12-23
+revised: 2026-09-26
+revision_note: "Objections section added."
 draft: false
 aliases: ["/blog/saham-gorengan/", "/blog/pump-and-dump-stocks/"]
 summary: "The modern romance market is broken because perceived value on both sides has drifted away from intrinsic value, and the men who subsidize the market unconditionally have erased every feedback loop that could correct it. The Lindy fix is the old principle of kafa'ah: match on epistemology, values, trajectory, and emotional capacity, and stop chasing whoever sits highest."
 ---
 
-_Epistemic status: I was twenty when I wrote this, not long after the end of a relationship that was both exquisite and agonizing. Discount for recency bias, negativity bias, and a sample size of one. I flag the weakest parts of the evidence as I go._
+_Epistemic note: I wrote this not long after a relationship ended. Discount for recency bias, negativity bias, and a sample size of one. I flag the weakest parts of the evidence as I go._
 
 The short version: the modern romance market is broken by miscalibration. Perceived value on both sides has drifted far from intrinsic value, pushed up by four distortions (friendship echo chambers, cross-tier anchoring, social media, and pornography), and the feedback that should pull it back gets absorbed by men who hand out attention, resources, and commitment with no reciprocity attached. Hypergamy, which usually gets the blame, is a healthy mechanism. The fix I propose is kafa'ah (sekufu), a mate-selection principle that has been Lindy for fourteen hundred years: match with an equal in how you think, what you value, where you're going, and how you handle emotion.
 

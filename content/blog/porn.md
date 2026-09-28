@@ -1,13 +1,15 @@
 ---
 title: "We Should Probably Stop Watching Porn. I Think."
 date: 2022-11-22
+revised: 2026-09-26
+revision_note: "Sources updated."
 draft: false
 summary: "What porn costs you, the people who make it, and the culture, and why I don't think the accounting adds up."
 ---
 
 {{< figure src="/images/blog/porn/image1.png" >}}
 
-_Epistemic status: moderately confident that heavy use is bad for a meaningful share of people and that the industry's structure is exploitative; much less confident about the neuroscience, which rests on thin data. I try to flag which is which._
+_Epistemic note: moderately confident that heavy use is bad for a meaningful share of people and that the industry's structure is exploitative; much less confident about the neuroscience, which rests on thin data. I try to flag which is which._
 
 ## I.
 

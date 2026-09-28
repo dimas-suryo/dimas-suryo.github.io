@@ -1,6 +1,7 @@
 ---
 title: "Against 'All'"
 date: 2026-04-17
+revised: 2026-09-26
 draft: false
 aliases: ["/blog/stop-the-all/"]
 summary: "The world has too many loser men and too many crazy women, but the louder lesson is that absolutist slogans erase the precision we need to actually fix anything. An essay about virtue signalling, motte-and-bailey, the kafka-trap version of gender discourse, and why the smallest, hardest place to start fixing things is your own group chat."
@@ -114,7 +115,7 @@ I still have a problem with it. Several, actually.
 
 The first is consistency. If "Kill All Men" is acceptable hyperbole because it comes from a less powerful group, someone has to decide who is less powerful. Who's less powerful here: a poor man from a village in Kupang, NTT, or a wealthy woman in South Jakarta? Is power even a single dimension you can rank linearly? Intersectionality, a theory that came out of feminism, says no. Yet when the slogan appears, the nuance disappears, and "all men" (the poor ones, the queer ones, the disabled ones, the one who just lost his mother) becomes a monolithic block you can target.
 
-And if we accept that a less powerful group may use absolutist language against a more powerful one, then I have to point out, reluctantly, that the exact same logic justifies "All Muslims Are Stupid" from someone in France who sees Islam as a threat to secularism, or "All Jews Are Evil" from someone in Palestine looking at AIPAC and the illegal settlements, or, closer to home, every flavour of anti-Tionghoa sentiment in Indonesia, which always comes with the justification that "they control the economy".
+And if we accept that a less powerful group may use absolutist language against a more powerful one, then I have to point out, reluctantly, that the exact same logic justifies blanket contempt for Muslims from someone in France who sees Islam as a threat to secularism, or blanket hatred of Jews from someone in Palestine looking at AIPAC and the illegal settlements, or, closer to home, every flavour of anti-Tionghoa sentiment in Indonesia, which always comes with the justification that "they control the economy".
 
 If you're not comfortable with all of that (and I hope you aren't), then the principle has to be that nobody gets to use absolutist language against any group, ever, because once the door is open you can't control who walks through it.
 
