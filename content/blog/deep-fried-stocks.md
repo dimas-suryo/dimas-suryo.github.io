@@ -3,7 +3,7 @@ title: "Like a Deep-Fried Stock"
 date: 2023-12-23
 revised: 2026-09-26
 revision_note: "Objections section added."
-draft: false
+draft: true
 aliases: ["/blog/saham-gorengan/", "/blog/pump-and-dump-stocks/"]
 summary: "The modern romance market is broken because perceived value on both sides has drifted away from intrinsic value, and the men who subsidize the market unconditionally have erased every feedback loop that could correct it. The Lindy fix is the old principle of kafa'ah: match on epistemology, values, trajectory, and emotional capacity, and stop chasing whoever sits highest."
 ---
