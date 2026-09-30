@@ -5,10 +5,18 @@
   <id>tag:dimassuryo.com,2026:regime-radar/feed-IDR_X.xml</id>
   <link rel="self" type="application/atom+xml" href="https://dimassuryo.com/data/regime-radar/feed-IDR_X.xml" />
   <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
-  <updated>2026-08-06T00:00:00Z</updated>
+  <updated>2026-09-30T00:00:00Z</updated>
   <author>
     <name>Dimas Suryo</name>
   </author>
+  <entry>
+    <title>USD/IDR volatility changed from low to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/IDR_X/vol/2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-09-30T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 30 Sep 2026 the USD/IDR volatility label changed from low to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 10.5% a year, above the high cut of 7.7%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
   <entry>
     <title>USD/IDR volatility changed from high to low</title>
     <id>tag:dimassuryo.com,2026:regime-radar/IDR_X/vol/2026-08-06</id>
@@ -320,13 +328,5 @@
     <updated>2023-08-14T00:00:00Z</updated>
     <category term="vol" />
     <summary type="text">On 14 Aug 2023 the USD/IDR volatility label changed from mid to low, after three trading days of low readings. Realized volatility over the last 21 trading days was 4.2% a year, below the low cut of 7.0%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
-  </entry>
-  <entry>
-    <title>USD/IDR trend changed from down to sideways</title>
-    <id>tag:dimassuryo.com,2026:regime-radar/IDR_X/trend/2023-08-10</id>
-    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
-    <updated>2023-08-10T00:00:00Z</updated>
-    <category term="trend" />
-    <summary type="text">On 10 Aug 2023 the USD/IDR trend label changed from down to sideways, after three trading days of sideways readings. Close 15,207.00, 50-day average 15,019.00, 200-day average 15,171.60. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
   </entry>
 </feed>
