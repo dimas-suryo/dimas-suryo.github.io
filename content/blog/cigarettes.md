@@ -1,8 +1,8 @@
 ---
 title: "Smokers Are Cowards"
 date: 2023-12-18
-revised: 2026-09-26
-revision_note: "Figures updated."
+revised: 2026-10-04
+revision_note: "Figures updated; philosophy of harm, risk, and addiction added."
 draft: false
 aliases: ["/blog/perokok/", "/blog/rokok/"]
 summary: "Smoking isn't really a personal health choice. It pushes harm onto people who never agreed to it (kids included), drains the public health system, and reveals an unwillingness to do the structural work Indonesia actually needs."
@@ -10,7 +10,7 @@ summary: "Smoking isn't really a personal health choice. It pushes harm onto peo
 
 {{< figure src="/images/blog/cigarettes/image1.png" alt="from JKN (2023)" caption="from JKN (2023)" >}}
 
-_Epistemic note: confident about the harms, less confident about the fiscal accounting, and deliberately provocative about the word "coward", which I defend in Section IV._
+_Epistemic note: confident about the harms, less confident about the fiscal accounting, and deliberately provocative about the word "coward", which I define and defend in Section IV._
 
 There's a guy at the warung kopi next to me. He lights a kretek, takes a long drag, and blows the smoke toward the next table, where a young mother sits with her baby. The baby is maybe nine months old. Nobody at the warung thinks this is strange, and the mother doesn't even flinch.
 
@@ -20,7 +20,7 @@ About seventy million Indonesian adults smoke. I'm going to argue that a lot of 
 
 The standard defence is "it's my right". Let's see if that holds.
 
-Rights end where they start harming someone else. You have the right to swing your fist, and that right ends at the tip of someone else's nose. Cigarette smoke doesn't stop at a nose. The smoke you exhale goes into your wife's lungs, your kid's lungs, and the lungs of a stranger sitting next to you on the angkot.
+Rights end where they start harming someone else. You have the right to swing your fist, and that right ends at the tip of someone else's nose. That's the folk version of John Stuart Mill's harm principle, which says the only legitimate reason to override an adult's freedom is to prevent harm to others. Smokers who say "my right" are appealing to Mill, and Mill is a bad witness for them, because cigarette smoke doesn't stop at a nose. The smoke you exhale goes into your wife's lungs, your kid's lungs, and the lungs of a stranger sitting next to you on the angkot.
 
 In the 2019 Global Youth Tobacco Survey, 66.2% of Indonesian students aged 13 to 15 said they'd been exposed to secondhand smoke in enclosed public places, and 57.8% at home. Tobacco kills about 290,000 Indonesians a year, by the Global Burden of Disease estimates, and more than 52,000 of those deaths come from secondhand smoke: people who died of someone else's cigarettes.
 
@@ -29,6 +29,10 @@ Fifty-two thousand a year is about 142 people a day. The Kanjuruhan stadium disa
 When a smoker says "my right", what he's claiming is the right to put carcinogens into someone else's lungs without their consent. I don't think that's a right. I think it's slow-motion violence.
 
 Economists would call this a negative externality, and it's the cleanest one you'll find in everyday life. Someone takes a small benefit for himself (the pleasure of the cigarette) and transfers a large cost to people who didn't agree to anything (secondhand smoke, public health costs, sick children). He gets the pleasure, and everyone else gets the cancer.
+
+Smokers have two comebacks to this. The first is that no single cigarette kills anyone. Derek Parfit counted that kind of reasoning among the mistakes in what he called moral mathematics. He imagined a thousand torturers, each pressing a button that adds an imperceptible amount of pain to each of a thousand victims. No single press makes anyone's pain noticeably worse, but together they produce agony. When we can't appeal to what each torturer does, Parfit argued, we have to appeal to what they do together. Smoke is an easier case than his, because every exposure carries some risk: the US Surgeon General concluded in 2006 that there is no risk-free level of exposure to secondhand smoke. Each cigarette adds its share to the Kanjuruhan that happens every day.
+
+The second is that everyone imposes risks on everyone else: every driver endangers every other driver, and nobody calls that violence. The classic answer comes from the legal philosopher George Fletcher. In 1972 he argued that people are owed compensation for harm from a risk "greater in degree and different in order" from the ones they impose in return, but not for the ordinary risks we all trade with each other. Drivers endanger each other roughly equally, inside a system they all benefit from. The baby at the warung imposes nothing on the smoker and gets nothing back.
 
 ## II.
 
@@ -48,6 +52,8 @@ The chart at the top is more modest than the rhetoric usually is. Using JKN data
 
 The strongest version of the other side is uglier, and I should state it. In 2001, a report that Arthur D. Little prepared for Philip Morris calculated that smoking was a net gain to Czech public finances, partly because smokers die early and stop drawing on health care and pensions. After a public outcry, Philip Morris apologized, and one of its senior executives called the report "a terrible mistake". In accounting terms the argument holds together. As a defence, it fails for three reasons: the 52,000 people killed by secondhand smoke don't appear anywhere on the smoker's side of the ledger, most Indonesian workers are informal and have no pension for an early death to "save", and a policy argument that works only because people die sooner is one even Philip Morris wouldn't defend.
 
+Even if the excise covered every rupiah, the defence would fail. Judith Jarvis Thomson argued that a right can sometimes be permissibly infringed when something much weightier is at stake, but that the infringer still owes something to the person whose right it was. You may break a neighbour's window to pull a child out of a fire, and then you owe your neighbour a window. A smoke break is not a fire, and the excise goes to the state rather than to the people whose lungs are involved. Nobody pays the baby at the warung, and nobody can pay the fifty-two thousand.
+
 Who pays the gap? Everyone in the BPJS pool pays, smokers included, but the non-smokers are paying for risks they didn't choose to take. The smoker keeps the upside and shares out the downside, which is exactly what Taleb means by having no skin in the game. That's one of the reasons "coward" fits.
 
 ## III.
@@ -62,11 +68,15 @@ So where is the agency of these children?
 
 Quitting is neurologically hard, many smokers started young because of social pressure, and agency is complicated. I grant all of that. But the argument about agency runs in both directions. If you want sympathy for a smoker whose agency has been chemically eroded by addiction, you also have to account for the agency of a baby who has been inhaling his father's smoke since day one, and that baby's agency is zero.
 
+Harry Frankfurt's distinction between willing and unwilling addicts helps here. The unwilling addict craves the drug and wishes he didn't, and he deserves the sympathy we give anyone at war with himself. The willing addict endorses the craving, and Frankfurt argued that he takes the drug freely, and can be responsible for taking it, even though he couldn't do otherwise. Someone who answers every objection with "it's my right" has told you which one he claims to be. You can't call smoking your free choice when someone objects and then plead compulsion when someone asks you to stop. And even the unwilling addict craves nicotine, not the living room.
+
 A man who lights up in the living room in front of his kids has options. He can go outside. He can stop smoking in the room where his children sleep. He can protect the people who depend on him most. These are small, cheap choices, and refusing them is where "coward" starts to sound about right.
 
 ## IV.
 
 I'm using the word "coward" on purpose, and I want to defend the choice.
+
+The word is doing three jobs in this essay, and they're worth pulling apart. The first is a sense the Oxford dictionaries give for actions rather than people: "carried out against a person who is unable to fight back". That's the man at the warung. He probably isn't thinking about the baby at all, and he doesn't have to, because the baby can't object, can't change tables, and can't retaliate. It's the non-reciprocal risk from Section I under a blunter name. The second is failing to endure what most people manage to endure, and the third is refusing to face evidence because facing it would cost you something. The rest of this section is about those two.
 
 Indonesia has a strong cultural link between smoking and masculinity. Cigarettes mark adulthood, camaraderie, being a real man. The advertising that sells this image, still legal here in forms that most of the region has banned, makes the association on purpose: the branding consistently sells adventure, courage, and freedom.
 
@@ -76,9 +86,13 @@ There's a small piece of evidence I find suggestive. A survey of Mensa Indonesia
 
 My complaint is about nerve rather than intelligence. The decision to keep smoking, in an era when the harms are documented everywhere, is driven by an inability to sit through the short-term discomfort of stopping, and it gets dressed up afterwards as strength, choice, or courage.
 
+Aristotle had a more exact word for this. He reserved cowardice for failures in the face of fear. Giving way to pains that most people resist, and resist successfully, he called softness. Millions of people have sat through withdrawal. I'll keep "coward", since courage is what the cigarette ads are selling, but softness is the more precise charge.
+
 The standard justifications ("my grandpa smoked until he was ninety", "we're all going to die anyway", "you only live once") are survivorship bias dressed up as wisdom. A good rationalist would recognize them as motivated reasoning: finding reasons to defend a decision you've already made, instead of looking at the evidence before you make it.
 
-That's the kind of cowardice I mean. It's less a lack of physical or even moral strength than an unwillingness to look straight at your own evidence.
+That's the kind of cowardice I mean. It's less a lack of physical or even moral strength than an unwillingness to look straight at your own evidence. Epistemologists call the missing virtue intellectual courage, which Jason Baehr describes as persisting in the pursuit of truth even when that seems to threaten your own well-being.
+
+The strongest objection to the word comes from the philosopher Hanna Pickard, whose work on addiction grows out of clinical practice. She argues for responsibility without blame: people with addiction make real choices and can be held responsible for them, but the clinical approaches that help people change set blame and stigma aside in favour of care. If she's right, calling a smoker a coward is a poor way to get him to do what Section VI asks. Her objection lands hardest on the second sense, so I'll narrow it. If you're trying to quit and failing, I'm not calling you a coward. I mean the act of putting smoke in other people's lungs, and the refusal to try. An essay isn't a clinic, though, and some things have to be said out loud before they stop being normal.
 
 ## V.
 
@@ -90,7 +104,7 @@ This is where the real complexity sits. Millions of people depend on this indust
 
 Acknowledging them doesn't justify the status quo, though. Millions of people depend on the arms industry too, and we don't conclude from that that weapons are good. Economic dependence on an industry that kills 290,000 of its own citizens a year is a diagnosis, and the treatment is a managed transition for those workers, which is the kind of structural work a state is for.
 
-This is the other reason "coward" fits, and it applies to the nation as well as the individual smoker. We know cigarettes kill, we've seen the data, and we're too afraid of the economic and political backlash to make real structural change. We chose this.
+This is one more reason "coward" fits, and it applies to the nation as well as the individual smoker. We know cigarettes kill, we've seen the data, and we're too afraid of the economic and political backlash to make real structural change. We chose this.
 
 ## VI.
 
@@ -102,7 +116,11 @@ In the 2021 Global Adult Tobacco Survey, 43.8% of Indonesian smokers had tried t
 
 Former smokers who pulled it off are the bravest people in this whole conversation. They sat through grinding withdrawal, social pressure from friends who still smoked, and habits carved in by years of repetition, and they stopped anyway. That's what courage looks like here: enduring discomfort, holding yourself back, and refusing to push your risk onto the people you love. Lighting a cigarette on a motorbike doesn't come close.
 
-At the system level, the answer is just as well known. Ratify the FCTC, ban tobacco advertising, raise the excise significantly and consistently, enforce smoke-free zones properly, and fund quit-smoking programmes publicly. Countries that did these things have seen smoking collapse. In Australia, 5.6% of people aged 14 and over now smoke daily; in Indonesia, about a third of adults smoke. The gap is about political and individual courage.
+At the system level, the answer is just as well known. Ratify the FCTC, ban tobacco advertising, raise the excise significantly and consistently, enforce smoke-free zones properly, and fund quit-smoking programmes publicly.
+
+Mill, whom I leaned on in Section I, might object to some of that list. Smoke-free zones protect other people, which is exactly what his harm principle allows, but excise and advertising bans are aimed at smokers themselves, and Mill held that a person's own good "is not a sufficient warrant" for overriding his will. Then again, he said plainly that he wasn't speaking of children, which is when the habit often starts, and he approved of taxing stimulants "up to the point which produces the largest amount of revenue". Robert Goodin argued in 1989 that smokers' choices are often built on mistakes about the risks, eroded by addiction, and manipulated by advertising, and that many smokers want to quit anyway. Those are Frankfurt's unwilling addicts, and for them tobacco control is help. Sarah Conly goes further and would make producing and importing cigarettes illegal. I don't think the case needs to go that far. Goodin's argument already covers everything on the list.
+
+Countries that did these things have seen smoking collapse. In Australia, 5.6% of people aged 14 and over now smoke daily; in Indonesia, about a third of adults smoke. The gap is about political and individual courage.
 
 ## VII.
 
