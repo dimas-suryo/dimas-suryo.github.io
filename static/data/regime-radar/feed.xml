@@ -5,10 +5,18 @@
   <id>tag:dimassuryo.com,2026:regime-radar/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://dimassuryo.com/data/regime-radar/feed.xml" />
   <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
-  <updated>2026-09-30T00:00:00Z</updated>
+  <updated>2026-10-08T00:00:00Z</updated>
   <author>
     <name>Dimas Suryo</name>
   </author>
+  <entry>
+    <title>IHSG volatility changed from mid to high</title>
+    <id>tag:dimassuryo.com,2026:regime-radar/_JKSE/vol/2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
+    <updated>2026-10-08T00:00:00Z</updated>
+    <category term="vol" />
+    <summary type="text">On 8 Oct 2026 the IHSG volatility label changed from mid to high, after three trading days of high readings. Realized volatility over the last 21 trading days was 15.6% a year, above the high cut of 14.6%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
+  </entry>
   <entry>
     <title>USD/IDR volatility changed from low to high</title>
     <id>tag:dimassuryo.com,2026:regime-radar/IDR_X/vol/2026-09-30</id>
@@ -320,13 +328,5 @@
     <updated>2025-08-27T00:00:00Z</updated>
     <category term="vol" />
     <summary type="text">On 27 Aug 2025 the S&amp;P 500 volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 11.7% a year, inside the middle band of 11.7% to 17.2%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
-  </entry>
-  <entry>
-    <title>USD/IDR volatility changed from low to mid</title>
-    <id>tag:dimassuryo.com,2026:regime-radar/IDR_X/vol/2025-08-27</id>
-    <link rel="alternate" type="text/html" href="https://dimassuryo.com/projects/regime-radar/" />
-    <updated>2025-08-27T00:00:00Z</updated>
-    <category term="vol" />
-    <summary type="text">On 27 Aug 2025 the USD/IDR volatility label changed from low to mid, after three trading days of mid readings. Realized volatility over the last 21 trading days was 6.3% a year, inside the middle band of 6.0% to 8.3%. Regime labels describe what already happened. They are not a forecast and not investment advice.</summary>
   </entry>
 </feed>
