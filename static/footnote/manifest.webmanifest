@@ -12,5 +12,13 @@
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
     { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
-  ]
+  ],
+  "share_target": {
+    "action": "./log?shared",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [{ "name": "runs", "accept": [".gpx", ".tcx", "application/gpx+xml", "application/vnd.garmin.tcx+xml"] }]
+    }
+  }
 }
