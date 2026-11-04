@@ -24,10 +24,7 @@
     <link rel="icon" href="./icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     <link rel="preload" href="./fonts/fraunces-latin-opsz.woff2" as="font" type="font/woff2" crossorigin />
-    <script>
-      // Chromium can offer to install the app before the app's code has loaded: keep the offer.
-      addEventListener('beforeinstallprompt', (event) => (window.installPrompt = event));
-    </script>
+    <script src="./install-early.js"></script>
     <style>
       @font-face {
         font-family: Fraunces;
@@ -39,7 +36,8 @@
           U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
       }
     </style>
-    <link href="./_app/immutable/entry/start.C-w-mZeN.js" rel="modulepreload">
+    <meta http-equiv="content-security-policy" content="default-src 'self'; worker-src 'self'; connect-src 'self'; font-src 'self'; img-src 'self' data:; manifest-src 'self'; object-src 'none'; script-src 'self' 'sha256-WiqaIqVHomrnB0lAC1/B5EUbyJHGC8fpjTwWVnYjAFc='; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self'">
+		<link href="./_app/immutable/entry/start.C-w-mZeN.js" rel="modulepreload">
 		<link href="./_app/immutable/entry/payload.DSmR2FwN.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CRzLMJPS.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CRhQazyw.js" rel="modulepreload">
@@ -47,16 +45,16 @@
 		<link href="./_app/immutable/chunks/Dps4SnsT.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/C5bQFqOS.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/Ci092imR.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.c3mR3KRH.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/0.DHJ8Ln-6.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.SXjz6aYR.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.114lHqhV.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/XKyaHtl9.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/C-8GxmP2.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/Gqf2tA1k.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/B_zdVK62.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DTQQbKcL.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/BNcViKak.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/6.BanpL369.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DikZDotA.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BgmGqYTy.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CxpUjTFD.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/6.CFIVQQYa.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DZCQVe9B.js" rel="modulepreload">
 		
 		<link href="./_app/immutable/assets/Icon.Br9gN57A.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/0.Dbm34LWi.css" rel="stylesheet">
@@ -66,17 +64,17 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_vupthy = {
+					__sveltekit_1ruwie6 = {
 						base: new URL(".", location).pathname.slice(0, -1),
-						version: "1793703416888",
+						version: "1793795782504",
 						assets: "/footnote"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("./_app/immutable/entry/start.C-w-mZeN.js").then(async (kit) => {
-						kit.init(__sveltekit_vupthy);
-						const app = await import("./_app/immutable/entry/app.c3mR3KRH.js");
+						kit.init(__sveltekit_1ruwie6);
+						const app = await import("./_app/immutable/entry/app.SXjz6aYR.js");
 						kit.start(app, element);
 					});
 
