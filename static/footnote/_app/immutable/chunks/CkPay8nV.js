@@ -1,0 +1,1 @@
+import{t as e}from"./DwAE5Ltj.js";var t=`dimassuryo@aol.com`,n=`mailto:${t}?subject=${encodeURIComponent(e.about.feedbackSubject)}`;export{n,t};
