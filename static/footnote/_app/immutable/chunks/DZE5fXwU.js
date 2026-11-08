@@ -1,1 +1,0 @@
-import{$ as e,A as t,E as n,G as r,K as i,O as a,Q as o,V as s,b as c,k as l,t as u}from"./Dps4SnsT.js";var d=t(`<sup aria-hidden="true" class="svelte-945dm"> </sup>`);function f(t,f){e(f,!0);let p=u(f,`marks`,19,()=>[]);var m=l(),h=r(m),g=e=>{var t=d(),r=i(t,!0);s(e=>n(r,e),[()=>p().join(`,`)]),a(e,t)};c(h,e=>{p().length&&e(g)}),a(t,m),o()}export{f as t};
