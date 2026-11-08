@@ -1,1 +1,0 @@
-import{A as e,E as t,H as n,J as r,O as i,b as a,et as o,k as s,q as c,t as l,tt as u}from"./BeDbxmp8.js";var d=e(`<sup aria-hidden="true" class="svelte-945dm"> </sup>`);function f(e,f){u(f,!0);let p=l(f,`marks`,19,()=>[]);var m=s(),h=c(m),g=e=>{var a=d(),o=r(a,!0);n(e=>t(o,e),[()=>p().join(`,`)]),i(e,a)};a(h,e=>{p().length&&e(g)}),i(e,m),o()}export{f as t};

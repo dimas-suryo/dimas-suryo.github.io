@@ -1,0 +1,1 @@
+import{A as e,D as t,J as n,U as r,Y as i,j as a,k as o,nt as s,t as c,tt as l,x as u}from"./BJm7J6Zu.js";var d=a(`<sup aria-hidden="true" class="svelte-945dm"> </sup>`);function f(a,f){s(f,!0);let p=c(f,`marks`,19,()=>[]);var m=e(),h=n(m),g=e=>{var n=d(),a=i(n,!0);r(e=>t(a,e),[()=>p().join(`,`)]),o(e,n)};u(h,e=>{p().length&&e(g)}),o(a,m),l()}export{f as t};
