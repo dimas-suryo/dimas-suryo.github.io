@@ -1,1 +1,0 @@
-import{$ as e,A as t,E as n,H as r,K as i,O as a,b as o,et as s,k as c,q as l,t as u}from"./DsJ-W3sx.js";var d=t(`<sup aria-hidden="true" class="svelte-945dm"> </sup>`);function f(t,f){s(f,!0);let p=u(f,`marks`,19,()=>[]);var m=c(),h=i(m),g=e=>{var t=d(),i=l(t,!0);r(e=>n(i,e),[()=>p().join(`,`)]),a(e,t)};o(h,e=>{p().length&&e(g)}),a(t,m),e()}export{f as t};
