@@ -1,1 +1,0 @@
-import{t as e}from"./D-RM2enb.js";var t=`dimassuryo@aol.com`,n=`mailto:${t}?subject=${encodeURIComponent(e.about.feedbackSubject)}`;export{n,t};
