@@ -1,0 +1,57 @@
+name: investability-monitor probe
+
+# Manual only. Makes exactly one request to IDX from a GitHub-hosted runner and
+# reports whether data came back or IDX refused (Cloudflare challenge, rate
+# limit, bare 403). Commits nothing. Phase 0 of the plan runs it on three
+# different days before deciding whether the daily build can run in Actions.
+#
+# Result: green = data came back, red = refused or failed. The table on the
+# run's Summary page has the details.
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Trading date to ask for (YYYY-MM-DD). Empty = the last weekday."
+        required: false
+        default: ""
+      endpoint:
+        description: "summary or announcements"
+        required: false
+        default: "summary"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: investability-probe
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/investability_monitor/requirements.txt
+
+      - name: Install deps
+        run: pip install -r tools/investability_monitor/requirements.txt
+
+      # Inputs go through env vars, not ${{ }} inside the script, so a crafted
+      # input cannot inject shell. probe.py validates both values again.
+      - name: Probe IDX once
+        env:
+          PROBE_DATE: ${{ inputs.date }}
+          PROBE_ENDPOINT: ${{ inputs.endpoint }}
+        run: |
+          set -- --endpoint "${PROBE_ENDPOINT:-summary}"
+          if [ -n "$PROBE_DATE" ]; then set -- "$@" --date "$PROBE_DATE"; fi
+          python -m tools.investability_monitor.probe "$@"
