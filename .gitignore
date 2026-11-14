@@ -20,3 +20,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
+
+# Investability Monitor raw and manual data (holder names, Yahoo cache). Never committed.
+.data/
