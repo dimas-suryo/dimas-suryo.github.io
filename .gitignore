@@ -23,3 +23,8 @@ venv/
 
 # Investability Monitor raw and manual data (holder names, Yahoo cache). Never committed.
 .data/
+
+# Investability Monitor outputs that name specific stocks. Held back until the
+# compliance check before launch (plan v2); delete these two lines at launch.
+static/data/investability-monitor/
+tools/investability_monitor/reference/*.csv
