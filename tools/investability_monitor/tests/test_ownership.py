@@ -1,4 +1,4 @@
-"""Tests for the >1% register parser. The workbooks are synthetic, in the layout of the 30 Oct 2026 file."""
+"""Tests for the >1% register parser. The workbooks are synthetic, in the layouts of the 2026 files."""
 from __future__ import annotations
 
 import datetime as dt
@@ -10,41 +10,7 @@ openpyxl = pytest.importorskip("openpyxl")
 from tools.investability_monitor.idx_client import SchemaError
 from tools.investability_monitor.ownership import aggregate, below, load_register, unrecognized_classes
 
-HEADER = ["DATE", "SHARE_CODE", "ISSUER_NAME", "INVESTOR_NAME", "INVESTOR_CLASSIFICATION",
-          "CONTROLLER_OR_AFFILIATE", "LOCAL_FOREIGN", "NATIONALITY", "DOMICILE",
-          "HOLDINGS_SCRIPLESS", "HOLDINGS_SCRIP", "TOTAL_HOLDING_SHARES", "PERCENTAGE"]
-DAY = dt.datetime(2026, 10, 30)
-
-# (code, investor, class, controller flag, local/foreign, shares, percent)
-HOLDINGS = [
-    ("AAAA", "Holder A1", "Corporate", "CONTROLLER", "L", 600_000_000, 60.0),
-    ("AAAA", "Holder A2", "Individual", "AFFILIATE OF THE CONTROLLER", "L", 50_000_000, 5.0),
-    ("AAAA", "Holder A3", "Mutual Funds", None, "L", 30_000_000, 3.0),
-    ("AAAA", "Holder A4", "Private Bank", None, "F", 70_000_000, 7.0),
-    ("AAAA", "Holder A5", "Individual", None, "L", 20_000_000, 2.0),
-    ("AAAA", "Holder A6", None, None, None, 10_000_000, 1.0),  # paper certificates: no class
-    (True, "Holder T1", "Corporate", "CONTROLLER", "L", 400_000_000, 80.0),  # Excel's reading of ticker TRUE
-    ("BBBB", "Holder B1", "Sovereign Wealth Fund", None, "F", 100_000_000, 5.0),
-    ("BBBB", "Holder B2", "Space Agency", None, "L", 40_000_000, 2.0),  # a class this module does not know
-]
-
-
-def workbook(path, holdings=HOLDINGS, *, header=HEADER, dates=None):
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.append(["*Penafian:\n1. Sumber data ..."])
-    ws.append(["*Disclaimer:\n1. Sources of data ..."])
-    ws.append(["[PUBLIC]"])
-    ws.append([])
-    ws.append(header)
-    for i, (code, name, cls, flag, lf, shares, pct) in enumerate(holdings):
-        row = {"DATE": (dates or {}).get(i, DAY), "SHARE_CODE": code, "ISSUER_NAME": f"Issuer {code} Tbk",
-               "INVESTOR_NAME": name, "INVESTOR_CLASSIFICATION": cls, "CONTROLLER_OR_AFFILIATE": flag,
-               "LOCAL_FOREIGN": lf, "NATIONALITY": None, "DOMICILE": None,
-               "HOLDINGS_SCRIPLESS": shares, "HOLDINGS_SCRIP": 0, "TOTAL_HOLDING_SHARES": shares, "PERCENTAGE": pct}
-        ws.append([row.get(h) for h in header])
-    wb.save(path)
-    return path
+from .workbooks import HEADER, HOLDINGS, workbook
 
 
 @pytest.fixture
@@ -67,9 +33,35 @@ class TestLoad:
         assert g["Holder B2"] == "strategic"
         assert unrecognized_classes(reg) == ["Space Agency"]
 
+    def test_spelling_variants_are_recognized(self, tmp_path):
+        rows = [("CCCC", "Holder C1", "PermanentEstablishment", None, "F", 30_000_000, 3.0),
+                ("CCCC", "Holder C2", "Diocese", None, "L", 20_000_000, 2.0)]
+        reg = load_register(workbook(tmp_path / "x.xlsx", rows))
+        assert unrecognized_classes(reg) == [] and set(reg["group"]) == {"strategic"}
+
+    def test_february_layout_with_ksei_codes(self, tmp_path):
+        rows = [("DDDD", "Holder D1", "CP", None, "L         ", 600_000_000, 60.0),
+                ("DDDD", "Holder D2", "MF", None, "A         ", 30_000_000, 3.0),
+                ("DDDD", "Holder D3", "SC", None, "A", 20_000_000, 2.0),
+                ("DDDD", "Holder D4", "ID", None, "L", 10_000_000, 1.0)]
+        header = [("INVESTOR_TYPE" if h == "INVESTOR_CLASSIFICATION" else h)
+                  for h in HEADER if h != "CONTROLLER_OR_AFFILIATE"]
+        reg = load_register(workbook(tmp_path / "feb.xlsx", rows, header=header))
+        assert dict(zip(reg["holder"], reg["group"])) == {
+            "Holder D1": "strategic", "Holder D2": "portfolio", "Holder D3": "nominee", "Holder D4": "strategic"}
+        assert list(reg["local_foreign"]) == ["L", "F", "F", "L"]  # A (asing) means foreign
+        d = aggregate(reg).loc["DDDD"]
+        assert d["float_idx_like"] == pytest.approx(0.40) and d["float_adjusted"] == pytest.approx(0.39)
+        assert d["float_strict"] == pytest.approx(0.37) and d["foreign_1pct"] == pytest.approx(0.05)
+
     def test_missing_column(self, tmp_path):
         header = [h for h in HEADER if h != "PERCENTAGE"] + ["PCT"]
         with pytest.raises(SchemaError, match="SHARE_CODE and PERCENTAGE"):
+            load_register(workbook(tmp_path / "x.xlsx", header=header))
+
+    def test_no_class_column(self, tmp_path):
+        header = [h for h in HEADER if h != "INVESTOR_CLASSIFICATION"]
+        with pytest.raises(SchemaError, match="INVESTOR_CLASSIFICATION or INVESTOR_TYPE"):
             load_register(workbook(tmp_path / "x.xlsx", header=header))
 
     def test_mixed_dates(self, tmp_path):
@@ -89,10 +81,11 @@ class TestAggregate:
         a = aggregate(reg).loc["AAAA"]
         assert a["held_1pct"] == pytest.approx(0.78)
         assert a["controller"] == pytest.approx(0.65)  # controller and affiliate
-        assert a["float_idx_like"] == pytest.approx(1 - 0.65 - 0.07)  # minus the nominee's 7% stake
-        assert a["float_adjusted"] == pytest.approx(1 - 0.65 - 0.02 - 0.01)  # minus the individual and the scrip holder
-        assert a["float_strict"] == pytest.approx(1 - 0.65 - 0.02 - 0.01 - 0.07)
+        assert a["float_idx_like"] == pytest.approx(1 - 0.65 - 0.07)  # the nominee's 7% is over the 5% line
+        assert a["float_adjusted"] == pytest.approx(0.28 - 0.02 - 0.01)  # minus the 1-5% individual and scrip holder
+        assert a["float_strict"] == pytest.approx(0.25)  # no nominee between 1% and 5%
         assert a["nominee"] == pytest.approx(0.07) and a["foreign_1pct"] == pytest.approx(0.07)
+        assert a["unknown_1pct"] == pytest.approx(0.01)
         assert a["top_holder"] == pytest.approx(0.60) and a["n_holders"] == 6
         assert a["hhi"] == pytest.approx(0.36 + 0.0025 + 0.0009 + 0.0049 + 0.0004 + 0.0001)
         assert a["listed_shares_est"] == 1_000_000_000
@@ -102,8 +95,14 @@ class TestAggregate:
         out = aggregate(reg)
         assert out.loc["TRUE", "float_idx_like"] == pytest.approx(0.20)
         b = out.loc["BBBB"]
-        assert b["controller"] == 0 and b["float_idx_like"] == pytest.approx(0.95)  # the 5% fund counts under IDX's rule
-        assert b["float_adjusted"] == pytest.approx(0.98)  # but not under ours: funds are float
+        assert b["controller"] == 0 and b["float_idx_like"] == pytest.approx(0.95)  # a 5% fund is over the line
+        assert b["float_adjusted"] == pytest.approx(0.93)  # the 2% holder of an unknown class counts as strategic
+
+    def test_ignoring_flags_matches_the_older_registers(self, reg):
+        a = aggregate(reg, use_flags=False).loc["AAAA"]
+        assert a["controller"] == 0 and not a["controller_flags"]
+        assert a["float_idx_like"] == pytest.approx(1 - 0.60 - 0.05 - 0.07)  # every 5%+ holder, flagged or not
+        assert a["float_adjusted"] == pytest.approx(0.28 - 0.02 - 0.01)
 
     def test_no_holder_name_in_the_output(self, reg):
         text = aggregate(reg).to_csv()
