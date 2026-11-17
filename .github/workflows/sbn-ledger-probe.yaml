@@ -1,0 +1,54 @@
+name: sbn-ledger probe
+
+# Milestone 0 of the SBN Ledger plan. Makes three spaced requests to DJPPR's
+# public API from a GitHub-hosted runner and reports whether data came back
+# or DJPPR refused (challenge page, firewall rejection, rate limit, bare 403).
+# Commits nothing.
+#
+# schedule: 03:00 UTC = 10:00 WIB on 23, 25 and 27 November. Three different
+# days, so one lucky or unlucky run does not decide where the daily build
+# lives. Remove the schedule once that is decided: cron has no year field, so
+# it would fire again next November.
+# workflow_dispatch: run by hand from the Actions tab.
+#
+# Result: green = all three requests were answered with data, red = refused
+# or failed. The table on the run's Summary page has the details.
+
+on:
+  schedule:
+    - cron: "0 3 23,25,27 11 *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sbn-ledger-probe
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            tools/sbn_ledger/requirements.txt
+            tools/sbn_ledger/requirements-dev.txt
+
+      - name: Install deps
+        run: pip install -r tools/sbn_ledger/requirements.txt -r tools/sbn_ledger/requirements-dev.txt
+
+      # A broken client should fail here, offline, before it asks DJPPR anything.
+      - name: Test
+        run: python -m pytest tools/sbn_ledger/tests -q
+
+      - name: Probe DJPPR (three requests)
+        run: python -m tools.sbn_ledger.probe
